@@ -1,0 +1,17 @@
+queryhunter/__init__.py,sha256=gDa7OCGeecvmtYGcQCq1I0kOHt3q20LFHjIIGaaC8ik,95
+queryhunter/context_manager.py,sha256=z0DvEZBmLKC7jMoxLpRJAkqo-fXh5XwUtodZPMrMP1w,1246
+queryhunter/middleware.py,sha256=tcfdeBZtzF_OzhCzTxP-p1m642GyeNq09NkEmHBjb2M,246
+queryhunter/queryhunter.py,sha256=uQ4eNZ7crlrEuAMxpbaWJanhzvyIhHTssvT87Yl4il8,4208
+queryhunter/reporting.py,sha256=wuIjobjZmLhza-jn2Fi3EuyMcTq3T68crhJ7uPsxzuo,2423
+queryhunter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+queryhunter/tests/migrations/0001_initial.py,sha256=NsqMxBs7LQ2pNojCMms1nO3xjrwnDemIySlw10foLYs,885
+queryhunter/tests/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+queryhunter/tests/models.py,sha256=1JW2yB9zeuLt6WZHuF0Vbz2tNp8oCw3HL1-hdxgPhVk,215
+queryhunter/tests/my_module.py,sha256=J5kjLxJyXUfoTTgRYzYz6pYgVj34BE971tj4aRNhAVU,382
+queryhunter/tests/tests.py,sha256=QEWDnkpMrpig5TrXZGvKyd-ZppiFFiJwpMZ_xzze2vg,3234
+queryhunter/tests/urls.py,sha256=XlHelKkNii_zqhueeCk-yf8dZ-SrWcG0elc-DdLYiUI,132
+queryhunter/tests/views.py,sha256=Y0eD67ZQ79zxtFskpMELZvH4hodh6O-9XlE_216xzxs,205
+django_queryhunter-0.1.0.dist-info/LICENSE,sha256=B8fsnCy9w92w9lLrmA-89anVH0390wTyrytsfmMfKEs,1500
+django_queryhunter-0.1.0.dist-info/METADATA,sha256=nkW5ZylkxNw8uzB5tu0nheG7b538ncIjb8k6z8j76w4,1122
+django_queryhunter-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_queryhunter-0.1.0.dist-info/RECORD,,
