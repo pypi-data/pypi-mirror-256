@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: st-user-state
+Version: 0.2.1
+Summary: Persistent sessions for Streamlit.
+Author: Boye Sjo
+Author-email: boyegs@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: streamlit (>=1.31.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Streamlit user states
+Persistent user states across websocket connections.
