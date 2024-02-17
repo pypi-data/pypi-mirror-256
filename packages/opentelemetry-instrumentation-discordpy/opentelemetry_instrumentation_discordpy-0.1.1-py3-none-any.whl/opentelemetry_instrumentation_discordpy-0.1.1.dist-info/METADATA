@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: opentelemetry-instrumentation-discordpy
+Version: 0.1.1
+Summary: OpenTelemetry instrumentation for discord.py bots
+Home-page: https://github.com/yourgithub/opentelemetry-instrumentation-discordpy
+Author: Cookie
+Author-email: cookie@idegrity.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Monitoring
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opentelemetry-api >=1.0.0
+Requires-Dist: opentelemetry-sdk >=1.0.0
+Requires-Dist: opentelemetry-instrumentation >=0.13b0
+Requires-Dist: discord.py >=1.7.3
+Provides-Extra: dev
+Requires-Dist: pytest >=6.0 ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# OpenTelemetry Instrumentation for Discord.py
+
+This library provides OpenTelemetry instrumentation for bots built with `discord.py`, making it easy to collect traces, metrics, and logs to analyze the performance and reliability of your Discord bots.
+
+## Features
+
+- Automatic instrumentation for common `discord.py` events and activities.
+- Decorators for manual instrumentation of bot commands and event handlers.
+- Easy integration with OpenTelemetry's ecosystem for observability and monitoring.
+
+## Installation
+
+Install this package with pip:
+
+```
+pip install opentelemetry-instrumentation-discordpy
+```
+
+## Usage
+
+### Automatic Instrumentation
+
+To automatically instrument your Discord bot, simply initialize the instrumentation at the start of your bot's code:
+
+```
+from opentelemetry_instrumentation_discordpy import DiscordPyInstrumentor
+DiscordPyInstrumentor().instrument()
+```
+
+### Manual Instrumentation
+
+For more fine-grained control, use the provided decorators to instrument specific commands or event handlers:
+
+```
+from opentelemetry_instrumentation_discordpy import trace
+
+@trace()
+async def on_message(message):
+    if message.author == bot.user:
+        return
+
+    tracer = trace.get_tracer(__name__)
+    with tracer.start_as_current_span("on_message_event"):
+        print(f"Message from {message.author}: {message.content}") # replace with logic you'd like the bot to trace
+        # Ensure the bot can still process commands
+        await bot.process_commands(message)
+
+@bot.command(name='echo', help='Replies with the same message it receives.')
+@trace()
+async def echo(ctx, *, message: str):
+    tracer = trace.get_tracer(__name__)
+    with tracer.start_as_current_span("echo_command"):
+        await ctx.send(message)
+```
+
+## Configuration
+
+Refer to the [documentation](./docs/usage.md) for detailed configuration options and advanced usage.
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](./docs/contributing.md) for how to get started.
+
+## License
+
+This library is licensed under the [MIT License](LICENSE).
+
+## Support
+
+If you encounter any issues or have questions, please file an issue on GitHub.
