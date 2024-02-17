@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: minder
+Version: 0.0.1
+Summary: Exception guard capture utility library
+Author-email: Louis Maddox <louismmx@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/lmmx/minder
+Project-URL: Repository, https://github.com/lmmx/minder.git
+Classifier: Development Status :: 6 - Mature
+Classifier: Framework :: Pydantic :: 2
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: <=3.12,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# minder
+
+[![PyPI](https://img.shields.io/pypi/v/minder?logo=python&logoColor=%23cccccc)](https://pypi.org/project/minder)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lmmx/minder/master.svg)](https://results.pre-commit.ci/latest/github/lmmx/minder/master)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/minder.svg)](https://pypi.org/project/minder)
+
+<!-- [![build status](https://github.com/lmmx/minder/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/minder/actions/workflows/master.yml) -->
+
+Exception guard capture utility library.
+
+## Installation
+
+```sh
+pip install minder
+```
