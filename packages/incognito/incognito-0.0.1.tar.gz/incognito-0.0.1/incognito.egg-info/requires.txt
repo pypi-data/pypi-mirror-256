@@ -1,0 +1,10 @@
+transformers
+torch
+
+[dev]
+pytest
+black
+ruff
+
+[test]
+pytest
