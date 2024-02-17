@@ -1,0 +1,9 @@
+setup.py
+bc-en-de-coder/__init__.py
+bc-en-de-coder/extract.py
+bc-en-de-coder/replacing.py
+bc_en_de_coder.egg-info/PKG-INFO
+bc_en_de_coder.egg-info/SOURCES.txt
+bc_en_de_coder.egg-info/dependency_links.txt
+bc_en_de_coder.egg-info/requires.txt
+bc_en_de_coder.egg-info/top_level.txt
