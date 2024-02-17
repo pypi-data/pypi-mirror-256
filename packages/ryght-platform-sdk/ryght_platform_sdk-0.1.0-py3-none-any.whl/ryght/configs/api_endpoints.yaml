@@ -1,0 +1,8 @@
+api_endpoints:
+    base_url: https://registry-api-dev.syntheticabio.net
+    models: /v1/models
+    models_by_operations: /v1/models/operation
+    completions: /v1/completions
+    upload_document: /v1/documents/upload
+    document_collections: /v1/document-collections
+    search_document_collection: /v1/document-collections/search
