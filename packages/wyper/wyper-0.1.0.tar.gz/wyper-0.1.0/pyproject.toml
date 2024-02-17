@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wyper"
+version = "0.1.0"
+description = "A First Class GUI Library inspired by flutter"
+authors = ["Amaan <71920621+amaank404@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "wyper"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2"
+pillow = "^10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
