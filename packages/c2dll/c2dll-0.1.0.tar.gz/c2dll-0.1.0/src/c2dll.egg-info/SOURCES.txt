@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/c2dll/__init__.py
+src/c2dll/main.py
+src/c2dll.egg-info/PKG-INFO
+src/c2dll.egg-info/SOURCES.txt
+src/c2dll.egg-info/dependency_links.txt
+src/c2dll.egg-info/top_level.txt
