@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: sheesh
+Version: 0.0.1
+Summary: a collection of tools to perform daily tasksin the command line
+License: MIT
+Keywords: sheesh
+Author: James
+Author-email: jsingizi7@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bcrypt (>=4.1.2,<5.0.0)
+Requires-Dist: mnemonic (>=0.21,<0.22)
+Requires-Dist: pycryptodome (>=3.20.0,<4.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: ulid-py (>=1.1.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Swoosh
+
+A collection of useful IT tools in the commandline
+
+### Utilities
+
+#### Done
+- bcrypt
+- bip39
+- decrypt
+- encrypt
+- hash
+- HMAC
+- password
+- slugify
+- token
+- ulid
+- uuid
+- rsa (RSA key pair generator)
+- Password strength analyser
+
+
+#### TODO
+- PDF Signature checker
+---
+- base64 converter file
+- base64 converter text
+- basic auth generator
+- case converter
+- chmod calculator
+---
+The plan is to add as many tools as possible
+
+
+## Development
+activate poetry env with
+```shell
+poetry shell
+```
+
+Install dependencies with poetry
+```shell
+poetry install
+```
+
+### Testing
+Running tests
+```shell
+poe test
+```
+
+Linting
+```shell
+poe lint
+```
+
