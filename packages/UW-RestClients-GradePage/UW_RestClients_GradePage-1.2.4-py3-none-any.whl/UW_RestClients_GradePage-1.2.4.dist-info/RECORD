@@ -1,0 +1,17 @@
+uw_gradepage/VERSION,sha256=VjoLTuw8d7vDSsYw1PpSFPXGcmrgFGhAT9cERzEQCE4,6
+uw_gradepage/__init__.py,sha256=VQreYZ1YXuZpgsbBdOQUAeyVJp4r-V8yhsl0QyJTOE4,543
+uw_gradepage/dao.py,sha256=R474-av-cxfjeIfY8tZr4DRMbpPn2mfqtUYiqsI4JIQ,432
+uw_gradepage/grading_status.py,sha256=rzBGtDFAbuWxBosBbITEit8ChmMrF78OPEuXZXWqXUc,714
+uw_gradepage/models.py,sha256=i4n4zwEDFFeXDzeE95ksYBRtIo_ctFcybbYIU_cmSBk,2930
+uw_gradepage/test.py,sha256=B10zuzgZECZ9EA4k39mlGFwntA0L2NGyy8P0mk8YifU,468
+uw_gradepage/resources/gradepage/file/api/v1/grading_status/2013-spring-A%20A-123-AA-FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=ajdptKDDQRhhrPDEAwZ-9aZm9NfHE5u_SkSgiW2OBc0,551
+uw_gradepage/resources/gradepage/file/api/v1/grading_status/2013-spring-PHYS-123-AA-FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=idBOC9lCthJkdE7dwiNOjX87FhXBtUBCyBhbYrSkp-4,552
+uw_gradepage/resources/gradepage/file/api/v1/grading_status/2013-spring-TRAIN-100-A-FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=OUXYTB2RslJdE-k-2l4lJEmOz0JjOdC0HSLKNrRofW0,392
+uw_gradepage/resources/gradepage/file/api/v1/grading_status/2013-spring-TRAIN-200-A-FBB38FE46A7C11D5A4AE0004AC494FFE,sha256=hwvtCUOYa2MpHOkedcPv37R6r3MO0neYYM3dxmpBvg8,559
+uw_gradepage/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uw_gradepage/tests/test_grading_status.py,sha256=kcb6TUM4LtTvihfuDB27EpoGkwGfwpj4hxfkSHpNYwo,3140
+UW_RestClients_GradePage-1.2.4.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+UW_RestClients_GradePage-1.2.4.dist-info/METADATA,sha256=g-ikkBNzfwtnw2iJo9r6gTkujkaO-qkLg0wSvao0ngg,646
+UW_RestClients_GradePage-1.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+UW_RestClients_GradePage-1.2.4.dist-info/top_level.txt,sha256=doItEhhTkZaYi80XMyo3ki2wk62l5X3tnkZJ2tJxD8c,13
+UW_RestClients_GradePage-1.2.4.dist-info/RECORD,,
