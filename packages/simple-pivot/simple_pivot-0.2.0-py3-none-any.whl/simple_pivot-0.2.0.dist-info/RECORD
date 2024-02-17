@@ -1,0 +1,11 @@
+simple_pivot/__init__.py,sha256=Vte1xY1DurbXyopLprcFtCcxG9Jgwz2gaOsl9g_AL40,37
+simple_pivot/bins.py,sha256=SxhztU66VN44KrpiGfFYIKcqoeIE7pOH3NRtMm9YE2c,2729
+simple_pivot/config.py,sha256=ucDYeUIg_C0O8rZ0pQQNwBx82u6SyGsKJ2_2SWRP8Bs,2559
+simple_pivot/exceptions.py,sha256=5h3wK18xX1FHJNg99Yt6PT1_Aw7OgqLBH1guODmQkyA,810
+simple_pivot/log.py,sha256=GPIEBkOs0xBDgQ5ceg-HJc9p63r_oVxOex0uxDmahg4,197
+simple_pivot/pivot.py,sha256=30AIGD0WpX9nHu8k3J-I0BotrEL843ea48sUFXYRaoY,6930
+simple_pivot/source.py,sha256=_f0E7cDL6VrnY2TDWpCwQWpGle48VEIPrXBwI3YjNsc,244
+simple_pivot/utils.py,sha256=lAVnvNPxyZIPvxEhquROYB2ftg338E_Vpb5C1Ld8EEw,896
+simple_pivot-0.2.0.dist-info/METADATA,sha256=vtoKGAPh2gihO-xot6fl9RX3Z1hWrGW5RbKZkN1-66Y,820
+simple_pivot-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+simple_pivot-0.2.0.dist-info/RECORD,,
