@@ -1,0 +1,10 @@
+pyyaml
+jsonschema
+
+[dev]
+ruamel.yaml
+yamale
+pytest
+coverage
+black
+isort

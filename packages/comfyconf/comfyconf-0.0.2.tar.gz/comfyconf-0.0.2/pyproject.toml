@@ -1,0 +1,46 @@
+[build-system]
+requires = ['setuptools>=69']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "comfyconf"
+version = "0.0.2"
+requires-python = ">=3.10"
+dependencies = [ 
+    "pyyaml",
+    "jsonschema",
+]
+description = "YAML config parser"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/edager/comfyconf"
+Issues = "https://github.com/edager/comfyconf/issues"
+
+[project.optional-dependencies]
+dev = [
+    'ruamel.yaml',
+    'yamale',
+    'pytest',
+    'coverage',
+    'black',
+    'isort',
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
+
