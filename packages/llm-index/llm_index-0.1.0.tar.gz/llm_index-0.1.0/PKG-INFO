@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: llm-index
+Version: 0.1.0
+Summary: rag for llm
+Author: elamribadrayour
+Author-email: badrayour.elamri@protonmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: azure-storage-blob (==12.19.0)
+Requires-Dist: db-dtypes (==1.2.0)
+Requires-Dist: fastparquet (==2024.2.0)
+Requires-Dist: google-cloud-bigquery (==3.17.2)
+Requires-Dist: google-cloud-storage (==2.14.0)
+Requires-Dist: pandas (==2.2.0)
+Description-Content-Type: text/markdown
+
+# LLM-Index
+
+## Overview
+
+![overview](resources/overview.png)
