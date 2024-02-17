@@ -1,0 +1,5 @@
+tipping-0.1.0.dist-info/METADATA,sha256=9mBTZiTOv1HZ4o4TCYPmCBdJKQzOD9WCgYqUqbjMfq8,387
+tipping-0.1.0.dist-info/WHEEL,sha256=_-cBy6CWAJpj69sI6xc7Zp64N2hYxIafuCg9mIsvnOM,131
+tipping/__init__.py,sha256=IZ7cKnaXQEMfHg-GmgtDPKTCUugna0W65hRVLTBOFeo,2899
+tipping/_lib_tipping.cpython-310-powerpc64le-linux-gnu.so,sha256=Uj4MKKLt_QuEoEE3hf7Y3rpOg3M-TVBdUO8AAAvRqHc,8031536
+tipping-0.1.0.dist-info/RECORD,,
