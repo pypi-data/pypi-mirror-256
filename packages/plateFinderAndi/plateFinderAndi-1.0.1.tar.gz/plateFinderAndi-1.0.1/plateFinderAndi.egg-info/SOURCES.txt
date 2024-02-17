@@ -1,0 +1,9 @@
+setup.py
+plateFinder/__init__.py
+plateFinder/plate.py
+plateFinder/utils.py
+plateFinderAndi.egg-info/PKG-INFO
+plateFinderAndi.egg-info/SOURCES.txt
+plateFinderAndi.egg-info/dependency_links.txt
+plateFinderAndi.egg-info/requires.txt
+plateFinderAndi.egg-info/top_level.txt
