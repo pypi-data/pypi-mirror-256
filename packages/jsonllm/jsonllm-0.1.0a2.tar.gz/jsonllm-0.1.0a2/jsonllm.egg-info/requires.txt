@@ -1,0 +1,12 @@
+click
+setuptools
+pip
+llm
+
+[test]
+pytest
+pytest-cov
+black
+ruff
+click
+faker
