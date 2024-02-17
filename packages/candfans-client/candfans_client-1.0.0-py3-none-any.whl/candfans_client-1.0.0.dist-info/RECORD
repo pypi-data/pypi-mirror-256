@@ -1,0 +1,11 @@
+LICENSE,sha256=l7NP3ylnf5MXd7SyPWn7dGrXU6j4JaqPOaVzLOZomyc,1066
+candfans_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candfans_client/client.py,sha256=XyOq_KaWIgU8EjN_ZmYAIA_EWeNydLnDRFuob4IoSsY,14015
+candfans_client/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+candfans_client/models/sales.py,sha256=Id6hxH0qRWII9lheWuPT8ebZ3sDy_StgIqVBW1gpcjQ,5142
+candfans_client/models/timeline.py,sha256=YdCYNd_FGx1EewSpVJSr2p1uruvaXbe-XFGxIQuKfaI,1614
+candfans_client/models/user.py,sha256=uA5-rgSWwTpO4DihFbcjtmniu5xDSKF6WawEuYVpn2Q,3616
+candfans_client-1.0.0.dist-info/LICENSE,sha256=l7NP3ylnf5MXd7SyPWn7dGrXU6j4JaqPOaVzLOZomyc,1066
+candfans_client-1.0.0.dist-info/METADATA,sha256=gDqhYOxz952FfRCh8xvorPEqHOi10cdAS8rPcn3EdiU,2403
+candfans_client-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+candfans_client-1.0.0.dist-info/RECORD,,
