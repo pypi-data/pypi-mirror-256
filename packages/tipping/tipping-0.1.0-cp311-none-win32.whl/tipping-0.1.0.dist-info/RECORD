@@ -1,0 +1,5 @@
+tipping-0.1.0.dist-info/METADATA,sha256=9mBTZiTOv1HZ4o4TCYPmCBdJKQzOD9WCgYqUqbjMfq8,387
+tipping-0.1.0.dist-info/WHEEL,sha256=AdEMp8VnH4sMTae6TXI2SCHbIbXmNrJpmlUiP0yE2S0,91
+tipping/__init__.py,sha256=KPxEiH9VmUHWyAwurwpdV8NHWiF8BPkhbRPmZv5Im9c,2966
+tipping/_lib_tipping.cp311-win32.pyd,sha256=hvqtJkGZLNM0rmqk-t_qb6PjmxRz12709DS98V_P0nQ,2146816
+tipping-0.1.0.dist-info/RECORD,,
