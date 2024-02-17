@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+cs.lex.egg-info/PKG-INFO
+cs.lex.egg-info/SOURCES.txt
+cs.lex.egg-info/dependency_links.txt
+cs.lex.egg-info/requires.txt
+cs.lex.egg-info/top_level.txt
+lib/python/cs/lex.py
