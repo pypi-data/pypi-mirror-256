@@ -1,0 +1,15 @@
+quasiqueue/__init__.py,sha256=-93F03PWs8J1zUIPOq5NEuuP-IQ2rAdw4v44VYhaGD8,246
+quasiqueue/_version.py,sha256=j90u3VVU4UrJf1fgMUhaZarHK_Do2XGYXr-vZvOFzVo,411
+quasiqueue/builder.py,sha256=vb7accZb3bhr6QrvKPpZBdGfe957S_RBexQjn8q8wUo,2767
+quasiqueue/cli.py,sha256=8kWgTF-lcCJIckvag5L8jJVoRDrINuliFj3p7AY-Aak,1499
+quasiqueue/reader.py,sha256=a-ZcXRFRrDqdMvkTGxc_-6McQ-Q-zK8ahczSOQIM5So,1927
+quasiqueue/runner.py,sha256=K5kXwvNDvPKNGgf0QBZbmU2oErSreZfSWEwrwEIlcE0,4851
+quasiqueue/settings.py,sha256=3wBBdXtYyRzyxQkB84YRmUhne-NcXA2e-D7FBrQ_c5Y,1896
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_quasiqueue.py,sha256=s1RY7PVCFg8eFbCTHNFOGBWgqoid1NUTH6h--3vBnb0,82
+quasiqueue-0.4.0.dist-info/LICENSE,sha256=legyAvkw0TvroSF2AaID04VazRuqYlO1IHpFr_OsyGA,1071
+quasiqueue-0.4.0.dist-info/METADATA,sha256=havrs17s31_W-LrWIQhpJ50J32NYlepZ84xsFfnY230,11946
+quasiqueue-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quasiqueue-0.4.0.dist-info/entry_points.txt,sha256=tPoBrLwTN57J1WEguRZ7ynxiTJlJO5UsGvAep5nKQZw,50
+quasiqueue-0.4.0.dist-info/top_level.txt,sha256=u2Y6QgNT8q4hZkI86sWnGMySt1LKP8HMSKffRA-ZgJQ,17
+quasiqueue-0.4.0.dist-info/RECORD,,
