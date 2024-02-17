@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "smartmca"
+version = "0.0.4"
+authors = [
+  { name="Andrea Abba", email="abba@nuclearinstruments.eu" },
+]
+description = "Smart MCA for DT5771 Python Library"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["MCA", "firmware", "fpga", "Nuclear Instruments", "CAEN"]
+dependencies = [
+]
+[project.urls]
+"Homepage" = "https://github.com/NuclearInstruments/libSmartMCA"
+"Bug Tracker" = "https://github.com/NuclearInstruments/libSmartMCA/issues"
