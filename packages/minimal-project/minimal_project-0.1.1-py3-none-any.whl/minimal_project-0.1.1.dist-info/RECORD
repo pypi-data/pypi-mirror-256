@@ -1,0 +1,6 @@
+minimal_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minimal_package/minimal_module.py,sha256=cFhHWMM5n0Q8w9Hylfi8CzlnfsN2YvelcnTVICyThmQ,47
+minimal_project-0.1.1.dist-info/METADATA,sha256=-R5vdRV4gRZ4biZKRVTrZpbCLCYO1NXX67b1cmcKlOU,548
+minimal_project-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+minimal_project-0.1.1.dist-info/top_level.txt,sha256=3ieUfqJaG2OxVJO6ojRPA_T_dHqkhtOJME3Ny5shQm4,16
+minimal_project-0.1.1.dist-info/RECORD,,
