@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+PyFraction/__init__.py
+PyFraction/fraction.py
+PyFraction.egg-info/PKG-INFO
+PyFraction.egg-info/SOURCES.txt
+PyFraction.egg-info/dependency_links.txt
+PyFraction.egg-info/not-zip-safe
+PyFraction.egg-info/top_level.txt
