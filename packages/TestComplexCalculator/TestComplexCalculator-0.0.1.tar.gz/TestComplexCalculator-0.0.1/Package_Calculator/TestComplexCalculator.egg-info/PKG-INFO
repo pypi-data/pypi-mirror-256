@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TestComplexCalculator
+Version: 0.0.1
+Summary: Test sur des calculs de nombres complexes
+Author: Julie Ludwig
+License: GNU GPLv3
+Requires-Python: >=3.4
