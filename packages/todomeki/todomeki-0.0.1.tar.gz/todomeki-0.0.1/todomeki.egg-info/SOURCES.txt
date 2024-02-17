@@ -1,0 +1,8 @@
+README.md
+setup.py
+todomeki/__init__.py
+todomeki.egg-info/PKG-INFO
+todomeki.egg-info/SOURCES.txt
+todomeki.egg-info/dependency_links.txt
+todomeki.egg-info/requires.txt
+todomeki.egg-info/top_level.txt
