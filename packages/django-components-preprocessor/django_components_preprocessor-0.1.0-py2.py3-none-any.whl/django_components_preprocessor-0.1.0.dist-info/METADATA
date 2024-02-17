@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: django-components-preprocessor
+Version: 0.1.0
+Summary: A preprocessor for Django templates that replaces custom HTML tags with component tags.
+Author-email: Fabian Binz <fabian.binz@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: django-components ~= 0.35
+Project-URL: Home, https://github.com/fbinz/django-components-preprocessor
