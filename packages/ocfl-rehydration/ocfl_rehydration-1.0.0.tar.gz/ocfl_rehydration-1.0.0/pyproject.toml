@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocfl_rehydration"
+version = "1.0.0"
+description = "Utility for reconstituting OCFL objects"
+readme = "README.md"
+authors = [{ name = "Andrew Woods", email = "awoods01@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "lxml >= 4.9.3",
+    "project-paths >= 1.1.1",
+    "pytest >= 7.4.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/harvard-lts/ocfl_rehydration"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src"
+]
+
+[tool.project-paths]
+dir_unit_out = "tests/unit/out/"
+dir_unit_resources = "tests/resources/"
+dir_int_out = "tests/integration/out/"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ocfl_rehydration*"]
