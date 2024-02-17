@@ -1,0 +1,11 @@
+opencv-python
+mediapipe
+numpy
+pyserial
+scipy
+pyautogui
+pygame
+flask
+dlib
+gtts
+pyaudio
