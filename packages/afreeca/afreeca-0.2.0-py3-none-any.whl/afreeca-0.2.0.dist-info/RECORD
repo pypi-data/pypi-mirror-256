@@ -1,0 +1,15 @@
+afreeca/__init__.py,sha256=ca5_-Zn8ggVm1A9VXyq0eZk90Qmnju5ZlnxRTeVCkdM,397
+afreeca/constants.py,sha256=dgq8uJv446XbF-Z-oGDYAqaPXmGKh3XxmlOnAe6ioNY,7610
+afreeca/core.py,sha256=dIEp8lHg-ilHj-EcirjJYkYE-6cEPhrosaktRmKOMGI,6618
+afreeca/credential.py,sha256=wM4uZMEKVM6-qm7N0kDrjBqg3Ri6F-0wsuiklegmx5M,1363
+afreeca/exceptions.py,sha256=VEYXvcVGaecEENxGlsGTfn2b9MmSyB7q2AbM2SeSp94,454
+afreeca/interfaces.py,sha256=8EZFwDrF8t16Q47OvsXAkDyc4dDSozHFhkguzCfGBy4,2151
+afreeca/packet.py,sha256=DxiEGFrOYorMJxztn1ZY_D4erK4eukkdi_lRX91igcI,581
+afreeca/utils.py,sha256=K0RiWitzwhByVnARyf8z3A9_JvrACoBUNioYTVATL4U,1597
+afreeca/types/bj_info.py,sha256=_MQKPiDHYJ6nEymIapDeOtLvKdUNBo2g6N04s3lan2s,284
+afreeca/types/packet.py,sha256=PEzxKFGL-ksJW61ENzcr5gBo6t4Q_r801dHIPLemo6s,522
+afreeca-0.2.0.dist-info/LICENSE,sha256=vJiywqwxWUWZVlDTfU1RPX3sgoznlrwKC7vRP5KDezw,1086
+afreeca-0.2.0.dist-info/METADATA,sha256=3k4O1vDCpPL3hxjzw9Su2NtEe3fUuz7xiyOarcW4Xh4,1009
+afreeca-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+afreeca-0.2.0.dist-info/top_level.txt,sha256=v1yA4pte89y4-It5uxpWo9HFOs5GKX3NFa_N2KLd8aE,8
+afreeca-0.2.0.dist-info/RECORD,,
