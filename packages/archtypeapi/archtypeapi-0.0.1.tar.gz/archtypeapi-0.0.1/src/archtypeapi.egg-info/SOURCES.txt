@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/archtypeapi/__init__.py
+src/archtypeapi.egg-info/PKG-INFO
+src/archtypeapi.egg-info/SOURCES.txt
+src/archtypeapi.egg-info/dependency_links.txt
+src/archtypeapi.egg-info/top_level.txt
