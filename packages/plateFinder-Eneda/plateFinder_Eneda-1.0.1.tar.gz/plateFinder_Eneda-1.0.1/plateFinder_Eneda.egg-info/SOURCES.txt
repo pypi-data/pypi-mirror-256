@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+plateFinder_Eneda/__init__.py
+plateFinder_Eneda/plates.py
+plateFinder_Eneda/utlis.py
+plateFinder_Eneda.egg-info/PKG-INFO
+plateFinder_Eneda.egg-info/SOURCES.txt
+plateFinder_Eneda.egg-info/dependency_links.txt
+plateFinder_Eneda.egg-info/requires.txt
+plateFinder_Eneda.egg-info/top_level.txt
