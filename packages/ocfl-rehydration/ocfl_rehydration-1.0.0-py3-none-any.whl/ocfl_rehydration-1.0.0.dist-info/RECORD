@@ -1,0 +1,11 @@
+ocfl_rehydration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocfl_rehydration/drs_descriptor.py,sha256=MmLV3dBBOcEhv5yrGc3L4qkN2FPbzrg507nq2H_19FQ,3982
+ocfl_rehydration/drs_file.py,sha256=z4-EfdtQfd4hESOR6Jmmg062qcWTiVBvdZoHiQBLiHY,1722
+ocfl_rehydration/main.py,sha256=0-GYfAehvO6jS8JY2JyfSV6NvzfhBHuRM-GbwnR_76o,1033
+ocfl_rehydration/ocfl_inventory.py,sha256=SDflSxE0d8HD7YKQIpeFIFo5LS11y9aEqR12U6YgZDQ,3100
+ocfl_rehydration/rehydrator.py,sha256=nar2v4rTVUE-Y-B2qlEim_2ncS6oRCnwMc9J5xgFVa4,2955
+ocfl_rehydration-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ocfl_rehydration-1.0.0.dist-info/METADATA,sha256=tj2s55mA8FXp7CmfJoDr0bd0u1Ma4M8Xl94pRnNm7y4,15549
+ocfl_rehydration-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ocfl_rehydration-1.0.0.dist-info/top_level.txt,sha256=HF215dKGXR_XD_c-Unt9n8T50paQL0nGZyOWNQc7q_Y,17
+ocfl_rehydration-1.0.0.dist-info/RECORD,,
