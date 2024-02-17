@@ -1,0 +1,10 @@
+pargeo/__init__.py,sha256=naXSrYhFdqBtlw-t90TECQyjjL10dcNzeewQCx1pWL0,76
+pargeo/constraint.py,sha256=myVegIPIzb4sU205FYygRgQOHPX3ij62qMFRFZkyxiU,9926
+pargeo/geometry.py,sha256=61VYWOxC5lbqfJFJnCEVf79kgs855tC9C9Nh-Ibr_ic,10115
+pargeo/gmsh_utils.py,sha256=OuWNXSkFujtrvDlvjKdMqEG0I4WJfHEdQW5DbvIGD4g,12108
+pargeo/topology.py,sha256=RwVHdEcMcEC_CQ3qBBwS4n8U0sYSWbrVno8D8pLdGLM,17974
+pargeo/transform.py,sha256=oPOL0LjWo-Nfy97UjHPswTy5ZzlKHW-5ULpMKRE1Th8,12669
+pargeo-0.1.0.dist-info/LICENSE,sha256=9K1JqSr8esi_idjoPdf_147HBpY-oV9AJx3zZpykNtA,1064
+pargeo-0.1.0.dist-info/METADATA,sha256=pEy1_Fkqe3ImHur2DPNcVKKMT79haBumvZzIK7T9IuE,1420
+pargeo-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pargeo-0.1.0.dist-info/RECORD,,
