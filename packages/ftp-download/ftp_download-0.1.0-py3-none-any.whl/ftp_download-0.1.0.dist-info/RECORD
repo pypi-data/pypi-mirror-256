@@ -1,0 +1,9 @@
+ftp_download/__init__.py,sha256=77LGadv6LSPcoGhRfZwN2I4dw8xw_3EtsQpv6lRWw_I,2997
+ftp_download/ensure.py,sha256=QGrijCmtSFnv2sjF5zEMftSzOsu6QuDthCNMNZc4Xn0,2505
+ftp_download/prefs.py,sha256=Z6RWTHPgHMj4YM93z7BfE5hdX0tKthMCBWd0lorLdIU,1714
+ftp_download/timings.py,sha256=NfAFb_RWKOPZDNkY8k0FKuc-Qnhe9JpsUx4EW7ETmBQ,1651
+ftp_download-0.1.0.dist-info/LICENSE,sha256=L7LQaDmtzH3oxcv1soAX9WXK6Z58pRFqPBO8pBoEsmI,1076
+ftp_download-0.1.0.dist-info/METADATA,sha256=_aKWKetHpm_LsJkctSZBtfXXKMoQJN4hwJxPdy3MYB4,5057
+ftp_download-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ftp_download-0.1.0.dist-info/top_level.txt,sha256=rFrtHk-OUR7Df1b_dJ8RTX_zT8LZuP0P9cGhcYercMY,13
+ftp_download-0.1.0.dist-info/RECORD,,
