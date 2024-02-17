@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+cs.cmdutils.egg-info/PKG-INFO
+cs.cmdutils.egg-info/SOURCES.txt
+cs.cmdutils.egg-info/dependency_links.txt
+cs.cmdutils.egg-info/requires.txt
+cs.cmdutils.egg-info/top_level.txt
+lib/python/cs/cmdutils.py
