@@ -1,0 +1,38 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "mpeg-convert"
+version = "0.0.3"
+requires-python = ">=3.9"
+description = "A python tool based on ffmpeg that makes converting between different formats/codecs a whole lot easier for the inexperienced "
+authors = [{ name = "Zichen", email = "zichenziv@icloud.com" }]
+readme = "pypireadme.md"
+license = { file = "pypilicense.txt" }
+keywords = ["ffmpeg", "convert", "media", "mp4", "mp3"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python",
+    "Topic :: Multimedia",
+    "Topic :: Utilities",
+    "Environment :: Console"
+]
+
+dependencies = [
+    "rich>=13.7.0",
+    "python-ffmpeg>=2.0.10"
+]
+
+[project.urls]
+Homepage = "https://github.com/SomedudeX/mpeg-convert"
+Issues = "https://github.com/SomedudeX/mpeg-convert/issues"
+
+
+[project.scripts]
+mpeg-convert = "mpeg_convert.__main__:main"
