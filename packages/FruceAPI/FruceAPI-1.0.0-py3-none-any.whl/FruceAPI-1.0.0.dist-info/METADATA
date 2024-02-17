@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: FruceAPI
+Version: 1.0.0
+Summary: FruceAPI is a simple tool for managing your server on FruitSpace hosting
+Author: kotvpalto
+Author-email: kotvpaltoof@ya.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: urllib
+Requires-Dist: aiohttp
+Requires-Dist: zlib
+Requires-Dist: base64
+
