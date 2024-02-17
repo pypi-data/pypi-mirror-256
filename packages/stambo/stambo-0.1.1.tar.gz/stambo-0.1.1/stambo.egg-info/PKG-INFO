@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: stambo
+Version: 0.1.1
+Summary: A library for statistical model comparison using bootstrap.
+Home-page: https://github.com/oulu-imeds/stambo
+Author: Aleksei Tiulpin
+Author-email: aleksei@gmail.com
+License: MIT license
+Keywords: statistical testing,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+
+A python package for statistical comparison of machine learning models with minimal dependencies. 
+                Suports metrics for binary and multiclass classification, and also for regression. 
+                You can also implement your own metrics easily using scikit-learn like API.
+
