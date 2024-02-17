@@ -1,0 +1,11 @@
+verbs-0.2.0.dist-info/METADATA,sha256=onAsrHXV-NWJ_7trOTiFUPEya43114fdXpUAaw6O4eo,3044
+verbs-0.2.0.dist-info/WHEEL,sha256=UV9zG4LLu5aozZ4CLlFrx0g296T6XFIH7lrdHjOZdds,106
+verbs-0.2.0.dist-info/license_files/LICENSE,sha256=tkOoJTVXxIOeBv_i8krvxds-3b2FSj745zmknfS_-Pg,1066
+verbs/batch_runner.py,sha256=KClwWMXrZ37IV-H3anQX_VHVhUyyXOjrcBElDcFKijM,3946
+verbs/sim.py,sha256=dxPKpuXaFt2KG7ouBa3EWf_srd9Foixrq2y3JI0NpJc,8155
+verbs/__init__.py,sha256=1xJWkoaV9qGYre7sRaO6mjEonoI-GlKR0sf0fmEmhb8,61
+verbs/types.py,sha256=FVpJf0mRcKfzVaRAHVjoPi_lyGXoSqa4Nw8eBubc7EM,349
+verbs/utils.py,sha256=ONBSYEu-NxzVOqR-hRBS3K81kXMAg_hTtWjBXc4cccc,4892
+verbs/abi.py,sha256=yn3ZUOdd2fJ3cEA8sGqK7QtUs3map22JO4AZPwM9NLU,13144
+verbs/envs.cpython-311-darwin.so,sha256=NXFFU_M9l0enk1ea94_QeIJhydQo7P5FDHaOMJn_fR8,9724536
+verbs-0.2.0.dist-info/RECORD,,
