@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aori-sdk-py
+Version: 0.1
+Summary: aori.io python sdk
+Home-page: https://github.com/aori-io/aori-sdk-py
+Author: Joshua Baker
+Author-email: joshua@aori.io
+Keywords: aori
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: websocket-client
