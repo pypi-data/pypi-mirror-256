@@ -1,0 +1,3 @@
+[console_scripts]
+t-mnist=tests.test_ml:main
+

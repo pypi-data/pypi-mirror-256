@@ -1,0 +1,13 @@
+casus/__init__.py,sha256=RQABkSOtHoDKssT2DrGjtVWY-dumfGSgh364H2xKp6U,318
+casus/encoders.py,sha256=Ig8KQKk9zfwGJOfE_gmemKOSg_Y3pkMqLBO2kQkJiTQ,2374
+casus/hypervectors/__init__.py,sha256=baCMTbTkBSwlsh21Ly6FJonzxl38Bau6az709xxcv6Y,107
+casus/hypervectors/base.py,sha256=WobFrIF-91MdWW8DC4-TMvKBmiJq2b3sjDhJ_Ol-uh8,1397
+casus/hypervectors/fourier.py,sha256=NrUoTFF_riEII9PmW0LSE69gzjTxG5BAz9owJBwv7bo,7785
+casus/hypervectors/map.py,sha256=8ZPl2IYyJzMixkXb5O8Qlwnv0K3cgb33PZ97hk8sqBE,4124
+casus/ml.py,sha256=Bnij4DlypR-qhfLS-HWCffJpzGXXTMdhKNukjyKo46g,3626
+casus/ops.py,sha256=llzqwiI0F2Lfgj4P5QV1rgKkQnzW1qLDrHWhYBQLhas,1425
+casus-0.0.1.dist-info/LICENSE,sha256=Zp4vA2FgY1Kp9FHvRCBUHJmqYYe3Mau3Y1fgrTlsgQw,1082
+casus-0.0.1.dist-info/METADATA,sha256=qb0Ljpih9ZhBh6nZ2b7cmLW9GrMXzXftFk8EUbImsqc,580
+casus-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+casus-0.0.1.dist-info/entry_points.txt,sha256=Yo5ICnBRYZ6Yr-EZ9AazFdKm8MZPx7JAulZYKvXBlUk,46
+casus-0.0.1.dist-info/RECORD,,

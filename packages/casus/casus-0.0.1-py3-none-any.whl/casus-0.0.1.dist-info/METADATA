@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: casus
+Version: 0.0.1
+Summary: 
+Author: Rishikanth Chandrasekaran
+Author-email: r3chandr@ucsd.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: einops (>=0.7.0,<0.8.0)
+Requires-Dist: equinox
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: loguru
+Requires-Dist: numpy
+Requires-Dist: quax (>=0.0.3,<0.0.4)
+Description-Content-Type: text/markdown
+
+
