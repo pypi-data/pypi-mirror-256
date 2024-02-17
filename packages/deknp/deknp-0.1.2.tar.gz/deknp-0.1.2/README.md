@@ -1,0 +1,1 @@
+Merge shared dependencies and update package.json
