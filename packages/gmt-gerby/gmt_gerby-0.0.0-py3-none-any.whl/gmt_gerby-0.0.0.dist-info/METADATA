@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gmt-gerby
+Version: 0.0.0
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: PyPDF2
+Requires-Dist: Markdown
+Requires-Dist: python-markdown-math
+Requires-Dist: validators
+Requires-Dist: peewee
+Requires-Dist: flask-profiler
+Requires-Dist: feedparser
+Requires-Dist: networkx
+
