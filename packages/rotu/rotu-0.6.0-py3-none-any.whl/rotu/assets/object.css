@@ -1,0 +1,9 @@
+cite {
+background-origin: content-box;
+background-repeat: no-repeat;
+background-size: contain;
+color: var(--ballad-ink-gravity, purple);
+font-size: 0.7rem;
+text-align: left;
+}
+
