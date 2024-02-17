@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ctransformer_core
+Version: 0.0.1
+Summary: gguf connector core built on ctransformers
+Author: calcuis
+Author-email: calculatics@gmail.com
+License: MIT
+Keywords: ctransformer_core gguf connector transformers ai llm
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: huggingface-hub
+Requires-Dist: py-cpuinfo<10.0.0,>=9.0.0
+Provides-Extra: cuda
+Requires-Dist: nvidia-cuda-runtime-cu12; extra == "cuda"
+Requires-Dist: nvidia-cublas-cu12; extra == "cuda"
+Provides-Extra: gptq
+Requires-Dist: exllama==0.1.0; extra == "gptq"
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+
+### ctransformer core
+
+Follow up the stopping updated project ctransformers; continue working on it.
