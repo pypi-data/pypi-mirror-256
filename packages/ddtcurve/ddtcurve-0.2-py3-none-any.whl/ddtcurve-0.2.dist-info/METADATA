@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: ddtcurve
+Version: 0.2
+Summary: A package used to calculate the strength of the ddtank game.
+Author-email: zx <jugking6688@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ~=1.21.4
+Requires-Dist: scipy ~=1.10.1
+Requires-Dist: onnxruntime ~=1.17.0
+
+# ddtcurve
+
+一个用于计算弹弹堂游戏力度的软件包。
+
+A package used to calculate the strength of the ddtank game.
+
+- Contact the author: jugking6688@gmail.com
+- 欢迎提供高质量的原始数据
+---
+
+## 快速开始
+### 1.传统方式计算力度
+本方法是在 https://www.52pojie.cn/thread-1132459-1-1.html 基础上的改良。
+```python
+import ddtcurve as ddtc
+
+result = ddtc.predict(65, 0, 10, 0)
+print(result)
+
+result = ddtc.predict(65, 1, 10, 0)
+print(result)
+
+result = ddtc.predict(65, 0, 10, 1)
+print(result)
+```
+Output:
+```
+56.984355730170684
+54.693446341504185
+58.14777549325182
+```
+### 2.深度学习推理力度
+方法详见 https://www.52pojie.cn/thread-1889310-1-1.html
+```python
+import ddtcurve as ddtc
+
+result = ddtc.inference(65, 0, 10, 0)
+print(result)
+
+result = ddtc.inference(65, 1, 10, 0)
+print(result)
+
+result = ddtc.inference(65, 0, 10, 1)
+print(result)
+```
+Output:
+```
+57.528175
+53.786335
+59.91937
+```
+
+`Remarks:`
+
+`There are many authors who have contributed to this package. :)`
+
+
+
+
+
+
+
