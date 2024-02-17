@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+rosepyt.egg-info/PKG-INFO
+rosepyt.egg-info/SOURCES.txt
+rosepyt.egg-info/dependency_links.txt
+rosepyt.egg-info/requires.txt
+rosepyt.egg-info/top_level.txt
