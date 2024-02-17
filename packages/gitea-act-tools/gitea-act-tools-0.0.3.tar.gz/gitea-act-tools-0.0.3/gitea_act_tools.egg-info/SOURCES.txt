@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+gitea_act_tools/__init__.py
+gitea_act_tools.egg-info/PKG-INFO
+gitea_act_tools.egg-info/SOURCES.txt
+gitea_act_tools.egg-info/dependency_links.txt
+gitea_act_tools.egg-info/requires.txt
+gitea_act_tools.egg-info/top_level.txt
