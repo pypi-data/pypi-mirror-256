@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: xplainable-client
+Version: 1.2.1
+Summary: The client for persisting and deploying models to Xplainable cloud.
+Author-email: xplainable pty ltd <contact@xplainable.io>
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: gui==0.0.1
+Requires-Dist: ipywidgets==8.0.6
+Requires-Dist: numpy==1.21.1
+Requires-Dist: pandas<=1.9.0,>=1.5.2
+Requires-Dist: pyperclip==1.8.2
+Requires-Dist: Requests==2.31.0
+Requires-Dist: scikit_learn==1.2.2
+Requires-Dist: setuptools==67.7.2
+Requires-Dist: urllib3==2.2.0
+Requires-Dist: xplainable==1.2.1
+
+# xplainable-client
+The client for saving models and creating deployments within Xplainable cloud.
