@@ -1,0 +1,15 @@
+COPYING
+README.md
+pyproject.toml
+gpdconfig/__init__.py
+gpdconfig/__main__.py
+gpdconfig/app.py
+gpdconfig.egg-info/PKG-INFO
+gpdconfig.egg-info/SOURCES.txt
+gpdconfig.egg-info/dependency_links.txt
+gpdconfig.egg-info/entry_points.txt
+gpdconfig.egg-info/requires.txt
+gpdconfig.egg-info/top_level.txt
+gpdconfig/wincontrols/__init__.py
+gpdconfig/wincontrols/config.py
+gpdconfig/wincontrols/hardware.py
