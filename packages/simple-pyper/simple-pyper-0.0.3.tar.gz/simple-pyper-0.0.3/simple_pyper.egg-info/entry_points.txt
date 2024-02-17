@@ -1,0 +1,2 @@
+[console_scripts]
+pyper = main:run_cmd
