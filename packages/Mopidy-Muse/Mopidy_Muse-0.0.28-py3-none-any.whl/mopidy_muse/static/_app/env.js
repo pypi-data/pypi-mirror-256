@@ -1,0 +1,1 @@
+export const env={"PUBLIC_MOPIDY_HOST":"localhost","PUBLIC_MOPIDY_PORT":"6680","PUBLIC_VERSION":"0.0.28"}
