@@ -1,0 +1,15 @@
+gsystemctl/__init__.py,sha256=vDtu4XeARL5cnpb9JLIWoPBDR3Y_P9QD5i4nV6hIj2A,640
+gsystemctl/systemctl.py,sha256=sUPWCwSrSweVy2yYNbAv4e2jrFTNH-f94ZnasrrVpxw,5753
+gsystemctl/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gsystemctl/ui/gtk3/__init__.py,sha256=ACj11_SUAOzlptt3anLP0wJYevN1B9NcqmS3TqArQd8,228
+gsystemctl/ui/gtk3/application.py,sha256=6s72oSlVR4psKt4kbQMjcCglf9qMMVZY_O9LbwHYZiY,554
+gsystemctl/ui/gtk3/mainwindow.py,sha256=fL3pXROXeCNQYobfqSrPoHoOSE84jTUElUpv1PxOW5s,13876
+gsystemctl/ui/gtk3/glade/mainwindow.ui,sha256=oRDFDhko4HFO7Dsmq3TS-vAN4XUPiPVj9ZmWjmJkXjI,4438
+gsystemctl/ui/image/gsystemctl.png,sha256=FR5RU4tSfh7lSWgI2yXKNN3GOsXJUJbthpi42MLMDCc,22172
+gsystemctl-0.1.0.dist-info/AUTHORS,sha256=CXR9shOPP2OBVVwxGJtLSh0hCqvLB1DMpX6_bVyn02E,63
+gsystemctl-0.1.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gsystemctl-0.1.0.dist-info/METADATA,sha256=PCx9HBkUBPAFIsNC3Sqfky7a4MZR8pMPdKwETNJmPuQ,730
+gsystemctl-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gsystemctl-0.1.0.dist-info/entry_points.txt,sha256=UVIeWp63VbZ_rP33In_3-RKl0w9-A3Xrzo7L5zNZWvA,66
+gsystemctl-0.1.0.dist-info/top_level.txt,sha256=p-artuCjnMum5fpCpETT9ot9vGcHS_QEFNvuSIQtsQM,11
+gsystemctl-0.1.0.dist-info/RECORD,,
