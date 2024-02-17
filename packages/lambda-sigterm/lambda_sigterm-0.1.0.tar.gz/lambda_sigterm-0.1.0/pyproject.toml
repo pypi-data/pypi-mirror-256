@@ -1,0 +1,26 @@
+[project]
+name = "lambda_sigterm"
+version = "0.1.0"
+description = "Creates a noop Lambda Extension which allows Lambda to receive SIGTERM events"
+authors = [
+  { name = "Loren Howard", email = "loren@plutonium.io" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+dependencies = [
+  "urllib3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lorenmh/lambda-sigterm"
+"Bug Tracker" = "https://github.com/lorenmh/lambda-sigterm/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1,0 +1,1 @@
+# Lambda SIGTERM - Gracefully shutting down lambdas
