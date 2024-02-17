@@ -1,0 +1,9 @@
+numpy
+matplotlib
+sklearn
+networkx
+pyvis
+statsmodels
+tensorflow
+tqdm
+scipy
