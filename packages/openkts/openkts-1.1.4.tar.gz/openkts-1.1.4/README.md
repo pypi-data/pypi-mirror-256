@@ -1,0 +1,36 @@
+## OPENKTS
+An m of n key sharing solution.
+
+### Features:
+* Customizable split/join functionality
+* Password protection on individual shares (uses Fernet)
+
+### Usage:
+*Depending on your dependencies/setup you might have to change <ins>__python__</ins> to <ins>__python3__</ins> below.*<br/>
+<br/>Install Cryptography on the active environment</b>
+<br/><code>python -m pip install cryptography</code>
+<br/><br/>Install openkts to a targeted location</b>
+<br/><code>pip install openkts --target="C:\tmp\openkts"</code>
+<br/><br/>Go to the targeted directory before running openkts</b>
+<br/><code>cd "C:\tmp\openkts"</code>
+<br/><br/>Confirm that openkts is found</b>
+<br/><code>python openkts -h</code>
+
+<br/><ins><b>Split :</b></ins>&nbsp;&nbsp;<code>python openkts split -f "file_path" -m 3 -n 5 -e</code>
+
+Property | Type | Description |
+:---:|:---:|:---|
+**-f** | <span style="color:#69cdff">STRING</span> | Filepath to file to be split into shares. |
+**-m** | <span style="color:#69cdff">INT</span> | Minimum number of shares needed to reconstruct the file. |
+**-n** | <span style="color:#69cdff">INT</span> | Total number of shares to split the file into. |
+**-e** | NONE | <span style="color:#f57e42">[OPTIONAL]</span> Password encrypt shares when provided. |
+
+<br/><ins><b>Join :</b></ins> &nbsp; &nbsp;<code>python openkts join -s "share_1" -s "share_2" -s "share_3" -o "out_file" -d</code>
+
+Property | Type | Description |
+:---:|:---:|:---|
+**-s** | <span style="color:#69cdff">STRING</span> | <span style="color:#59db39">[REPEATABLE]</span> Filepath to one of the shares. |
+**-o** | <span style="color:#69cdff">INT</span> | <span style="color:#f57e42">[OPTIONAL]</span> Output file path. |
+**-d** | <span style="color:#69cdff">INT</span> | <span style="color:#f57e42">[OPTIONAL]</span> Password decrypt shares when provided. |
+
+<br/>
