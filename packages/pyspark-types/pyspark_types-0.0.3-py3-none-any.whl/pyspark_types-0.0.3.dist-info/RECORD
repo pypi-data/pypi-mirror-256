@@ -1,0 +1,7 @@
+pyspark_types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyspark_types/auxiliary.py,sha256=g0k1THG68rCpcYpxVGInsgRJ0VSkJKoRI2Zq7WeF8p0,1278
+pyspark_types/dataclass.py,sha256=Zj8QbYLunloW3qfF9PWGABLaVYEWROqnFdPafswKj_4,5876
+pyspark_types/pydantic.py,sha256=tFiQ0LAFsxPZJE0BP8A_oSDy50R649w8rgf8jHvmGMQ,7569
+pyspark_types-0.0.3.dist-info/METADATA,sha256=gHSmXcexxFuXjXleFxJHuKBXOKyZJ0aBIXnmqytH-J0,3917
+pyspark_types-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyspark_types-0.0.3.dist-info/RECORD,,
