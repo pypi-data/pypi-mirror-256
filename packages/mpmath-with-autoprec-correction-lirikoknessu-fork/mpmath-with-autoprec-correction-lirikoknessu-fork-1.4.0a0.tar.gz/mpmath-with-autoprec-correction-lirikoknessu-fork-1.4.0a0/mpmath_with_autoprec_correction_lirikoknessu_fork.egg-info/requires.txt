@@ -1,0 +1,29 @@
+
+[ci]
+pytest-xdist
+
+[develop]
+mpmath[tests]
+pytest-cov
+wheel
+build
+
+[develop:python_version >= "3.9"]
+flake518>=1.5
+
+[docs]
+sphinx
+
+[gmpy]
+
+[gmpy:platform_python_implementation != "PyPy" and python_version < "3.12"]
+gmpy2>=2.1.0a4
+
+[gmpy:platform_python_implementation != "PyPy" and python_version >= "3.12"]
+gmpy2>=2.2.0a1
+
+[tests]
+pytest>=6
+
+[tests:python_version < "3.12"]
+numpy<=1.25.2
