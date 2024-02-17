@@ -1,0 +1,3 @@
+[console_scripts]
+deng=vzucher_de_toolkit.main:cli
+
