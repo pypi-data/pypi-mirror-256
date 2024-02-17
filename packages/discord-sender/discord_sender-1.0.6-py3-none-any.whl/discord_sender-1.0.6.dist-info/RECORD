@@ -1,0 +1,7 @@
+discord_sender/__init__.py,sha256=sEaHd3q3pD70qIrL-LyXTC8b1JpPu0voC-0VhqHgYY0,1854
+discord_sender/__main__.py,sha256=dFwEhOohAWaNzJyC3PAP0IPCxe7LivrgVSY58p0Q3rY,577
+discord_sender/discord.py,sha256=peS3-UBYb7lXtP0jUCjQ2dv5-iNfdv4hAFaepizNzgM,5339
+discord_sender-1.0.6.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+discord_sender-1.0.6.dist-info/METADATA,sha256=-O6G7rycy8q4gcTOs0EOD6xY5Xzp6CnPpZ5XIpifgI0,2307
+discord_sender-1.0.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+discord_sender-1.0.6.dist-info/RECORD,,
