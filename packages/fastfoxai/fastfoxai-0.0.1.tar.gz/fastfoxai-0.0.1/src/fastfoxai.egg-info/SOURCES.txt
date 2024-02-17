@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/fastfoxai/__init__.py
+src/fastfoxai/example.py
+src/fastfoxai.egg-info/PKG-INFO
+src/fastfoxai.egg-info/SOURCES.txt
+src/fastfoxai.egg-info/dependency_links.txt
+src/fastfoxai.egg-info/top_level.txt
