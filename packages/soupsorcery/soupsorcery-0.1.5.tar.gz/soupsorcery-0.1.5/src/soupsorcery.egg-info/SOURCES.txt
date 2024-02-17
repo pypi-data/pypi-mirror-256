@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+config/requirements_dev.txt
+src/soupsavvy/__init__.py
+src/soupsavvy/tags/__init__.py
+src/soupsavvy/tags/base.py
+src/soupsavvy/tags/components.py
+src/soupsavvy/tags/exceptions.py
+src/soupsavvy/tags/namespace.py
+src/soupsorcery.egg-info/PKG-INFO
+src/soupsorcery.egg-info/SOURCES.txt
+src/soupsorcery.egg-info/dependency_links.txt
+src/soupsorcery.egg-info/requires.txt
+src/soupsorcery.egg-info/top_level.txt
