@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03a81dde-e522-4c47-af8f-55e5770c5976" name="Changes" comment="Cleaned up some artifacts left from refactoring">
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/oma.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/oma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/rapppid.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/rapppid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/uniprot.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/uniprot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GdSbiJ7LdwOWuIqhhhSfDokFTt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/whale/projects/phd/triplets/intrepppid&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a81dde-e522-4c47-af8f-55e5770c5976" name="Changes" comment="" />
+      <created>1666717043522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666717043522</updated>
+      <workItem from="1666717046519" duration="26306000" />
+      <workItem from="1666899519135" duration="4358000" />
+      <workItem from="1666913551882" duration="8449000" />
+      <workItem from="1674763534669" duration="8381000" />
+      <workItem from="1674834855744" duration="43229000" />
+      <workItem from="1675131089622" duration="25412000" />
+      <workItem from="1675997371218" duration="8000" />
+      <workItem from="1676653055816" duration="1372000" />
+      <workItem from="1676952622221" duration="4590000" />
+      <workItem from="1677031973410" duration="3954000" />
+      <workItem from="1677551690835" duration="63000" />
+      <workItem from="1680278136365" duration="6506000" />
+      <workItem from="1680307620999" duration="13624000" />
+      <workItem from="1680532969288" duration="547000" />
+      <workItem from="1682098300358" duration="3530000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cleaned up some artifacts left from refactoring">
+      <created>1666717175708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666717175708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned up some artifacts left from refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up some artifacts left from refactoring" />
+  </component>
+</project>
