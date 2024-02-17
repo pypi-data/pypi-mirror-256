@@ -1,0 +1,4 @@
+urllib
+aiohttp
+zlib
+base64
