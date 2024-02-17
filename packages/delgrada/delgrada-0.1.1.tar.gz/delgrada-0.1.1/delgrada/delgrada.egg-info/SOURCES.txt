@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+delgrada/__init__.py
+delgrada/dtype.py
+delgrada/scalar.py
+delgrada/tensops.py
+delgrada/tensor.py
+delgrada/delgrada.egg-info/PKG-INFO
+delgrada/delgrada.egg-info/SOURCES.txt
+delgrada/delgrada.egg-info/dependency_links.txt
+delgrada/delgrada.egg-info/requires.txt
+delgrada/delgrada.egg-info/top_level.txt
