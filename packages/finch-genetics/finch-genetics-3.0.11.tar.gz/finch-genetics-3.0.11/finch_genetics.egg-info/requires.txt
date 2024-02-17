@@ -1,0 +1,8 @@
+pillow
+numpy
+diffusers
+transformers
+accelerate
+matplotlib
+torch
+typing-extensions

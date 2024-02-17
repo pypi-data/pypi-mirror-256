@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: finch-genetics
+Version: 3.0.11
+Summary: The next evolution of evolutionary algorithms.
+Home-page: https://github.com/dadukhankevin/Finch
+Author: Daniel Losey
+License: MIT
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: diffusers
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: matplotlib
+Requires-Dist: torch
+Requires-Dist: typing-extensions
