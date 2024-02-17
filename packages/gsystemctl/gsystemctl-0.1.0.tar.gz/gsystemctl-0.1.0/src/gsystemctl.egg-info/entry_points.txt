@@ -1,0 +1,2 @@
+[gui_scripts]
+gsystemctl-gtk = gsystemctl.ui.gtk3.application:run
