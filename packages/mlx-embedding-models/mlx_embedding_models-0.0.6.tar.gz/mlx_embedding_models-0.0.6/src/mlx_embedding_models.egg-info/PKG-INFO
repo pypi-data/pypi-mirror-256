@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mlx_embedding_models
+Version: 0.0.6
+Summary: Python utility for text embeddings in MLX.
+Author-email: Benjamin Anderson <ben@trytaylor.ai>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: mlx
+Requires-Dist: awkward
+Requires-Dist: numpy
+Requires-Dist: tqdm
