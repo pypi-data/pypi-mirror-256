@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "spellcheckmate"
+version = "0.1.2"
+description = "A Cython reimplementation of Peter Norvig's spelling corrector."
+authors = ["Csaba Szallós Kis"]
+license = "MIT"
+readme = "README.md"
+include = ["spellcheckmate/big.txt"]
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "8.1.7"
+cython = "3.0.8"
+mypy-extensions = "1.0.0"
+numpy = "1.26.4"
+packaging = "23.2"
+pathspec = "0.12.1"
+platformdirs = "4.2.0"
+tomli = "2.0.1"
+typing-extensions = "4.9.0"
+
+[build-system]
+requires = ["poetry", "cython", "setuptools"]
+build-backend = "poetry.masonry.api"
