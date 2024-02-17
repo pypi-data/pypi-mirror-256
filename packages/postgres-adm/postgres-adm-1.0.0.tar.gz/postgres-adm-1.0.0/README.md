@@ -1,0 +1,35 @@
+# PostgreADM
+PostgreSQL has the function of facilitating the use of methods for executing SQL statements.
+
+# How to import?
+from postgreAdm import *
+
+# How to create the instance?
+bank = PostgreSQL(dbname="my_db", user="my_user", password="my_password", host="localhost", port="5432")
+
+# How to connect?
+bank.connect()
+
+# How to disconnect?
+bank.disconnect()
+
+# How to check the bank version?
+bank.version()
+
+# How to execute instructions?
+bank.execute("instructions")
+
+# How to save changes?
+bank.commit()
+
+# How to create delete a table?
+bank.deleteTable(table='my_table')
+
+# How to get all values within the database?
+bank.get(table='my_table')
+
+# How to get a single value?
+bank.getSingleData(value='my_value',table='my_table',column='my_column')
+
+# How to obtain complete data?
+bank.getFullData(table='my_table',unique='my_unique')
