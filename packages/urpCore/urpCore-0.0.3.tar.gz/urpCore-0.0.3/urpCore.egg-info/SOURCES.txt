@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Universal Rashing's Python Core/Application.py
+Universal Rashing's Python Core/__init__.py
+urpCore.egg-info/PKG-INFO
+urpCore.egg-info/SOURCES.txt
+urpCore.egg-info/dependency_links.txt
+urpCore.egg-info/requires.txt
+urpCore.egg-info/top_level.txt

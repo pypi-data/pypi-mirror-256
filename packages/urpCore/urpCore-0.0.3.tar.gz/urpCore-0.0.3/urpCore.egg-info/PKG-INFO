@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: urpCore
+Version: 0.0.3
+Summary: Here is nothing. Just nothing
+Home-page: https://github.com/Universal-Rashing-s-Python-Core/urpc
+Author: Rashing_pro
+Author-email: urpc.official@gmail.com
+Project-URL: GitHub, https://github.com/Universal-Rashing-s-Python-Core/urpc
+Keywords: urpc python core
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.25.1
+
+You can find it on GitHub
