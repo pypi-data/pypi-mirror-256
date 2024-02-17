@@ -1,0 +1,1 @@
+localstack_cfn_resource_providers
