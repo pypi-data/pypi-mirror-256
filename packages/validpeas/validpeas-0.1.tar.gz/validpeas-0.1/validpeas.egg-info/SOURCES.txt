@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+validpeas/__init__.py
+validpeas.egg-info/PKG-INFO
+validpeas.egg-info/SOURCES.txt
+validpeas.egg-info/dependency_links.txt
+validpeas.egg-info/requires.txt
+validpeas.egg-info/top_level.txt
