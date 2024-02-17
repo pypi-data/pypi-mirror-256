@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/PyQt6_mediator_mixin.egg-info/PKG-INFO
+src/PyQt6_mediator_mixin.egg-info/SOURCES.txt
+src/PyQt6_mediator_mixin.egg-info/dependency_links.txt
+src/PyQt6_mediator_mixin.egg-info/requires.txt
+src/PyQt6_mediator_mixin.egg-info/top_level.txt
