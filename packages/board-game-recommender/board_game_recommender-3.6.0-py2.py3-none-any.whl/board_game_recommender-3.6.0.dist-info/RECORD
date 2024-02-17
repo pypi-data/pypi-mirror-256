@@ -1,0 +1,17 @@
+board_game_recommender/__init__.py,sha256=3fQ2O_bOu6bowzwxRULPWhzHBQGVcVaycBDXBVWfEmQ,380
+board_game_recommender/__main__.py,sha256=rs4nhRJ1IvAhLgB9T67CNM1LSZ2L3hVlwwuiRQXaLrw,4934
+board_game_recommender/__version__.py,sha256=J6aP6H-mPUXFm2FWwIu5eQ0pmdjkriT0NKpWx91aNLc,78
+board_game_recommender/base.py,sha256=Zb89IGZNHTEZAqDBJDaXy0v49iicuzVarpgLg84etFc,3554
+board_game_recommender/baseline.py,sha256=LHwHlZERjrODFR8UJSp2rcdhRgFJZb3qJ9wz4ad6FKs,9356
+board_game_recommender/evaluation.py,sha256=iMSPkhIu9c5YafgZZx--Fz3WyvEZJnVYDBu0qKr8BQ4,4994
+board_game_recommender/hyperparameter.py,sha256=Pbap4CN25-yeJjeGdGNPAVU5H3XnA3d7DoN-TGIOz5o,9584
+board_game_recommender/light.py,sha256=TKNGZ2e4_b83pgd-6zuWYdyk4F3NRbsBfVLP-zN2KAU,12362
+board_game_recommender/rankings.py,sha256=le8d57JwkWbwd_nP6Sbize_P8Z16c5bC3Du8UJV3-c4,4766
+board_game_recommender/recommend.py,sha256=6Pdk7rN0Ns5-c0Rz4YtY0jbnlJFJf46AWfivz-ZqSJQ,35531
+board_game_recommender/trust.py,sha256=jgSqN2F9hJM8NkiPBJm7zB-7p4i9Cdk7WSj08M1V3K8,2099
+board_game_recommender/utils.py,sha256=N1rc7zNdnmZDTPKnDehQCd5NmJibQxpLT_T_4RFYr3U,3767
+board_game_recommender-3.6.0.dist-info/LICENSE,sha256=WcYkIFKvE2InORAE70AfXkBoQqXLLRsXETBDkNkwxNc,1072
+board_game_recommender-3.6.0.dist-info/METADATA,sha256=nfSnyPLTz-rJIXYZWQkgHqzzanO8nuHBxHyA4ltoDaU,4296
+board_game_recommender-3.6.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+board_game_recommender-3.6.0.dist-info/top_level.txt,sha256=jKIazzF16Ebf6__Rw9SdytOFlfhyKQ0drGyjTT-GX8k,23
+board_game_recommender-3.6.0.dist-info/RECORD,,
