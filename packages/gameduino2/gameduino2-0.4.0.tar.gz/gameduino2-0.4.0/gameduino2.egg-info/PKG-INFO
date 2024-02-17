@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gameduino2
+Version: 0.4.0
+Summary: Package of Gameduino 2/3/3X development tools
+Home-page: http://gameduino.com
+Author: James Bowman
+Author-email: jamesb@excamera.com
+License: GPL
+License-File: LICENSE
+Requires-Dist: pillow
+
+Gameduino 2, 3 and 3X (http://gameduino.com) are Arduino video games adapters.  This package contains tools for developers: data preparation, remote control.
