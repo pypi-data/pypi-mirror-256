@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mouselock
+Version: 0.2
+Summary: A Python package for easily and programmatically locking your mouse.
+
+Using this Python package, you can easily and programmatically lock your mouse to a point on your screen of your pick!
+
+To use this package, you can simply initiate the "Lock" class/object. When doing so, the class/object will automatically initiate a Pynput controller. The class/object will also run on its own thread, meaning you can lock and unlock the mouse in your code with just one method.
