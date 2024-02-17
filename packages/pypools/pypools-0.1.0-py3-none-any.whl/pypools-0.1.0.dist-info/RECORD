@@ -1,0 +1,16 @@
+pypools/__init__.py,sha256=lxbPv39GwInuafA4vKde4A6EDBKnggdwEMm4Z8LjxYE,516
+pypools/abstract.py,sha256=upvT2sYZic93iFg3pIcHApEFPjzqpyFXys9kqXoyZt8,1079
+pypools/memory.py,sha256=pqTT4A5ZWspy2k9EuFrDDMAU0sQUzzyiEjTXEKKRZR4,328
+pypools/options.py,sha256=LyBhPu3dxVyIf3r68vpafS5yiGPNBBD5JLZMcJv7pS4,4907
+pypools/redis.py,sha256=KkkIRR6DAUdo89raF4JUjiZQwoVffWSFZCAcP4NJ_Vk,815
+pypools/sqlite.py,sha256=OPVUpo_iaaq6mnG6LzMJQvHDpxTIBv70KQZbDWZjHeY,4648
+pypools/resources/__init__.py,sha256=suuQ73kzuWjq7TX7vCy2MS09TFIo7y9nh9_TdZgy9CM,1176
+pypools/resources/abstract.py,sha256=PTXgu_2eZnnCnaPJzodRnNDnsla7kUJPkc7-Rk4M4Rc,376
+pypools/resources/memory.py,sha256=-lJKoeOjCix3hRJhUXGrVb60KPc1RVAHBGxyICgCwZ4,77
+pypools/resources/redis.py,sha256=FaDi7W97q-sbVHzEBhBMuxlD5NVc6OdPr_2EEOvdYvo,180
+pypools/resources/sqlite.py,sha256=TeVIpIXwV9Rtvsp9z6blbe8JA4UJl_0skOUdIfgCymw,1915
+pypools-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pypools-0.1.0.dist-info/METADATA,sha256=muS7DLE-MPMOxkMV6lXnZAOr2r_BHqNI-E1vtAgCCY4,99
+pypools-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypools-0.1.0.dist-info/top_level.txt,sha256=w_Mz4FCE1jCUdRqZuy0tHPdDYJWrdiSW2yX04OcLBwg,8
+pypools-0.1.0.dist-info/RECORD,,
