@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: kishu
+Version: 0.2.0
+Summary: Intelligent Python Checkpointing
+Author-email: Yongjoo Park <yongjoo@g.illinois.edu>, Supawit Chockchowwat <supawit2@illinois.edu>, Zhaoheng Li <zl20@illinois.edu>
+License: License not determined
+Project-URL: repository, https://github.com/illinoisdata/kishu
+Keywords: kishu,elastic,dart,python,jupyter,notebook,server,lab,cli,web,gui,extension
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses
+Requires-Dist: dataclasses_json
+Requires-Dist: dill
+Requires-Dist: ipykernel
+Requires-Dist: ipylab
+Requires-Dist: jupyter_ui_poll
+Requires-Dist: nbconvert
+Requires-Dist: nbformat
+Requires-Dist: networkx
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: typing
+Requires-Dist: flask
+Requires-Dist: typer
+Requires-Dist: Flask-CORS
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: shortuuid
+Requires-Dist: xxhash
+Requires-Dist: loguru
+Provides-Extra: dev
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: matplotlib; extra == "dev"
+Requires-Dist: numpy; extra == "dev"
+Requires-Dist: scikit-learn; extra == "dev"
+Requires-Dist: seaborn; extra == "dev"
+Requires-Dist: textblob; extra == "dev"
+Requires-Dist: pandas; extra == "dev"
+Requires-Dist: pylatexenc; extra == "dev"
+Requires-Dist: qiskit; extra == "dev"
+Requires-Dist: qiskit-aer; extra == "dev"
+Requires-Dist: qiskit_machine_learning; extra == "dev"
+Requires-Dist: websocket-client; extra == "dev"
+Requires-Dist: requests; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+
+Intelligent checkpointing framework for Python-based machine learning and scientific computing. 
+Under development as part of a research project at the University of Illinois at Urbana-Champaign.
+
+
+# Installation
+
+Run the following command in a [virtual environment](https://docs.python.org/3/library/venv.html).
+```
+python setup.py install
+```
+
+
+# Jupyter Integration
+
+Run Jupyter after installing kishu. In your notebook, you can enable kishu with the following command.
+
+## Basic Usage
+
+```
+from kishu import init_kishu
+init_kishu()
+```
+Then, all the cell executions are recorded, and the result of each cell execution is checkpointed.
+
+
+## Working with Kishu
+
+`init_kishu()` adds a new variable `_kishu` (of type KishuJupyterExecHistory) to Jupyter's namespace.
+The special variable can be used for kishu-related operations, as follows.
+
+Browse the execution log.
+```
+_kishu.log()
+```
+
+See the database file.
+```
+_kishu.checkpoint_file()
+```
+
+
+Restore a state.
+```
+_kishu.checkout(commit_id)
+```
+
+## Checkpoint Backend
+
+Deploy a restful server.
+```
+flask --app kishu/backend run
+```
+
+# Deployment
+
+The following command will upload this project to pypi (https://pypi.org/project/kishu/).
+
+```
+bash upload2pypi.sh
+```
