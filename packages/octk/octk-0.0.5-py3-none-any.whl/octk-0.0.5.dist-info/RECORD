@@ -1,0 +1,10 @@
+octk/__init__.py,sha256=L60LYUWTHFbQtXtXGwrjBjp9NSdtkJSKitAJ2nDRFYk,1218
+octk/emailer.py,sha256=20qsj0ZXYaB0r5Ov3fgxlx1EN8CqDuY6a9CPh3l6doQ,2547
+octk/projectify.py,sha256=adkOgI2WZApzVPjq3Pf5N1-BaDYmpG2Oq4nhRsGzZ0c,2622
+octk/pytree.py,sha256=zRNmKioLWFJzCeAeokn4f3mSglZ3Dv8SOOl8YMAUaEM,8589
+octk/assets/Node.gitignore,sha256=kv0Ml3Tf_vlnjpH2BuUIaDdR37-Uvr5izvHJ3ZL87m4,2177
+octk/assets/Python.gitignore,sha256=k8e-DOj0fYnXYjlLOCHoN5GBgtkNXHAYEfEWr3_YZV0,3238
+octk-0.0.5.dist-info/METADATA,sha256=i0RooGmq5nlon-z1TTMZECRJIIGGIT4MmVgoFaxZbtE,251
+octk-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+octk-0.0.5.dist-info/top_level.txt,sha256=p8uH808wIofSobOrbuaWVgKJ7gVCksN4hqTc_YuR9As,5
+octk-0.0.5.dist-info/RECORD,,
