@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tubefox
+Version: 0.8.1
+Summary: A library for scraping metadata and downloading YouTube videos
+Author: @FoxPyDev Yaroslav Lysenko
+Author-email: foxpythondev@gmail.com
+License-File: LICENSE
