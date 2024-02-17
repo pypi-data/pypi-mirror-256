@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: testing-publish-ghga-gh-action
+Version: 0.1.0
+Description-Content-Type: text/markdown
+
+# Mock readme
+For testing github actions locally using act.

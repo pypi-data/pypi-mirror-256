@@ -1,0 +1,4 @@
+[project]
+name= "testing-publish-ghga-gh-action"
+version = "0.1.0"
+readme = "README.md"
