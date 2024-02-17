@@ -1,0 +1,8 @@
+setup.py
+plateFinderErbi/__init__.py
+plateFinderErbi/plates.py
+plateFinderErbi.egg-info/PKG-INFO
+plateFinderErbi.egg-info/SOURCES.txt
+plateFinderErbi.egg-info/dependency_links.txt
+plateFinderErbi.egg-info/requires.txt
+plateFinderErbi.egg-info/top_level.txt

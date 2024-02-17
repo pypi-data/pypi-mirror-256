@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plateFinderErbi
+Version: 1.0.0
+Summary: A package find the plate
+Author: Erbi Bitri
+Author-email: <mail@gmail.com>
+Keywords: plateFinderErbi,pythonsdaal,plate,sda,SDA
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: pyarrow
