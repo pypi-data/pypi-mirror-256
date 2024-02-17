@@ -1,0 +1,10 @@
+slcfg/__init__.py,sha256=s-ZcUvswv049v1IXfWgJCMOHfbArCb2We1ClV5mt5uo,890
+slcfg/config.py,sha256=Pe_y5eQSb31jmrnYzuuD8P0AXRdwYTzqIjmuWk1U2i8,440
+slcfg/environment.py,sha256=QnZ9haXzX8s58vnG_w2PFlJh-Ca5DGVcdBls2P9OFvE,1067
+slcfg/item.py,sha256=n0gqWqIJQIlLWDK1VUQA56DxvFvvf1lnkAOjS4tYWwI,1975
+slcfg/layer.py,sha256=lxkUQ0Ny_z7nFQXqFF1RaouosXicV8roTwXO3HLGK8s,2249
+slcfg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slcfg-0.2.dist-info/LICENSE,sha256=gFZjG3xE3FHs83EvIQWi0tahTR1Wz7j8m1oEZiXBUMk,1062
+slcfg-0.2.dist-info/METADATA,sha256=9Gz1LvW4Dwm5TIa3IW1B_N1OpWOW55TYljHw-yQr8LM,387
+slcfg-0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+slcfg-0.2.dist-info/RECORD,,
