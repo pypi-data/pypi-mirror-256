@@ -1,0 +1,12 @@
+reportmodifier/__init__.py,sha256=fA3Z4nHpX0IcfF-MT_6ES3fKkCbEy1c8nW-ZJR5_YC0,44
+reportmodifier/__version__.py,sha256=Pru0BlFBASFCFo7McHdohtKkUtgMPDwbGfyUZlE2_Vw,21
+reportmodifier/_file_tools.py,sha256=6Q-0_zJpKQNmy5OLSLa9T6oj2oXaYz165oUuyiCTQNk,1572
+reportmodifier/_report_configuration.py,sha256=adkjlpINs-HfizZS09IZJPewTDcnicWuUR9w7OkemCg,5790
+reportmodifier/ReportModifier.py,sha256=RKv1HLgPzOgEI-zAu6bocQWywgbqgJiJF8G2TY_4NwU,1713
+reportmodifier/ReportModifierVisitor.py,sha256=w_-Gw7ZB0D6pFtYgvkT2dex0CeqAoI1Yuvcu70n1Vz4,11010
+ReportModifierListener/__init__.py,sha256=c22PolWCmHgK0u62ozPIP4R2eBp5r5dd8GoGBMN9ssk,74
+ReportModifierListener/ReportModifierListener.py,sha256=NMVMmtP6yKhlXoT3zPq4-5nnDhYxAcItz5Aj9OrlBWw,815
+robotframework_reportmodifier-0.1.10.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+robotframework_reportmodifier-0.1.10.dist-info/METADATA,sha256=9xnpPq6RfEOmHa9vu5rjmJahTnfzWRuPV9xg8o5sJeY,5343
+robotframework_reportmodifier-0.1.10.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+robotframework_reportmodifier-0.1.10.dist-info/RECORD,,
