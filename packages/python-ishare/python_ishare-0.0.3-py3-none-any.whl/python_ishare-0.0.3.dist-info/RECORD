@@ -1,0 +1,9 @@
+python_ishare/__init__.py,sha256=MorErU80iLBf0lUfcUE-fvsHWOi_2a4eTLQXmy8clBo,321
+python_ishare/authentication.py,sha256=jFASYPhhA285xKNzF7cta-WV45hAkHGYk5rBA_0izvo,4605
+python_ishare/clients.py,sha256=lqM5TDYodIdGCQlGAf6H3K2fcNmq9eT0Y6xbtP9kdQc,11519
+python_ishare/exceptions.py,sha256=bkqTYMijiUOWY4bBgH-bGvYc48jvDF5lJjWQ2UkcorI,1476
+python_ishare/verification.py,sha256=r6mrxJ1fJmq-jmEzTmvb1MGB-zyKqU3GJTYLi_G0uKE,3510
+python_ishare-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+python_ishare-0.0.3.dist-info/METADATA,sha256=rriAf0_rNM3NGmVPmuI1PLc2HqF9Osumh7l75JqB94Q,9480
+python_ishare-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_ishare-0.0.3.dist-info/RECORD,,
