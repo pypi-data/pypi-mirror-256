@@ -1,0 +1,9 @@
+xtml/__init__.py,sha256=HEuAWWjZwWsNf-X0xuGCnOu96f0r7hPYcA1ydavYIu8,383
+xtml/tensorflow/__init__.py,sha256=JEcCmeZq-Y_06j3G3rOXp3b_V8QFIF_h3kkRmaoqTBE,67
+xtml/torch/__init__.py,sha256=fu83TJ044aFbsV7OaGyPfVvcfY7_fMuVa1GrNzhT6xU,206
+xtml/torch/datamodel.py,sha256=bMRKXEj3uUZjofoRwI6WmjxPt-0c6sr381uoBzXc-Is,7711
+xtml-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xtml-0.0.2.dist-info/METADATA,sha256=gwKNNhg7k35lM2IWP723VZKCVy_2sTzwng8vlDYgIMo,41305
+xtml-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xtml-0.0.2.dist-info/top_level.txt,sha256=Zv1b4A5z19iHtLss6py6NJIfXfxZjmPWDuJBbO4vIxE,5
+xtml-0.0.2.dist-info/RECORD,,
