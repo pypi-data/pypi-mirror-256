@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pandas-trader"
+version = "0.1.4"
+description = "Trading and backtesting in Pandas."
+authors = ["Lucas Jamar <lucasjamar47@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/lucasjamar/pandas-trader"
+exclude = ["binder/*", "examples/*", "tests/*"]
+keywords = ["Trading", "Backtesting", "Pandas"]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = {extras = ["computation"], version = "^2.2.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
