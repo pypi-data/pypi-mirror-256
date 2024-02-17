@@ -1,0 +1,14 @@
+awesomplete/__init__.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+awesomplete/widgets.py,sha256=8-KTfrLnzjhAo-YfAYJPah-TEOFjuFySZ9Oli5DlajU,4822
+awesomplete/static/awesomplete/css/widget.css,sha256=_C-LmFq4wEK7nIQ853a9Yvr8X4U_Y6DCq_6CbOfjCSM,77
+awesomplete/static/awesomplete/css/vendor/awesomplete.css,sha256=hVzHStBW9Zl8wz1Xhi7KMOCHl1z1CMS3ufPIO8_2ARM,1884
+awesomplete/static/awesomplete/js/widget.js,sha256=q3bLSw5JcpqPYTSa6L1iOuFeODJpDXafBi0BLc0Do54,5057
+awesomplete/static/awesomplete/js/vendor/awesomplete.js,sha256=kuJydjV-M1CDmn0fyAai-wsp04uqnF9aPhnsudL57rk,17387
+awesomplete/static/awesomplete/js/vendor/awesomplete.min.js,sha256=SlQm4BY-NO-dw-xdxdzlOd_s7U7aYtPj-KJ1-zRYcXk,7480
+awesomplete/static/awesomplete/js/vendor/awesomplete.min.js.map,sha256=CSeuK1Xx8wmlnghc49CAEsu_L2DZdjNVXm45NeUOzPE,24253
+awesomplete/templates/awesomplete/widget_wrapper.html,sha256=1vbxFV4sxsGc49DDSxm5e2vtPPBY3NwUNVTRQGSBOtA,136
+django_awesomplete-0.6.0.dist-info/LICENSE,sha256=KCsRlLIq1Xez6p3B4wYIN2MiJ5m9dnx_KaabkNdGeOs,1515
+django_awesomplete-0.6.0.dist-info/METADATA,sha256=RFB8GRU7Af-ideBg_6cmMjcDgPj7YOp_76aCm3HaWMM,6495
+django_awesomplete-0.6.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+django_awesomplete-0.6.0.dist-info/top_level.txt,sha256=_cy9nwqYZhdR0IOgo1zc3_ye6n0v76WB5Y8KipsBC6c,12
+django_awesomplete-0.6.0.dist-info/RECORD,,
