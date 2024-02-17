@@ -1,0 +1,11 @@
+console_chess_imandyr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_chess_imandyr/base.py,sha256=tk4GDrYc9VVAgRPmN-zyv0XWXcBZ6qbfpls0KwKHgfk,9801
+console_chess_imandyr/bot.py,sha256=pB1i_J1nO7hfZ1cKvNwVAreddv8DxFL9wJkmr5bOmiA,5992
+console_chess_imandyr/figures.py,sha256=oFz1Kg-Ka8PaUZpIl6kckpgXTAIR0QUdrjvgR3-gxMI,11695
+console_chess_imandyr/game.py,sha256=ruS7jU8PIfseczW2_Qfd6jizaR5Hrk7MNc9EZxVyaZA,14082
+console_chess_imandyr/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+console_chess_imandyr/tests/test.py,sha256=G2X2GK0iTQTVIFotpyBpWxw3z_6EIYJvnBeKjmVxB4E,17024
+console_chess_imandyr-1.6.0.dist-info/METADATA,sha256=ZbBzPLCWj54lHtM-yeYZRkYaQNmJfZe4cZP7MjiRNq0,2170
+console_chess_imandyr-1.6.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+console_chess_imandyr-1.6.0.dist-info/licenses/LICENSE,sha256=KzDpnCkdHFZdGfYXSswpXx8wf5-1HN6_iLy7OzOUQ70,1064
+console_chess_imandyr-1.6.0.dist-info/RECORD,,
