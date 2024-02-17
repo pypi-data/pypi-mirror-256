@@ -1,0 +1,9 @@
+setup.py
+plateFinder/__init__.py
+plateFinder/plates.py
+plateFinder/utils.py
+plateFinderDaniela.egg-info/PKG-INFO
+plateFinderDaniela.egg-info/SOURCES.txt
+plateFinderDaniela.egg-info/dependency_links.txt
+plateFinderDaniela.egg-info/requires.txt
+plateFinderDaniela.egg-info/top_level.txt
