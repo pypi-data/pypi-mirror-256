@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pklpy
+Version: 0.0.0
+Author: yallxe
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+
+# pkl-py
