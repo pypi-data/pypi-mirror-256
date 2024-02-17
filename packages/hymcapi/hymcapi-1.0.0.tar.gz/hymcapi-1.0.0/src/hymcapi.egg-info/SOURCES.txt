@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/hymcapi.py
+src/hymcapi.egg-info/PKG-INFO
+src/hymcapi.egg-info/SOURCES.txt
+src/hymcapi.egg-info/dependency_links.txt
+src/hymcapi.egg-info/top_level.txt
