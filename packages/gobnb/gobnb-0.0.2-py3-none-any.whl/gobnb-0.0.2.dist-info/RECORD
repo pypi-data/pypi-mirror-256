@@ -1,0 +1,14 @@
+gobnb/__init__.py,sha256=62WaxUDU-qcKG7O5O3jT3iogc5LA_buIN09TmFsi7zs,223
+gobnb/api.py,sha256=CLchgsfpjhOg2nPZfiCoEAuGB1-UC9zK6l4qMgiEMLI,1328
+gobnb/details.py,sha256=7NpQy25h55ZLD8QwRGt9Tj3717g8iiv6IMe9LRM3s6s,2853
+gobnb/parse.py,sha256=HPTtjmw3GxOxG0bS6f8nY0nLzDRl32Q1EDukv8COSTs,1419
+gobnb/price.py,sha256=bQDPUuP2ZQ5V6XQNzpUQ8cUlEyUzpY0Qae5EtDruWA4,4409
+gobnb/search.py,sha256=RjlBpqnIpn4MAleWLYQZcVJF6f1iaVT4Fo6Z-TX2tfc,6171
+gobnb/standardize.py,sha256=XUd9-RG-R1IEubWdwjam2fgsm-VrDxf3e7qPygtJAIE,11462
+gobnb/test.py,sha256=FsxUcWjlY94SLBcTJD0bW_c6P0dnUz1AYL1PcbR1F4M,916
+gobnb/utils.py,sha256=0gp1rVqDU6oA0_3R2Va1y4sefrf5ejhivboR8s9nBFE,959
+gobnb-0.0.2.dist-info/LICENSE,sha256=0PBfqtVdjTi81KOnoq0jamaIptotvy8HeVisrP8CVCY,1060
+gobnb-0.0.2.dist-info/METADATA,sha256=TgeRcfj7z0zE5Swx_x4N1Lzuhr5WMb4j194BlWVi4Fg,2264
+gobnb-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gobnb-0.0.2.dist-info/top_level.txt,sha256=Hu8SYddzu-E7gcJPbedodBJAsQt9REgHEY6t0BwbbcI,6
+gobnb-0.0.2.dist-info/RECORD,,
