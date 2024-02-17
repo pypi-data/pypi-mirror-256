@@ -1,0 +1,7 @@
+torch
+torchvision
+rioxarray
+py7zr
+geopandas
+fire
+py7zr
