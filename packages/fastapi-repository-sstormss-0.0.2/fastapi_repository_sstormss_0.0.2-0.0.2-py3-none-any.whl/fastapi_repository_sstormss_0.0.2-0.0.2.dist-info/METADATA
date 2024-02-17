@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fastapi-repository-sstormss-0.0.2
+Version: 0.0.2
+Summary: Test
+Home-page: https://github.com/
+Author: Kirill
+Author-email: storm_ne@inbox.ru
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy ==2.0.26
+Requires-Dist: annotated-types ==0.6.0
+
+Тестовый пакет для асинхронного репозиторя fastapi sqlalchemy
