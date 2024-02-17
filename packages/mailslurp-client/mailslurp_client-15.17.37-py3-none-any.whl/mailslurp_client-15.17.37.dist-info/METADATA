@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mailslurp-client
+Version: 15.17.37
+Summary: Official MailSlurp Python SDK Email API
+Home-page: https://www.mailslurp.com/python
+Author: MailSlurp
+Author-email: contact@mailslurp.dev
+License: UNKNOWN
+Keywords: MailSlurp,Email,SMTP,Mailer,MailSlurp API,Test
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+
+# SDK Builder (CircleCI Packer Port)
+
+This project takes runs entirely in CI and takes swagger inputs from MailSlurp (stored on s3) and generates clients
+for many languages. 
+
+It then runs bash scripts against the generated product to:
+
+- add license and readme etc
+- git tag and push
+- upload artifact to package manager
+
+See `.circleci/config.yml` for more.
+
+## Deploy
+
+- **Edit VERSION and then commit** (should be semver)
+- Check circleci for status    
+
+
