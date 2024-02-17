@@ -1,0 +1,3 @@
+0b319a9dd14112c93fd8__mypyc
+buildtools
+flask_jsonrpc
