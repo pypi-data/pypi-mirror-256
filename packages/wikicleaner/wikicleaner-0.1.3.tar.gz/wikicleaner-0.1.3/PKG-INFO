@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: wikicleaner
+Version: 0.1.3
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Bindings to a rust library that can help process wikipedia's data dumps.
+Requires-Python: >=3.8
