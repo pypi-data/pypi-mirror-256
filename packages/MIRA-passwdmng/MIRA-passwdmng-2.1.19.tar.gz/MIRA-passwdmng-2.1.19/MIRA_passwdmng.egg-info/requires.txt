@@ -1,0 +1,10 @@
+argon2-cffi
+cryptography
+mnemonic
+password-strength
+phonenumbers
+prompt-toolkit
+pyreadline
+pyreadline3
+termcolor
+validators
