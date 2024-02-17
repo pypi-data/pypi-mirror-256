@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+myln/__init__.py
+myln/abbreviations.py
+myln/compressor.py
+myln.egg-info/PKG-INFO
+myln.egg-info/SOURCES.txt
+myln.egg-info/dependency_links.txt
+myln.egg-info/top_level.txt
