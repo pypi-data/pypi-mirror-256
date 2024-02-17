@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xtml"
+version = "0.0.2"
+description = "A machine learning trainer across various ML frameworks."
+authors = [
+    { name = "Seungbae Ji", email = "seungbae.ji@email.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "tensorflow>=2.4.0",
+    "torch>=1.8.0",
+]
+
+[project.optional-dependencies]
+tensorflow = [
+    "tensorflow>=2.4.0",
+]
+torch = [
+    "torch>=1.8.0",
+]
+
+[project.urls]
+homepage = "https://github.com/seungbaeji/xtml"
+# documentation = "https://readthedocs.org"
+repository = "https://github.com/seungbaeji/xtml"
+# changelog = ""
