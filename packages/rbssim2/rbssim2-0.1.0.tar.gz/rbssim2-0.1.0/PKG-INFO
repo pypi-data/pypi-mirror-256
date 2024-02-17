@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rbssim2
+Version: 0.1.0
+Summary: Backscattering simulation
+Author: Timofey Bobrovskiy
+Author-email: timofeybobrovskiy@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mendeleev (>=0.12)
+Requires-Dist: numpy (>=1.22)
+Requires-Dist: scipy (>=1.10)
+Requires-Dist: sqlalchemy (>1.0.0)
+Description-Content-Type: text/markdown
+
+
