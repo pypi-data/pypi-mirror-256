@@ -1,0 +1,11 @@
+timewatcher/__init__.py,sha256=w4DUPwntk2vXzFxoqpJhJZtamOHFCm5c4O-4uZzM6B8,26
+timewatcher/app.py,sha256=ZR91Kz6xQ8NvZY8Bs5xZHvU9gUNf9fnAvnO9794CrEg,500
+timewatcher/configs.py,sha256=t5Lu3U4Sn-2Yz-ZZBszi-YpV3-tUkxI8Z1f66Jmh1a4,3147
+timewatcher/consts.py,sha256=LNsp5k5cj6P704gdbyLvk6PE-9yGWA788VE-L7q5VR0,1894
+timewatcher/data.py,sha256=IhDSXPvSrHwqezgu3LW_ih1D6dOQhaik7pKty6pEnRA,1019
+timewatcher/timewatcher.py,sha256=nTTQKD5nXKn7ELkdEewkIdfG394WPLa17SdjXuh4SS4,8140
+timewatcher-0.0.3.dist-info/LICENSE,sha256=FHYibtrKaO6h_-4sTBlLutxdAO-IgSFsB9FwaXxQ080,1066
+timewatcher-0.0.3.dist-info/METADATA,sha256=crxdSfZfy4UUkdrsgaKlbMjal68kVSwj5Cs_fJuezxo,760
+timewatcher-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+timewatcher-0.0.3.dist-info/entry_points.txt,sha256=9XnsU7APW-pstDffAkPN5a17dqu_zHO-yO8HH09gHFI,52
+timewatcher-0.0.3.dist-info/RECORD,,
