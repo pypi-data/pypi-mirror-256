@@ -1,0 +1,10 @@
+#!python
+
+import os
+import pkgutil
+import subprocess
+import sys
+
+# find the lib
+libpath = pkgutil.get_loader("libhgdb").path + ":initialize_hgdb_runtime"
+exit(subprocess.call(["xrun"] + sys.argv[1:] + ["-access", "+rw", "-loadvpi", libpath]))
