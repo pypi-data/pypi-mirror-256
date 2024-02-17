@@ -1,0 +1,11 @@
+vipaccess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vipaccess/__main__.py,sha256=qKYqqx_car5mq_8rh8J9mH6AgP8mWTDIli8Skv_Luq0,13087
+vipaccess/patharg.py,sha256=DIatXUCdcX0Gpl-fjwFJupYV-zc1tu8LkHZx1es5VWY,3808
+vipaccess/provision.py,sha256=kjhttFQiMh3wOgpPL0VVYxleTAWmEfq3SSvQrje8EAQ,10241
+vipaccess/version.py,sha256=hR3o7j_Ti5BahUZJjIeDkTEL09cseYBFJTIE0WEh8nw,23
+python_vipaccess-0.14.2.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+python_vipaccess-0.14.2.dist-info/METADATA,sha256=2_MwUqiFFHxsx4BCyzFlfZIgvcgQuh-JiGM7GQ9sQ_4,9445
+python_vipaccess-0.14.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+python_vipaccess-0.14.2.dist-info/entry_points.txt,sha256=B5KrC8X_IPZ5E5S-EWXkA_umoquj2lF2eqkOz8CD_Ig,55
+python_vipaccess-0.14.2.dist-info/top_level.txt,sha256=6QGh5qFNZttnIoMz5RWCORinOvoATdflc-wQKLpAuvk,10
+python_vipaccess-0.14.2.dist-info/RECORD,,
