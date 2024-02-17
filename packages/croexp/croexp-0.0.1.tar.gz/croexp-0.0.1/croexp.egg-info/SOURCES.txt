@@ -1,0 +1,9 @@
+README.md
+setup.py
+croexp/__init__.py
+croexp/vifcroexp.py
+croexp.egg-info/PKG-INFO
+croexp.egg-info/SOURCES.txt
+croexp.egg-info/dependency_links.txt
+croexp.egg-info/requires.txt
+croexp.egg-info/top_level.txt

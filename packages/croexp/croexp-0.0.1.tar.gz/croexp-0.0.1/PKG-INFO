@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: croexp
+Version: 0.0.1
+Summary: A package that allows to verify the parameters of a crontab expression.
+Home-page: UNKNOWN
+Author: Youn99 (Youness Kazize)
+Author-email: <younny7kaziz@gmail.com>
+License: UNKNOWN
+Keywords: python,crontab expression
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Crontab Expression: https://crontab.guru/.
+
+vifcroexp library will allow you to check if the crontab parameters are correct.
+you need to follow the order of the schedule expression like in the web site: (minute, hour, day_month, month, day_week)
+
+  - minute: allowed values 0-59.
+
+  - hour: allowed values 0-23.
+
+  - day_month: allowed values 1-31.
+
+  - month: allowed values 1-12.
+
+  - day_week: allowed values 1-7.
+  
+  - '*' any value.
+
+Parameter:
+
+  - crontab_parameter => need to be a string.
+
+Return:
+
+  - If the parameters are valid, otherwise it will raise an error: 'Parameters are not correct'.
+
+
+```console
+>>> from croexp import vifcroexp
+>>> vifcroexp("*,0,1,4,4")
+```
+
