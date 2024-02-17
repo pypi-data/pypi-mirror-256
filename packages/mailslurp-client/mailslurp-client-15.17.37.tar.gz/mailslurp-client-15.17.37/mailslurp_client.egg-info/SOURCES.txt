@@ -1,0 +1,7 @@
+README.md
+setup.py
+mailslurp_client.egg-info/PKG-INFO
+mailslurp_client.egg-info/SOURCES.txt
+mailslurp_client.egg-info/dependency_links.txt
+mailslurp_client.egg-info/requires.txt
+mailslurp_client.egg-info/top_level.txt
