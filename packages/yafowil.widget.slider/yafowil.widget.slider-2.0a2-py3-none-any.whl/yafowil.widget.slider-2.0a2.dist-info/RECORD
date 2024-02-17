@@ -1,0 +1,16 @@
+yafowil.widget.slider-2.0a2-py3.9-nspkg.pth,sha256=2qdJknnULHqdu7CN41V2khiYYMCVPJd0vys1aZKL4iM,1176
+yafowil/widget/slider/__init__.py,sha256=F-rX7EYSpjIxJpR7S-DY1vL-jltAnf4X_hgQ4eUKlJY,1609
+yafowil/widget/slider/example.py,sha256=DkdRvHWTK-_1y4kyAN5Onzfw9vX7i5yiZU06OZeojlI,9078
+yafowil/widget/slider/tests.py,sha256=4lbY-b9o4eWGodIQ8M3a29AfDTmrdAjRDt1QlLY3VfI,10669
+yafowil/widget/slider/widget.py,sha256=CEx3lcVsNpSSMyYY4F8Yf5pUgAKt3ll9qI6QH3WcCco,6436
+yafowil/widget/slider/resources/widget.css,sha256=soJ57OMUPcWgjBF9B6KmaetkXB0byf7vmIShzoTqcFw,1230
+yafowil/widget/slider/resources/widget.js,sha256=mZ27d0HAadr43d-KRl8pDt0AuqwcP7T3alukdt6501E,18206
+yafowil/widget/slider/resources/widget.min.css,sha256=VAoHTwR6PKskjQ35XZmXgdKIXcTi_4sEjbdIqoiJVhk,1045
+yafowil/widget/slider/resources/widget.min.js,sha256=FQCQKTYMah3EfhUUsns0-23JdqRGJkOMdCEBQYN2qdU,7972
+yafowil.widget.slider-2.0a2.dist-info/LICENSE.rst,sha256=SgszC4TtlGpZ2KgcR3k0Wjriyh5ANtH3hm3i9jRnQV0,1403
+yafowil.widget.slider-2.0a2.dist-info/METADATA,sha256=gBX06178OH0oNnFjHgD71RV016pvHHUqac6b8QjzGP0,3965
+yafowil.widget.slider-2.0a2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+yafowil.widget.slider-2.0a2.dist-info/entry_points.txt,sha256=WudK8ebmzl6DFbJw17PdgGBotmdVNFuRp41wznxbY-I,111
+yafowil.widget.slider-2.0a2.dist-info/namespace_packages.txt,sha256=oTPEdRfMCGNcZRcF2Y0ULt8JBOUbIGRQHpcQ3vb_vXQ,23
+yafowil.widget.slider-2.0a2.dist-info/top_level.txt,sha256=cJz5CZEzEKmMv88hkEh5t8fW1bRvd7Dv6VZ7l6RpqUA,8
+yafowil.widget.slider-2.0a2.dist-info/RECORD,,
