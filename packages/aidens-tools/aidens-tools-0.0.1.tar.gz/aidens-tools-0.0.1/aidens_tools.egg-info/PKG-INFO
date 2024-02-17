@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aidens-tools
+Version: 0.0.1
+Summary: A collection of useful Python functions.
+Home-page: UNKNOWN
+Author: Aiden Fliss
+Author-email: aiden.fliss@gmail.com
+License: MIT
+Keywords: tools
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+
+A basic library filled with some useful functions that are tedious to make normally in Python without functions.
+
