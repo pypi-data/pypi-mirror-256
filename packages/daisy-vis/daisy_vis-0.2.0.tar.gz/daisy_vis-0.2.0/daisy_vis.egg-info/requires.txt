@@ -1,0 +1,16 @@
+pandas
+matplotlib
+plotly
+dash
+
+[lint]
+pylint
+pytest
+pillow
+
+[test]
+coverage
+pytest
+pytest-mpl
+kaleido
+pillow
