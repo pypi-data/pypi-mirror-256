@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+test_pack_kotek/__init__.py
+test_pack_kotek.egg-info/PKG-INFO
+test_pack_kotek.egg-info/SOURCES.txt
+test_pack_kotek.egg-info/dependency_links.txt
+test_pack_kotek.egg-info/top_level.txt
