@@ -1,0 +1,3 @@
+[console_scripts]
+ptmpdy=sls_enum.main:app
+
