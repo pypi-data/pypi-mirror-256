@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tu_ruc_python_client.egg-info/PKG-INFO
+tu_ruc_python_client.egg-info/SOURCES.txt
+tu_ruc_python_client.egg-info/dependency_links.txt
+tu_ruc_python_client.egg-info/top_level.txt
