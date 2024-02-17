@@ -1,0 +1,11 @@
+activation.py,sha256=jFflVzqlI21zjON3zuV-oYyosQSmSf72-J6SaKL_kuM,3028
+initializer.py,sha256=DcDvli_P3hHEOF3sceAqeKAgzSnsSO8oIE7Z8MXqX6k,2248
+layer.py,sha256=7533t65kFnSDcRM4z2EO35oyRERWnm3SEGh-U4k78WE,2009
+loss.py,sha256=UxTPtDQC9ozwFIL4ZH5bvOnnRWKYaUb1cQHrpMQy8x8,2547
+model.py,sha256=q5XEWZfNHsG73fkvL4vVNmOyj0PP3bskkCo62p6TzhM,5263
+optimizer.py,sha256=Jq5R0k6VhG9WDOI6DYZk0RfWM7o26QTTRt4UekVkVuM,8720
+parse_model.py,sha256=OPlGPNsnYVngP86DRJ6uGO_BSbbL86w23MUBRAF0tn8,6738
+deeplearningkit-0.0.3.dist-info/METADATA,sha256=V8mm4LzGwRo9Yxw60nLTczVA0ZQpfsMG3b5JpnFAzHs,4674
+deeplearningkit-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+deeplearningkit-0.0.3.dist-info/licenses/LICENCE,sha256=Yf9d2oqfpklQX7LHq8xJRWseVV5woTlyCT06cAtvp68,1069
+deeplearningkit-0.0.3.dist-info/RECORD,,
