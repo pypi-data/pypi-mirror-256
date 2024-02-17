@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+llama_test.egg-info/PKG-INFO
+llama_test.egg-info/SOURCES.txt
+llama_test.egg-info/dependency_links.txt
+llama_test.egg-info/entry_points.txt
+llama_test.egg-info/requires.txt
+llama_test.egg-info/top_level.txt
+src/.env
+src/__init__.py
+src/settings.py
+src/starter.py
