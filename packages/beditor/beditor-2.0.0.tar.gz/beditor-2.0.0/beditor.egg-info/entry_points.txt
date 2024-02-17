@@ -1,0 +1,2 @@
+[console_scripts]
+roux = beditor.run:parser.dispatch
