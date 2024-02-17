@@ -1,0 +1,25 @@
+ephem==4.1.5
+pytz==2024.1
+
+[:python_version < "3.10"]
+importlib-resources==6.1.1
+typing-extensions==4.9.0
+
+[build]
+build==1.0.3
+twine==4.0.2
+
+[dev]
+pylunar[build,docs,lint,test]
+tox==4.11.4
+
+[docs]
+sphinx~=7.1
+sphinx_rtd_theme==2.0.0
+
+[lint]
+pre-commit~=3.5.0
+
+[test]
+coverage[toml]==7.4.0
+pytest==7.4.4
