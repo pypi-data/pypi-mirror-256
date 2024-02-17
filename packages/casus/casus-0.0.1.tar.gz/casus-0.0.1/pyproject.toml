@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "casus"
+version = "0.0.1"
+description = ""
+authors = ["Rishikanth Chandrasekaran <r3chandr@ucsd.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jax = "*"
+jaxlib = "*"
+# jaxlib = {version = "^0.4.23+cuda11.cudnn86", source = "jax"} #uncomment for cuda support
+equinox = "*"
+numpy = "*"
+loguru = "*"
+einops = "^0.7.0"
+quax = "^0.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pyright = "*"
+ruff = "*"
+pre-commit = "*"
+pytest = "*"
+fire = "*"
+marimo = "^0.2.3"
+holoviews = "^1.18.2"
+bokeh = "^3.3.4"
+torch = "^2.2.0"
+torchvision = "^0.17.0"
+alive-progress = "^3.1.5"
+sphinx = "^7.2.6"
+sphinxawesome-theme = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+venvPath = "/Users/rishi/miniconda3/envs"
+venv = "casus"
+useLibraryCodeForTypes = true
+typeCheckingMode = "basic"
+reportUnusedImport = "warning"
+reportUnusedVariable = "warning"
+reportDuplicateImport = "error"
+reportPrivateUsage = "warning"
+reportDeprecated = "warning"
+reportInconsistentConstructor = "error"
+reportMissingSuperCall = "error"
+reportUninitializedInstanceVariable = "error"
+reportUnnecessaryCast = "warning"
+reportUnnecessaryComparison = "warning"
+reportImplicitStringConcatenation = "warning"
+exclude = ["**/notebooks/"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+markers = ["hv", "emb", "ml"]
+
+[tool.poetry.scripts]
+t-mnist = "tests.test_ml:main"
