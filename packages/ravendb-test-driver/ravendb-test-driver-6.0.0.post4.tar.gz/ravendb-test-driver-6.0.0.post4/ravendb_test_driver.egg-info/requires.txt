@@ -1,0 +1,2 @@
+ravendb-embedded~=5.2.5.post1
+ravendb~=5.2.5.post1
