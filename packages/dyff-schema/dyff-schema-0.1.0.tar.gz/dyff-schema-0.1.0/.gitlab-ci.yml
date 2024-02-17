@@ -1,0 +1,83 @@
+# SPDX-FileCopyrightText: 2024 UL Research Institutes
+# SPDX-License-Identifier: Apache-2.0
+
+stages:
+  - test
+  - build
+  - deploy
+
+include:
+  - project: buildgarden/pipelines/prettier
+    ref: 0.1.0
+    file:
+      - prettier.yml
+  - project: brettops/pipelines/python
+    ref: 0.7.0
+    file:
+      - black.yml
+      - build.yml
+      - isort.yml
+      - mypy.yml
+      - pytest.yml
+      - twine.yml
+  - project: buildgarden/pipelines/skywalking-eyes
+    ref: 0.2.0
+    file:
+      - license-eye-header-check.yml
+
+variables:
+  PYTHON_PACKAGE: dyff/schema
+  PYTHON_REQUIREMENTS: .
+
+python-autoflake:
+  stage: test
+  image: ${CONTAINER_PROXY}python:3-alpine
+  cache: {}
+  dependencies: []
+  variables:
+    # prettier-ignore
+    GIT_DEPTH: '1'
+    GIT_SUBMODULE_STRATEGY: none
+  script:
+    - python3 -m pip install autoflake
+    - >-
+      autoflake --check-diff --recursive .
+      --remove-duplicate-keys
+      --remove-unused-variables
+      --expand-star-imports
+# --remove-all-unused-imports
+python-twine-upload:
+  # cffi is a dependency for pyproject.toml projects and a built version is not
+  # available for alpine
+  image: ${CONTAINER_PROXY}python:${PYTHON_VERSION}-bullseye
+
+python-twine-upload-pypi:
+  extends: python-twine-upload
+  variables:
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: $PYPI_API_TOKEN
+    TWINE_REPOSITORY_URL: https://upload.pypi.org/legacy/
+
+python-build-sdist:
+  dependencies: []
+
+python-build-wheel:
+  dependencies: []
+
+python-mypy:
+  script:
+    - |-
+      if [[ -f setup.py ]] ; then
+        $PYTHON -m pip install .
+      fi
+    - |-
+      if [[ -n "$PYTHON_REQUIREMENTS" ]] ; then
+        $PYTHON -m pip install $PYTHON_REQUIREMENTS
+      fi
+    - $PYTHON -m pip install mypy
+    - $PYTHON -m mypy "${PYTHON_PACKAGE}" --explicit-package-bases --junit-xml report.xml
+
+python-pytest:
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ['3.9', '3.10', '3.11', '3.12']
