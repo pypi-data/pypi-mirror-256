@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/stem_http/__init__.py
+src/stem_http/client.py
+src/stem_http/tor.py
+src/stem_http.egg-info/PKG-INFO
+src/stem_http.egg-info/SOURCES.txt
+src/stem_http.egg-info/dependency_links.txt
+src/stem_http.egg-info/top_level.txt
+tests/test_client.py
+tests/test_tor.py

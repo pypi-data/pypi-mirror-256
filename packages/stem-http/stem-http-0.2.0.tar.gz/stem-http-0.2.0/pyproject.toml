@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stem-http"
+version = "0.2.0"
+description = "The stem-http Python package"
+readme = "README.md"
+requires-python = ">=3.11"
+
+# Fill in dependencies here.
+dependencies = []
+
+[[project.authors]]
+name = "John Gorman"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/gormaniac/stem-http"
+Documentation = "https://gormo.co/stem-http/"
+
+[tool.setuptools.packages.find]
+namespaces = true
+where = ["src"]
