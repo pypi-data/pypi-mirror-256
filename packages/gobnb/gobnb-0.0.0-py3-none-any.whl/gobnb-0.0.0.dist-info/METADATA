@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gobnb
+Version: 0.0.0
+Summary: Airbnb scraper in Python
+Author: John (John Balvin)
+Author-email: <johnchristian@hotmail.es>
+Keywords: airbnb,scraper,crawler
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: curl-cffi
+Requires-Dist: bs4
+
+This project is an open-source tool developed in Python for extracting product information from Airbnb. It's designed to be fast, and easy to use, making it an ideal solution for developers looking for Airbnb product data.
