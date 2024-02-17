@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ctransformer_core
+Version: 0.0.6
+Summary: gguf connector core built on ctransformers
+Home-page: https://github.com/calcuis/ctransformer-core
+Author: calcuis
+Author-email: calculatics@gmail.com
+License: MIT
+Keywords: ctransformer_core transformers ai llm
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: huggingface-hub
+Requires-Dist: py-cpuinfo <10.0.0,>=9.0.0
+Provides-Extra: cuda
+Requires-Dist: nvidia-cuda-runtime-cu12 ; extra == 'cuda'
+Requires-Dist: nvidia-cublas-cu12 ; extra == 'cuda'
+Provides-Extra: gptq
+Requires-Dist: exllama ==0.1.0 ; extra == 'gptq'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+### ctransformer-core
+
+[<img src="https://raw.githubusercontent.com/calcuis/ctransformer-core/master/milk.gif" width="128" height="128">](https://github.com/calcuis/ctransformer-core)
+[![Static Badge](https://img.shields.io/badge/core-0.0.6-yellow?logo=github)](https://github.com/calcuis/ctransformer-core/releases)
+
+Follow up the stopping updated project ctransformers; continue working on it.
+
+#### install it via (pip/pip3):
+```
+pip install ctransformer-core
+```
+#### run it by (python/python3):
+```
+python -m ctransformer_core
+```
+[<img src="https://raw.githubusercontent.com/calcuis/llama-core/master/demo.png" width="235" height="95">](https://github.com/calcuis/llama-core/blob/main/demo.png)
+
+User interfaces are available to choose (eithr CLI or GUI); while chosen, GGUF file(s) in the current directory will be searched and detected.
+
+[<img src="https://raw.githubusercontent.com/calcuis/chatgpt-model-selector/master/demo.gif" width="350" height="280">](https://github.com/calcuis/chatgpt-model-selector/blob/main/demo.gif)
+
+This is another solo connector core; same as llama-core; being able to work independently as well.
+
+#### reference
+[ctransformers](https://github.com/marella/ctransformers)
+
+All other functions are same as ctransformers; please see the reference above; stay tuned.
