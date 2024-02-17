@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+relationship_structure_identification/__init__.py
+relationship_structure_identification/grouping_identification.py
+relationship_structure_identification/performance_metrics.py
+relationship_structure_identification/simulations.py
+relationship_structure_identification/visualization.py
+relationship_structure_identification.egg-info/PKG-INFO
+relationship_structure_identification.egg-info/SOURCES.txt
+relationship_structure_identification.egg-info/dependency_links.txt
+relationship_structure_identification.egg-info/not-zip-safe
+relationship_structure_identification.egg-info/requires.txt
+relationship_structure_identification.egg-info/top_level.txt

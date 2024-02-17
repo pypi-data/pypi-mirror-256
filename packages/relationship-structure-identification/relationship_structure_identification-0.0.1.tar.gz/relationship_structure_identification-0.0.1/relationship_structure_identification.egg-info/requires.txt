@@ -1,0 +1,8 @@
+numpy
+scipy
+pytest
+matplotlib
+independent_vector_analysis
+argparse
+scikit-learn
+pathlib
