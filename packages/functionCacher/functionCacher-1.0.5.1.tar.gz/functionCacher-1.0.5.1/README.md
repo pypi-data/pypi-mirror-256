@@ -1,0 +1,46 @@
+# Function Cacher
+
+[![Documentation Status](https://readthedocs.org/projects/function-cacher/badge/?version=latest)](https://function-cacher.readthedocs.io/en/latest/?badge=latest) 
+[![Test Status](https://gitlab.com/philipp.friese/function-cacher/badges/main/pipeline.svg)](https://gitlab.com/philipp.friese/function-cacher/badges/main/pipeline.svg)
+
+## Overview
+
+The Function Cacher project provides a way to cache the result of a (e.g. computation or IO-heavy) function to a provided storage location, typically on disk.
+
+In comparison to Python’s integrated functools.cache, this approach provides caching outside of a programs lifetime. The (originally) intended use is caching results of long-running database queries during rapid-prototyping data analysis.
+
+Please refer to https://function-cacher.readthedocs.io for documentation and more information.
+
+## Installation
+
+You may use `pip` to install this package:
+
+`pip install functionCacher`
+
+The package is located here: https://pypi.org/project/functionCacher/
+
+## Basic Usage
+
+```python
+from functionCacher.Cacher import Cacher
+cacher_instance = Cacher()
+
+@cacher_instance.cache
+def myfunc(arg1, arg2):
+	return [arg1, arg2]
+
+myfunc(1,2) # cache miss
+myfunc(1,2) # cache hit
+myfunc(2,3) # cache miss
+```
+
+## Features
+
+- cache function results to disk
+- cache compression (LZMA, ZSTD)
+- HMAC-verification of cache file (do not forget to set a proper hmac_key during Cacher initialisation!)
+- cache decorator
+- automatic cache ID generation, based on
+	- function parameter
+	- function name
+	- function source code
