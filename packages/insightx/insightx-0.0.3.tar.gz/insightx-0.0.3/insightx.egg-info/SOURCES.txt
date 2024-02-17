@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+insightx/__init__.py
+insightx/_modidx.py
+insightx/core.py
+insightx/jupyterutils.py
+insightx/osutils.py
+insightx.egg-info/PKG-INFO
+insightx.egg-info/SOURCES.txt
+insightx.egg-info/dependency_links.txt
+insightx.egg-info/entry_points.txt
+insightx.egg-info/not-zip-safe
+insightx.egg-info/requires.txt
+insightx.egg-info/top_level.txt

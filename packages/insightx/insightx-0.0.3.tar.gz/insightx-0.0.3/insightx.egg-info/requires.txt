@@ -1,0 +1,8 @@
+pandas
+polars
+numpy
+IPython
+seaborn
+jinja2
+
+[dev]
