@@ -1,0 +1,19 @@
+[project]
+name = "pyevaltool"
+version = '0.1.6'
+authors = [
+  { name="Ateendra Jha", email="ajha@phaf.in" },
+]
+keywords = ['testing', 'evaluate', 'model']
+description = 'A package to evaluate the models.'
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['pandas']
+[project.urls]
+Homepage = "https://www.drateendrajha.com/projects/pyevaltool"
+Issues = "https://www.drateendrajha.com/projects/pyevaltool"
