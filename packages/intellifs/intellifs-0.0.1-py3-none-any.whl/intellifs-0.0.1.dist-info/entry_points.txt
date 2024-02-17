@@ -1,0 +1,4 @@
+[console_scripts]
+ifs=intellifs.__main__:app
+intellifs=intellifs.__main__:app
+

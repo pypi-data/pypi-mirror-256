@@ -1,0 +1,10 @@
+intellifs/__init__.py,sha256=Sx69ks9zBb1CCtiS-Pw6wQP8-MvBlgS6pquxWuz278k,11004
+intellifs/__main__.py,sha256=fHHoD-ebqt3S17KX315LsNTv8hv9oUF-AANOunUDt6s,3832
+intellifs/embedder.py,sha256=Xwnqrc9YpX1DlZJirNqZu8wobTux4uNZM2tqtDcp8Pk,1276
+intellifs/indexables.py,sha256=aA8EdGLoJin_DiFPtVNKpWplxkoDt9giI-18nUFM9o0,2899
+intellifs/settings.py,sha256=o9SRZlzLwUeIfM_tvqgdI_6Rwj3h_WcvUNvvPUGb0J8,752
+intellifs-0.0.1.dist-info/entry_points.txt,sha256=xJg09eczxdOmC2xTICaiwtv3KK7z-QSdgIZ_oJEzPTE,79
+intellifs-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+intellifs-0.0.1.dist-info/METADATA,sha256=-VbvSNEUT-LZ6nZQg0SbL9NLLirLh4Lec5NkMuXqees,11216
+intellifs-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+intellifs-0.0.1.dist-info/RECORD,,
