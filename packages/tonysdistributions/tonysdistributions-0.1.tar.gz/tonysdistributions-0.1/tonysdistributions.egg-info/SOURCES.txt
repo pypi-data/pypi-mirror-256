@@ -1,0 +1,10 @@
+setup.py
+tonysdistributions/Binomialdistribution.py
+tonysdistributions/Gaussiandistribution.py
+tonysdistributions/Generaldistribution.py
+tonysdistributions/__init__.py
+tonysdistributions.egg-info/PKG-INFO
+tonysdistributions.egg-info/SOURCES.txt
+tonysdistributions.egg-info/dependency_links.txt
+tonysdistributions.egg-info/not-zip-safe
+tonysdistributions.egg-info/top_level.txt
