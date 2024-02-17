@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cloudreveimport
+Version: 0.0.1
+Summary: Import your existing files into cloudreve!
+Home-page: https://github.com/yindaheng98/cloudreveimport
+Author: yindaheng98
+Author-email: yindaheng98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cloudreveimport
+
+Import your existing files into cloudreve!
+
+## Install
+
+```sh
+go install github.com/yindaheng98/cloudreveimport
+pip install cloudreveimport
+```
+
