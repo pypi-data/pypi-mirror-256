@@ -1,0 +1,13 @@
+LICENSE.txt
+setup.py
+p5p5/CONTRIBUTING.md
+p5p5/LICENSE.txt
+p5p5/__init__.py
+p5p5/__main__.py
+p5p5/p5p5.py
+p5p5.egg-info/PKG-INFO
+p5p5.egg-info/SOURCES.txt
+p5p5.egg-info/dependency_links.txt
+p5p5.egg-info/entry_points.txt
+p5p5.egg-info/requires.txt
+p5p5.egg-info/top_level.txt
