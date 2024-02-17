@@ -1,0 +1,13 @@
+odineye/__init__.py,sha256=96r-1BlOeiFJdPfCs1de8S4tPjsMuZFpK6mTKAFnlsE,109
+odineye/maps_downloaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odineye/maps_downloaders/google_maps_downloader.py,sha256=ZY-NES24IogtYOK-GVkz6MRN-X4XNqqtw4_-igk__gc,6235
+odineye/maps_downloaders/maps_downloader.py,sha256=DSWPIuA7WPpzXEwQH-izGg1Xax9X55NBve5tunffYMg,2008
+odineye/url_downloaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odineye/url_downloaders/url_downloader.py,sha256=Ykr1ztGKLhCvVW1a_SKmTvCMPmBuhUK9FN6kgYofo9A,4054
+odineye/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odineye/utils/coordinates_convertion.py,sha256=rvDHHnLPybUDAd7h4VeAe1D3AB7evCsRQ2WDH7OSDD4,762
+odineye/utils/image_utils.py,sha256=1vIZJhYFuvF3mxFNKfjJxytCvHK-SBcQbr7_VEpjNu0,1265
+odineye-0.0.0.dist-info/LICENSE,sha256=oUoieHQZoJU5WUWY0gCBCukAvrko4YA-MNT_LA24hE4,35098
+odineye-0.0.0.dist-info/METADATA,sha256=ESifM6Sv4fZ_cmwsPPgg92tLQQLrvdcQ5BGhDRODLK8,1893
+odineye-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+odineye-0.0.0.dist-info/RECORD,,
