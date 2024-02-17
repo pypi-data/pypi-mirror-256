@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cleansor"
+authors = [{name = "calcuis", email = "calculatics@gmail.com"}]
+description = "duplicate file cleanser"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/calcuis/duplicate-cleanser"
+Issues = "https://github.com/calcuis/duplicate-cleanser/issues"
+
+[project.scripts]
+cgg = "cgg.__init__:__init__"
