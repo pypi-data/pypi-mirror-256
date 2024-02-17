@@ -1,0 +1,9 @@
+dokumetry/__helpers.py,sha256=Ex_kmV8hSnO3I7FHVniZ1uGRxmQkFriVf3iRE2usDQo,1004
+dokumetry/__init__.py,sha256=1zvQcBTE18aAKV786mh_xpxHiDa4ryBz6M3I1RMqXtI,1879
+dokumetry/anthropic.py,sha256=bPHDeoCv2eV9Rps1F9mCYThWta_mR65mNL7IKp9onRE,2159
+dokumetry/cohere.py,sha256=KkBRBl2S2R8_arxxnS2AI249izkQx9sizLmSeStazWA,9439
+dokumetry/openai.py,sha256=YBvWLOuegZRFh6HoDTl_cAYta_LyovaM29Mh755f6QI,16891
+dokumetry-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dokumetry-0.0.4.dist-info/METADATA,sha256=ZqfHCcdLbmvqKfClv-y6dv0lOz3wxGA0xo0-FCVcL6w,7713
+dokumetry-0.0.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dokumetry-0.0.4.dist-info/RECORD,,
