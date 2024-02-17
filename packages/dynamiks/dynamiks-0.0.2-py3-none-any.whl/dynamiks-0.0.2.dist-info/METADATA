@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dynamiks
+Version: 0.0.2
+Summary: Dynamic wind system simulator
+Project-URL: Homepage, https://gitlab.windenergy.dtu.dk/DYNAMIKS/dynamiks
+Project-URL: Bug Tracker, https://gitlab.windenergy.dtu.dk/DYNAMIKS/dynamiks/-/issues
+Author-email: "Mads M. Pedersen" <mmpe@dtu.dk>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: hipersim
+Requires-Dist: jdwm
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: py-wake
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Provides-Extra: test
+Requires-Dist: h2lib; extra == 'test'
+Requires-Dist: h2lib-tests; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Dynamiks
+
+Dynamic wind system simulator
+
+## Installation
+```
+pip install git+https://gitlab.windenergy.dtu.dk/TOPFARM/PyWake.git --upgrade
+pip install git+https://gitlab.windenergy.dtu.dk/HiperSim/hipersim.git --upgrade
+pip install dywake
+```
+
+## Quick start
+
+See [quickstart notebook](docs/QuickStart.ipynb)
+
+## Project status
+
+Initial state
