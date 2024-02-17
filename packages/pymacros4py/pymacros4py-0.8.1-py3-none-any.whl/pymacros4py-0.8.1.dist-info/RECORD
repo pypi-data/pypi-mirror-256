@@ -1,0 +1,12 @@
+pymacros4py/__init__.py,sha256=cUdJc69w8KDUNKcTRVq_xuJAQhe4kVgxh68K9La8Xgo,170
+pymacros4py/_evaluator.py,sha256=Fa671BVgRaAPrGRHilj9omWhdtAzmVGhqNeGjA7S2wQ,14985
+pymacros4py/_files.py,sha256=DJJTkBVS09OIzm8u0oFrBDi1COTrTCzb2vkbz4a4g2U,1204
+pymacros4py/_global_evaluation_context.py,sha256=Am076n7wJ_g6CWPHZ8uwP37DIyIL1txVLG87Bd0Lrew,1025
+pymacros4py/_pre_processor.py,sha256=oVwibQaCPus6xDSLYhMc1XnTU3q5urlo_SBeEeLIAQM,5788
+pymacros4py/_template_script.py,sha256=lcAJ_XD0NezjVoQmtAeV4DSBk6qoCSY0wWqfE8NuFHo,11725
+pymacros4py/_tokenizer.py,sha256=sRir3tYa0lhZDaDcoSXJDgImIxyFmRdR2KSxHsHcZxE,10422
+pymacros4py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymacros4py-0.8.1.dist-info/METADATA,sha256=GmwUxm7RphyglwVqeXJZh1BkEiOVkeD3EiCQg4UxoXI,37965
+pymacros4py-0.8.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pymacros4py-0.8.1.dist-info/top_level.txt,sha256=8AsswgNDyachpTex7k_Vz1qdX6Rd04ETTiHbqE7gEpM,12
+pymacros4py-0.8.1.dist-info/RECORD,,
