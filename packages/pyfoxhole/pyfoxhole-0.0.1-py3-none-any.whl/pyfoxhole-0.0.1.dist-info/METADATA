@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyfoxhole
+Version: 0.0.1
+Summary: A thin wrapper over the Foxhole World Conquest API
+Author-email: gparent <370905+gparent@users.noreply.github.com>
+License: MIT
+Project-URL: Bug Tracker, https://github.com/gparent/pyfoxhole/issues
+Project-URL: Homepage, https://github.com/gparent/pyfoxhole
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests <3
+Provides-Extra: dev
+Requires-Dist: black <25,>24 ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine <5,>=4 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pre-commit <4,>=3 ; extra == 'test'
+Requires-Dist: pylint <4,>=3 ; extra == 'test'
+
+# pyfoxhole
+
+A thin wrapper over the Foxhole World Conquest API
