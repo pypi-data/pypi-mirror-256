@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: qbm
+Version: 0.1.2
+Summary: A Python package for training and analyzing quantum Boltzmann machines
+Project-URL: Homepage, https://github.com/cameronperot/qbm
+Project-URL: Documentation, https://cameronperot.github.io/qbm/html/index.html
+Author: Cameron Perot
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Requires-Dist: dwave-ocean-sdk>=4.2.0
+Requires-Dist: matplotlib>=3.4.3
+Requires-Dist: numpy>=1.20.3
+Requires-Dist: pandas>=1.3.3
+Requires-Dist: scipy>=1.7.1
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: m2r2; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: python-language-server; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: ipython
+Requires-Dist: ipykernel; extra == 'ipython'
+Requires-Dist: ipython; extra == 'ipython'
+Description-Content-Type: text/markdown
+
+# Quantum Boltzmann Machines
+The `qbm` Python package is designed for training and analyzing quantum Boltzmann machines (QBMs) using either a simulation or a D-Wave quantum annealer.
+The QBM implemented here is based on the work in *Quantum Boltzman Machine* by Amin et al. [[1]](#1).
+This package originated as part of the thesis [*Quantum Boltzmann Machines: Applications in Quantitative Finance*](https://github.com/cameronperot/qbm-quant-finance).
+
+## Table of Contents
+* [Installation](#installation)
+    * [Conda Environment](#conda-environment)
+* [Usage](#usage)
+    * [Basic Configuration](#basic-configuration)
+    * [BQRBM Model](#bqrbm-model)
+        * [Instantiation](#instantiation)
+        * [Training](#training)
+        * [Sampling](#sampling)
+        * [Saving and Loading](#saving-and-loading)
+    * [Example](#example)
+* [References](#references)
+
+## Installation
+The `qbm` package can be installed with
+```
+pip install qbm
+```
+
+## Usage
+
+### Basic Configuration
+The `qbm` package is mainly configured around the project directory, which can be set with the `QBM_PROJECT_DIR` environment variable.
+Once the environment variable is set one can use the `qbm.utils.get_project_dir()` function to get a path object to the directory.
+
+### BQRBM Model
+The BQRBM, or bound-based quantum restricted Boltzmann machine, is a quantum Boltzmann machine that has intra-layer restrictions and is trained via maximization of the log-likelihood lower bound.
+The model currently only has the ability to train in the specific case where `s_freeze = 1`, i.e., when it reduces to a classical RBM trained with quantum assistance, because estimating the effective inverse temperature is nontrivial for the general case.
+
+All of the arguments to the methods below are further explained in their respective docstrings.
+
+#### Instantiation
+A BQRBM model can be instantiated as (for example)
+```
+model = BQRBM(
+    V_train,
+    n_hidden,
+    A_freeze,
+    B_freeze,
+    beta_initial=1.0,
+    simulation_params={"beta": 1.0},
+    seed=0,
+)
+```
+One needs to choose whether or not they want to train a model using a simulation or an annealer, and this is done by passing either `simulation_params` or `annealer_params`.
+Whichever is passed decides how the model is trained.
+
+#### Training
+The model can be trained by running
+```
+model.train(
+    n_epochs=100,
+    learning_rate=1e-1,
+    learning_rate_beta=1e-1,
+    mini_batch_size=10,
+    n_samples=10_000,
+    callback=None,
+)
+```
+
+#### Sampling
+The model can generate samples by running
+```
+model.sample(
+    n_samples,
+    answer_mode="raw",
+    use_gauge=True,
+    binary=False,
+)
+```
+
+#### Saving and Loading
+The model can be saved with
+```
+model.save("/path/to/model.pkl")
+```
+and loaded again with
+```
+model = BQRBM.load("/path/to/model.pkl")
+```
+
+## Example
+An example notebook can be found [here](example/qbm_example.ipynb)
+
+# References
+<a name="1">[1]</a> Mohammad H. Amin et al. “Quantum Boltzmann Machine”. In: Phys. Rev. X 8 (2 May 2018), p. 021050. doi: 10.1103/PhysRevX.8.021050. url: [https://link.aps.org/doi/10.1103/PhysRevX.8.021050](https://link.aps.org/doi/10.1103/PhysRevX.8.021050).
