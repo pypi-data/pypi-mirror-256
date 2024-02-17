@@ -1,0 +1,2 @@
+[console_scripts]
+nl2elem-to-csv = nl2elem_to_csv.__main__:main
