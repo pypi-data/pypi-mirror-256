@@ -1,0 +1,8 @@
+m9s-trytond<7.1,>=7.0
+m9s_account_tax_recapitulative_statement<7.1,>=7.0
+m9s_account_tax_reverse_charge<7.1,>=7.0
+trytond_account<7.1,>=7.0
+trytond_account_eu<7.1,>=7.0
+
+[test]
+m9s-account-deposit<7.1,>=7.0
