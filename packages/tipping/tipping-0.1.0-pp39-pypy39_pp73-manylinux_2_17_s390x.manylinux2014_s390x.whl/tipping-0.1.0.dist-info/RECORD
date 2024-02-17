@@ -1,0 +1,5 @@
+tipping-0.1.0.dist-info/METADATA,sha256=9mBTZiTOv1HZ4o4TCYPmCBdJKQzOD9WCgYqUqbjMfq8,387
+tipping-0.1.0.dist-info/WHEEL,sha256=y9QlQ0unmKYpWGA921a4oPrIXTVbRx9T4mGCvnEq750,132
+tipping/__init__.py,sha256=IZ7cKnaXQEMfHg-GmgtDPKTCUugna0W65hRVLTBOFeo,2899
+tipping/_lib_tipping.pypy39-pp73-s390x-linux-gnu.so,sha256=dsvd7uMJ0ODVnB2z6q1lPIcwcSvTikDLrkyqY41Nn9s,8769696
+tipping-0.1.0.dist-info/RECORD,,
