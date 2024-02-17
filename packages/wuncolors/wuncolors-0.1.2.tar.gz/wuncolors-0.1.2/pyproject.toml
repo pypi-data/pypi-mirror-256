@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wuncolors"
+version = "0.1.2"
+description = "Color Palettes"
+authors = ["Philippe Lacroix-Ouellette <philippe.lacroix.ouellette@gmail.com>"]
+license = "LICENSE.txt"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.3"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
