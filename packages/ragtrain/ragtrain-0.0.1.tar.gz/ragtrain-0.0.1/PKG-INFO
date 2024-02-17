@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ragtrain
+Version: 0.0.1
+Summary: It is a ragtrain!
+Project-URL: Homepage, https://github.com/tmychow/ragtrain
+Author-email: Trevor Chow <tmychow@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ragtrain
+
+Ragtrain!
