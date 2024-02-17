@@ -1,0 +1,5 @@
+tipping-0.1.0.dist-info/METADATA,sha256=9mBTZiTOv1HZ4o4TCYPmCBdJKQzOD9WCgYqUqbjMfq8,387
+tipping-0.1.0.dist-info/WHEEL,sha256=UV9zG4LLu5aozZ4CLlFrx0g296T6XFIH7lrdHjOZdds,106
+tipping/__init__.py,sha256=IZ7cKnaXQEMfHg-GmgtDPKTCUugna0W65hRVLTBOFeo,2899
+tipping/_lib_tipping.cpython-311-darwin.so,sha256=4bGCFh2YFjIr3F36rjon99lVRRLQXndj_MQkowdTXMw,3616960
+tipping-0.1.0.dist-info/RECORD,,
