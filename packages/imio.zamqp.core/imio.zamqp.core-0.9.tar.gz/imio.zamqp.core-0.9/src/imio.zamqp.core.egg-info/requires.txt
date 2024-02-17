@@ -1,0 +1,11 @@
+collective.zamqp
+imio.dataexchange.core
+imio.helpers
+plone.dexterity
+requests
+setuptools
+
+[test]
+collective.dms.scanbehavior
+plone.app.dexterity
+plone.app.testing
