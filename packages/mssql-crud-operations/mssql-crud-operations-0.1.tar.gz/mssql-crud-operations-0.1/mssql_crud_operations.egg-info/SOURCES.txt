@@ -1,0 +1,10 @@
+README.md
+setup.py
+mssql_crud_operations/__init__.py
+mssql_crud_operations.egg-info/PKG-INFO
+mssql_crud_operations.egg-info/SOURCES.txt
+mssql_crud_operations.egg-info/dependency_links.txt
+mssql_crud_operations.egg-info/requires.txt
+mssql_crud_operations.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mssql_crud_operations.py
