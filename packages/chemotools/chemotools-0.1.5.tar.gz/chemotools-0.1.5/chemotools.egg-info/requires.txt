@@ -1,0 +1,6 @@
+numpy
+pandas
+polars
+pyarrow
+scipy
+scikit-learn>=1.4.0
