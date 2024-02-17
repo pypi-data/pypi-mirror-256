@@ -1,0 +1,2 @@
+[paste.filter_app_factory]
+session = cone.sql:make_app
