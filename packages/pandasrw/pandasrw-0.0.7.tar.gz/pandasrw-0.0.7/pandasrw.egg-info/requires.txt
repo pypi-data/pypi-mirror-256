@@ -1,0 +1,8 @@
+polars
+xlwings
+datetime
+chardet
+xlsx2csv
+pandas>=2.2.0
+xlsxwriter
+python-calamine
