@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: minimal_project
+Version: 0.1.0
+Summary: A minimal Python package
+Home-page: https://github.com/Chandra158/minimal_project
+Author: Chandra Prakash
+Author-email: chandra.pr.158@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Minimal Project
+
+This is a minimal Python project.
+
+## Installation
+
+You can install the package using pip:
+
+`pip install minimal-package`
+
+
+## Usage
+
+```python
+from minimal_package.minimal_module import greet
+
+print(greet("Alice"))
+
+
