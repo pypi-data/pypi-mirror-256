@@ -1,0 +1,1 @@
+from looloo_mypackage.mypackage import MyPackage
