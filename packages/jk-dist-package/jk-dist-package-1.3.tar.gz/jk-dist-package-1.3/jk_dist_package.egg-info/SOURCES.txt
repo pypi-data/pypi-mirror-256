@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jk-dist-package/Binomialdistribution.py
+jk-dist-package/Gaussiandistribution.py
+jk-dist-package/Generaldistribution.py
+jk-dist-package/__init__.py
+jk_dist_package.egg-info/PKG-INFO
+jk_dist_package.egg-info/SOURCES.txt
+jk_dist_package.egg-info/dependency_links.txt
+jk_dist_package.egg-info/not-zip-safe
+jk_dist_package.egg-info/top_level.txt
