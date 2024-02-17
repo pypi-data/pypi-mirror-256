@@ -1,0 +1,7 @@
+pytest_fail_slow/__init__.py,sha256=hh0yg4K-zwdzeAnCDEFtJgD4PVvqPwUOVSJxMERIudM,4435
+pytest_fail_slow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_fail_slow-0.5.0.dist-info/METADATA,sha256=RhLbj-2UeyOg6xPG0rCs3dYdOi2uxAq56LAqLThGBJw,6303
+pytest_fail_slow-0.5.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pytest_fail_slow-0.5.0.dist-info/entry_points.txt,sha256=DiZp4KfWIOGcYzEDaQkXqmBvrl1Z2ulJ27VtSBdpKS0,40
+pytest_fail_slow-0.5.0.dist-info/licenses/LICENSE,sha256=El0o1KVet3cO8D_pkhWPG5vKhB_vg0dXkOqU4xWMD6E,1095
+pytest_fail_slow-0.5.0.dist-info/RECORD,,
