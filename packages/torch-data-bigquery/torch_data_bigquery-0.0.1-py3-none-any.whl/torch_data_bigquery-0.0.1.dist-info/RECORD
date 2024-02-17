@@ -1,0 +1,9 @@
+torch_data_bigquery/__about__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+torch_data_bigquery/__init__.py,sha256=st3w7un1v0e9YDB33NRklvoHupYpQk3jQzB9q6Kj-Ro,132
+torch_data_bigquery/dataset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torch_data_bigquery/dataset/query.py,sha256=pWpj4GnFO6-EYxqcoBqOe108pHJniApSX2zCjzP7A-0,989
+torch_data_bigquery/dataset/storage.py,sha256=bjWltYekfjAYIPAmlS2F3RevSp8vwWyNRZcnKvyrY1s,4019
+torch_data_bigquery-0.0.1.dist-info/METADATA,sha256=ghf36BtxLZG6-xhYs_FbOAgQKsoot7yfV2dtfMb4d6A,1629
+torch_data_bigquery-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+torch_data_bigquery-0.0.1.dist-info/licenses/LICENSE.txt,sha256=Y491wslv481TeW3wjZs6Dq8utq9lCuMvsHAHmdWRY70,1082
+torch_data_bigquery-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: torch-data-bigquery
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/xando/torch-data-bigquery#readme
+Project-URL: Issues, https://github.com/xando/torch-data-bigquery/issues
+Project-URL: Source, https://github.com/xando/torch-data-bigquery
+Author: Sebastian Pawluś
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: bigquery,google-cloud,pytorch,torch
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: pyarrow
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+# Torch Data Bigquery
+
+[![PyPI - Version](https://img.shields.io/pypi/v/torch-data-bigquery.svg)](https://pypi.org/project/torch-data-bigquery)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/torch-data-bigquery.svg)](https://pypi.org/project/torch-data-bigquery)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install torch-data-bigquery
+```
+
+## License
+
+`torch-data-bigquery` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
