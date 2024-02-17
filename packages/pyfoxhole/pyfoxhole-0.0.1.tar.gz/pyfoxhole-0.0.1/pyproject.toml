@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfoxhole"
+version = "0.0.1"
+description = "A thin wrapper over the Foxhole World Conquest API"
+authors = [
+  { name = "gparent", email = "370905+gparent@users.noreply.github.com" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+]
+requires-python = ">=3.9"
+dependencies = [
+  "requests<3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>24,<25",
+    "build",
+    "twine>=4,<5"
+]
+test = [
+    "pre-commit>=3,<4",
+    "pylint>=3,<4",
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/gparent/pyfoxhole/issues"
+"Homepage" = "https://github.com/gparent/pyfoxhole"
+
+[tool.black]
+line-length = 80
+target-version = ['py39', 'py310', 'py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.tox
+  | \venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+line_length = 80
+order_by_type = false
+profile = "black"
+skip_gitignore = true
+
+[tool.pylint.main]
+ignore = [".git"]
+
+[tool.pylint."messages control"]
+disable = [
+    "invalid-name",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "missing-function-docstring",
+    "too-few-public-methods",
+]
+
+[tool.pylint.reports]
+# Template used to display messages. This is a python new-style format string
+# used to format the message information. See doc for all details.
+msg-template = "{path}:{line}: [{msg_id}, {obj}] {msg} ({symbol})"

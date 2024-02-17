@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyfoxhole/__init__.py
+src/pyfoxhole/api.py
+src/pyfoxhole/models.py
+src/pyfoxhole.egg-info/PKG-INFO
+src/pyfoxhole.egg-info/SOURCES.txt
+src/pyfoxhole.egg-info/dependency_links.txt
+src/pyfoxhole.egg-info/requires.txt
+src/pyfoxhole.egg-info/top_level.txt

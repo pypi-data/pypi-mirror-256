@@ -1,0 +1,10 @@
+requests<3
+
+[dev]
+black<25,>24
+build
+twine<5,>=4
+
+[test]
+pre-commit<4,>=3
+pylint<4,>=3
