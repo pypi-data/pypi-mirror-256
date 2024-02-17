@@ -1,0 +1,16 @@
+api_wrapper/Client.py,sha256=0VOS7V2V3wxNwC4pZa2a3tKaNPOPxdj_KPS3FFJFNKs,4228
+api_wrapper/Pipeline.py,sha256=oqqjh8Zv7yyz9TU7DF6C4I8bB_Soj2vXbgonNM2Y-4M,2464
+api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/Helpers.py,sha256=A27BLpyNIP3h9LnmtA2r85rxyMOBy5ePlxCQkXPgTtU,252
+tests/TestAPIKeyOperations.py,sha256=6HYIKOO-XIoMdElCOxbsgsOMgZn3o-nPsx_QuU1C5wo,876
+tests/TestClientOperations.py,sha256=aoGl4Kpttxk-0kD9f88jcVym62DR1o_18roYjgYYfLE,1477
+tests/TestLogin.py,sha256=tNNG3g_xbODhw4ISDYP0C_yo3g13CS7Hh9msMGV-230,898
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/api_tests.py,sha256=go_J7O24agOKkHqDoE8ejcEWYVsdgF5OtNWKCLzF-VQ,1226
+vecflowapi/Client.py,sha256=0VOS7V2V3wxNwC4pZa2a3tKaNPOPxdj_KPS3FFJFNKs,4228
+vecflowapi/Pipeline.py,sha256=oqqjh8Zv7yyz9TU7DF6C4I8bB_Soj2vXbgonNM2Y-4M,2464
+vecflowapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vecflowApi-0.1.1.dist-info/METADATA,sha256=hzir21pAu8z2Xu5mhwhh02TIYBIlkqLreZQafLTl7fA,434
+vecflowApi-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vecflowApi-0.1.1.dist-info/top_level.txt,sha256=yS7Qw9KYCAJWBqKYdIFlXviJeGpqJNpIF5dG0ZeuihU,11
+vecflowApi-0.1.1.dist-info/RECORD,,
