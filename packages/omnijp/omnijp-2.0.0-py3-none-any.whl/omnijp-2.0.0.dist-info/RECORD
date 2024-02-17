@@ -1,0 +1,14 @@
+calc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc/calculator.py,sha256=RKQc81Wbtr-HGAsZhk4glEUKGRpBNhkB3ZVA9JkmLTA,308
+restq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restq/disk_cache.py,sha256=y31CfdsqF9ZTRfEoizHxz6hWVYExdZnD2DrymVUR6YY,2199
+restq/http_cached_request.py,sha256=poKpn3rp65LrzHR2orjyOpI6V23x2WPHewe-8xLnCg8,510
+restq/http_request.py,sha256=CZOr5AJkbSPpLN-xDDnCnJoEJPOFm1XCWbCn3VjuCek,579
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calculator.py,sha256=AzyK7fRSKZRG4s4WZfuS4jLJ-C7GllJ8tg4Nf3VK9kA,564
+omnijp-2.0.0.dist-info/LICENSE,sha256=W0Swzg0iE9A3w5mwb0msqV0FYlN55V4wdGCnkCZR3KA,1065
+omnijp-2.0.0.dist-info/METADATA,sha256=0aQ-4LVRTnpeSkm5qGlQI_K2ULCb90JpgkP8Qdg6p0k,232
+omnijp-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+omnijp-2.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+omnijp-2.0.0.dist-info/top_level.txt,sha256=UIQ2LinE1MYGf4fOHYHD5nwGrUqYpBk2a8GiFfHGEe0,17
+omnijp-2.0.0.dist-info/RECORD,,
