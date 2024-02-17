@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+postgres_adm/__init__.py
+postgres_adm/postgre_sql.py
+postgres_adm.egg-info/PKG-INFO
+postgres_adm.egg-info/SOURCES.txt
+postgres_adm.egg-info/dependency_links.txt
+postgres_adm.egg-info/requires.txt
+postgres_adm.egg-info/top_level.txt
