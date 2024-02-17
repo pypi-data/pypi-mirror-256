@@ -1,0 +1,8 @@
+LICENSE
+README.md
+inkcode.py
+pyproject.toml
+InkCode.egg-info/PKG-INFO
+InkCode.egg-info/SOURCES.txt
+InkCode.egg-info/dependency_links.txt
+InkCode.egg-info/top_level.txt
