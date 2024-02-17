@@ -1,0 +1,5 @@
+humanize
+numpy
+pillow
+pytesseract
+cv2
