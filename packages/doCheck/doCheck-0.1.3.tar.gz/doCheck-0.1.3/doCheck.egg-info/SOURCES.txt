@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+doCheck/__init__.py
+doCheck/checkers.py
+doCheck.egg-info/PKG-INFO
+doCheck.egg-info/SOURCES.txt
+doCheck.egg-info/dependency_links.txt
+doCheck.egg-info/top_level.txt
+test/test.py
