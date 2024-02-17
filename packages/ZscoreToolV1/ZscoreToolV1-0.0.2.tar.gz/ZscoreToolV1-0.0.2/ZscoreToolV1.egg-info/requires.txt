@@ -1,0 +1,14 @@
+numpy
+pandas
+scanpy
+umap
+matplotlib.pyplot
+scipy.stats
+tqdm
+adjustText
+sklearn.cluster
+matplotlib
+os
+scipy.spatial
+tifffile
+PIL
