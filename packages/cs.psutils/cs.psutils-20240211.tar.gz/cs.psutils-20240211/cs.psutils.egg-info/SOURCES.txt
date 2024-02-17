@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+cs.psutils.egg-info/PKG-INFO
+cs.psutils.egg-info/SOURCES.txt
+cs.psutils.egg-info/dependency_links.txt
+cs.psutils.egg-info/requires.txt
+cs.psutils.egg-info/top_level.txt
+lib/python/cs/psutils.py
