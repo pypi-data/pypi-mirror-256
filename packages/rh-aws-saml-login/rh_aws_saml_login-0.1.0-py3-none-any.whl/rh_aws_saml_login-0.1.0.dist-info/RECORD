@@ -1,0 +1,8 @@
+rh_aws_saml_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rh_aws_saml_login/__main__.py,sha256=JX9cE2cNVRBQEI1R1PL4-Bl9PPLyPDXazfRrIeSXx7w,1720
+rh_aws_saml_login/core.py,sha256=rYh-NjUUpmRbkkP-Fe3yp_l9zcWHTtF2x23NiLxC2M0,6679
+rh_aws_saml_login/utils.py,sha256=8ajnNeVP0qQzaDax8g6n4V4-3mSP8EJ2aqxxgMpK3ok,1448
+rh_aws_saml_login-0.1.0.dist-info/entry_points.txt,sha256=kL7ksxU_hIqD5cA6sLfG1c2lMdrWR45jM_Z_C-KGFNg,68
+rh_aws_saml_login-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+rh_aws_saml_login-0.1.0.dist-info/METADATA,sha256=DjbzomeyVgF2U1_5hXfE35fCB0r-DfxpGt5lBUPUQYI,3828
+rh_aws_saml_login-0.1.0.dist-info/RECORD,,
