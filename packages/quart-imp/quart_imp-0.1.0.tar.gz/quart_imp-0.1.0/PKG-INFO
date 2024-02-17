@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: quart-imp
+Version: 0.1.0
+Summary: A Quart auto importer that allows your Quart apps to grow big.
+Author-email: David Carmichael <david@uilix.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Requires-Dist: click
+Requires-Dist: Quart
+Requires-Dist: quart-flask-patch
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: toml
+Requires-Dist: more-itertools
+Project-URL: Documentation, https://cheesecake87.github.io/quart-imp/
+Project-URL: Source, https://github.com/CheeseCake87/quart-imp
+
+![](https://raw.githubusercontent.com/CheeseCake87/Quart-Imp/master/_assets/quart-Imp-Small.png)
+
+# Quart-Imp
+
+[![PyPI version](https://img.shields.io/pypi/v/quart-imp)](https://pypi.org/project/quart-imp/)
+[![License](https://img.shields.io/badge/license-LGPL_v2-red.svg)](https://raw.githubusercontent.com/CheeseCake87/quart-imp/master/LICENSE)
+![Downloads](https://static.pepy.tech/badge/quart-imp)
+![black](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+## What is Quart-Imp?
+
+Quart-Imp's main purpose is to help simplify the importing of blueprints, resources, and models.
+It has a few extra features built in to help with securing pages and password authentication.
+
