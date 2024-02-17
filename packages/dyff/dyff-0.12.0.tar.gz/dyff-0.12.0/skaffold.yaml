@@ -1,0 +1,23 @@
+# Copyright UL Research Institutes
+# SPDX-License-Identifier: Apache-2.0
+
+apiVersion: skaffold/v4beta6
+kind: Config
+metadata:
+  name: dyff
+build:
+  artifacts:
+    - image: api
+  local:
+    useBuildkit: true
+deploy:
+  helm:
+    releases:
+      - name: dyff
+        chartPath: chart
+        version: 0.1.0
+        setValueTemplates:
+          api.image.repository: "{{ .IMAGE_REPO_api }}"
+          api.image.tag: "{{ .IMAGE_TAG_api }}@{{ .IMAGE_DIGEST_api }}"
+        valuesFiles:
+          - settings.yaml

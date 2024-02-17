@@ -1,0 +1,28 @@
+# Copyright UL Research Institutes
+# SPDX-License-Identifier: Apache-2.0
+
+[build-system]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm>=8.0",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dyff-api"
+description = "API server for the Dyff AI auditing platform."
+
+dynamic = ["version"]
+
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = [
+    "dyff.api*",
+    "dyff.core*",
+]
+namespaces = true
+
+[tool.setuptools_scm]

@@ -1,0 +1,6 @@
+absl-py
+confluent-kafka
+dyff-schema
+pyarrow
+pydantic~=1.0
+pymongo[srv]

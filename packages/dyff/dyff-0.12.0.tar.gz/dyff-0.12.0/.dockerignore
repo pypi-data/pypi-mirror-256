@@ -1,0 +1,50 @@
+/chart/
+/doc/
+/docker/
+/gcloud/
+/ingest/
+/node_modules/
+/venv/
+
+__pycache__/
+*.pyc
+
+build/
+dist/
+*.egg-info/
+
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+.hypothesis/
+.pytest_cache/
+
+docs/_build/
+
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# secrets
+.env
+venv/
+settings.yml
+settings.yaml
+env.sh
+init.sh
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
