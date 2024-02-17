@@ -1,0 +1,4 @@
+[console_scripts]
+ffpe = MediaSwiftPy.ffpe:ffpe
+ffpl = MediaSwiftPy.ffpl:ffpl
+ffpr = MediaSwiftPy.ffpr:ffpr
