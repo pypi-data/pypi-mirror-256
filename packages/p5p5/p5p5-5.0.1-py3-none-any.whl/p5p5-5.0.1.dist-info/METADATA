@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: p5p5
+Version: 5.0.1
+Summary: A test upload
+Home-page: http://python.org
+Author: PySimpleSoft Inc.
+Author-email: 
+License: Free To Use But Restricted
+Keywords: p5p5
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: PySimpleGUI
+Classifier: Framework :: PySimpleGUI :: 5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: PySimpleGUI
+
