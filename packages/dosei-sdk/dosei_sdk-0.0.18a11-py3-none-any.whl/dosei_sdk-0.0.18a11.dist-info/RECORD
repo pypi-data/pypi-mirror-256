@@ -1,0 +1,9 @@
+dosei_sdk/__init__.py,sha256=s6NoArX1imY1Y9IHWs9cPSooPRmdxaLRJy5aloSDUmc,32
+dosei_sdk/app.py,sha256=7XYRf4PISkLGE740gE57qZG6SzcyjpQWFFS8gZ0bMS8,1512
+dosei_sdk/importer.py,sha256=rUjBcH3xCBIvuEE7Buq4uWxjAzHPjEfP1dESQyAmPpU,1174
+dosei_sdk/main.py,sha256=wrtgi2IUPdDPdzB0GhF_s6ErM4GZCPkbSCH1FCgUlow,825
+dosei_sdk/schemas/cron_jobs.py,sha256=qdHjDwckpm1CkStCMEFnTWTJbVnjKGCziIpguvLrUGk,847
+dosei_sdk-0.0.18a11.dist-info/LICENSE,sha256=TOEUPZc1wNvgdHSHwL3YcILwOMPotf3DkfgLZqwenmg,11343
+dosei_sdk-0.0.18a11.dist-info/METADATA,sha256=Y9pk4-6F33_UPqIdQBqdhq2S5LEXg469EmKyZe1Ax8Y,1419
+dosei_sdk-0.0.18a11.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dosei_sdk-0.0.18a11.dist-info/RECORD,,
