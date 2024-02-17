@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/sigma_dataflow_custom/__init__.py
+src/sigma_dataflow_custom/dofn.py
+src/sigma_dataflow_custom/transform.py
+src/sigma_dataflow_custom/utils.py
+src/sigma_dataflow_custom.egg-info/PKG-INFO
+src/sigma_dataflow_custom.egg-info/SOURCES.txt
+src/sigma_dataflow_custom.egg-info/dependency_links.txt
+src/sigma_dataflow_custom.egg-info/requires.txt
+src/sigma_dataflow_custom.egg-info/top_level.txt
