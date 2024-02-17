@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: plasTeX-gerby
+Version: 1.0.2
+Summary: LaTeX document processing framework
+Author: Kevin D. Smith
+Author-email: Kevin.Smith@sas.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+LaTeX document processing framework
