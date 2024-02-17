@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sigma_dataflow_custom
+Version: 0.0.1
+Author: sigma
+Author-email: 
+Requires-Dist: google-cloud-storage ==2.14.0
+Requires-Dist: apache-beam[gcp] ==2.48.0
+
