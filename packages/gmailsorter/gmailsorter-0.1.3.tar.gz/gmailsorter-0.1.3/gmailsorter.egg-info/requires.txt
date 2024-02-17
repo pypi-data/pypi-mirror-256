@@ -1,0 +1,13 @@
+google-api-python-client>=2.117.0
+google-auth>=2.27.0
+google-auth-oauthlib>=1.2.0
+numpy>=1.26.4
+tqdm>=4.66.1
+pandas>=2.2.0
+scikit-learn>=1.4.0
+sqlalchemy>=2.0.25
+
+[webapp]
+gunicorn>=21.2.0
+flask>=3.0.2
+flask-login>=0.6.3
