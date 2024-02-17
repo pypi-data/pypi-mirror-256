@@ -1,0 +1,12 @@
+LICENSE
+fylecli.py
+pyproject.toml
+setup.py
+fyle_internals/bootstrap.py
+fyle_internals/receiver.py
+fyle_internals/sender.py
+fylecli.egg-info/PKG-INFO
+fylecli.egg-info/SOURCES.txt
+fylecli.egg-info/dependency_links.txt
+fylecli.egg-info/requires.txt
+fylecli.egg-info/top_level.txt
