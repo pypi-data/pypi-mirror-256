@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: scNovel
+Version: 1.1.0
+Summary: scNovel, a neural network framework, provides a fast and reliable tools for scRNA-seq novel rare cell detection.
+Home-page: https://github.com/chuanyang-Zheng/scNovel
+Author: Chuanyang Zheng
+Author-email: cyzheng21@cse.cuhk.edu.hk
+License: MIT Licence
+Requires-Python: >=3.5.0
+License-File: LICENSE

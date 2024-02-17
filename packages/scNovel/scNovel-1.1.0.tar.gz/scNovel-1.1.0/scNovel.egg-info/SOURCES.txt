@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+scNovel/__init__.py
+scNovel/scNovel_IO.py
+scNovel/scNovel_classifier.py
+scNovel/score_functions.py
+scNovel/weightsampling.py
+scNovel.egg-info/PKG-INFO
+scNovel.egg-info/SOURCES.txt
+scNovel.egg-info/dependency_links.txt
+scNovel.egg-info/top_level.txt
