@@ -1,0 +1,11 @@
+verbs-0.2.0.dist-info/METADATA,sha256=jecg1pMgxWsiQPd7MKTwpLqi9_UdCLAgNatJG9dU7HU,3114
+verbs-0.2.0.dist-info/WHEEL,sha256=aUq0YpgMqG5VWoJyiSBR74qbEJt2FULFr1Rdxybsy1A,94
+verbs-0.2.0.dist-info/license_files/LICENSE,sha256=7ikA10RZO1S-AH9ksAzcciFmk69i6zbwQeY9PJG6d4I,1087
+verbs/abi.py,sha256=SUsA5H5joLvN_BW1ql7hAYj92wIONmg4HGRrQnhqOWA,13653
+verbs/batch_runner.py,sha256=mFxU84e_SSVoLdyXzwyZ1Fa89WAoHaAlygWmLeWBrLU,4076
+verbs/sim.py,sha256=Jf12uKXOhH4VIVMxp0DobVL0jyLykQCNXdyKfOkJMec,8414
+verbs/types.py,sha256=Z-xE2TXuvGpjj34ZafFAzkQ6O3KUwexEW8PN4ORLruE,366
+verbs/utils.py,sha256=mOLn3hdHsmL2sdgojLUbLdVx-dk-SOKzmuMyJTHOjGk,5109
+verbs/__init__.py,sha256=mT1AhlRLpWYmZ4vDoCScH3ik9d-XsUP8Q0vQ1KhiCWQ,62
+verbs/envs.cp39-win_amd64.pyd,sha256=8uteC0HKx0tb653LK215hC5x1lCouGHP2dAfeZBrqhE,7740416
+verbs-0.2.0.dist-info/RECORD,,
