@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: dls-toolkit
+Version: 0.1.5
+Summary: A set of my common tools.
+Author: Dustin Sampson
+Author-email: dustin@sparkgeo.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.34.39,<2.0.0)
+Requires-Dist: google-api-python-client (>=2.117.0,<3.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# DLS Toolkit
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## Description
+
+A set of my common tools.
+
+
+## Installation
+
+`pip install dls-toolkit`
+
+## Environment Variables
+
+```
+
+# Google Cloud
+
+GOOGLE_APPLICATION_CREDENTIALS - Path to the Google Cloud Service Account JSON file.
+    Needs access to:
+        - Google Drive
+
+# AWS
+
+AWS_ACCESS_KEY_ID - AWS Access Key
+AWS_SECRET_ACCESS_KEY - AWS Secret Access Key
+AWS_REGION - AWS Region
+    Needs access to:
+        - Billing
+
+```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+- [GitHub](https://github.com/your-username)
+

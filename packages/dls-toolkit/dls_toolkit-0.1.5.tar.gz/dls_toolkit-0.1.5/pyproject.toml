@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dls-toolkit"
+version = "0.1.5"
+description = "A set of my common tools."
+authors = ["Dustin Sampson <dustin@sparkgeo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = "^2.117.0"
+boto3 = "^1.34.39"
+python-dateutil = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+ruff = "^0.2.1"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
