@@ -1,0 +1,1 @@
+from .main import dllfunc, as_ptr
