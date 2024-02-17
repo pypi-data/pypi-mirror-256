@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eis-claims
+Version: 1.0.0
+Summary: EMIL ClaimService
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,EMIL ClaimService
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+    The EMIL ClaimService API description  # noqa: E501
+    
