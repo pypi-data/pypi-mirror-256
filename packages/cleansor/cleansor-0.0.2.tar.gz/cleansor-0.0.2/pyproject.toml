@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cleansor"
+authors = [{name = "calcuis", email = "calculatics@gmail.com"}]
+description = "duplicate file cleansor"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/calcuis/cleansor"
+Issues = "https://github.com/calcuis/cleansor/issues"
