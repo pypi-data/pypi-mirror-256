@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ranger21"
+version = "0.1.0"
+description = "A rewrite of the Ranger deep learning optimizer to integrate newer optimization ideas"
+authors = ["Less Wright <lessw@etrillium.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "*"
+matplotlib = "*"
+numpy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
