@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "st-user-state"
+version = "0.1.0"
+description = "Persistent sessions for Streamlit."
+authors = ["Boye Sjo <boyegs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.31.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = [
+    "E", 
+    "F", 
+    "PL",
+    "B",
+    "A",
+    "T",
+    "PT",
+    "I",
+]
+
+ignore = [
+    "B905",
+    "B028",
+]
+
+target-version = "py312"
+line-length = 79
+
