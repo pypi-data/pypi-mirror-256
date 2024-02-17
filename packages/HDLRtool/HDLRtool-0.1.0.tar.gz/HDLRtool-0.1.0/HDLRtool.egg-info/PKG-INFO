@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: HDLRtool
+Version: 0.1.0
+Summary: 寒冬利刃的工具箱 handongliren(hdlr)'s toolbox
+Home-page: https://gitee.com/handongliren
+Author: 寒冬利刃(handongliren(hdlr))
+Author-email: 1079489986@qq.com
+License: UNKNOWN
+Description: # 寒冬利刃的工具箱
+        # handongliren(hdlr)'s toolbox
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/Markdown
