@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: NetStructer
+Version: 0.4
+Summary: NetStructer is a python module for socket api.it's provides some function to send some type like list set str dict ...
+Author: Haytam-Zakaria
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+Key Features:
+
+Encryption Support: Utilizes the Fernet encryption scheme from the cryptography library to ensure secure communication channels between the server and clients.
+
+Data Serialization: Facilitates the serialization and deserialization of various data types, including strings, lists, and dictionaries, using JSON serialization for compatibility and security.
+
+Session Management: Manages client sessions and provides a container interface for accessing, storing, and managing session information efficiently.
+
+Error Handling: Implements robust error handling mechanisms to gracefully manage exceptions and errors that may occur during communication, ensuring the reliability and stability of the communication bridge.
+
+Flexible Configuration: Offers flexibility in configuring server and client connections, allowing customization of connection parameters such as IP address, port, encryption key, and timeout values.
