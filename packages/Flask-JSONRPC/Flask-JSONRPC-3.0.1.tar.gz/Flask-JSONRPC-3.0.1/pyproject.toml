@@ -1,0 +1,218 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel>=0.42"]
+build-backend = "backend"
+backend-path = ["src/buildtools"]
+
+[project]
+name = "Flask-JSONRPC"
+version = "3.0.1"
+description = "Adds JSONRPC support to Flask."
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+authors = [{name = "Nycholas Oliveira", email = "nycholas@cenobit.es"}]
+maintainers = [{name = "Cenobit Technologies Inc.", email = "hi@cenobit.es"}]
+keywords = ["flask", "flask-extensions", "jsonrpc"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "Flask>=3.0.0,<4.0",
+    "typeguard==2.13.3",
+    "typing_extensions>=4.3.0",
+    "typing_inspect==0.9.0",
+]
+
+[project.optional-dependencies]
+async = ["Flask[async]>=3.0.0,<4.0"]
+dotenv = ["Flask[dotenv]>=3.0.0,<4.0"]
+
+[project.urls]
+Donate = "https://github.com/sponsors/nycholas"
+Documentation = "https://flask-jsonrpc.readthedocs.io/"
+"Source Code" = "https://github.com/cenobites/flask-jsonrpc"
+"Issue Tracker" = "https://github.com/cenobites/flask-jsonrpc/issues/"
+Website = "https://flask-jsonrpc.readthedocs.io/"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.cibuildwheel]
+before-all = "uname -a"
+build-verbosity = 1
+skip = [
+    "cp3{8,9,10}-*",
+    "*-manylinux_i686",
+    "*-musllinux_i686",
+    "*-win32",
+    "pp*",
+]
+
+[tool.cibuildwheel.environment]
+MYPYC_ENABLE = "1"
+
+[tool.ruff]
+src = ["src"]
+fix = true
+show-fixes = true
+show-source = true
+line-length = 120
+target-version = "py38"
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle error
+    "W",    # pycodestyle warning
+    "F",    # pyflakes
+    "UP",   # pyupgrade
+    "ANN",  # flake8-annotations
+    "B",    # flake8-bugbear
+    "Q",    # flake8-quotes
+    "SIM",  # flake8-simplify
+    "T",    # flake8-type-checking
+    "B",    # flake8-bandit
+    "C",    # flake8-copyright
+    "I",    # isort
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+docstring-quotes = "double"
+
+[tool.ruff.lint.flake8-type-checking]
+exempt-modules = ["typing", "typing_extensions"]
+
+[tool.ruff.lint.flake8-bandit]
+check-typed-exception = true
+
+[tool.ruff.lint.flake8-copyright]
+author = "Cenobit Technologies, Inc. http://cenobit.es/"
+
+[tool.ruff.lint.isort]
+length-sort = true
+combine-as-imports = true
+order-by-type = true
+force-sort-within-sections = true
+split-on-trailing-comma = false
+section-order = ["future", "standard-library", "flask", "third-party", "first-party", "local-folder"]
+
+[tool.ruff.lint.isort.sections]
+"flask" = ["flask"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+skip-magic-trailing-comma = true
+docstring-code-format = true
+docstring-code-line-length = 79
+
+[tool.pytest.ini_options]
+addopts = "--pyargs --doctest-modules --junitxml=junit/test-results.xml --cov-report=html --cov-report=term --cov-report=lcov --cov=flask_jsonrpc --cov-fail-under=100"
+junit_family = "xunit2"
+python_files = ["tests.py", "test_*.py", "*_tests.py"]
+pythonpath = "src/"
+testpaths = [
+    "src/flask_jsonrpc",
+    "tests",
+]
+norecursedirs = [
+    "tests/test_apps",
+    "tests/integration",
+]
+required_plugins = [
+    "pytest-cov",
+    "pytest-xdist",
+    "pytest-sugar",
+    "pytest-env",
+]
+
+[tool.coverage.run]
+branch = true
+source = [
+    "src/flask_jsonrpc",
+    "tests",
+]
+omit = [
+    "*/settings.py",
+    "*/fixtures.py",
+    "*/tests.py",
+    "*/test_*.py",
+    "*/*_tests.py",
+]
+
+[tool.coverage.paths]
+source = [
+    "src",
+    "*/site-packages",
+]
+
+[tool.coverage.report]
+fail_under = 100
+ignore_errors = true
+skip_covered = true
+exclude_lines = [
+    "pragma: no cover",
+    "pragma: no cover ${PRAGMA_VERSION}",
+    "def __repr__",
+    "if self\\.debug",
+    "if settings\\.DEBUG",
+    "if current_app\\.config\\['DEBUG'\\]",
+    "if app\\.config\\['DEBUG'\\]",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "if t\\.TYPE_CHECKING:",
+]
+
+[tool.mypy]
+files = ["src/flask_jsonrpc"]
+python_version = "3.12"
+check_untyped_defs = true
+ignore_errors = false
+ignore_missing_imports = false
+strict = true
+
+[[tool.mypy.overrides]]
+module = [
+    "asgiref.*",
+    "mypy-werkzeug.datastructures.*",
+    "typeguard.*",
+    "dotenv.*",
+]
+ignore_missing_imports = true
+
+
+[tool.pytype]
+inputs = ["src/flask_jsonrpc"]
+python_version = "3.11"
+disable = ["invalid-annotation"]
