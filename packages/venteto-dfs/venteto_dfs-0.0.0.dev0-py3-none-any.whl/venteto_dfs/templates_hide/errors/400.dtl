@@ -1,0 +1,10 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+
+{% extends "base.dtl" %}
+
+{% block title %}Bad request{% endblock %}
+{% block title_meta %}Bad request{% endblock %}
+
+{% block content %}
+    <p>Bad request (400)</p>
+{% endblock %}

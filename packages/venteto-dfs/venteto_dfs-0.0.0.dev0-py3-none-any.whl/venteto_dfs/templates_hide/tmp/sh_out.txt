@@ -1,0 +1,4 @@
+# nothing appended here from the shell yet
+# ------------------------------------------------
+
+appending stuff now ...

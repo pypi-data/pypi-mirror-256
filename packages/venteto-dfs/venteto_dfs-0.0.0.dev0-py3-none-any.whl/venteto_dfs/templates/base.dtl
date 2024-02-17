@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{# <html lang="en-us" dir="ltr" class="dark"> #}
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        {% block title_meta %}{% endblock %}
+
+        <style>
+            body {
+                /*
+                */
+                background: #262922;
+                color: white;
+                font-family: sans;
+            }
+        </style>
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>

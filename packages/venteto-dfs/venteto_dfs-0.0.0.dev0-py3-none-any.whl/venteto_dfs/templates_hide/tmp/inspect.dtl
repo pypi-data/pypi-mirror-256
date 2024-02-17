@@ -1,0 +1,104 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{% extends "base.dtl" %}
+
+{% block title %}Inspect{% endblock %}
+{% block title_meta %}Inspect{% endblock %}
+
+{% block content %}
+
+{% if not user.is_authenticated %}
+<p>You need to log in to view this page.</p>
+{% endif %}
+
+{% if request.user.is_superuser %}
+<h1>Inspect</h1>
+
+<h2>Environment Variables</h2>
+<ol>
+
+<li><strong>Set via Dockerfile CMD</strong>
+<ol>
+<li>LAST_DEPLOY = {{ LAST_DEPLOY }}</li>
+</ol>
+</li>
+
+<li><strong>Set via .envrc and settings.py</strong>
+<ol>
+<li>DNV = {{ DNV }}</li>
+</ol>
+</li>
+
+<li><strong>Set via Fly secrets (automatically)</strong>
+<ol>
+{% if DEBUG %}
+<li>DATABASE_URL = {{ DATABASE_URL }}</li>
+<li>DB_URL_DICT = {{ DB_URL_DICT }}</li>
+{% else %}
+<li><strong><em>NOPE.</em></strong></li>
+{% endif %}
+</ol>
+</li>
+
+<li><strong>Set via Fly secrets (manually) AND .envrc</strong>
+<ol>
+{% if DEBUG %}
+<li>ADMIN_SLUG = {{ ADMIN_SLUG }}</li>
+<li>DEFAULT_FROM_EMAIL = {{ DEFAULT_FROM_EMAIL }}</li>
+<li>SECRET_KEY = {{ SECRET_KEY }}</li>
+<li>SENDINBLUE_API_KEY = {{ SENDINBLUE_API_KEY }}
+    <ul>
+        <li>ANYMAIL = {{ ANYMAIL }}</li>
+    </ul>
+</li>
+<li>SERVER_EMAIL = {{ SERVER_EMAIL }}</li>
+{% else %}
+<li><strong><em>NOPE.</em></strong></li>
+{% endif %}
+<li>RAND_MAYBE_NEW_SECRET_KEY = {{ RAND_MAYBE_NEW_SECRET_KEY }}</li>
+<li>RAND_MAYBE_NEW_ADMIN_SLUG = {{ RAND_MAYBE_NEW_ADMIN_SLUG }}</li>
+</ol>
+</li>
+
+<li><strong>Set via .env file</strong>
+<ol>
+<li>ANA_GA4_ID = {{ ANA_GA4_ID }}</li>
+<li>MEDIA_HOST = {{ MEDIA_HOST }}</li>
+<li>PROJ_NAME = {{ PROJ_NAME }}</li>
+</ol>
+</li>
+
+
+<li><strong>Set via secret.py</strong>
+<ol>
+<li>ALLOWED_HOSTS = {{ ALLOWED_HOSTS }}</li>
+<li>CSRF_TRUSTED_ORIGINS = {{ CSRF_TRUSTED_ORIGINS }}</li>
+<li>ADMINS = {{ ADMINS }}</li>
+</ol>
+</li>
+
+<li><strong>Set via settings.py</strong>
+<ol>
+<li>ADMIN_HEADER_BG = {{ ADMIN_HEADER_BG }}</li>
+<li>DEBUG = {{ DEBUG }}</li>
+<li>ENV_NAME = {{ ENV_NAME }}</li>
+</ol>
+</li>
+{% comment "" %}
+{% endcomment %}
+
+<h2>Notes</h2>
+<p><strong>2023 Jun 2 note:</strong> <em>only just started receiving emails of this error in production, was never an issue before, so added the IPv4 address to ALLOWED_HOSTS for the time being (need to research why it suddenly became an issue ... however, this was before brute force migrating to the new platform by deleting and recreating my app)</em>:</p>
+
+<pre>
+Invalid HTTP_HOST header: '172.19.65.242:8080'. You may need to add '172.19.65.242' to ALLOWED_HOSTS.
+
+DisallowedHost at /metrics
+Invalid HTTP_HOST header: '172.19.65.242:8080'. You may need to add '172.19.65.242' to ALLOWED_HOSTS.
+
+Request Method: GET
+Request URL: http://172.19.65.242:8080/metrics
+</pre>
+
+
+{% endif %}
+{% endblock %}

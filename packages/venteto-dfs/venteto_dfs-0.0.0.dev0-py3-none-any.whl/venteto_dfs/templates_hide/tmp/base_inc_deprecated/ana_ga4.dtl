@@ -1,0 +1,16 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+
+{# https://github.com/cobrateam/django-htmlmin/issues/6 #}
+
+{% if ANA_GA4_ID %}
+{# Google tag (gtag.js) #}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ANA_GA4_ID}}"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ANA_GA4_ID}}');
+</script>
+{% endif %}

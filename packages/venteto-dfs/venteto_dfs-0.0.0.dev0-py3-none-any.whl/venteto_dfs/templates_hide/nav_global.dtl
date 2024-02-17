@@ -1,0 +1,74 @@
+{% comment "" %}
+{% with url_name=request.resolver_match.url_name %}
+<li class="dropdown {% if url_name == 'index' %}active{% endif %}"
+<a href="{% url 'index' %}" >Home </a>
+</li>
+<li>...</li>
+{% endwith %}
+{% endcomment %}
+
+
+{# {% if not user.is_authenticated %}<a href="{% url "login" %}">Login</a>{% endif %} #}
+
+{# ============================================ #}
+<hr>
+<ul>
+    {% with url_name=request.resolver_match.url_name %}
+        <li {% if url_name == 'home' %}style="display:none;"{% endif %}>
+            <a href="{% url 'home' %}" >Home </a>
+        </li>
+    {% endwith %}
+
+    {% if user.is_authenticated %}
+        <li>
+            Hi, {{request.user.username}} {# <a href="{% url "profile" %}">(profile)</a> #}
+        </li>
+        <li>
+            <form id="logout-form" method="post" action="{% url 'admin:logout' %}">
+                {% csrf_token %}
+                <button type="submit">Log out</button>
+            </form>
+        </li>
+    {% else %}
+        {% with url_name=request.resolver_match.url_name %}
+            <li {% if url_name == 'login' %}style="display:none;"{% endif %}>
+                <a href="{% url 'login' %}" >Login</a>
+            </li>
+        {% endwith %}
+    {% endif %}
+
+    {% if request.user.is_superuser %}
+        <li><em><a target="_blank" href="{% url "admin:index" %}">Admin</a></em></li>
+
+        {% comment "" %}
+        <li><a href="{% url "mgt_inspect" %}">Inspect</a></li>
+        <li><a href="{% url "mgt_experiments" %}">Exp</a></li>
+        {% endcomment %}
+
+        {% comment "" %}
+        <li>
+            <a href="{% url "reading_list_private" %}">Reading List (Private)</a> |
+            <a href="{% url "reading_list_public" %}">Reading List</a>
+        </li>
+        {% endcomment %}
+
+        <li>
+            <a href="{% url "track_list_private_all" %}">Tracks (Private)</a> |
+            <a href="{% url "track_list" %}">Tracks</a> |
+            {% comment "" %}
+            <a href="{% url "tag_list" %}">Tags</a> |
+            <a href="{% url "artist_list" %}">Artists</a>
+            {% endcomment %}
+        </li>
+
+    {% endif %}
+
+    
+    {% comment "" %}
+    {% if request.user.is_superuser %}
+    <li>Faves: <a href="{% url 'artwork_list' %}">Art</a></li>
+    <li>Faves: <a href="{% url 'collab_list' %}">Collaborators</a></li>
+    {% endif %}
+    {% endcomment %}
+
+</ul>
