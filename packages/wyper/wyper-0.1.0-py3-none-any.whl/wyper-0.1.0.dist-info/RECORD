@@ -1,0 +1,12 @@
+wyper/__init__.py,sha256=z-CzqJ9XhKXLfch-x7sFg42DC_7-Af3Wd-RQp6bIgSE,509
+wyper/colors.py,sha256=0z-Eq-mLi-6yL1i4FvJ03Sa_5tr2wbFYQWIRZdv0b18,1736
+wyper/fonts/dmsans-bold.ttf,sha256=SdrSP4uZLAwoWKByMP6QIFTdOEBQv-EpHTxPUPLHXNo,56308
+wyper/fonts/dmsans-medium.ttf,sha256=fO5oMiNZlFSAe_PArDAAIvTDVAGsbAhQyuQwRTXEQXU,56400
+wyper/fonts/dmsans-thin.ttf,sha256=uE37IdaHmpz8b7ci_j-L42k4Yp9Edbb8y9EdUQCmyCI,56384
+wyper/fonts/material-symbols-round.ttf,sha256=XX_78cWMDCLRqLoffH1xL7Ywd-r8rdCAPAZLK3E6azA,947336
+wyper/layouthandler.py,sha256=1e_BD4QwwkN9Ixa204E-4pycGo1MXbb_buUTyOyjGsI,13974
+wyper/widgets.py,sha256=9exJxgKoCBpYo543_69XYPMPmUWpeSi-RR1AcoT6TXk,49472
+wyper-0.1.0.dist-info/LICENSE,sha256=pj0mfL61fa8siAWWWmqru1wpFAUVgs2xp-Db6r56X9A,1066
+wyper-0.1.0.dist-info/METADATA,sha256=n5lPBBG7Ro9guolIyJwrU-1e4gAUnFOgbu5uVufLF-A,624
+wyper-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+wyper-0.1.0.dist-info/RECORD,,
