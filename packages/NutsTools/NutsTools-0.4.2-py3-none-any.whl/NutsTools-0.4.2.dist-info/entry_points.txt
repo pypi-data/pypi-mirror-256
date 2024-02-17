@@ -1,0 +1,2 @@
+[console_scripts]
+postalcode2nuts = nutstools.main:run
