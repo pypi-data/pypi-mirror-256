@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ws_watcher
+Version: 0.6.0
+Summary: Minimalistic file watcher with ability to send WebSocket msgs and execute commands.
+Author-Email: Sergei Minaev <i@zenux.ru>
+License: BSD 2-Clause License
+Requires-Python: >=3.8
+Requires-Dist: asyncio
+Requires-Dist: inotify
+Requires-Dist: websockets
+Description-Content-Type: text/markdown
+
+[draft] ws_watcher - Minimalistic file watcher with ability to send WebSocket msgs and execute commands.
