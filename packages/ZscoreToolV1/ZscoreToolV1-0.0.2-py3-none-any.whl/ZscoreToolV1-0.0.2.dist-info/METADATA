@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ZscoreToolV1
+Version: 0.0.2
+Summary: Test python package
+Author: Emma Gerrits
+Author-email: emma.gerrits@ki.se
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scanpy
+Requires-Dist: umap
+Requires-Dist: matplotlib.pyplot
+Requires-Dist: scipy.stats
+Requires-Dist: tqdm
+Requires-Dist: adjustText
+Requires-Dist: sklearn.cluster
+Requires-Dist: matplotlib
+Requires-Dist: os
+Requires-Dist: scipy.spatial
+Requires-Dist: tifffile
+Requires-Dist: PIL
+
+Just testing
