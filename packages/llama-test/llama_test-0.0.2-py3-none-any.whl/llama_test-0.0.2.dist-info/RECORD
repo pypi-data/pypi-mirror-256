@@ -1,0 +1,9 @@
+src/.env,sha256=Vahti8UpAre8xZiHcb5vwMw2meaFeLbfweE4etQINPg,19
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/settings.py,sha256=g78NnL6D8jSoX2ERZWxLOxG3hTD2bUqDGogvTA95K6k,277
+src/starter.py,sha256=acQCBR-P3rosVTPK9KfxJOTCKJisuXkvIffUyJCLXgM,1811
+llama_test-0.0.2.dist-info/METADATA,sha256=9lrvlnulRHj1FanHwPiu6fMzl1zUPwLvYan_nGKgu_s,966
+llama_test-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+llama_test-0.0.2.dist-info/entry_points.txt,sha256=KOxUcJOkFgWU7i-RDvx7MbiroZDZBIjZCvNTZBPU7kA,48
+llama_test-0.0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+llama_test-0.0.2.dist-info/RECORD,,
