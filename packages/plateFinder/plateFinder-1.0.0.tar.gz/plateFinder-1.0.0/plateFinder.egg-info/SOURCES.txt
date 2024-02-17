@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+plateFinder/__init__.py
+plateFinder/plates.py
+plateFinder/utils.py
+plateFinder.egg-info/PKG-INFO
+plateFinder.egg-info/SOURCES.txt
+plateFinder.egg-info/dependency_links.txt
+plateFinder.egg-info/requires.txt
+plateFinder.egg-info/top_level.txt
