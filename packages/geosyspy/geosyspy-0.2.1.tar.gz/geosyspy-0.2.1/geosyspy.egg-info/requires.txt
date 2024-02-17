@@ -1,0 +1,9 @@
+requests
+requests-oauthlib
+oauthlib
+scipy
+pandas
+shapely
+rasterio
+xarray
+retrying
