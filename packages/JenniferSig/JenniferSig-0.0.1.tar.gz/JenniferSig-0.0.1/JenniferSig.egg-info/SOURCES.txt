@@ -1,0 +1,8 @@
+README.md
+setup.py
+JenniferSig/JenniferSig.py
+JenniferSig/__init__.py
+JenniferSig.egg-info/PKG-INFO
+JenniferSig.egg-info/SOURCES.txt
+JenniferSig.egg-info/dependency_links.txt
+JenniferSig.egg-info/top_level.txt
