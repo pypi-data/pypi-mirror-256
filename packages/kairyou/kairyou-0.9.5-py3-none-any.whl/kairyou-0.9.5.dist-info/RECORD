@@ -1,0 +1,11 @@
+kairyou/__init__.py,sha256=wl434GJjp82Bx_N9hKqnK78R6tgVNtEJM6YHRoVcpbg,69
+kairyou/exceptions.py,sha256=dMSyixWaw3W3tGtB37bM3aGQ2mZH-z030BWdFl7-NnY,2430
+kairyou/kairyou.py,sha256=ptlvRPQr5DHWAMhbD_P987HIT4zQ3eDZQViAzyQFh8s,21087
+kairyou/katakana_util.py,sha256=DQbhDzv5sSU88emHb4I1xzggBI3LK-nno7CTwXQta5M,5401
+kairyou/util.py,sha256=swzSjOSp12vEW8tqzbsvsHMJiViwXqhpzW314viJMzA,24746
+kairyou/words.py,sha256=inMnQmepJUvBgF8E6XqgZB5zZMgftnSqM0AlMKGG7bY,190092
+kairyou-0.9.5.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kairyou-0.9.5.dist-info/METADATA,sha256=BDSNlHzdBhDv5zqaFgq7zSOmT8ptCqaCTGw6QzMQiSw,6585
+kairyou-0.9.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kairyou-0.9.5.dist-info/top_level.txt,sha256=AWPw4Jyays014rzUFwQx-SxyvpWbL9ti5uPU9OtjgQ8,8
+kairyou-0.9.5.dist-info/RECORD,,
