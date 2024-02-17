@@ -1,0 +1,3 @@
+[console_scripts]
+segment_petra = workflows.segment_petra:main
+segment_skull = segment_skull:main
