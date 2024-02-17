@@ -1,0 +1,22 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nl2elem_to_csv"
+version = "0.1.1"
+authors = [{ name = "Luke Hobbs" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+description = "Convert NoLimits2 coaster element files to CSV for NL2PC."
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+repository = "https://github.com/lukehobbs/nl2elem_to_csv"
+
+[project.scripts]
+nl2elem-to-csv = "nl2elem_to_csv.__main__:main"
