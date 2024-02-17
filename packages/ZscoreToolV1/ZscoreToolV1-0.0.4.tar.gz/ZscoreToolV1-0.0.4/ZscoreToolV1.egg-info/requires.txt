@@ -1,0 +1,13 @@
+numpy
+pandas
+scanpy
+umap
+scipy
+tqdm
+adjustText
+sklearn
+matplotlib
+os
+scipy
+tifffile
+PIL
