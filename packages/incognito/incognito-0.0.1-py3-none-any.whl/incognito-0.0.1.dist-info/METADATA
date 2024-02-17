@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: incognito
+Version: 0.0.1
+Summary: Out-of-the-box anonymization for NLP.
+Home-page: https://github.com/FairNLP/incognito
+Author: FairNLP
+Author-email: info@fairnlp.com
+License: Apache Software License 2.0
+Keywords: incognito
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: transformers
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+<p align="center">
+    <a href="https://github.com/fairnlp/incognito/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/fairnlp/incognito.svg">
+    </a>
+</p>
+
+# Description
+
+Out-of-the-box anonymization.
+
+# Installation
+
+```bash
+pip install incognito
+```
+
+# Usage
+
+```python
+from incognito import Incognito
+
+incognito = Incognito()
+incognito("John Doe is a data scientist at Google.")
+# Output: "[PERSON] is a data scientist at [ORGANIZATION]."
+```
