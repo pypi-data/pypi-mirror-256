@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: math-sdk
+Version: 0.1.0
+Summary: An example SDK for basic math operations.
+Home-page: UNKNOWN
+Author: Siva
+Author-email: sivaram2k10@gmail.com
+License: LICENSE.txt
+Platform: UNKNOWN
+
+- Basic Operations
+- Demo SDK
+
