@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simple_pyper/__init__.py
+simple_pyper/inspector.py
+simple_pyper/main.py
+simple_pyper.egg-info/PKG-INFO
+simple_pyper.egg-info/SOURCES.txt
+simple_pyper.egg-info/dependency_links.txt
+simple_pyper.egg-info/entry_points.txt
+simple_pyper.egg-info/requires.txt
+simple_pyper.egg-info/top_level.txt
+simple_pyper.egg-info/zip-safe
