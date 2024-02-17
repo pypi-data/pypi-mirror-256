@@ -1,0 +1,3 @@
+[console_scripts]
+ws_watcher = ws_watcher:ws_watcher
+
