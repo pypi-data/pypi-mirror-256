@@ -1,0 +1,20 @@
+name: build-pelican-pages
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        submodules: "true"
+    - uses: rehanhaider/pelican-to-github-pages@v1.0.3
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GH_PAGES_CNAME: ${{secrets.DOMAIN_CNAME}}
+        PELICAN_CONFIG_FILE: ./blog/pelicanconf.py
+        PELICAN_CONTENT_FOLDER: ./blog/content

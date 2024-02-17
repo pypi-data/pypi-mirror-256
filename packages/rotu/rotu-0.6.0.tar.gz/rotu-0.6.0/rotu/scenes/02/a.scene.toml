@@ -1,0 +1,29 @@
+[GOAL]
+name = "goal_02a"
+types = ["Goal", "02", "a"]
+sketch = "drop off in Archenfield"
+state = "Fruition.elaboration"
+
+[GOAL_24A]
+types = ["Goal", "24", "a"]
+
+[DRAMA]
+type = "Interaction"
+
+[[_]]
+if.DRAMA.tree = false
+s="""
+<GOAL> I am {GOAL.name}.
+<GOAL.branching> Do you want to {GOAL.sketch}?
+    1. Yes
+    2. No
+"""
+[_.1]
+s="""
+<GOAL.returning.declaring@GOAL> Good.
+<GOAL.proposing@GOAL_24A> On to the next, then.
+"""
+[_.2]
+s="""
+<GOAL.returning> Suit yourself.
+"""

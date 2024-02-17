@@ -1,0 +1,10 @@
+# DO NOT USE!
+# This file keeps dependencies for Pelican only.
+# It is required by the workflow https://github.com/rehanhaider/pelican-to-github-pages
+Markdown
+markdown-it-py
+MarkupSafe
+mdurl
+pelican
+pelican-neighbors
+pelican-readtime
