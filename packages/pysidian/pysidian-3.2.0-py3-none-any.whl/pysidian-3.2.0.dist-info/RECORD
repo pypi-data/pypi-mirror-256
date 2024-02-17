@@ -1,0 +1,16 @@
+pysidian/__init__.py,sha256=-eYAvdoB3zkBv5Q9UYJQhnYJg3n-KMZRYM_hF5Cl3Yg,94
+pysidian/cli.py,sha256=XnwcIJmdFvw6Nb3V_lFwMUqMQkPg7BnYABxB6rBmVJU,7022
+pysidian/core/base.py,sha256=JFX669UqSCzEjzWj2WaTgV_8P8AgLm1IVxfc2ufffgI,150
+pysidian/core/vault.py,sha256=NgbWWJ3_ra5GSfixAo6rWiTHISipZNd5OrOiDBwZvO4,7250
+pysidian/core/workplace.py,sha256=cGzW0Rz7aAS4ZpyPuqhVYuRG_aF5NfWh_2VC9-TzxXs,10632
+pysidian/data/__init__.py,sha256=luRYvVlIlqvpwCPBzUfVEs1IHHTZO7WNqutKADKa0_o,144
+pysidian/data/sample_plugin.zip,sha256=6WccVZHd1Qc9KmCWp6nYPpSiZwDFUYs6o3PwuhbDt8I,7258
+pysidian/utils/hash.py,sha256=CyRPiCY7g2-FEYiQ-EXb0Q6cmXSGrwihcu2Vvys7Q1g,571
+pysidian/utils/misc.py,sha256=-BOh14uTruEav7AwqiDHu-y61p6P5tge0BECYdv4VoM,1524
+pysidian/utils/obsidian_vault_init.py,sha256=MuQ7laj5szhjR-LymLnZulC-7EAal5NSdlnMYctWxSs,2000
+pysidian-3.2.0.dist-info/LICENSE,sha256=O0Gffbq5TpMW7YLon4X8Gq2iNWSExdzBKpbGzHiyp9U,1086
+pysidian-3.2.0.dist-info/METADATA,sha256=hKtFfjG_LmjzxzZXyT9wZaXIgfZp-_CFD-ihiasXDJI,1950
+pysidian-3.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pysidian-3.2.0.dist-info/entry_points.txt,sha256=59S-KMtfWkGxlDCbJXLSSgcXg-cu0iZbcWDwkM8Wkcg,46
+pysidian-3.2.0.dist-info/top_level.txt,sha256=l2HFwr8We2pUyP8LmXJij2El0czgP2EiiWXb3GmZM5w,9
+pysidian-3.2.0.dist-info/RECORD,,
