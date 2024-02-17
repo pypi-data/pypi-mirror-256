@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: siconv
+Version: 0.1.0
+Summary: The siconv Python package simplifies the conversion between Sinhala and Singlish languages. Whether you're dealing with Sinhala text that needs transformation into Singlish or vice versa, siconv offers a user-friendly solution.Resources
+Home-page: UNKNOWN
+Author: sahan ruwantha
+Author-email: sahanr.silva@proton.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
