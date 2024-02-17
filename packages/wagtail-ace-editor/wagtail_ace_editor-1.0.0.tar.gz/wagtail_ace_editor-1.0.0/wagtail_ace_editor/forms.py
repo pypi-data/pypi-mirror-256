@@ -1,0 +1,23 @@
+from django import forms
+from .widgets import AceEditorWidget
+
+class AceEditorField(forms.CharField):
+
+    def __init__(self, mode="ace/mode/django", theme="ace/theme/wagtail", use_frame_preview=False, frame_css=None, frame_js=None, *args, **kwargs):
+        self.mode = mode
+        self.theme = theme
+        self.use_frame_preview = use_frame_preview
+        self.frame_css = frame_css
+        self.frame_js = frame_js
+        super().__init__(*args, **kwargs)
+
+    @property
+    def widget(self):
+        return AceEditorWidget(
+            mode=self.mode,
+            theme=self.theme,
+            use_frame_preview=self.use_frame_preview,
+            frame_css=self.frame_css,
+            frame_js=self.frame_js,
+        )
+    
