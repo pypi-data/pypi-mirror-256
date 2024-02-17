@@ -1,0 +1,13 @@
+ynabapiimport/__init__.py,sha256=kRK3JYoHZO0WeEiuTbXFn17LHUC-4r2-v-P6kV1ibb4,54
+ynabapiimport/accountfetcher.py,sha256=6Os0YbvyjhCM1MpDh0Oiex4SI1XSJCFjL3bqDkfWyDw,1649
+ynabapiimport/gocardlessclient.py,sha256=BwgAP8omZoF29okP-HbKOIcTrNc0RF_NyoESKNwwweU,2616
+ynabapiimport/memocleaner.py,sha256=GeKn_V8_4riaZEH4ue1KV56plkBNQJ3osA2ClH5_Ics,340
+ynabapiimport/models/config.py,sha256=5ajF8b5Z6rjEtgaWqXfCI9fXUMn2bdtFJGPIOaCvJzs,757
+ynabapiimport/models/exceptions.py,sha256=QMP5PGjmW26qwLAsDweODBjxQFnnMCezQ5ST1zcM5Lk,223
+ynabapiimport/models/transaction.py,sha256=uZkVNjxt3cNxgPvIzFxrf5a6m_bZjMdpguajMZLDjzI,1466
+ynabapiimport/ynabapiimport.py,sha256=-9Afu1IqPk6ykZqTqrHezsKW-Q3M2aVJ4IqLmTOlIRY,2302
+ynabapiimport/ynabclient.py,sha256=uNs2XjPxEjHb9AJwhvvFlbHZp2cNH5nJjtUaehLwdNI,801
+ynab_api_import-0.5.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ynab_api_import-0.5.1.dist-info/METADATA,sha256=rXfKT6AWHDKXnHMHPi2NHq-S9rewbgw-3zQtcDfFQ0g,5533
+ynab_api_import-0.5.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ynab_api_import-0.5.1.dist-info/RECORD,,
