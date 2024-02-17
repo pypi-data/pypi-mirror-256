@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dgood-gabinodist
+Version: 0.3
+Summary: Gaussian and binomial distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: The dgood-gabinodist package has classes that will do the following for Gaussian and Binomial distributions: Read data from file, calculate the mean and standard deviation, find the probability distribution function, display plots, add two distributions. This was created as part of the Udacity lesson: introduction to object oriented programming with Python.
+Platform: UNKNOWN

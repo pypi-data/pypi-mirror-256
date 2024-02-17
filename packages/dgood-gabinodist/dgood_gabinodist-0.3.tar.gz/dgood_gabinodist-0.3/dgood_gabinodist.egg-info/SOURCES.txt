@@ -1,0 +1,10 @@
+setup.py
+dgood_gabinodist/Binomialdistribution.py
+dgood_gabinodist/Gaussiandistribution.py
+dgood_gabinodist/Generaldistribution.py
+dgood_gabinodist/__init__.py
+dgood_gabinodist.egg-info/PKG-INFO
+dgood_gabinodist.egg-info/SOURCES.txt
+dgood_gabinodist.egg-info/dependency_links.txt
+dgood_gabinodist.egg-info/not-zip-safe
+dgood_gabinodist.egg-info/top_level.txt
