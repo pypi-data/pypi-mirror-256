@@ -1,0 +1,34 @@
+[project]
+name = "ws_watcher"
+version = "0.6.4"
+description = "Minimalistic file watcher with ability to send WebSocket msgs and execute commands."
+authors = [
+    { name = "Sergei Minaev", email = "i@zenux.ru" },
+]
+requires-python = ">=3.8"
+readme = "README.md"
+dependencies = [
+    "asyncio",
+    "inotify",
+    "websockets",
+]
+
+[project.license]
+text = "BSD 2-Clause License"
+
+[project.scripts]
+ws_watcher = "ws_watcher:ws_watcher"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.3",
+]
