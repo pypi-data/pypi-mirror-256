@@ -1,0 +1,6 @@
+brew "gh"
+brew "git"
+
+if RUBY_PLATFORM[/darwin/]
+  brew "coreutils"
+end
