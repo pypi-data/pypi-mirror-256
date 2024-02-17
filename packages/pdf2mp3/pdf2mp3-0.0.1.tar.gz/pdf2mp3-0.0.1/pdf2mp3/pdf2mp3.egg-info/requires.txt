@@ -1,0 +1,4 @@
+gtts>=2.5.1
+rich>=13.7.0
+pypdf2>=3.0.1
+langdetect>=1.0.9

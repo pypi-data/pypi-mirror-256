@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pdf2mp3"
+version = "0.1.0"
+description = "Converts PDF to MP3 using Google Text-to-Speech"
+authors = ["andreyrcdias <andreycadimaa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gtts = "^2.5.1"
+rich = "^13.7.0"
+pypdf2 = "^3.0.1"
+langdetect = "^1.0.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+isort = "^5.13.2"
+ruff = "^0.2.1"
+pyclean = "^2.7.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

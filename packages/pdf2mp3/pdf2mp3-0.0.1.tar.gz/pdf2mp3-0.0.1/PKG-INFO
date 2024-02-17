@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pdf2mp3
+Version: 0.0.1
+Summary: CLI to converts PDF to MP3 using Google Text-to-Speech.
+Home-page: https://github.com/andreyrcdias/pdf2mp3
+Author: Andrey dos Reis Cadima Dias
+Author-email: andreyrcdias@gmail.com
+License: MIT
+Keywords: pdf mp3 gtts
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gtts>=2.5.1
+Requires-Dist: rich>=13.7.0
+Requires-Dist: pypdf2>=3.0.1
+Requires-Dist: langdetect>=1.0.9
+
+# pdf2mp3
+
+CLI to converts PDF to MP3 using Google Text-to-Speech.
+
