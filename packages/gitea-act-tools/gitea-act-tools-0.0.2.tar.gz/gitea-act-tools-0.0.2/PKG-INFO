@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gitea-act-tools
+Version: 0.0.2
+Summary: Some tools for the gitea api.
+Home-page: 
+Author: 曾钦李
+Author-email: 1838696034@qq.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: httpx[socks]
