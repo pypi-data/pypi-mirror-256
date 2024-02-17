@@ -1,0 +1,11 @@
+_hgdb.cpython-311-x86_64-linux-gnu.so,sha256=-ICdnfMxI8RtGJP0K3yF7tFaQytCPfxc-XPODPyq-DE,2258937
+hgdb/client.py,sha256=3atMc7p1L_gT7lCOxz85eMM300IgMrYi12knRgNmVAU,10919
+hgdb/db.py,sha256=eSyQEdXw9NhN112Wo80ZmbQABluCVcRlCkdQU-Uicqs,7254
+hgdb/__init__.py,sha256=vjNV1U1PtvEkjt4bE9HKD6aMnVZrjzSC_o1PF4CnIAg,277
+hgdb/symbol.py,sha256=FM7WM6WhmiwnBm_Z3FUnEgSuydXYfBwmiLP3iBCkFj4,5548
+hgdb-0.1.4.dist-info/WHEEL,sha256=AI1yqBLEPcVKWn5Ls2uPawjbqPXPFTYdQLSdN8WFCJw,152
+hgdb-0.1.4.dist-info/top_level.txt,sha256=N1f3jwbBIh-Lv6RRGvLryhrTR9ENverTvHLi3ranzMk,11
+hgdb-0.1.4.dist-info/RECORD,,
+hgdb-0.1.4.dist-info/METADATA,sha256=bu0FKwjoVl6Evq3VgUbGMshoupdJr_aeYUkNNThlCFE,457
+hgdb-0.1.4.data/scripts/toml2hgdb,sha256=YaJaBn-1relJ10X2F5wxtxyE8Q0wgDMQqz0d8ZoWQtY,14195
+hgdb.libs/libsqlite3-0042ad0d.so.0.8.6,sha256=Ss0BE83dXvtzdLhIXvK5ZEEerIN-fue8hovCdlGXLNY,1426409
