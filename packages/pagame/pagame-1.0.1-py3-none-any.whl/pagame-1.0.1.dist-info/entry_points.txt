@@ -1,0 +1,2 @@
+[console_scripts]
+pagame = pagame.__main__:play
