@@ -1,0 +1,28 @@
+#
+# https://docs.astral.sh/ruff/integrations/#github-actions
+
+name: Linting via ruff
+
+on:
+  push:
+    branches: [ "master", "stable" ]
+    paths: ["src/**.py", "tests/**"]
+  pull_request:
+    branches: [ "master", "stable" ]
+    paths: ["src/**.py", "tests/**"]
+  workflow_dispatch:
+
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: chartboost/ruff-action@v1
