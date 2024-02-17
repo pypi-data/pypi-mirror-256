@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: aori-sdk-py
+Version: 0.2
+Summary: aori.io python sdk
+Home-page: https://github.com/aori-io/aori-sdk-py
+Author: Joshua Baker
+Author-email: joshua@aori.io
+Keywords: aori
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: websocket-client
+
+# Aori Python SDK
+
+The Aori Python SDK provides a convenient interface for interacting with the Aori API, allowing developers to easily integrate Aori's functionalities into their Python applications.
+
+## Features
+
+- Authentication with API keys
+- Operations for orders: create, take, cancel
+- Viewing and subscribing to orderbook updates
+- Requesting quotes for potential orders
+
+## Installation
+
+To install the Aori Python SDK, run the following command:
+
+```bash
+pip install your_package_name
+```
+
+Replace `your_package_name` with the actual name of your package.
+
+## Configuration
+
+Before using the SDK, you need to configure it with your Aori API key and private key. There are two ways to do this:
+
+### Using Environment Variables
+
+1. Create a `.env` file in your project root.
+2. Add your Aori API key and private key to the `.env` file as shown in the `.env.example` file:
+
+```plaintext
+AORI_API_KEY=your_aori_api_key_here
+PRIVATE_KEY=your_private_key_here
+```
+
+3. Load the environment variables in your application:
+
+```python
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+4. Initialize the SDK:
+
+```python
+from aori_sdk import AoriSDK
+
+sdk = AoriSDK()
+```
+
+### Passing Directly
+
+Alternatively, you can pass your API key and private key directly when creating an instance of the SDK:
+
+```python
+from aori_sdk import AoriSDK
+
+sdk = AoriSDK(api_key='your_aori_api_key_here', private_key='your_private_key_here')
+```
+
+## Usage
+
+Here are some examples of how to use the Aori Python SDK:
+
+### Test Connectivity
+
+```python
+connectivity_response = sdk.test_connectivity()
+print(connectivity_response)
+```
+
+### Create a New Order
+
+```python
+from aori_sdk import AoriOrder
+
+new_order = AoriOrder(
+    offerer="0x...",
+    inputToken="0x...",
+    inputAmount="1000000000000000000",  # 1 Token in Wei
+    inputChainId=1,
+    inputZone="0x...",
+    outputToken="0x...",
+    outputAmount="500000000000000000",  # 0.5 Token in Wei
+    outputChainId=1,
+    outputZone="0x...",
+    startTime="1622548800",
+    endTime="1625130800",
+    salt="123456789",
+    counter=0,
+    toWithdraw=False,
+    signature="0x...",
+    isPublic=True
+)
+
+order_response = sdk.make_order(new_order)
+print(order_response)
+```
+
+### Subscribe to Orderbook Updates
+
+```python
+sdk.subscribe_orderbook()
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
