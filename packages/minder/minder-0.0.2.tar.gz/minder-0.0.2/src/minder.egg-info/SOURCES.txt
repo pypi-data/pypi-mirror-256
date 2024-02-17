@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/minder/__init__.py
+src/minder/minder.py
+src/minder.egg-info/PKG-INFO
+src/minder.egg-info/SOURCES.txt
+src/minder.egg-info/dependency_links.txt
+src/minder.egg-info/top_level.txt
