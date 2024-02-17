@@ -1,0 +1,4 @@
+requests
+soundfile
+sounddevice
+python-dotenv
