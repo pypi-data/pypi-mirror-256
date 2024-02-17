@@ -1,0 +1,32 @@
+# Example Package
+
+User Guide
+[GitHub-flavored Markdown](https://github.com/rishiko/sortedmultiset/blob/main/User%20Guide)
+
+1)A orderdmultiset is a module which has same behavior like cpp multiset.
+
+
+
+2)it is most important for cosing community which help to grow python in coding community.
+
+3)it has various functions like appending an element, erasing an element,searching an element,
+poping out an element from left and poopoing out an element from right all operations done in O(log n) times.
+
+4)we can make a ascending multiset as well as descending multiset via providing a parameter in object reverse=True for descending.
+
+- How to create multiset :-->
+    For asceding multiset:->
+        var_name=sortedmultiset.sortedmultiset(reverse=False)#--->To create an object of ascending sorted multiset .
+        -reverse=False is optional for ascending multiset it is bydefault parameter.
+    For descending multiset:->
+        var_name=sortedmultiset.sortedmultiset(reverse=True)#--->To create an object of descending sorted multiset.
+        -reverse=True is required while creating descending multiset.
+-Functions :-->
+    var_name.append(element:int)#---> To add an element in  O(log n).
+    var_name.search(element:int)#--->To search an element in O(log n).
+    var_name.erase(element:int)#--->To delete an element in O(log n).
+    var_name.popleft()#--------> To delete the First/Leftmost most element in O(log n).
+    var_name.popright()#--------> To delete the Last/Rightmost most element in O(log n).
+
+-To access all the stored elements u can use following syntax:-->
+    var_name.multiset---> A list where all the element are stored.
