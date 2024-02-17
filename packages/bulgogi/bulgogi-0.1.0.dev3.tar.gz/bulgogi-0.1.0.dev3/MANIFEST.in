@@ -1,0 +1,2 @@
+include bulgogi/lib/libbul.a
+include bulgogi/inc/*
