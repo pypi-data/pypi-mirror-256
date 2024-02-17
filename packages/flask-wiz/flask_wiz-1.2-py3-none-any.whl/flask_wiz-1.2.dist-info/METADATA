@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flask-wiz
+Version: 1.2
+Author: Krish Soni
+Requires-Dist: flask
+Requires-Dist: click
+
