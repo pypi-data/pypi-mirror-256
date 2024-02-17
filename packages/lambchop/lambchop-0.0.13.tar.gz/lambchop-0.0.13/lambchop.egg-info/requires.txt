@@ -1,0 +1,5 @@
+dill
+requests
+
+[cli]
+typer[all]

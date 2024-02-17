@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambchop"
+description = "A sidekick to make your AWS Lambda async"
+version = "0.0.13"
+authors = [{name = "bohemdev"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dependencies = [
+    "dill",
+    "requests"
+]
+
+[project.optional-dependencies]
+"cli" = ["typer[all]"]
+
+[project.scripts]
+lambchop = "lambchop.cli:app"
