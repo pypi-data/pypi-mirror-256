@@ -1,0 +1,20 @@
+{% extends './bootstrap5.html' %}
+{% load static %}
+
+
+{% block extrastyle %}
+  {{ block.super }}
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700'>
+  <link rel='stylesheet' href='{% static "css/calendar1.css" %}'>
+{% endblock %}
+
+
+{% block sample_data %}
+    {
+    startDate: new Date(currentYear, 5, 5),
+    endDate: new Date(currentYear, 5, 20) },
+
+    {
+    startDate: new Date(currentYear, 6, 10),
+    endDate: new Date(currentYear, 8, 10) }
+{% endblock%}
