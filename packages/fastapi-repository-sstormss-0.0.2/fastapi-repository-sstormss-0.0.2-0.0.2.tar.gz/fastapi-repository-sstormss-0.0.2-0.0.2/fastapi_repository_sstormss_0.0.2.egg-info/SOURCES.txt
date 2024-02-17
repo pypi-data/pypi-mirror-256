@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastapi_repository_sstormss_0.0.2.egg-info/PKG-INFO
+fastapi_repository_sstormss_0.0.2.egg-info/SOURCES.txt
+fastapi_repository_sstormss_0.0.2.egg-info/dependency_links.txt
+fastapi_repository_sstormss_0.0.2.egg-info/requires.txt
+fastapi_repository_sstormss_0.0.2.egg-info/top_level.txt
+repository/__init__.py
+repository/repository.py
