@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tlparse
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Requires-Python: >=3.6
+Project-URL: repository, https://github.com/ezyang/tlparse
