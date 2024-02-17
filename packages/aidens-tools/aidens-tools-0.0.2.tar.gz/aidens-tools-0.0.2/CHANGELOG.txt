@@ -1,0 +1,8 @@
+Change Log
+=========
+
+0.0.2 (02/10/2023)
+- Fixed bug with random not being imported
+
+0.0.1 (02/09/2024)
+- First Release

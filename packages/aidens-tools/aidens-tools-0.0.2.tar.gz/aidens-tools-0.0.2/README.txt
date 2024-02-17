@@ -1,0 +1,1 @@
+A basic library filled with some useful functions that are sometimes common use in python.

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LISCENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+aidens_tools.egg-info/PKG-INFO
+aidens_tools.egg-info/SOURCES.txt
+aidens_tools.egg-info/dependency_links.txt
+aidens_tools.egg-info/requires.txt
+aidens_tools.egg-info/top_level.txt
+tools/__init__.py
