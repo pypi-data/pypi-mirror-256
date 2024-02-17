@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: spellcheckmate
+Version: 0.1.3
+Summary: A Cython reimplementation of Peter Norvig's spelling corrector.
+License: MIT
+Author: Csaba Szallós Kis
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (==8.1.7)
+Requires-Dist: cython (==3.0.8)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: numpy (==1.26.4)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: pathspec (==0.12.1)
+Requires-Dist: platformdirs (==4.2.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: typing-extensions (==4.9.0)
+Description-Content-Type: text/markdown
+
+# spellcheckmate
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/release)
+[![Cython](https://img.shields.io/badge/Cython-Link-blue.svg)](https://cython.readthedocs.io/)
+
+## description
+
+A Cython reimplementation of [Peter Norvig's spelling corrector](http://norvig.com/spell-correct.html) with minor modifications.
+Checking for spelling and/or grammar mistakes by calling the `.check(text)` method of the `SpellCheckMate()` class enables users to interactively correct their mistakes sentence by sentence. Correct a single word by calling `.correct(word)` and get a list of all the alternative corrections by calling `.alternatives(word)` or print them out directly by `.print_alternatives(word)`.
+
+## installation
+
+```bash
+pip install spellcheckmate
+```
+
+## usage
+
+```py
+from spellcheckmate import SpellCheckMate
+
+spell_check = SpellCheckMate()
+
+word = "somthign"
+corrected_word = spell_check.correct(word)
+""" the words 'somthign' and the correct 'something' are 1 character deletion and 1 transposed character away from each other. """
+print(corrected_word) # prints the correct version, 'something'
+
+word = "smthign"
+corrected_word = spell_check.correct(word)
+"""this is a limitation of the library, since it won't search for words of which Damerau–Levenshtein distance is greater than 2. """
+print(corrected_word) # prints '404', since 'smthign' and 'something' are more than 2 edits away from each other.
+
+word = "aie"
+word_alternatives = spell_check.alternatives(word)
+print(word_alternatives) # prints ['ave', 'amie', 'ate', 'ale', 'die', 'tie', 'ai', 'aye', 'are', ... ]
+spell_check.print_alternatives(word)
+"""
+ave
+amie
+ate
+ale
+die
+tie
+ai
+aye
+are
+...
+"""
+
+text = "We lov everithin. Or smthign like that."
+""" parses text interactively sentence by sentence and points to mistyped word after which user can select from recommendations
+or type correct version if not found in recommendations. """
+corrected_text = spell_check.check(text)
+
+"""
+we lov everithin
+   ^
+low
+lot
+log
+love
+lo
+nov
+sov
+los
+loi
+> love
+we lov everithin
+       ^
+everything
+> everything
+we lov everithin
+we love everything 
+ or smthign like that
+    ^
+404
+> something
+ or smthign like that
+or something like that 
+"""
+```
