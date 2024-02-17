@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: poetry-test-project-2
+Version: 0.1.1
+Summary: Just a dummy project to test packaging. This package will be removed.
+Author: Joost Berkhout
+Author-email: joost.berkhout@vu.nl
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ipython (>=8.21.0,<9.0.0)
+Requires-Dist: pre-commit (>=3.6.1,<4.0.0)
+Requires-Dist: pytest (>=8.0.0,<9.0.0)
+Description-Content-Type: text/markdown
+
+# poetry_test_project_2
+
+This is just a random project for Joost Berkhout to learn about packaging and
+distributing Python projects. It's not meant to be useful for anyone else.
+Sorry that I took your time by making you read this :-).
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install poetry_test_project_2
+```
+
+## Usage
+
+```python
+from poetry_test_project_2 import random_module
+
+print(random_module.random_function(2, 3))
+```
+
+## Contributing
+
+Not needed!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+```
+
