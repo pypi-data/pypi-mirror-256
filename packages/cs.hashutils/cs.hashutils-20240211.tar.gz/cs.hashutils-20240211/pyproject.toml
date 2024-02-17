@@ -1,0 +1,80 @@
+[project]
+name = "cs.hashutils"
+description = "Convenience hashing facilities."
+authors = [
+    { name = "Cameron Simpson", email = "cs@cskk.id.au" },
+]
+keywords = [
+    "python3",
+]
+dependencies = [
+    "cs.buffer>=20240201",
+    "cs.deco>=20240211",
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+version = "20240211"
+
+[project.license]
+text = "GNU General Public License v3 or later (GPLv3+)"
+
+[project.urls]
+URL = "https://bitbucket.org/cameron_simpson/css/commits/all"
+
+[project.readme]
+text = """
+Convenience hashing facilities.
+
+*Latest release 20240211*:
+Initial PyPI release: BaseHashCode(bytes) and subclasses for various hash algorithms.
+
+## Class `BaseHashCode(builtins.bytes)`
+
+Base class for hashcodes, subclassed by `SHA1`, `SHA256` et al.
+
+## Class `MD5(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA1(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA224(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA256(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA384(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA512(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+# Release Log
+
+
+
+*Release 20240211*:
+Initial PyPI release: BaseHashCode(bytes) and subclasses for various hash algorithms."""
+content-type = "text/markdown"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 61.2",
+    "trove-classifiers",
+    "wheel",
+]

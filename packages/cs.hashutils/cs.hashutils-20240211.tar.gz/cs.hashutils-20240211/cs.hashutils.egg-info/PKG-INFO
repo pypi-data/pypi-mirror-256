@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: cs.hashutils
+Version: 20240211
+Summary: Convenience hashing facilities.
+Author-email: Cameron Simpson <cs@cskk.id.au>
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: URL, https://bitbucket.org/cameron_simpson/css/commits/all
+Keywords: python3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+Requires-Dist: cs.buffer>=20240201
+Requires-Dist: cs.deco>=20240211
+
+Convenience hashing facilities.
+
+*Latest release 20240211*:
+Initial PyPI release: BaseHashCode(bytes) and subclasses for various hash algorithms.
+
+## Class `BaseHashCode(builtins.bytes)`
+
+Base class for hashcodes, subclassed by `SHA1`, `SHA256` et al.
+
+## Class `MD5(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA1(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA224(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA256(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA384(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+## Class `SHA512(BaseHashCode, builtins.bytes)`
+
+Hash class implementation.
+
+# Release Log
+
+
+
+*Release 20240211*:
+Initial PyPI release: BaseHashCode(bytes) and subclasses for various hash algorithms.
