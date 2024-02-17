@@ -1,0 +1,15 @@
+twitter/__init__.py,sha256=hdrsdbH_qFhx6ro1ct79qF9SpkgFhxgbYUw9A4RVuec,684
+twitter/account.py,sha256=7bfV-vvN_-Sj7PjDQHSrWu0dv7lviANDPIby06pfqCA,3291
+twitter/base/__init__.py,sha256=x0EHKv4q_FI6xEq2nL4V9s8P6VWr6IaHTqdH9sXB5d8,133
+twitter/base/client.py,sha256=7byb0Psai-dvg_ww6Y7uyE2hV1pfTU653hFgVdRiqXo,478
+twitter/base/session.py,sha256=5aMjCytV_cu-uouccJzjMUPIgXZwMElPkqb7FCawmfg,2055
+twitter/client.py,sha256=H3kh957TgwDKyecBIjCeVBm-6mMo1nX36IS30qm3mg0,54724
+twitter/errors.py,sha256=qzvxKDb1lkIe69KAoPkdQEnBAq0gZJ_1TPSryY75C70,4868
+twitter/models.py,sha256=3-Lft160msCqOjRPubOmxMqWUkmjlTSzHSGsvZK91nU,1817
+twitter/utils/__init__.py,sha256=pyhQXwTdp0HFwV_UNF4dTyklLD9RtaefA16SrQXeNlg,589
+twitter/utils/file.py,sha256=-6n8I8KWDlntfciJJsfIeOi0gmqoHRIe1ldIx1ynGUE,1118
+twitter/utils/html.py,sha256=Abs7iB5qgl0CLFuum4eS0gdiwDXCwcudzWDovroABBo,1813
+twitter/utils/other.py,sha256=4NaGd2CIJVrDiW17shcrDlJRqFkQNbBSTiiH7kNWcww,559
+tweepy_self-1.4.0.dist-info/METADATA,sha256=Qd-F5_VpywMW3MkR3R1Bx4t0wT3ZQdl8tAEXmcRnMRM,9139
+tweepy_self-1.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tweepy_self-1.4.0.dist-info/RECORD,,
