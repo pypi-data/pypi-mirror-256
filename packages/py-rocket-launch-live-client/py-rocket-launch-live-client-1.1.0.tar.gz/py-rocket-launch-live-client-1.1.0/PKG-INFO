@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: py-rocket-launch-live-client
+Version: 1.1.0
+Summary: Python Client for RocketLaunchLive API
+Home-page: http://github.com/arthur-clifford/py-rocket-lauch-live-client
+Author: arthur-clifford
+Author-email: artclifford@me.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: bandit==1.7.*; extra == "dev"
+Requires-Dist: black==23.*; extra == "dev"
+Requires-Dist: build==0.10.*; extra == "dev"
+Requires-Dist: flake8==6.*; extra == "dev"
+Requires-Dist: isort==5.*; extra == "dev"
+Requires-Dist: mypy==1.5.*; extra == "dev"
+Requires-Dist: pytest==7.*; extra == "dev"
+Requires-Dist: pytest-cov==4.*; extra == "dev"
+Requires-Dist: twine==4.*; extra == "dev"
+
+<div align="center">
+
+# py-rocket-launch-live-client
+
+As simple python clinet for the api provided by rocketlaunchlive.com.
+
+[![Build Status](https://github.com/arthur-clifford/py-rocket-launch-live-client/workflows/build/badge.svg)](https://github.com/arthur-clifford/py-rocket-launch-live-client/actions)
+[![Coverage Status](https://coveralls.io/repos/github/arthur-clifford/py-rocket-launch-live-client/badge.svg?branch=main)](https://coveralls.io/github/arthur-clifford/py-rocket-launch-live-client?branch=main)
+[![PyPi](https://img.shields.io/pypi/v/py-rocket-launch-live-client)](https://pypi.org/project/py-rocket-launch-live-client)
+[![Licence](https://img.shields.io/github/license/arthur-clifford/py-rocket-launch-live-client)](LICENSE)
+
+
+</div>
+
+RocketLauchLive.com has a REST API for getting information about scheduled and past launches, locations of launnches, companies doing launches, the kind so vehicles launched, and the missions involved. This python client library was developed in order to leverage the REST API in order to pull historical data for analysis and reporting purposes.
+
+## Install
+
+```bash
+# Install tool
+pip install py-rocket-launch-live-client
+
+```
+
+## Usage
+You will need an API key from https://www.rocketlaunch.live/api
+
+It is recommended that you use an environment variable or some "secret" method to protect your API key and provide it to your python script.
+
+key = API_KEY
+
+import either the library or the end-point you are interested in:
+
+```python
+import py_rocket_launch_live_client as prllc
+key = API_key
+vehicles = prllc.vehicles.get(key)
+```
+or
+```python
+from py_rocket_launch_live_client import vheicles
+vehcles = prllc.vehicles.get(key)
+```
+Each endpoint has its get function, all the rocketlaunchlive.com api endpoints as of 2/1/2024 are supported these are:
+* [companies](https://www.rocketlaunch.live/api#Companies])
+* [launches](https://www.rocketlaunch.live/api#Launches)
+* [locations](https://www.rocketlaunch.live/api#Locations)
+* [missions](https://www.rocketlaunch.live/api#Missions)
+* [pads](https://www.rocketlaunch.live/api#Pads)
+* [tags](https://www.rocketlaunch.live/api#tags)
+* [vehicles](https://www.rocketlaunch.live/api#Vehicles)
+
+The general convention is:
+results = prllc.{endpoint}.get({key},{paramname}=value,...)
+The endpoint list above links to the rocketlaunchlive.com api documentation for the endpoint. The parameters described should be supported as valid parameters in any combination to the endpoint's get function.
+
+Two universal parameters are
+* page_size - number of results to request at a time with an api enforced max limit of 25, which is also the default if not specified. 
+* limit - number of total results to limit to if set.
+
+The get functions return an iterable RocketLaunchLiveCursor object which will allow you to loop on the results and will fetch additional pages until limit results or all results are retrieved. The iterator values return a dict for each entry in the 'results' property from the parsed API response.
+
+```python
+import py_rocket_launch_live_client as prllc
+key = API_KEY
+launches = prllc.launches.get(key,limit=100)
+for launch in launches:
+    print(launch['date_str'],launch['name'])
+```
+Note that in the code above a maximum of 100 results will be retrieved, but it will do so by retrieving 4 pages of 25 records, this may create a lag in your loop but the api is fairly performant.
+
+# Return Values
+At this time, this cilent library isn't specifying the types returned by the API and the documentation for anything but launches at rocketlaunchlive is underwhelming. For best results call an end point with a limit=1 and see what you get and know that you can access an entry from the cursor iteration using dict syntax.
+
+## slug
+The slug parameter is inconsistent in the API in terms of being returned and usable for retrieval. If you need an identifier, id is usually a guranteed way to find something. A slug if you have one can be used best with the launches endpoint which seems to find launches by any slug regardless of the object type the slug was for.
+
+## Raw Response
+The cursor uses the requests python library for making the REST calls to the API. 
+The requests response is held in the cursor's currentResponse property.
+
+The cursor holds the lastPage value returned from the API, and you can use the cursor's GoToPage(n),NextPage(),PrevPage(), and Rewind() functions to jump to another page of results, this will update currentResponse to reflect the response for the target page. 
+
+Note: pages are 1-based
+
+```python
+import py_rocket_launch_live_client as prllc
+key = API_KEY
+launches = prllc.launches.get(key,limit=100)
+launches.GoToPage(2)
+page1Text = launches.currentResponse.text
+launches.GoToPage(3)
+page2Text = launches.currentResponse.text
+```
+
+## Tip-Jar
+This library was created as a personal project and intended as a contribution to rocketlaunchlive.com. If you value this library and would like to show your support can do so through [{PayPal](https://paypal.me/artclifford?country.x=US&locale.x=en_US)
+
+Thank you for your support
