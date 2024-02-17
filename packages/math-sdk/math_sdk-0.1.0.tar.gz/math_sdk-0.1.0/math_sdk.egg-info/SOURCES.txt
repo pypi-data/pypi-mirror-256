@@ -1,0 +1,7 @@
+setup.py
+math_sdk.egg-info/PKG-INFO
+math_sdk.egg-info/SOURCES.txt
+math_sdk.egg-info/dependency_links.txt
+math_sdk.egg-info/top_level.txt
+mathops/__init__.py
+mathops/core.py
