@@ -1,0 +1,10 @@
+setup.py
+distributionsAri/Binomialdistribution.py
+distributionsAri/Gaussiandistribution.py
+distributionsAri/Generaldistribution.py
+distributionsAri/__init__.py
+distributionsAri.egg-info/PKG-INFO
+distributionsAri.egg-info/SOURCES.txt
+distributionsAri.egg-info/dependency_links.txt
+distributionsAri.egg-info/not-zip-safe
+distributionsAri.egg-info/top_level.txt
