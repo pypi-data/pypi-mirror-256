@@ -1,0 +1,17 @@
+gameduino2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gameduino2/base.py,sha256=DGsN6Cl6gJVfK7u1t5UE94EiMpUHwAdBignSWnT-rWU,14382
+gameduino2/convert.py,sha256=AeOu7gL0TJFiZSF8pnBAFmQUt25d-VgbFzXV4rXUBH4,3413
+gameduino2/gd3registers.py,sha256=Xy7nW2p5l1uOyZWla2sZuXZfplAxmVAK2ZFSLiYM0KE,5693
+gameduino2/imbytes.py,sha256=rLVO_JmQIt4MjaBTMCghgi_5aFeZfJM_0cuNrTD_h60,153
+gameduino2/prep.py,sha256=dhP6clkOSDtclEMzDmfmHKJJ12tvDmtR__eWrYN3S6w,29713
+gameduino2/psdparser.py,sha256=c33j7WIP4pfLXRpMOfTMSllHZlHdgc2-QsT7LyhuZcY,24910
+gameduino2/registers.py,sha256=Owa9e_H_oMvknsLuKis3HJTD_dQbkKFwF5TQxPMuqWg,5578
+gameduino2/remote.py,sha256=58pT-nohdhWGm2OoWcnl6eniLvVbBbqPQMIdh1zCAXU,4487
+gameduino2/tmxreader.py,sha256=jaXH913ZYKXS36TfeuaDhbQla7Zczazc2FaM78Y6jt8,32111
+gameduino2-0.4.0.data/scripts/gd2asset,sha256=CsE9Wqg1MSWRmfEQbhRVBS8BPZcsdv2VmNQkmTyMh58,6095
+gameduino2-0.4.0.data/scripts/gd3asset,sha256=CsE9Wqg1MSWRmfEQbhRVBS8BPZcsdv2VmNQkmTyMh58,6095
+gameduino2-0.4.0.dist-info/LICENSE,sha256=hFIWidju9aMlorgwPmSe94nihiuTYubsMMVbxw6EQLs,1479
+gameduino2-0.4.0.dist-info/METADATA,sha256=0sd44-FGwDGOdObcCCnifNuw3xK404y1PWx9n5J775M,412
+gameduino2-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gameduino2-0.4.0.dist-info/top_level.txt,sha256=cxcZ5a46jWWXhPb9mXlZP2D65KuZqvKoVA-sF1bpetY,11
+gameduino2-0.4.0.dist-info/RECORD,,
