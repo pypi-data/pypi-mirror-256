@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "shinyobservable"
+version = "0.2.0"
+description = "Observable Notebooks and Cells in Shiny"
+authors = ["Stefan Kuethe <stefan.kuethe@eoda.de>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+shiny = "^0.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^24.1.1"
+pytest = "^8.0.0"
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.9"
+mkdocstrings = {extras = ["python"], version = "^0.24.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
