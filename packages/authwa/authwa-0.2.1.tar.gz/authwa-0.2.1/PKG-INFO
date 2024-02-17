@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: authwa
+Version: 0.2.1
+Summary: Automações WhatsApp
+Author: Guilherme Breve
+Author-email: 64221923+foxtec198@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Documentação, https://authwa.readthedocs.io
+Description-Content-Type: text/markdown
+
+
