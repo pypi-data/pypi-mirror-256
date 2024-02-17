@@ -1,0 +1,13 @@
+api_wrapper/Client.py,sha256=MTEAUJt4S5KlFdtYBbaZitIk8ZNPHwZxfUGViYlKJko,4229
+api_wrapper/Pipeline.py,sha256=oqqjh8Zv7yyz9TU7DF6C4I8bB_Soj2vXbgonNM2Y-4M,2464
+api_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/Helpers.py,sha256=A27BLpyNIP3h9LnmtA2r85rxyMOBy5ePlxCQkXPgTtU,252
+tests/TestAPIKeyOperations.py,sha256=H5dwrIjYpH6QxYQ_VDgiMJyV7lhoqiRR0ORlBRE_H7k,877
+tests/TestClientOperations.py,sha256=vHV4Vd5HMMbRdzz9uT2qEKR6hogei1oBl_dYD6P1sFQ,1479
+tests/TestLogin.py,sha256=ngv_9OhdjIHkOVdt9gdeO0fGuYytLFlMNSO-wLH_Eq4,899
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/api_tests.py,sha256=yHMjJcRWUppTC_CDc6gHiVQuf_3baf604B7vMxbVJds,1227
+vecflowApi-0.1.dist-info/METADATA,sha256=R0dOWLNCvUwXNHxdQvffH1uKNMR4UPWhlV9bYiWhXms,432
+vecflowApi-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vecflowApi-0.1.dist-info/top_level.txt,sha256=OFKzQVTbFe3AyrwnKb-UV-b-WWlN2wZjRHY_ZCtrVDc,18
+vecflowApi-0.1.dist-info/RECORD,,
