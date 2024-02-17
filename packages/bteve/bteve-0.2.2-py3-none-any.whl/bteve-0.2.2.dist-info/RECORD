@@ -1,0 +1,12 @@
+bteve/__init__.py,sha256=lC0i5wVgHyJZcTPfMPqx2J5zcRIb7SAG4SWmdJmKYkI,168
+bteve/_eve.py,sha256=Jh-kHyhJF0Kt4gjmQvk8XHQzj_bqZJXizk5ERwNTLjI,6226
+bteve/eve.py,sha256=jTj2JCkWi7pUjfM-rq7qayokEtkweV-kgtFGvL09DD4,12013
+bteve/gameduino.py,sha256=loE-WCIMU1_ALACjiCdKFW6u-fo8g23r6qt_CNAsg5Y,8477
+bteve/gameduino_circuitpython.py,sha256=ZKI_oyEmnc6IkHTmsVgG8uvwLeN8omLcuLd5lrGRGRE,2772
+bteve/gameduino_spidriver.py,sha256=sG5SOC33obzjEnoi6fkEcS8pRItQjEjSRfAdHsbyslU,1399
+bteve/registers.py,sha256=WaXs3zEAwkyDHvKUGUJm7D4tnvLh5r9HcIfpmiwTGF8,8375
+bteve-0.2.2.dist-info/LICENSE,sha256=PGnDU0gfhXef5JLjrn_goNMp0HdN7RvOaHn76Q0uY7Q,1520
+bteve-0.2.2.dist-info/METADATA,sha256=xKFoUtXgfhr1Uie91mxkrsO8l2bk7ZOlDLyM9KhDunk,387
+bteve-0.2.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bteve-0.2.2.dist-info/top_level.txt,sha256=x6EnoN1cJLA2NMrIHPotekYJv20UD7Aq0zw9GS2HA9w,6
+bteve-0.2.2.dist-info/RECORD,,
