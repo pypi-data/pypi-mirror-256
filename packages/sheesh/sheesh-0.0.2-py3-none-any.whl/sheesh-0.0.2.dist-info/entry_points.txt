@@ -1,0 +1,3 @@
+[console_scripts]
+sheesh=sheesh.main:app
+
