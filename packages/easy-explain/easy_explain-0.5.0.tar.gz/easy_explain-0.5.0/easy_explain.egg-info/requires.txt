@@ -1,0 +1,11 @@
+backports.weakref
+captum
+matplotlib
+opencv-python
+Pillow
+scikit-learn
+scipy
+torch
+torchcam
+torchvision
+ultralytics
