@@ -1,0 +1,14 @@
+pauli_tracker-0.1.0.dist-info/METADATA,sha256=os1_cG9y0uNyFI8KTFhLhWoKxmoS9UE7mpssIJyXnv8,3419
+pauli_tracker-0.1.0.dist-info/WHEEL,sha256=UV9zG4LLu5aozZ4CLlFrx0g296T6XFIH7lrdHjOZdds,106
+pauli_tracker-0.1.0.dist-info/license_files/LICENSE-APACHE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pauli_tracker-0.1.0.dist-info/license_files/LICENSE-MIT,sha256=5lHctyhjPzbAztErhTDnHsAPdVgorP7XT7dHqEvdDY8,1067
+pauli_tracker/__init__.py,sha256=NZPFw-TFCOptPVZW6AGdUjXzrzTf8wENko_VF8ITeTY,1615
+pauli_tracker/frames/vec.py,sha256=44D3zcKPoufX0yZp0YlTqzZbTQcf9ijAtbGNiptbtfQ,262
+pauli_tracker/frames/__init__.py,sha256=Tcbz3vL_LVxIW3k2DoiSSR5xst7_pt-p2lBc_pQJkec,287
+pauli_tracker/frames/map.py,sha256=Ah25rvT1g_gzKQy-tcfxcH7upLRRKz7l8W_fs1UURmc,244
+pauli_tracker/live/vec.py,sha256=Hb4Gg7B0kH_SfCYrxMs22FIMbrCI39GVE5-dCzpYww4,252
+pauli_tracker/live/__init__.py,sha256=XXElDNx7iseZxfGquaUD-0RngyVDeauIVo2FDoXoOqs,234
+pauli_tracker/live/map.py,sha256=JCZx4LaL98lN2bII9DMJ6WYHGuMSlxn9y3_u4IKSsIA,234
+pauli_tracker/pauli.py,sha256=5ECWNrgEerGawc2d4R_3Cil2-lGwu8_-PDODH11ExXg,453
+pauli_tracker/_lib.cpython-311-darwin.so,sha256=eeI64szGiqCz2_pFHlBaYWIs1wwqvN0HfH_Rk1OJ5vY,1379288
+pauli_tracker-0.1.0.dist-info/RECORD,,
