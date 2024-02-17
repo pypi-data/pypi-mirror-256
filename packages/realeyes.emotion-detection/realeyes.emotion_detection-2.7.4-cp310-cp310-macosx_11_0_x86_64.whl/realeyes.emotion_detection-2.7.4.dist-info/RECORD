@@ -1,0 +1,7 @@
+realeyes/emotion_detection/__init__.py,sha256=T72cfgn2xjp8a-ZiLQyYU3k779L8uKird_VPuPE3xpc,83
+realeyes/emotion_detection/cpp.cpython-310-darwin.so,sha256=9ngMRjl275etpgkQ8E4GfSN8HThyod52oRdFjSYJoJA,728768
+realeyes/emotion_detection/libNativeEmotionsLibrary.dylib,sha256=L-Zl8nmBcxbQOL4nB_4T3i1CJ-YmsFd9pOysCt0Pb_w,20477448
+realeyes.emotion_detection-2.7.4.dist-info/METADATA,sha256=JwcGMUlRU10FS0_p1OBsVb-JEmzzQmbWVwuGGeKfd0E,335
+realeyes.emotion_detection-2.7.4.dist-info/WHEEL,sha256=TncAKGvnfXJs-WUZUGzl_RwrBY6HmH7BWWQjmjUD8NU,111
+realeyes.emotion_detection-2.7.4.dist-info/top_level.txt,sha256=8zcEfTWsD25zwFDRLvCl1DrzsECXtSwr7OoPbBuuPH0,9
+realeyes.emotion_detection-2.7.4.dist-info/RECORD,,
