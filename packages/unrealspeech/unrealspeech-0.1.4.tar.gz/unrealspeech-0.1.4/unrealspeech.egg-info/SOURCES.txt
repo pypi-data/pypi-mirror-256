@@ -1,0 +1,10 @@
+README.md
+setup.py
+unrealspeech/__init__.py
+unrealspeech/api.py
+unrealspeech/utils.py
+unrealspeech.egg-info/PKG-INFO
+unrealspeech.egg-info/SOURCES.txt
+unrealspeech.egg-info/dependency_links.txt
+unrealspeech.egg-info/requires.txt
+unrealspeech.egg-info/top_level.txt
