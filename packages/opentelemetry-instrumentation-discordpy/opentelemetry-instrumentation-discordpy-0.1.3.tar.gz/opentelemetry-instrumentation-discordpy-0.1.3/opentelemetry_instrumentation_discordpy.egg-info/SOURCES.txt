@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+opentelemetry_instrumentation_discordpy/__init__.py
+opentelemetry_instrumentation_discordpy/decorators.py
+opentelemetry_instrumentation_discordpy/instrumentation.py
+opentelemetry_instrumentation_discordpy/utils.py
+opentelemetry_instrumentation_discordpy.egg-info/PKG-INFO
+opentelemetry_instrumentation_discordpy.egg-info/SOURCES.txt
+opentelemetry_instrumentation_discordpy.egg-info/dependency_links.txt
+opentelemetry_instrumentation_discordpy.egg-info/requires.txt
+opentelemetry_instrumentation_discordpy.egg-info/top_level.txt
+tests/test_event_listeners.py
+tests/test_manual_instrumentation.py
+tests/test_message_operations.py
