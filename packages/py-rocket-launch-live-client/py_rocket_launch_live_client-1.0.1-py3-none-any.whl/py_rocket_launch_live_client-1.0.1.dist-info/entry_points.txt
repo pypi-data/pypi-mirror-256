@@ -1,0 +1,2 @@
+[console_scripts]
+py-rocket-lauch-live-client = py_rocket_lauch_live_client.module:main
