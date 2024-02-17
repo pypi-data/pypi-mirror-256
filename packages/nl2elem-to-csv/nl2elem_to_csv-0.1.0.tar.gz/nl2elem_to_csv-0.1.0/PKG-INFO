@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nl2elem_to_csv
+Version: 0.1.0
+Summary: Convert NoLimits2 coaster element files to CSV for NL2PC.
+Author: Luke Hobbs
+Project-URL: repository, https://github.com/lukehobbs/nl2elem_to_csv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
