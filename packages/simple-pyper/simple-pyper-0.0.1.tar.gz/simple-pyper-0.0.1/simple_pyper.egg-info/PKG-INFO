@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: simple-pyper
+Version: 0.0.1
+Summary: a tiny cli tool for using any python file esaily.
+Home-page: https://github.com/chenyiru3/simple-pyper
+Author: chen
+Author-email: c1556613010@outlook.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
+just enjoy
