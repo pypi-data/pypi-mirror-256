@@ -1,0 +1,8 @@
+driver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+driver/options.py,sha256=BzaOKBpWNAL8DCiMWDEc6ShlYlFB7XXqx7E1PGS9OBU,425
+driver/raven_test_driver.py,sha256=xu_ggYsJ7NB7G5zttZQelP96ISth_C1UA4M1qTDuXhg,8550
+ravendb_test_driver-6.0.dist-info/LICENSE,sha256=ye5k75UFSd6bL3i69_gD2pDqij7zzlCM-y9qR_9Oq30,14961
+ravendb_test_driver-6.0.dist-info/METADATA,sha256=pLA6GBLdav5MlY7U6KGHTjj0fNxV-NYy9RnZVgznDYw,1430
+ravendb_test_driver-6.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ravendb_test_driver-6.0.dist-info/top_level.txt,sha256=sA1c_uQ65AtWvaKSNlv3M50sj0I5Ex1jLtvr5iPpQMY,7
+ravendb_test_driver-6.0.dist-info/RECORD,,
