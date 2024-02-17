@@ -1,0 +1,11 @@
+whecho/README.md,sha256=1uQ5R1vJx9_yg5sdfteSuohCs9svxCmAdhKdsJIFNDE,1026
+whecho/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whecho/_config.py,sha256=BV2vEHSJmEnDNcUU_gYCINp5vCOT_eRriL-SFRwQWE4,3588
+whecho/_send_message.py,sha256=zM53yfjnazlBYTj4VS92JOhql9LEBQWgHg-Q8P9HueE,2282
+whecho/_utilities.py,sha256=6LB8_mhY9UEpsDGaSNsYgkgiF9BrQjLkxFzNFir_LOg,1623
+whecho/whecho.py,sha256=lZdYPGlQgRBWlO6OUu1Q1cN0mX8ZggwPynEEJz4N364,1622
+whecho-0.0.5.dist-info/entry_points.txt,sha256=rueRrEYN7mTubvf9rO0FYV1PZleMOf_kfHbqenkVO8E,45
+whecho-0.0.5.dist-info/LICENSE,sha256=bKMHQQKx6N2NtHU_rXooHYKkyjj4tPBJLy3-AvAmAjc,1069
+whecho-0.0.5.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+whecho-0.0.5.dist-info/METADATA,sha256=rjNJNipxFnT3xP1vEWzR2nNPMjjYZuoQFGPCn3--cIk,3222
+whecho-0.0.5.dist-info/RECORD,,
