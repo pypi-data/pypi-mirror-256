@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "whecho"
+version = "0.0.5"
+description = "Linux echo with webhooks! ⚓"
+readme = "README.md"
+authors = [
+  "Chinmay Raut",
+  "Wendy Yu"
+]
+license = "MIT"
+homepage = "https://github.com/cvraut/whecho"
+repository = "https://github.com/cvraut/whecho"
+keywords = ["webhooks","notifications","echo","whecho","command-line","cli"]
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Logging",
+    "Topic :: System :: Monitoring",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+requests = ">=2.25.1"
+setuptools = ">=40.6.3"
+toml = ">=0.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+whecho = "whecho:whecho.main"
+
+[tool.poetry.urls]
+homepage = "https://github.com/cvraut/whecho"
+repository = "https://github.com/cvraut/whecho"
+"Bug Tracker" = "https://github.com/cvraut/whecho/issues"
