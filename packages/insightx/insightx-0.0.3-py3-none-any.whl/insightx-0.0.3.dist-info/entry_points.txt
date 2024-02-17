@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+insightx = insightx._modidx:d
+
