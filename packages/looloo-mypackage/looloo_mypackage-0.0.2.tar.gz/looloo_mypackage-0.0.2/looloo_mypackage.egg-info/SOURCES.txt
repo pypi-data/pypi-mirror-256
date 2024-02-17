@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+looloo_mypackage/__init__.py
+looloo_mypackage/mypackage.py
+looloo_mypackage.egg-info/PKG-INFO
+looloo_mypackage.egg-info/SOURCES.txt
+looloo_mypackage.egg-info/dependency_links.txt
+looloo_mypackage.egg-info/top_level.txt

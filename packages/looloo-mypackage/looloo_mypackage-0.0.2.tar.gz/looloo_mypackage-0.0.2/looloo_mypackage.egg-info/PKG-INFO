@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: looloo_mypackage
+Version: 0.0.2
+Summary: package for test only
+Home-page: 
+Author: Nantawan Chomboonmee
+Author-email: nantawan@loolootech.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Looloo my package
+
+test for setup tools
