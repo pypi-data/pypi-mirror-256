@@ -1,0 +1,2 @@
+[console_scripts]
+beditor = beditor.run:parser.dispatch
