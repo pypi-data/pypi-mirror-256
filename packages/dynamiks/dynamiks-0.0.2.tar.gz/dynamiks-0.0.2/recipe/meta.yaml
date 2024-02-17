@@ -1,0 +1,29 @@
+package:
+  name: py_wake
+  version: {{ environ.get('VERSION', '0.0.0') }} # does not work anymore not sure why
+
+source:
+  path: ../
+
+build:
+  number: 0
+  script: pip install --no-deps .
+  skip: True # [py<37]
+  noarch: python
+
+requirements:
+  # If adding new requirements be sure to also add to setup.py
+  run:
+    - h5netcdf
+    - matplotlib
+    - netcdf4
+    - numpy
+    - python
+    - tqdm
+    - xarray
+  host:
+    - python
+    - setuptools
+test:
+  imports:
+    - dynamiks

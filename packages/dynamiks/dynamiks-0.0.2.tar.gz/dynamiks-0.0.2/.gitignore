@@ -1,0 +1,7 @@
+/*.project
+/*.pydevproject
+*.pyc
+/tests/test_files/tmp*
+/hawc2farm_comparison
+/.pytest_cache/
+/.venv*
