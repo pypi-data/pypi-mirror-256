@@ -1,0 +1,6 @@
+zeroconf==0.119.0
+requests
+
+[dev]
+build
+twine
