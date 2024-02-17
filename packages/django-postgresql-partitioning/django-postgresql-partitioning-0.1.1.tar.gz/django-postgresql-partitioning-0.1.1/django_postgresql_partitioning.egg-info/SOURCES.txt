@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_postgresql_partitioning.egg-info/PKG-INFO
+django_postgresql_partitioning.egg-info/SOURCES.txt
+django_postgresql_partitioning.egg-info/dependency_links.txt
+django_postgresql_partitioning.egg-info/requires.txt
+django_postgresql_partitioning.egg-info/top_level.txt
+partitioning/__init__.py
+partitioning/apps.py
+partitioning/decorators.py
+partitioning/utils.py
+partitioning/management/commands/setup_partitioning.py
