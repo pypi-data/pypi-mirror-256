@@ -1,0 +1,11 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+
+{% extends "base.dtl" %}
+
+{% block title %}Page not found{% endblock %}
+{% block title_meta %}Page not found{% endblock %}
+
+{% block content %}
+    <p>Page not found (404)</p>
+{% endblock %}
+

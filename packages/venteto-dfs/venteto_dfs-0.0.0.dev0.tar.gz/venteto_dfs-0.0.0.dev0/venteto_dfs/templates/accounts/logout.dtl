@@ -1,0 +1,9 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{% extends "base.dtl" %}
+
+{% block title %}Logout | {% endblock %}
+{# {% block title_meta %}Logout | {% endblock %} #}
+
+{% block content %}
+    <p>You are now logged out.</p>
+{% endblock %}

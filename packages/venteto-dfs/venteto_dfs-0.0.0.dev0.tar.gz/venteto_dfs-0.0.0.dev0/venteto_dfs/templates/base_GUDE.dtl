@@ -1,0 +1,81 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{# {% load compress static %}  #}
+<!DOCTYPE html><html lang="en-us" dir="ltr" class="dark">
+<head>{# https://github.com/cobrateam/django-htmlmin/issues/6 #}
+
+{% comment "" %}
+    {% if ANA_GA4_ID %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ANA_GA4_ID}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ANA_GA4_ID}}');
+</script>{% endif %}
+{% endcomment %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %} | {{PROJ_NAME}}</title>
+
+{% comment "" %}
+<link rel="icon" href="{% static 'favicons/diamond-blu.svg' %}" />
+{% compress css %}
+    <link rel="stylesheet" href="{% static 'css_comp/generic.css' %}" />
+{% endcompress %}
+{% endcomment %}
+
+
+{% comment "" %}
+    <link rel="stylesheet" href="{% static 'django_table_sort.css' %}"/>
+{% endcomment %}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+{# <base target="_blank" /> #}
+</head>
+<body>
+<header>
+    <div id='header-inner'>
+        <noscript>Warning: JavaScript is disabled in your browser; some features may not work.</noscript>
+        {# <h1 id="site-name"></h1> #}
+        {# <a href="{% url 'site_index' %}">{{ PROJ_NAME }}</a> #}
+    </div>
+    {% if request.user.is_superuser %}
+        <p style="margin:0 0 0 20px;"><a href="#nav_global">Menu</a></p>
+        <hr>
+    {% endif %}
+</header>
+
+<main>
+    <h2>{% block title_h2 %}{% endblock %}</h2>
+    <div id='main-inner'>
+    {# https://code.djangoproject.com/ticket/9173 #}
+    {# {% block section_header %}{% endblock %} #}
+
+    {# <div id="content-start" class="content" tabindex="-1"> #}
+    {% block content %}{% endblock %}
+    </div>
+</main>
+
+<footer>
+    <div id='nav_global'>  {# <div id='footer-inner'> #}
+        {% include 'nav_global.dtl' %}
+    </div>
+</footer>{% comment "" %}{% endcomment %}
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/plug-ins/1.13.7/filtering/type-based/diacritics-neutralise.js"></script>
+
+{% comment "" %}
+<script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+</script>
+{% endcomment %}
+
+{% block body_bottom_extra %}{% endblock %}
+
+
+</body>
+</html>

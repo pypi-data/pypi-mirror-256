@@ -1,0 +1,13 @@
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lime;
+    text-decoration: underline;
+}
+
+a.mutable:visited {
+    color: magenta;
+}

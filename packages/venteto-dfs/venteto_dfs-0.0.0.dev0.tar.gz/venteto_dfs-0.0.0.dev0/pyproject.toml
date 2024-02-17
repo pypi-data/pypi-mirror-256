@@ -1,0 +1,29 @@
+[build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+# name = "venteto-django-foundation-simple"
+name = "venteto-dfs"
+version = "0.0.0.dev0"
+dependencies = [
+    "django>=5.0.2",
+    # "django-compressor>=4.4",
+    "django-htmlmin>=0.11.0",
+    "django-tree-queries>=0.16.1",
+    # "Markdown>=3.5.1",
+    "uuid6>=2024.1.12",
+]
+# description = "A Django app to conduct web-based polls."
+description = "This is a test package and is not intended to be used by the public."
+# readme = "README.rst"
+requires-python = ">= 3.12"
+#authors = [
+#    {name = "Your Name", email = "yourname@example.com"},
+#]
+# classifiers = []
+
+# [project.urls]
+# Homepage = "https://www.example.com/"

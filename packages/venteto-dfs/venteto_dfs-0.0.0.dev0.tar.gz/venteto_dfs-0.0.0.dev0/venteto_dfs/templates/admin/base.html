@@ -1,0 +1,33 @@
+
+{% extends "admin/base.html" %}
+{% block extrastyle %}{{ block.super }}
+
+{% comment "" %}
+{% if request.user.is_authenticated and ENV_NAME and PROJ_NAME %}
+{% if request.user.is_authenticated %}
+{% endcomment %}
+
+
+{% if request.user.is_staff %}
+
+{# django-admin-notice #}
+<style type="text/css">
+    /* body { font-size: 150%; } */
+    body:before {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        padding: .5rem 1rem;
+        line-height: 1.25rem;
+        text-align: center;
+        /* text-transform: uppercase; */
+        font-weight: 700;
+        {# content: "{{ENV_NAME}} environment | {{PROJ_NAME|title }}"; #}
+        content: "{{ENV_NAME}} — {{PROJ_NAME }}";
+        background: {{ADMIN_HEADER_BG}};
+        color: {{ADMIN_HEADER_FG}};
+    }
+</style>
+{% endif %}
+{% endblock %}

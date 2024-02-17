@@ -1,0 +1,46 @@
+table, tr, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th, td {padding: 0.4em;}
+
+th {background-color: black;}
+
+/* columns only shown to superuser */
+th.su, td.su { background :#610915; }
+
+td.rj { text-align: right; }
+
+
+
+
+/*
+.fixed_header{
+    width: 400px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 100px;
+}
+
+.fixed_header thead tr {
+   display: block;
+}
+
+.fixed_header thead {
+  background: black;
+  color:#fff;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 5px;
+  text-align: left;
+  width: 200px;
+}
+*/

@@ -1,0 +1,2 @@
+recursive-include venteto_dfs/static *
+recursive-include venteto_dfs/templates *

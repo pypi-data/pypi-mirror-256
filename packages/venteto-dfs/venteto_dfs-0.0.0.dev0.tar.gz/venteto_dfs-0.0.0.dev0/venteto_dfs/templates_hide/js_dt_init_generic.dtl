@@ -1,0 +1,34 @@
+<script>
+    new DataTable('#jsData', {
+
+        // https://datatables.net/reference/option/language
+        "language": {
+            "search": "Global row filter: "
+          },
+        // responsive: true,
+        "pageLength": 10,
+        "order": [ [ 0, 'desc' ], ],
+
+        initComplete: function () {
+            this.api()
+                .columns()
+                .every(function () {
+                    let column = this;
+                    let title = column.header().textContent;
+     
+                    // Create input element
+                    let input = document.createElement('input');
+                    input.placeholder = title;
+                    input.style = "color-scheme:dark; width:90%;";
+                    column.header().replaceChildren(input);
+     
+                    // Event listener for user input
+                    input.addEventListener('keyup', () => {
+                        if (column.search() !== this.value) {
+                            column.search(input.value).draw();
+                        }
+                    });
+                });
+        }
+    });
+</script>

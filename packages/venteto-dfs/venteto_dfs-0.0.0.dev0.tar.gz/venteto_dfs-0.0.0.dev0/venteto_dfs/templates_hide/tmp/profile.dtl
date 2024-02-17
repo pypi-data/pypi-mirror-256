@@ -1,0 +1,54 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{% extends "base.dtl" %}
+
+{% load markdown_extras %}
+
+{% block title %}Profile{% endblock %}
+{% block title_meta %}Profile{% endblock %}
+
+{% block content %}
+    {% if not user.is_authenticated %}
+        <p>You need to log in to view this page.</p>
+    {% endif %}
+
+
+    {% if user.is_authenticated %}
+        <h2>Profile</h2>
+        Hello {{request.user.username}}, aka {{request.user.first_name}}
+        {% if not request.user.is_staff %}
+            👉 You're a <em>normal</em> user
+        {% endif %}
+        {% if request.user.is_staff %}
+            👉 You're <em>staff</em>
+        {% endif %}
+        {% if request.user.is_superuser %}
+            | You're also a <em>super</em> user
+        {% endif %}
+
+        <hr>
+        <h2>Markdown Content From User Model</h2>
+        <div>
+            {{ user.profile_content | markdown | safe }}
+        </div>
+
+        <hr>
+        <h2>Request Info</h2>
+        <ul>
+        <li><strong>IP Address:</strong> {{ip}}</li>
+        <li><strong>Device:</strong> {{ device_type}}</li>
+        <li><strong>Browser:</strong> {{browser_type}} {{browser_version}}</li>
+        <li><strong>OS:</strong> {{os_type}} {{os_version}}</li>
+        
+        {# {% if RUNTIME_ENVIRONMENT_NAME == "Production" %} {% endif %} #}
+        <li><strong>City:</strong> {{ location_city }}</li>
+        <li><strong>Country:</strong> {{ location_country }}</li>
+        <li><strong>Lat+Long:</strong> {{ location_latitude }}, {{ location_longitude }} | <a target="_blank" href="https://www.google.com/maps/">Google Maps</a>
+        </li>
+        {% comment "Stuff probably not in free databases" %}
+        <li>Postal Code: {{ postal_code }}</li>
+        <li>ISP: {{ isp }}</li>
+        {% endcomment %}
+        </ul>
+
+    {% endif %}
+{% endblock %}

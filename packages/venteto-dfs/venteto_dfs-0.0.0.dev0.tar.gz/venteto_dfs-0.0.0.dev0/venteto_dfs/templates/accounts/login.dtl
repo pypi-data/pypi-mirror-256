@@ -1,0 +1,24 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{% extends "base.dtl" %}
+
+{% block title %}Login{% endblock %}
+{# {% block title_meta %}Login{% endblock %} #}
+
+{% block content %}
+
+  {% if user.is_authenticated %}
+    <p>You are already logged in.</p>
+    <form id="logout-form" method="post" action="{% url 'logout' %}">
+      {% csrf_token %}
+      <button type="submit">Log out</button>
+    </form>
+  {% else %}
+    <h2>Login</h2>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Login</button>
+      </form>
+  {% endif %}
+
+{% endblock %}

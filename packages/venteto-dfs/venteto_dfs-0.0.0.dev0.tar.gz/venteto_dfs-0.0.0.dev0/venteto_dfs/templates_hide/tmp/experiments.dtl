@@ -1,0 +1,86 @@
+{# Jinja opening raw tag would go here if using this as a cookiecutter #}
+{% extends "base.dtl" %}
+
+{% block title %}Experiments{% endblock %}
+{% block title_meta %}Experiments{% endblock %}
+
+{% block content %}
+
+    {% if not user.is_authenticated %}
+        <p>You need to log in to view this page.</p>
+    {% endif %}
+
+    {% if request.user.is_superuser %}
+    <h1>Experiments</h1>
+
+
+<h2>Embedding plaintext includes in a normal HTML template</h2>
+<p>Possible use case is scripts in the host container writing to the included text file.</p>
+<pre>
+{% include "tmp/sh_out.txt" %}
+</pre>
+
+{% load markdown_extras %}
+{#  <p>{{ post.body | markdown | safe }}</p> #}
+{# {% include "exp/SAMPLE.md" %} #}
+{% include_md "tmp/SAMPLE.md" %}
+{% comment "" %}
+    ideas for standalone markdown files with yaml frontmatter
+    https://github.com/meeb/django-distill-site/blob/main/distill_site/content/content.py
+{% endcomment %}
+
+<h2>Image Stuff</h2>
+
+<h3>Testing remote hosting (without using Django's MEDIA or ImageField functionality)</h3>
+<p>Also not yet testing responsive images (srcset), or changing file name during upload</p>
+
+<h4>Gitlab test</h4>
+<p>
+    <a target="_blank" href="https://gitlab.com/s0meb0dy/farrago-media-images">images repo</a>
+</p>
+
+<h4>Imgur test</h4>
+<a title="Funny Venn Diagram" target="_blank" href="https://i.imgur.com/z8LQ2wq.gif">
+    <img width="20%" loading="lazy" alt="Funny Venn Diagram" src="https://i.imgur.com/z8LQ2wq.gif">
+</a>
+
+<h4>Google Photos test</h4>
+    <p>Image test using <a target="_blank" href="https://photos.google.com/album/AF1QipM7ImbFzrKL7fwOMpXpUq32hfsHKJ3TGSfDP1mD">Google Photos</a> (image added at 23:09 on 03 May 2023)
+    </p>
+        {% comment "" %}
+        https://www.w3schools.com/tags/tag_img.asp
+        {% endcomment %}
+
+        <div>
+            <p>Direct Version, link 2 after creating link for the ALBUM and opening it in the private window, then opening the image in a new tab at 11:20 on 5 May 2023</p>
+        <a title="Sailboat painting" target="_blank" href="https://lh3.googleusercontent.com/pw/AJFCJaVVE60VaJDveLdcHL9Ip9sJj2sb98dXdHBhvPeex2VAUM17XD1CTcZU7XB5Mdn8T3v0Ov7QykD50s_VJIURp5eod4MOgTmhChxYK3GP2EuWKvmMB4Q0t6CO3tSTc-Wcg0X5RA6-pmZVesXz_3Lt0cui=w1564-h929-s-no">
+            <img width="20%" loading="lazy" alt="Booyah kasha" src="https://lh3.googleusercontent.com/pw/AJFCJaVVE60VaJDveLdcHL9Ip9sJj2sb98dXdHBhvPeex2VAUM17XD1CTcZU7XB5Mdn8T3v0Ov7QykD50s_VJIURp5eod4MOgTmhChxYK3GP2EuWKvmMB4Q0t6CO3tSTc-Wcg0X5RA6-pmZVesXz_3Lt0cui=w1564-h929-s-no">
+        </a>
+    </div>
+
+
+
+{% comment "Image hosting considerations" %}
+https://www.docker.com/blog/how-to-build-and-deploy-a-django-based-url-shortener-app-from-scratch/
+
+https://developers.google.com/photos
+
+https://support.bitly.com/hc/en-us/articles/230647907-How-do-I-generate-an-OAuth-access-token-for-the-Bitly-API-
+
+https://photos.google.com/album/AF1QipM7ImbFzrKL7fwOMpXpUq32hfsHKJ3TGSfDP1mD
+
+
+link 2 (210 characters)
+
+https://lh3.googleusercontent.com/pw/AJFCJaVVE60VaJDveLdcHL9Ip9sJj2sb98dXdHBhvPeex2VAUM17XD1CTcZU7XB5Mdn8T3v0Ov7QykD50s_VJIURp5eod4MOgTmhChxYK3GP2EuWKvmMB4Q0t6CO3tSTc-Wcg0X5RA6-pmZVesXz_3Lt0cui=w1564-h929-s-no
+
+
+link 1 (1002 characters, works for less than a day)
+
+https://lh3.googleusercontent.com/3fnL_XQfRweX3vu6ZPCT7wcB4h7DF867kjA2rHXCklVP4JiMHbfLVCIvbWxI-ut_oGxvwOZ7IA2dlI64r2CunhB9y4WLI65Xd5sEkyX3jt9DD44Ka3Btbl_Vr6ssRxlycfc0MpNvR4_67NHYFgvE8XcNLhRYfxieImO6ZKbGCdS-sFKoxpmekA-5_0pFd__jFyRBGyVX_x7y5gcuj1_Sf36dyiFmiMNQv17LERCMgk82azAs1EzGFxoSxR2_3dV-SwrwNFnooqk0NHoGzMV44SqdRbNeZIKyTv0xbAlP1u0ayPckWBcGYSW_YcDI4tYa-hsx54qA_t2UrdVI_fH4SynNYV0lhitdbNSJJJ9HLFgW6ALsREdDl_DoVB1nPsA_oS2PgzpYZ6JoY6oSq9jei2gXajM02wmcVZU3FYupqLrutchiYK_I1u4ntB2U_tLbJVeYzKYImubheub5gS0zchSbkoIyxGb9j0Q36zMkrx1KcEuEBJR-oJtWO9mslWidB38iwDou5ZPWp9pHbx1n_m_oS1zcBaSOdyOJQy7YSrBVqcWO3nmeGZipc-B_XM-MpZEX0_zIWxwjdNx-eDeOvYjvRDTb5UMiyv0subHkWSKUV_tSebMcbh5All78ig14gxO3KyN4rVgBladnJccT3Nk4eCt8HymwGB_3j151VoxWPZMfuS-coUVof2c1rubRzYEBWNeUZPA5FcTNqxnNHg3ZoDpZ0m9swx_rBULK_kN7MOh0lntlhTxiiDjvXTH75PIS_6Z4GusZbQqLCfxsXQj25mUR0vJOWYWTXsA1EiRHyVPJdXcYcakDYAqEbjTTSIsDrJVshxFwncwKpa9sa7JnqotZ60uluvk4OA4p1yoXko-nk0h8jAzNVd9wipqNO7OFZcRtp1DVucl4LstuLIoQMNKQG_aK9kSjLIYPWxx9=w1564-h929-s-no?authuser=0
+
+{% endcomment %}
+
+        {% endif %}
+
+{% endblock %}
