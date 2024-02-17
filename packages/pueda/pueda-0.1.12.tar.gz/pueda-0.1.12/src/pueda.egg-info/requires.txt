@@ -1,0 +1,9 @@
+dtrx
+edalize
+myhdl
+numpy
+pyvcd
+pyverilator-mm>=0.7.6
+vcdvcd
+veriloggen
+wget
