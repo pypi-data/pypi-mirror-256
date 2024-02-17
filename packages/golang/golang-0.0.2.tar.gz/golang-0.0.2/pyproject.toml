@@ -1,0 +1,51 @@
+#[build-system]
+#requires = []
+#build-backend = ""
+
+[project]
+name = "golang"
+version = "0.0.2"
+#dependencies = []
+
+requires-python = ">=3.8"
+authors = [
+    { name = "menduo", email = "shimenduo@gmail.com" },
+]
+maintainers = [
+    { name = "menduo", email = "shimenduo@gmail.com" },
+]
+description = "run Go code in Python"
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+keywords = ["go", "golang", ]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python"
+]
+
+
+# external dependencies
+[project.optional-dependencies]
+dev = [
+    "black==24.*",
+    "flake8==7.*",
+    "isort==5.*",
+    "pytest==8.*",
+]
+
+
+#[project.optional-dependencies]
+#gui = []
+#cli = []
+
+[project.urls]
+Homepage = "https://github.com/menduo/golang"
+Documentation = "https://github.com/menduo/golang"
+Repository = "https://github.com/menduo/golang.git"
+"Bug Tracker" = "https://github.com/menduo/golang/issues"
+Changelog = "https://github.com/menduo/golang/blob/master/CHANGELOG.md"
+
+#[project.scripts]
+#
+#[project.gui-scripts]
+
