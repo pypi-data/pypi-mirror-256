@@ -1,0 +1,9 @@
+imio.helpers
+plone.api
+setuptools
+
+[test]
+Products.PloneGazette
+Products.PloneTestCase
+plone.app.robotframework
+plone.app.testing
