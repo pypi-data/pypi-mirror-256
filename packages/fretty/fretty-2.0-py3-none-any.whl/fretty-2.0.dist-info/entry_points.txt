@@ -1,0 +1,2 @@
+[console_scripts]
+fretty = fretty:main
