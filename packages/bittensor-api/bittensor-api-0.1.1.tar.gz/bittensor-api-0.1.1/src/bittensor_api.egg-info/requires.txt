@@ -1,0 +1,4 @@
+bittensor
+
+[dev]
+check-manifest
