@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Rubik_Vault.egg-info/PKG-INFO
+Rubik_Vault.egg-info/SOURCES.txt
+Rubik_Vault.egg-info/dependency_links.txt
+Rubik_Vault.egg-info/top_level.txt
+codex/Coleccion_Cubos.py
+codex/Inicio_de_sesion.py
+codex/Seleccion_Cubos.py
+codex/__init__.py
+codex/res/__init__.py
