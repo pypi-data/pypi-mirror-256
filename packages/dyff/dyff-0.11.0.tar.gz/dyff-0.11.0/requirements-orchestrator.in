@@ -1,0 +1,8 @@
+absl-py
+confluent-kafka
+dyff-schema
+kubernetes
+networkx
+pyarrow
+pydantic~=1.0
+rocksdict
