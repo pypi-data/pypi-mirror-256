@@ -1,0 +1,3 @@
+[opentelemetry_distro]
+distro=kengine.opentelemetry.distro:KengineDistro
+
