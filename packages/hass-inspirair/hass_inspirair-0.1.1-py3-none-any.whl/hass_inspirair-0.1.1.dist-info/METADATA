@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hass_inspirair
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/The-Smartest-Home/hass_inspirair
+License: Apache Software License
+Author: Kraus, Vadim
+Author-email: 38394456+VadimKraus@users.noreply.github.com
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiomqtt (>=1.2.1,<2.0.0)
+Requires-Dist: paho-mqtt (>=1.6.1,<2.0.0)
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Requires-Dist: pymodbus[serial] (>=3.6.2,<4.0.0)
+Project-URL: Documentation, https://github.com/The-Smartest-Home/hass_inspirair
+Project-URL: Repository, https://github.com/The-Smartest-Home/hass_inspirair
+Description-Content-Type: text/markdown
+
+# ha-aldes
+
+A python library that connects to a ventilation system from `InspirAir® Home` from `Aldes` via Modus and exposes it as a device or home-assistant.
+
+Only the ventilation mode is currently writable. However, it takes a **significant** time before the value changes after a write command.
+Since the register will stay at its previous setting while switching between states.
+
+## Supported Models
+
+In theory this lib should work with any `InspirAir® Home` Ventilation system.
+
+Currently, only the following was actually tested:
+
+- InspirAIR Home SC 370
+
+## Configuration
+
+See [env_config.py](./hass_inspirair/env_config.py) for configuration options which can be set via environment variables.
+
+## Simulator/Testing
+
+The compose stack includes a simulator that exposes the relevante registers via Modbus-TCP. The presented values are a pure mock.
+However, this stack can be used to try out the behavior of the MQTT discovery.
+
+1. Run `docker-compose up`
+2. Add the MQTT Integration (`host=mqtt`)
+3. A device should show up
+
