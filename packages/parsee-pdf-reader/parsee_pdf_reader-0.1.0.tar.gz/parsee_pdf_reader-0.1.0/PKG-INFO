@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: parsee-pdf-reader
+Version: 0.1.0
+Summary: 
+Home-page: https://parsee.ai
+Author: Parsee.ai
+Author-email: info@parsee.ai
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.25.1,<2.0.0)
+Requires-Dist: opencv-python (>=4.8.0.74,<5.0.0.0)
+Requires-Dist: pdf2image (>=1.16.3,<2.0.0)
+Requires-Dist: pdfminer-six (>=20221105,<20221106)
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Requires-Dist: pypdf (>=3.16.2,<4.0.0)
+Requires-Dist: pytesseract (>=0.3.10,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Parsee PDF Reader
+
+This PDF reader was designed to overcome the common problems when trying to extract tables from PDFs.
+
+We started initially with a focus on financial/numeric tables, so this is where this PDF reader works best for.
+
+## Installation
+
+Recommended install with poetry: https://python-poetry.org/docs/
+
+Alternatively: pip install parsee-pdf-reader
+
+## PRE-RELEASE PUBLIC VERSION -> big changes to repo in coming days (Feb 2024), recommended to wait for public relase (end of Feb 2024)
