@@ -1,0 +1,7 @@
+setup.py
+Arithemetic.egg-info/PKG-INFO
+Arithemetic.egg-info/SOURCES.txt
+Arithemetic.egg-info/dependency_links.txt
+Arithemetic.egg-info/top_level.txt
+pypi/__init__.py
+pypi/thesum.py
