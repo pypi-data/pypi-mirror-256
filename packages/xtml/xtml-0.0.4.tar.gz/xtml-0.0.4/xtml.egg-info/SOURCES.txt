@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+xtml/__init__.py
+xtml/utils.py
+xtml.egg-info/PKG-INFO
+xtml.egg-info/SOURCES.txt
+xtml.egg-info/dependency_links.txt
+xtml.egg-info/requires.txt
+xtml.egg-info/top_level.txt
+xtml/tensorflow/__init__.py
+xtml/torch/__init__.py
+xtml/torch/datamodel.py
