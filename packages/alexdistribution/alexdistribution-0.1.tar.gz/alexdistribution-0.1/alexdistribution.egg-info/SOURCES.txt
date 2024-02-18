@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+alexdistribution.egg-info/PKG-INFO
+alexdistribution.egg-info/SOURCES.txt
+alexdistribution.egg-info/dependency_links.txt
+alexdistribution.egg-info/not-zip-safe
+alexdistribution.egg-info/top_level.txt
+distribute/Binomialdistribution.py
+distribute/Gaussiandistribution.py
+distribute/Generaldistribution.py
+distribute/__init__.py
