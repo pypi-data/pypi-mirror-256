@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: s3ala
+Version: 0.0.1
+Summary: A basic CLI-based aggregator to extract some very basic metrics from ALB logs stored in an S3 bucket
+Project-URL: Source, https://github.com/uktrade/s3ala
+Author-email: Department for International Trade <sre@digital.trade.gov.uk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: boto3>=1.34.41
+Requires-Dist: click>=8.1.7
+Requires-Dist: to-file-like-obj>=0.0.5
+Description-Content-Type: text/markdown
+
+# s3ala
+
+A basic CLI-based aggregator to extract some very basic metrics from ALB logs stored in an S3 bucket
+
+> [!NOTE]
+> Work in progress. This README serves as a rough design spec
+
+
+## Installation
+
+```shell
+pip install s3ala
+```
+
+
+## Usage
+
+To use the pre-configured AWS profile to extract metrics of ALB logs in the bucket "bucket" under "prefix/" in the time range [2024-01-01T00:00:00, 2024-01-02T00:00:00)
+
+```shell
+AWS_PROFILE=my-aws-profile s3ala bucket prefix/ 2024-01-01T00:00:00 2024-01-02T00:00:00
+```
