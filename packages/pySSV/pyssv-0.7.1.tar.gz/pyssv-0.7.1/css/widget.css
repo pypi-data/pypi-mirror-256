@@ -1,0 +1,232 @@
+/*
+ * Copyright (c) 2023-2024 Thomas Mathieson.
+ * Distributed under the terms of the MIT license.
+ */
+
+.ssv-colors {
+  --ssv-bg-color1: var(--jp-layout-color1);
+  --ssv-bg-color2: var(--jp-layout-color2);
+  --ssv-bg-color3: var(--jp-layout-color3);
+  --ssv-bg-color4: var(--jp-layout-color4);
+
+  --ssv-font-color1: var(--jp-ui-font-color1);
+  --ssv-font-color2: var(--jp-ui-font-color2);
+
+  --ssv-error-color1: var(--jp-error-color1);
+  --ssv-error-color2: var(--jp-error-color2);
+  --ssv-warn-color1: var(--jp-warn-color1);
+}
+
+/*noinspection CssUnresolvedCustomProperty*/
+.ssv-colab-support.ssv-colors {
+  /* We need to change some of the colours here since google colab doesn't seem to support all the jupyter colours. */
+  --ssv-bg-color1: var(--colab-primary-surface-color);
+  --ssv-bg-color2: var(--colab-secondary-surface-color);
+  --ssv-bg-color3: var(--colab-highlighted-surface-color);
+  --ssv-bg-color4: var(--colab-border-color);
+
+  --ssv-font-color2: var(--colab-icon-color);
+}
+
+.ssv-render-widget {
+  background-color: var(--ssv-bg-color1); /* #101515;*/
+  padding: 2px;
+}
+
+.ssv-render-viewport {
+  transform: scaleY(-1);
+}
+
+.ssv-status-bar {
+  padding: 4px;
+  background-color: var(--ssv-bg-color2); /* #203030;*/
+  color: var(--ssv-font-color1);
+  display: flex;
+  align-items: center;
+}
+
+.ssv-icon-button {
+  aspect-ratio: 1;
+  font-size: 1rem;
+}
+
+.ssv-icon {
+  fill: var(--ssv-font-color1);
+  stroke-width: 0;
+}
+
+[class^="ssv-status-"] {
+  padding: 2px 20px 2px 2px;
+}
+
+.ssv-status-disconnected {
+  color: var(--ssv-error-color2);
+}
+
+.ssv-log {
+  height: 0;
+  max-height: 20rem;
+  margin: 10px 0 10px 20px;
+  overflow: auto;
+  color: var(--ssv-font-color2);
+  display: none;
+  /*white-space-collapse: preserve;*/
+}
+
+.ssv-log-debug {
+  color: var(--ssv-font-color2);
+}
+
+.ssv-log-info {
+  color: var(--ssv-font-color1);
+}
+
+.ssv-log-warn {
+  color: var(--ssv-warn-color1);
+}
+
+.ssv-log-error {
+  color: var(--ssv-error-color1);
+}
+
+.ssv-log.ssv-log-active {
+  height: auto;
+  display: block;
+}
+
+.ssv-button {
+  padding: 0 0.5rem;
+  margin-right: 2px;
+  font-family: sans-serif;
+  color: var(--ssv-font-color1);
+  background-color: var(--ssv-bg-color3);
+  border: 1px solid #ffffff10;
+  border-radius: 3px;
+  height: 2.4rem;
+}
+
+.ssv-button:hover {
+  background-color: var(--ssv-bg-color4);
+}
+
+.ssv-button:active {
+  background-color: var(--ssv-bg-color2);
+}
+
+.ssv-combi-button-left {
+  border-end-end-radius: 0 !important;
+  border-start-end-radius: 0 !important;
+  margin-right: 0 !important;
+}
+
+.ssv-combi-button-centre {
+  border-radius: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.ssv-combi-button-right {
+  border-start-start-radius: 0 !important;
+  border-end-start-radius: 0 !important;
+  margin-left: 0 !important;
+}
+
+[class^="ssv-input"] {
+  height: 1.5rem !important;
+  padding: 0 0.5rem;
+  margin-right: 2px;
+  font-family: sans-serif;
+}
+
+[class^="ssv-input"]:disabled {
+  opacity: 75%;
+}
+
+[class^="ssv-input"]:hover:enabled {
+  background-color: var(--ssv-bg-color4);
+}
+
+[class^="ssv-input"]:active:enabled {
+  background-color: var(--ssv-bg-color2);
+}
+
+.ssv-input-select {
+  color: var(--ssv-font-color1);
+  background-color: var(--ssv-bg-color3);
+  border: 1px solid #ffffff10;
+  border-radius: 3px;
+}
+
+.ssv-input-number {
+  color: var(--ssv-font-color1);
+  background-color: var(--ssv-bg-color3);
+  border: 1px solid #ffffff10;
+  border-radius: 3px;
+}
+
+.ssv-input-checkbox {
+
+}
+
+.ssv-input-slider {
+  padding: 0 !important;
+}
+
+.ssv-status-frame-stats table {
+  display: contents;
+}
+
+.ssv-status-frame-stats tbody {
+  text-align: left;
+  font-family: monospace;
+}
+
+.ssv-status-frame-stats td {
+  padding: 0;
+}
+
+.ssv-status-frame-stats td:nth-last-child(n+1) {
+  padding-right: 16px;
+}
+
+.ssv-status-save-image {
+  display: flex;
+}
+
+.ssv-modal {
+  position: fixed;
+  z-index: 10;
+  border-radius: 3px;
+  background: var(--ssv-bg-color1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 2px;
+  box-shadow: 0 6px 16px #0005;
+}
+
+.ssv-modal-title-bar {
+  background: var(--ssv-bg-color2);
+  border-radius: 3px 3px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ssv-modal-item {
+  margin: 4px 8px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ssv-label {
+  margin-right: 5px;
+}
+
+.ssv-hidden {
+  display: none !important;
+}
