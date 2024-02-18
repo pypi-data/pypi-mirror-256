@@ -1,0 +1,12 @@
+README.md
+setup.py
+XTBApi/__init__.py
+XTBApi/__version__.py
+XTBApi/api.py
+XTBApi/exceptions.py
+monedadigitalx.egg-info/PKG-INFO
+monedadigitalx.egg-info/SOURCES.txt
+monedadigitalx.egg-info/dependency_links.txt
+monedadigitalx.egg-info/not-zip-safe
+monedadigitalx.egg-info/requires.txt
+monedadigitalx.egg-info/top_level.txt
