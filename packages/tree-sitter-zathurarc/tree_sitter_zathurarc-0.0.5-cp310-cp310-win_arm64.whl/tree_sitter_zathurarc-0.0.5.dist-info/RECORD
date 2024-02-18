@@ -1,0 +1,10 @@
+tree_sitter_zathurarc/__init__.py,sha256=U08TB-1PnAkR6R5elcRVs3tCoo4I6ifO5lEbJMA0j28,958
+tree_sitter_zathurarc/__main__.py,sha256=f4pWVJwtNC8bTAbCXFPLkn6A9d_dz8i-FhDAgscR_ns,1512
+tree_sitter_zathurarc/_version.py,sha256=jwYmXHg7bNEWp3St1nW_7nQWBo4S_zyEBKTBdsccdGA,427
+tree_sitter_zathurarc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_zathurarc-0.0.5.data/data/lib/parser/libzathurarc.dll.a,sha256=1uf5NLc3gSZ_xBtWm5i0fmbMUMPGnoDx55utiPtNre4,1616
+tree_sitter_zathurarc-0.0.5.data/data/lib/parser/zathurarc.dll,sha256=FLj_xvpzVo0mvkC2I4UAfA6qumv08prgx1NF7-wmFwg,56723
+tree_sitter_zathurarc-0.0.5.dist-info/METADATA,sha256=TEAeMUE9iHQJWmmMF9PTkna3yKJMG0n3_GmSSk4_lrU,8770
+tree_sitter_zathurarc-0.0.5.dist-info/WHEEL,sha256=JoSrmHNmiidlQQ6qFMxDX98pTCZM6rxQbd1Cdyf5YWA,105
+tree_sitter_zathurarc-0.0.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_zathurarc-0.0.5.dist-info/RECORD,,
