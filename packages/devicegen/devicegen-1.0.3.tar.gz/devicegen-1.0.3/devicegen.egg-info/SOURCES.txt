@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+devicegen/__init__.py
+devicegen/device_gen.py
+devicegen/gds_parser.py
+devicegen.egg-info/PKG-INFO
+devicegen.egg-info/SOURCES.txt
+devicegen.egg-info/dependency_links.txt
+devicegen.egg-info/top_level.txt

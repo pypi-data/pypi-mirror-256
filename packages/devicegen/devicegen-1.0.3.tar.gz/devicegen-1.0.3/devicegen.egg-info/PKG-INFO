@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: devicegen
+Version: 1.0.3
+Summary: Device generator for gated quantum devices
+Home-page: https://github.com/nanoacademic/devicegen
+Author: Pericles Philippopoulos, Felix Beaudoin
+Author-email: pericles@nanoacademic.com
+License: GPLv3+
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.txt
