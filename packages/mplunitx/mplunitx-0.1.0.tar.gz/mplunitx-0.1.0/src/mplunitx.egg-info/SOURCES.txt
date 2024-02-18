@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/mplunitx/__init__.py
+src/mplunitx/__version__.py
+src/mplunitx/_sisetup.py
+src/mplunitx/number.py
+src/mplunitx/unit.py
+src/mplunitx.egg-info/PKG-INFO
+src/mplunitx.egg-info/SOURCES.txt
+src/mplunitx.egg-info/dependency_links.txt
+src/mplunitx.egg-info/top_level.txt
