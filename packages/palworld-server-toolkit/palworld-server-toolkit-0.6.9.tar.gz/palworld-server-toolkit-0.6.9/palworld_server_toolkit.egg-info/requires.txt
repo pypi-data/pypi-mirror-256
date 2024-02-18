@@ -1,0 +1,5 @@
+palworld-save-tools>=0.18.0
+pillow
+pyperclip
+recordclass
+msgpack
