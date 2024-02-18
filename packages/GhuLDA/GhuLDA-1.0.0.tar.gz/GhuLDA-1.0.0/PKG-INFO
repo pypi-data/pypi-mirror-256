@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: GhuLDA
+Version: 1.0.0
+Summary: Pacote com funções para processamento de modelos LDA
+Home-page: https://github.com/ghurone/ghulab
+Author: Erick Ghuron
+Author-email: ghuron@usp.br
+License: MIT
+Keywords: ghu,lda
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: gensim>=4.3.0
+Requires-Dist: spacy>=3.7.2
+Requires-Dist: requests>=2.31.0
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: numpy>=1.26.3
+
+# GhuLDA
+
+Pacote com algumas funções para realiza o processamento e o treinamento do modelo LDA
