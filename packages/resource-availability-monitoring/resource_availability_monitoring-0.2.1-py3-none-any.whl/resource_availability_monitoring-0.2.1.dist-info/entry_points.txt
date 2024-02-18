@@ -1,0 +1,3 @@
+[console_scripts]
+ram-cli=resource_availability_monitoring.__main__:main_cli
+
