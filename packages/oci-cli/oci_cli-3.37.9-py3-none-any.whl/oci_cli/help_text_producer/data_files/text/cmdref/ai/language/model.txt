@@ -1,0 +1,26 @@
+model
+*****
+
+
+Description
+===========
+
+Description of the a Model.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* create-model-pre-trained-phi-model-details
+
+* delete
+
+* get
+
+* list
+
+* update
