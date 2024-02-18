@@ -1,0 +1,11 @@
+click
+rich
+fastapi
+longsight
+python-multipart
+lxml
+httpx
+internetarchive
+claws
+python-magic
+clannotation
