@@ -1,0 +1,12 @@
+zrxp-2.0.0.dist-info/METADATA,sha256=Z_CZhEBB6gdpxW9jQnvWvOvAPtXINoIZtkMtUcwAdoA,1733
+zrxp-2.0.0.dist-info/WHEEL,sha256=TZt2KSIVxFBqGJ3Nlzs-Ax5C_okeQ7lJKl6eUhy0Us4,94
+zrxp-2.0.0.dist-info/license_files/LICENSE,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+zrxp/exceptions.py,sha256=Qw5jRqx1PUXnwRyrlVyHDovpgCE7xLtZwO7R8EN64uM,129
+zrxp/_core.pyi,sha256=LjBxeylVQhd-hwTrbfZuPo4yFOsRlMkPv9Vltvxjuxk,552
+zrxp/data.py,sha256=-_NmzYEk0LLFu0VzP7myG_LSNjjgutoSvFWkFZxyMjM,7851
+zrxp/__init__.py,sha256=tbf-di3xd086j-dp-4_5EKO45w8v70-d63PkTZTL_YQ,340
+zrxp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zrxp/writer.py,sha256=MXKTU5om2CgkGdByPpPojKpC3ymmVbjAtA81W1E1E-4,4286
+zrxp/reader.py,sha256=pPXq_OcBoLG_mrXjWJM3j7ccxN0b-iTwxueWtyEtLIc,941
+zrxp/_core.pyd,sha256=qI5EmWAgHhGJ5y8gLgPdmdWMDQZ23i8mObI4xiNT3uo,42724349
+zrxp-2.0.0.dist-info/RECORD,,
