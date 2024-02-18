@@ -1,0 +1,10 @@
+pyduckling_native_phihos-0.1.1.dev1.dist-info/METADATA,sha256=72q9MAJ5FPAiFJKjnT9qEl3nhQes2OaKaZGvxEyY9qY,7053
+pyduckling_native_phihos-0.1.1.dev1.dist-info/WHEEL,sha256=hfiQp7VRYTUa6Fu7_T1mupBm0U29xBm-FP3XYHEz_Mw,108
+duckling.libs/libgmp-452f15e0.so.10,sha256=IdMDsZ8xfSn-rjYlAVBPEivAOgs4sV-8u8Aj_Ir-8p8,1570473
+duckling.libs/libpcre-0dd207b5.so.1,sha256=5ccLrAS83ezEVGI3o8T7k5-M3epAm13zVc94Dy_vz7w,468257
+duckling/__init__.py,sha256=6LM76o_RvFrdP8xqvj41iq8A1lfqnlMaRFnnNSN9brE,1618
+duckling/duckling.pyi,sha256=QLbrhhPvr1GynUJ1_vIt4XwAT5_rMIBGpQYJZFpwKs0,996
+duckling/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckling/tests/test_duckling.py,sha256=TH0s0qxKnMDWyykjPA494_LTNxnyRA4P7YTbdlzzw3Q,5849
+duckling/duckling.cpython-312-x86_64-linux-gnu.so,sha256=7K6QJdOIkxRZ_Pjb18_afvB7wakrVefmWT1qTTtLw5M,40718265
+pyduckling_native_phihos-0.1.1.dev1.dist-info/RECORD,,
