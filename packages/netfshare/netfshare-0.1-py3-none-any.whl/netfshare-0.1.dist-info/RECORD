@@ -1,0 +1,17 @@
+netfshare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netfshare/__main__.py,sha256=kVcDT81QU69mK0yTeC6ph-KwqAUXhy1GwksBBm-bgwA,216
+netfshare/config.py,sha256=S7yAlbEeDM2AsrrO2cItLBxj8uDZq_MYlA3hhEx8-Xo,449
+netfshare/netfshare.py,sha256=l8NT8s7AxTdg03AJHh-d_CRTJY4FbBFDzm5PM-QN7d0,18240
+netfshare/static/bulma.css,sha256=R4DSq1v8tU59HJzLx01ab7PKiTwJXbdTb6NGLxZo3js,245486
+netfshare/static/icon.png,sha256=h471HCiIYag7Kx9NjsJAvsT-NBpccLdKwuejEi96LQY,4907
+netfshare/templates/admin.html,sha256=b4g_dpvs02cEoPzJ_UoUupXxhf57hQNQf8dm2WFz-Bg,3200
+netfshare/templates/base.html,sha256=Kxg_eaMqegsEA0vbdRwbdOrZO4CO1T4_DtpjWjsvpjw,2568
+netfshare/templates/identify.html,sha256=K4UMQ72XKOvFyD3SJ7d5dQyHECjnLJ5q3kg3g1PLdoM,525
+netfshare/templates/list_dirs.html,sha256=TLbQkGbLvw0y3ktKBaKP76L1yvCmuvsKTFSJOqDTEug,1307
+netfshare/templates/manage_session.html,sha256=zOyPTdv-4FPZ5s5M_spHKTyzi5vR4mq0wEN4zgAnLTA,3551
+netfshare/templates/upload.html,sha256=1kUbs2iDCeJ6orcy7u0iBkItGREDhxDVYsx6UJ_nl4Y,594
+netfshare/translations/sl/LC_MESSAGES/messages.po,sha256=kRVQI4g3tbsWtQJ8kQ0EpsaHQTjlUTsbv4ZJ96hyS4g,2522
+netfshare-0.1.dist-info/METADATA,sha256=WWnXO4O4n0kn2FEZgaViRacwN9I5kniqb71hlf4d-tE,2361
+netfshare-0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+netfshare-0.1.dist-info/licenses/LICENSE.txt,sha256=OGP0-rTpnWx3vAb_Qtn7uo6CejfJEJ5B_AITJfGIbxg,1098
+netfshare-0.1.dist-info/RECORD,,
