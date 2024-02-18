@@ -1,0 +1,14 @@
+ema/__init__.py,sha256=TeeowcKSmnH46wAwxE07qsF1ur9zFVzUyBhco32Hj6k,86
+ema/emin.py,sha256=6VwlzNN6rGAPFD2yRGpDIOyG9otA8jV2qj_Es3AYkak,12559
+ema/misc.py,sha256=_nWB806TzByQTSAHdg7TzLddJaj6Xqt-iOqca4ck7_Q,5018
+ema/probes.py,sha256=8GpgjfDeJE1tVV6vIh9K8RgvZssnu8h2bsQGSx5sJfE,5637
+ema/signal.py,sha256=0h3Mrh4yo9hXWnfHdydukcZ3HSo_VcsV130aCVKpGl4,6347
+ema/Veelo/__init__.py,sha256=f0Bf_PBOj6SK9XXCZ0kxnQDCSv16WolMdevym0SonwI,18
+ema/Veelo/modify_current.py,sha256=V641UkqseuxTSPyGeqmmUtS85F8iHDOENGWyKrxwAbg,869
+ema/Veelo/preprocess.py,sha256=NIyzWAprzNnBUVVWR3pDPjytpHJqGrhJsT2GrzHA-zQ,3585
+ema/Veelo/util.py,sha256=RiD27e6CtVy5Q9xU76cHOEA5oVv5M81Wjhd5ZE3fGrc,25322
+EMAtools-0.0.4.dist-info/LICENSE.txt,sha256=bNq_z3WXFJAUF7V82Y-6Qs_yNC8TtE4yz7HOA_lYOI4,1090
+EMAtools-0.0.4.dist-info/METADATA,sha256=h6ORAK3o69AAdSp9KB6-BXBgRKLLF2F69LuC7v1LC94,349
+EMAtools-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+EMAtools-0.0.4.dist-info/top_level.txt,sha256=d5Lf0pneJu7TF6cKx39DdEmINjbqjqYz8uKS4LtPDm4,4
+EMAtools-0.0.4.dist-info/RECORD,,
