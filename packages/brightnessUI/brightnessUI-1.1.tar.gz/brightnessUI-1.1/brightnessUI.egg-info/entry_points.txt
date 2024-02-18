@@ -1,0 +1,4 @@
+[console_scripts]
+brightness-ui = brightness.main:main
+brightness-ui-install = install.install_brightness_ui:main
+

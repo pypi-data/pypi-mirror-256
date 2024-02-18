@@ -1,0 +1,7 @@
+include README.md
+include CHANGELOG.md
+include LICENSE
+recursive-include brightness/image *
+recursive-include brightness/ui *
+recursive-include install *
+recursive-include pictures *
