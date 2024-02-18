@@ -1,0 +1,1 @@
+{"name": "Gassi", "type": "3", "description": "Joint combination for human camera.", "joints": [[0, -78.36844, 132.9334, -52.76778, 90, 0]]}

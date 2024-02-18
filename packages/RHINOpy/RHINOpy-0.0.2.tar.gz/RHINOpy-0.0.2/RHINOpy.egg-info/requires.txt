@@ -1,0 +1,7 @@
+numpy
+scipy
+techmanpy
+asyncio
+telnetlib3
+paho-mqtt
+opencv-contrib-python

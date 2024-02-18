@@ -1,0 +1,1 @@
+{"name": "Debug", "type": "1", "description": "Debugging at Kuka desk.", "joints": [[158.0, -3108.0, 96.0], [0.0, -34.25311, 113.2506, -78.31889, 88.26722, 0.0]]}
