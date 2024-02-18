@@ -1,0 +1,54 @@
+Informer.io Scan Trigger Library
+
+This library is designed to trigger a scan in the Informer.io platform.
+It is particularly useful for automated workflows, as it allows users to initiate scans programmatically.
+
+
+Overview
+
+When triggered, the library initiates a "once" scan against all related assets specified in a test within the Informer.io platform.
+It is designed to work with unique test UUIDs that correspond to specific sets of assets.
+
+Features
+
+    Trigger Scans Programmatically: Automate your scan initiation process.
+    Unique Test UUIDs: Each test in the Informer.io platform has a unique ID that this library uses to trigger scans.
+    Error Logging: Any failures or errors encountered during the scan initiation are logged for troubleshooting.
+
+Usage Instructions
+
+There are two primary methods to use this library:
+1. Using an Environment Variable
+
+Set the INFORMER_TEST_UUID environment variable to the UUID of the test that contains the related assets for your deployment.
+This UUID can be found in the test detail pane within the Informer.io platform.
+
+Setting the Environment Variable
+
+export INFORMER_TEST_UUID=your-unique-test-uuid
+
+Triggering the Scan
+
+Once the environment variable is set, trigger the scan with the following command:
+
+triggerInformerScan
+
+2. Passing the UUID as an Argument
+
+Alternatively, you can directly pass the UUID as an argument to the script.
+Triggering the Scan with an Argument
+
+triggerInformerScan -u your-unique-test-uuid
+
+Limitations
+
+    Frequency of Scans: Only one "once" scan can be triggered per 24-hour period per test.
+    Error Reporting: All errors are reported through logs. The library does not halt the execution but logs the failure details.
+
+Finding the UUID
+
+Each test in Informer.io has a unique UUID. To find this:
+
+    Navigate to the test detail pane in the Informer.io platform.
+    Look for a UUID, which uniquely identifies each test.
+    Use this UUID with the library to trigger scans on the related assets.
