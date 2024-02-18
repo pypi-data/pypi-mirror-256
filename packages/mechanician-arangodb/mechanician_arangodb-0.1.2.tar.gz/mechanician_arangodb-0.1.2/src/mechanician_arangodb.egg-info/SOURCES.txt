@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/mechanician_arangodb/__init__.py
+src/mechanician_arangodb/doc_mgr_instructions.py
+src/mechanician_arangodb/doc_mgr_tool_instructions.py
+src/mechanician_arangodb/document_ai_tools.py
+src/mechanician_arangodb/document_manager.py
+src/mechanician_arangodb.egg-info/PKG-INFO
+src/mechanician_arangodb.egg-info/SOURCES.txt
+src/mechanician_arangodb.egg-info/dependency_links.txt
+src/mechanician_arangodb.egg-info/requires.txt
+src/mechanician_arangodb.egg-info/top_level.txt
