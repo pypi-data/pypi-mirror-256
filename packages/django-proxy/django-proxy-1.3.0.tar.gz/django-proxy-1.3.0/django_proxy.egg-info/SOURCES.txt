@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+django_proxy.egg-info/PKG-INFO
+django_proxy.egg-info/SOURCES.txt
+django_proxy.egg-info/dependency_links.txt
+django_proxy.egg-info/requires.txt
+django_proxy.egg-info/top_level.txt
+proxy/__init__.py
+proxy/models.py
+proxy/tests.py
+proxy/urls.py
+proxy/views.py
+proxy/__pycache__/__init__.cpython-310.pyc
+proxy/__pycache__/models.cpython-310.pyc
+proxy/__pycache__/tests.cpython-310.pyc
+proxy/__pycache__/views.cpython-310.pyc
