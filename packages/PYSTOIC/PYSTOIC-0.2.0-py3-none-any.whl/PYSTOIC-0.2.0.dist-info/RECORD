@@ -1,0 +1,12 @@
+PYSTOIC/__init__.py,sha256=Oe5FrNoqu8Fq5T_WGnCB_8q1S61Hv8NwumYVfOy-K_c,46
+PYSTOIC/codemod.py,sha256=p1U9zMEgiWSJ4kcID72K7Pgk8Hlix6RxArU68TILUh4,8471
+PYSTOIC/config.py,sha256=sDGKZdP5hJwZihfNh1jUWmCqCt3x6TsKlA7A9pcScRI,722
+PYSTOIC/models.py,sha256=tE0ktWebnQ8E__A5sOdk01PqMYjuaEoc0oXncItwm-w,4012
+PYSTOIC/reader.py,sha256=Zmr6x3SThHuEmGh-mhDxUVzZJhy001-FwqA471hz_tw,6029
+PYSTOIC/runner.py,sha256=srkklx5Y7otFeF8DfSkvehAwR9qXPS1-sCymZIF3t_s,2670
+PYSTOIC/setup.py,sha256=MikB7ovj-BeHgHll5Z2vAr8UV8RlXLlMNnPR2hzia-M,553
+PYSTOIC/utils.py,sha256=Gbg2h4EieYFBE-x6IUJeQb9CGGI9P6uobB930VwJT0A,1455
+PYSTOIC-0.2.0.dist-info/METADATA,sha256=7_hCSzU2PBytNgcJrZzkrXLEErclbMt79BDiBVT8pI8,122
+PYSTOIC-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PYSTOIC-0.2.0.dist-info/top_level.txt,sha256=IDyLLFcR7rVAc-dVyyS4npxnNHVEI5jX41NR1BR4-00,8
+PYSTOIC-0.2.0.dist-info/RECORD,,
