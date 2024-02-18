@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry-pyinstaller-plugin"
+version = "1.0.0b0"
+description = ""
+authors = ["Thomas Mahé <contact@tmahe.dev>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "poetry_binary_plugin"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry = "^1.2"
+docker = "^7.0.0"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+poetry-binary-plugin = "poetry_binary_plugin.plugin:MyApplicationPlugin"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
