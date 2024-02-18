@@ -1,0 +1,7 @@
+numpy
+
+[all]
+sturgmap[extra]
+
+[extra]
+pandas
