@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+psgshortcut/LICENSE.txt
+psgshortcut/README.md
+psgshortcut/__init__.py
+psgshortcut/__main__.py
+psgshortcut/psgshortcut.ico
+psgshortcut/psgshortcut.py
+psgshortcut/screenshot.png
+psgshortcut.egg-info/PKG-INFO
+psgshortcut.egg-info/SOURCES.txt
+psgshortcut.egg-info/dependency_links.txt
+psgshortcut.egg-info/entry_points.txt
+psgshortcut.egg-info/requires.txt
+psgshortcut.egg-info/top_level.txt

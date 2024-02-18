@@ -1,0 +1,2 @@
+[gui_scripts]
+psgshortcut = psgshortcut.psgshortcut:main
