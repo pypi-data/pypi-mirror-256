@@ -1,0 +1,4 @@
+pbshm-core>=1.1.2
+numpy==1.24.1
+seaborn==0.12.2
+matplotlib==3.6.2
