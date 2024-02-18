@@ -1,0 +1,8 @@
+qbittorrent-api
+urwid==2.5.3
+blinker-alt==1.5
+panwid==0.3.5
+
+[dev]
+pre-commit
+tox
