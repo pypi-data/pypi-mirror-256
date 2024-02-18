@@ -1,0 +1,13 @@
+py3dep/__init__.py,sha256=oIZ7_afWiZd_mIXl1XQm39FZmhr7v7gnx97D-Uh0FsU,1149
+py3dep/cli.py,sha256=N-wJWOT4QWQA8Ls_DFzd4bCX5Belr__8N42TuJ9DhZ8,4503
+py3dep/exceptions.py,sha256=lnD-s-gq0XgO3xb73rVwU1zI-GCtCKwK0TVdnLQB4AY,2651
+py3dep/print_versions.py,sha256=PHKGbVivZ8a2wUyLhYX0DDDnNgOXmgU5IbIQMZvTQTM,4580
+py3dep/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py3dep/py3dep.py,sha256=rtjT-aNIJW1GvVozgbKisMSpiQTkWxKLdT4WKd6lnpI,24852
+py3dep/utils.py,sha256=UwSVla0wEb8Bx2Z-csnDGRLc7uqF__Cx0wyzRwG1W0g,10637
+py3dep-0.16.2.dist-info/LICENSE,sha256=EM87NgYgabO0a_E-z2nmbsrxomXdI5BDCgmomVDvLsE,1096
+py3dep-0.16.2.dist-info/METADATA,sha256=0qOLPIOeml0D8xkg96aHwLnrmKqnG9Yrrp9iXSXpsU4,20968
+py3dep-0.16.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py3dep-0.16.2.dist-info/entry_points.txt,sha256=CAQftBWzh_2mNew_R7azOUulG0AtZns6yqJon7Y7SLw,42
+py3dep-0.16.2.dist-info/top_level.txt,sha256=TzPuiZkru8g045R2tihSvKGhPa8fn-5QKh_t4EgUCN4,7
+py3dep-0.16.2.dist-info/RECORD,,
