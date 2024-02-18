@@ -1,0 +1,10 @@
+ipih
+pih
+prettytable
+colorama
+grpcio
+protobuf
+requests
+transliterate
+psutil
+setuptools
