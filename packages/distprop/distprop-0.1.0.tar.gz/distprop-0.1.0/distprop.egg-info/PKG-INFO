@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: distprop
+Version: 0.1.0
+Home-page: https://github.com/Felix-Petersen/distprop
+Author: Felix Petersen
+Author-email: ads0800@felix-petersen.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# distprop - Uncertainty Quantification via Stable Distribution Propagation through Neural Networks
+
+
+

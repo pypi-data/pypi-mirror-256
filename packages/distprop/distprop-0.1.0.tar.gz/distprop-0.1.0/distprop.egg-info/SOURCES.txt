@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+distprop/__init__.py
+distprop/sdp.py
+distprop.egg-info/PKG-INFO
+distprop.egg-info/SOURCES.txt
+distprop.egg-info/dependency_links.txt
+distprop.egg-info/requires.txt
+distprop.egg-info/top_level.txt
