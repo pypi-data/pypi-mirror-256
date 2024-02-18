@@ -1,0 +1,10 @@
+georss_ign_sismologia_client/__init__.py,sha256=3t6THyBkgiqnly4txckOsT3UL6U09xQPPWV9MwgdwZU,309
+georss_ign_sismologia_client/__version__.py,sha256=iI6VtyYWX8EV32oiiG5uKQOVU-KP0KrWU2ThCByhL0E,53
+georss_ign_sismologia_client/feed.py,sha256=TzbI-CLnHAO4CYPMZMcO6dGRhlp9nhHV6Ue4b46aciw,1841
+georss_ign_sismologia_client/feed_entry.py,sha256=QjMuZzsXDW3_Zgss3ZzAZvze1gTBjEMA2pCU1YZScpA,2516
+georss_ign_sismologia_client/feed_manager.py,sha256=jrFOdFn2Sg0TedNqckdPTt8yAbvdK6t6W3Osim4yl1M,838
+georss_ign_sismologia_client-0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+georss_ign_sismologia_client-0.8.dist-info/METADATA,sha256=dmjd4-XN7gIg7aZFu3BfLvChoX7SPuuuepwi4u22OHM,6091
+georss_ign_sismologia_client-0.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+georss_ign_sismologia_client-0.8.dist-info/top_level.txt,sha256=fV0Oru503LAG648_8pEEvwPs9DC7et-2h4FvJ_t6Ojc,29
+georss_ign_sismologia_client-0.8.dist-info/RECORD,,
