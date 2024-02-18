@@ -1,0 +1,74 @@
+---
+pipelines:
+  - pipeline:
+      default: true
+      name: xyz-corr
+      device: cuda
+      id2label:
+        "0": additional_information
+        "1": attorney
+        "2": auth_approval
+        "3": auth_denial
+        "4": bankruptcy
+        "5": cms
+        "6": dispute
+        "7": eligibility
+        "8": medical_record
+        "9": misc
+        "10": noop_blank
+        "11": noop_check
+        "12": noop_cover
+        "13": noop_envelope
+        "14": noop_eob
+        "15": noop_hicfa
+        "16": noop_notice
+        "17": noop_patpay
+        "18": noop_w9
+        "19": referral
+        "20": refund
+        "21": tax_1099
+      page_classifier:
+        - model_name_or_path: rms/corr-layoutlmv3-classifier-jpmc
+          name: corr_layoutlmv3_classifier_jpmc
+          type: transformers
+          task: text-classification-multimodal
+          device: cuda
+          enabled: true
+          group: corr-classifier
+
+  - pipeline:
+      default: false
+      name: jpmc-corr
+      device: cuda
+      id2label:
+        "0": additional_information
+        "1": attorney
+        "2": auth_approval
+        "3": auth_denial
+        "4": bankruptcy
+        "5": cms
+        "6": dispute
+        "7": eligibility
+        "8": medical_record
+        "9": misc
+        "10": noop_blank
+        "11": noop_check
+        "12": noop_cover
+        "13": noop_envelope
+        "14": noop_eob
+        "15": noop_hicfa
+        "16": noop_notice
+        "17": noop_patpay
+        "18": noop_w9
+        "19": referral
+        "20": refund
+        "21": tax_1099
+      page_classifier:
+        - model_name_or_path: rms/corr-longformer-classifier-jpmc
+          name: corr_longformer_classifier_jpmc
+          task: text-classification
+          type: transformers
+          enabled: true
+          batch_size: 1
+          device: cuda
+          group: corr-classifier
