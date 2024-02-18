@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: titanq
+Version: 0.0.1
+Summary: The titanQ SDK for python
+Maintainer-email: InfinityQ <support@infinityq.tech>
+License: Apache 2.0
+Project-URL: Homepage, https://www.infinityq.tech
+Keywords: titan,titanq,optimization,platform,infinity,infinityq
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License 
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: boto3
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: pydantic
+
+# titanQ - The titanQ SDK for python
+
+[![python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://test.com)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+This Python installable package will let you use InfinityQ's QUBO solver named titanQ.
