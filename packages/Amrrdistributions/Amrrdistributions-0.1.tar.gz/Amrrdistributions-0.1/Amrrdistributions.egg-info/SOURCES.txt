@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Amrrdistributions/Binomialdistribution.py
+Amrrdistributions/Gaussiandistribution.py
+Amrrdistributions/Generaldistribution.py
+Amrrdistributions/__init__.py
+Amrrdistributions.egg-info/PKG-INFO
+Amrrdistributions.egg-info/SOURCES.txt
+Amrrdistributions.egg-info/dependency_links.txt
+Amrrdistributions.egg-info/not-zip-safe
+Amrrdistributions.egg-info/top_level.txt
