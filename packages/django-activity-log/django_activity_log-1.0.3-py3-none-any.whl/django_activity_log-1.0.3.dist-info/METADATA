@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: django-activity-log
+Version: 1.0.3
+Summary: HTTP queries logger with flexible filters.
+Home-page: https://github.com/HosseinSayyedMousavi/django-user-activity-log/
+Author: Dmitriy Vlasov
+Author-email: scailer@russia.ru
+License: MIT license
+Classifier: Framework :: Django
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+# django-activity-log
+
+Forked from : https://github.com/scailer/django-user-activity-log
+
+Changelogs of this fork is here:
+
+#### 1. ```ACTIVITYLOG_MAIN_IP_KEY_VALUE```:
+you can set this string settings.py file
+when you have a specific CDN or each changes in headers of request of user at fron-tend side , this key value is the highest priority to set IP address from headers.
+
+#### 2. ```ACTIVITYLOG_MAXIMUM_RECORD_SIZE```:
+you can set this integer in settings.py file
+this constraint controls number of saving records with remove oldest records.
+
+#### 3. ```EXCLUDE_IP_LIST```:
+you can set this list settings.py file
+this is a list of IP addresses that you do not want to log them.
+
+#### 4. ```IP_ADDRESS_HEADERS```:
+I changed this priority to find the IP address better. when you have a CDN , previous library saves IP address of CDN and it is not useful.
+
+#### 5. headers:
+you have a new field in changelog model that saves headers of request of user as a pretty string
+
+#### 6. payload:
+you have a new field in changelog model that saves payload of request of user as a pretty string
+
+#### 7. Test on django version 4.0.1:
+It works good with django version 4.0.1
+
+#### 8. change migration files:
+delete old migrations and create one file to migrate models of this library.
+
+
+repository address:
+
+https://github.com/HosseinSayyedMousavi/django-user-activity-log
