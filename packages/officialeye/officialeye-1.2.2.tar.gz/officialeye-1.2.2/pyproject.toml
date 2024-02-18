@@ -1,0 +1,137 @@
+[project]
+name = "officialeye"
+version = "1.2.2"
+description = "AI-powered generic document-analysis tool"
+authors = [
+    { name = "Alexander Mayorov", email = "zb@zerobone.net" },
+]
+dependencies = [
+    "click>=8.1.7",
+    "numpy>=1.26.2",
+    "opencv-contrib-python-headless",
+    "pytesseract",
+    "pyyaml",
+    "strictyaml==1.7.3",
+    "z3-solver",
+    "rich",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.license]
+file = "LICENSE"
+
+[project.scripts]
+officialeye = "officialeye._cli.main:main"
+
+[project.urls]
+Homepage = "https://github.com/ZeroBone/OfficialEye"
+Documentation = "https://officialeye.zerobone.net"
+Issues = "https://github.com/ZeroBone/OfficialEye/issues"
+
+[tool.pdm]
+distribution = "false"
+
+[tool.pdm.scripts]
+docs-serve = "mkdocs serve"
+docs-build = "mkdocs build"
+docs-deploy = "mkdocs gh-deploy --force"
+
+[tool.pdm.scripts.count-loc]
+shell = "find src -name '*.py' | xargs wc -l"
+
+[tool.pdm.scripts.ci-pytest]
+shell = "pytest src/tests/"
+
+[tool.pdm.scripts.ci-ruff]
+shell = "ruff check --output-format=github"
+
+[tool.pdm.scripts.dev-docs]
+shell = "mkdocs build"
+
+[tool.pdm.scripts.dev-ruff]
+shell = "ruff check"
+
+[tool.pdm.scripts.dev-pytest]
+shell = "pytest src/tests/"
+
+[tool.pdm.dev-dependencies]
+doc = [
+    "mkdocs-material",
+    "mkdocs-material[imaging]",
+    "mkdocs-minify-plugin",
+    "mkdocstrings",
+    "mkdocstrings[python]",
+    "mkdocs-gen-files",
+    "mkdocs-literate-nav",
+    "mkdocs-macros-plugin",
+]
+test = [
+    "pytest",
+]
+lint = [
+    "ruff",
+]
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 150
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "B",
+    "SIM",
+    "I",
+]
+ignore = [
+    "D417",
+    "SIM108",
+    "SIM117",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
