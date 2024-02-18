@@ -1,0 +1,6 @@
+HOSTNAME: ip-10-16-3-146
+Build Time:  Tue Feb 13 06:35:27 UTC 2024
+Branch: refs/heads/allen/release/sdk_12.6.0rc0
+Commit Time:  Mon Feb 12 22:08:25 2024 -0800
+Commit Id:  316d96c55d0cdd411323487e403264e234027736
+TruEra Services Version: 1.44.0-SNAPSHOT
