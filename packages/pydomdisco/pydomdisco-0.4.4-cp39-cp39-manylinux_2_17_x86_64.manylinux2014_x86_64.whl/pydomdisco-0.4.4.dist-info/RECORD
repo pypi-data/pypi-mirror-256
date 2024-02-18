@@ -1,0 +1,8 @@
+pydomdisco-0.4.4.dist-info/METADATA,sha256=o-AdbOmWQMLSxiFyfw0VTIgrpPBFIberiKojXEgtmAI,4256
+pydomdisco-0.4.4.dist-info/WHEEL,sha256=Ye6z346f9f2JgULeHKfPAxRDbDTW7FUE39gmaPqtamA,128
+pydomdisco/root_tld_to_nameservers_ips.pkl,sha256=gPgNMVtZLEpKw_Ydmwr-IkA65PBS8OSCCBSzc4wF-94,111327
+pydomdisco/__init__.py,sha256=U4ObZ9Gv5scMgzdJfVLdxz08nBgQRfuVnmAItfZ-RjQ,2742
+pydomdisco/pydomdisco.pyi,sha256=Mv0MkqIu_l7doWY9M8IUQ2yvDxkxZx9dIlgXPvrfhU0,580
+pydomdisco/psl_tlds.pkl,sha256=cutcdL4tT-Kq_m00-oJBiEF9uhkbKsDGN6owLnKvNUw,126477
+pydomdisco/pydomdisco.cpython-39-x86_64-linux-gnu.so,sha256=xMfzZZab0__8LDmAmSr_HLgr0Vvms38HxWper_dXT8M,2224040
+pydomdisco-0.4.4.dist-info/RECORD,,
