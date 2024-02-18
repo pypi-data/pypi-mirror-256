@@ -1,0 +1,3 @@
+[console_scripts]
+watchsql = watchsql.__main__:main
+ws = watchsql.main:main
