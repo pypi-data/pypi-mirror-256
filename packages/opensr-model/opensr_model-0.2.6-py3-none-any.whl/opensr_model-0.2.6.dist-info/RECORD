@@ -1,0 +1,9 @@
+opensr_model/__init__.py,sha256=RC3qiyQMakMDwcF3ajYuyJUiMe49dB7svtm8OoIpazs,494
+opensr_model/predict_pl_workflow.py,sha256=4YP-Q77Q_7WwnDsC6GFCOEM0HbA8mOtxvFrce3-WlvU,2164
+opensr_model/srmodel.py,sha256=qVyYCuy8OdwMhpOsMD3Sy5SKW-wFF2uWZx49vMIbdGc,18845
+opensr_model/utils.py,sha256=AZbhbvXI0cEhiebncioVUY_wF6TVjrkQacraNVTSj6E,3957
+opensr_model-0.2.6.dist-info/LICENSE,sha256=ufyyqvGXF3Mmfa_hFR6N-owAeZWyiMU6uU1hxZQXpds,1077
+opensr_model-0.2.6.dist-info/METADATA,sha256=pK7hT2tHIgCV-1SEO8vUf8quU9ajMMp-pyxLjHqJ5aY,787
+opensr_model-0.2.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+opensr_model-0.2.6.dist-info/top_level.txt,sha256=ERW_3JdiVdb_5V5VswEkApsksG32lhepEKCH-W7cQKo,13
+opensr_model-0.2.6.dist-info/RECORD,,
