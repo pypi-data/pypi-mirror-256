@@ -1,0 +1,12 @@
+cli-tutorial/__init__.py,sha256=UY-wD3tUwhDhcbc-GEZf-mo5amaCnAjZVWuhaJI-YC0,21
+cli-tutorial/main.py,sha256=mLa3mlGcTmGUnJK0thKsbX9FNo4QsfiMmStKBnMEu0Q,162
+cli-tutorial/cli_tutor/__init__.py,sha256=cavzbT-u-VAIWPWBtWKkTPYVfr2mOvHMCdRzeJh--T0,51
+cli-tutorial/cli_tutor/cli.py,sha256=QLo9lzUUAJCP89Zok8-MMHJ8HIRm0yJW3ZDkcpF3mRY,1332
+cli-tutorial/collect/__init__.py,sha256=vuxob-IbtlFOVzdWoLkISWf2bnBZ1KaMC-J9j9kBExk,27
+cli-tutorial/collect/coll.py,sha256=3ZGDq4mQovUlKWGNOET0gTPsjQaI4oPYAIRAixmYX-M,233
+cli-tutorial/tests/__init__.py,sha256=TL002p-BWsza2zXg8HatusF7RyGL8G1mDtA4Z1ltdA8,35
+cli-tutorial/tests/test_sample.py,sha256=qDwR6YFNBp8rkskDBPquuNPhcXfLMA7hqGpIfag-nb0,2315
+task4cli-0.0.1.dist-info/METADATA,sha256=2xyr8C_kZcnK9lwi5H36CLJOcqRHiMeeglQFHKb7DEw,572
+task4cli-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+task4cli-0.0.1.dist-info/top_level.txt,sha256=ynBqqZ4tKfi6zYxkaDH-DExzlW6tJC_Ji_4oCkfobMM,13
+task4cli-0.0.1.dist-info/RECORD,,
