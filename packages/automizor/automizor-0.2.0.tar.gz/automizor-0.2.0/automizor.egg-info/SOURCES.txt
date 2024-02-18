@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+automizor/__init__.py
+automizor/job.py
+automizor/storage.py
+automizor/vault.py
+automizor.egg-info/PKG-INFO
+automizor.egg-info/SOURCES.txt
+automizor.egg-info/dependency_links.txt
+automizor.egg-info/requires.txt
+automizor.egg-info/top_level.txt
