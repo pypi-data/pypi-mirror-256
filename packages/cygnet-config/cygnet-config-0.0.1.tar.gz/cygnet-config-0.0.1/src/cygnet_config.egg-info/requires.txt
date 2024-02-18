@@ -1,0 +1,16 @@
+attrs>=23.1.0
+cattrs
+
+[dev]
+pyright
+pytest
+pytest-cov
+ruff
+
+[docs]
+myst-parser
+pydata-sphinx-theme
+sphinx
+
+[yaml]
+PyYAML>=6.0

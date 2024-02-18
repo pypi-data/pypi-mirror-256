@@ -1,0 +1,55 @@
+[project]
+name = "cygnet-config"
+authors = [
+  {name="CygnetML", email="engineering@cygnetml.com"},
+]
+dynamic = ["version"]
+description = "Tools to manage program configuration through structured files (yaml, toml, json)."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "attrs>=23.1.0",
+  "cattrs",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/CygnetML"
+
+[project.optional-dependencies]
+dev = [
+  "pyright",
+  "pytest",
+  "pytest-cov",
+  "ruff",
+]
+docs = [
+  "myst-parser",
+  "pydata-sphinx-theme",
+  "sphinx",
+]
+yaml = [
+  "PyYAML>=6.0",
+]
+
+[build-system]
+requires = ["setuptools>=64.0.0", "pip>=22.0.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+]
+testpaths = ["tests/unit", "tests/integration", "tests/e2e"]
+markers = [
+]
