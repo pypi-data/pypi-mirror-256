@@ -1,0 +1,12 @@
+presidio_structured/__init__.py,sha256=d2MDZfGeLRIIWqNK9XDgVz7BqO0xz5A1DIhymZpx-S0,600
+presidio_structured/analysis_builder.py,sha256=wIqZ3rGNfBIu0tS-bzbliF_nS4K3mcpC9bz4E0PqqGw,9755
+presidio_structured/structured_engine.py,sha256=rbh7GnTOGWL8lFLWrunjXVFLkc6U3MokOAnWCTyyxuk,2494
+presidio_structured/config/__init__.py,sha256=uCMRRPUjeMLDrPiMdhJ0rNVd2SeUhQFXQen0MKU1M-Y,138
+presidio_structured/config/structured_analysis.py,sha256=0CRFV1oOkRJH7DSA-37BzWh8IC0DtSBgyZqL-weyy7s,468
+presidio_structured/data/__init__.py,sha256=iFI5I3GQxtiEUX-tfAn97amvqPDjulOqLk-9RmQExqg,237
+presidio_structured/data/data_processors.py,sha256=Nntr_6EBNdf7-go59VK82YIl80ny3GGBWGSBCIdP7uI,8392
+presidio_structured/data/data_reader.py,sha256=f04nHynvQa6qC6q4BXRCNR40YsCBRH0xhVkEiVE7Ras,1700
+presidio_structured-0.0.1a0.dist-info/METADATA,sha256=aE6fam--2I_qhf8XkPxS9AbX-fw53M3LEi7wqN7Mn1w,3356
+presidio_structured-0.0.1a0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+presidio_structured-0.0.1a0.dist-info/top_level.txt,sha256=Wax7p5UPhdeT2OrdsrYkprZvhZq8aMwlrxbgCBz7UBE,20
+presidio_structured-0.0.1a0.dist-info/RECORD,,
