@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+export-cache=poetry_plugin_export_packages.plugin:ExportPackagesPlugin
+
