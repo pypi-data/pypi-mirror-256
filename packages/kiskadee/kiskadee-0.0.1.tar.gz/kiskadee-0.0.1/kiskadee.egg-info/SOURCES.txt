@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+kiskadee/__init__.py
+kiskadee/dataLoader.py
+kiskadee/kinetics.py
+kiskadee/thermogravimetricAnalysis.py
+kiskadee.egg-info/PKG-INFO
+kiskadee.egg-info/SOURCES.txt
+kiskadee.egg-info/dependency_links.txt
+kiskadee.egg-info/top_level.txt
