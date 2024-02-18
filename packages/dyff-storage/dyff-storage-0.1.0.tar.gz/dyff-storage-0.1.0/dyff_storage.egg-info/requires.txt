@@ -1,0 +1,2 @@
+dyff-schema
+pydantic<2
