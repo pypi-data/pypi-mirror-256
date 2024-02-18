@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/main.py
+lineoaxpnck.egg-info/PKG-INFO
+lineoaxpnck.egg-info/SOURCES.txt
+lineoaxpnck.egg-info/dependency_links.txt
+lineoaxpnck.egg-info/requires.txt
+lineoaxpnck.egg-info/top_level.txt

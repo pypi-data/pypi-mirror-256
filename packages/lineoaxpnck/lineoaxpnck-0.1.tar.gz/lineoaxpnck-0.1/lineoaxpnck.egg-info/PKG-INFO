@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lineoaxpnck
+Version: 0.1
+Summary: lineoa pnck lnw
+Home-page: https://github.com/avfreex24
+Author: PNCKDEVAPP
+Author-email: pnckdevapps@gmail.com
+License: PNCKDEVAPP
+Keywords: line oa
+Requires-Dist: requests
+Requires-Dist: opencv-python
+
+# PNCKDEVAPP
