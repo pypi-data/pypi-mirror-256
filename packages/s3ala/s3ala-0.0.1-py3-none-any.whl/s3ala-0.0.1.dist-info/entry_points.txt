@@ -1,0 +1,2 @@
+[console_scripts]
+s3ala = s3ala:main
