@@ -1,0 +1,9 @@
+dd_lib_i18n_base/__init__.py,sha256=EvTyuSMQzcFhDcIplc2jZWG1DYcfDFdTDqTVLgXV3qE,146
+dd_lib_i18n_base/exceptions.py,sha256=VlKgEYAHszFR819ibCNlYEXV4QYFFHXUuK__D56KCVM,1644
+dd_lib_i18n_base/i18n.py,sha256=cM3k4WQt_zVKw5BtxWkVu1OlsUyQe1IChNZ9iQU5m_Y,3977
+dd_lib_i18n_base/internal.py,sha256=2wNdvW8h7bewJdsEK2ASWnd68es1NRk9eRNQbTrOmik,2063
+dd_lib_i18n_base/message.py,sha256=aAD0IRPGxS9FMDhlVI6EHsT2lCa-hBEFYA5kihV5-Xg,2159
+dd_lib_i18n_base/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dd_lib_i18n_base-1.2.0.dist-info/METADATA,sha256=13QFi8f-ghsO0q2Huwx5ID4HEQBfddyYZHhMWMUTM8M,583
+dd_lib_i18n_base-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dd_lib_i18n_base-1.2.0.dist-info/RECORD,,
