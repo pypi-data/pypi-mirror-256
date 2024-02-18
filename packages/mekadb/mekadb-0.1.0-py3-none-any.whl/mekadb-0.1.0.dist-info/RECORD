@@ -1,0 +1,8 @@
+mekadb/mekadb.py,sha256=L7R89bqk0AwG0I_-6cERNbvpoGOJAq6lG3lVOOrODP4,4466
+mekadb/mekadb_client_pb2.py,sha256=ApoA3S2NH3fYlY26_TsmbOTFSi2Unnfit3DkD-e0uyM,4158
+mekadb/mekadb_client_pb2.pyi,sha256=siU9lH22IVzbCFFNvMTdbOEczJjNICXDsYio7Lbfz3U,4621
+mekadb/mekadb_client_pb2_grpc.py,sha256=w215Z1VgPK6Qe-NB1t_JySBx7uBNPbzx1nsughToiO0,4703
+mekadb-0.1.0.dist-info/METADATA,sha256=nBcCFh9lDz3f2vFzuYa9b7M2WL6Bt2BuKvu9XvSvBoQ,1639
+mekadb-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+mekadb-0.1.0.dist-info/licenses/LICENSE,sha256=mi3SSpAzq8GMV7hSirMCbh32tf3hWFEru9rP-QFV0Yg,11
+mekadb-0.1.0.dist-info/RECORD,,
