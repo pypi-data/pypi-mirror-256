@@ -1,0 +1,13 @@
+gif_player/GifPlayer.py,sha256=nWcmCFl6gRgU3GE9p5kBtgX72s0fTx6c4f26274CfiQ,2194
+gif_player/__init__.py,sha256=r20-hkaF3HZ6x6qauRwI8ZPOgWggW0eSTHKfp6F8F1k,2377
+gif_player/_imports_.py,sha256=5v5xZiTPZ97kyEZEhJvQJVEtwq7jfb7hSzD5yymXFyQ,63
+gif_player/gif_player.min.css,sha256=drO4W_tm1u3qVZ8csS2bJUFzlyrg_XS8EF6AlSJhv-E,27
+gif_player/gif_player.min.js,sha256=o-N6pTr_iQFBwQZ2bn7LcTUOtKwpRQhT4XdLiWNN9Co,13741
+gif_player/gif_player.min.js.map,sha256=FG4v5fzGTCpSWoNG0nI8go-ODUM85Xqdd4UO5xTx7Kg,53522
+gif_player/metadata.json,sha256=FJ49Lxw7j1SdlJ7b__735F31BxOzPdcP0nn1oaaKFns,1846
+gif_player/package-info.json,sha256=TLRNbFMBnVhP_cDhs3s9K8Oyckzliaw5z8dlzzPstfI,2063
+gif_player-0.0.5.dist-info/LICENSE,sha256=7VOqSJwUTDaioG4boT1VnvR0sHVGHPO1atOoRr7IGBM,1537
+gif_player-0.0.5.dist-info/METADATA,sha256=KHKnMLCixBFEWwGBLinXwZ_B6eJJGTBWIOQOHrtHk2E,998
+gif_player-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gif_player-0.0.5.dist-info/top_level.txt,sha256=QpIxBveYoxX5U8XNiau_G9c-Naa4Gmgkc8BqojWz0Cs,11
+gif_player-0.0.5.dist-info/RECORD,,
