@@ -1,0 +1,110 @@
+# Objective, Inc. Python Library
+
+This is the official python library for the Objective APIs. It provides convenient methods for using Objective's APIs. 
+
+## Documentation
+
+Our documentation can be found at [docs.objective.inc](https://docs.objective.inc).
+
+## Install and configure API key
+
+To get an API key, create an account at [app.objective.inc](https://app.objective.inc).
+
+```bash
+pip install objective-sdk
+
+export OBJECTIVE_API_KEY="sk_YOUR_API_KEY"
+```
+
+## Quickstart
+
+Push schemaless JSON objects to the Object Store. This enables their contents to be indexed for search.
+
+```python
+from objective import ObjectiveClient
+import os
+
+client = ObjectiveClient(os.environ.get("OBJECTIVE_API_KEY"))
+
+# Add an object to the object store
+client.object_store.upsert(
+    id="1",
+    object={
+        "title": "Sevendayz Men's Shady Records Eminem Hoodie Hoody Black Medium",
+        "brand": "sevendayz",
+        "imageURLHighRes": [
+            "https://images-na.ssl-images-amazon.com/images/I/41gMYeiNASL.jpg"
+        ],
+    },
+)
+```
+
+### Create an index
+
+Create a search Index, which triggers the objects in the Object Store to be indexed.
+
+```python
+index = client.create_index(
+    template_name="text-neural-base", fields={"searchable": ["title", "brand"]}
+)
+
+```
+
+See our [docs](https://www.objective.inc/docs/index/api/create-index) for all options.
+
+### Check indexing status
+
+Check the progress of the objects as they are processed and added to the Index.
+
+```python
+index.status()
+```
+which returns information on how the objects are being processed and indexed:
+
+```json
+{"PENDING": 0, "PROCESSING": 1, "PROCESSED": 0, "LIVE": 0, "ERROR": 0}
+```
+
+### Search
+
+Once the objects are live in the index, issue search requests.
+
+```python
+index.search(query="rapper hoodies", object_fields="*")
+```
+
+which outputs the following search result format:
+
+```json
+{
+    "results": [
+        {
+            "id": 1,
+            "object": {"title": "Sevendayz Men's Shady Records Eminem Hoodie Hoody Black Medium", "brand": "sevendayz", "imageURLHighRes": ["https://images-na.ssl-images-amazon.com/images/I/41gMYeiNASL.jpg"]}
+        }
+    ],
+    "pagination": {
+        "pages": 1,
+        "page": 1,
+        "next": null
+    }
+}
+```
+
+Congratulations, you just indexed and searched your first objects. To learn more and see more example code, check out our [docs](https://www.objective.inc/docs).
+
+
+## Development
+
+Use python build to build this package:
+
+```python
+python -m pip install --upgrade pip
+
+# Install dependencies
+pip install .
+
+# Build package:
+pip install build
+python -m build
+````
