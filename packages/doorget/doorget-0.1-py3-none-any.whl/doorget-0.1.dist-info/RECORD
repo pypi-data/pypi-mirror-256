@@ -1,0 +1,16 @@
+doorget/CacheKey.py,sha256=simogHJNJwSbcWtQdaF4GB5zWpg19cSxXlCmWWGwP94,458
+doorget/DiskStorage.py,sha256=p4-52zINuYImAhpJ24ABGNjqsbHA19-3KZ8H3PkY9pk,4324
+doorget/IdentityStorage.py,sha256=YIVZ9J_io5uMYJfGBCQr-pP7NXLfI8pWjmNLTWWu1mE,675
+doorget/MemoryStorage.py,sha256=RAhugDwB5n4sMFnDCwcUbuojRCzuJtB5QTBmlZKJ9sU,846
+doorget/Storage.py,sha256=nI43wKUH21LHIC4O71wFAQwmWyytw-ZvvWzQL7vALSU,1533
+doorget/StorageContainer.py,sha256=VYeis09N46mQeuK5WHpYuBSjtNlgtYd9v0wgt6C2Mpw,2109
+doorget/StorageMode.py,sha256=bZGHmqz6V9st175byhigSef9dWhLRlcZC83LPG72ZW0,283
+doorget/__init__.py,sha256=8o-38MD6cJ_V1pZ6Ppq8QVhQ4VjmPRUmB4ZDyv17NuE,217
+doorget/cache.py,sha256=PuoDO7pje1fc2H4XPWzvtjQykfOQhYIYJPH97fGYseI,6422
+doorget/constants.py,sha256=bNl1U__JOOksBdwJXAnGQ4mzEXO825ph1d95M-yWHuM,66
+doorget/doorget.py,sha256=LKlwElqNr_9y-cg7hwNlnN26iWmz7_wcERwlKEuVkDw,573
+doorget-0.1.dist-info/LICENSE,sha256=lLX1rUNNoe4yMOiKmd6ag9Zp44qSBCVAnPQrwgBucRE,1065
+doorget-0.1.dist-info/METADATA,sha256=DAt1u5KYAiGHooj1umICOkVSGQfwJYolc6ru4OBxbUk,7715
+doorget-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+doorget-0.1.dist-info/top_level.txt,sha256=w1jx0MD87doF2wp0RAN5SA9y9Yz5O5DuBMgsl3vVC0o,8
+doorget-0.1.dist-info/RECORD,,
