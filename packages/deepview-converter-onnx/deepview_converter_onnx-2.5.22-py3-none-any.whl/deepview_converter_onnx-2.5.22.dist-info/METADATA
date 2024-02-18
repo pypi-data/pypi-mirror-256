@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: deepview-converter-onnx
+Version: 2.5.22
+Summary: DeepView Converter for ONNX
+Home-page: https://www.au-zone.com
+Author: Au-Zone
+Author-email: support@au-zone.com
+License: PROPRIETARY
+Platform: UNKNOWN
+Requires-Dist: numpy (<=1.26.3,>=1.22.3)
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: tensorflow (<=2.15.0,>=2.13.0)
+Requires-Dist: tflite (==2.10.0)
+Requires-Dist: tensorflow-hub (==0.16.1)
+Requires-Dist: path (==16.4.0)
+Requires-Dist: Pillow (==9.0.1)
+Requires-Dist: onnxruntime (==1.17.0)
+Requires-Dist: tf2onnx (==1.16.1)
+Requires-Dist: keras2onnx (==1.7.0)
+Requires-Dist: tflite2onnx (==0.4.1)
+Requires-Dist: protobuf (==3.20.3)
+
+UNKNOWN
+
+

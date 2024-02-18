@@ -1,0 +1,9 @@
+deepview_onnx/__main__.py,sha256=uqbIcb5yI9Wmx97DyjpdriUVc-tkh4mmwy-8btR-F-4,4220
+deepview_onnx/conversion_onnx.py,sha256=_YMZHTuihhVtj76XJzZH8oEGzYxyjlligUsYkJL3NPQ,21919
+deepview_onnx/assets/image.png,sha256=YfktajqzQs80Dt4YWn5jkFuxKveKO03TnKhYTD6pfEo,91582
+deepview_onnx/assets/info.html,sha256=peMrp3wdUKNMXeeIxDB37pKt2atFHGH9rdIgTPIJOI0,151
+deepview_converter_onnx-2.5.22.dist-info/METADATA,sha256=CDaVkti7zy-rQCUUdxt6jgVXMVr7Zh7TY2Rwt9PTMVQ,678
+deepview_converter_onnx-2.5.22.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepview_converter_onnx-2.5.22.dist-info/entry_points.txt,sha256=tMM3ZUOiOV86NOeL043I3YUqZaJQio6IEgv-MO1VVK4,57
+deepview_converter_onnx-2.5.22.dist-info/top_level.txt,sha256=-3yH5h9NA_cZNn6PHIs5GISU_mXxa46AEvEjpKFE5LY,14
+deepview_converter_onnx-2.5.22.dist-info/RECORD,,
