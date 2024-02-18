@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/errsole/__init__.py
+src/errsole/main.py
+src/errsole.egg-info/PKG-INFO
+src/errsole.egg-info/SOURCES.txt
+src/errsole.egg-info/dependency_links.txt
+src/errsole.egg-info/top_level.txt
