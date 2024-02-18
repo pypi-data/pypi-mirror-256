@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: simpstrlib-ivschukin
+Version: 0.1
+Summary: A simple string library
+Home-page: https://github.com/ivschukin/DS7718-17-first-package
+Download-URL: https://github.com/ivschukin/DS7718-17-first-package/tarball/0.1
+Author: Ilya Schukin
+Author-email: ivschukin@gmail.com
+Keywords: string,reverse

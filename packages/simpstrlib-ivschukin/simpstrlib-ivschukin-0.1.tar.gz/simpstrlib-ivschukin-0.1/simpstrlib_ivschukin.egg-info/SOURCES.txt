@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+simpstrlib-ivschukin/ilya.py
+simpstrlib_ivschukin.egg-info/PKG-INFO
+simpstrlib_ivschukin.egg-info/SOURCES.txt
+simpstrlib_ivschukin.egg-info/dependency_links.txt
+simpstrlib_ivschukin.egg-info/top_level.txt
