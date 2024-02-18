@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: launchflow
+Version: 0.3.0.dev0
+Summary: 
+Author: CalebTVanDyke
+Author-email: caleb@launchflow.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beaupy
+Requires-Dist: cloud-sql-python-connector[gcp]
+Requires-Dist: deepdiff
+Requires-Dist: pathspec
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: rich
+Requires-Dist: toml
+Description-Content-Type: text/markdown
+
+
