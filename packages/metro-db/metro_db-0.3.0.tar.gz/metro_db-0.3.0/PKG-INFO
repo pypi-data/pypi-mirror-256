@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: metro_db
+Version: 0.3.0
+Summary: A wrapper around the sqlite3 database for easy database development
+Home-page: https://github.com/DLu/metro_db
+Author: David V. Lu!!
+Author-email: davidvlu@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: pytest>=4; extra == "dev"
+Requires-Dist: pytest-cov>=2; extra == "dev"

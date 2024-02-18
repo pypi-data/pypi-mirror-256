@@ -1,0 +1,6 @@
+pyyaml
+tabulate
+
+[dev]
+pytest>=4
+pytest-cov>=2
