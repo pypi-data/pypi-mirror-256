@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tensorfuse_python"
+version = "0.0.9"
+authors = [
+  { name="Samagra", email="samagra14@tensorfuse.io" },
+  { name="Divyanshu", email="dsetia@cs.iitr.ac.in" },
+]
+description = "Python SDK for Tensorfuse"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests [security] >= 2.31.0"
+]
