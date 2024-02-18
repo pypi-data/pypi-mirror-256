@@ -1,0 +1,7 @@
+dynodb.py
+setup.py
+dynodb.egg-info/PKG-INFO
+dynodb.egg-info/SOURCES.txt
+dynodb.egg-info/dependency_links.txt
+dynodb.egg-info/requires.txt
+dynodb.egg-info/top_level.txt
