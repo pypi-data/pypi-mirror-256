@@ -1,0 +1,24 @@
+# ref: https://atcoder.jp/contests/abs/tasks/practice_1?lang=ja
+
+[[case]]
+input = """
+1
+2 3
+test
+"""
+
+output = """
+6
+test
+"""
+
+[[case]]
+input = """
+72
+128 256
+myonmyon
+"""
+
+output = """456
+myonmyon
+"""
