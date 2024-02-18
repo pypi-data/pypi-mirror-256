@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "magicapp-api"
+version = "0.0.1"
+authors = [
+    { name = "Anders Vandvik", email = "anders@sanders.technology" },
+    { name = "Sander Nordeide", email = "sander@sanders.technology" },
+]
+description = "Wrapper for the Magic API"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pydantic",
+    "pyhumps",
+    "pytest",
+    "python-dotenv",
+    "requests",
+    "twine",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/magicapp_api"]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
