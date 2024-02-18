@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+CorrDim_By_Bisca/__init__.py
+CorrDim_By_Bisca/corrdim.py
+CorrDim_By_Bisca/dimensionality.py
+IntrinsicDimEstimator.egg-info/PKG-INFO
+IntrinsicDimEstimator.egg-info/SOURCES.txt
+IntrinsicDimEstimator.egg-info/dependency_links.txt
+IntrinsicDimEstimator.egg-info/requires.txt
+IntrinsicDimEstimator.egg-info/top_level.txt
+dimention_estimation/__init__.py
+dimention_estimation/intrinsic_dimention.py
+idPettis_By_Bisca/__init__.py
+idPettis_By_Bisca/idpettis_By_Bisca.py
