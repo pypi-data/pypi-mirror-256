@@ -1,0 +1,11 @@
+keyrock_telemetry/__init__.py,sha256=_MrDcgw2uWGHFLpcHkdwO8FKsL1DhbUHqyPFxQjCdNE,80
+keyrock_telemetry/telemetry/__init__.py,sha256=aOtJ3r0zh7T75Gjvb0VrsWZU8QGa52RXgjcQwd4rRrI,346
+keyrock_telemetry/telemetry/logging.py,sha256=jGyXL6bdKAqLB3_ryp0XbukneQ0hzVcTe6Mz_EFxkn8,323
+keyrock_telemetry/telemetry/postgres.py,sha256=57SdJQTDX27XYZZLaPvUUwkNqeQg7WVqwaEmyROvYVk,1662
+keyrock_telemetry/telemetry/snowflake.py,sha256=2d91-uBWJRHNRhVWBIyjHbZZMB-kZI6px5xHT1j4iVo,4140
+keyrock_telemetry/telemetry/telemetry.py,sha256=4mE63LqXD_FjUc6SLNFVMiapSIG_cNxaSxzME_H-Xfo,789
+keyrock_telemetry/telemetry/test_telemetry.py,sha256=RMLHLA1M1_5E6QM2DuKbpBDlBGp6jm3-apV6GiVgZVo,2114
+keyrock_telemetry-2024.2.15.1117.dist-info/METADATA,sha256=zjw0P0N7BJFrJUuZcBwR23pNydp595Xp6i7ktl2ttrY,166
+keyrock_telemetry-2024.2.15.1117.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+keyrock_telemetry-2024.2.15.1117.dist-info/top_level.txt,sha256=vVIHOysJ16igvW7OPio_Y7cU3ltBwHHkc4kIM3G4SJ0,18
+keyrock_telemetry-2024.2.15.1117.dist-info/RECORD,,

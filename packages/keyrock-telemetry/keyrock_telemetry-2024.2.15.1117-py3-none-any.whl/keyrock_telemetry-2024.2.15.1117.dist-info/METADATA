@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: keyrock-telemetry
+Version: 2024.2.15.1117
+Requires-Dist: keyrock-core
+Requires-Dist: keyrock-hcs
+Requires-Dist: psycopg2-binary ==3.1.18
+
