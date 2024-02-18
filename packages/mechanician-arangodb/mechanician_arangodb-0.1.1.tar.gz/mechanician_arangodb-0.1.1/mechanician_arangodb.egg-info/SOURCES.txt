@@ -1,0 +1,11 @@
+setup.py
+mechanician_arangodb/__init__.py
+mechanician_arangodb/doc_mgr_instructions.py
+mechanician_arangodb/doc_mgr_tool_instructions.py
+mechanician_arangodb/document_ai_tools.py
+mechanician_arangodb/document_manager.py
+mechanician_arangodb.egg-info/PKG-INFO
+mechanician_arangodb.egg-info/SOURCES.txt
+mechanician_arangodb.egg-info/dependency_links.txt
+mechanician_arangodb.egg-info/requires.txt
+mechanician_arangodb.egg-info/top_level.txt
