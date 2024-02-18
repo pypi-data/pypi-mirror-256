@@ -1,0 +1,6 @@
+[console_scripts]
+blast_test = microbeseq_cc_training_example.blast_example:cli
+core_test = microbeseq_cc_training_example.core.cli
+
+[nbdev]
+microbeseq_cc_training_example = microbeseq_cc_training_example._modidx:d
