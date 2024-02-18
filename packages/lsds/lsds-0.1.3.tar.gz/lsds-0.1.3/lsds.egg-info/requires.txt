@@ -1,0 +1,7 @@
+numpy
+scipy
+h5py
+scikit-image
+requests
+cython
+gunpowder
