@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+litedbc/__init__.py
+litedbc/__main__.py
+litedbc.egg-info/PKG-INFO
+litedbc.egg-info/SOURCES.txt
+litedbc.egg-info/dependency_links.txt
+litedbc.egg-info/entry_points.txt
+litedbc.egg-info/not-zip-safe
+litedbc.egg-info/top_level.txt
+tests/__init__.py
