@@ -1,0 +1,14 @@
+setup.py
+mechanician/__init__.py
+mechanician/ai_connectors.py
+mechanician/ai_tools.py
+mechanician/instruction_tuning.py
+mechanician/shell.py
+mechanician/tagai.py
+mechanician/testing.py
+mechanician/util.py
+mechanician.egg-info/PKG-INFO
+mechanician.egg-info/SOURCES.txt
+mechanician.egg-info/dependency_links.txt
+mechanician.egg-info/requires.txt
+mechanician.egg-info/top_level.txt
