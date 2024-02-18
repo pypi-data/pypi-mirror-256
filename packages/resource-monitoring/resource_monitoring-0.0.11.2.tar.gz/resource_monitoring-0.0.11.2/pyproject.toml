@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "resource-monitoring"
+version = "0.0.11.2"
+description = "A simple resource monitoring tool, that can be used to test availability of HTCondor resources."
+authors = ["Sebastian Brommer <brommer.sebastian@gmail.com>"]
+license = "{file = \"LICENSE\"}"
+readme = "README.md"
+packages = [{include = "resource_monitoring"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Clustering",
+    "Topic :: System :: Distributed Computing",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+htcondor = "^23.4.0"
+PyYAML = "^6.0.1"
+schedule = "^1.2.1"
+influxdb-client = "^1.40.0"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+resource-monitoring-cli = "resource_monitoring.__main__:main_cli"
