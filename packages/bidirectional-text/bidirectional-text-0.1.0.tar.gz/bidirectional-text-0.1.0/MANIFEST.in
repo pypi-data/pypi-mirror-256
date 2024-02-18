@@ -1,0 +1,3 @@
+recursive-include src/st_bidirectional_text/frontend *
+include README.md
+include LICENSE

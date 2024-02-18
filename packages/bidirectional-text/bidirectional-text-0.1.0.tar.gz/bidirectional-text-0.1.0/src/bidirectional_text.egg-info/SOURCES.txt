@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/bidirectional_text.egg-info/PKG-INFO
+src/bidirectional_text.egg-info/SOURCES.txt
+src/bidirectional_text.egg-info/dependency_links.txt
+src/bidirectional_text.egg-info/requires.txt
+src/bidirectional_text.egg-info/top_level.txt
+src/st_bidirectional_text/__init__.py
+src/st_bidirectional_text/frontend/button.html
+src/st_bidirectional_text/frontend/index.html
+src/st_bidirectional_text/frontend/main copy.js
+src/st_bidirectional_text/frontend/main.js
+src/st_bidirectional_text/frontend/streamlit-component-lib.js
+src/st_bidirectional_text/frontend/style.css

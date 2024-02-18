@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bidirectional-text
+Version: 0.1.0
+Summary: A streamlit component that allows you to get input from a textbox after every key press
+Author: hakan emekci
+Author-email: hakanemekci@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.2
+Requires-Dist: jinja2
+
+# bidirectional-text
+
+A streamlit component that allows you to get input from a textbox after every key press
+
+## Installation instructions 
+
+```sh
+pip install bidirectional-text
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+
+from st_bidirectional_text import st_bidirectional_text
+
+value = st_bidirectional_text()
+
+st.write(value)
