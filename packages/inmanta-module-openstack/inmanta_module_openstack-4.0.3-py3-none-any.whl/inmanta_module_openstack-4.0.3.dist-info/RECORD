@@ -1,0 +1,7 @@
+inmanta_plugins/openstack/__init__.py,sha256=-fAsPo-sVsZbZ5IfbDDXNY7P0i-n-ruBdseVUIMkMmE,101502
+inmanta_plugins/openstack/setup.cfg,sha256=Roec3AZsJIJhZuBrrJC06odegKXL0eK2E-NhmeyJS3A,901
+inmanta_plugins/openstack/model/_init.cf,sha256=zUZBajlTnPoZiyn3_pR7-USh8bNksRqox7m2vtA4flE,17011
+inmanta_module_openstack-4.0.3.dist-info/METADATA,sha256=YEzno89_JLZWulFRV_RmdoJn-96rSIQFTUgumbn2flE,408
+inmanta_module_openstack-4.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+inmanta_module_openstack-4.0.3.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_openstack-4.0.3.dist-info/RECORD,,
