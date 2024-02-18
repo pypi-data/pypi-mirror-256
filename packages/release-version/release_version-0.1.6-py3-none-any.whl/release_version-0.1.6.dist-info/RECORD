@@ -1,0 +1,11 @@
+release_version/__init__.py,sha256=-bBNFYOq80A2Egtpo5V5zWJtYOxQfRZFQ_feve5lkFU,23
+release_version/config.py,sha256=3cq0a0jnReFzzQuyCAmSDnls7W8g1nKAdcuNyT5MbTM,741
+release_version/main.py,sha256=gHDl4unAocfJMFv0MYjzBR_SziDny0KF9x5nSNGgBME,3682
+release_version/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+release_version/utils.py,sha256=4bPZH5B4--_030zwtyeZxWPXWVOOuMKn6e8JBH8Iyx0,7946
+release_version-0.1.6.dist-info/LICENSE,sha256=AxXRuX9X4LYdDX5bOjtKMQqIWhzW3D-lIFZU2WbzAqw,1089
+release_version-0.1.6.dist-info/METADATA,sha256=bGJc2exf-RWZLmZxWJoAr74aJ_AI8JqL-kzKdmIKlfI,3268
+release_version-0.1.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+release_version-0.1.6.dist-info/entry_points.txt,sha256=6wM8yQGLvt8R0S5bZzvKn2M-XNLZtNd1xJZbPS0GaRw,57
+release_version-0.1.6.dist-info/top_level.txt,sha256=g1oxc1INrd4kkbNXI3qEUZ2HL1E9M-LMH-XC1e-R1E8,16
+release_version-0.1.6.dist-info/RECORD,,
