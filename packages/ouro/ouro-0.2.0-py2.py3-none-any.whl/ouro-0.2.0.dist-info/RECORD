@@ -1,0 +1,14 @@
+ouro/__init__.py,sha256=8M1dPza6UxxOiNl6SK7ppuigQkA3b_Gr5NBkcd7TpMI,113
+ouro/__main__.py,sha256=MzJAG584JOeY_dZSAlUhRgLBIXVGNahl7R_Zb6x2AFo,3185
+ouro/checker.py,sha256=yK4j-89mo9gEJFUtjX_f5heO6HehRLAfY37uAltPX6U,4588
+ouro/imports_graph.py,sha256=6654Q16d-CJ3gskx5Ag5Vg_qij3qqJDyFua9y_rMWPg,1662
+ouro/nodes_initializer.py,sha256=u8CAVWwHnWI7BZPLV2SrNZ92QiaKfAcFVcfXWMFUdxE,4474
+ouro/reader.py,sha256=RSxAccwD0znV8NBYgjlthiGlyRY7vAS3bzfO-9CcOqo,1996
+ouro/utils.py,sha256=Wk3ZtV1GjtwrfBs6j5kXc4SDmeNb0L16YsLS7xgsvfo,1150
+ouro-0.2.0.dist-info/AUTHORS.md,sha256=Eyz8YwKNVuprsB5MMwbSfpuBa0EpRjITDle2DgE0SEA,144
+ouro-0.2.0.dist-info/LICENSE,sha256=h2E-_ifjcya2aXSC5nBA_gx7KDO0S6bjDB4N59PmNoE,1081
+ouro-0.2.0.dist-info/METADATA,sha256=mluFQv8UPQpEeqITXMKhyPn6ex-FfQSZjG8L6zRPoHM,7895
+ouro-0.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+ouro-0.2.0.dist-info/entry_points.txt,sha256=ZedwKF5S34TqZ7DzkxxMzALUccdwn6H-KLXgWj-DT4s,44
+ouro-0.2.0.dist-info/top_level.txt,sha256=Lr7TLhhQnTg2P1yvgYDHasl-LdzPrFgnRB-1JVITd6g,5
+ouro-0.2.0.dist-info/RECORD,,
