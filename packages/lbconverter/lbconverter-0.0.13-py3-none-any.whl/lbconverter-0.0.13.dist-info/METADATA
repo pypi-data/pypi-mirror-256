@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lbconverter
+Version: 0.0.13
+Summary: Module of classes to assist on getting model results to labelbox
+Home-page: https://github.com/Gabefire/labelbox_converter
+Author: Gabe
+Author-email: gunderwood@labelbox.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: labelbox[data]
+Requires-Dist: ultralytics
+
+# lbconverter
