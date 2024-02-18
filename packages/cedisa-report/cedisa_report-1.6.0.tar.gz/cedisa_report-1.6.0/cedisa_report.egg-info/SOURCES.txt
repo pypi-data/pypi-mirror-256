@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cedisa_report/Report.py
+cedisa_report/ReportAdapter.py
+cedisa_report/__init__.py
+cedisa_report.egg-info/PKG-INFO
+cedisa_report.egg-info/SOURCES.txt
+cedisa_report.egg-info/dependency_links.txt
+cedisa_report.egg-info/top_level.txt

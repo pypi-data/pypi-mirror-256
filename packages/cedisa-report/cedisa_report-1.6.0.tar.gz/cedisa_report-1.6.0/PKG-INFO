@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cedisa_report
+Version: 1.6.0
+Author: Gustavo Gomes Dias
+Author-email: gustavo.dias@cedisa.com.br
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## Functions
+
+```python
+def make_title(self, title: str, merge_range: str) -> None
+
+def make_report_creation_date(self) -> None
+
+def make_simple_header(self, title: str, merge_range: str, line_number: int, column_number: int, width: int = 30) -> None
+
+def make_text_data(self, line_number: int, column_number: int, data) -> None
+
+def make_number_data(self, line_number: int, column_number: int, data) -> None
+```
+
+## Initialize
+```python
+from cedisa_report import Report
+
+wb = Workbook()
+ws = wb.active
+
+report = Report(ws, img_path='./path/to/title/image')
+# OR
+report = Report(ws)
+
+```
+
+## Dependencies
+```sh
+pip install pillow openpyxl
+```
