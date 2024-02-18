@@ -1,0 +1,11 @@
+AUTHORS
+README.md
+pyproject.toml
+requirements.txt
+inf581/__init__.py
+inf581/lab7.py
+inf581.egg-info/PKG-INFO
+inf581.egg-info/SOURCES.txt
+inf581.egg-info/dependency_links.txt
+inf581.egg-info/requires.txt
+inf581.egg-info/top_level.txt

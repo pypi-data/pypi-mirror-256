@@ -1,0 +1,34 @@
+[project]
+authors = [
+    {name = "Jérémie DECOCK", email = "jd.jdhp@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+description = "Tool functions for INF581."
+dynamic = ["dependencies"]
+name = "inf581"
+readme = "README.rst"
+requires-python = ">=3.8"
+version = "1.0.5"
+
+# See https://setuptools.pypa.io/en/latest/userguide/dependency_management.html#optional-dependencies
+#[project.optional-dependencies]
+#numba = ["numba"]
+
+# See https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+[tool.setuptools]
+packages = [
+    "inf581",
+]
+
+# Use requirements.txt to setup dependencies (c.f. https://stackoverflow.com/a/73600610)
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

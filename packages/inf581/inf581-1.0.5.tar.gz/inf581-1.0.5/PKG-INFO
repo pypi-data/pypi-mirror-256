@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: inf581
+Version: 1.0.5
+Summary: Tool functions for INF581.
+Author-email: Jérémie DECOCK <jd.jdhp@gmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: AUTHORS
+Requires-Dist: gymnasium[box2d]
+Requires-Dist: imageio
+Requires-Dist: inf581==1.0.5
+Requires-Dist: jupyterlab
+Requires-Dist: jupytext
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pygame
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: torch
+Requires-Dist: tqdm
