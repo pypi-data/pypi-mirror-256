@@ -1,0 +1,16 @@
+django_auth_adfs/__init__.py,sha256=qOOJKTzh0aY8HeYW6CdWkhpAhEvo_bTE6TqRyvW8Jgk,137
+django_auth_adfs/backend.py,sha256=UxKnlMrQ3IMOnIiBd3itYtFOer-QxLTSHXXt5deew-s,18055
+django_auth_adfs/config.py,sha256=p9uNhl4C6OIuiUHAdYmW6LiqhvoI_ZnR_W-mh-u3Z6w,16251
+django_auth_adfs/drf-urls.py,sha256=bBnN1WrgbHoiAs5hTGe-ovmVwwJ4D2xXpYtZVfE8l5U,221
+django_auth_adfs/drf_urls.py,sha256=YKH7he1cCDr_eo0kgPJQiJ3kmo1FBS46JzSiBOOqwE0,430
+django_auth_adfs/exceptions.py,sha256=yxwKHtDSMnskgBdIQoCWerYVr8sGtIn26GWVVdhA2YU,110
+django_auth_adfs/middleware.py,sha256=st8Hx5pHWNcYUNWrCQht3QJqjw6RLQhWyxneTWal0Nw,2249
+django_auth_adfs/rest_framework.py,sha256=spWIXpb8UtVDvZ0_W_sJB-5u0hwvLNUCqbAhHf9N0W4,1656
+django_auth_adfs/signals.py,sha256=HGD79-dZNEwqVuINoqe6jB_8K1RfuK5Q288RGamTtEU,137
+django_auth_adfs/templates/django_auth_adfs/login_failed.html,sha256=1NQ5aCjo7iTLSxy2IXJZbzBp5MaxpfsfQwQ_PDFvgr4,652
+django_auth_adfs/urls.py,sha256=4Cec5XbxrAqPHc_N3yMTC_m9UKZXsZktf3rO2niF4Bw,533
+django_auth_adfs/views.py,sha256=kwMqcsDAgcuQRBgxpRVnFZY79ZkVo28LB3KOIbayI3E,4100
+django_auth_adfs-1.14.0.dist-info/LICENSE,sha256=WGMaA474V3mIMiWEkbMc-rCVt-uZvIjF4NqP1AIvNZo,1277
+django_auth_adfs-1.14.0.dist-info/METADATA,sha256=Btwm4YoHjzz-bY5YEvpMgKCpqgetVJPJ19DREqhqxtA,5933
+django_auth_adfs-1.14.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_auth_adfs-1.14.0.dist-info/RECORD,,
