@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+xylib.i
+xylib.py
+xylib_py_fixed_RawV4.egg-info/PKG-INFO
+xylib_py_fixed_RawV4.egg-info/SOURCES.txt
+xylib_py_fixed_RawV4.egg-info/dependency_links.txt
+xylib_py_fixed_RawV4.egg-info/top_level.txt

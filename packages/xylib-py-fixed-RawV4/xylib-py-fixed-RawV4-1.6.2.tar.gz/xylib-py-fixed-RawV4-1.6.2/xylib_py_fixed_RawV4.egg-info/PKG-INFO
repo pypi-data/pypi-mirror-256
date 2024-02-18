@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xylib-py-fixed-RawV4
+Version: 1.6.2
+Summary: Python bindings to xylib including a fix for RawV4 files. Xylib is written by Marcin Wojdyr (wojdyr@gmail.com). This packageincludes a fix for RawV4 files that is necessary as a depdency for package xrdpattern
+Home-page: https://github.com/wojdyr/xylib
+Author: Daniel Hollarek
+Author-email: daniel.hollarek@googlemail.com
+License: LGPL2.1
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+xylib is a library for reading obscure file formats with data from
+powder diffraction, spectroscopy and other experimental methods.
+For the list of supported formats see https://github.com/wojdyr/xylib .
+
+This module includes bindings to xylib and xylib itself.
+The first two numbers in the version are the version of included xylib.
+
+Prerequisites for building: SWIG and Boost libraries (headers only).
