@@ -1,0 +1,13 @@
+discobiscuit/__init__.py,sha256=H1tOQpbRjGnooNUg9o3UdaMG8gGiUM-jxw4LB-cD1NI,39
+discobiscuit/__main__.py,sha256=hY4YRGar-NiPO7RAdP7QJQtJlDOn38oqG63NzDWJqsc,1719
+discobiscuit/clients.py,sha256=tlaKLe_z5_CDtRO36p9xErmTkdhnr_FlK02qzUg2k44,7366
+discobiscuit/exceptions.py,sha256=LA97KmTQxZLgGQBKryk1JnwHi9KYBqHe6GloyyvasbY,47
+discobiscuit/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discobiscuit/models/auth.py,sha256=0WHNrpdIMeyhJqbPBzwTh44oXfg8OkV-kw8bgsbU6Ho,170
+discobiscuit/models/mes.py,sha256=oLXpQ76_JUX3LtKyeTkT13JjluzebyVb6jHu7JWTgxA,119
+discobiscuit/models/responses.py,sha256=aTa1CrZaEY1gYjpAhlYZJF7sk6T5alribrI1Pjd4LrU,524
+discobiscuit/models/test.py,sha256=BcMQfM27tdAaLTydyEHFHa25cNs2dmxMDUzDyuhxR88,93
+discobiscuit-0.2.0.dist-info/METADATA,sha256=BoJ_e9zxzdT6uSoIlaQfYLwpWZUyZyMMzlD-FJ1rLSw,717
+discobiscuit-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+discobiscuit-0.2.0.dist-info/licenses/LICENSE,sha256=q2Usmg-Y9junK4WXuQYYPqCSRljiWbd-K5IDysJuSug,1072
+discobiscuit-0.2.0.dist-info/RECORD,,
