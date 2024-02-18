@@ -1,0 +1,9 @@
+import multiprocessing
+from .._utils import gen_logger as gen_logger
+from .shared import Shared as Shared
+from .utils import MultiprocessAppInterface as MultiprocessAppInterface
+
+class BaseProcess(multiprocessing.Process):
+    def __init__(self, app_class: MultiprocessAppInterface, shared: Shared, args: tuple) -> None: ...
+    def setup_loggers(self) -> None: ...
+    def run(self) -> None: ...
