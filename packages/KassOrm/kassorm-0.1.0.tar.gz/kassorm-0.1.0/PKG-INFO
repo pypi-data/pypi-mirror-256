@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: KassOrm
+Version: 0.1.0
+Summary: Gerenciador de banco de dados relacional
+License: MIT
+Author: kassiodouglas
+Author-email: kass.doug@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: mysql (>=0.0.3,<0.0.4)
+Requires-Dist: mysql-connector (>=2.2.9,<3.0.0)
+Description-Content-Type: text/markdown
+
+
