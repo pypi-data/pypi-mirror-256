@@ -1,0 +1,12 @@
+matplotlib==3.8.2
+mendeleev==0.15.0
+numpy==1.26.4
+pandas==2.2.0
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
