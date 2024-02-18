@@ -1,0 +1,3 @@
+[console_scripts]
+ppi_origami=ppi_origami.__main__:main
+
