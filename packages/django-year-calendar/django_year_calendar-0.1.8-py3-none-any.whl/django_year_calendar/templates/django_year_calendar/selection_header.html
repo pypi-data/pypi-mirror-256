@@ -1,0 +1,9 @@
+	<div class="alert alert-primary" role="alert">
+		<h3>Selection</h3>
+		{% if start == end %}
+			{{ start|date:"DATE_FORMAT" }}
+		{% else %}
+			{{ start|date:"DATE_FORMAT" }} - {{ end|date:"DATE_FORMAT" }}
+		{% endif %}
+	</div>
+

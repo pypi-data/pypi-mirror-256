@@ -1,0 +1,8 @@
+		<div class="alert alert-{% block event_alert %}info{% endblock %}" role="alert">
+			{% block event_content %}
+			<h3>{{ evt.cls_label }}</h3>
+			{{ evt.start_date }} {% if evt.en_date %} - {{ evt.en_date }} {% endif %}
+			{% if evt.infos %}<p>{{ evt.infos }}</p>{% endif %}
+			<p><i>(template: base_event.html)</i></p>
+			{% endblock %}
+		</div>
