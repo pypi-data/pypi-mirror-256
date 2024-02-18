@@ -1,0 +1,10 @@
+hypod/__init__.py,sha256=zdg3-vKB1V2QDf6UEneSAcLuF6vjjdryxs_QTuZJw0M,126
+hypod/_version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+hypod/decor.py,sha256=7uy7kCYaT-3sjNFvQYcxI3GjSHH7CcrLeUyukbCQZd4,10340
+hypod/main.py,sha256=KRu9aHKSiSIeMWN3nI8xDPNVMJe7rm_U5qzYWHG8tuA,4420
+hypod/parser.py,sha256=_bVpOIPkGpYK7a4xfeS_79qAoFKVA-9DKE9X_ws-f30,1138
+hypod-0.1.2.dist-info/LICENSE,sha256=rndqQW23e66HPn1C5JP3ucKChmqeuggfiuDuTAL3Q7Q,1066
+hypod-0.1.2.dist-info/METADATA,sha256=yf8aLiGf-MwKSjVhbZv2tL7W5Qr4BVNFi-H3vZp52Pk,8866
+hypod-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hypod-0.1.2.dist-info/top_level.txt,sha256=yz9PVlV7fAfxaoR3_Bs9cTJz1k4MizZtk2m-3NKoVyU,6
+hypod-0.1.2.dist-info/RECORD,,
