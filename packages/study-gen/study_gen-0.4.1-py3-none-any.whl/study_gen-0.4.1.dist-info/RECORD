@@ -1,0 +1,13 @@
+study_gen/__init__.py,sha256=Yrw_zja_I1N2CAq_jppO_yWkP25I9e7UX4dqhVmhBqU,820
+study_gen/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+study_gen/_nested_dicts.py,sha256=7CPr5oMXclFyGrwZfgZbA2EzNaD8OC3Xy0Vn4M3Pp60,424
+study_gen/block.py,sha256=_63oQOoZDI3_sbENvXyuDlpXPBeqRCOIakXyYnYSaCk,18479
+study_gen/merge/__init__.py,sha256=HDLoHeWuMwqI2fYd9_vMafQyIDp1qXqK55Dfkzf7ZSM,92
+study_gen/merge/_merge_blocks.py,sha256=hQ8jBE7g3RTTnE-srs3k0OpbyqwpCRafFPyubvqeR8I,3664
+study_gen/merge/merge.py,sha256=ny90EMP8g3dejDAQbYPycGWHvxXDj2uERBt78rNPq6s,1517
+study_gen/study_gen.py,sha256=thCKYvWyBO6n1drzCGUWcypt7LSMnWElSAQhEAZhwmc,25491
+study_gen/templates/default.txt,sha256=7jBJuJDsY4TsnAdFnfzb5ww6pHYmymV7TXkorzNN20E,1187
+study_gen/templates/with_context.txt,sha256=fUKUwx4lQ4lbmLrkZ-SYj708I3q-yamQBpM7PVv7LBY,1582
+study_gen-0.4.1.dist-info/METADATA,sha256=D13cATpY_9kFMTT8g05yXCkmkLoxLMpxJ9Px0QhMeKs,8953
+study_gen-0.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+study_gen-0.4.1.dist-info/RECORD,,
