@@ -1,0 +1,10 @@
+numpy>=1.16.6
+scipy>=1.0
+qutip>=5.0.0.dev
+packaging
+
+[full]
+pytest>=5.2
+
+[tests]
+pytest>=5.2
