@@ -1,0 +1,8 @@
+tree_sitter_muttrc-0.0.3.data/data/lib/parser/muttrc.so,sha256=Pu6x-1gBApt3NhS8Cwld4sP6-kawdOpfWUGUf_qW0nk,263736
+tree_sitter_muttrc/__main__.py,sha256=E0uEJuow4v5qy1PLaLf6QgJ-C0DzzeQ4slGmrhNOq7k,1452
+tree_sitter_muttrc/__init__.py,sha256=3e5ILhTyTLypreoub99O7NdoIc-AHm0iVYUxoa6cfDA,624
+tree_sitter_muttrc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_muttrc-0.0.3.dist-info/METADATA,sha256=XEXgXmpo_YzR-8OYhHTFkUn76rXQtLZ_mrwYRH6cnqU,8449
+tree_sitter_muttrc-0.0.3.dist-info/WHEEL,sha256=XeKJGdfVq-mJ4wcJTx6JIRJdgZSAPHqHFVfwLnefM6c,157
+tree_sitter_muttrc-0.0.3.dist-info/RECORD,,
+tree_sitter_muttrc-0.0.3.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
