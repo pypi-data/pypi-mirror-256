@@ -1,0 +1,9 @@
+README.md
+setup.py
+df_squeezer/__init__.py
+df_squeezer/df_squeezer.py
+df_squeezer.egg-info/PKG-INFO
+df_squeezer.egg-info/SOURCES.txt
+df_squeezer.egg-info/dependency_links.txt
+df_squeezer.egg-info/requires.txt
+df_squeezer.egg-info/top_level.txt
