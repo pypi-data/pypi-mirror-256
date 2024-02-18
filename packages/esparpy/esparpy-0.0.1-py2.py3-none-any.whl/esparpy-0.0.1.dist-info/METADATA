@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: esparpy
+Version: 0.0.1
+Summary: Este proyecto es para ordenar el código que vaya generando en Espartina.
+Author-email: Joaquín Urruti <urrutijoaquin@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/Joaquin-Urruti/esparpy
+Keywords: esparpy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: esparpy[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# esparpy
+
+
+[![image](https://img.shields.io/pypi/v/esparpy.svg)](https://pypi.python.org/pypi/esparpy)
+[![image](https://img.shields.io/conda/vn/conda-forge/esparpy.svg)](https://anaconda.org/conda-forge/esparpy)
+
+
+**Este proyecto es para ordenar el código que vaya generando en Espartina.**
+
+
+-   Free software: MIT License
+-   Documentation: https://Joaquin-Urruti.github.io/esparpy
+    
+
+## Features
+
+-   TODO
