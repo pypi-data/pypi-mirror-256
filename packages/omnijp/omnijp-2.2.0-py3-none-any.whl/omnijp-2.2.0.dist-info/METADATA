@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: omnijp
+Version: 2.2.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: retry >=0.9.2
+Requires-Dist: requests >=2.31.0
+
+UNKNOWN
+
+
