@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/foillib/__about__.py
+src/foillib/__init__.py
+src/foillib/_common.py
+src/foillib/_naca4.py
+src/foillib/_naca5.py
+src/foillib/_naca_common.py
+src/foillib/_types.py
+src/foillib/bezier.py
+src/foillib/naca.py
+src/foillib.egg-info/PKG-INFO
+src/foillib.egg-info/SOURCES.txt
+src/foillib.egg-info/dependency_links.txt
+src/foillib.egg-info/top_level.txt
+tests/test_naca.py
