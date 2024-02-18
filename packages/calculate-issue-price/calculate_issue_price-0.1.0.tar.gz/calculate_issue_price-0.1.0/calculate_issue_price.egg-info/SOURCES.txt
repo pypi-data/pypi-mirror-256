@@ -1,0 +1,5 @@
+setup.py
+calculate_issue_price.egg-info/PKG-INFO
+calculate_issue_price.egg-info/SOURCES.txt
+calculate_issue_price.egg-info/dependency_links.txt
+calculate_issue_price.egg-info/top_level.txt
