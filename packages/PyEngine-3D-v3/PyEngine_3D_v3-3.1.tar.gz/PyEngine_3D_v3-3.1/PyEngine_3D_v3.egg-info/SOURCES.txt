@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+PyEngine_3D_v3/Constants.py
+PyEngine_3D_v3/Map.py
+PyEngine_3D_v3/Object3D.py
+PyEngine_3D_v3/Player.py
+PyEngine_3D_v3/Point.py
+PyEngine_3D_v3/Polygon.py
+PyEngine_3D_v3/__init__.py
+PyEngine_3D_v3.egg-info/PKG-INFO
+PyEngine_3D_v3.egg-info/SOURCES.txt
+PyEngine_3D_v3.egg-info/dependency_links.txt
+PyEngine_3D_v3.egg-info/top_level.txt
