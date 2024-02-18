@@ -1,0 +1,3 @@
+[console_scripts]
+gitlab-env=gitlab_env.gitlab_ci_env:main
+
