@@ -1,0 +1,10 @@
+Mock
+
+mock request
+1) https://github.com/getsentry/responses#basics
+2) https://stackoverflow.com/questions/15753390/how-can-i-mock-requests-and-the-response
+
+
+email:
+
+1) https://realpython.com/python-send-email/
