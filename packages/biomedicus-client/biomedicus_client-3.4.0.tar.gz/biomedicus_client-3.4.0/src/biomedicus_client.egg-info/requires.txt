@@ -1,0 +1,7 @@
+mtap==1.4.0
+grpcio==1.60.1
+grpcio-health-checking==1.60.1
+grpcio-status==1.60.1
+tqdm==4.66.2
+importlib_resources==6.1.1
+pyyaml==6.0.1
