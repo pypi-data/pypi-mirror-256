@@ -1,0 +1,14 @@
+setup.py
+updog/Service.py
+updog/__init__.py
+updog/example.py
+updog/logger.py
+updog/server.py
+updog/service.test.py
+updog/updog.py
+updog/updog.test.py
+updog_py.egg-info/PKG-INFO
+updog_py.egg-info/SOURCES.txt
+updog_py.egg-info/dependency_links.txt
+updog_py.egg-info/requires.txt
+updog_py.egg-info/top_level.txt
