@@ -1,0 +1,11 @@
+setuptools
+numpy<2.0,>=1.22
+pandas<2.2,>=1.3
+nltk<4.0,>=3.6
+anytree<3.0,>=2.9
+networkx<4.0,>=2.8
+chardet<6.0.0,>=5.2.0
+jellyfish<1.1,>=0.9
+PuLP<3.0,>=2.5
+pyemd<2.0,>=1.0.0
+python-dateutil<3.0,>=2.8
