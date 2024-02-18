@@ -1,0 +1,14 @@
+aws_dsf/__init__.py,sha256=y4S8ZZ7rXJZh4rcITu_kHd4578OeETtw9naspTP2mZg,956
+aws_dsf/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_dsf/_jsii/__init__.py,sha256=_jCQtxF323tmTsZ8_3_WIGQcT4kO7T9RfJG8_WcukEc,437
+aws_dsf/_jsii/aws-dsf@1.0.0-rc.9.jsii.tgz,sha256=GDj83vVdEPq_Z5_0KK5iKVkCiH4EXlQjBGZHUDFzvUg,2923593
+aws_dsf/consumption/__init__.py,sha256=SaFKe4d2D-8T14RTGLEH85GwLpUQZEVlP8oFAbhOyCE,111325
+aws_dsf/governance/__init__.py,sha256=ad5hGdllkUgX6LhFYqCF_MlXOyMJqI4oWZxM-gnQKX8,45090
+aws_dsf/processing/__init__.py,sha256=A6OGhrhlqPAsoFMfZfA02pfSuH0oB5yXsUyVFr9YWUw,253032
+aws_dsf/storage/__init__.py,sha256=mLjtV3BOMBkg-J7hl5t1E4KKPGHN6mY2ul3ABi4s0B0,86048
+aws_dsf/utils/__init__.py,sha256=uKO4emBPbrUEDf1ZCeJhHNmAKWeCT2inLtFGGNN8ETY,77758
+aws_dsf-1.0.0rc9.dist-info/LICENSE,sha256=XcbkLqlAVYHS5JmUfglW5m-ltZnTRjEd2qC2T2uZ5iM,11392
+aws_dsf-1.0.0rc9.dist-info/METADATA,sha256=mMcVV4v06-Y00NmGrykSlir2OdC60-vTnZXW6kBPcOI,1669
+aws_dsf-1.0.0rc9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aws_dsf-1.0.0rc9.dist-info/top_level.txt,sha256=ZTnACFIEvZkk4Qpq5P5NBUf8bnmdRBhvE3KbRWP7glY,8
+aws_dsf-1.0.0rc9.dist-info/RECORD,,
