@@ -1,0 +1,44 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "Kishu",
+  "description": "Kishu JupyterLab Extension (jupyterlab_kishu) settings.",
+  "type": "object",
+  "properties": {
+    "kishu_dir": {
+      "type": "string",
+      "title": "Kishu directory",
+      "description": "Path to Kishu directory storing all notebook commits.",
+      "default": "~/.kishu/"
+    }
+  },
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "kishu-menu",
+        "label": "Kishu",
+        "rank": 80,
+        "items": [
+          {
+            "type": "command",
+            "command": "kishu:commit",
+            "args": {"label": "short"},
+            "rank": 1
+          },
+          {
+            "type": "command",
+            "command": "kishu:checkout",
+            "args": {"label": "short"},
+            "rank": 2
+          },
+          {
+            "type": "command",
+            "command": "kishu:init",
+            "args": {"label": "short"},
+            "rank": 3
+          }
+        ]
+      }
+    ]
+  },
+  "additionalProperties": false
+}
