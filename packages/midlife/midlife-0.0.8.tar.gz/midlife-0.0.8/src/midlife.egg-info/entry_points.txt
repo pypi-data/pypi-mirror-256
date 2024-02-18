@@ -1,0 +1,2 @@
+[console_scripts]
+midlife = midlife:main
