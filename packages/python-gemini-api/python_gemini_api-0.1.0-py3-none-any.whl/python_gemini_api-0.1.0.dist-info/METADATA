@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-gemini-api
+Version: 0.1.0
+Summary: The python package that returns Response of Google Bard through API.
+Home-page: https://github.com/dsdanielpark/Bard-API
+Author: daniel park
+Author-email: parkminwoo1991@gmail.com
+Keywords: Python,API,Bard,Google Bard,Large Language Model,Chatbot API,Google API,Chatbot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx[http2] >=0.20.0
+Requires-Dist: requests
+Requires-Dist: colorama
+Provides-Extra: translate
+Requires-Dist: browser-cookie3 ; extra == 'translate'
+Requires-Dist: deep-translator ; extra == 'translate'
+Requires-Dist: google-cloud-translate ; extra == 'translate'
+Requires-Dist: langdetect ; extra == 'translate'
+
+# Gemini-API
