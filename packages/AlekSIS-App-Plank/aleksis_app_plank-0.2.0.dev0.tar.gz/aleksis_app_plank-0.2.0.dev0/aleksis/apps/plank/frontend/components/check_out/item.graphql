@@ -1,0 +1,7 @@
+#import "../item/extendedFragment.graphql"
+
+query ($id: ID!) {
+  item: itemById(id: $id) {
+    ...ItemExtendedParts
+  }
+}
