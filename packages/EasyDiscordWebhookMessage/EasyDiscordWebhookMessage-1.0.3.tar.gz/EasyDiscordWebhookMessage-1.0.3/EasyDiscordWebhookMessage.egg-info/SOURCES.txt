@@ -1,0 +1,9 @@
+README.md
+setup.py
+EasyDiscordWebhookMessage.egg-info/PKG-INFO
+EasyDiscordWebhookMessage.egg-info/SOURCES.txt
+EasyDiscordWebhookMessage.egg-info/dependency_links.txt
+EasyDiscordWebhookMessage.egg-info/requires.txt
+EasyDiscordWebhookMessage.egg-info/top_level.txt
+easy_discord_webhook_message/__init__.py
+easy_discord_webhook_message/easy_discord_webhook_message.py
