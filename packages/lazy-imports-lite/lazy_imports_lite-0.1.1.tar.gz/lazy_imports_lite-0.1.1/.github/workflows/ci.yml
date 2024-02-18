@@ -1,0 +1,87 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  mypy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{matrix.python-version}}
+        architecture: x64
+    - run: |
+        pip install hatch
+        hatch run +python=${{matrix.python-version}} all:test-mypy
+
+  test:
+    runs-on: ${{matrix.os}}
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+        os: [ubuntu-latest, windows-latest]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{matrix.python-version}}
+        architecture: x64
+
+    - name: run tests for ${{matrix.python-version}}
+      env:
+        TOP: ${{github.workspace}}
+        COVERAGE_PROCESS_START: ${{github.workspace}}/pyproject.toml
+      run: |
+        pip install hatch
+        hatch run +python=${{matrix.python-version}} all:test-cov
+
+    - name: Combine data
+      env:
+        TOP: ${{github.workspace}}
+        COVERAGE_PROCESS_START: ${{github.workspace}}/pyproject.toml
+      run: |
+        pip install coverage
+        coverage combine
+        mv .coverage .coverage.${{ matrix.python-version }}.${{matrix.os}}
+
+    - name: Upload coverage data
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage
+        path: .coverage.*
+
+  combine_coverage:
+    name: combine coverage and check for 100%
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        architecture: x64
+
+    - name: Download coverage data
+      uses: actions/download-artifact@v3
+      with:
+        name: coverage
+
+    - name: Combine data
+      env:
+        TOP: ${{github.workspace}}
+        COVERAGE_PROCESS_START: ${{github.workspace}}/pyproject.toml
+      run: |
+        # i have problems to combine windows coverage files with linux coverage files
+        rm .coverage.*.windows-latest
+        pip install coverage
+        coverage combine
+        coverage
+        coverage report --fail-under 100
