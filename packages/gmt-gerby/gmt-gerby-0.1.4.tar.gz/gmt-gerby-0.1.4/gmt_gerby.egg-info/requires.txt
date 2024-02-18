@@ -1,0 +1,10 @@
+flask
+PyPDF2
+Markdown
+python-markdown-math
+validators
+peewee
+flask_profiler
+feedparser
+networkx
+plastex
