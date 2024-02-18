@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: black-pixel-convertor
+Version: 0.0.2
+Summary: This library change black pixels to invisible.
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Description: # Black Pixel Convertor
+        
+        This library change black pixels to invisible.  
+        For example, you can use it to convert satellite images.  
+        
+        It will act by following sequence.
+        
+        1. Load image by `pillow` 
+        2. Convert it to `numpy` array.
+        3. `patch` images
+        4. Traverse patches and check should change.
+        5. Convert alpha value in pixel. - RGB*A* 
+        6. `Unpatch` and change array to image. 
+        7. Compress and save.
+        
+        ## Install
+        ```
+        pip install black-pixel-convertor
+        ```
+        ### requirements
+        - numpy == 1.26.4
+        - patchify == 0.2.3
+        - pillow == 10.2.0
+        
+        ## How to use
+        ```markdown
+        from bpc import Config, Convertor
+        
+        config = Config()
+        
+        convertor = Convertor(path="file_located_path", out_path="image_will_save_in_this_path")
+        
+        convertor.multiple_convert()
+        convertor.single_convert(name="original_name.png", out_name="output_name.png")
+        ```
+        
+        ### Parameters
+        #### - config
+        ```python
+        """
+        Config.__init__
+        
+        cpu_amount
+        - type: int
+        - default: 2 / 3 of your cpu core amount
+        - notice: Do not set upper than core amount.
+        
+        max_range
+        - type: int
+        - default: 10
+        - describe: max of black pixel amount you can permit in patch.
+        
+        common_param
+        - type: int
+        - default: 100
+        - describe: height, width, step of each patch
+        - notice: 
+            - if `common_param` is too small, time to spend will be increase
+            - furthermore `common_param`is too big, image can't convert black pixels.
+            - You have to find compromise point well.
+            
+        compress_level
+        - type: int
+        - default: 4
+        - describe: 
+            - compress level for saving image after convert.
+            - you can get more details in pillow document. 
+            - https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html
+        - notice:
+            - It is same kind of common_param. 
+            - Get compromise point of you image size.
+            - else is same as pillow.
+            
+        
+        black_pixel_level
+        - type: int
+        - default: 0
+        - describe: 
+            - standard of black pixel.
+            - pixel where each R, G, B value is smaller than black_pixel_level separate as black.
+        
+        max_image_pixels
+        - type: int
+        - default: 933120000
+        - describe: max pixel amount of your images to convert.
+        - notice: Be careful about Image ddos attack.
+        
+        """
+        ```
+        #### - convertor
+        ```python
+        """ 
+        Convertor.__init__
+        
+        ~ `path` and `out_path` can be same
+        
+        path
+        - type: str
+        - notice
+        
+        out_path
+        - type: str
+        - notice
+        
+        
+        Convertor.single_convert
+        
+        name
+        - type: str
+        - describe: name of the file to convert. 
+        - notice:
+            - It can't be None!
+            - You have to write extension(.png, .jpg) together!
+            
+        out_name
+        - type: str
+        - default: `name` + `_Pad_out.png`
+        - describe:
+            - File name of output after convert.
+            - if `out_name` is None, `_Pad_out.png` will appended to name.
+        
+        
+        Convertor.multiple_convert
+        
+        ~ Convert all images(png, jpg) in `path` and return to `out_path`.
+        ~ Name of output will be `filename` + `_Pad_out.png`  
+        
+        """
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
