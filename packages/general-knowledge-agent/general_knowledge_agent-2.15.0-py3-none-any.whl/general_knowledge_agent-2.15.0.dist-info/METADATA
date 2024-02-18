@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: general_knowledge_agent
+Version: 2.15.0
+Summary: Nearly Human General Knowledge Agent dependency for creating functional client specific agents.
+Author: Nearly Human
+Author-email: support@nearlyhuman.ai
+Keywords: nearlyhuman,nearly human,agent
+Requires-Python: >=3.10
+Requires-Dist: cortex-cli
+Requires-Dist: langchain ==0.1.5
+Requires-Dist: openai ==1.11.1
+Requires-Dist: tiktoken
+Requires-Dist: chromadb >=0.4.3
+Requires-Dist: pydantic ==1.10.13
+Requires-Dist: openpyxl ==3.1.2
+
