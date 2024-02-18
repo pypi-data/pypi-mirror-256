@@ -1,0 +1,5 @@
+pybgpkit_parser-0.5.0b1.dist-info/METADATA,sha256=k1gmuKeVlzhOpHVlBJEutbEsloVVM6GNsgjV_745HqQ,4109
+pybgpkit_parser-0.5.0b1.dist-info/WHEEL,sha256=PmUgc8rMqdL_AfdaLiO54-joON9FGUDu_NHkvxJOQUQ,109
+pybgpkit_parser/__init__.py,sha256=rtvtzRBAk2Xe9Pdf7EvUHxIzkpU1TC7mdA47sWTIVTc,143
+pybgpkit_parser/pybgpkit_parser.cpython-311-aarch64-linux-gnu.so,sha256=RPQxBbQhisITkPh6ppwY0SOB7kVblmJ1GEP-WxEjiW8,6049488
+pybgpkit_parser-0.5.0b1.dist-info/RECORD,,
