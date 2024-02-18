@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <text>
+    <body>
+      <listBibl>
+        <biblFull>
+          <titleStmt>
+            <title xml:lang="en">article</title>
+            <title xml:lang="fr">article</title>
+            <title type="sub" xml:lang="en">A subtitle</title>
+            <author role="aut">
+              <persName>
+                <forename type="first">John</forename>
+                <surname>Doe</surname>
+              </persName>
+              <email>email</email>
+              <idno type="http://orcid.org/">orcid</idno>
+              <affiliation ref="#localStruct-affiliation"/>
+            </author>
+            <author role="aut">
+              <persName>
+                <forename type="first">Jane</forename>
+                <forename type="middle">Middle</forename>
+                <surname>Doe</surname>
+              </persName>
+              <email>email</email>
+              <idno type="http://orcid.org/">orcid</idno>
+              <affiliation ref="#localStruct-affiliationA"/>
+              <affiliation ref="#localStruct-affiliationB"/>
+            </author>
+          </titleStmt>
+          <publicationStmt>
+            <availability>
+              <licence target="https://creativecommons.org/licenses//cc-by/"/>
+            </availability>
+          </publicationStmt>
+          <notesStmt>
+            <note type="audience" n="2"/>
+            <note type="invited" n="1"/>
+            <note type="popular" n="0"/>
+            <note type="peer" n="1"/>
+            <note type="proceedings" n="0"/>
+            <note type="commentary">small comment</note>
+            <note type="description">small description</note>
+          </notesStmt>
+          <sourceDesc>
+            <biblStruct>
+              <analytic>
+                <title xml:lang="en">article</title>
+                <title xml:lang="fr">article</title>
+                <title type="sub" xml:lang="en">A subtitle</title>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">John</forename>
+                    <surname>Doe</surname>
+                  </persName>
+                  <email>email</email>
+                  <idno type="http://orcid.org/">orcid</idno>
+                  <affiliation ref="#localStruct-affiliation"/>
+                </author>
+                <author role="aut">
+                  <persName>
+                    <forename type="first">Jane</forename>
+                    <forename type="middle">Middle</forename>
+                    <surname>Doe</surname>
+                  </persName>
+                  <email>email</email>
+                  <idno type="http://orcid.org/">orcid</idno>
+                  <affiliation ref="#localStruct-affiliationA"/>
+                  <affiliation ref="#localStruct-affiliationB"/>
+                </author>
+              </analytic>
+              <monogr>
+                <idno type="isbn">978-1725183483</idno>
+                <idno type="halJournalId">117751</idno>
+                <idno type="issn">xxx</idno>
+                <imprint>
+                  <publisher>springer</publisher>
+                  <biblScope unit="serie">a special collection</biblScope>
+                  <biblScope unit="volume">20</biblScope>
+                  <biblScope unit="issue">1</biblScope>
+                  <biblScope unit="pp">10-25</biblScope>
+                  <date type="datePub">2024-01-01</date>
+                </imprint>
+              </monogr>
+              <series/>
+              <idno type="bibcode">erg</idno>
+              <idno type="ads">gaergezg</idno>
+              <ref type="publisher">https://publisher.com/ID</ref>
+              <ref type="seeAlso">https://link1.com/ID</ref>
+              <ref type="seeAlso">https://link2.com/ID</ref>
+              <ref type="seeAlso">https://link3.com/ID</ref>
+            </biblStruct>
+          </sourceDesc>
+          <profileDesc>
+            <langUsage>
+              <language ident="en"/>
+            </langUsage>
+            <textClass>
+              <keywords scheme="author">
+                <term xml:lang="en">keyword1</term>
+                <term xml:lang="en">keyword2</term>
+                <term xml:lang="fr">mot-clé1</term>
+                <term xml:lang="fr">mot-clé2</term>
+              </keywords>
+              <classCode scheme="halDomain" n="phys"/>
+              <classCode scheme="halTypology" n="ART"/>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+      </listBibl>
+    </body>
+    <back>
+      <listOrg type="structures">
+        <org type="institution" xml:id="localStruct-affiliation">
+          <orgName>laboratory for MC, university of Yeah</orgName>
+          <orgName type="acronym">LMC</orgName>
+          <desc>
+            <address>
+              <addrLine>Blue street 155, 552501 Olso, Norway</addrLine>
+              <country key="LS">Lesotho</country>
+            </address>
+            <ref type="url" target="https://lmc.univ-yeah.com"/>
+          </desc>
+        </org>
+        <org type="institution" xml:id="localStruct-affiliationB">
+          <orgName>laboratory for MCL, university of Yeah</orgName>
+          <orgName type="acronym">LMCL</orgName>
+          <desc>
+            <address>
+              <addrLine>Blue street 155, 552501 Olso, Norway</addrLine>
+              <country key="NO">Norway</country>
+            </address>
+            <ref type="url" target="https://lmcl.univ-yeah.com"/>
+          </desc>
+        </org>
+      </listOrg>
+    </back>
+  </text>
+</TEI>
