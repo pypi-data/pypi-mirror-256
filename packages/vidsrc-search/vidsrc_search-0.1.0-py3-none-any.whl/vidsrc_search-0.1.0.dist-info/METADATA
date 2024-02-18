@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: vidsrc-search
+Version: 0.1.0
+Summary: A pirate movie watcher written in Python
+License: MIT License
+        
+Project-URL: Homepage, https://github.com/SomedudeX/vidsrc-search
+Keywords: movie,video,search
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: thefuzz
+Requires-Dist: tabulate
+Requires-Dist: requests
+Requires-Dist: pywebview
+
+## Overview
+
+PyMovie is a command-line utility program that searches [VidSrc](https://vidsrc.to)'s API to provide movies for free. 
+
+## Installation
+
+```bash
+pip install --upgrade vidsrc-search
+vidsrc-search help
+```
+
+## Usage
+
+```
+Usage: vidsrc-search <command> [options]       
+                                               
+Available commands:                            
+    help        shows this menu                
+    search      search a movie by name         
+    library     actions regarding the movie lib
+                                               
+Use 'vidsrc-search help <command>' for info    
+on a specific command.                         
+```
