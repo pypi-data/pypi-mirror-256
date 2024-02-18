@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pymagick/__init__.py
+pymagick/csv.py
+pymagick/json.py
+pymagick/xml.py
+pymagick.egg-info/PKG-INFO
+pymagick.egg-info/SOURCES.txt
+pymagick.egg-info/dependency_links.txt
+pymagick.egg-info/top_level.txt
