@@ -1,0 +1,10 @@
+setup.py
+ytrial_distributions/Binomialdistribution.py
+ytrial_distributions/Gaussiandistribution.py
+ytrial_distributions/Generaldistribution.py
+ytrial_distributions/__init__.py
+ytrial_distributions.egg-info/PKG-INFO
+ytrial_distributions.egg-info/SOURCES.txt
+ytrial_distributions.egg-info/dependency_links.txt
+ytrial_distributions.egg-info/not-zip-safe
+ytrial_distributions.egg-info/top_level.txt
