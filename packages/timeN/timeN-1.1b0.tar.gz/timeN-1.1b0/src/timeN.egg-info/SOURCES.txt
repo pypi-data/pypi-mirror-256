@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/timeN.py
+src/timeN.egg-info/PKG-INFO
+src/timeN.egg-info/SOURCES.txt
+src/timeN.egg-info/dependency_links.txt
+src/timeN.egg-info/top_level.txt
