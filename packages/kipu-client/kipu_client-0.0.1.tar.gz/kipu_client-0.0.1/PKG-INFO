@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: kipu-client
+Version: 0.0.1
+Summary: Python client for Kipu platform
+Author-Email: Kipu Quantum GmbH <info@kipu-quantum.com>
+License: MIT
+Requires-Python: <3.12,>=3.9
+Requires-Dist: fastapi<1.0.0,>=0.95.0
+Requires-Dist: requests<3.0.0,>=2.28.2
+Requires-Dist: pandas<2.0.0,>=1.5.3
+Requires-Dist: dimod<1.0.0,>=0.12.4
+Requires-Dist: pyqubo<2.0.0,>=1.4.0
+Requires-Dist: matplotlib>=3.8.2
+Description-Content-Type: text/markdown
+
+# Kipu Python Client
+
+The aim of this repository is to host the Python client that will enable customers to interact with out platform and the solvers it contains:
+
+* DCQO
+* DCQC (direct and variational)
+
+Those will be indirectly used as the focus of the library will be to ease the usage by requesting the minimum amount of information required and automate all decisions made in orther to achieve user goals (precision, execution time or cost among others).
+
+## Authentication
+
+In order to access the platform users will need to log in to it.
+
+```
+import os
+from kipu import Client
+
+client = Client(user=os.environ["USER"], password=os.environ["PASS"])
+```
+
+This user login will provide a token (expiring token) so that secured backends can be accessed. In case the token expires, simply by calling the token refresh functionality one can continue working.
+
+```
+client.refresh_token()
+```
+
+## Optimization
+
+Basically, each enabled case translates the problem to be solved to an Ising Hamiltonian whose ground state is solved by the corresponding endpoint. For FEATURE SELECTION for example, given a dataset we will select which one is the target column and the number of assets we would like to select (maximum number).
+
+```
+target_columns = "target"
+max_features = 6
+
+client.feature_selection(df, target_columns, max_features)
+```
