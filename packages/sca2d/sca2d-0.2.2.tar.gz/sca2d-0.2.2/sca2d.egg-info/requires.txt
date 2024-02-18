@@ -1,0 +1,6 @@
+lark-parser
+colorama
+
+[dev]
+pylint
+twine
