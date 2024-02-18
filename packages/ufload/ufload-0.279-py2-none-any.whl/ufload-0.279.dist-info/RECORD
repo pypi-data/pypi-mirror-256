@@ -1,0 +1,17 @@
+ufload/__init__.py,sha256=upeqx7W5VAG4GBVH8KB8cuSwD2B8viFpIr9PwqQYs-c,1770
+ufload/cloud.py,sha256=nad6tfS99j9mZG5eOGP9f0UhejhjHlV9-nQUI9aYxaw,7854
+ufload/db.py,sha256=ebKZRP_u6d3W6s9jfR2JyWear-BnF_zQzgrl7yM4bRA,34662
+ufload/httpfile.py,sha256=6BKcTy076f1NvhuWT56PfeSPGEw8gHBqGpES-VU4RHU,1703
+ufload/test_cloud.py,sha256=Wne9uzSMQrqeDoRScJUtOECkhAHXk2FXIMfSrPen7-U,242
+ufload/test_db.py,sha256=9CSONuGK9BJUKGZFbY-nqFZmqZa4pq_nrlXR_MbzbPY,698
+ufload/webdav.py,sha256=m9jwltXKPuUrj5BohsmTxRleFoUDweYupGI_oo8dXoY,8451
+ufload/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufload/cli/main.py,sha256=F8b7IE_ZMD5l3GlJxGuUebqZ9tmoOcQy43oMQXKTmdA,36979
+ufload/cli/test_main.py,sha256=ikqMgBMPTyIsdcU3Xg62WQYHmCcdeGT4vjA9i_AiJhU,358
+ufload-0.279.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+ufload-0.279.dist-info/METADATA,sha256=u6yDwkIgLvFHtMNSbqHFI4T5K4Wl1blb8s3ywNt_oU8,854
+ufload-0.279.dist-info/RECORD,,
+ufload-0.279.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+ufload-0.279.dist-info/entry_points.txt,sha256=37cp4QBHV0boGH-WqxyLEXIMJ5Ot0iGRAJjwHsUNOzk,59
+ufload-0.279.dist-info/metadata.json,sha256=2t9btNpHKEBIyQaE9Dcoeg7jsuyrpYxQBeuosbwWBis,1145
+ufload-0.279.dist-info/top_level.txt,sha256=LOqEqVzqtOerKZpEztBEUqnjb5ueaQBNurRcSPRgG7A,7
