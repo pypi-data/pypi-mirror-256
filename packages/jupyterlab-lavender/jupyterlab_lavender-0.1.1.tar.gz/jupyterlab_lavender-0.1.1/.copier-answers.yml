@@ -1,0 +1,22 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: tinjano@proton.me
+author_name: tinjano
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: jupyterlab_lavender
+mimetype: ''
+mimetype_name: ''
+project_short_description: 'JupyterLab theme extension with dark background and low
+    saturation
+
+    '
+python_name: jupyterlab_lavender
+repository: https://github.com/tinjano/jupyterlab_lavender
+test: true
+viewer_name: ''
+
