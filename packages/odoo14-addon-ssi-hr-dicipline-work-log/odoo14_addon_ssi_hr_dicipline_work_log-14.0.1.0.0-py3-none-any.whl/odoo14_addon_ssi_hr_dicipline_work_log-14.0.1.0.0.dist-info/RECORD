@@ -1,0 +1,10 @@
+odoo/addons/ssi_hr_dicipline_work_log/README.rst,sha256=zjmWwpbqjsXvBGJ4dyHfj56-YLHlAIuF-R6iFLeMoQg,1323
+odoo/addons/ssi_hr_dicipline_work_log/__init__.py,sha256=JhPhaZHX2EaxlVGYxnTiJXb4lOWip7fiumVfTPQGruo,200
+odoo/addons/ssi_hr_dicipline_work_log/__manifest__.py,sha256=pbaXCCifLOBLofIFQUJbRzLSew9-dNhaCetkrs1DO3o,557
+odoo/addons/ssi_hr_dicipline_work_log/models/__init__.py,sha256=Y6xJHz8vI6DgDM4tx_gx35Ct2cC9ErCkNhM2qrnhGA0,206
+odoo/addons/ssi_hr_dicipline_work_log/models/hr_dicipline.py,sha256=_-EgYDIwDmsknMg4vr5AEzDEgpuzs6Q7_rseVQqOSNo,367
+odoo/addons/ssi_hr_dicipline_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_hr_dicipline_work_log-14.0.1.0.0.dist-info/METADATA,sha256=S0Ey-oP9dz0aZX04Aytl4pebqCswBuM3DLl0sesWea0,1936
+odoo14_addon_ssi_hr_dicipline_work_log-14.0.1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_hr_dicipline_work_log-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_hr_dicipline_work_log-14.0.1.0.0.dist-info/RECORD,,
