@@ -1,0 +1,10 @@
+goals/__init__.py,sha256=WqfgLuKCpBddWgMvMLZkHuX-OjVVJ0aXtL1j1D1NoaQ,31
+goals/status_1.py,sha256=rlgNO1oyZso8be5f0qIBMV5SfmpPWtQuamjXr9f-oSQ,62
+goals/_clique/__init__.py,sha256=LS9dSUHMUYtobRthqID18oFuZPCRtNTUPg0McPUq1zQ,297
+goals/_clique/group/__init__.py,sha256=SA9SGNH9AU2NCNy7ImGq3nwuhuAZuZuSc558hNIb7qU,294
+goals/_licenses/gpl-3.0-standalone.html,sha256=8glIYFtdjjSZd1eargE1flD5_k0Vj8BE0zw1tfq0FoQ,37279
+goals/_status/status.proc.py,sha256=levqDytOh8ne5xUQdnGyEGNbwkP2CMDaXVg0dJXbpSQ,1389
+goals-0.0.1.dist-info/METADATA,sha256=Jb88C3Hv1Dvw46XFlHV9jHOlcUyveq7aUBdo1DUhpOk,785
+goals-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+goals-0.0.1.dist-info/top_level.txt,sha256=5tyFnPIQ92FcfJ6J5k8BEj468CXu_fcW8UA2BOtZW2U,6
+goals-0.0.1.dist-info/RECORD,,
