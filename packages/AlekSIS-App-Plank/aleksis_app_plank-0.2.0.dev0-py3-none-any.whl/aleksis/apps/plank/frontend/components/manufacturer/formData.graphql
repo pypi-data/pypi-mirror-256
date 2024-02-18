@@ -1,0 +1,8 @@
+#import "../inventory/baseFragment.graphql"
+
+query formData {
+  inventories(permission: "plank.create_manufacturer") {
+    ...InventoryBaseParts
+  }
+  canCreate: permission(permission: "plank.create_manufacturer_rule")
+}

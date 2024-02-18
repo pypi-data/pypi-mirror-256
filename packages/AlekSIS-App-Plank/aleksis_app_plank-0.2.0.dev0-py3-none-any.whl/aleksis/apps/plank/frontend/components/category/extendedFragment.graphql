@@ -1,0 +1,10 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+
+fragment CategoryExtendedParts on CategoryType {
+  ...CategoryBaseParts
+  inventory {
+    ...InventoryBaseParts
+  }
+  notes
+}

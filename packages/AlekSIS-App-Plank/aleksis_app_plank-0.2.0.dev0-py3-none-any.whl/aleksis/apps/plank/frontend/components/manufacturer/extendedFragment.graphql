@@ -1,0 +1,10 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+
+fragment ManufacturerExtendedParts on ManufacturerType {
+  ...ManufacturerBaseParts
+  inventory {
+    ...InventoryBaseParts
+  }
+  notes
+}

@@ -1,0 +1,12 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+
+query formData {
+  locations(permission: "plank.create_location") {
+    ...LocationBaseParts
+  }
+  inventories(permission: "plank.create_location") {
+    ...InventoryBaseParts
+  }
+  canCreate: permission(permission: "plank.create_location_rule")
+}

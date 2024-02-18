@@ -1,0 +1,14 @@
+#import "./baseFragment.graphql"
+#import "../inventory/baseFragment.graphql"
+
+fragment LocationExtendedParts on LocationChildrenType {
+  ...LocationBaseParts
+  breadcrumbs
+  notes
+  parent {
+    ...LocationBaseParts
+  }
+  inventory {
+    ...InventoryBaseParts
+  }
+}
