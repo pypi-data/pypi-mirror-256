@@ -1,0 +1,5 @@
+pyproject.toml
+cloe.egg-info/PKG-INFO
+cloe.egg-info/SOURCES.txt
+cloe.egg-info/dependency_links.txt
+cloe.egg-info/top_level.txt
