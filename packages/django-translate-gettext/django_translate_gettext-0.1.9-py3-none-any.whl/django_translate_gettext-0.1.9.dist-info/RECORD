@@ -1,0 +1,13 @@
+django_translate_gettext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_translate_gettext/apps.py,sha256=0-8YC2h6HhXhNvPh920OMkXVQ7xh9XDX8lFxybpm4Rs,178
+django_translate_gettext/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_translate_gettext/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_translate_gettext/management/commands/translate.py,sha256=dHkdA96rRztsiSH973oC_ESbX-O43QmaL7isgS5Y_Jg,1936
+django_translate_gettext/services/__init__.py,sha256=PAjOqvvheO98-kbzgTF76jTNmjwrc6YtPjF8QPqMbi0,101
+django_translate_gettext/services/files.py,sha256=Foy_9sLeVJg_bcle-X718qN8n9Fa1ZusiB-XqKYjdoc,965
+django_translate_gettext/services/models.py,sha256=hqgZ9m1NG2USkYgwyWAeDI1O28ihEHR1TAUawqScNSA,553
+django_translate_gettext/services/transformers.py,sha256=82qrwiBKDTtXKdb1zgHPRRdVdOWBVWe6x_ET4MT2r40,5473
+django_translate_gettext-0.1.9.dist-info/LICENSE,sha256=OQasRMBdabvthN0NwfF4DQymCfW1EUz-iPGkbZj3QEw,1070
+django_translate_gettext-0.1.9.dist-info/METADATA,sha256=SdH1dZoOYHc0ttC4C7miJ-10Vh03rN7StSK_0FeE09c,6930
+django_translate_gettext-0.1.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_translate_gettext-0.1.9.dist-info/RECORD,,
