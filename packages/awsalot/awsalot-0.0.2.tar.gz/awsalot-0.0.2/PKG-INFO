@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: awsalot
+Version: 0.0.2
+Summary: A collection of CLI utils for helping with AWS tasks
+Author-email: Anthony Lukach <anthonylukach@gmail.com>
+License: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: inquirer
+Requires-Dist: boto3
+
+# AWSalot
+
+![logo](./.docs/logo.png)
+
+A selection of helpers to perform common AWS tasks via the command line.
