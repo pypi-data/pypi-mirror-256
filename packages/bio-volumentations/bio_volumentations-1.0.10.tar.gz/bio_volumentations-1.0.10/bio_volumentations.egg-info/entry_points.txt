@@ -1,0 +1,2 @@
+[console_scripts]
+bioVolumentation = bio_volumentations:__init__
