@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ngrok-flask-cart
+Version: 0.0.1
+Summary: An offshoot of flask-ngrok for demo Flask apps using ngrok.
+Home-page: UNKNOWN
+Author: Nathan Reitinger
+License: UNKNOWN
+Keywords: flask ngrok CART
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flask-ngrok-CART
+An offshoot of [flask-ngrok](https://github.com/gstaff/flask-ngrok) (see also [flask-ngrok2](https://github.com/MohamedAliRashad/flask-ngrok2), [flask-ngrok3](https://github.com/Partycode/flask-ngrok3)) for making demo Flask apps from personal machine.
+
+## Installation
+
+```bash
+pip3 install flask-ngrok-CART
+```
+
+
