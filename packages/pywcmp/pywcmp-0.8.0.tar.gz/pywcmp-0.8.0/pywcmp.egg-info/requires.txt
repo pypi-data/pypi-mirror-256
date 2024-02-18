@@ -1,0 +1,5 @@
+beautifulsoup4
+click
+pyspellchecker
+python-dateutil
+pywis-topics
