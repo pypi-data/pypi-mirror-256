@@ -1,0 +1,9 @@
+cripser.cp310-win_amd64.pyd,sha256=fUDCg1_9CfnFQuqG_bKEhKnh2DOwRWZmtMkfe-BzOAc,145408
+cripser.cp312-win_amd64.pyd,sha256=iyyrvL7twgBM-CDcZhXuTq3vCbuq33i2ibbRJvwBCfo,145920
+tcripser.cp310-win_amd64.pyd,sha256=dTOVYoSTwPPSeY8-AJLtzaVNtaQY6Ux2b0vpFZBjHDI,144384
+tcripser.cp312-win_amd64.pyd,sha256=s1up6Q8euxKfNF_jXG_kVNttlP3We1t9TUqLE3kH26o,144384
+cripser-0.0.13.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cripser-0.0.13.dist-info/METADATA,sha256=JUmFsPjrWWqdhhlW2usVYFyHgIIxxnI6U4bMKcLIYGc,14188
+cripser-0.0.13.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+cripser-0.0.13.dist-info/top_level.txt,sha256=D56Fvz42muM9O9F6BJk9lZHNSt6ztwyJckkd1edkI70,17
+cripser-0.0.13.dist-info/RECORD,,
