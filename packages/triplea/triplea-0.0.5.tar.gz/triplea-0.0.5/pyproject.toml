@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "triplea"
+version = "0.0.5"
+description = "Article Analysis Assistant"
+authors = ["EhsanBitaraf <bitaraf.e@iums.ac.ir>", "Maryam Jafarpour <maryam.jafarpoor@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/EhsanBitaraf/triple-a"
+keywords = ["graph", "semantic-scholar", "citation-graph"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.7"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.1.0"
+tomli = "^2.0.1"
+pymongo = "^4.6.1"
+langchain-openai = "^0.0.5"
+langchain = "^0.1.6"
+tinydb = "^4.8.0"
+networkx = "^3.2.1"
+xmltodict = "^0.13.0"
+nxviz = "^0.7.4"
+netwulf = "^0.1.5"
+ipykernel = "^6.29.2"
+ipywidgets = "^8.1.2"
+pypdf2 = "^3.0.1"
+
+[tool.poetry.scripts]
+aaa = "triplea.cli.aaa:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
