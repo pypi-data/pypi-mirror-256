@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spellcheckmate"
+version = "0.1.4"
+description = "A hopefully cross-platform reimplementation of Peter Norvig's spelling corrector."
+authors = ["Csaba Szallós Kis"]
+license = "MIT"
+readme = "README.md"
+include = ["spellcheckmate/big.txt"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
