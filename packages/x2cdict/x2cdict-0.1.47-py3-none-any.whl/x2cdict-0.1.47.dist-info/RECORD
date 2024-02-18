@@ -1,0 +1,17 @@
+x2cdict/__init__.py,sha256=x-2MkfiRHdvEh9GHSKatRFFQzuR1v9a4EadHxtvgdNI,67
+x2cdict/db/__init__.py,sha256=rS7KPGl-67auLZg01N9ciyYGh5IinJSXE56wPVKyTAc,75
+x2cdict/db/db.py,sha256=F_3TfynA01J-w7NzqgjLtROpg9O9z2jtu24tJhjmogw,461
+x2cdict/db/de2cn.py,sha256=7DjdpcmNoYFjQCqLhSOufEcQfFb9aNOXFu_vtmHu04s,3539
+x2cdict/db/en2cn.py,sha256=AFWDYUizUXk-E6Rc3YnNVa49YvO7QelbPIxI0hDbTY4,1362
+x2cdict/db/es2cn.py,sha256=SKs0LS53bOOOaJ60Xtxf03R8WpEaqRygJZOCaW0LgJ4,3552
+x2cdict/deeplearning.py,sha256=rxWLXWA7XZpomkDnUBW4U3XKhUUIPbP5qWlbNxJuEEU,1273
+x2cdict/dictapi.py,sha256=5UbpB6lMtoTYUxlsj2ZVxWfsiSUpnldNGOXxICz4Lro,1170
+x2cdict/entry.py,sha256=olwAz2zeR1Qd8ZYE4Ib_fz3e3eAcxMcx2Rr65kthhUY,1727
+x2cdict/google.py,sha256=gydKHSPskfP0KWqUTT8Ir7TN2vb0WUjm5rIHarZLURA,1163
+x2cdict/lib.py,sha256=sefVsl5ZdunQ2sA95nFF7iIvRUWQ4w-TnwOv-dtEJ4U,83
+x2cdict/posmap.py,sha256=g5fItlObU3dozfSnwaFmEuwJkIZZVu0KQ4tNsoMWZHs,887
+x2cdict/qishe.py,sha256=8T8MoUlFfNFmG9uOWUi2lz_UKTW8T1gXsFA_pHGQN1c,829
+x2cdict-0.1.47.dist-info/METADATA,sha256=eWCEdFr2f2KlCfXNSoc6LgSgaMl77issk-AVY4iSYVA,3702
+x2cdict-0.1.47.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+x2cdict-0.1.47.dist-info/entry_points.txt,sha256=Vn8P-Vye8SQDP35fpmYu-j7mAZkXbThXM8QLwSEum58,168
+x2cdict-0.1.47.dist-info/RECORD,,
