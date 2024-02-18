@@ -1,0 +1,13 @@
+ase>=3.22.1
+einops>=0.6.1
+fire>=0.5.0
+frozendict>=2.3.7
+typer[all]>=0.7.0
+decorator
+mace-models>=0.1.2
+hydromace
+znframe
+zndraw
+
+[all]
+rdkit>=2023.9.4
