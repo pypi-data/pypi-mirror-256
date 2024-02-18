@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dormyboba
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dormyboba-api (>=0.1.0,<0.2.0)
+Requires-Dist: grpcio (>=1.60.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: vkbottle (>=4.3.12,<5.0.0)
+Description-Content-Type: text/markdown
+
+# dormyboba
+Dormitory registration and mailing system
+
+## Installation
+
+Multidict requires gcc-11 to compile. Use `MULTIDICT_NO_EXTENSIONS` to use raw python version.
+
+```
+export MULTIDICT_NO_EXTENSIONS=1
+poetry install
+```
+
