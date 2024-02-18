@@ -1,0 +1,11 @@
+README.md
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+sim_dist_test707.egg-info/PKG-INFO
+sim_dist_test707.egg-info/SOURCES.txt
+sim_dist_test707.egg-info/dependency_links.txt
+sim_dist_test707.egg-info/not-zip-safe
+sim_dist_test707.egg-info/top_level.txt
