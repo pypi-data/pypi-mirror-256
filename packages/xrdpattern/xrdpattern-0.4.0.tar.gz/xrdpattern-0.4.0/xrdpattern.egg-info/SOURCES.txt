@@ -1,0 +1,7 @@
+setup.py
+xrdpattern/__init__.py
+xrdpattern.egg-info/PKG-INFO
+xrdpattern.egg-info/SOURCES.txt
+xrdpattern.egg-info/dependency_links.txt
+xrdpattern.egg-info/requires.txt
+xrdpattern.egg-info/top_level.txt
