@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/trsproc/__init__.py
+src/trsproc/__main__.py
+src/trsproc/parser.py
+src/trsproc/utils.py
+src/trsproc.egg-info/PKG-INFO
+src/trsproc.egg-info/SOURCES.txt
+src/trsproc.egg-info/dependency_links.txt
+src/trsproc.egg-info/entry_points.txt
+src/trsproc.egg-info/top_level.txt
