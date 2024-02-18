@@ -1,0 +1,15 @@
+map_uk/__init__.py,sha256=KZ56QZiK0J6E5Z8qUvbIEWGJr12iILc_WOY2-4bT83k,184
+map_uk/constants.py,sha256=olM3XhEAwoN1qgXfPzps-KXlptTSz-Zzk1eS3-J3SW4,895
+map_uk/geojson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+map_uk/geojson/getter.py,sha256=Gtz6vOeFo1VY01Njti7FK39_qj1axzONY-D0xQW82k8,3769
+map_uk/geojson/simplifier.py,sha256=qtOP6Ch72oTbTyRR9uuZK-JotMViCRGi8NziMSotNiU,1797
+map_uk/map/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+map_uk/map/base.py,sha256=aEMcpzz0jTWkunc7ukJFqS74sBQtBHhAXEpmM1kho2o,2653
+map_uk/map/choropleth.py,sha256=Odq5I3t1IUibvd83pZCx7CeCbBTapxUfZll5pUKbp0I,3313
+map_uk/map/map.py,sha256=qw0sw4reQE3VtsVL03YfvVdC-PwiG-AdTqIECYK9Ff0,2994
+map_uk/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+map_uk/utils/file_downloader.py,sha256=PmZ9xy4gZM1kHF1moXRu3ySfLsuDNCefGBm7j7nA730,1615
+map_uk/utils/file_unizpper.py,sha256=z4Jbf_a9NsoOETq5lnGQ-qL5jgVOQ2SB6X-6aaYirYE,860
+map_uk-0.0.0.dev0.dist-info/METADATA,sha256=3lFQJPO3dW63MlG6cDQECi9KX9s8RamvpBD50Nw8xFI,7299
+map_uk-0.0.0.dev0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+map_uk-0.0.0.dev0.dist-info/RECORD,,
