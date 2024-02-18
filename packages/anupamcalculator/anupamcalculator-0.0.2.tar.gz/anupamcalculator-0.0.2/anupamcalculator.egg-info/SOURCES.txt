@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+anupamcalculator/__init__.py
+anupamcalculator/calculator.py
+anupamcalculator.egg-info/PKG-INFO
+anupamcalculator.egg-info/SOURCES.txt
+anupamcalculator.egg-info/dependency_links.txt
+anupamcalculator.egg-info/top_level.txt
