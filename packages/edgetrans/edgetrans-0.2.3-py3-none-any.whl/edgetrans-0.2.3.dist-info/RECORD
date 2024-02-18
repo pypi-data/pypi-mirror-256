@@ -1,0 +1,7 @@
+edgetrans/__init__.py,sha256=8jiPkoYyCP6RvmN5NKRWgV6_9KaoJDthoD7EFT75CDk,111
+edgetrans/edge.py,sha256=OTYtYweOrdtyO1jReNXdsgEHWglVufoSUJ0G0z3NERA,2771
+edgetrans/error.py,sha256=0zhgSvN68zUdBIVwtYxNqXvURB-wHA2YkSy4E-1H_lw,44
+edgetrans/translator.py,sha256=EhA1hLQt0Axwqux3lD76nxyJU_fZnro7pa3F4fEQTn8,404
+edgetrans-0.2.3.dist-info/METADATA,sha256=tOuQsXkV0Tp53E2kzbqIg4oyXMCcS337AEzhN1AlQBU,610
+edgetrans-0.2.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+edgetrans-0.2.3.dist-info/RECORD,,
