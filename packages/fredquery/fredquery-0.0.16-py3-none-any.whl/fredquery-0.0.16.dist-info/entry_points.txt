@@ -1,0 +1,5 @@
+[console_scripts]
+fredcategories = fredquery.fredcategories:main
+fredreleases = fredquery.fredreleases:main
+fredsources = fredquery.fredsources:main
+fredtags = fredquery.fredtags:main
