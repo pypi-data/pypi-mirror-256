@@ -1,0 +1,5 @@
+[console_scripts]
+pbbt = pbbt:main
+
+[distutils.commands]
+pbbt = pbbt.setup:pbbt
