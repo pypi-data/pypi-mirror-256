@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: aipysdk
+Version: 0.0.1
+Summary: Server-side implementation of the Vercel AI SDK in Python
+Project-URL: Homepage, https://github.com/thijmenjk/aipysdk
+Project-URL: Repository, https://github.com/thijmenjk/aipysdk
+Author-email: thijmenjk <thijmen@apeelingai.com>
+License-Expression: Apache-2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: openai>=1.12.0
+Requires-Dist: pydantic<3,>=1.9.0
+Requires-Dist: typing-extensions<5,>=4.7
+Description-Content-Type: text/markdown
+
+# aipysdk
+
+Small library containing some helpers for implementing the server-side of the Vercel AI SDK in python.
+
+## Installation
+
+`pip install aipysdk`
+
+## Examples
+
+Check out the examples in `examples`
