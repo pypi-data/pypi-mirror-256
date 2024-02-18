@@ -1,0 +1,8 @@
+awsalot/__init__.py,sha256=c5Aumjc2W5KrMmzffbU0MSRnBdl6Wu2cLNn1aBN8sqc,214
+awsalot/rds_sg_connector.py,sha256=PUCDLWNN-6peBUBCTRIG6ikL5UQ6SgGoJ5PNJ-yFapg,6663
+awsalot/secret_to_pgconn.py,sha256=xkXEp7jwEKGPJlI4Ntky6MJ6ZWKZQSiRiXEPuzqUbOI,3804
+awsalot-0.0.3.dist-info/METADATA,sha256=uZ2yWP6L-jQwKcfFeSL9XKsiToBwZ66DPb2YZxV4N2I,658
+awsalot-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+awsalot-0.0.3.dist-info/entry_points.txt,sha256=bTeT80FoiCC30U0TfA-iVtE2pn64oozIvnv3EcZFU6g,40
+awsalot-0.0.3.dist-info/top_level.txt,sha256=xigGpLbQzV3A0TmizTn_Qzi2irHLMLY_APmlazeMxKE,8
+awsalot-0.0.3.dist-info/RECORD,,
