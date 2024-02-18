@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/rspypiHelloWorld/__init__.py
+src/rspypiHelloWorld/hello.py
+src/rspypiHelloWorld.egg-info/PKG-INFO
+src/rspypiHelloWorld.egg-info/SOURCES.txt
+src/rspypiHelloWorld.egg-info/dependency_links.txt
+src/rspypiHelloWorld.egg-info/entry_points.txt
+src/rspypiHelloWorld.egg-info/requires.txt
+src/rspypiHelloWorld.egg-info/top_level.txt

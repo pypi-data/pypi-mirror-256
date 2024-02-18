@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rspypiHelloWorld"
+version = "1.0.0"
+description = "A simple hello world test package"
+readme = "README.md"
+authors = [{name = "Frankie Hadwick", email = "frankie@ramseysystems.co.uk"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9"
+]
+keywords = ["hello", "world", "example"]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+    "black",
+    "mypy"
+]
+
+[project.urls]
+homepage = "https://github.com/RamseySystems/pypiHelloWorld.git"
+
+[project.scripts]
+rsArtdToSimple = "pypiHelloWorld:main"
