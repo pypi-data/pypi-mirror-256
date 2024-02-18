@@ -1,0 +1,5 @@
+[console_scripts]
+muse = muse.cli:main
+muse-client = muse.cli:main
+muse-scheduler = muse.scheduler:run_scheduler
+muse-server = muse.server:run_server
