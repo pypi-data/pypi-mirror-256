@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://schemas.conda.io/menuinst-1.schema.json",
+  "menu_name": "Birka",
+  "menu_items": [
+    {
+      "name": "Birka __PKG_VERSION__",
+      "description": "A tool for bioimage data validation and archival",
+      "precommand": "unset PYTHONHOME && unset PYTHONPATH",
+      "command": ["{{ PYTHON }}", "-m", "birka"],
+      "activate": true,
+      "terminal": false,
+      "platforms": {
+        "win": {
+          "precommand": "set \"PYTHONHOME=\" & set \"PYTHONPATH=\"",
+          "desktop": true,
+          "app_user_model_id": "BIIFSweden.Birka.BioImageArchiver.__PKG_VERSION__"
+        },
+        "linux": {
+          "Categories": ["Graphics", "Science"],
+          "StartupWMClass": "Birka"
+        },
+        "osx": {
+          "link_in_bundle": {
+            "{{ PREFIX }}/bin/python": "{{ MENU_ITEM_LOCATION }}/Contents/Resources/python"
+          },
+          "command": [
+            "{{ MENU_ITEM_LOCATION }}/Contents/Resources/python",
+            "-m",
+            "birka"
+          ],
+          "CFBundleName": "Birka",
+          "CFBundleDisplayName": "Birka",
+          "CFBundleVersion": "__PKG_VERSION__",
+          "entitlements": [
+            "com.apple.security.files.user-selected.read-write",
+            "com.apple.security.files.downloads.read-write",
+            "com.apple.security.assets.pictures.read-write"
+          ]
+        }
+      }
+    }
+  ]
+}
