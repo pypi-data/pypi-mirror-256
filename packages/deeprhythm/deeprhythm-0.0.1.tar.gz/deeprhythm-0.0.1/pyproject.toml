@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets]
+include = [
+  "src/*.py",
+  "*.pth",
+  "/tests",
+]
+exclude = [
+  "*.ipynb",
+]
+
+[project]
+name = "deeprhythm"
+version = "0.0.1"
+authors = [
+  { name="bleugreen", email="bleugreendesign@gmail.com" },
+]
+description = "A fast, accurate Tempo Predictor"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Mitchell57/deeprhythm"
+Issues = "https://github.com/Mitchell57/deeprhythm/issues"
