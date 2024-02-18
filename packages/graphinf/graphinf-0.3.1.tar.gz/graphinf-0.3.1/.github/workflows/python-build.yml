@@ -1,0 +1,39 @@
+name: Python interface
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  python-interface:
+    name: Build python bindings
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [macos-latest] #, ubuntu-latest, windows-latest]
+        python-version: ["3.9", "3.10" ]
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: recursive
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+            python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+            pip install --upgrade pip
+            pip install pybind11==2.10.0 pytest numpy scipy networkx psutil pandas tqdm
+
+    - name: Installing basegraph
+      run: pip install ${{github.workspace}}/ext/base_graph
+
+    - name: Installing graphinf
+      run: pip install . -v
+
+    - name: Run tests
+      run: |
+            pytest ./tests
