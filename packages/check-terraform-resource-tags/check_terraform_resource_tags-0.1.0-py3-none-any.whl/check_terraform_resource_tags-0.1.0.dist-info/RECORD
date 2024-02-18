@@ -1,0 +1,7 @@
+conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conf/oneCloudTagsCheck.py,sha256=Fd2Fqw8BfpM0mBR-mQstWDBWm504l75E9tDMykovcW8,1062
+conf/settings.py,sha256=V2F5ljGPLlUhfFgHHHIk8q2D1_iuOp8J6IQeCPjrDu8,143
+check_terraform_resource_tags-0.1.0.dist-info/METADATA,sha256=Ghv-ts44EYAOu15fn_1oHL7p8mljpCb08tYL7upawNI,97
+check_terraform_resource_tags-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+check_terraform_resource_tags-0.1.0.dist-info/top_level.txt,sha256=jQ1Mih5qt1ri-Bq_Hh5mzhq3vlPHuPJFpBkH_EWzqAE,5
+check_terraform_resource_tags-0.1.0.dist-info/RECORD,,
