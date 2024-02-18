@@ -1,0 +1,12 @@
+accli/AcceleratorJobProjectService.py,sha256=LO-aDKxOwCDYWvE_TATG_qbNo5M3JZaVzvcgePYlqUw,14988
+accli/AcceleratorTerminalCliProjectService.py,sha256=J9mskKzoNxkP_KfhEXh1Hujftvx0Lw3PRejVRcDZRrc,8256
+accli/__init__.py,sha256=YYJseBHliDuzV5jWGwvYMe1nShR-4SzdheGV0AT0TZ0,187
+accli/__main__.py,sha256=P6KgDwIZPAOO-X6OQfyc1_d1GBy0Y9Qr09rswbPKpw4,78
+accli/_version.py,sha256=0JFmch4-mEUbA7VkxKEeZPxhCLIt8U7pPbUtopwChjc,140
+accli/cli.py,sha256=3gQUpnqanlTgyjB7U9nZtt8nbiGXltwK54WDCZO_l5I,5796
+accli-0.1.6.1.dist-info/LICENSE,sha256=T90S9vqRS6qP-voULxAcvwEs558wRRo6dHuZrjgcOUI,1085
+accli-0.1.6.1.dist-info/METADATA,sha256=nwC5kJRxM8dIKy6uJY4mid1EpB-K-EseylxD2TIfj4g,3312
+accli-0.1.6.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+accli-0.1.6.1.dist-info/entry_points.txt,sha256=a3-_HwaAzWkMF2u5Dmauy4l6N4HUh-AnZ-f7xix56mA,40
+accli-0.1.6.1.dist-info/top_level.txt,sha256=XI5YW6x7TyhYQ0YF-dJwgPrAiRKlmBeQEY70-LyLJoo,6
+accli-0.1.6.1.dist-info/RECORD,,
