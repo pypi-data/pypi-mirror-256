@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: haw
+Version: 0.0.3
+Summary: Package for the computation of height-adjusted weight scores
+Author: Joao Kruse
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
