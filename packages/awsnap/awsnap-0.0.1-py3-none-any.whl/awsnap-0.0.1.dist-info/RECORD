@@ -1,0 +1,11 @@
+awsnap/__init__.py,sha256=w7vraH_EGAIU0zMJtDCe3xVqOXaW-30Har4pgsaE5VM,30
+awsnap/awsnap.py,sha256=Qz8vaQ8qQSHxBnuiQz45xaeKY3FcTjh2JqayfZZwlyI,8355
+awsnap/pipeline/__init__.py,sha256=tutaI9DWbXs0v8Fgb1fAaZJK6PBfDkR4wNfzPBhebps,39
+awsnap/pipeline/cloudformation.py,sha256=UEfccS2OvyFDV5Ra6ME4Lir4_KYC28uw2YCOSPC1SX8,6716
+awsnap/pipeline/command_handler.py,sha256=-gjIv1dBj7Fd03kUTVAJTUN8S0JGsAYrAYQao28UsVA,2365
+awsnap/pipeline/synth.py,sha256=Q5heqyH-3KJxboTy5ySYRSmaEPlW-vkmoE38HxXHnAI,5584
+awsnap-0.0.1.dist-info/LICENSE,sha256=ewsA_NvGoDYHiq2E0LwPriQKxnFEuGyREUnC2qN8n4U,1062
+awsnap-0.0.1.dist-info/METADATA,sha256=s8VL2CEeFq0ZmqvqL3NikQJtMyyZysmxjyTohtlvCno,2957
+awsnap-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+awsnap-0.0.1.dist-info/entry_points.txt,sha256=HCj7Awz1cQJwiIcaUgX2SXsqX2vkI_6P_6ZKm5tVTNs,45
+awsnap-0.0.1.dist-info/RECORD,,
