@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Django-SupportTools
+Version: 3.6.1
+Summary: A Django application used for theming and wrapping T&LS support tools.
+Home-page: https://github.com/uw-it-aca/django-supporttools
+Author: UW-IT T&LS
+Author-email: aca-it@uw.edu
+License: Apache License, Version 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: Django <5,>3.2
+Requires-Dist: django-userservice
+Requires-Dist: django-user-agents
+Requires-Dist: mock
+
+
+See the README on `GitHub
+<https://github.com/uw-it-aca/django-supporttools>`_.
