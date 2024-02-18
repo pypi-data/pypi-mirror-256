@@ -1,0 +1,10 @@
+setup.py
+Arni_distributions/Binomialdistribution.py
+Arni_distributions/Gaussiandistribution.py
+Arni_distributions/Generaldistribution.py
+Arni_distributions/__init__.py
+Arni_distributions.egg-info/PKG-INFO
+Arni_distributions.egg-info/SOURCES.txt
+Arni_distributions.egg-info/dependency_links.txt
+Arni_distributions.egg-info/not-zip-safe
+Arni_distributions.egg-info/top_level.txt
