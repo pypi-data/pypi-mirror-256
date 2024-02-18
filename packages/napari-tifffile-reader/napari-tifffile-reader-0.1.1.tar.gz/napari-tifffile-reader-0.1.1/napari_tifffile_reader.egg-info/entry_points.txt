@@ -1,0 +1,2 @@
+[napari.plugin]
+tifffile = napari_tifffile_reader

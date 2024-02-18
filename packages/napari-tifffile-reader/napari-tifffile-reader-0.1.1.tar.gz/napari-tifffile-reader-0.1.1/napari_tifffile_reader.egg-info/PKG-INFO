@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: napari-tifffile-reader
+Version: 0.1.1
+Summary: A napari reader plugin for tiff images.
+Home-page: https://github.com/GenevieveBuckley/napari-tifffile-reader
+Author: Genevieve Buckley
+License: BSD-3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# napari-tifffile-reader
+
+This project has been moved to [https://github.com/napari/napari-tiff](https://github.com/napari/napari-tiff).
+
+* GitHub: https://github.com/napari/napari-tiff
+* PyPI: https://pypi.org/project/napari-tiff
+
+## Installation
+
+You can install `napari-tiff` via [pip]:
+
+    pip install napari-tiff
