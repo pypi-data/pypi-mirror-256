@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gender_guesser_br/__init__.py
+gender_guesser_br/genero.py
+gender_guesser_br.egg-info/PKG-INFO
+gender_guesser_br.egg-info/SOURCES.txt
+gender_guesser_br.egg-info/dependency_links.txt
+gender_guesser_br.egg-info/requires.txt
+gender_guesser_br.egg-info/top_level.txt
