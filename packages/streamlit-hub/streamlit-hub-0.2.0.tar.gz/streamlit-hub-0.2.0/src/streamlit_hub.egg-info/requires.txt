@@ -1,0 +1,11 @@
+streamlit>=1.29.0
+colorlog
+python-nginx
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
