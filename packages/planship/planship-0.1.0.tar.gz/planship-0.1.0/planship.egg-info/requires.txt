@@ -1,0 +1,1 @@
+planship_openapi_gen>=1
