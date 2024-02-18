@@ -1,0 +1,11 @@
+tracegroomer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracegroomer/__main__.py,sha256=ft6rKqd1uBpAgm1Yyd03fM_8wB2cFQOUuQCFs6P-yEQ,5223
+tracegroomer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracegroomer/tests/test_tidy.py,sha256=-bmtrBKp90rHq5BJWPEzg-_GwNkddZxNgvWa5Z7jYfw,606
+tracegroomer/tidy.py,sha256=Txq-4Jmwrs1gYsFtORjZCJ2qBCr394Hal2esSMKo2Ys,37070
+tracegroomer/utils.py,sha256=o2c8nzfnT31ykfGZa8OJxppTzvNlIW7AyBErkuJrxh4,5181
+tracegroomer-0.1.0.dist-info/LICENSE,sha256=H_OMErxaYyYd6GPHK7pYBn0byY8cAHpJTWOYZK4nzuE,1771
+tracegroomer-0.1.0.dist-info/METADATA,sha256=9nP_IaQOQES-p84i3zHN-akO0Mq7PZ2iEThnSlQi_nQ,16559
+tracegroomer-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tracegroomer-0.1.0.dist-info/entry_points.txt,sha256=Ua_mIQRCL_ocrY4PjP5avqClWnmoVRk_GdZic-7RQbM,59
+tracegroomer-0.1.0.dist-info/RECORD,,
