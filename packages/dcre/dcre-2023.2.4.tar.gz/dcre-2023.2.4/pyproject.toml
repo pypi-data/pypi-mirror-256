@@ -1,0 +1,32 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "versioneer[toml]==0.29", "tomli"]
+
+[project]
+authors = [{name = "Hauke Schulz"}]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "xarray",
+  "seaborn"
+]
+description = "Python package for CRE processing"
+dynamic = ["version"]
+name = "dcre"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.versioneer]
+VCS = "git"
+parentdir_prefix = "dcre-"
+style = "pep440"
+tag_prefix = "v"  # needs to be set if tags do not start with number
+versionfile_build = "dcre/_version.py"
+versionfile_source = "dcre/_version.py"
