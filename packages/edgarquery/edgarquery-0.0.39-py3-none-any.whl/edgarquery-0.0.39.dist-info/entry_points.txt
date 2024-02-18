@@ -1,0 +1,11 @@
+[console_scripts]
+edgarcompanyconcepttocsv = edgarquery.companyconcepttocsv:main
+edgarcompanyfactstocsv = edgarquery.companyfactstocsv:main
+edgarcompanyfactsziptocsv = edgarquery.companyfactsziptocsv:main
+edgarlatest10K = edgarquery.latest10K:main
+edgarlatestsubmissions = edgarquery.latestsubmissions:main
+edgarquery = edgarquery.doquery:main
+edgarsubmissions = edgarquery.submissions:main
+edgarsubmissionsziptocsv = edgarquery.submissionsziptocsv:main
+edgartickerstocsv = edgarquery.tickerstocsv:main
+edgarxbrlframestocsv = edgarquery.xbrlframestocsv:main
