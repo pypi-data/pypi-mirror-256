@@ -1,0 +1,2 @@
+[console_scripts]
+mhctools = mhctools.cli.script:main
