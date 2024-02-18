@@ -1,0 +1,11 @@
+PolibaseService/api.py,sha256=dSaz_pJXfGMVCGBOVZBicJIE95OhtW8t-UCA1-N_b88,44902
+PolibaseService/api_test.py,sha256=T_REVgH6gGp0PsG5FtIHjzjpoD4J6enmjT5yn9GbkIA,1630
+PolibaseService/collection.py,sha256=3xj2u-FsmRObaVADSyn8XjXy3bg3lXmDVVEowu_tYAs,2962
+PolibaseService/const.py,sha256=BI4mh1G-upcR_NlWgJgTKq6cqKVEIta_47pag0ChO_c,3526
+PolibaseService/create_all_barcodes.py,sha256=esWqdn8ZsH5BazCqThlGOIadpGfnaYU2v36-Mk1Xgd4,1180
+PolibaseService/service.py,sha256=_VNeH1WlhVljM3jrpeGK8STwMIo9xg7VyXmLW3rSQj4,13976
+pih_plb-1.1.dist-info/METADATA,sha256=XrUcSXe1aYQy2R8A_IyClGIg_9qAhq5hq0J1PQCyGVc,288
+pih_plb-1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pih_plb-1.1.dist-info/entry_points.txt,sha256=9-vi9lWF5jCOMd8JAnKbT8Fk5QhKGknWQMkb7qeJVAY,59
+pih_plb-1.1.dist-info/top_level.txt,sha256=Fg-YarnINE7BEzJmueuWC-7YLd01O1h4DjCoIG4NeAE,16
+pih_plb-1.1.dist-info/RECORD,,
