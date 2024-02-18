@@ -1,0 +1,4 @@
+_target_: torch_mist.estimators.tuba
+hidden_dims: ${params.hidden_dims}
+neg_samples: ${params.neg_samples}
+k_dim: ${params.k_dim}
