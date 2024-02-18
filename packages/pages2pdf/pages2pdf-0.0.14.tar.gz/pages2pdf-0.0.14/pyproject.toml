@@ -1,0 +1,29 @@
+[project]
+name = "pages2pdf"
+version = "0.0.14"
+authors = [
+    { name = "Problemli GmbH", email = "info@problem.li" },
+]
+description = "Converts .pages to .pdf"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+# Define project dependencies here
+dependencies = [
+    "click>=8.1.7",
+    "cloudconvert>=2.1.0",
+]
+[project.urls]
+Homepage = "https://github.com/blemli/pages2pdf"
+Issues = "https://github.com/blemli/pages2pdf/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+pages2pdf = "pages2dpdf:cli"
