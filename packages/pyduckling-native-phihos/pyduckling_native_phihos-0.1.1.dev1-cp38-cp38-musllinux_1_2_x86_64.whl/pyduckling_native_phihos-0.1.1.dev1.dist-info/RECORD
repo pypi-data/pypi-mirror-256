@@ -1,0 +1,11 @@
+pyduckling_native_phihos-0.1.1.dev1.dist-info/METADATA,sha256=72q9MAJ5FPAiFJKjnT9qEl3nhQes2OaKaZGvxEyY9qY,7053
+pyduckling_native_phihos-0.1.1.dev1.dist-info/WHEEL,sha256=SBL5wdfSVk7Kc9NPBuDF_wALtX-7x1F5HfPE41I2SBw,105
+duckling.libs/libpcre-0ec48f74.so.1,sha256=uxoXY6mGCKkmc7R7FyF0cTYDpQIJln2n68NVzRRP6sw,382393
+duckling.libs/libgcc_s-a3a07607.so.1,sha256=5ptIUeAzZweNZrFehN0_Bb5B0FcJgux7NbAFoU8vwwo,148041
+duckling.libs/libgmp-b24f7463.so.10,sha256=VCa2VYEqxMKDliLHWyrQ7le4_oj2V85Gi5chZ2g7odw,448001
+duckling/__init__.py,sha256=6LM76o_RvFrdP8xqvj41iq8A1lfqnlMaRFnnNSN9brE,1618
+duckling/duckling.pyi,sha256=QLbrhhPvr1GynUJ1_vIt4XwAT5_rMIBGpQYJZFpwKs0,996
+duckling/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckling/tests/test_duckling.py,sha256=TH0s0qxKnMDWyykjPA494_LTNxnyRA4P7YTbdlzzw3Q,5849
+duckling/duckling.cpython-38-x86_64-linux-gnu.so,sha256=3x3RJYGy24hj5L3qsdR4lKczay9RY9kS4375oBBJX2w,40750881
+pyduckling_native_phihos-0.1.1.dev1.dist-info/RECORD,,
