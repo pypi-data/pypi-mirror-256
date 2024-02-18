@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/amazon_sagemaker_sql_editor/dummy.py
+src/amazon_sagemaker_sql_editor.egg-info/PKG-INFO
+src/amazon_sagemaker_sql_editor.egg-info/SOURCES.txt
+src/amazon_sagemaker_sql_editor.egg-info/dependency_links.txt
+src/amazon_sagemaker_sql_editor.egg-info/top_level.txt

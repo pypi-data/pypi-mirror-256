@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "amazon-sagemaker-sql-editor"
+version = "0.0.1"
+description = "SageMaker SQL Editor library"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [
+{ name = "Amazon Web Services" },
+]
+classifiers = [
+"Intended Audience :: Developers",
+"Intended Audience :: Science/Research",
+"License :: OSI Approved :: Apache Software License",
+"Programming Language :: Python",
+"Programming Language :: Python :: 3.8",
+"Programming Language :: Python :: 3.9",
+"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.11",
+]
