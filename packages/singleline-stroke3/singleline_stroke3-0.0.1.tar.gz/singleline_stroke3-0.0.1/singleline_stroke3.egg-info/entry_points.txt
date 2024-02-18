@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+singleline_stroke3 = singleline_stroke3._modidx:d
+
