@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+smcpp_pipeline.egg-info/PKG-INFO
+smcpp_pipeline.egg-info/SOURCES.txt
+smcpp_pipeline.egg-info/dependency_links.txt
+smcpp_pipeline.egg-info/requires.txt
+smcpp_pipeline.egg-info/top_level.txt
