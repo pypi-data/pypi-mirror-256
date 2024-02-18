@@ -1,0 +1,3 @@
+[console_scripts]
+scholarvista=cli.cli:main
+

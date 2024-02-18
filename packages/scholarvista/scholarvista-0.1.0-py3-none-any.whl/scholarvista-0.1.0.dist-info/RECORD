@@ -1,0 +1,13 @@
+scholarvista/__init__.py,sha256=EXrkaYEFpw3XAT-B2PXPRS1WNxR3EIFexM2jO2zdayQ,402
+scholarvista/_utils.py,sha256=Uv6zXhpXrSC96NaqkxO_RKoFGjmqCBCMASTrdWIiTDA,637
+scholarvista/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scholarvista/exceptions/tag_not_found_in_tei_xml.py,sha256=nPMKfLUQ-PYl87iZ37Xi1YenzPn9l6axSqmXlz0EgOk,504
+scholarvista/keyword_cloud.py,sha256=qOJMM2nlvJ9_mTz1DDhJAjTQFRiIT6poYjcbvhul4Rw,1677
+scholarvista/pdf_parser.py,sha256=eKak1oqwwrJY8CWjXsuEXFfQDGe0t3G1pT8q8hY5eos,1215
+scholarvista/plotter.py,sha256=yAgY-pr0dC-WI9hV5KSG7uu0Sf2m_8BRT_7i7L89ejc,1891
+scholarvista/tei_xml_parser.py,sha256=z-_tThWJkaWZVTsF5ZA61w4abwGTlie9gFn-0yoJ0Cg,4147
+scholarvista-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scholarvista-0.1.0.dist-info/METADATA,sha256=xjJ_nv3bcy6UODJrysuZJVt8xWtjHvf3-bAPAC17j7c,3474
+scholarvista-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+scholarvista-0.1.0.dist-info/entry_points.txt,sha256=cR3cAJWDEfwKnMf8lyQLfB7Kn9O_uLjrYmfDajQo9N0,45
+scholarvista-0.1.0.dist-info/RECORD,,
