@@ -1,0 +1,9 @@
+README.md
+setup.py
+styledPrinting/__init__.py
+styledPrinting/constants.py
+styledPrinting/fun.py
+styledPrinting.egg-info/PKG-INFO
+styledPrinting.egg-info/SOURCES.txt
+styledPrinting.egg-info/dependency_links.txt
+styledPrinting.egg-info/top_level.txt
