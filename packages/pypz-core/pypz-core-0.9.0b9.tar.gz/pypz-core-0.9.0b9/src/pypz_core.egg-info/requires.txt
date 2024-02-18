@@ -1,0 +1,6 @@
+
+[static]
+flake8
+flake8-html~=0.4.3
+mypy
+coverage
