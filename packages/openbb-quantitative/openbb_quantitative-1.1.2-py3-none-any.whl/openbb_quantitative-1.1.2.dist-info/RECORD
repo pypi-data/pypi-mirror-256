@@ -1,0 +1,9 @@
+openbb_quantitative/__init__.py,sha256=5Z49rVupaQJmaXP904vBzBExQ0y61MJsVy_r9dnYHEg,59
+openbb_quantitative/helpers.py,sha256=4QYsO4plPCuLjwWypHROghVj6H6b7ozpwEVKHvJ_fig,1857
+openbb_quantitative/models.py,sha256=n1zgOuheFNODfxOIyNBIZRDRVPQ9LKDWi59E3CeGNbg,1158
+openbb_quantitative/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_quantitative/quantitative_router.py,sha256=C7ivw5ovn3900E5nYjVwNLz0H9PzrfWWjg6IhDJhjIg,20166
+openbb_quantitative-1.1.2.dist-info/METADATA,sha256=ZjJvBI28krYsKSvHSv5jOjBthQDyVf9R5bBDsTV3K7w,1253
+openbb_quantitative-1.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+openbb_quantitative-1.1.2.dist-info/entry_points.txt,sha256=8htzba5Y4Y18BGCaCE_yjqpRYECVbuJVmF42oT1g_Xw,85
+openbb_quantitative-1.1.2.dist-info/RECORD,,
