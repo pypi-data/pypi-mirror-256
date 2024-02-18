@@ -1,0 +1,11 @@
+*.pyc
+*.swp
+*.swo
+*.~
+
+docker-compose.yml
+
+.tox
+.cache
+.coverage
+__pycache__

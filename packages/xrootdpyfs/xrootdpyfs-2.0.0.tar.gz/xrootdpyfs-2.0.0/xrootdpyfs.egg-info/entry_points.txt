@@ -1,0 +1,4 @@
+[fs.opener]
+root = xrootdpyfs.opener:XRootDPyOpener
+roots = xrootdpyfs.opener:XRootDPyOpener
+

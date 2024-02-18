@@ -1,0 +1,8 @@
+fs<3.0,>=2.0.10
+xrootd<6.0.0,>=5.0.0
+
+[tests]
+mock>=4.0.0
+pytest-black>=0.3.0
+pytest-invenio>=1.4.5
+Sphinx>=4.2.0
