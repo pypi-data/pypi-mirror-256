@@ -1,0 +1,11 @@
+fractal/cli/__init__.py,sha256=h6cwcRfieLl90mcgyDgRIXMG2oOfUubw0_stfsrTT3M,68
+fractal/cli/__main__.py,sha256=72NkQ7ffcXCNHwAeA33qzBzb4OaW2hllVfko1SVPpus,722
+fractal/cli/controllers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fractal/cli/controllers/auth.py,sha256=S4xculKNw9RDd-JJXL-cFvLzFe_tdSF7kZOddJZ6VXk,7705
+fractal/cli/controllers/registration.py,sha256=FNJFbZbE9NyrqdUkfEoBvYKia9zU422O9r17SKd5GH0,5907
+fractal/cli/utils.py,sha256=LeAvH2TTcYA_9LqCxfjkTlh77sWt2_zBA5fjrI-Q1WE,1362
+fractal_cli-0.1.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+fractal_cli-0.1.2.dist-info/METADATA,sha256=6j4-qdQW8mXNr95_gaDHlE2h7uq9e0bH3GRGeBIyhME,1027
+fractal_cli-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fractal_cli-0.1.2.dist-info/entry_points.txt,sha256=lQReglb3HMxfZL8TUCkC--FseOL3wNinWoq4NbO8rQY,152
+fractal_cli-0.1.2.dist-info/RECORD,,
