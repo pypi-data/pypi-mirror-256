@@ -1,0 +1,6 @@
+llama_index/packs/snowflake_query_engine/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/packs/snowflake_query_engine/__init__.py,sha256=_Maxs8eULwJPg5WlozZ4owl3hK8M4xYhhE1N6hnHLew,123
+llama_index/packs/snowflake_query_engine/base.py,sha256=SLFDRYH4CU-UMfsSOzkoENE1R5Qt1SU8ETfmAyPelpY,2827
+llama_index_packs_snowflake_query_engine-0.1.2.dist-info/METADATA,sha256=FbCOXCwcldPUK94OWx8ju0OoZ-wpuECCjSEuD-PbBu8,1902
+llama_index_packs_snowflake_query_engine-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_packs_snowflake_query_engine-0.1.2.dist-info/RECORD,,
