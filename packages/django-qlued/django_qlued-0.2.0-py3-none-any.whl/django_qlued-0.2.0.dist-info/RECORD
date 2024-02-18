@@ -1,0 +1,15 @@
+qlued/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlued/admin.py,sha256=i48MT5MwyOLOOtdaEFy-JlywSu6Wx_0qF07ikKeDKgA,203
+qlued/api_v2.py,sha256=jU0DkURg94MyljFjfXvFvNmfD61opl_f3FglV8yw5NI,11832
+qlued/apps.py,sha256=nUAmV8s8sgT7Dhca0chp60pzT7qZnu2IRdVnA6vsROs,281
+qlued/fixtures/backend.json,sha256=cjdNHSATpgyY90EaY_-0fwIdQp3Oj4gye4NLBkIA7h4,6326
+qlued/migrations/0001_initial.py,sha256=2V6N-rMhIqT4O2BcdAFWrSyZo0CRVA6RIIbijhXQFSM,2493
+qlued/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qlued/models.py,sha256=_zTt8bG9weM7-bm_2tEczc1aFLJ3Ign0rAg9XjoVNco,4698
+qlued/schemas.py,sha256=yL6DsaMbRW_rJj9lZhDHVL0q9lcBKav1XNWU3GoX8jI,590
+qlued/storage_providers.py,sha256=86jDZJPTb4FmuqiEg0IR6z2-ZCkF_qhiuY64vTPMgBk,3610
+qlued/urls.py,sha256=r9wDWA7bNGrwC7uaGFwAHbeJuhPGxQ3Hv5nUikgeSjM,218
+django_qlued-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_qlued-0.2.0.dist-info/METADATA,sha256=2iGJegY4FVlVanO2Dmr8qgsg83KtOQV-BSLNNQIvJ7M,4000
+django_qlued-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_qlued-0.2.0.dist-info/RECORD,,
