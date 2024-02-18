@@ -1,0 +1,31 @@
+[project]
+name = "deksmb"
+version = "0.1.2"
+description = "A tool for smb"
+authors = [
+    { name = "sanzenwin", email = "sanzenwin@gmail.com" },
+]
+dependencies = [
+    "typer<=0.9.0",
+    "progress<=1.6",
+    "smbprotocol<=1.10.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+deksmb = "deksmb.click.__entry__:main"
+
+[tool.pdm.build]
+includes = [
+    "deksmb",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"

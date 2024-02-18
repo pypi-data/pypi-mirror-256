@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: deksmb
+Version: 0.1.2
+Summary: A tool for smb
+Author-Email: sanzenwin <sanzenwin@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: typer<=0.9.0
+Requires-Dist: progress<=1.6
+Requires-Dist: smbprotocol<=1.10.1
+Description-Content-Type: text/markdown
+
+A tool for smb
