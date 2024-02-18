@@ -1,0 +1,16 @@
+LICENSE
+README.md
+VERSION
+requirements.txt
+setup.cfg
+setup.py
+Objackson.egg-info/PKG-INFO
+Objackson.egg-info/SOURCES.txt
+Objackson.egg-info/dependency_links.txt
+Objackson.egg-info/not-zip-safe
+Objackson.egg-info/top_level.txt
+objackson/__init__.py
+objackson/__main__.py
+objackson/json_object.py
+objackson/serializer.py
+test/test_serialize.py
