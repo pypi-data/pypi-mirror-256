@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: auto_import_syspath
+Version: 0.1
+Author: nyck_dev (Nycolas Galdino)
+Author-email: <nycolaspimentel12@gmail.com>
+Keywords: python,auto_import,path,import_path
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
