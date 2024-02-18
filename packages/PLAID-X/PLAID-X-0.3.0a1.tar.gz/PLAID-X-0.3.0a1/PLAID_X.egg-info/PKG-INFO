@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PLAID-X
+Version: 0.3.0a1
+Summary: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT and XLM-RoBERTa
+Home-page: https://github.com/hltcoe/ColBERT-X/tree/plaid-x
+Author: Eugene Yang
+Author-email: eugene.yang@jhu.edu
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: faiss-gpu
+Requires-Dist: bitarray
+Requires-Dist: datasets
+Requires-Dist: gitpython
+Requires-Dist: ninja
+Requires-Dist: scipy
+Requires-Dist: spacy
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Requires-Dist: ujson
+
+# PLAID-X
+
+This is a generalized version of [PLAID](https://github.com/stanford-futuredata/ColBERT) and the previous ColBERT-X for CLIR.
+The codebase supports models trained with the original ColBERT-X scripts, which are not compatible with the PLAID codebase released from the Stadford Futuredata Group. 
+
