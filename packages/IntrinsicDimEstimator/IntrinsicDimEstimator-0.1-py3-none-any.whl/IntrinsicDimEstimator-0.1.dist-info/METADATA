@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: IntrinsicDimEstimator
+Version: 0.1
+Summary: Intrinsic Dimensionality Estimation
+Author: Eng. Alberto Biscalchin
+Author-email: <biscalchin.mau.se@gmail.com>
+Keywords: intrinsic dimensionality,dimensionality estimation,data analysis,machine learning
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+A package for estimating the intrinsic dimensionality of a dataset. Supports multiple estimation methods including Correlation Dimension, Nearest Neighbor Dimension, Packing Numbers, Geodesic Minimum Spanning Tree, Eigenvalue Analysis, and Maximum Likelihood Estimation.
