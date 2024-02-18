@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pages2pdf
+Version: 0.0.16
+Summary: Converts .pages to .pdf
+Project-URL: Homepage, https://github.com/blemli/pages2pdf
+Project-URL: Issues, https://github.com/blemli/pages2pdf/issues
+Author-email: Problemli GmbH <info@problem.li>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: click>=8.1.7
+Requires-Dist: cloudconvert>=2.1.0
+Requires-Dist: python-dotenv>=1.0.1
+Description-Content-Type: text/markdown
+
+# pages2pdf
+
+**IMPORTANT**: You need your own Cloudconvert API Key to use this tool. You can get one for free at [cloudconvert.com](https://cloudconvert.com/).
+Not affiliated.
+
+## Quickstart
+1. Add your Cloudconvert API Key to .env:
+```shell 
+CLOUDCONVERT_API_KEY="ERTGIZTDIFGKDRztgITZdfGkzuf5i66tzfkVt6RFitzkujhgo67rtzfghT6rfiutzk"
+```
+
+
+2. Convert all .pages files in the directory and its subdirectories to .pdf:
+
+```shell
+python3 -m pages2pdf .
+```
+
+
+## More
+Get help
+```shell
+python3 -m pages2pdf --help
+```
