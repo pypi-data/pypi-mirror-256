@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: conf-mat
+Version: 1.0.0
+Author: khiat mohammed abderrezzak
+Author-email: khiat.abderrezzak@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# conf-mat
+
+[![PyPI version](https://badge.fury.io/py/conf-mat.svg)](https://badge.fury.io/py/conf-mat)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+conf-mat is a Python package designed to simplify the generation and visualization of confusion matrices and classification reports. It offers a comprehensive toolkit tailored for analyzing classification results across various domains. By leveraging the functionalities provided by the conf_mat package, users can effortlessly compute confusion matrices, a crucial element in assessing the performance of classification models. This package aims to streamline the process of evaluating and interpreting classification results, thereby facilitating more informed decision-making in data analysis tasks.
+
+With its user-friendly interface and rich functionality, the conf_mat package serves as a valuable tool for data scientists, machine learning practitioners, and researchers alike. Whether you're evaluating the efficacy of classification models, conducting performance comparisons, or fine-tuning predictive algorithms, this package streamlines the process of assessing and understanding classification outcomes. Unlock deeper insights into your data and accelerate your classification workflow with the conf_mat package.
+
+## Features
+
+**Confusion Matrix Computation**: The package facilitates the calculation of confusion matrices, enabling users to assess the accuracy of their classification algorithms by comparing predicted and actual labels.
+
+**Metric Calculation**: Beyond basic confusion matrix generation, the package computes essential classification metrics such as accuracy, precision, recall, specificity, and F1-score, providing users with a holistic understanding of model performance.
+
+**Classification Report**: Users can generate detailed classification reports containing metrics for each class, including precision, recall, and F1-score, facilitating in-depth analysis of model behavior across different categories.
+
+**Visualization**: The package offers visualization capabilities, allowing users to visualize confusion matrices using heatmaps, enhancing interpretability and enabling intuitive analysis of classification results.
+
+
+## Installation
+
+You can install `conf-mat` via pip:
+
+```bash
+pip install conf-mat
+```
+
+## Usage
+
+```python
+from conf_mat import conf_mat
+
+# Example usage
+y_true = [1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0,
+          1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0]
+y_pred = [1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+
+# Generate and display confusion matrix and classification report
+conf_mat(y_true, y_pred)
+```
+
+## Output
+
+```bash
+Confusion Matrix : 
+________________
+
+╒═════════════════════╤═══════════════════════════╤═══════════════════════════╕
+│ Classes             │ Predicted Positive (PP)   │ Predicted Negative (PN)   │
+╞═════════════════════╪═══════════════════════════╪═══════════════════════════╡
+│ Actual Positive (P) │ True Positive (TP) : 9    │ False Negative (FN) : 4   │
+│                     │                           │ Type II Error (Missed)    │
+├─────────────────────┼───────────────────────────┼───────────────────────────┤
+│ Actual Negative (N) │ False Positive (FP) : 5   │ True Negative (TN) : 7    │
+│                     │ Type I Error (Wrong)      │                           │
+╘═════════════════════╧═══════════════════════════╧═══════════════════════════╛
+
+╒══════════╤══════════════════════════════════════════════════════╕
+│          │ Rate (Score)                                         │
+╞══════════╪══════════════════════════════════════════════════════╡
+│ Accuracy │ Correct        TP + TN                               │
+│          │ _______ : _________________  OR  1 - Error  =  0.64  │
+│          │                                                      │
+│          │  Total    TP + FP + FN + TN                          │
+├──────────┼──────────────────────────────────────────────────────┤
+│ Error    │ Wrong        FP + FN                                 │
+│          │ _____ : _________________  OR  1 - Accuracy  =  0.36 │
+│          │                                                      │
+│          │ Total   TP + FP + FN + TN                            │
+╘══════════╧══════════════════════════════════════════════════════╛
+
+
+Classification Report : 
+_____________________
+
+╒══════════════╤═════════════════╤════════════════════╤═════════════════════╤═══════════════╕
+│              │ Precision (P)   │ Recall (R)         │ F1-Score (F)        │ Support (S)   │
+╞══════════════╪═════════════════╪════════════════════╪═════════════════════╪═══════════════╡
+│ Positive (1) │ P1 (PPV):       │ R1 (Sensitivity):  │ F1 :                │ S1 :          │
+│              │                 │                    │                     │               │
+│              │   TP            │   TP               │ 2 x P1 x R1         │               │
+│              │ _______  = 0.64 │ _______  = 0.69    │ ___________  = 0.67 │  TP + FN = 13 │
+│              │                 │                    │                     │               │
+│              │ TP + FP         │ TP + FN            │   P1 + R1           │               │
+├──────────────┼─────────────────┼────────────────────┼─────────────────────┼───────────────┤
+│ Negative (0) │ P0 (NPV):       │ R0 (Specificity):  │ F0 :                │ S0 :          │
+│              │                 │                    │                     │               │
+│              │   TN            │   TN               │ 2 x P0 x R0         │               │
+│              │ _______  = 0.64 │ _______  = 0.58    │ ___________  = 0.61 │  FP + TN = 12 │
+│              │                 │                    │                     │               │
+│              │ TN + FN         │ TN + FP            │   P0 + R0           │               │
+├──────────────┼─────────────────┼────────────────────┼─────────────────────┼───────────────┤
+│ Macro Avg    │ P1 + P0         │ R1 + R0            │ F1 + F0             │ TS = 25       │
+│              │ _______  = 0.64 │ _______  = 0.64    │ _______  = 0.64     │               │
+│              │                 │                    │                     │               │
+│              │    2            │    2               │    2                │               │
+├──────────────┼─────────────────┼────────────────────┼─────────────────────┼───────────────┤
+│ Weighted Avg │ W1              │ W2                 │ W3                  │ TS = 25       │
+│              │ __  = 0.64      │ __  = 0.64         │ __  = 0.64          │               │
+│              │                 │                    │                     │               │
+│              │ TS              │ TS                 │ TS                  │               │
+╘══════════════╧═════════════════╧════════════════════╧═════════════════════╧═══════════════╛
+
+PPV : Positive Predictive Value
+
+NPV : Negative Predictive Value
+
+W1 = (P1 x S1) + (P0 x S0)
+
+W2 = (R1 x S1) + (R0 x S0)
+
+W3 = (F1 x S1) + (F0 x S0)
+
+TS : Total Support = S1 + S0
+```
+## Usage
+
+```python
+from conf_mat import conf_mat_disp
+
+# Example usage
+y_true = [1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0,
+          1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0]
+y_pred = [1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0]
+
+# Display confusion matrix
+conf_mat_disp(y_true, y_pred)
+```
+
+## Output
+
+```bash
+Confusion Matrix Display : 
+________________________
+```
+
+![heatmap](heatmap.png)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
