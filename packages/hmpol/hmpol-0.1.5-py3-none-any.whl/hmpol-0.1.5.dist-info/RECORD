@@ -1,0 +1,14 @@
+hmpol/__init__.py,sha256=tgyEfsgtRMDMAmmF9uYFG9ouC_1KWGxJ0ggl9IqsjfE,60
+hmpol/PYSCF/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmpol/PYSCF/moment_tensor.py,sha256=Uvl-Py6jEd3hg1VE9-NRFcvBP-j1H634au7X-UGsbJM,6786
+hmpol/PYSCF/polarizability_tensor.py,sha256=kOJBYAStbDACe31s3heezaLWvN6TuoTssmEilGEmQAE,19280
+hmpol/PYSCF/qdist.py,sha256=eIcv8ogrLZxnc_REgjAonsnVf98oknaSBzveqJHDiKo,6009
+tests/PySCFmerger.py,sha256=3-_0FI25ZrVCvXmgweCGnLzxLqXoaL6IUraYxsA-UO4,455
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/file.py,sha256=6YtWGf9b0nFL1xkLcGoydM19iZKxKN5it48GR8HMi_c,2616
+tests/test_poltensor.py,sha256=igghBF1ptPJDJdwTUe6DWy_Hu3MCOX4q-mdiK0nI6VY,1063
+hmpol-0.1.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmpol-0.1.5.dist-info/METADATA,sha256=4pcXonFAAVtiHGdHDaTetieruzTNNjUulRyREPYA-Qs,3862
+hmpol-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hmpol-0.1.5.dist-info/top_level.txt,sha256=RUkC7PgA-rTAPTlV_ZB8P8OUb5NTGbQs3a8qCMzN78M,12
+hmpol-0.1.5.dist-info/RECORD,,
