@@ -1,0 +1,15 @@
+odoo/addons/mail_send_confirmation/README.rst,sha256=oMu2N1_CqHDSjBf-OSY3lwEdvPetoY4Wle-E62QoAiE,3290
+odoo/addons/mail_send_confirmation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/mail_send_confirmation/__manifest__.py,sha256=1Z-fDlEnen3XFewGui-J6N9KFUg10D5w5j0RXEgL4lg,528
+odoo/addons/mail_send_confirmation/i18n/es.po,sha256=SiWATCmSCzHORd25QANJGH1Hj2JKE1_t96CmL6n-pp4,1100
+odoo/addons/mail_send_confirmation/i18n/it.po,sha256=5NqRh1ZVFXN_FEdNBpivBxmdU1s33SCynb3RSrrDHSs,1461
+odoo/addons/mail_send_confirmation/i18n/mail_send_confirmation.pot,sha256=kDEYjRL9NH5eum-fJCkcUIo8ySOAzuCFqw5u4GD0bv4,649
+odoo/addons/mail_send_confirmation/readme/CONTRIBUTORS.md,sha256=Lxy1pQvjxwLf-waMH6Lbyh9Tp5umBGB8Y5atolgRNvY,112
+odoo/addons/mail_send_confirmation/readme/DESCRIPTION.md,sha256=o5ZU2PiMy4SE74PmuYFLv3BoCJ0r_3lo3-VjGp-UwzI,448
+odoo/addons/mail_send_confirmation/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/mail_send_confirmation/static/description/index.html,sha256=69qHxFv7JeYhsj0JbzZgfJf3hjiV6bsiwCOWbxv2h2c,12164
+odoo/addons/mail_send_confirmation/static/src/models/composer_view.esm.js,sha256=mXWoEdCJZ6fRJGNS03kKtTD4hzXZQpoBWHCSIqyN804,1079
+odoo_addon_mail_send_confirmation-17.0.1.0.0.3.dist-info/METADATA,sha256=kOixu36jsTDi5GJGh3qFiuz-LkSvgwTvHJ_WE_S7eQs,3811
+odoo_addon_mail_send_confirmation-17.0.1.0.0.3.dist-info/WHEEL,sha256=0WPb27lpWF0K4Majm_kVmkl1QxJZxoKxO5GGil8gPB4,81
+odoo_addon_mail_send_confirmation-17.0.1.0.0.3.dist-info/top_level.txt,sha256=QE6RBQ0QX5f4eFuUcGgU5Kbq1A_qJcDs-e_vpr6pmfU,4
+odoo_addon_mail_send_confirmation-17.0.1.0.0.3.dist-info/RECORD,,
