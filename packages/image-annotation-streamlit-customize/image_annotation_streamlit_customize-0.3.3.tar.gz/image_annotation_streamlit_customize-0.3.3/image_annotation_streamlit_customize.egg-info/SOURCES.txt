@@ -1,0 +1,8 @@
+README.md
+setup.py
+Detection/__init__.py
+image_annotation_streamlit_customize.egg-info/PKG-INFO
+image_annotation_streamlit_customize.egg-info/SOURCES.txt
+image_annotation_streamlit_customize.egg-info/dependency_links.txt
+image_annotation_streamlit_customize.egg-info/requires.txt
+image_annotation_streamlit_customize.egg-info/top_level.txt
