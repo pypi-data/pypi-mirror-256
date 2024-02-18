@@ -1,0 +1,10 @@
+tensorflow[and-cuda]
+matplotlib
+scipy
+netCDF4
+xarray
+rasterio
+pyproj
+geopandas
+oggm
+importlib_resources
