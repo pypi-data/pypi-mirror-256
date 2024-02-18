@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lokoguard-crashlytic
+Version: 1.0.0
+Summary: This library is to send logs of application to lokoguard crashlytics service
+Home-page: https://github.com/lokoguard/lokoguard-crashlytics-python
+Author: Lokoguard
+Author-email: lokogaurd@gmail.com
+License: MIT
+Keywords: software development crashlytics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Lokoguard Crashlytics SDK
+
+This SDK will help to capture all the uncaught exceptions and as well as log known exceptions to lokoguard.
+
+**Available methods -**
+- manager.set_creds("<base_url>", "<auth_token>")
+- manager.set_additional_info({<app_info_in_json>})
+- manager.log_exception(<exception>)
