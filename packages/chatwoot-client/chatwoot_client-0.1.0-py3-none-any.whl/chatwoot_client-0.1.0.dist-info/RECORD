@@ -1,0 +1,10 @@
+chatwoot_client/__init__.py,sha256=2z9HqYDMIunZpk_D0HkbyaNxWJ08HDpEcVIWW9tDNZ8,2697
+chatwoot_client/__main__.py,sha256=re-Hd11pyR-wNdEt7CKGECpPVJlLYHKCPmyGsa27eRc,270
+chatwoot_client/action.py,sha256=Gfki2N-vsvP5sksYajtQ0_0qwemHs618DwE3LvtQ4kE,1220
+chatwoot_client/definitions/actions.py,sha256=y5RohTryifie9fBp41j3kg8dAzPtVBZBtFwYXfwYymc,19872
+chatwoot_client/definitions/schemas/input_schemas.py,sha256=SdGl7aPXxEnJr5qcaO9ACJzyIrMocavDN7et2WHyrbs,24019
+chatwoot_client/definitions/schemas/webhooks_events.py,sha256=w1J3L5qUa1BaJLs7kn8WcIXZi1giQOQzv5fqepUULVk,2706
+chatwoot_client/http.py,sha256=PBNPmZhOKkh6Eo_vWnFJTK_X0BX6nHjJgmI5FsjkmlM,1088
+chatwoot_client-0.1.0.dist-info/METADATA,sha256=BPc6FtdSSGd7kc6YR1JnhKVjbDy45Vpk4Qqi_ASv7Fw,428
+chatwoot_client-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+chatwoot_client-0.1.0.dist-info/RECORD,,
