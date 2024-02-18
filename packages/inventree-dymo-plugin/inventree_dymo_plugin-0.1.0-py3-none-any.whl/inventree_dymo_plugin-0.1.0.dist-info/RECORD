@@ -1,0 +1,11 @@
+inventree_dymo/InvenTreeDymoPlugin.py,sha256=8-dNIHv4AlZDzW182gYLWhhY4RgOEHeprnYBKRLutOA,4967
+inventree_dymo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inventree_dymo/dymo.py,sha256=KnXH235qGFtoozcKsfRktufEcVsBH7wVjKfkGdR1RsM,9429
+inventree_dymo/dymo_to_png.py,sha256=HLz35A634zkjH32PeYJpOO5cHl91fLj8qWCCHZv5ehs,3114
+inventree_dymo/version.py,sha256=nhFBlWUzzDz7AoElm3Kvf-bjImk64Ct8trVZfxL1S-0,30
+inventree_dymo_plugin-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+inventree_dymo_plugin-0.1.0.dist-info/METADATA,sha256=EL2073OG_6ob-yGYFMJroH2vg_4uxH_Czx5AqXXFaao,2051
+inventree_dymo_plugin-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+inventree_dymo_plugin-0.1.0.dist-info/entry_points.txt,sha256=Sq0632zH_0NepizbTZlWaYfXOa9DRxhr5FBvP26ykEs,97
+inventree_dymo_plugin-0.1.0.dist-info/top_level.txt,sha256=srxXahV6JSab4je55EFTw22VC5C2AaMfeNOOnlRA9M4,15
+inventree_dymo_plugin-0.1.0.dist-info/RECORD,,
