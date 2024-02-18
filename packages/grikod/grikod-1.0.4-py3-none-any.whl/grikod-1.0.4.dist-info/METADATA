@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: grikod
+Version: 1.0.4
+Summary: İkili sayıları Gri Koda çevirir
+Author-email: Mehmet Keçeci <mkececi@yaani.com>
+Project-URL: Homepage, https://github.com/KuantumBS/grikod/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Grikod
+
+Gri Kod: İkili sayıları Gri Koda çevirir
+
+## Kurulum: Installation
+
+pip install grikod -U
+
+https://pypi.org/project/grikod/
+
+## Test Kurulumu: Test Installation
+
+pip install -i https://test.pypi.org/simple/ grikod -U
+
+## Github Master kurulumu: Github Master installation
+
+### Terminal:
+
+pip install git+https://github.com/KuantumBS/grikod.git
+
+### Jupyter Lab, Notebook, Vsiual Studio Code içnden kurulum: Installation for Jupyter Lab, Notebook, Vsiual Studio Code
+
+!pip install git+https://github.com/KuantumBS/grikod.git
+
+veya/or
+
+%pip install git+https://github.com/KuantumBS/grikod.git
+
+## Kullanım: Usage
+
+import grikod
+
+Bir ikili sistem (0, 1; Örnek: 101) sayısı giriniz:  101
+
+Gri Kod sayısı:  111
