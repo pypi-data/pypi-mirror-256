@@ -1,0 +1,8 @@
+boto3
+hydra-core>=1.1.2
+ray[default]<3
+aiohttp<4
+cloudpickle<3
+
+[:python_version < "3.8"]
+pickle5==0.0.12
