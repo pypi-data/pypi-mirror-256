@@ -1,0 +1,3 @@
+CorrDim_By_Bisca
+IntrinsicDimEstimator
+idPettis_By_Bisca
