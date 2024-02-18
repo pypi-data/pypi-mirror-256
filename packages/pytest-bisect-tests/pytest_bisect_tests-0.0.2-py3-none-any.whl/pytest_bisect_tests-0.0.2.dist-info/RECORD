@@ -1,0 +1,11 @@
+pytest_bisect_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_bisect_tests/bisect.py,sha256=m8Yc8Dnqu52waq27PyRgpmDTjP-nAGpD8zSIIIV6MeY,860
+pytest_bisect_tests/cli.py,sha256=X-KwYC2d0DbzaV_YJu29jT8GPvp8CwnIgVC_mYA_9HA,1352
+pytest_bisect_tests/pytest_plugin.py,sha256=qiCGidx5_vfal89VsRz5N1rcjoYPkqQE0VtZudE_26U,1068
+pytest_bisect_tests/pytest_runner.py,sha256=UNvvp_WL-Z422PEsJjK31C-dqg9L0kgawd3PDXKFGPI,1929
+pytest_bisect_tests-0.0.2.dist-info/LICENSE,sha256=eatHiMNgW6yblJyh-NhP4FvQnd87NoJ8nulRjeSE7mo,1067
+pytest_bisect_tests-0.0.2.dist-info/METADATA,sha256=sUCmfg0F0T8n-FoGb8xEBVbqfyibf1Yx-j7G-Xo_AbU,2430
+pytest_bisect_tests-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_bisect_tests-0.0.2.dist-info/entry_points.txt,sha256=_5Ai7y9tvAMf9JdFzkbZiElaTwt04dirfO3beG-p57Q,137
+pytest_bisect_tests-0.0.2.dist-info/top_level.txt,sha256=ToBD6Nl73Cn-zSUkQQp4QtkukDaTXCTYpnbSwqFVhqo,20
+pytest_bisect_tests-0.0.2.dist-info/RECORD,,
