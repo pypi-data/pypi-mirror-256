@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cbvfastapi"
+version = "0.4.0"
+description = ""
+authors = ["Никита Есипов <dasaderto@gmail.com>"]
+readme = "README.md"
+
+[[tool.poetry.packages]]
+include = "internal"
+from = "."
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sqlalchemy = "^2.0.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
