@@ -1,0 +1,14 @@
+jupyterlab_lavender/__init__.py,sha256=ibnDxVI8cMFsxpTA4VgS1Tn57pyyEaDnb2wWkXXm0O8,596
+jupyterlab_lavender/_version.py,sha256=lFB9nR4WN0iXcp5UpfmTfw1Z2jWBDmClLEWF046NHmc,171
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/package.json,sha256=7Bg7_02iVp0Ghp-o4KfahZSjXFRA_SVF2s9fr7TEB4o,5826
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/static/496.798adc717192cd1d151e.js,sha256=eYrccXGSzR0VHsWBiRD9d61VGCnSad4qTApWK5V4AU0,549
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/static/remoteEntry.0d12dbd7ac62dc5b426b.js,sha256=DRLb16xi3FtCa3Le28rYyWphafnMf_jM5kNIQ03h50o,6286
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/themes/jupyterlab_lavender/index.css,sha256=uc_S7cU2hMSZBRH-v1QjfBqiEv9aBYX4bILOgN_LJbs,15897
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/themes/jupyterlab_lavender/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_lavender-0.1.1.data/data/share/jupyter/labextensions/jupyterlab_lavender/install.json,sha256=G868Y32JTI7FCq9cy_p2_3kgpTwOfnZQtHu4uNPaKlQ,199
+jupyterlab_lavender-0.1.1.dist-info/METADATA,sha256=Ku4OWI59bJRe_7_Q6AHLcydg3NXd9Z22hoCNJIWfZNc,7708
+jupyterlab_lavender-0.1.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jupyterlab_lavender-0.1.1.dist-info/licenses/LICENSE,sha256=gQZ8QSt3KT56rxscSf58cXoBLMO486aVaYyScxIqKMk,1064
+jupyterlab_lavender-0.1.1.dist-info/RECORD,,
