@@ -1,0 +1,1 @@
+from .bnet import BayesianNetwork
