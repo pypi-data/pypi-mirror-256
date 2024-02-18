@@ -1,0 +1,13 @@
+mijnbib/__init__.py,sha256=9tday_F7NMzyvOw4n2PYSTa-lz2HlD7G31NdhV2r-h0,610
+mijnbib/__main__.py,sha256=oFtHTsRoON3MUTQrkTpuE0XuBh-Ep2OMDvkXIR4A7s0,4502
+mijnbib/const.py,sha256=8mfzI9xG2bPvN7klTzMdA2GSI0fChTPw8QFiTolpXMk,91
+mijnbib/errors.py,sha256=75xmuqd-EkjdocBIIQ8VqhMmO00RQ6GhamNnUZiQk5o,1410
+mijnbib/login_handlers.py,sha256=hYrCh8ZfoSDojAeILcX4doCtkZc0sTgm04DrIiiQSRU,8811
+mijnbib/mijnbibliotheek.py,sha256=Y0Oaq-gBpLtCh9i7WxG6SKh__qgqVcVJH24AbxMn_NU,13236
+mijnbib/models.py,sha256=JGnOOl2L2zbAAgfVKHl_3uEFTFWMHm77JELU8wE_uR0,1043
+mijnbib/parsers.py,sha256=4FCBCC6YXjIj4yZIxgXih_pgKEWVOev54bv_8oTQtls,30878
+mijnbib-0.5.3.dist-info/LICENSE,sha256=YmFNcyUTf4zuaIsNMEQSeqOqPXh7XparUSd6jSvhw9M,1061
+mijnbib-0.5.3.dist-info/METADATA,sha256=OKbM-ZRPBsSYtLKVWcDf_Ky9mTp7kpwVpre9tAaPnuY,6620
+mijnbib-0.5.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mijnbib-0.5.3.dist-info/top_level.txt,sha256=qRrJ9H4nlkR4jvSphV-F7cbZxgGI04EdlfwlXUfW1oY,8
+mijnbib-0.5.3.dist-info/RECORD,,
