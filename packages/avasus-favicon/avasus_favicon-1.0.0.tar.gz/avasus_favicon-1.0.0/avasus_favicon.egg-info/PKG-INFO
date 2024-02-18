@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: avasus-favicon
+Version: 1.0.0
+Summary: Favicon do AVASUS
+Home-page: https://github.com/lais-huol/avasus_favicon
+Author: Kelson da Costa Medeiros
+Author-email: kelson.medeiros@lais.huol.ufrn.br
+License: Apache-2.0
+Download-URL: https://github.com/lais-huol/avasus_favicon/releases/tag/1.0.0
+Keywords: favicon,AVASUS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AVASUS Favicon Package
+
+Favicon do AVASUS para uso em aplicações Django.
+
+## Install instructions
+
+```bash
+pip install avasus_favicon
+```
+
+```python
+INSTALLED_APPS = [
+    # ...
+    "django.contrib.staticfiles",
+    # ...
+]
+STATIC_URL = "static/"
+```
+
+

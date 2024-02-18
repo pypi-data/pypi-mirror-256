@@ -1,0 +1,14 @@
+{
+  "name": "AVASUS Administrativo",
+  "short_name": "AVASUS Administrativo",
+  "icons": [
+    {
+      "src": "/avasus_favicon/android-chrome-72x72.png?v=1",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
