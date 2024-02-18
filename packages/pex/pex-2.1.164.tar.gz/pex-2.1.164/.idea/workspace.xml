@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fd089f5-d1e3-4bd8-93d3-6258d46a654a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/doc-site.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex-full-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex-full-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex-icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex-icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pex.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/python.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-backend/pex_build/hatchling/build_hook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-backend/pex_build/hatchling/metadata_hook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs-requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_ext/sphinx_pex/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_static/pex-cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_static/pex-full-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_static/pex-full-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_static/pex.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/_templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api/vars.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pex/cli/commands/docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pex/docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build_docs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-backend/pex_build/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build-backend/pex_build/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-backend/pex_build/hatchling/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/build-backend/pex_build/hatchling/build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-backend/pex_build/hatchling/dynamic_requires_python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-backend/pex_build/hatchling/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/build-backend/pex_build/hatchling/hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_ext/vars.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_ext/sphinx_pex/vars.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/vars.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/buildingpex.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/buildingpex.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pex/cli/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pex/cli/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pex/platforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pex/platforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pex/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/pex/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pex/venv/installer_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/pex/venv/installer_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pex/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/pex/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/lint.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/lint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/package.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/package.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/typecheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/typecheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/tox.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/os/__init__.pyi" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2b8abNPahT9gXYswcWyhijpFpZA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_compiler.test_compile_success.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_dependency_manager.test_exclude_root_reqs.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docs/embed&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jsirois/dev/pex-tool/jsirois-pex/build-backend/pex_build/hatchling&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Space Code Reviews" />
+      <window_info id="Bookmarks" side_tool="true" />
+      <window_info id="VcsChanges" weight="0.21197632" />
+      <window_info id="Merge Requests" />
+      <window_info id="Commit_Guest" />
+      <window_info id="Pull Requests" weight="0.2361111" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21197632" />
+      <window_info id="Commit" order="1" weight="0.21197632" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Profiler" />
+      <window_info anchor="bottom" id="Python Packages" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="File Transfer" />
+      <window_info anchor="bottom" id="Run" weight="0.3301887" />
+      <window_info anchor="bottom" id="Find" weight="0.45245284" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Services" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.1754717" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3301887" />
+      <window_info anchor="right" id="Plots" show_stripe_button="false" />
+      <window_info anchor="right" id="Endpoints" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Meet New UI" side_tool="true" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.32991803" />
+      <window_info anchor="right" id="Database" order="1" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="2" weight="0.32991803" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build-backend/pex_build/hatchling" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_dependency_manager.test_exclude_root_reqs">
+    <configuration name="Python tests for test_resolved_requirement.test_artifact_url_escaping" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/resolve" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_resolved_requirement.test_artifact_url_escaping&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_compiler.test_compile_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_compiler.test_compile_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_dependency_manager.test_exclude_root_reqs" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_dependency_manager.test_exclude_root_reqs&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_dependency_manager.test_exclude_root_reqs" />
+        <item itemvalue="Python tests.pytest for test_compiler.test_compile_success" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fd089f5-d1e3-4bd8-93d3-6258d46a654a" name="Changes" comment="" />
+      <created>1705599229948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705599229948</updated>
+      <workItem from="1705599232143" duration="161000" />
+      <workItem from="1705599399139" duration="50513000" />
+      <workItem from="1705934175945" duration="43000" />
+      <workItem from="1705934235299" duration="11544000" />
+      <workItem from="1705969071820" duration="8181000" />
+      <workItem from="1705985818412" duration="3069000" />
+      <workItem from="1706044611680" duration="258000" />
+      <workItem from="1706044906112" duration="4336000" />
+      <workItem from="1706220229172" duration="18365000" />
+      <workItem from="1706241572958" duration="6823000" />
+      <workItem from="1706283133199" duration="7574000" />
+      <workItem from="1706308603282" duration="11739000" />
+      <workItem from="1706465980372" duration="595000" />
+      <workItem from="1706914080877" duration="22146000" />
+      <workItem from="1707159405856" duration="10319000" />
+      <workItem from="1707252980668" duration="598000" />
+      <workItem from="1707259736634" duration="715000" />
+      <workItem from="1707260468155" duration="1388000" />
+      <workItem from="1707271809688" duration="8323000" />
+      <workItem from="1707501158920" duration="4464000" />
+      <workItem from="1707611477302" duration="148000" />
+      <workItem from="1707611631199" duration="10177000" />
+      <workItem from="1707841490104" duration="1408000" />
+      <workItem from="1707846018281" duration="5469000" />
+      <workItem from="1707866863404" duration="2048000" />
+      <workItem from="1707874622553" duration="2862000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jsirois_pex$pytest_for_test_dependency_manager_test_exclude_root_reqs.coverage" NAME="pytest for test_dependency_manager.test_exclude_root_reqs Coverage Results" MODIFIED="1707611890264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/jsirois_pex$pytest_for_test_compiler_test_compile_success.coverage" NAME="pytest for test_compiler.test_compile_success Coverage Results" MODIFIED="1707611867417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/jsirois_pex$.coverage" NAME=" Coverage Results" MODIFIED="1707260220567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/resolve" />
+  </component>
+</project>
