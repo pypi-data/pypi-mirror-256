@@ -1,0 +1,4 @@
+[console_scripts]
+localagi = localagi.__main__:main
+localagi-load = localagi.__main__:load
+localagi-prompt = localagi.__main__:prompt
