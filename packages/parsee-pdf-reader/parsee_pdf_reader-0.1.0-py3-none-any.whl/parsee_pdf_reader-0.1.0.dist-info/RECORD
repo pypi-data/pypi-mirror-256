@@ -1,0 +1,11 @@
+pdf_reader/__init__.py,sha256=M0GVtzI2lsqZun0-bZBYPdwzPTM1JiVo6khySxg73XI,53
+pdf_reader/converter.py,sha256=R4PqQSyAWLrcKdga1rVtYarRP1Q8m-jC5zVMsmgM4wI,8367
+pdf_reader/custom_dataclasses.py,sha256=8uBkWqFYQxzK8VP88jeELaxUfUEWFhzVzKnit1O3fXc,31400
+pdf_reader/displayer.py,sha256=wKI4cWcmDCvBC5GPEpYBlis7odBQMoe6ntXv6vuQMsY,1104
+pdf_reader/extract.py,sha256=Edc81_CHmtUBovNs-r1mKYtQ-HEHJuGDIuDC_w7HL4k,4219
+pdf_reader/helper.py,sha256=uXeq4b1XI1yGjOjnJI0Pkcg62q3VphgLqSeOk4FAGrE,18941
+pdf_reader/pdf_page.py,sha256=UPpgq0IQCVGaqTeDmtWk4mitLt-c7CVNh23-qcVNyvc,65158
+pdf_reader/visualisation.py,sha256=hRYnVnqbgQRQLlENS3rLCnLZEvgeSRb5SCDSUs9U27o,1653
+parsee_pdf_reader-0.1.0.dist-info/METADATA,sha256=-RGh-I0SVx0E7AFKuZufG1u3uZN7kVUU5ZnjCfpwxYA,1228
+parsee_pdf_reader-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+parsee_pdf_reader-0.1.0.dist-info/RECORD,,
