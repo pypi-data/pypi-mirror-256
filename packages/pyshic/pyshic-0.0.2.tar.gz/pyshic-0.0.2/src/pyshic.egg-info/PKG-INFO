@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyshic
+Version: 0.0.2
+Summary: Pyshic is an data processing package for brwer and dobson ozone measurements
+Author-email: Cédric Renda <cedric.renda@hotmail.com>
+Project-URL: Homepage, https://github.com/gosow9/pyshic
+Project-URL: Issues, https://github.com/gosow9/pyshic/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyshic
+A package to help data crunshing from ozone measurement devices. Find the [Docs here](https://gosow9.github.io/pyshic/).
+
+# Use
+The package is deployed to Pypi so to install it just run:
+```bash
+pip install pyshic
+```
+
+# Contribution
+Merge requests are happily welcome. Please test the code you want to supply or change. Thanks :)
+
