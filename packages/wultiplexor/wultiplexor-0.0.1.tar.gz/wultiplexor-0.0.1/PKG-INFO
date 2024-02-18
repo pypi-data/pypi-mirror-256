@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wultiplexor
+Version: 0.0.1
+Summary: This tool is for forwarding TCP or SOCK connections from one computer to another using a central web socket server.
+Author-Email: Vd <wultiplexor@vd2.org>
+License: MIT
+Requires-Python: <3.13,>=3.8
+Requires-Dist: websockets~=12.0
+Description-Content-Type: text/markdown
+
+# Wultiplexor
