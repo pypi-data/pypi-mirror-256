@@ -1,0 +1,6 @@
+{% asset 'wysiwyg/wysiwyg-summernote-js' %}
+{% asset 'wysiwyg/wysiwyg-summernote-css' %}
+
+<div id="{{ 'field-' + field.field_name }}" >
+    {{ h.wysiwyg_sanitize_html(data[field.field_name]) | safe }}
+</div>

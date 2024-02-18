@@ -1,0 +1,13 @@
+{% asset 'wysiwyg/wysiwyg-quill-js' %}
+{% asset 'wysiwyg/wysiwyg-quill-css' %}
+
+<label class="form-label form-label-quill">{{ h.scheming_language_text(field.label) }}</label>
+<div class="form-group form-group-quill control-medium">
+    <div id="quill-editor" data-module="wysiwyg-quill-init" data-module-input-id="{{ 'field-' + field.field_name }}">
+
+    </div>
+</div>
+
+<textarea name="{{ field.field_name }}" id="{{ 'field-' + field.field_name }}" style="display: none">
+    {{ data[field.field_name]}}
+</textarea>
