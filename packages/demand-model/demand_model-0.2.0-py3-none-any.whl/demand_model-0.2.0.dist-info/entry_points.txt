@@ -1,0 +1,3 @@
+[console_scripts]
+demand-model=ssda903.__main__:cli
+

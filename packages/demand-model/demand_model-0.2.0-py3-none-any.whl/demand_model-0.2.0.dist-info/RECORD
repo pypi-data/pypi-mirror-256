@@ -1,0 +1,13 @@
+demand_model/__init__.py,sha256=uugdvd_2MOZsltw7Xi6-inYh4wKLxNgpVgxq729T_O8,316
+demand_model/base.py,sha256=nvhh18l5cWr7GPQULSWLGBZ6YlOlC-nbLKIN6ggfm8w,723
+demand_model/multinomial/__init__.py,sha256=6Bk4x-7qhE5N4n6Z6YTIOE3F8Z_yZlkuv5nSVQiMhtQ,87
+demand_model/multinomial/predictor.py,sha256=mKb3BY9naz_x0yFusLuLk4w-PA2za4vABEVo44ezenI,4923
+demand_model/multinomial/utils.py,sha256=MYSc2snhlbfknMlsBRsZpkCbPX6eCD0cf1sRHCmi--Q,2524
+demand_model/stock_and_flow/__init__.py,sha256=6rrlP30F80Km_9N9j4WTYWq7U4_U8mrzXqKry49vl0U,166
+demand_model/stock_and_flow/predictor.py,sha256=I8B1Dq87JWDgq3nt0DDVko0HCQjQfllEcVNJ2J0eZHI,4162
+demand_model/stock_and_flow/transitions.py,sha256=Ea-ift282gMLNF7qRb22zUSqYe0V9GzOrTGAE3Own1U,5101
+demand_model-0.2.0.dist-info/LICENSE,sha256=rvpeldzytrW5yVw9TXYqxxPVv5BHIulJxtiBm2cwRZw,1075
+demand_model-0.2.0.dist-info/METADATA,sha256=HUEBVTQPiVbjUmmUE74Qp5GpWONwHGabL8TNPQj1uwU,1059
+demand_model-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+demand_model-0.2.0.dist-info/entry_points.txt,sha256=5XPOOtvoc2Asn4mZ8i4zzM-XneyG5Fr-F0NLPVFDkZg,53
+demand_model-0.2.0.dist-info/RECORD,,
