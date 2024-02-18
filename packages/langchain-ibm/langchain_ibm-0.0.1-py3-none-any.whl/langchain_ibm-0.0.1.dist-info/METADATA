@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: langchain-ibm
+Version: 0.0.1
+Summary: An integration package connecting IBM watsonx.ai and LangChain
+Home-page: https://github.com/langchain-ai/langchain
+License: MIT
+Author: IBM
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: ibm-watsonx-ai (>=0.1.4,<0.2.0)
+Requires-Dist: langchain-core (>=0.1.22,<0.2)
+Project-URL: Repository, https://github.com/langchain-ai/langchain
+Project-URL: Source Code, https://github.com/langchain-ai/langchain/tree/master/libs/partners/ibm
+Description-Content-Type: text/markdown
+
+# langchain-ibm
+
+This package contains the LangChain integrations for IBM watsonx.ai through their `ibm-watsonx-ai` SDK.
+
+## Installation and Setup
+
+- Install the LangChain partner package
+```bash
+pip install langchain-ibm
+```
+
+## LLM
+
+See a [usage example](https://python.langchain.com/docs/integrations/llms/watsonxllm).
+
+```python
+from langchain_ibm import WatsonxLLM
+```
+
