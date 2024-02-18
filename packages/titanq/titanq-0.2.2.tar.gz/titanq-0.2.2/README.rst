@@ -1,0 +1,64 @@
+==================================
+titanq - The titanQ SDK for python
+==================================
+
+|Python| |License|
+
+.. |Python| image:: https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue
+    :target: https://pypi.org/project/titanq/
+    :alt: Python versions
+.. |License| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+    :target: https://www.apache.org/licenses/LICENSE-2.0
+    :alt: License
+
+titanQ is the InfinityQ Software Development Kit (SDK) for Python. The SDK facilitates and opens the way for faster implementation
+of the titanQ solver without having to deal directly with the API.
+
+This titanq package is maintained and published by `InfinityQ <https://www.infinityq.tech/>`_.
+
+API Key
+-------
+
+In order to use the titanQ service, a user needs an API key.
+The API key can be obtained by contacting `Infinityq support <support@infinityq.tech>`_
+
+Installation
+------------
+
+The following steps assume that you have:
+
+- A **valid** and **active** API Key
+- A supported Python version installed
+
+
+Setting up an environment
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: sh
+
+    python -m venv .venv
+    .venv/bin/activate
+
+Install titanQ
+~~~~~~~~~~~~~~
+
+.. code-block:: sh
+
+    pip install titanq
+
+
+Using titanQ
+------------
+
+The titanQ solver is designed to support very large problems and therefore very large files.
+To simplify the user experience, titanQ will instead use cloud storage set up and managed by the end users.
+
+Currently, the SDK only supports two types of storage:
+    - A managed storage by InfinityQ **(Support only up to 10,000 vector variables)**
+    - `S3 buckets from AWS <https://aws.amazon.com/s3/>`_
+
+
+Getting support or help
+-----------------------
+
+Further help can be obtained by contacting `InfinityQ support <support@infinityq.tech>`_
