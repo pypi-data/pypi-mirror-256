@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: chatwoot-client
+Version: 0.1.2
+Summary: 
+Author: Junior Vidotti
+Author-email: jrvidotti@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.25,<0.26)
+Requires-Dist: pydantic (>=2.6.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Chatwoot Client for Python
+
+`chatwoot-client` is a simple Chatwoot API wrapper for Python.
+
+It provides an easy-to-use interface for interacting with the Chatwoot API, allowing you to perform various actions such as creating, retrieving, updating, and deleting conversations, messages, and more.
+
+## Installation
+
+To install, simply run:
+
+```
+pip install chatwoot-client
+```
+
+## Usage
+
+(TO BE ADDED)
+
+## Resources
+
+(TO BE ADDED)
+
+## Example
+
+(TO BE ADDED)
+
+## Credits
+
+Project is influenced by and borrowed from [woot](https://github.com/dearkafka/woot) and in fact started by using it as it is, but it didn't have support for Python 3.11 and VSCode didn't recognize resources and endpoints. So I made it with a straightforward approach without using dynamic attributes.
+
+## License
+
+The project is licensed under the Cooperative Non-Violent Public License v7 or later (CNPLv7+) - see the [LICENSE](LICENSE) for details. Built for people, not corporations.
+
