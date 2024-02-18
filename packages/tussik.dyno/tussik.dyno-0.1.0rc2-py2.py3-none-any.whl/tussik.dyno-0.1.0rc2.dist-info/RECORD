@@ -1,0 +1,15 @@
+tussik/dyno/__init__.py,sha256=8mXAhvuOEXHE5fGNYi0PkF0IE2b_srwkSHwcTqCFqT4,1672
+tussik/dyno/attributes.py,sha256=UIJZI-0GmB2oXAkVDsbm0HTBuki7bahFE2T_A8G0ACs,33271
+tussik/dyno/connects.py,sha256=HSCS0RxgIKWnL1pv4BOEJ5KZRGnvrTUv60a7AKJn2Ks,18941
+tussik/dyno/filtering.py,sha256=TkHw7wVAnARWz9KuleosiuG5psLdHWjB1mY1KXRq5XQ,13809
+tussik/dyno/query.py,sha256=Y2DApGBGxbq0tv_T7Qs1-CgCgI3-jSUShcb__LdSEEI,6449
+tussik/dyno/reading.py,sha256=08jT8UvnknnR1zCkpQu2YDgkUsgEn595d8GZws8x9as,7675
+tussik/dyno/table.py,sha256=rml4a7a3_YR7nax7QkFNVp-1epX1P-1uAM5NYy6Z-tY,14758
+tussik/dyno/transaction.py,sha256=IQL3t3mkxI3Axd1kehM0urmZAG7gJjU0QubR8FvoYHk,1161
+tussik/dyno/update.py,sha256=45B9QkJwejAUMsFQ2kwm9qjoBlsJc3Yf0NfMdUpsuDY,14356
+tussik.dyno-0.1.0rc2.dist-info/LICENSE,sha256=zWhGzPHjIVLt7ZOtfC4QQkISnAKeEdLUmbRzaIm1Ohk,1075
+tussik.dyno-0.1.0rc2.dist-info/METADATA,sha256=8-pgxR2mvqtxrNxTQZl85T4JI9TAVutB6499eUYcnLA,1386
+tussik.dyno-0.1.0rc2.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+tussik.dyno-0.1.0rc2.dist-info/top_level.txt,sha256=neKzxWXgeu0tEbgjXZ9BvyhYuPktC2GR18UEbzalcI0,7
+tussik.dyno-0.1.0rc2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tussik.dyno-0.1.0rc2.dist-info/RECORD,,
