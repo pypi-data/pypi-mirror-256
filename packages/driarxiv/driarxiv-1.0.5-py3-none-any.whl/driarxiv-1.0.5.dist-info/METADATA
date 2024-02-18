@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: driarxiv
+Version: 1.0.5
+Summary: driarxiv: A CLI tool to generate a comprehensive wiki from arXiv papers.
+Home-page: https://github.com/andthattoo/driarxiv
+Author: andthattoo
+Author-email: omer@firstbatch.xyz
+Requires-Python: >=3.9
+Requires-Dist: openai >=0.10.2
+Requires-Dist: arxiv >=1.3.0
+Requires-Dist: tqdm >=4.61.2
+Requires-Dist: dria >=0.1.13
+Requires-Dist: unstructured
+Requires-Dist: unstructured[pdf]
+Requires-Dist: oaib ==1.0.1
+Requires-Dist: tiktoken
+
