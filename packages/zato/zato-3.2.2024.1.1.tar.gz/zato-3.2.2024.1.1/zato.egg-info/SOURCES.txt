@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+zato.egg-info/PKG-INFO
+zato.egg-info/SOURCES.txt
+zato.egg-info/dependency_links.txt
+zato.egg-info/not-zip-safe
+zato.egg-info/top_level.txt

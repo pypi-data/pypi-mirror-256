@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: zato
+Version: 3.2.2024.1.1
+Summary: ESB, SOA, API and Cloud Integrations in Python.
+Author: 
+License: AGPLv3
+Platform: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications
+Classifier: Topic :: Database
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+
+
+<a href="https://zato.io">![](https://zato.io/static/img/intro/banner.webp)</a>
+
+# Zato /zɑːtəʊ/
+
+ESB, SOA, API and Cloud Integrations in Python.
+
+Zato is a Python-based, open-source integration platform and enterprise service bus that lets you automate,
+integrate and orchestrate business systems,
+APIs, workflows as well as hardware assets in industries such as
+[airports](https://zato.io/en/industry/airports/index.html),
+[defense](https://zato.io/en/industry/defense/index.html),
+[health care](https://zato.io/en/industry/healthcare/index.html),
+[telecommunications](https://zato.io/en/industry/telecom/index.html),
+financial services,
+government
+and more.
+
+<a href="https://zato.io">![](https://upcdn.io/kW15bqq/raw/root/static/img/intro/bus.png)</a>
+
+## Learn more
+
+Visit https://zato.io for details, including:
+
+* [Downloads](https://zato.io/en/docs/3.2/admin/guide/install/index.html)
+* [Screenshots](https://zato.io/en/docs/3.2/intro/screenshots.html)
+* [Programming examples](https://zato.io/en/docs/3.2/dev/index.html)
