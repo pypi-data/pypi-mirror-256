@@ -1,0 +1,3 @@
+[console_scripts]
+deng=kiady_andria_de_toolkit.main:cli
+
