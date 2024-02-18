@@ -1,0 +1,10 @@
+animal_script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animal_script/interpreter.py,sha256=6DscRByKa0XXbt-xaqbZc8aDADHEyGGhk14vifqfl2Q,4468
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_animal_script.py,sha256=LxCR21kqblWk8mgd_wgxvUm5R8qT9bwrt6JVOPfA74U,427
+animal_script-0.5.dist-info/LICENSE,sha256=G-Z2_nEuvs3VMnaweeg-xyxLy0-gBil6DGjmkbu48MY,1068
+animal_script-0.5.dist-info/METADATA,sha256=tpa7P1I5mQDOxGiIy2s1o3CR3uVG1kT6H3gmITmsACA,6051
+animal_script-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+animal_script-0.5.dist-info/entry_points.txt,sha256=muh0w3r-SF4cwGq7nXysphxoxOK1eySmeQBLsjlPKLU,53
+animal_script-0.5.dist-info/top_level.txt,sha256=83K80epCb9ZstBbyC0_3hCPeXfYIsmX-D4yhDrZkrns,20
+animal_script-0.5.dist-info/RECORD,,
