@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+schubertpy.egg-info/PKG-INFO
+schubertpy.egg-info/SOURCES.txt
+schubertpy.egg-info/dependency_links.txt
+schubertpy.egg-info/requires.txt
+schubertpy.egg-info/top_level.txt
