@@ -1,0 +1,65 @@
+{% extends "wagtailadmin/base.html" %}
+
+{% load i18n %}
+
+{% block content %}
+
+<div class="wagtail-showables-container">
+    {% translate "Enable/Disable Blocks" as title %}
+    {% include "wagtailadmin/shared/header.html" with title=title icon="view" %}
+
+    <div class="wagtail-showables-registry-form nice-padding">
+        <form method="post" action="{% url 'wagtail_showables_enable_disable_blocks' %}">
+            {% csrf_token %}
+            <div class="wagtail-showables-registry-form__fields">
+
+                {% for field in form %}
+                    <div class="wagtail-showables-registry-form__field">
+                        {{ field }}
+                        {{ field.label_tag }}
+                        {% if field.help_text %}
+                            <p class="help">{{ field.help_text }}</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+
+            </div>
+            <div class="wagtail-showables-registry-form__submit">
+                <button type="button" class="button button-secondary">{% translate "All" %}</button>
+                <button type="submit" class="button button-primary">{% translate "Save" %}</button>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}
+
+{% block extra_js %}
+    {{ block.super }}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const allText = '{% translate "All" %}';
+            const noneText = '{% translate "None" %}';
+            const allButton = document.querySelector('.wagtail-showables-registry-form__submit button.button-secondary');
+            const inputs = document.querySelectorAll('.wagtail-showables-registry-form__fields input[type="checkbox"]');
+            const form = document.querySelector('.wagtail-showables-registry-form form');
+
+            let allChecked = true;
+            for (var i = 0; i < inputs.length; i++) {
+                inputs[i].addEventListener('change', function() {
+                    allButton.textContent = Array.from(inputs).every(input => input.checked) ? noneText : allText;
+                });
+                allChecked = allChecked && inputs[i].checked;
+            }
+
+            allButton.textContent = allChecked ? noneText : allText;
+
+            allButton.addEventListener('click', function() {
+                const checked = allButton.textContent === allText;
+                for (var i = 0; i < inputs.length; i++) {
+                    inputs[i].checked = checked;
+                }
+                allButton.textContent = checked ? noneText : allText;
+            });
+        });
+    </script>
+{% endblock %}
