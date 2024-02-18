@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: grrph
+Version: 0.0.3
+Summary: grrph -- Pascals Python Graph Library 
+Author-email: Pascal Welke <pascal.welke@tuwien.ac.at>
+Project-URL: Homepage, https://github.com/pwelke/grrph
+Project-URL: Issues, https://github.com/pwelke/grrph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: networkx
+
+# grrph -- Pascals Python Graph Library 
+
+Currently does nothing but is supposed to collect various useful helpers for loading, transforming, mining, and learning (on) graphs.
+
+
+## Installation Advice
+Many functions in this package require pytorch and pytorch_geometric. However, it is way too complicated to specify this properly in the requirements (for me, as of now).
+So please, install pytorch and pytorch_geometric in the versions required for your environment yourself.

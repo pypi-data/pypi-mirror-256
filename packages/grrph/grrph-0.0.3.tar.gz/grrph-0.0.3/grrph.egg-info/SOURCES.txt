@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+grrph/__init__.py
+grrph/converter.py
+grrph/fast_wl.py
+grrph.egg-info/PKG-INFO
+grrph.egg-info/SOURCES.txt
+grrph.egg-info/dependency_links.txt
+grrph.egg-info/requires.txt
+grrph.egg-info/top_level.txt
+grrph/datasets/RIGIDDataset.py
+grrph/sklearn/ensembling.py
+grrph/sklearn/preprocessing.py
