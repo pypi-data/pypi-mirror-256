@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+hydromace/__init__.py
+hydromace/interface.py
+hydromace/model.py
+hydromace/tools.py
+hydromace/training.py
+hydromace/training_tools.py
+hydromace.egg-info/PKG-INFO
+hydromace.egg-info/SOURCES.txt
+hydromace.egg-info/dependency_links.txt
+hydromace.egg-info/requires.txt
+hydromace.egg-info/top_level.txt
+tests/test_tools.py
