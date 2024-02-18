@@ -1,0 +1,4 @@
+moviepy
+numpy
+opencv-contrib-python
+opencv-python
