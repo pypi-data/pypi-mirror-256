@@ -1,0 +1,8 @@
+LICENSE
+README.md
+morsewave.py
+pyproject.toml
+morsewave.egg-info/PKG-INFO
+morsewave.egg-info/SOURCES.txt
+morsewave.egg-info/dependency_links.txt
+morsewave.egg-info/top_level.txt
