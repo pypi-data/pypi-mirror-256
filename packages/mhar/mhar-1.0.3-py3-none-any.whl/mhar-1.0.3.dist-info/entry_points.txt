@@ -1,0 +1,2 @@
+[nbdev]
+mhar = mhar._modidx:d
