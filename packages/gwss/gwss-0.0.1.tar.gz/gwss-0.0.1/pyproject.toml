@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gwss"
+version = "0.0.1"
+license = {text = "MIT License"}
+dependencies = [
+    'lastversion~=3.4.6',
+    'aiohttp~=3.9.2',
+    'click~=8.1.7',
+    'pytest~=8.0.0',
+    'setuptools~=59.6.0',
+    'PyYAML~=6.0.1',
+    'jinja2~=3.1.3',
+    'colorama~=0.4.6',
+]
+authors = [
+  { name="IotaSpencer / Ken Spencer", email="me@iotaspencer.me" },
+]
+description = "get needed web scripts and styles"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Typing :: Typed",
+    "Topic :: System :: Software Distribution"
+]
+
+[project.urls]
+Homepage = "https://github.com/IotaSpencer/gwss"
+Issues = "https://github.com/IotaSpencer/gwss/issues"
