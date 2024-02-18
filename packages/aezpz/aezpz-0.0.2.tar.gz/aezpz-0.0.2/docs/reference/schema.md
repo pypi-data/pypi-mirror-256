@@ -1,0 +1,1 @@
+::: aezpz.schema
