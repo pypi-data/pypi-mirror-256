@@ -1,0 +1,10 @@
+setup.py
+scos_distributions_beta/Binomialdistribution.py
+scos_distributions_beta/Gaussiandistribution.py
+scos_distributions_beta/Generaldistribution.py
+scos_distributions_beta/__init__.py
+scos_distributions_beta.egg-info/PKG-INFO
+scos_distributions_beta.egg-info/SOURCES.txt
+scos_distributions_beta.egg-info/dependency_links.txt
+scos_distributions_beta.egg-info/not-zip-safe
+scos_distributions_beta.egg-info/top_level.txt
