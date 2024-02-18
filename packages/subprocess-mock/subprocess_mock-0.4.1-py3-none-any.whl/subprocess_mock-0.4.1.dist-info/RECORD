@@ -1,0 +1,15 @@
+subprocess_mock/__init__.py,sha256=yDkC35re2E7LKjvCD06YdGEPJES9P-GHQXIdVhr_dAM,901
+subprocess_mock/__main__.py,sha256=Mw6Ai1qoDnZVIGghF4O7YPhC7NxpQ_ul9ucyzqbGDHk,985
+subprocess_mock/child.py,sha256=amAviL9pOGwcy4Gh2gjm_YXSNBSTnL7SOzNLHqHeBvE,13618
+subprocess_mock/commandline.py,sha256=ztXlrEkcY3UpDvFd1OCvOr-fdbqoJIhJYrPW1xzJFUA,3560
+subprocess_mock/commons.py,sha256=MjMTSwA4gM0OaxFbsbjwbr3NxI_SbbhEI6Ikl0aIfSE,921
+subprocess_mock/functions.py,sha256=2MxUaHGRGxDi_8nxVQk5yAnXRDSRk56K7axF1-fn5I0,3073
+subprocess_mock/parent.py,sha256=VXwvb7JiZ7yhUjfw1e03MeTv6H3rbsdweyBOWNCxLJo,34395
+subprocess_mock/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subprocess_mock/streams.py,sha256=4NqyR8vhgupo4GTsOcFOxL0QswfOx63Zh5w8M5FNH6Y,13090
+subprocess_mock/workflow.py,sha256=5p6y5niErQl8HLYWcJSD5G_ZiQe3O7MV69UIIr-42DY,12719
+subprocess_mock-0.4.1.dist-info/LICENSE,sha256=QisI1W5gYr4Ih0F-vH2s_xXj9LD-pJBdZ81LnODf_f8,1075
+subprocess_mock-0.4.1.dist-info/METADATA,sha256=7G1y__NAw3WNauyuJYKOMbpx1jaK3wvnf6BcgUrm-fQ,4114
+subprocess_mock-0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+subprocess_mock-0.4.1.dist-info/top_level.txt,sha256=NaABu8MZ813MMWfRq_fkiIWNTKZGd-7BJv3OgXsxGJU,16
+subprocess_mock-0.4.1.dist-info/RECORD,,
