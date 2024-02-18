@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: saferequests
+Version: 0.1.0
+Summary: A drop-in replacement for requests with automatic proxy rotation for web scraping and anonymity
+License: MIT
+Keywords: requests,proxy-rotation,web-scraping,anonymity
+Author: Federico Minutoli
+Author-email: fede97.minutoli@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.9,<3.10)
+Requires-Dist: aiostream (>=0.5,<0.6)
+Requires-Dist: beautifulsoup4 (>=4.12,<4.13)
+Requires-Dist: html5lib (>=1.1,<1.2)
+Requires-Dist: requests (>=2.31,<2.32)
+Requires-Dist: uvloop (>=0.19,<0.20) ; sys_platform != "win32"
+Description-Content-Type: text/markdown
+
+# saferequests
+
+[![docs status](https://readthedocs.org/projects/saferequests/badge/?version=latest)](https://saferequests.readthedocs.io/en/latest/?badge=latest)
+[![testing status](https://github.com/DiTo97/saferequests/actions/workflows/testing.yaml/badge.svg?branch=contrib&event=pull_request)](https://github.com/DiTo97/saferequests/actions/workflows/testing.yaml)
+[![codecov status](https://codecov.io/gh/DiTo97/saferequests/graph/badge.svg?token=WH1JIVPY7N)](https://codecov.io/gh/DiTo97/saferequests)
+
+A drop-in replacement for [requests](https://docs.python-requests.org/en/latest) with automatic proxy rotation for web scraping and anonymity.
+
