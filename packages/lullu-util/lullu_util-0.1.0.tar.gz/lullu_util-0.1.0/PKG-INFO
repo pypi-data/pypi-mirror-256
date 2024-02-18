@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lullu-util
+Version: 0.1.0
+Summary: 
+Author: 최병욱
+Author-email: esc5221@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: libtmux (>=0.27.1,<0.28.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+
