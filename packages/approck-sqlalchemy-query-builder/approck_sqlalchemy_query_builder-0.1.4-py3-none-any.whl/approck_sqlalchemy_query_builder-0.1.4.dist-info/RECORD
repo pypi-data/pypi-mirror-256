@@ -1,0 +1,5 @@
+approck_sqlalchemy_query_builder/__init__.py,sha256=X9bB7c-AirnJmIkNZU6ItsdhTvwXBnRTeEOhw7i-4Z4,2692
+approck_sqlalchemy_query_builder/types.py,sha256=TWILilLZGgUidmz0cQgHfO2ZLaLuekCHneypsIWpnkQ,639
+approck_sqlalchemy_query_builder-0.1.4.dist-info/METADATA,sha256=KEUU3OdnXzbKBTkXUpgPfVTjJwTGMLkrveJxg3CLXgw,594
+approck_sqlalchemy_query_builder-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+approck_sqlalchemy_query_builder-0.1.4.dist-info/RECORD,,
