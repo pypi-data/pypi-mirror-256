@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rsArtdToSimple"
+version = "1.0.0"
+description = "A simple tool to clean and simplify Artd JSON"
+readme = "README.md"
+authors = [{name = "Frankie Hadwick", email = "frankie@ramseysystems.co.uk"}, {name = "Charlie McCay", email = "charlie@ramseysystems.co.uk"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9"
+]
+keywords = ["artd", "json", "simplify"]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+    "black",
+    "mypy"
+]
+
+[project.urls]
+homepage = "https://github.com/RamseySystems/rsArtdToSimple.git"
+
+[project.scripts]
+rsArtdToSimple = "rsArtdToSimple:main"

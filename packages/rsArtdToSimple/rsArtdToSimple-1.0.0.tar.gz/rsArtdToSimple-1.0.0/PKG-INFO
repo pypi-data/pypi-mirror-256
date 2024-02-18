@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rsArtdToSimple
+Version: 1.0.0
+Summary: A simple tool to clean and simplify Artd JSON
+Author-email: Frankie Hadwick <frankie@ramseysystems.co.uk>, Charlie McCay <charlie@ramseysystems.co.uk>
+Project-URL: homepage, https://github.com/RamseySystems/rsArtdToSimple.git
+Keywords: artd,json,simplify
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"

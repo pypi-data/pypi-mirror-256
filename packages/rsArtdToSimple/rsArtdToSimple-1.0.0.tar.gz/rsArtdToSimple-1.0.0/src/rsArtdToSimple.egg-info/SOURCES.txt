@@ -1,0 +1,10 @@
+LICENCE
+pyproject.toml
+src/rsArtdToSimple/__init__.py
+src/rsArtdToSimple/reformat.py
+src/rsArtdToSimple.egg-info/PKG-INFO
+src/rsArtdToSimple.egg-info/SOURCES.txt
+src/rsArtdToSimple.egg-info/dependency_links.txt
+src/rsArtdToSimple.egg-info/entry_points.txt
+src/rsArtdToSimple.egg-info/requires.txt
+src/rsArtdToSimple.egg-info/top_level.txt
