@@ -1,0 +1,2 @@
+[console_scripts]
+odb = odb.cli:main
