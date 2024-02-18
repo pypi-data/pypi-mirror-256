@@ -1,0 +1,17 @@
+ACKNOWLEDGMENTS
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.cfg
+src/simple_useragent/__init__.py
+src/simple_useragent/core.py
+src/simple_useragent.egg-info/PKG-INFO
+src/simple_useragent.egg-info/SOURCES.txt
+src/simple_useragent.egg-info/dependency_links.txt
+src/simple_useragent.egg-info/not-zip-safe
+src/simple_useragent.egg-info/requires.txt
+src/simple_useragent.egg-info/top_level.txt
+src/simple_useragent/data/fallback.json
