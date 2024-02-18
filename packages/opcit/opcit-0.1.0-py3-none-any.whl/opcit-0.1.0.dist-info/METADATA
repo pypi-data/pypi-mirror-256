@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: opcit
+Version: 0.1.0
+Summary: A plugin for Crossref's Labs API that handles digital preservation on Crossref deposits.
+Home-page: https://gitlab.com/crossref/labs/opcit
+Author: Martin Paul Eve
+Author-email: meve@crossref.org
+Maintainer-email: Martin Paul Eve <meve@crossref.org>
+Project-URL: homepage, https://labs.crossref.org
+Project-URL: documentation, https://labs.crossref.org
+Project-URL: repository, https://gitlab.com/crossref/labs/opcit
+Project-URL: changelog, https://gitlab.com/crossref/labs/opcit/-/blob/main/CHANGELOG.md
+Keywords: digital-preservation,academic
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: fastapi
+Requires-Dist: longsight
+Requires-Dist: python-multipart
+Requires-Dist: lxml
+Requires-Dist: httpx
+Requires-Dist: internetarchive
+Requires-Dist: claws
+Requires-Dist: python-magic
+Requires-Dist: clannotation
+
+# Project Op Cit
+This is a plugin for the Crossref Labs API that allows for the automatic digital preservation deposit of incoming XML.
+
+![license](https://img.shields.io/gitlab/license/crossref/labs/opcit) ![activity](https://img.shields.io/gitlab/last-commit/crossref/labs/opcit) <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
+![FastAPI](https://img.shields.io/badge/fastapi-%23092E20.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+The application examines incoming XML deposits, checks for openly licensed material, and deposits it in an extensible range of digital preservation archives.
+
+## Installation
+The easiest install is via pip:
+    
+    pip install opcit
+
+The entry point is the main deposit function, which takes a StarletteRequest object and a [longsight Instrumentation logging object](https://gitlab.com/crossref/labs/longsight).
+
+## Usage
+
+
+# Credits
+* [FastAPI](https://fastapi.tiangolo.com/) for the Crossref Labs API.
+* [Git](https://git-scm.com/) from Linus Torvalds _et al_.
+* [.gitignore](https://github.com/github/gitignore) from Github.
+* [Rich](https://github.com/Textualize/rich) from Textualize.
+
+&copy; Crossref 2023
