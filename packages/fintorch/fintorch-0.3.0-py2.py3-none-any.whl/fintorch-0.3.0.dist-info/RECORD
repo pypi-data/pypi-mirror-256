@@ -1,0 +1,10 @@
+fintorch/__init__.py,sha256=rz6ksKGe8HQqJgvpq9JtcladYtziNW0F1edlbEmFaTU,134
+fintorch/cli.py,sha256=R1QXj6a0xbbLz8zppbXtPQ4m5yBmlboqVoHWu3GZjdE,402
+fintorch/fintorch.py,sha256=fNdy0pa8QfMKgvvUwiEYNQV5QdfFH7CjF7G60X-oMXc,43
+fintorch/dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fintorch-0.3.0.dist-info/LICENSE,sha256=Lku1z41cgRTQdJ0nnh_qaeOqpjTnTLQBA3q5O6zV3go,1073
+fintorch-0.3.0.dist-info/METADATA,sha256=uUP4AYYXfVrKsnzJgdiWxIz1FNgwFiid3hmTYsC2sXw,5186
+fintorch-0.3.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+fintorch-0.3.0.dist-info/entry_points.txt,sha256=IVXIuI4TrxrUG1EYud3SDLdzj5ekJrfyvF4-Nhp-nYE,47
+fintorch-0.3.0.dist-info/top_level.txt,sha256=SysNZSsI2RPrjFOUPX0fPtoT3u35_ZeSHpGKV1tatn0,9
+fintorch-0.3.0.dist-info/RECORD,,
