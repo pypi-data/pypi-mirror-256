@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+py.ciu.image.egg-info/PKG-INFO
+py.ciu.image.egg-info/SOURCES.txt
+py.ciu.image.egg-info/dependency_links.txt
+py.ciu.image.egg-info/requires.txt
+py.ciu.image.egg-info/top_level.txt
