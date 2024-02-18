@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+generate_setup=poetry_plugin_generate_setup.plugin:PoetryPluginGenerateSetup
+
