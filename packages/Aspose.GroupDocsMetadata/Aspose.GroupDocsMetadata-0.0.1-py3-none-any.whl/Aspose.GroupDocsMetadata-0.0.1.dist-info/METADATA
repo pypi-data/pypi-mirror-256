@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Aspose.GroupDocsMetadata
+Version: 0.0.1
+Summary: GroupDocs.Metadata for Python via .NET is a robust document API that supports over 170 file types and enables developers to easily render files to various formats, such as PDF, HTML, JPG, or PNG. With this API, you can seamlessly render a wide range of file types, including popular OpenDocument and Microsoft Office formats like DOCS, XLSX, and PPTX, as well as specialized CAD and graphic editor files like DWG, DXF, PSD, AI, and CDR.
+Home-page: https://products.groupdocs.com/metadata
+Author: GroupDocs
+License: Other/Proprietary License
+Keywords: metadata,meta,file,render,api,pdf,docx,xlsx,pptx,html,png,word,excel,powerpoint,visio,opendocument,photoshop
+Platform: win_amd64
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5,<3.12
+Description-Content-Type: text/markdown
+
