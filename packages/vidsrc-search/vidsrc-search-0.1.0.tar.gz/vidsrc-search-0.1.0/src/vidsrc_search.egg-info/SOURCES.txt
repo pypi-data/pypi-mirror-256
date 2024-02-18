@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+txt.txt
+src/vidsrc_search/__main__.py
+src/vidsrc_search/argparsing.py
+src/vidsrc_search/download.py
+src/vidsrc_search/json_utils.py
+src/vidsrc_search/search.py
+src/vidsrc_search/uninstall.py
+src/vidsrc_search/utils.py
+src/vidsrc_search.egg-info/PKG-INFO
+src/vidsrc_search.egg-info/SOURCES.txt
+src/vidsrc_search.egg-info/dependency_links.txt
+src/vidsrc_search.egg-info/entry_points.txt
+src/vidsrc_search.egg-info/requires.txt
+src/vidsrc_search.egg-info/top_level.txt
