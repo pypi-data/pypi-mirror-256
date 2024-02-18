@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fatek-fbs-lib
+Version: 0.1.10
+Summary: Fatek FBs communication lib
+Home-page: https://github.com/rimek/fatek-fbs-lib
+Author: Marcin Rim
+Author-email: rimek@poczta.fm
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

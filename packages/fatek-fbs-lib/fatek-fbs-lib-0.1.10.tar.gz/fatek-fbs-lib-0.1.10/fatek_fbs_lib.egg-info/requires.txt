@@ -1,0 +1,7 @@
+pyserial
+
+[:python_version < "3.0"]
+pymodbus
+
+[:python_version >= "3.0"]
+pymodbus3
