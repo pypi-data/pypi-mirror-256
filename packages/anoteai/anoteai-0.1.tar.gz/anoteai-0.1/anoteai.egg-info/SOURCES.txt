@@ -1,0 +1,6 @@
+setup.py
+anoteai.egg-info/PKG-INFO
+anoteai.egg-info/SOURCES.txt
+anoteai.egg-info/dependency_links.txt
+anoteai.egg-info/requires.txt
+anoteai.egg-info/top_level.txt
