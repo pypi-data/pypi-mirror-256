@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vectabass/__init__.py
+vectabass/package.py
+vectabass.egg-info/PKG-INFO
+vectabass.egg-info/SOURCES.txt
+vectabass.egg-info/dependency_links.txt
+vectabass.egg-info/requires.txt
+vectabass.egg-info/top_level.txt
