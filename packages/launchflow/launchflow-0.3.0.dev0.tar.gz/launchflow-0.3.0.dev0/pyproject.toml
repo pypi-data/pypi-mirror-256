@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "launchflow"
+version = "0.3.0.dev0"
+description = ""
+authors = ["CalebTVanDyke <caleb@launchflow.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beaupy = "*"
+rich = "*"
+toml = "*"
+pyyaml = "*"
+pathspec = "*"
+pydantic = "*"
+cloud-sql-python-connector = {version = "*", extras = ["gcp"]}
+deepdiff = "*"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.27"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+launchflow = "launchflow.cli.main:app"
