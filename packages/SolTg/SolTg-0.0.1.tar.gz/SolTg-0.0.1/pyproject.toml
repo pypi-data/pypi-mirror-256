@@ -1,0 +1,18 @@
+[project]
+name = "SolTg"
+version = "0.0.1"
+authors = [
+  { name="Konstantin Ivanovich Britikov", email="britikovki@gmail.com" },
+]
+description = "Automated solidity test generator"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/BritikovKI/solidity_testgen"
+Issues = "https://github.com/BritikovKI/solidity_testgen/issues"

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/SolTg.egg-info/PKG-INFO
+src/SolTg.egg-info/SOURCES.txt
+src/SolTg.egg-info/dependency_links.txt
+src/SolTg.egg-info/top_level.txt
+src/solTg/ReportBuilder.py
+src/solTg/RunAll.py
+src/solTg/SolParser.py
+src/solTg/SolidityTestGen.py
+src/solTg/TestWrapper.py
+src/solTg/Utils.py
