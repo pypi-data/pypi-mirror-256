@@ -1,0 +1,14 @@
+pycasestyle/__init__.py,sha256=Qm7czkZbHPms11wETMcZHw2soMudIaApmIQK1MUS4OI,591
+pycasestyle/camelcase.py,sha256=31vwRyiP3EFel-XuAEiyN22FBLm2sgWzcBqe2IXIZaE,1532
+pycasestyle/kebabcase.py,sha256=gq4bnFdLmrSHf7YXow-rG-IfPxDz4vFDyjbVa4nguck,1467
+pycasestyle/pascalcase.py,sha256=QJZqzX2QhZFc_DhxJXC78ZsFFrfLPAYERkzN-BC3h2w,1542
+pycasestyle/snakecase.py,sha256=y7tBwyMx390fXqDJiXA7F58ZyxSwUG99UColgeOWPqM,1462
+pycasestyle/abstract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycasestyle/abstract/case.py,sha256=SMdMSmLVSWrFRo0fw4IDphX4CSTshIih9GLlODkT2F4,414
+pycasestyle/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycasestyle/libs/string.py,sha256=4Z1guwFvqOYZijn4uCNqzN1dIJpGFp7WcqG0u07zrCg,320
+pycasestyle-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pycasestyle-0.0.0.dist-info/METADATA,sha256=dXnQ5kKQgJf0TE8SgI-8agbYdXVeT0b5sYXXew0JQtQ,4319
+pycasestyle-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycasestyle-0.0.0.dist-info/top_level.txt,sha256=R-LY8tFAykmTr4XeushKZhe2E-0ImsIPMQJZxzEFMes,12
+pycasestyle-0.0.0.dist-info/RECORD,,
