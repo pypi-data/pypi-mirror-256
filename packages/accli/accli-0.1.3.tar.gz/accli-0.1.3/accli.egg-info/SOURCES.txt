@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+accli/AcceleratorJobProjectService.py
+accli/AcceleratorTerminalCliProjectService.py
+accli/__init__.py
+accli/__main__.py
+accli/cli.py
+accli.egg-info/PKG-INFO
+accli.egg-info/SOURCES.txt
+accli.egg-info/dependency_links.txt
+accli.egg-info/entry_points.txt
+accli.egg-info/requires.txt
+accli.egg-info/top_level.txt
