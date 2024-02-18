@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: discovery-capability
+Version: 0.19.24
+Summary: Data Science to production accelerator
+Home-page: https://github.com/gigas64/discovery-capability
+Author: Gigas64
+Author-email: gigas64@opengrass.net
+License: BSD
+Keywords: data pipeline,data preprocessing,data processing pipeline
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+License-File: LICENSE.txt
