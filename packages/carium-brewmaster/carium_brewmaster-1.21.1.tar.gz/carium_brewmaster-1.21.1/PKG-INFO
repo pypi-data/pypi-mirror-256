@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: carium-brewmaster
+Version: 1.21.1
+Summary: Library/utility collection for custom job
+License: MIT
+Author: Carium Devops
+Author-email: devops@carium.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django
+Requires-Dist: Jinja2
+Requires-Dist: cariutils (>=1.15.0,<2.0.0)
+Requires-Dist: docstring-parser
+Requires-Dist: jq
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: responses
+Description-Content-Type: text/markdown
+
+# Brewmaster
+Library/utility collection for custom job
+
+Reference: [Brewmaster](https://dota2.gamepedia.com/Brewmaster)
+
+This library is for use in custom-job environments as developed with the [cariumsdk](https://pypi.org/project/cariumsdk/).
+
+## Installation
+
+```
+pip install carium-brewmaster
+```
+
+## Organization
+
+Brewmaster APIs are organized based on the services and the objects that they are managing.
+For example:
+
+- caredb
+  - action
+  - article
+  - challenge
+  - org
+    - appointment
+    - contact
+- overlord
+  - interaction
+    - profile
+    - instance
+
