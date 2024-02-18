@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+masssiepdf/__init__.py
+masssiepdf/pdf2image.py
+masssiepdf/pdf2text.py
+masssiepdf.egg-info/PKG-INFO
+masssiepdf.egg-info/SOURCES.txt
+masssiepdf.egg-info/dependency_links.txt
+masssiepdf.egg-info/top_level.txt
