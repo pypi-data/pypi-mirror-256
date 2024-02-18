@@ -1,0 +1,2 @@
+[console_scripts]
+joseki = joseki.__main__:main
