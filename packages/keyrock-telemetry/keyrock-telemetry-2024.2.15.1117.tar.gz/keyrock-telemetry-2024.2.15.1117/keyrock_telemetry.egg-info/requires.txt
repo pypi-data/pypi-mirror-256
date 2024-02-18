@@ -1,0 +1,3 @@
+keyrock_core
+keyrock_hcs
+psycopg2-binary==3.1.18
