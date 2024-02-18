@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PhyloJunction
+Version: 0.0.1
+Summary: A Python environment for protopying, simulating, and learning with evolutionary models
+Home-page: https://phylojunction.org
+Author: Fabio K. Mendes
+Author-email: f.mendes@wustl.edu
+License: GPL-3.0
+License-File: LICENSE.rst
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: seaborn>=0.13.2
+Requires-Dist: PySimpleGUI>=4.57.0
+Requires-Dist: pandas>=1.4.2
+Requires-Dist: dendropy>=4.5.2
+Requires-Dist: scipy>=1.8.1
+Requires-Dist: pyperclip>=1.8.2
+Requires-Dist: tabulate>=0.8.10
+Requires-Dist: PySide6>=6.3.2
+Requires-Dist: natsort>=8.4.0
+
+.. image:: https://raw.githubusercontent.com/fkmendes/PhyloJunction/main/docs/source/images/pj_logo_github.png?sanitize=true
+    :width: 240px
+
+PhyloJunction is a Python library designed as a framework for:
+
+(i) simulating evolutionary models;
+(ii) summarizing and visualizing simulated data;
+(iii) prototyping and testing new models;
+
+The **homepage** (and recommended point of entry) for the project is:
+
+    https://phylojunction.org
