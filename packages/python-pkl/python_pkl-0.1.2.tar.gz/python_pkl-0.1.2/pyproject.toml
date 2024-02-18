@@ -1,0 +1,46 @@
+[project]
+name = "python-pkl"
+description = "Apple's PKL for python."
+requires-python = ">=3.7"
+license = "MIT"
+authors = [{ name = "Vithor Jaeger", email = "vaphes@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+]
+keywords = ["pkl", "pickle", "apple"]
+dynamic = ["readme", "version"]
+
+[project.urls]
+"Homepage" = "https://github.com/vaphes/pkl"
+"Source" = "https://github.com/vaphes/pkl"
+"Bug Tracker" = "https://github.com/vaphes/pkl/issues"
+
+[tool.poetry]
+name = "python-pkl"
+version = "0.1.2"
+description = "Python library to work with Apple's PKL files"
+authors = ["Vithor Jaeger <vaphes@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "pkl" }]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/vaphes/pkl"
+"Source" = "https://github.com/vaphes/pkl"
+"Bug Tracker" = "https://github.com/vaphes/pkl/issues"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
