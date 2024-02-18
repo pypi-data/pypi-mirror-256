@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automait-client"
+version = "0.1.35"
+authors = [{ name = "Lukas Leuschen", email = "lukas.leuschen@automait.ai" }]
+description = "automait package for interfacing our modeling services"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/automait_public/automait_client"
+Issues = "https://gitlab.com/automait_public/automait_client/-/issues"
