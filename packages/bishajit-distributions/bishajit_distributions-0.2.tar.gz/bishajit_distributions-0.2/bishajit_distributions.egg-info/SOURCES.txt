@@ -1,0 +1,10 @@
+setup.py
+bishajit_distributions/Binomialdistribution.py
+bishajit_distributions/Gaussiandistribution.py
+bishajit_distributions/Generaldistribution.py
+bishajit_distributions/__init__.py
+bishajit_distributions.egg-info/PKG-INFO
+bishajit_distributions.egg-info/SOURCES.txt
+bishajit_distributions.egg-info/dependency_links.txt
+bishajit_distributions.egg-info/not-zip-safe
+bishajit_distributions.egg-info/top_level.txt
