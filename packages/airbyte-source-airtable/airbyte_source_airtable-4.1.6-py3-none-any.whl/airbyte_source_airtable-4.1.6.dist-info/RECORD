@@ -1,0 +1,11 @@
+source_airtable/__init__.py,sha256=9oIJcCBhnUlqn5F-4vdoYGIPno9rskb2D12gBiJ6Pu8,128
+source_airtable/auth.py,sha256=JHIBPEVgcU8cP9p3_rCxe3M2phgDFxCewLj9CaQ2zk4,2614
+source_airtable/run.py,sha256=Cqhryhcjp0MmqNjLx1HFqeaXeR23lgccO8e3sLdu8Os,236
+source_airtable/schema_helpers.py,sha256=_WMW5TIFFZ4IPN69mgqsEftmMYeHx4KN-7jluijoJ-g,6026
+source_airtable/source.py,sha256=gaYIWOxlj_YgJnJX4GD6Djq-V3jExGIr4tzt7fGXV-8,5517
+source_airtable/spec.json,sha256=au9r5El4fK8bEWgku0syAK6fdUu1iDJQb9SNhZCvOz4,4092
+source_airtable/streams.py,sha256=8t8LItKk1IRwjer4VlfZsR9zP6B42tlO2EtC4RZHgP8,7527
+airbyte_source_airtable-4.1.6.dist-info/METADATA,sha256=tYVBVkikvxSalA_TCjnPfqyO2LLoCtNhwc7FTGb7F28,5243
+airbyte_source_airtable-4.1.6.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+airbyte_source_airtable-4.1.6.dist-info/entry_points.txt,sha256=-jZaQAILc1Oczz0uakfG2xiWESHHznqqDfMRlggLK8U,59
+airbyte_source_airtable-4.1.6.dist-info/RECORD,,
