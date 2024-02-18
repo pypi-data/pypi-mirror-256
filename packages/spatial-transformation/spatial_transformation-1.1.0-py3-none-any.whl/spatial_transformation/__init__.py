@@ -1,0 +1,3 @@
+"""
+All methods of library.
+"""
