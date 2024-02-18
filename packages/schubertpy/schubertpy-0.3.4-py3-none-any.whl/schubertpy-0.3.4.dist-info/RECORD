@@ -1,0 +1,17 @@
+schubertpy/__init__.py,sha256=XH-yCP9XHjpVv6PfZoDK0g-AC6EglX0U3tvcsQrfXG0,236
+schubertpy/abstract_grassmannian.py,sha256=G3Sx6VycDgXa9wda5yBi3HuWlPNog8xcIW07pDWCTZ4,6219
+schubertpy/const.py,sha256=wcKdbrMZnM1wfDtGlqiCrvsFzXSHKFKaiwweulddWpU,175
+schubertpy/csv_bijection.py,sha256=PEsv9IvlcuxJfUWceFwDdV8Mbs4c9qSII41v_X9X8mU,952
+schubertpy/grassmannian.py,sha256=_jzwzDzdFPVtWqrCTNJCZuXEa3HGAbDo2W8x6dYgTtw,4815
+schubertpy/isotropic_grassmannian.py,sha256=bAKRcAVx3pz-vgwQVAdjsCqtZgSGWAvnZ6LVdLZJSPI,4723
+schubertpy/lc.py,sha256=EEouz5VN_9UXVfIEpaRDpk8pfEXOTXrcoqMd3b7G9tA,5387
+schubertpy/orthogonal_grassmannian.py,sha256=ywwvVe5kMGuhvdAnwznADR3W3BdSFDw6ZMP0OaYeCeg,12454
+schubertpy/partition.py,sha256=TuWVOhJftT88dDCBA7cT5_ZQDPevC_LCctY33n5RM90,3056
+schubertpy/qcalc.py,sha256=H1H963v-aO5aTgrwwiFF0N-I7zdwWz-15oX4csgKops,40452
+schubertpy/schur.py,sha256=QKDaB8HZCy9R2h_Y9oRK67TwGlQckgki21-nuTndFJk,3059
+schubertpy/util.py,sha256=SrIAma9ob8LnnGSI3Ys1jAsVVN1gjiXmqhMVPqXHC4A,203
+schubertpy-0.3.4.dist-info/LICENSE,sha256=Rjfiqy2wKIoGkCYt1Dq-Ueg-sWKtp1s6TSHk12PTRuA,1073
+schubertpy-0.3.4.dist-info/METADATA,sha256=xkNqmP9ZQX5WXmr4LtVSZIzbKWpdvJMgnf93dwIYzVo,424
+schubertpy-0.3.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+schubertpy-0.3.4.dist-info/top_level.txt,sha256=kmcPtqBLkCXwrh14yr8LcRCFeqbDM8CNkBxHmzQ17Kk,11
+schubertpy-0.3.4.dist-info/RECORD,,
