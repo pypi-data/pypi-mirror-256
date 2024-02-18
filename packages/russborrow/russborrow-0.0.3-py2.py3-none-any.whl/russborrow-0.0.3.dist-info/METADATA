@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: russborrow
+Version: 0.0.3
+Summary: Analyzing Russian text to identify and extract borrowed words from other languages. The package uses the pymorphy2 library to normalize words, and it includes a dictionary of borrowed words for comparison.
+License: MIT
+Author: DannyMcWhopper
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pymorphy2 (>=0.8,<0.9)
+Description-Content-Type: text/x-rst
+
+russborrow
+==========
+
+This is a test version of the russborrow package.
+
+Overview
+--------
+
+`russborrow` is a Python package for analyzing Russian text to identify and extract borrowed words from other languages. The package uses the pymorphy2 library to normalize words, and it includes a dictionary of borrowed words for comparison.
+
+
