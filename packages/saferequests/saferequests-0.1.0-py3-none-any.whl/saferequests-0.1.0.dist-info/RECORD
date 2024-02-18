@@ -1,0 +1,13 @@
+saferequests/__init__.py,sha256=kjHABxlYhMfg_Zk7hW5YyXj7T4qYY_YMDJNyLCTLJt8,96
+saferequests/datamodels.py,sha256=0C2SnySI4_s2itQp-q-tmkMWusJKbTqLLZxIAxOiMwI,753
+saferequests/logging.py,sha256=2_ES2pt_PcD0sA4xRQYo6A3unjy1nCLxJqOi9eXsc5s,1221
+saferequests/methods.py,sha256=CPZlANpIG0u9s8wg_4uw-J2L-BhhqIvve_k-rNWWO2M,2034
+saferequests/proxyrotation/__init__.py,sha256=eL4Xv8nkVZHVSLVh23V-YZY7pf06DSySoAutFSpug7E,61
+saferequests/proxyrotation/repository/__init__.py,sha256=44EAhQtzc9nsN7eF6Bcws3o32LGb4TxLRsHnt0c92Aw,1017
+saferequests/proxyrotation/repository/asyncio.py,sha256=2iIVYKTcjJ3KsVUOay-L4wGPrbSm78A0XwFMwkEcyfo,3615
+saferequests/proxyrotation/rotator.py,sha256=qLD1MeiEH5tSEIsf7V5ICgJ0M2PFjVOpCG_9UObLWCs,5809
+saferequests/sessions.py,sha256=dAUSdC1AuKCz8dJQn0zM_gIt5J_449GYWWwnf_SNyic,1443
+saferequests-0.1.0.dist-info/LICENSE,sha256=j_hw2JvGZm-1Qsut0I05G6Mnnb8j9XMrSZERFwXlPOs,1075
+saferequests-0.1.0.dist-info/METADATA,sha256=GnHfJcA-hXj0hHRDMglCwpbhc44SN_Do1aL6k9g-5aY,1430
+saferequests-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+saferequests-0.1.0.dist-info/RECORD,,
