@@ -1,0 +1,7 @@
+spazial-0.1.5.dist-info/METADATA,sha256=W9RlYN31_TntWxd6UbWCupNiFb1o0Zi1DxPlmrftY8o,256
+spazial-0.1.5.dist-info/WHEEL,sha256=XPCOzngsSBfXxST9aGpHlChEmb5CcopV6XJjEhAsNMM,95
+spazial/__init__.py,sha256=n4jtDjYYVNM1cpkx5wOpVIcRcwT-glOuvMK6v_hd9fo,111
+spazial/__init__.pyi,sha256=7W4NRAPxBQQwoNKbppRADEISbv_wZNdSg0urXMHsPTY,5705
+spazial/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spazial/spazial.cp310-win_amd64.pyd,sha256=ZddTM0UvAT7r8EbdRfbqt_YMLpQHre0URNHCtcxIRIo,1453568
+spazial-0.1.5.dist-info/RECORD,,
