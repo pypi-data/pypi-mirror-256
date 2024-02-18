@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tensorflow_empirical_privacy
+Version: 0.1.0
+Summary: Tests for empirical privacy.
+Home-page: https://github.com/tensorflow/privacy
+License: Apache-2.0
+Requires-Python: >=3.9.0,<3.12
+Description-Content-Type: text/plain
+License-File: LICENSE
+Requires-Dist: absl-py ==1.*,>=1.0
+Requires-Dist: immutabledict ~=2.2
+Requires-Dist: matplotlib ~=3.3
+Requires-Dist: numpy ~=1.21
+Requires-Dist: pandas ~=1.4
+Requires-Dist: scikit-learn ==1.*,>=1.0
+Requires-Dist: scipy ~=1.9
+Requires-Dist: statsmodels ==0.14.0
+Requires-Dist: tensorflow ~=2.4
+Requires-Dist: tensorflow-privacy >=0.9.0
+Requires-Dist: tf-models-official ~=2.13
+
+A Python library that includes implementations of tests for empirical privacy.
