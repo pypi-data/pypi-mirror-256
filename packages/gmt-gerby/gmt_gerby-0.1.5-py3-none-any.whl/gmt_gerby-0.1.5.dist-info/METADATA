@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gmt-gerby
+Version: 0.1.5
+Summary: flask-based web application for managing a gerby-plastex site
+Author: Pieter Belmans
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: PyPDF2
+Requires-Dist: Markdown
+Requires-Dist: python-markdown-math
+Requires-Dist: validators
+Requires-Dist: peewee
+Requires-Dist: flask-profiler
+Requires-Dist: feedparser
+Requires-Dist: networkx
+Requires-Dist: plastex
+
