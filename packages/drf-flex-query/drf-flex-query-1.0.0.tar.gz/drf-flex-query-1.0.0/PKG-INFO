@@ -1,0 +1,169 @@
+Metadata-Version: 2.1
+Name: drf-flex-query
+Version: 1.0.0
+Summary: Flexible related objects quering for Django REST Framework.
+Home-page: https://github.com/Oper18/drf-flex-query
+Author: Grigorii Novikov
+Author-email: Grigorii Novikov <genovikov93@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Oper18
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Oper18/drf-flex-query
+Project-URL: Issues, https://github.com/Oper18/drf-flex-query/issues
+Keywords: django,rest,api,query
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+DRF Flex Query
+######
+
+DRF Flex Query is an extension for [Django REST Framework](https://django-rest-framework.org/) which helps to speed up retrieving related objects of main query.
+
+Using separate related objects query and python dicts instead of left joins in SQL and quering every related object using this package could speed up request with multiple related objects in several times.
+
+Installation
+============
+
+You can install DRF Flex Query by:
+
+.. code-block:: bash
+
+    pip install drf-flex-query
+
+
+Basic Usage
+===========
+
+Extend basic model
+-------------
+
+First of all you need to implement custom database manager by inherit from drf-flex-query manager:
+
+.. code-block:: python
+
+    from flex_query.models import Model
+
+    class MyModel(Model):
+        pass
+
+    class MyQueringModel(Model):
+        main_model = models.ForeignKey(MyModel, null=True)
+
+    class MyRelatedModel(Model):
+        main_model = models.ForeignKey(MyModel, null=True)
+
+
+or you could add additional manager without changing relationship:
+
+.. code-block:: python
+
+    from django.db.models import Model
+
+    from flex_query.manager import FlexQueryDBManager
+
+    class MyModel(Model):
+        flex_query_objects = FlexQueryDBManager()
+
+
+Create serializer
+=================
+
+Define serializers for object and all relations:
+
+.. code-block:: python
+
+    from rest_framework.serializers import ModelSerializer
+
+    from flex_query.serializers import FlexQueryBaseModelSerializer, RelatedAttrSerializerInfo
+
+    class MainModelSerializer(ModelSerializer):
+
+        class Meta:
+            model = MyModel
+            fields = "__all__"
+    
+    class MyRelatedModelSerializer(ModelSerializer):
+
+        class Meta:
+            model = MyRelatedModel
+            fields = "__all__"
+
+    class MySerializer(FlexQueryBaseModelSerializer):
+        main_model = serializers.SerializerMethodField("get_main_model")
+        related_models = serializers.SerializerMethodField("get_related_models")
+    
+        class Meta:
+            model = MyQueringModel
+            fields = ("id", "main_model", "related_models")
+            custom_attrs = ("main_models", "related_models")
+            related_attrs_mapping = {
+                "get_main_model": RelatedAttrSerializerInfo(
+                    dependency_name="main_models",
+                    dep_field_map_name="main_model_id",
+                    serializer_class=MainModelSerializer,
+                    many=False,
+                    forward_kwargs=(),
+                ),
+                "get_related_models": RelatedAttrSerializerInfo(
+                    dependency_name="related_models",
+                    dep_field_map_name="main_model_id",
+                    serializer_class=MyRelatedModelSerializer,
+                    many=True,
+                    forward_kwargs=(),
+                ),
+            }
+
+
+Define API View
+===============
+
+For setup APIView configuration you need to define list of related queries and rules for its quering
+
+.. code-block:: python
+
+    from flex_query.generics import FlexQueryRelationsGenericAPIView
+
+
+    class MyAPIView(FlexQueryRelationsGenericAPIView):
+        queryset = MyQueringModel.objects.all()
+        serializer_class = MySerializer
+        related_queries_data = [
+            QueryFilterInfo(
+                query_arg_name="main_models",
+                attribute="main_model_id",
+                query_model=MyModel,
+                filter_field="pk",
+                mapping_rules={1: KeyMapping(name="id", obj_type="object")},
+            ),
+            QueryFilterInfo(
+                query_arg_name="related_models",
+                attribute="id",
+                query_model=MyRelatedModel,
+                filter_field="pk",
+                mapping_rules={1: KeyMapping(name="main_model_id", obj_type="list")},
+                source_query="main_models",
+            ),
+        ]

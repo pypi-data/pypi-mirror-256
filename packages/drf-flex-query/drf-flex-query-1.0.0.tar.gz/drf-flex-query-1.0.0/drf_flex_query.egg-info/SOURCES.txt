@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+drf_flex_query.egg-info/PKG-INFO
+drf_flex_query.egg-info/SOURCES.txt
+drf_flex_query.egg-info/dependency_links.txt
+drf_flex_query.egg-info/top_level.txt
+flex_query/__init__.py
+flex_query/generics.py
+flex_query/manager.py
+flex_query/models.py
+flex_query/serializers.py

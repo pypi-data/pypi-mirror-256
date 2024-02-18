@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69.1.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "drf-flex-query"
+version = "1.0.0"
+authors = [
+  { name="Grigorii Novikov", email="genovikov93@gmail.com" },
+]
+description = "Flexible related objects quering for Django REST Framework."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["django", "rest", "api", "query"]
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://github.com/Oper18/drf-flex-query"
+Issues = "https://github.com/Oper18/drf-flex-query/issues"
