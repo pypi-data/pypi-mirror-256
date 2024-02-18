@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/gronckle/__init__.py
+src/gronckle/main.py
+src/gronckle.egg-info/PKG-INFO
+src/gronckle.egg-info/SOURCES.txt
+src/gronckle.egg-info/dependency_links.txt
+src/gronckle.egg-info/top_level.txt
