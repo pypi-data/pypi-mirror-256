@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "pyrocatto"
+version = "2.0.114"
+description="A fork of pyrogram with simplified plugin loader and more"
+authors = ["Dan <dan@pyrogram.org>"]
+maintainers = ["devops117 <devops117.main@protonmail.com>"]
+license="LGPLv3"
+readme = "README.md"
+packages = [{include = "pyrogram"}]
+include = [
+    "pyrogram/py.typed",
+    "pyrogram/errors/exceptions",
+    "pyrogram/raw/functions",
+    "pyrogram/raw/types",
+    "pyrogram/raw/base",
+    "pyrogram/raw/all.py"
+]
+repository="https://github.com/pyrocatto/pyrocatto"
+documentation="https://docs.pyrogram.org"
+keywords= ["telegram", "chat", "messenger", "mtproto", "client"]
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet",
+    "Topic :: Communications",
+    "Topic :: Communications :: Chat",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+
+[tool.poetry.urls]
+Tracker = "https://github.com/pyrocatto/pyrocatto/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyaes = "1.6.1"
+pysocks = "1.7.1"
+tgcrypto = {version = "^1.2.5", optional = true}
+
+[tool.poetry.extras]
+speedups = ["tgcrypto"]
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-asyncio = "^0.23.2"
+pytest-cov = "^4.1.0"
+tox-poetry-installer = {extras = ["poetry"], version = "^0.10.3"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
