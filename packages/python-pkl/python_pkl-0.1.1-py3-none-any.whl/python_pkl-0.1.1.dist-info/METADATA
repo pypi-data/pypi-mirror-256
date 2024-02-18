@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-pkl
+Version: 0.1.1
+Summary: Python library to work with Apple's PKL files
+Author: Vithor Jaeger
+Author-email: vaphes@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Project-URL: Bug Tracker, https://github.com/vaphes/pkl/issues
+Description-Content-Type: text/markdown
+
+# Python Pkl Lang
+
+Python Pkl Lang is a simple library for dealing with Apple's pkl files.
+
