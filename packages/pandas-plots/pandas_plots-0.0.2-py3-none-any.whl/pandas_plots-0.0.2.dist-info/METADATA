@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pandas-plots
+Version: 0.0.2
+Summary: A collection of helper for pandas n plots
+Author-email: smeisegeier <dsexterDSDo@googlemail.com>
+License: Copyright 2024 smeisegeier
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/smeisegeier/pandas-plots
+Keywords: tables,pivot,plotly
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=2.0.0
+Requires-Dist: plotly
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+# pandas-plots
+
+## quickstart
+
+```bash
+pip install pandas-plots -U
+```
+
+```python
+import pandas_plots as pp
+pp.pandas.describe_df()
+```
+
+## why use pandas-plots
+
+`pandas-plots` is a package to help you examine and visualize data that are organized in a pandas DataFrame. It provides a high level api to pandas / plotly with some selected functions.
+
+It is subdivided into:
+
+- `tbl` utilities for table descriptions
+  - `describe_df()` an alternative version of pandas `describe()` function
+  - `pivot_df()` gets a pivot table of a 3 column dataframe
+
+- `viz` utilities for plotly visualizations
+  - `plot_box()` auto annotated boxplot w/ violin option
+  - `plot_boxes()` multiple boxplots _(annotation is experimental)_
+  - `plots_bars()` a standardized bar plot
+  - `plot_stacked_bars()` shortcut to stacked bars 😄
+  - `plot_quadrants()` quickly show a 2x2 heatmap
+
+## dependencies
