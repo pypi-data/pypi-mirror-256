@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stockdatamanipulation.egg-info/PKG-INFO
+stockdatamanipulation.egg-info/SOURCES.txt
+stockdatamanipulation.egg-info/dependency_links.txt
+stockdatamanipulation.egg-info/requires.txt
+stockdatamanipulation.egg-info/top_level.txt
+tests/test.py
