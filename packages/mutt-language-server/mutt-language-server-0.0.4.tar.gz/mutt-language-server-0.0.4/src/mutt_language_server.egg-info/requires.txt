@@ -1,0 +1,9 @@
+pygls
+tree-sitter-lsp>=0.0.12
+tree-sitter-muttrc
+
+[dev]
+pytest-cov
+
+[misc]
+tree-sitter-lsp[misc]
