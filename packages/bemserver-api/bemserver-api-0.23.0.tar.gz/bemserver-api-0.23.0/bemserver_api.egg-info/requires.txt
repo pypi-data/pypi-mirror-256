@@ -1,0 +1,9 @@
+apispec<7.0,>=6.1.0
+bemserver-core<0.18,>=0.17.1
+flask-httpauth<5.0,>=4.7.0
+flask<4.0,>=3.0.2
+flask_smorest<0.44,>=0.43.0
+marshmallow-sqlalchemy<0.30,>=0.29.0
+marshmallow<4.0,>=3.18.0
+python-dotenv>=0.9.0
+sqlalchemy<3.0,>=2.0
