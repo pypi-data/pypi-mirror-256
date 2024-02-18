@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: weathervane
+Version: 0.2.0
+Summary: Collect weatherdata from public source and display on 32 LED weathervane
+Author-email: Marco Plaisier <m.plaisier@gmail.com>
+Requires-Python: >=3.7
+Requires-Dist: bitstring==3.1.7
+Requires-Dist: requests==2.31.0
+Requires-Dist: tenacity==8.2.3
+Description-Content-Type: text/markdown
+
+Empty for now
+
+
