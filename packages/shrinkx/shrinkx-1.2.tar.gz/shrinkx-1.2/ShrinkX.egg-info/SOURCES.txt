@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+shrinkx.py
+ShrinkX.egg-info/PKG-INFO
+ShrinkX.egg-info/SOURCES.txt
+ShrinkX.egg-info/dependency_links.txt
+ShrinkX.egg-info/entry_points.txt
+ShrinkX.egg-info/requires.txt
+ShrinkX.egg-info/top_level.txt
+shrinkx.egg-info/PKG-INFO
+shrinkx.egg-info/SOURCES.txt
+shrinkx.egg-info/dependency_links.txt
+shrinkx.egg-info/entry_points.txt
+shrinkx.egg-info/requires.txt
+shrinkx.egg-info/top_level.txt
