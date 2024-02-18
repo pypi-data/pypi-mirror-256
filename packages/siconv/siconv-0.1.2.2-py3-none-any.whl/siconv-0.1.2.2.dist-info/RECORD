@@ -1,0 +1,9 @@
+siconv/__init__.py,sha256=bds3C76sStvC0HFp0FeWZI2UW-S_XqbJtaHmIKZ9-Fk,40
+siconv/siconv.py,sha256=Y5TuBLv632AhtVRwu2xbW5B7I67gSoRjGqdMle4NAC0,7863
+siconv/test.py,sha256=tcIkCjZUrQCa_radoEHxjjFpZb9XW4vFmNxstl-Q_2E,120
+siconv/util_array.py,sha256=xXs0wpM9fiBlYzX8SpRTeISeQex1we9yyPKx4q63ZHU,1426
+siconv-0.1.2.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+siconv-0.1.2.2.dist-info/METADATA,sha256=-2gHOSOOfhAmMX2qjYCfI-pKqn33s68VoN4tgUj5znI,1510
+siconv-0.1.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+siconv-0.1.2.2.dist-info/top_level.txt,sha256=Vn0ypPaMmehglelYd-Ec4cBcphMUyWQX4rjx0wMJDEk,7
+siconv-0.1.2.2.dist-info/RECORD,,
