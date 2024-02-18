@@ -1,0 +1,8 @@
+README.md
+setup.py
+osdata/__init__.py
+osdata/module.py
+osdata.egg-info/PKG-INFO
+osdata.egg-info/SOURCES.txt
+osdata.egg-info/dependency_links.txt
+osdata.egg-info/top_level.txt
