@@ -1,0 +1,8 @@
+pycryptodome
+pillow
+mutagen
+threading
+random
+time
+requests
+os
