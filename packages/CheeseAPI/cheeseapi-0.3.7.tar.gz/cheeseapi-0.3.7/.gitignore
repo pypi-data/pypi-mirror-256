@@ -1,0 +1,10 @@
+__pycache__
+
+.DS_Store
+
+/.vscode
+/.conda
+/dist
+/logs
+/static
+/app.py
