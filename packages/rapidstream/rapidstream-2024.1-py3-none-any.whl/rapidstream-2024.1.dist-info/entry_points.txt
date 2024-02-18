@@ -1,0 +1,12 @@
+[console_scripts]
+build-rust=buildutils.rust:build_rust
+rapidstream-autobridge=rapidstream.autobridge.main:main
+rapidstream-backend=rapidstream.backend.main:main
+rapidstream-config=rapidstream.config.main:main
+rapidstream-exporter=rapidstream.exporter.main:main
+rapidstream-importer=rapidstream.importer.main:main
+rapidstream-jump=rapidstream.jump.main:main
+rapidstream-license=rapidstream.license.main:main
+rapidstream-optimizer=rapidstream.optimizer.main:main
+test-rust=buildutils.rust:test_rust
+

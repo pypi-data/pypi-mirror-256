@@ -1,0 +1,56 @@
+{
+    "op_groups": [
+        [
+            {
+                "child_num": 4,
+                "children_configs": [
+                    {
+                        "coordinates": {
+                            "down_left_x": 0,
+                            "down_left_y": 0,
+                            "up_right_x": 0,
+                            "up_right_y": 0
+                        }
+                    },
+                    {
+                        "coordinates": {
+                            "down_left_x": 1,
+                            "down_left_y": 0,
+                            "up_right_x": 1,
+                            "up_right_y": 0
+                        }
+                    },
+                    {
+                        "coordinates": {
+                            "down_left_x": 0,
+                            "down_left_y": 1,
+                            "up_right_x": 0,
+                            "up_right_y": 1
+                        }
+                    },
+                    {
+                        "coordinates": {
+                            "down_left_x": 1,
+                            "down_left_y": 1,
+                            "up_right_x": 1,
+                            "up_right_y": 1
+                        }
+                    }
+                ],
+                "default_usage_limit": {
+                    "BRAM_18K": 0.8,
+                    "DSP": 0.8,
+                    "FF": 0.75,
+                    "LUT": 0.75,
+                    "URAM": 0.8
+                },
+                "target_node": {
+                    "down_left_x": 0,
+                    "down_left_y": 0,
+                    "up_right_x": 1,
+                    "up_right_y": 1
+                }
+            }
+        ]
+    ]
+}
