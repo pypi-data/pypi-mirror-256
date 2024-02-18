@@ -1,0 +1,12 @@
+hsmm_mvpy/__init__.py,sha256=shoDuiB9C0wpuQS-ns_2i7S9wvUB-wJ3q3Xt2CMmQTA,229
+hsmm_mvpy/clusters.py,sha256=8hyKFlcWnPKEL9CeN_J5Kq-jkIhf-lXEFaFAanQU7bM,7333
+hsmm_mvpy/models.py,sha256=tUbeqifcTOEokRAQCpWlM2ZDwqiTtnz1q94wemTDU8A,111165
+hsmm_mvpy/resample.py,sha256=S8c5kCxItLdza_Po07ziu2__kmcm6kmUbByT7nVwI9U,12130
+hsmm_mvpy/simulations.py,sha256=A9PPvKzER9Kn7WnFOvkyiiCWH-e4RdDWDCAM02EXvZE,18363
+hsmm_mvpy/utils.py,sha256=eSfNYvxgKX-smgZQQ1DePkETOFgwM3qpQaXifAbqQdE,77566
+hsmm_mvpy/visu.py,sha256=ZwGy0t_62vx9zz348n_t3yDRBfIqodJmeP7vahp8Esw,49236
+hsmm_mvpy-0.3.0.dist-info/LICENSE.md,sha256=dwG676L7Cit5FOMV5XWRHbsv3XHdMFzEWu0Di5FeSbE,1558
+hsmm_mvpy-0.3.0.dist-info/METADATA,sha256=G3UE9_wrzJ9rot_VyNZ_sh5WTwmSo7yPOPFlIBjlots,24781
+hsmm_mvpy-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hsmm_mvpy-0.3.0.dist-info/top_level.txt,sha256=3XrpSRfYJlJMvJDLZSTGNb-p1IwmVzCmmt3YTN8T1_8,10
+hsmm_mvpy-0.3.0.dist-info/RECORD,,
