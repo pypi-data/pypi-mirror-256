@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: perfectolibrary-py37
+Version: 0.5.2
+Summary: Robot Framework Mobile app testing library for using Perfecto Cloud
+Home-page: https://github.com/PerfectoMobileSA/Robotframework-PerfectoLibrary
+Author: Jack Deng
+Author-email: jdeng@perforce.com
+License: MIT License
+Keywords: robotframework testing Perfecto mobile appium webdriver app android ios
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: decorator>=3.3.2
+Requires-Dist: robotframework>=2.6.0
+Requires-Dist: docutils>=0.8.1
+Requires-Dist: Appium-Python-Client>=0.20
+Requires-Dist: selenium>=2.47.1
+Requires-Dist: robotframework-appiumlibrary>=1.3.7
+Requires-Dist: robotframework-seleniumlibrary>=3.0.0
+Requires-Dist: robotframework-selenium2library>=1.6.0
+Requires-Dist: Selenium2LibraryExtension>=1.1.0
+Requires-Dist: perfecto_py37>=0.1.0
+Requires-Dist: six>=1.11.0
