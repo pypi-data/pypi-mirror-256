@@ -1,0 +1,2 @@
+[console_scripts]
+pih-ws = wsService.__main__:start

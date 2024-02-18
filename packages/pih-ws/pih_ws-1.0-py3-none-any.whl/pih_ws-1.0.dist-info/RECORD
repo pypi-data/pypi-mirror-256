@@ -1,0 +1,9 @@
+wsService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsService/__main__.py,sha256=BU1_KJdkhaW_-EPlp02TgQ33jV-Ok56zVrNi-A0w8hs,144
+wsService/const.py,sha256=Cb2Of6xnYjdQ00p8mX64S8MnxkSrpzvxgUlH4re2Q0k,519
+wsService/service.py,sha256=uGGwsI9zmcHWrYP5oYTBM7t3Zn6b-WYqmf4QTKnMOLs,3250
+pih_ws-1.0.dist-info/METADATA,sha256=9u1JrL4bg8sSxsdAFuTbPiZfwK49q6BRROggUsJEXps,290
+pih_ws-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pih_ws-1.0.dist-info/entry_points.txt,sha256=_azxDIBhLthCQIqSNgjA3AlghzTe5w4mX48_hXMrA1k,52
+pih_ws-1.0.dist-info/top_level.txt,sha256=-PvsS6Z0rX6UFpzlbEA13XfCojg1sy4VAq1aBkaU56I,10
+pih_ws-1.0.dist-info/RECORD,,
