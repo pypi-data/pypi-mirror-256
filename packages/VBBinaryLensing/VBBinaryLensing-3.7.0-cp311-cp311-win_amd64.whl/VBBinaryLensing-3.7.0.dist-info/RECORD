@@ -1,0 +1,17 @@
+VBBinaryLensing/VBBinaryLensing.cp311-win_amd64.pyd,sha256=_jcsWEqBySupN3dA3vwSyoWT4BM213ru6dS7fmJVC_Y,854528
+VBBinaryLensing/__init__.py,sha256=6Wul7nhUEjZqFHJBzIqbY6Ra4EXaiDaIS49Ia5AAeJQ,45
+VBBinaryLensing/data/ESPL.tbl,sha256=Pv6QdMo1hJAlDdh2Znci9YHRej9gyrrASuLaegKiMsQ,488032
+VBBinaryLensing/data/OB151212coords.txt,sha256=j8i1PA8r1atAO22li0KxM2cVWUDGF9tMaNurX-6Vx0o,18
+VBBinaryLensing/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+VBBinaryLensing/data/satellite1.txt,sha256=JzmXrT2aUJxoArVcXyZyGfscwSFIow_0fRh_ZMcxNS0,110290
+VBBinaryLensing/data/satellite2.txt,sha256=wEySAu6SiUc7y5Vmx_B5jUnStpEtUyYp4u-HKlvb4Wk,112560
+VBBinaryLensing/lib/VBBinaryLensingLibrary.cpp,sha256=guYHTmrqG9H89DYxwMU-pB_WQJfg_YPgh3MvftqOE7Y,146669
+VBBinaryLensing/lib/VBBinaryLensingLibrary.h,sha256=6quckKjTIUr92sTbsAg2pHGNPpgMfyQkozUuteo59Ug,11399
+VBBinaryLensing/lib/python_bindings.cpp,sha256=5iWvuFlv9hO17eiWubSvZFHg03bGGvAcHU8HjjNYZuY,38294
+VBBinaryLensing/tests/test_all.py,sha256=kYrOxWcsTqLyFsQwGXQ-raET8AxtduRcqtRks5UPR7A,1995
+VBBinaryLensing/tests/test_magnification.py,sha256=x_2F9QdYcvI3kJ8GjLblciegVvO3On_ZOSO1ryG4ogQ,7279
+VBBinaryLensing-3.7.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+VBBinaryLensing-3.7.0.dist-info/METADATA,sha256=Bre2GJgPqjYC9ZB-2eG2ry7CNfvwvkfSSBGGb96jy6g,6346
+VBBinaryLensing-3.7.0.dist-info/WHEEL,sha256=ircjsfhzblqgSzO8ow7-0pXK-RVqDqNRGQ8F650AUNM,102
+VBBinaryLensing-3.7.0.dist-info/top_level.txt,sha256=D01Hha6wcdWQ9EkOoeozhVRSDsL2j49Omk95HdhOLZY,16
+VBBinaryLensing-3.7.0.dist-info/RECORD,,
