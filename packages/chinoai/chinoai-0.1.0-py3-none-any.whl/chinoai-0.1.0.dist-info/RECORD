@@ -1,0 +1,11 @@
+chino/__init__.py,sha256=aZlXiQTJs9vcfa8hcrrHi48pPBGz7pFerEvrI7vODb4,151
+chino/__main__.py,sha256=b30So6yBNtdzKfSe0KmiRETUwQCVKTKGQNu-Qm-vF5M,1292
+chino/conversation.py,sha256=sSwYCs8XgcwQjsqE7yfDCyrgvNWV1jrViU7xey07694,1637
+chino/migrations.py,sha256=bMJLbFRdovYkp7oQWBmtAuoWX35GePX32icM_CnCQsE,1876
+chino/query.py,sha256=fPHJw1AgpQK7BQwoAaMSAeTRCOF_39WCYAhSrgNC44M,1692
+chinoai-0.1.0.dist-info/LICENSE,sha256=4A-eP9OHWckxF0Y1QG8f46i37qU1J2fDK15pXnBtdhA,1060
+chinoai-0.1.0.dist-info/METADATA,sha256=ZvMsYdl1BRs7bLbJ5TzPp06Ok4nLlK8yEFUvNAuU1RQ,7485
+chinoai-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chinoai-0.1.0.dist-info/entry_points.txt,sha256=zBz4sTH_vBHeDRQwYvgDcKXu7cL3NP0o33gZNShZYPs,45
+chinoai-0.1.0.dist-info/top_level.txt,sha256=LKR77Imt4YyIj5sih8vQVtyrkDaFuRfya-RrZI2N1gI,6
+chinoai-0.1.0.dist-info/RECORD,,
