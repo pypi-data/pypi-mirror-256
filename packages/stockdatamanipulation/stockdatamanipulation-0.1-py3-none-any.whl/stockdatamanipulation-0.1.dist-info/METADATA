@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stockdatamanipulation
+Version: 0.1
+Summary: A comprehensive data retrieval aimed at gathering financial information
+Home-page: https://github.com/GiorgioMB/stockdatafetcher/
+Author: Giorgio Micaletto
+Author-email: giorgio.micaletto@studbocconi.it
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=1.1.5
+Requires-Dist: yfinance >=0.1.63
+Requires-Dist: requests >=2.25.1
+
+Something has to be here, so there you go
