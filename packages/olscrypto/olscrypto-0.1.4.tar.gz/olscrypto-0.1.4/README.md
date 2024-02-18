@@ -1,0 +1,8 @@
+```python
+from olscrypto import Decryptor
+
+SEEDKEY = '<your key>'
+dec = Decryptor(SEEDKEY)
+dec.decryptfile('event_3.yjt','event_3.yjt.zip')
+dec.unzip('event_3.yjt.zip','u')
+```
