@@ -1,0 +1,2 @@
+[console_scripts]
+djontainu = djontainu.cli:main

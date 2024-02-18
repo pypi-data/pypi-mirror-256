@@ -1,0 +1,22 @@
+[project]
+name = "djontainu"
+version = "0.1.1"
+description = "Simple package to help manage python (mostly django) docker containers."
+authors = [{name = "Nommu Moose", email = "moose@nommumail.co.uk"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = [
+    "click",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.entry-points.console_scripts]
+djontainu = "djontainu.cli:main"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/djontainu/__init__.py
+src/djontainu/cli.py
+src/djontainu.egg-info/PKG-INFO
+src/djontainu.egg-info/SOURCES.txt
+src/djontainu.egg-info/dependency_links.txt
+src/djontainu.egg-info/entry_points.txt
+src/djontainu.egg-info/requires.txt
+src/djontainu.egg-info/top_level.txt
