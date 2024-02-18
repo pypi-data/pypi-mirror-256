@@ -1,0 +1,12 @@
+click>=8.1
+logzero
+python-mpv-jsonipc
+simplejson
+kompress
+
+[optional]
+orjson
+
+[testing]
+flake8
+mypy
