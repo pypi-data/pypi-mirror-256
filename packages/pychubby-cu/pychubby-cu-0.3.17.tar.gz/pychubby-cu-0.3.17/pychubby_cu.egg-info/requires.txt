@@ -1,0 +1,15 @@
+click>=7.0
+matplotlib>=2.0.0
+dlib
+
+[dev]
+codecov
+flake8
+pydocstyle
+pytest>=3.6
+pytest-cov
+tox
+
+[docs]
+sphinx
+sphinx_rtd_theme
