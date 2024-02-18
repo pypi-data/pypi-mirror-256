@@ -1,0 +1,2 @@
+[console_scripts]
+geo_ice_age = geo_ice_age.cli:main

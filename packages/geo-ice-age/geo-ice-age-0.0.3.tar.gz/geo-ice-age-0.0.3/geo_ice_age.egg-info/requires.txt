@@ -1,0 +1,7 @@
+numpy
+
+[all]
+geo-ice-age[extra]
+
+[extra]
+pandas
