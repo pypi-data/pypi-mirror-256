@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/lwpkg.egg-info/PKG-INFO
+src/lwpkg.egg-info/SOURCES.txt
+src/lwpkg.egg-info/dependency_links.txt
+src/lwpkg.egg-info/top_level.txt
