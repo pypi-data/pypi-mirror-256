@@ -1,0 +1,43 @@
+[project]
+name = "sceptre-formatted-yaml-handler"
+
+[tool.poetry]
+name = "sceptre-formatted-yaml-handler"
+version = "1.0.0"
+packages = [{ include = "template_handler" }]
+readme = "README.md"
+homepage = "https://github.com/Sceptre/sceptre-formatted-yaml-handler"
+repository = "https://github.com/Sceptre/sceptre-formatted-yaml-handler"
+authors = ["Mitchell Rowling <57084321+mrowlingfox@users.noreply.github.com>"]
+description = "A Sceptre template handler for opinionated formatted YAML"
+keywords = ["sceptre", "sceptre-handler"]
+license = "Apache-2.0"
+
+classifiers = [
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[tool.poetry.plugins."sceptre.template_handlers"]
+"formatted_yaml" = "template_handler.formatted_yaml:FormattedYaml"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.2.1"
+tox = "^3.23.0"
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+sceptre = ">3.2"
+tox-gh-matrix = "^0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
