@@ -1,0 +1,11 @@
+beautifulsoup4
+requests
+Flask
+mitmproxy
+mysql
+mysqlclient
+python-dotenv
+termcolor
+urllib3
+selenium
+lxml
