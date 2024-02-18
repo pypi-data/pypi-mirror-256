@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a84e9b52-653c-481e-b7f8-175d828cd0e2" name="Changes" comment="Add cache to build pipeline">
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/duckling-ffi/stack.yaml.lock" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2a88SpOlviJftPl8tOk2dXWgDiP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "build-latest-duckling",
+    "last_opened_file_path": "/home/phil/Quellcode/GitHub/pyduckling-rust/pyduckling",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/duckling-ffi/ghc-build" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/build-containers/duckling-ffi" />
+      <recent name="$PROJECT_DIR$/duckling-ffi/build-container" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a84e9b52-653c-481e-b7f8-175d828cd0e2" name="Changes" comment="" />
+      <created>1703688847765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703688847765</updated>
+      <workItem from="1703688848863" duration="16571000" />
+      <workItem from="1703754953346" duration="22300000" />
+      <workItem from="1704273281679" duration="45713000" />
+      <workItem from="1704888941384" duration="10000" />
+      <workItem from="1707650408298" duration="41287000" />
+      <workItem from="1707745140569" duration="20069000" />
+    </task>
+    <task id="LOCAL-00001" summary="Build latest duckling">
+      <option name="closed" value="true" />
+      <created>1707779343375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707779343375</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Build latest duckling">
+      <option name="closed" value="true" />
+      <created>1707779590149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707779590149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add missing files">
+      <option name="closed" value="true" />
+      <created>1707779736951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707779736951</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add missing files">
+      <option name="closed" value="true" />
+      <created>1707779890404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707779890404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Minor refactoring">
+      <option name="closed" value="true" />
+      <created>1707780080752</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707780080752</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add build pipeline">
+      <option name="closed" value="true" />
+      <created>1707851546927</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707851546927</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add cache to build pipeline">
+      <option name="closed" value="true" />
+      <created>1707852082172</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707852082172</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add cache to build pipeline">
+      <option name="closed" value="true" />
+      <created>1707852155758</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707852155758</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="378cd1d5-03b6-4cea-b0a3-443ed9108d02" value="TOOL_WINDOW" />
+        <entry key="85d5b767-973c-4cce-8bd8-78948b5bc5ae" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="378cd1d5-03b6-4cea-b0a3-443ed9108d02">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/phil/Quellcode/GitHub/pyduckling-rust/pyduckling/.github" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="85d5b767-973c-4cce-8bd8-78948b5bc5ae">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/home/phil/Quellcode/GitHub/pyduckling-rust/pyduckling/.github/workflows" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/duckling-ffi" />
+    </ignored-roots>
+    <MESSAGE value="Build latest duckling" />
+    <MESSAGE value="Add missing files" />
+    <MESSAGE value="Minor refactoring" />
+    <MESSAGE value="Add build pipeline" />
+    <MESSAGE value="Add cache to build pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cache to build pipeline" />
+  </component>
+</project>
