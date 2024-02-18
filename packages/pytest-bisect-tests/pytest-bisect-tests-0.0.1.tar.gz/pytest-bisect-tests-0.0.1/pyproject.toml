@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest-bisect-tests"
+version = "0.0.1"
+authors = [{ name = "Maciej Gol", email = "suchar.kroolik1@gmail.com" }]
+description = "Find tests leaking state and affecting other"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/maciej-gol/pytest-bisect-tests"
+Issues = "https://github.com/maciej-gol/pytest-bisect-tests/issues"
