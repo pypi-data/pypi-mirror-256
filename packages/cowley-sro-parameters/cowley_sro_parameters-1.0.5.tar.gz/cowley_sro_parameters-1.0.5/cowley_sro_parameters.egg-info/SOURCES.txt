@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cowley_sro_parameters/__init__.py
+cowley_sro_parameters/modifier.py
+cowley_sro_parameters.egg-info/PKG-INFO
+cowley_sro_parameters.egg-info/SOURCES.txt
+cowley_sro_parameters.egg-info/dependency_links.txt
+cowley_sro_parameters.egg-info/top_level.txt
