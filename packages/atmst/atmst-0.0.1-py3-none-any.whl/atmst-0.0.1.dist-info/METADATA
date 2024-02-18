@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: atmst
+Version: 0.0.1
+Summary: A Python library for wrangling atproto-flavoured Merkle Search Trees
+Author-email: David Buchanan <d@vidbuchanan.co.uk>
+Project-URL: Homepage, https://github.com/DavidBuchanan314/atmst
+Project-URL: Issues, https://github.com/DavidBuchanan314/atmst/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dag-cbor
+Requires-Dist: multiformats
+
+# atmst
+A Python library for wrangling atproto-flavoured Merkle Search Trees
+
+Current status: prototype
+
+### Installation
+
+```
+git clone https://github.com/DavidBuchanan314/atmst
+cd atmst
+python3 -m pip install .
+```
+
+dev install:
+
+```
+python3 -m pip install -e .
+```
+
+build the docs:
+
+```
+cd docs/
+sphinx-apidoc -o source/ ../src/atmst
+make html
+# open _build/html/index.html
+```
