@@ -1,0 +1,7 @@
+regml_task_registry_hardcoded/__init__.py,sha256=cIaffwibUR5ZkGvY6QTZ7-evcDEJ7w3FTqHi6zQ9NS4,122
+regml_task_registry_hardcoded/tasks/__init__.py,sha256=jy5uW9GeMZdaJHeIb4Ex-pv26hoYVkx-5_T70YaIubs,124
+regml_task_registry_hardcoded/tasks/llmchat/__init__.py,sha256=mH5jQ59wpd5TsILSzWHJIh833K_6U338h49gddgYNYM,125
+regml_task_registry_hardcoded/tasks/llmchat/registry.py,sha256=oKEtGaqjQmDlSayppg_KyOY6_TmAotULaoaN8ntbeDw,2552
+regml_task_registry_hardcoded-0.0.1.dist-info/METADATA,sha256=4cbdjG2_Sa_AH79yihMDX3VQKaFjLgg4-u9WRTj6YT4,540
+regml_task_registry_hardcoded-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+regml_task_registry_hardcoded-0.0.1.dist-info/RECORD,,

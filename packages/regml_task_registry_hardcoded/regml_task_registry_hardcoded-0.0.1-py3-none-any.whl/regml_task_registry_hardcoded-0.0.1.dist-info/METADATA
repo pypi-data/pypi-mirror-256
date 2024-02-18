@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: regml_task_registry_hardcoded
+Version: 0.0.1
+Summary: A hardcoded task registry for regml
+Author: Luke Bechtel
+Author-email: lbechtel@regscale.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.6.1,<3.0.0)
