@@ -1,0 +1,11 @@
+yandex_query_magic/__init__.py,sha256=W5FAWw4bRkPTkDLNlNKvUf_FlYnVkr7mTqTYnA_Eyrg,240
+yandex_query_magic/ipythondisplay.py,sha256=IMK0MIO4opEgLye_B4fI0HNi21c4yN3OZ2tEUmtlY8U,303
+yandex_query_magic/jinja_template.py,sha256=fMMZo0XOBpCZAOoD6gwoBLx3nvmq67_nCWH-fwCq498,671
+yandex_query_magic/magics.py,sha256=2pf_7IYwXBlTyVJs4FU9MCyXA6EnjJwNRxlwo9xm0x0,11633
+yandex_query_magic/main.py,sha256=RCV-oD7eP-3TxEEh66Mq8abKuPHIzHwSk-48-LmWdzE,12210
+yandex_query_magic/query_results.py,sha256=5QuY2NsUkXf3j-0LDkPecN7MpIfL0MVPylBQ3qmv8AA,5215
+yandex_query_magic/sqltext_parser.py,sha256=E9BS5F9WtEREwiy0DHJy6NjewZfd56qV2c5wuozxZbc,4896
+yandex_query_magic-0.1.2.dist-info/METADATA,sha256=iCpV_BzbQOgSHKgGbWChuohNH2BfYI5BrgyWYBYlNiU,6709
+yandex_query_magic-0.1.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+yandex_query_magic-0.1.2.dist-info/licenses/LICENSE.md,sha256=AFcOYhNOyuBQP89lObqyipdScN2KUUS-OuWoUlVo6yE,1077
+yandex_query_magic-0.1.2.dist-info/RECORD,,
