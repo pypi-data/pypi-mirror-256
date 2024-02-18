@@ -1,0 +1,12 @@
+gradio_model3dgs/__init__.py,sha256=EhQDZ9zmILdDzUBJoDvoGuuur3Nceor0ah-2HhzVLrw,238
+gradio_model3dgs/model3dgs.py,sha256=uos-dHEDdxMgl-JKVqjxLsjef1T0eG0eBb0tf-6rPaY,5317
+gradio_model3dgs/model3dgs.pyi,sha256=W5djyqjIqaNa-lz2uYVmem-Lljg0FwNyUWJuWM0o_tE,25775
+gradio_model3dgs/templates/component/__vite-browser-external-2447137e.js,sha256=-MRWAx5QAcDNpIN82e46M9eb7roSDsYz7J2ZBjL7KqY,41
+gradio_model3dgs/templates/component/index.js,sha256=d4WHXvaTvwAXB_05BD5gvkWAYGFyh2kBVs1rg1m0clQ,408466
+gradio_model3dgs/templates/component/style.css,sha256=wyROYPKQ00yla_YFdkO9gNEfnlvzqg-WN0_XVG_wOJA,13454
+gradio_model3dgs/templates/component/wrapper-98f94c21-f7f71f53.js,sha256=6uLJJsVUYBqv7UkEP6iNKGEh_LOQhvY9FytwrNWzdtY,78015
+gradio_model3dgs/templates/example/index.js,sha256=AcEKu2d4hjZyQsKf4pvOMqUT-QB_uFGbfbtGYc7mf9o,1549
+gradio_model3dgs/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_model3dgs-0.2.5.dist-info/METADATA,sha256=0yQywBUMQg2HeUn-BXgyFpy4SBH0HRwTnq5DsyzwZdU,1332
+gradio_model3dgs-0.2.5.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+gradio_model3dgs-0.2.5.dist-info/RECORD,,
