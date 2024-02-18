@@ -1,0 +1,9 @@
+server_templates/__init__.py,sha256=OIxyNdJvWyFxyxunD3g-pEAfW2kH2xEEOdcK3ak5Wyk,131
+server_templates/http_client.py,sha256=1o27KmsZUA5Y8ndwjFAh9YefoR-0KUIAtYLakpGERV8,5459
+server_templates/aiohttp/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+server_templates/aiohttp/main.py,sha256=peFdCFeysKJ9Lzz_qa6d54JNeqwbhax3m3Q8qaRpDzw,9067
+server_templates-0.1.15.dist-info/LICENSE,sha256=1aYUrsI8JgP7U2jnJSaksxIUGbynNUEqOQCKRBp3qNI,1180
+server_templates-0.1.15.dist-info/METADATA,sha256=nmpYpTlGiExxxRfn9xZauYgAUeiLL5Mo7G-aObRMu94,1858
+server_templates-0.1.15.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+server_templates-0.1.15.dist-info/top_level.txt,sha256=bFs3sEol4vPJKnVaOrGDQl29b0SWV7pb0Fl6vmtNQQk,17
+server_templates-0.1.15.dist-info/RECORD,,
