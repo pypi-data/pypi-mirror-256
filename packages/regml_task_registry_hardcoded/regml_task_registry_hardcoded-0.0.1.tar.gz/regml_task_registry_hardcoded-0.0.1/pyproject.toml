@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "regml_task_registry_hardcoded"
+version = "0.0.1"
+description = "A hardcoded task registry for regml"
+authors = ["Luke Bechtel <lbechtel@regscale.com>"]
+packages = [{ include = "regml_task_registry_hardcoded" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pydantic = "^2.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
