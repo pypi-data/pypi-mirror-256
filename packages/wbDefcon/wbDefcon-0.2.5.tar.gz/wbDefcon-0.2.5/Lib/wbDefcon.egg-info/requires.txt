@@ -1,0 +1,4 @@
+defcon>=0.10.3
+fontParts>=0.12.1
+feaASTools>=0.2.5
+wbBase>=0.2.8
