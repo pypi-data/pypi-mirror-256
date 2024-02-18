@@ -1,0 +1,7 @@
+keystone_keycloak_backend/__init__.py,sha256=BD4AblOypK9pQTjL05IzYlRS50fNIOBzZ311wuf6C7s,579
+keystone_keycloak_backend/config.py,sha256=W-ugLlPEm71UdnJJQGCl02XLcrnxDplEts2OlarToas,1504
+keystone_keycloak_backend/identity.py,sha256=NeClOIE2ChH-sIULVsFyeAYztcJ9V0w3A04ao37y0vU,7534
+keystone_keycloak_backend-0.1.7.dist-info/METADATA,sha256=78mr-2iFO_j6Llw05fxn1z6bhqwKojDcpK3KolQkU4Q,1887
+keystone_keycloak_backend-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+keystone_keycloak_backend-0.1.7.dist-info/entry_points.txt,sha256=CsH7qSMzF5vDLf7uSWR6IghnH9Ld8C5deGJRkULIkm8,72
+keystone_keycloak_backend-0.1.7.dist-info/RECORD,,
