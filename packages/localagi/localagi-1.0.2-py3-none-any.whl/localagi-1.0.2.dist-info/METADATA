@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: localagi
+Version: 1.0.2
+Summary: Experience local Artificial General Intelligence.
+Home-page: https://github.com/hallvardnmbu/localagi.git
+Author: Hallvard Høyland Lavik
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+
+Local AGI (Artificial General Intelligence)
+===========================================
+
+Welcome to the Local AGI package! This is a fun project that simulates an Artificial General
+Intelligence (AGI) running locally on your machine.
+
+What is AGI?
+------------
+
+AGI is a type of artificial intelligence that has the ability to understand, learn, adapt, and
+implement knowledge in a wide range of tasks, much like a human being. It's the holy grail of AI
+research, aiming to create a machine with the ability to perform any intellectual task that a human
+being can do.
+
+Running localagi
+----------------
+
+Import the package through `pip install localagi`. You can then run the AGI through the Python API
+or directly from the command line.
+
+Python API usage:
+```python
+    import localagi
+
+    localagi.load()
+
+    question = "What is the meaning of life?"
+    response = localagi.prompt(question)
+```
+
+Terminal usage:
+```
+    localagi load
+    localagi prompt "What is the meaning of life?"
+```
+
+Enjoy your journey with Local AGI!
