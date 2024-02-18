@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Compiled binaries or executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+
+# Editor backup files
+*~
+
+# Python
+**/__pycache__/
+.pytest_cache
+
+# Specific to this repository
+output/
