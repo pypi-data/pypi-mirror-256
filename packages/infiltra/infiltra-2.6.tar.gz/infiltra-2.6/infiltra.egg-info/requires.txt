@@ -1,0 +1,3 @@
+colorama
+pydig
+ascii_magic
