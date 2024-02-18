@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastanalyzer
+Version: 0.1.1
+Summary: Companion application to analyze data extracted with FastTrack software.
+Home-page: https://github.com/FastTrackOrg/FastAnalyzer
+Author: Benjamin Gallois
+Author-email: benjamin.gallois@fasttrack.sh
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: fastanalysis
+Requires-Dist: PySide6
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: statannotations
