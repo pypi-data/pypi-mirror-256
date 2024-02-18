@@ -1,0 +1,11 @@
+odoo/addons/ssi_commission_work_log/README.rst,sha256=HsaFV8wtXyIAgKiD71-HlqldfDvpfuHa00TWAR69mK4,1261
+odoo/addons/ssi_commission_work_log/__init__.py,sha256=JhPhaZHX2EaxlVGYxnTiJXb4lOWip7fiumVfTPQGruo,200
+odoo/addons/ssi_commission_work_log/__manifest__.py,sha256=DAkKH4x9qAN-nqKA1jeX4Z6XKu5SkQs3tQsP9Qobqg8,547
+odoo/addons/ssi_commission_work_log/models/__init__.py,sha256=qkCbns816_xQo11YcdanrhgoDgski3xpB7x4I0ZB7tE,230
+odoo/addons/ssi_commission_work_log/models/commission.py,sha256=ldBoBo9_gq1Y7s72kLylxeDqlQjXW3kONY9cIeVlRMg,362
+odoo/addons/ssi_commission_work_log/models/marketing_commission.py,sha256=yAUxywiagRsUPu0xqT3biST3kKRiIxgWKXIJw9yEIR0,391
+odoo/addons/ssi_commission_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_commission_work_log-14.0.1.0.0.dist-info/METADATA,sha256=gpCTanJ7Tp_Q1_lIhTZB2FXw-FhgvB9WOJ9AsJQtUb8,1862
+odoo14_addon_ssi_commission_work_log-14.0.1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_commission_work_log-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_commission_work_log-14.0.1.0.0.dist-info/RECORD,,
