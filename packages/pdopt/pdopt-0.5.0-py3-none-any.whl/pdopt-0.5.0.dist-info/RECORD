@@ -1,0 +1,12 @@
+pdopt/__init__.py,sha256=sufYJRgJUwb8MzqxdaY6S5oCj0z59euJHdNQSB-iXc0,100
+pdopt/data.py,sha256=GaTaQCisDX7Ze52jPTcTzQjM1QE4FUnXem_4igHxfJI,39704
+pdopt/exploration.py,sha256=5Pux2IXDNKjozeeurECV2auSjbb4ReoorMnagCMn1hc,25054
+pdopt/optimisation.py,sha256=vDDOxoDWFrw57BrpOvvBBrzuvkRy9rmbGUZ0gSXj5f8,40229
+pdopt/tools.py,sha256=KT3c7Ivt7dIvvk7bSQLX-XLcKbICBkA_49yrLG_JJzs,4265
+pdopt/visualisation.py,sha256=C6_dvRFig52ojRPEekyoU0r3jvLtjAtB3J6HDx6r1P4,53473
+pdopt-0.5.0.dist-info/LICENSE,sha256=NOR4VH8_zUl7gpX9bF_Xwjeo7kPd5FEIgKpLvdK3f4A,1099
+pdopt-0.5.0.dist-info/METADATA,sha256=9c9PUVbBV64W-9RakG1DlcQ9bLaa8vhT40tCa8CQtE8,3548
+pdopt-0.5.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pdopt-0.5.0.dist-info/top_level.txt,sha256=QG-ZQmLkTS8YFzYUulRL0f9bbfWuljLhKHL1IgQfAtw,6
+pdopt-0.5.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pdopt-0.5.0.dist-info/RECORD,,
