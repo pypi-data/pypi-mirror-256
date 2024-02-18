@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xrdpattern
+Version: 0.7.0
+Summary: Python library for XrdPatterns including file import, file export, plotting and postprocessing functionalities
+Home-page: https://github.com/aimat-lab/xrdpattern
+Author: Daniel Hollarek
+Author-email: daniel.hollarek@googlemail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+
