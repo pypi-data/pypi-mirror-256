@@ -1,0 +1,11 @@
+aws_stuff_doer/__init__.py,sha256=ROm7sd0JQsO1xV-ZO4-laCa3BAmZ2Ivs7P6svmArPbw,27
+aws_stuff_doer/aws_stuff_doer.py,sha256=WNq9kxg14DLXdALoi5JI2Q3KVexMEOOgYtLLvAEsw74,8333
+aws_stuff_doer/pipeline/__init__.py,sha256=pZMttkLzETIZNxndY9e0IQ2L1JY5uqM7dcsM528D7us,36
+aws_stuff_doer/pipeline/cloudformation.py,sha256=ZB--0zlrEorXWjnswAm4gjt-p_4N2C8R4S0rb2Ls8Mk,6710
+aws_stuff_doer/pipeline/command_handler.py,sha256=-gjIv1dBj7Fd03kUTVAJTUN8S0JGsAYrAYQao28UsVA,2365
+aws_stuff_doer/pipeline/synth.py,sha256=Q5heqyH-3KJxboTy5ySYRSmaEPlW-vkmoE38HxXHnAI,5584
+aws_stuff_doer-0.0.1.dist-info/LICENSE,sha256=ewsA_NvGoDYHiq2E0LwPriQKxnFEuGyREUnC2qN8n4U,1062
+aws_stuff_doer-0.0.1.dist-info/METADATA,sha256=014j4Q6tTbwhfyPkuLcRudQOPNC03qa9rfn8xT8VNws,3094
+aws_stuff_doer-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aws_stuff_doer-0.0.1.dist-info/entry_points.txt,sha256=SqSVz3cMaove4qkE5AW3uaQRwr_eDkrCs-dREakmi54,58
+aws_stuff_doer-0.0.1.dist-info/RECORD,,

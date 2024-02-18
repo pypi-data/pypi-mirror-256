@@ -1,0 +1,3 @@
+[console_scripts]
+asd=aws-stuff-doer.aws-stuff-doer:main
+
