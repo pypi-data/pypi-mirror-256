@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: music_library_micro
+Version: 0.1.0
+Summary: A media file discovery tool, intended to work alone or fit into a larger toolchain
+Author: Samuel Shiels
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11.5
+Description-Content-Type: text/markdown
+
+# MusicLibrary
+
+A example python application intended to manage Music libraries
+
+# Build
+
+```bash
+python -m build
+python -m twine upload dist/*
+```
