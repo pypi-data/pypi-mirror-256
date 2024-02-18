@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: http-dbus-gateway
+Version: 0.0.1
+Summary: HTTP to DBus Gateway with integrated browser UI
+Author-email: Daniel Dakhno <dakhnod@gmail.com>
+Maintainer-email: Daniel Dakhno <dakhnod@gmail.com>
+Requires-Dist: quart
+Requires-Dist: dbus-next
+Project-URL: Homepage, https://github.com/dakhnod/HTTP-DBus-gateway
+Project-URL: Repository, https://github.com/dakhnod/HTTP-DBus-gateway

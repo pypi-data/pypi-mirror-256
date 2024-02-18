@@ -1,0 +1,44 @@
+.connection-instance {
+    margin: 10px;
+    padding: 2px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+}
+
+.bus-instance {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ddddff;
+    border-radius: 5px;
+}
+
+.path-instance {
+    background-color: #ccccff;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.interface-instance {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    background-color: #bbbbff;
+}
+
+.member-instance {
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    background-color: #9999ff;
+}
+
+@keyframes signal-new {
+    from {
+        background-color: #00ff00aa;
+    }
+
+    to {
+        background-color: #00000000;
+    }
+}
