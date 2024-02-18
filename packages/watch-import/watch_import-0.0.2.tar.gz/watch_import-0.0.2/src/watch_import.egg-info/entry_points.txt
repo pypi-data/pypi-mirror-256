@@ -1,0 +1,2 @@
+[console_scripts]
+watch_import = watch_import.module:watch_args

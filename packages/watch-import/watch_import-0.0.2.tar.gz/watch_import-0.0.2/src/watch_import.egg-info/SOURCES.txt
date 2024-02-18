@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/watch_import/__init__.py
+src/watch_import/module.py
+src/watch_import.egg-info/PKG-INFO
+src/watch_import.egg-info/SOURCES.txt
+src/watch_import.egg-info/dependency_links.txt
+src/watch_import.egg-info/entry_points.txt
+src/watch_import.egg-info/requires.txt
+src/watch_import.egg-info/top_level.txt
