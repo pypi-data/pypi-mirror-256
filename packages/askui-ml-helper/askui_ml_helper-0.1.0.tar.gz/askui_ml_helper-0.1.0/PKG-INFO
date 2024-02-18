@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: askui-ml-helper
+Version: 0.1.0
+Summary: helper lib for askui open source tools
+Author-Email: gitlost-murali <kmanoharmurali@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: Pillow>=10.2.0
+Requires-Dist: torch>=2.2.0
+Requires-Dist: transformers>=4.37.2
+Description-Content-Type: text/markdown
+
+# pta-helper
