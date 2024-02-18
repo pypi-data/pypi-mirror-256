@@ -1,0 +1,2 @@
+[nbdev]
+operation_profile_lib = operation_profile_lib._modidx:d
