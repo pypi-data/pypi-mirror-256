@@ -1,0 +1,11 @@
+click
+pandas
+pytest
+pyarrow
+tqdm
+pyyaml
+toml
+openpyxl
+
+[:platform_system == "Windows"]
+pyreadline3
