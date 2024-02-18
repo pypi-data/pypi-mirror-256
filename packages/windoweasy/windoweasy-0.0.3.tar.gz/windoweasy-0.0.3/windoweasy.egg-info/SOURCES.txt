@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+windoweasy/__init__.py
+windoweasy/palette.py
+windoweasy/windoweasy.py
+windoweasy.egg-info/PKG-INFO
+windoweasy.egg-info/SOURCES.txt
+windoweasy.egg-info/dependency_links.txt
+windoweasy.egg-info/requires.txt
+windoweasy.egg-info/top_level.txt
