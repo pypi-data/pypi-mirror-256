@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Gesys/__init__.py
+Gesys/gesys.cp38-win_amd64.pyd
+Gesys/gestures/__init__.py
+Gesys/gestures/mover.cp38-win_amd64.pyd
+Gesys/gestures/staticGesturesAnalyzer.cp38-win_amd64.pyd
+Gesys/landmarks/__init__.py
+Gesys/landmarks/staticLandmarker.cp38-win_amd64.pyd
+gesys.egg-info/PKG-INFO
+gesys.egg-info/SOURCES.txt
+gesys.egg-info/dependency_links.txt
+gesys.egg-info/requires.txt
+gesys.egg-info/top_level.txt
