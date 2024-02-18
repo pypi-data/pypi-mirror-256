@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Styleguide</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Styleguide">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="assets/scss/style.css" type="text/css" media="all">
+    </head>
+    <body>
+        <aside>
+            <div class="ceotr">
+                <img src="assets/images/ceotr.png" />
+                <h1 class="text-centered">Styleguide</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#goals">Goals</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#design">Design</a></li>
+                    <li><a href="#typography">Typography</a></li>
+                    <li><a href="#colours">Colours</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#buttons">Buttons</a></li>
+                    <li><a href="#form-elements">Form Elements</a></li>
+                    <li><a href="#tables">Tables</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#layout">Layout</a></li>
+                </ul>
+            </nav>       
+        </aside>
+        <main>
+            <div class="main-container">
+                
+                <!-- Introduction -->
+                <div class="introduction">
+                    <h2 id="introduction" class="margin-bottom-2">Introduction</h2>
+                    <p class="font-size-l">The purpse of this styleguide is to create a living, organic document that centralizes the design principles,  guidelines and best practices for all Coastal Environmental Observation Technology and Research properties. As CEOTR continues to grow, the challange will be to maintain a constent and unified experience. This guide includes snippets of front-end code for many elements including typography, colour and buttons. All members of CEOTR will have this guide available to them and are encouraged to keep it up-to-date.</p>
+                </div>
+
+                <!-- Goals -->
+                <div class="goals">
+                    <h2 id="goals" class="margin-bottom-2">Goals</h2>
+                    <div class="flex">
+                        <div>
+                            <img class="goal-image" src="assets/images/unify.svg" />
+                            <p>Unify the design across all CEOTR properties to creating a singluar, strong brand on the web and print.</p>
+                        </div>
+                        <div>
+                            <img class="goal-image" src="assets/images/magic.svg" />
+                            <p>Simplify the design process down to base elements which can be interchanged from one property to another.</p>
+                        </div>
+                        <div>
+                            <img class="goal-image" src="assets/images/gears.svg" />
+                            <p>Decrease the development time of a product by having predfined, high quality pieces of code available for each project.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="design">
+                    <h2 id="design" class="margin-bottom-2">Design</h2>
+                    <h3 id="typography">Typography</h3>
+                    <h4>Typeface</h4>
+                    <section>
+                        <p class="margin-bottom-3">The primary typeface for CEOTR is Nunito, served by <a href="https://fonts.google.com/specimen/Nunito">Google fonts</a>. You will <em>rarely</em> have to actually use this inline or in CSS, however, the options is there for you with <code>font-family-nunito</code>.</p>
+                        <div class="typeface flex">
+                            <div class="typography">
+                                <span class="font-size-xxl">Aa</span><br />
+                                <code>font-weight-regular</code>
+                            </div>
+                            <div class="typography">
+                                <span class="font-size-xxl font-weight-light">Aa</span><br />
+                                <code>font-weight-light</code>
+                            </div>
+                            <div class="typography">
+                                <span class="font-size-xxl font-weight-bold">Aa</span><br />
+                                <code>font-weight-bold</code>
+                            </div>
+                            <div class="typography">
+                                <span class="font-size-xxl font-style-italic">Aa</span><br />
+                                <code>fontStyle-italic</code>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <p class="margin-bottom-3">The secondary typeface is Roboto Mono. Because this is a secondary typeface, there is only one regular style available <code>$font-family-roboto</code> with a default font weight of 400.</p>
+                        <div class="typeface flex">
+                            <div class="typography">
+                                <span class="font-size-xxl font-family-roboto">Aa</span><br />
+                                <code>font-family-roboto</code>
+                            </div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </section>
+
+                    <h4>Font Size</h4>
+                    <section>
+                        <div class="plain-box plain-box--typeface no-wrap">
+                            <p class="font-size-xxxl">Typography is the art of making written language beautiful</p><code>font-size-xxxl</code>
+                            <p class="font-size-xxl">Typography is the art of making written language beautiful</p><code>font-size-xxl</code>
+                            <p class="font-size-xl">Typography is the art of making written language beautiful</p><code>font-size-xl</code>
+                            <p class="font-size-l">Typography is the art of making written language beautiful</p><code>font-size-l</code>
+                            <p class="font-size-m">Typography is the art of making written language beautiful</p><code>font-size-m</code>
+                            <p class="font-size-s">Typography is the art of making written language beautiful</p><code>font-size-s</code>
+                            <p class="font-size-xs">Typography is the art of making written language beautiful</p><code>font-size-xs</code>
+                            <p class="font-size-xxs">Typography is the art of making written language beautiful</p><code>font-size-xxs</code>
+                        </div>
+                    </section>
+
+                    <h3 id="colours">Colour</h3>
+                    <section class="margin-bottom-10">
+                        <div class="color margin-bottom-10">
+                            <div class="primary-colors flex">
+                                <div>
+                                    <div class="color-box primary-light">
+                                        <div class="color-meta">
+                                            <code>$primary-light</code>
+                                            <span class="hex">#97b9d6</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box primary">
+                                        <div class="color-meta">
+                                            <code>$primary</code>
+                                            <span class="hex">#426b8e</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box primary-dark">
+                                        <div class="color-meta">
+                                            <code>$primary-dark</code>
+                                            <span class="hex">#152d42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box color-black">
+                                        <div class="color-meta">
+                                            <code>$black</code>
+                                            <span class="hex">#020b13</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box color-white">
+                                        <div class="color-meta">
+                                            <code>$white</code>
+                                            <span class="hex">#ffffff</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="utility-colors flex">
+                                <div>
+                                    <div class="color-box--small success">
+                                        <div class="color-meta">
+                                            <code>$success</code>
+                                            <span class="hex">#508249</span>
+                                        </div>
+                                    </div>
+                                    <div class="color-box--small success-light">
+                                        <div class="color-meta">
+                                            <code>$success-light</code>
+                                            <span class="hex">#c6dfc2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--small warning">
+                                        <div class="color-meta">
+                                            <code>$warning</code>
+                                            <span class="hex">#eea839</span>
+                                        </div>
+                                    </div>
+                                    <div class="color-box--small warning-light">
+                                        <div class="color-meta">
+                                            <code>$warning-light</code>
+                                            <span class="hex">#ffe1b3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--small alert">
+                                        <div class="color-meta">
+                                            <code>$alert</code>
+                                            <span class="hex">#bf455c</span>
+                                        </div>
+                                    </div>
+                                    <div class="color-box--small alert-light">
+                                        <div class="color-meta">
+                                            <code>$alert-light</code>
+                                            <span class="hex">#fecfd8</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="greyscale flex">
+                                <div>
+                                    <div class="color-box--square color-greyscale-1">
+                                        <div class="color-meta">
+                                            <code>$greyscale-1</code>
+                                            <span class="hex">#34393c</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-2">
+                                        <div class="color-meta">
+                                            <code>$greyscale-2</code>
+                                            <span class="hex">#565b5e</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-3">
+                                        <div class="color-meta">
+                                            <code>$greyscale-3</code>
+                                            <span class="hex">#84898d</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-4">
+                                        <div class="color-meta">
+                                            <code>$greyscale-4</code>
+                                            <span class="hex">#a6acaf</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-5">
+                                        <div class="color-meta">
+                                            <code>$greyscale-5</code>
+                                            <span class="hex">#d3d9dc</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-6">
+                                        <div class="color-meta">
+                                            <code>$greyscale-6</code>
+                                            <span class="hex">#e9eef0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="color-box--square color-greyscale-7">
+                                        <div class="color-meta">
+                                            <code>$greyscale-7</code>
+                                            <span class="hex">#f6f9fa</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Components -->
+                <div class="components">
+                    <h2 id="components" class="margin-bottom-2">Components</h2>
+                    <h3 id="buttons">Buttons</h3>
+                    <div class="buttons flex margin-bottom-5">
+                        <div>
+                            <button class="btn">Default button</button>
+                            <code>.btn</code>
+                        </div>
+                        <div>
+                            <button class="btn btn-light">Light button</button>
+                            <code>.btn .btn-light</code>
+                        </div>
+                        <div>
+                            <button class="btn btn-outlined">Outlined button</button>
+                            <code>.btn .btn-outlined</code>
+                        </div>
+                        <div>
+                            <button class="btn btn-inactive">Inactive button</button>
+                            <code>.btn .btn-inactive</code>
+                        </div>
+                        <div>
+                            <button class="btn btn-danger">Danger button</button>
+                            <code>.btn .btn-danger</code>
+                        </div>
+                    </div>
+
+                    <h3 id="form-elements">Form Elements</h3>
+                    <div class="form-elements">
+                        <h4>Input fields</h4>
+                        <p class="margin-bottom-2">Unless otherwise noted, input fields do not need any class associated with them. For example, for a text field all you need is <code>&lsaquo;input type="text" /&rsaquo;</code> and it will be styled for you.</p>
+
+                        <form>
+                            <div class="flex-3 flex">
+                                <div class="margin-bottom-3">
+                                    <input type="text" placeholder="text box" /><br />
+                                    <code>&lsaquo;input type="text" placeholder="text-box" /&rsaquo;</code>
+                                </div>
+                                <div class="margin-bottom-3">
+                                    <input type="number" placeholder="11" /><br />
+                                    <code>&lsaquo;input type="number" placeholder="11" /&rsaquo;</code>
+                                </div>
+                                <div class="margin-bottom-3">
+                                    <input type="email" placeholder="your@email.address" /><br />
+                                    <code>&lsaquo;input type="email" placeholder="your@email.address" /&rsaquo;</code>
+                                </div>
+                                <div class="margin-bottom-3">
+                                    <input type="password" placeholder="enter password" /><br />
+                                    <code>&lsaquo;input type="password" placeholder="enter password" /&rsaquo;</code>
+                                </div>
+                                <div class="margin-bottom-3">
+                                    <textarea placeholder="Comments..."></textarea><br />
+                                    <code>&lsaquo;textarea placeholder="Comments..."&rsaquo;&lsaquo;/textarea&rsaquo;</code>
+                                </div>
+                                <div class="margin-bottom-3">
+                                    <input type="submit" value="Submit form" class="btn btn-blue"><br />
+                                    <code>&lsaquo;input type="submit" value="Submit form" class="btn btn-blue"&rsaquo;</code>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="flex flex-2">
+                            <div class="margin-bottom-3">
+                                <h4>Option Menu</h4>
+                                <select>
+                                    <option value="" selected disabled>Which movie is the best?</option>
+                                    <option>Pulp Fiction</option>
+                                    <option>Star Wars</option>
+                                    <option>Gattaca</option>
+                                    <option>Back to the Future</option>
+                                    <option>The Matrix</option>
+                                    <option>Idiocracy</option>
+                                    <option>Predator</option>
+                                </select><br />
+                                <code class="code-block">
+                                    &lsaquo;select&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option value="" selected disabled&rsaquo;Which movie is the best?&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Pulp Fiction&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Star Wars&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Gattaca&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Back to the Future&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;The Matrix&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Idiocracy&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Predator&lsaquo;/option&rsaquo;<br />
+                                    &lsaquo;/select&rsaquo;
+                                </code>
+                            </div>
+                            <div class="margin-bottom-3">
+                                <h4>Multiple Option Menu</h4>
+                                <select multiple>
+                                    <option value="" disabled>Which fruits are tasty?</option>
+                                    <option>Apples</option>
+                                    <option>Grapes</option>
+                                    <option>Watermelon</option>
+                                    <option>Oranges</option>
+                                    <option>Pears</option>
+                                    <option>Peaches</option>
+                                    <option>Avocados</option>
+                                    <option>Pinnaple</option>
+                                    <option>Mangos</option>
+                                </select><br />
+                                <code class="code-block">
+                                    &lsaquo;select multiple&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option value="" disabled&rsaquo;Which fruits are tasty?&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Apples&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Grapes&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Watermelon&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Oranges&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Pears&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Peaches&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Avocados&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Pinnaple&lsaquo;/option&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;option&rsaquo;Mangos&lsaquo;/option&rsaquo;<br />
+                                    &lsaquo;/select&rsaquo;
+                                </code>
+                            </div>
+                            <div class="margin-bottom-3">
+                                <h4>Radio Selection</h4>
+                                <div class="radio">
+                                    <p>Which hockey team is the best?</p>
+                                    <ul>
+                                        <li>
+                                            <input type="radio" name="radio" value="montreal" id="montreal" checked>
+                                            <label for="montreal">Montreal Canadiens</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="calgary" id="calgary">
+                                            <label for="calgary">Calgary Flames</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="edmonton" id="edmonton" checked>
+                                            <label for="edmonton">Edmonton Oilers</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="vancouver" id="vancouver">
+                                            <label for="vancouver">Vancouver Canucks</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="ottawa" id="ottawa">
+                                            <label for="ottawa">Ottawa Senators</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="winnipeg" id="winnipeg">
+                                            <label for="winnipeg">Winnipeg Jets</label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" name="radio" value="toronto" id="toronto">
+                                            <label for="toronto">Toronto Maple Leafs</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <code class="code-block">
+                                    &lsaquo;div class="radio"&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;p&rsaquo;Which hockey team is best?&lsaquo;/p&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&lsaquo;ul&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;li&rsaquo;<br />
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;input type="radio" name="radio" value="montreal" id="montreal" checked&rsaquo;<br />
+                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;label for="montreal"&rsaquo;Montreal Canadiens&lsaquo;/label&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;li&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...etc...<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/li&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/li&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&lsaquo;/ul&rsaquo;<br />
+                                        &lsaquo;/div&rsaquo;<br />
+                                </code>
+                            </div>
+                            <div class="margin-bottom-3">
+                                <h4>Checkbox Selection</h4>
+                                <div class="checkbox">
+                                    <p>Which Avengers do you like?</p>
+                                    <ul>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="iron-man" id="iron-man">
+                                            <label for="iron-man">Iron Man</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="captain-america" id="captain-america">
+                                            <label for="captain-america">Captain America</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="hulk" id="hulk">
+                                            <label for="hulk">Hulk</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="spiderman" id="spiderman">
+                                            <label for="spiderman">Spiderman</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="thor" id="thor">
+                                            <label for="thor">Thor</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="black-widow" id="black-widow">
+                                            <label for="black-widow">Black Widow</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" name="checkbox" value="nick-fury" id="nick-fury">
+                                            <label for="nick-fury">Nick Fury</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <code class="code-block">
+                                    &lsaquo;div class="checkbox"&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;p&rsaquo;What is your favourite city?&lsaquo;/p&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;ul&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;li&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;input type="checkbox" name="checkbox" value="montreal" id="montreal"&rsaquo;<br />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;label for="montreal"&rsaquo;Montreal&lsaquo;/label&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;li&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...etc...<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/li&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/li&rsaquo;<br />
+                                        &nbsp;&nbsp;&nbsp;&lsaquo;/ul&rsaquo;<br />
+                                    &lsaquo;/div&rsaquo;<br />
+                                </code>
+                            </div>
+                            <div class="margin-bottom-3">
+                                <h4>Form validation</h4>
+                                <form novalidate id="validation-form" style="border: 1px solid #d3d9dc; border-radius: 5px; padding: 15px; width: auto;">
+                                    <div class="flex-4 flex">
+                                        <div class="margin-bottom-3">
+                                            <input type="text" ng-required="true" /><br />
+                                            <code>&lsaquo;input type="text" ng-required="true" /&rsaquo;</code>
+                                        </div>
+                                        <div class="margin-bottom-3">
+                                            <select ng-required="true">
+                                                <option value="" selected disabled>Pick a number</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                            </select><br/>
+                                            <code>
+                                                &lsaquo;select ng-required="true"&rsaquo;...&lsaquo;/select&rsaquo;
+                                            </code>
+                                        </div>
+                                        <div class="margin-bottom-3">
+                                            <div class="flex">
+                                                <div>
+                                                    <input type="radio" name="radio" value="1" id="radio-1" ng-required="true">
+                                                    <label for="radio-1">Must</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="radio" value="2" id="radio-2" ng-required="true">
+                                                    <label for="radio-2">Pick</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="radio" value="3" id="radio-3" ng-required="true">
+                                                    <label for="radio-3">One</label>
+                                                </div>
+                                            </div>
+                                            <code>
+                                                &lsaquo;div><br/>
+                                                &nbsp;&nbsp;&lsaquo;input type="radio" name="radio" value="1" id="radio-1" ng-required="true"&rsaquo;<br/>
+                                                &nbsp;&nbsp;&lsaquo;label for="radio-1"&rsaquo;Must&lsaquo;/label&rsaquo;<br/>
+                                                &lsaquo;/div><br/>
+                                                ...etc...
+                                            </code>
+                                        </div>
+                                        <div class="margin-bottom-3">
+                                            <div><input type="text" disabled value="Custom validation input" /></div>
+                                            <div class="validation-error">Custom validation message</div>
+                                            <code>
+                                                ...custom input...<br/>
+                                                &lsaquo;div class="validation-error"&rsaquo;Custom validation message&lsaquo;/div&rsaquo;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-blue">Submit form</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 id="tables">Tables</h3>
+                    <table class="table hideColumnFirst-2 hideColumnFirst-6 hideColumnSecond-3 hideColumnSecond-4">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Team</th>
+                                <th>Goals</th>
+                                <th>Assists</th>
+                                <th>Points</th>
+                                <th>Position</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nikita Kucherov</td>
+                                <td>Tampa Bay Lightning</td>
+                                <td>38</td>
+                                <td>83</td>
+                                <td>121</td>
+                                <td>Right Wing</td>
+                            </tr>
+                            <tr>
+                                <td>Connor McDavid</td>
+                                <td>Edmonton Oilers</td>
+                                <td>39</td>
+                                <td>73</td>
+                                <td>112</td>
+                                <td>Centre</td>
+                            </tr>
+                            <tr>
+                                <td>Patrick Kane</td>
+                                <td>Chicago Blackhawks</td>
+                                <td>41</td>
+                                <td>61</td>
+                                <td>102</td>
+                                <td>Right Wing</td>
+                            </tr>
+                            <tr>
+                                <td>Leon Draisaitl</td>
+                                <td>Edmonton Oilers</td>
+                                <td>46</td>
+                                <td>53</td>
+                                <td>99</td>
+                                <td>Centre</td>
+                            </tr>
+                            <tr>
+                                <td>Brad Marchand</td>
+                                <td>Boston Bruins</td>
+                                <td>34</td>
+                                <td>63</td>
+                                <td>97</td>
+                                <td>Left Wing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <code class="code-block">
+                        &lsaquo;div class="table"&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&lsaquo;thead&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;tr&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Name&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Team&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Goals&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Assists&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Points&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;th&rsaquo;Position&lsaquo;/th&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/tr&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&lsaquo;/thead&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&lsaquo;tbody&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;tr&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;Nikita Kucherov&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;Tampa Bay Lightning&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;38&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;83&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;121&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;td&rsaquo;Right Wing&lsaquo;/td&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lsaquo;/tr&rsaquo;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...etc...<br />
+                        &nbsp;&nbsp;&nbsp;&lsaquo;/tbody&rsaquo;<br />
+                        &lsaquo;/div&rsaquo;<br />
+                    </code>
+                </div>
+
+                <!-- Layout -->
+                <div class="layout">
+                    <h2 id="layout" class="margin-bottom-2">Layout</h2>
+                    <p>Coming soon...</p>
+                </div>
+            </div>
+        </main>
+
+        <script>
+            $('a[href^="#"]').on('click', function(event) {
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1500);
+                }
+            });
+
+
+            // Simulate angular-js validation classes
+            $('#validation-form').submit(function(e) {
+                $('#validation-form').addClass('ng-submitted');
+                let inputs = $('#validation-form input[type=text], #validation-form textarea, #validation-form select');
+                for(let i=0; i<inputs.length; i++) {
+                    validateInput(inputs[i]);
+                }
+
+                validateRadios();
+
+                e.stopPropagation();
+                return false;
+            });
+
+            let validateInput = function(input) {
+                if(!input.value) {
+                    $(input).addClass('ng-invalid');
+                } else {
+                    $(input).removeClass('ng-invalid');
+                }
+            };
+
+            let validateRadios = function() {
+                let radios = $('#validation-form input[type=radio]');
+                let radioChecked = false;
+                for(i=0; i<radios.length; i++) {
+                    if(radios[i].checked) {
+                        radioChecked = true;
+                    }
+                }
+                if(radioChecked) {
+                    radios.removeClass('ng-invalid');
+                } else {
+                    radios.addClass('ng-invalid');
+                }
+            };
+
+            $('#validation-form input[type=text], #validation-form select, #validation-form textarea').blur(function(e) {
+                $(e.target).addClass('ng-touched');
+                validateInput(e.target);
+            });
+
+            $('#validation-form input[type=radio]').change(function() {
+                validateRadios();
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,704 @@
+@import 'styleguideVariables';
+@import 'styleguideElements';
+@import 'styleguideObjects';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+}
+
+html, button {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: $greyscale-3;
+}
+
+input, textarea, select, option {
+    box-sizing: border-box;
+}
+
+a {
+    color: $primary;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-dark;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $greyscale-2;
+}
+
+h4 {
+    margin-bottom: 1.25em;
+}
+
+p {
+    line-height: 1.75em;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
+code {
+    background: $greyscale-7;
+    color: #bf455c;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.25em 0.5em;
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+
+    &.flex-2 {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 50%;
+        }
+    }
+
+    &.flex-3 {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 33.33%;
+        }
+    }
+
+    &.flex-4 {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 25%;
+        }
+    }
+}
+
+.flex > * {
+    flex: 1 100%;
+}
+
+.flex-item {
+    box-sizing: border-box;
+    flex: 1;
+    margin: 1em 1em 0 1em;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.code-block {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 960px) {
+    code, .code {
+        white-space: normal;
+    }
+}
+
+
+.ceotr {
+    width: 100%;
+    padding: 4em;
+
+    h1 {
+        margin-top: 0.5em;
+        font-size: $font-size-m;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+aside {
+    background: $greyscale-7;
+    border-right: 1px solid $greyscale-6 ;
+    box-sizing: border-box;
+    color: $greyscale-5;
+    height: 100%;
+    position: fixed;
+    width: 14em;
+}
+
+nav {
+    ul {
+        padding: 0 0 1em 0;
+
+        li {
+            list-style: none;
+            margin-left: 3em;
+            padding: 0 0 1em 0em;
+
+            &:first-child {
+                font-size: $font-size-m;
+                list-style: none;
+                margin-left: 2em;
+                padding: 0 0 1em 0;
+
+                a {
+                    color: $primary-dark;
+                }
+            }
+
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+main {
+    margin-left: 14em;
+
+    .main-container {
+        padding: 6em;
+
+        h2 {
+            font-size: $font-size-xxl;
+        }
+
+        h3 {
+            font-style: $font-size-l;
+            margin-bottom: 1.5em;
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .main-container {
+        padding: 6em 3em;
+    }
+}
+
+
+
+// 1. Introduction
+.introduction {
+    margin-bottom: $margin-bottom-10;
+
+    .goal-image {
+        height: 28px;
+        width: auto;
+    }
+
+    .flex {
+        text-align: center;
+
+        img {
+            margin-bottom: 0.75em;
+        }
+
+        div {
+            margin: 0 1em;
+            padding: 2em 1em 1.25em 1em;
+        }
+
+        p {
+            color: $primary-dark;
+            font-style: $font-size-l;
+            line-height: 1.25em;
+        }
+    }
+}
+
+// 2. Goals
+.goals {
+    margin-bottom: $margin-bottom-10;
+
+    img {
+        margin-bottom: 0.75em; height: 80px; width: auto;
+    }
+
+    div {
+        padding: 0 3em 0 0;
+    }
+
+    p {
+        font-size: $font-size-l;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .introduction p, .goals p {
+        font-size: 1em;
+    }
+}
+
+// 3. Design
+.design {
+    margin-bottom: 15em;
+
+    .plain-box {
+        border: 1px solid $greyscale-6;
+        overflow: hidden;
+        padding: 2em;
+    }
+
+    .plain-box--typeface {
+        padding-top: 0.75em;
+
+        p {
+            color: $greyscale-2;
+        }
+
+        code {
+            display: inline-block;
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// 3.1 Typography
+.typography {
+    color: $greyscale-2;
+    text-align: center;
+    width: 25%;
+}
+
+// 3.2 Colours
+.color {
+    .color-box {
+        border: 1px solid;
+        height: 230px;
+        margin-right: 20px;
+        width: 130px;
+
+        &.primary {
+            background: $primary;
+            border-color: $primary;
+        }
+
+        &.primary-light {
+            background: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &.primary-dark {
+            background: $primary-dark;
+            border-color: $primary-dark;
+        }
+
+        &.color-black {
+            background: $black;
+            border-color: $black;
+        }
+
+        &.color-white {
+            background: $white;
+            border-color: $greyscale-6;
+        }
+
+        .color-meta {
+            padding-top: 240px;
+        }
+    }
+
+    .color-box--small {
+        height: 70px;
+        margin-bottom: 20px;
+        width: 120px;
+
+        &.success {
+            background: $success;
+        }
+
+        &.success-light {
+            background: $success-light;
+        }
+
+        &.warning {
+            background: $warning;
+        }
+
+        &.warning-light {
+            background: $warning-light;
+        }
+
+        &.alert {
+            background: $alert;
+        }
+
+        &.alert-light {
+            background: $alert-light;
+        }
+
+        .color-meta {
+            padding: 0 0 0 130px;
+        }
+    }
+    .color-box--square {
+        height: 50px;
+        width: 80px;
+
+        &.color-greyscale-1 {
+            background: $greyscale-1;
+        }
+
+        &.color-greyscale-2 {
+            background: $greyscale-2;
+        }
+
+        &.color-greyscale-3 {
+            background: $greyscale-3;
+        }
+
+        &.color-greyscale-4 {
+            background: $greyscale-4;
+        }
+
+        &.color-greyscale-5 {
+            background: $greyscale-5;
+        }
+
+        &.color-greyscale-6 {
+            background: $greyscale-6;
+        }
+
+        &.color-greyscale-7 {
+            background: $greyscale-7;
+        }
+
+        .color-meta {
+            padding-top: 60px;
+        }
+    }
+
+    .hex {
+        display: block;
+        font-family: 'Roboto Mono', monospace;
+        font-size: $font-size-xs;
+        padding: 0.25em 0.5em;
+    }
+
+    .utility-colors {
+        margin-top: 6em;
+    }
+
+    .greyscale {
+        margin-top: 6em;
+        white-space: nowrap;
+    }
+}
+
+// 4. Compontents
+.components {
+    margin-bottom: $margin-bottom-10;
+}
+
+// 4.1 Buttons
+.buttons {
+    .btn {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+}
+
+// 4.2 Form Elements
+.form-elements { margin-bottom: $margin-bottom-5; }
+@media only screen and (max-width: 1400px) {
+    .form-elements .flex.flex-3 {
+        & > * {
+            flex: 1 50%;
+        }
+    }
+
+    .form-elements .flex.flex-2 {
+        & > * {
+            flex: 1 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .primary-colors.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 50%;
+            margin-bottom: 6em;
+        }
+    }
+
+    .utility-colors.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 100%;
+        }
+    }
+
+    .greyscale.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 33.33%;
+            margin-bottom: 5em;
+        }
+    }
+
+    .buttons.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 50%;
+            margin-bottom: 2em;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .typeface.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 50%;
+            margin-bottom: 2em;
+        }
+    }
+
+    .form-elements .flex.flex-3 {
+        & > * {
+            flex: 1 100%;
+        }
+    }
+
+    .goals .flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 100%;
+            margin-bottom: 3em;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+    .greyscale.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 100%;
+            margin-bottom: 5em;
+        }
+
+        code {
+            white-space: nowrap;
+        }
+    }
+
+    .buttons.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 100%; margin-bottom: 2em;
+        }
+    }
+
+    .typeface.flex {
+        flex-wrap: wrap;
+
+        & > * {
+            flex: 1 100%; margin-bottom: 2em;
+        }
+    }
+}
+
+// 4.3 Form Validation
+.ng-submitted {
+    input.ng-invalid, textarea.ng-invalid, select.ng-invalid {
+        border: 2px solid $alert;
+    }
+    input[type=radio].ng-invalid~label {
+        color: $alert;
+        font-weight: bold;
+    }
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+    border: 2px solid $alert;
+}
+
+.validation-error {
+    color: $alert;
+    display: none;
+}
+
+.ng-submitted {
+    .validation-error {
+        display: block;
+    }
+}
+
+// ** TODO ** Need to update for consistent layout on page without a sidebar/aside and put in _stylguideElements
+@media only screen and (max-width: 1200px) {
+    .hide-column-first-1 {
+        thead th, tbody td {
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-2 {
+        thead th, tbody td {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-3 {
+        thead th, tbody td {
+            &:nth-child(3) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-4 {
+        thead th, tbody td {
+            &:nth-child(4) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-5 {
+        thead th, tbody td {
+            &:nth-child(5) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-6 {
+        thead th, tbody td {
+            &:nth-child(6) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-7 {
+        thead th, tbody td {
+            &:nth-child(7) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-8 {
+        thead th, tbody td {
+            &:nth-child(8) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-first-9 {
+        thead th, tbody td {
+            &:nth-child(9) {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .hide-column-second-1 {
+        thead th, tbody td {
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-2 {
+        thead th, tbody td {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-3 {
+        thead th, tbody td {
+            &:nth-child(3) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-4 {
+        thead th, tbody td {
+            &:nth-child(4) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-5 {
+        thead th, tbody td {
+            &:nth-child(5) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-6 {
+        thead th, tbody td {
+            &:nth-child(6) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-7 {
+        thead th, tbody td {
+            &:nth-child(7) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-8 {
+        thead th, tbody td {
+            &:nth-child(8) {
+                display: none;
+            }
+        }
+    }
+
+    .hide-column-second-9 {
+        thead th, tbody td {
+            &:nth-child(9) {
+                display: none;
+            }
+        }
+    }
+}

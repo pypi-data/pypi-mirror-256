@@ -1,0 +1,238 @@
+// Buttons
+.btn {
+  border: 1px solid;
+  border-radius: $border-radius-s;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  display: inline-block;
+  color: $white;
+  background-color: $blue;
+  border-color: $blue;
+
+  &:hover {
+    color: $greyscale-7;
+    cursor: pointer;
+    background-color: $teal;
+    border-color: $teal;
+  }
+
+  &.btn-light {
+    background-color: $primary-light;
+    color: $primary-dark;
+    border-color: $primary-light;
+
+    &:hover {
+      background-color: $primary-dark;
+      color: $white;
+      border-color: $primary-dark;
+    }
+  }
+
+  &.btn-outlined {
+    background-color: $white;
+    border-color: $greyscale-5;
+    color: $greyscale-2;
+
+    &:hover {
+      background-color: $primary-dark;
+      border-color: $primary-dark;
+      color: $white;
+    }
+  }
+
+  &.btn-inactive {
+    background-color: $greyscale-6;
+    border-color: $greyscale-5;
+    color: $greyscale-4;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  &.btn-danger {
+    background-color: $white;
+    border-color: $alert;
+    color: $alert;
+
+    &:hover {
+      background-color: $alert;
+      border-color: $alert;
+      color: $white;
+    }
+  }
+}
+
+
+// Forms and inputs
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="file"], input[type="url"], select, textarea {
+  color: $greyscale-2;
+  font-family: $font-family-roboto;
+  font-size: $font-size-xs;
+  margin-bottom: 0.75em;
+  padding: 0.75em 1em;
+  width: 100%;
+  border: 1px solid $greyscale-5;
+  border-radius: $border-radius-s;
+
+  &::placeholder {
+    color: $greyscale-4;
+  }
+
+  &:hover {
+    border-color: $greyscale-4;
+  }
+}
+
+select, label {
+  font-family: $font-family-proxima-nova;
+  font-size: $font-size-xs;
+}
+
+textarea {
+  margin-bottom: 0.5em;
+  height: 10em;
+}
+
+input[type="submit"] {
+  font-family: $font-family-nunito;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+}
+
+// Checkbox and radio inputs
+.checkbox, .radio {
+  p {
+    color: $greyscale-1;
+    font-family: $font-family-roboto;
+    font-size: $font-size-xs;
+    margin-bottom: 1em;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      line-height: 2em;
+    }
+
+    label {
+      color: $greyscale-2;
+    }
+
+    input {
+      opacity: 0;
+      position: absolute;
+
+      & + label {
+        cursor: pointer;
+        padding: 0;
+        position: relative;
+
+        &:before {
+          background-color: $white;
+          border: 0.0625em solid $greyscale-5;
+          content: '';
+          display: inline-block;
+          height: 1.125em;
+          margin-right: 0.5em;
+          vertical-align: text-top;
+          width: 1.125em;
+        }
+      }
+
+      &:hover {
+        & + label {
+          color: $greyscale-1;
+        }
+      }
+
+      &:hover + label:before {
+        background-color: $greyscale-7;
+        border-color: $greyscale-4;
+      }
+
+      &:focus + label:before {
+        box-shadow: 0 0 0 2px $greyscale-6;
+      }
+
+      &:checked {
+        & + label {
+          color: $greyscale-1;
+
+          &:before {
+            background: $white;
+          }
+
+          &:after {
+            background-color: $primary;
+            content: '';
+            height: 0.75em;
+            left: 0.25em;
+            position: absolute;
+            top: 0.25em;
+            width: 0.75em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.checkbox input + label:before {
+  border-radius: $border-radius-s;
+}
+
+.checkbox input:checked + label:after {
+  border-radius: $border-radius-s;
+}
+
+.radio input + label:before {
+  border-radius: 1.125em;
+}
+
+.radio input:checked + label:after {
+  border-radius: 0.75em;
+}
+
+// Tables
+.table {
+  border-collapse: collapse;
+  font-size: $font-size-xs;
+  margin-bottom: 0.75em;
+  text-align: left;
+  width: 100%;
+
+  thead {
+    tr {
+      border-bottom: 0.125em solid $greyscale-5;
+    }
+
+    th {
+      padding: 0.5em;
+      color: $greyscale-1;
+    }
+  }
+
+  tbody {
+    font-family: $font-family-roboto;
+
+    tr {
+      border-bottom: 0.0625em solid $greyscale-6;
+
+      &:hover {
+        background: $greyscale-7;
+        color: $greyscale-1;
+      }
+    }
+
+    td {
+      padding: 0.75em 0.5em;
+    }
+  }
+}
+
+// Transitions
+a, button, input, textarea, select, label, label:before, label:after, tr, .nav-item {
+  transition: all 0.5s ease;
+}
