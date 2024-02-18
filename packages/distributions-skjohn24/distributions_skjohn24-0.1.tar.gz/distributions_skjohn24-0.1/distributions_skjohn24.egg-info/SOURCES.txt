@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_skjohn24/Binomialdistribution.py
+distributions_skjohn24/Gaussiandistribution.py
+distributions_skjohn24/Generaldistribution.py
+distributions_skjohn24/__init__.py
+distributions_skjohn24.egg-info/PKG-INFO
+distributions_skjohn24.egg-info/SOURCES.txt
+distributions_skjohn24.egg-info/dependency_links.txt
+distributions_skjohn24.egg-info/not-zip-safe
+distributions_skjohn24.egg-info/top_level.txt
