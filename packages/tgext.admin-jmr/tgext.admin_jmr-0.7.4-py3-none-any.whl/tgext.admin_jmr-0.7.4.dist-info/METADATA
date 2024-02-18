@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tgext.admin-jmr
+Version: 0.7.4
+Summary: Admin Controller add-on for basic TG identity model.
+Home-page: https://github.com/TurboGears/tgext.admin
+Author: Christopher Perkins
+Author-email: chris@percious.com
+License: MIT
+Keywords: turbogears2.extension,TG2,TG,sprox,Rest,internet,admin
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: setuptools
+Requires-Dist: tgext.crud-jmr >=0.8.2
+
