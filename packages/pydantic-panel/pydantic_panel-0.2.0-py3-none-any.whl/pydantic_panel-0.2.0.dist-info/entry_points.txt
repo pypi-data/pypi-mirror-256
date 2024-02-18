@@ -1,0 +1,3 @@
+[panel.extension]
+pydantic=pydantic_panel
+

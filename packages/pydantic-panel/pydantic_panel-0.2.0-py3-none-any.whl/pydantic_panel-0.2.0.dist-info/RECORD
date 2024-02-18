@@ -1,0 +1,12 @@
+pydantic_panel/__init__.py,sha256=SisLjCnTFEcgAmh-GqTgCqxs1OldJoBBLD__4R6QO_A,2178
+pydantic_panel/dispatchers.py,sha256=TvXohYf8bMi-1g1qU26uEhsw0bs4fzFvyDcC5RIHy3k,6411
+pydantic_panel/numpy.py,sha256=YlLPcFBiCMJot1kEYt6vqtL_FUbR2hF7F_13RHOXflY,983
+pydantic_panel/pandas.py,sha256=WHdso2wuWc7gAa3GiprPU5QOf3eGvOP2f1BRdtLt8G0,3795
+pydantic_panel/pane.py,sha256=Ugq0FwAK5uYqHXx-QvlxEbxrYdoJ84ge7xdy9-54oFo,4857
+pydantic_panel/widgets.py,sha256=R_jLFhHYIZ58hcrTlVXX1bLFT4Ri_w1xFM9iiwzXnMw,20510
+pydantic_panel-0.2.0.dist-info/AUTHORS.rst,sha256=oAYN6Wgcu2VboDp1sRaqzwyDz4NcqjTPgROOjfk-rVA,179
+pydantic_panel-0.2.0.dist-info/LICENSE,sha256=WvQDfQlne5X1PO_irjYEFvlNSmk9npiSuGbo3UiwpMU,1073
+pydantic_panel-0.2.0.dist-info/METADATA,sha256=3jnwYK1yZQWgxvquTx_ZRauNP4zEcJJ833jee5bg43E,7619
+pydantic_panel-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydantic_panel-0.2.0.dist-info/entry_points.txt,sha256=CQmW8_MTemdtl8GLx1yPak6cTD5dAUOVqUzeCbfb4-4,43
+pydantic_panel-0.2.0.dist-info/RECORD,,
