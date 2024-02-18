@@ -1,0 +1,4 @@
+[console_scripts]
+IFEngine = engine.main:main
+clean = tools.clean:main
+live = tools.live:main
