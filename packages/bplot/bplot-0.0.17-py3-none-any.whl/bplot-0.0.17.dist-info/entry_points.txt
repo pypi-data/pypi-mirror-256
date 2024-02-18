@@ -1,0 +1,3 @@
+[console_scripts]
+bplot1d = bplot.plot1d:plot1d
+bplottest = bplot.test:test
