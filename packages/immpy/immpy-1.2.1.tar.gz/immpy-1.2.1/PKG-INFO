@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: immpy
+Version: 1.2.1
+Summary: A package for the management of patterns in indoor mobility data
+Author: Ip2211po
+Author-email: ip2211po@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: Functions implemented: Stop_Detection, Nearest_Poi_Detection, Visit_Detection
+License-File: LICENSE
