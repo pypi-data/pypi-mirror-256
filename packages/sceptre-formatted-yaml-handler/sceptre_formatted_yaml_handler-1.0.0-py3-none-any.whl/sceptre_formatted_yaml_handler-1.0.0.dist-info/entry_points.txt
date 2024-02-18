@@ -1,0 +1,3 @@
+[sceptre.template_handlers]
+formatted_yaml=template_handler.formatted_yaml:FormattedYaml
+

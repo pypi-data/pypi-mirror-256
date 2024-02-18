@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sceptre-formatted-yaml-handler
+Version: 1.0.0
+Summary: A Sceptre template handler for opinionated formatted YAML
+Home-page: https://github.com/Sceptre/sceptre-formatted-yaml-handler
+License: Apache-2.0
+Keywords: sceptre,sceptre-handler
+Author: Mitchell Rowling
+Author-email: 57084321+mrowlingfox@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/Sceptre/sceptre-formatted-yaml-handler
+Description-Content-Type: text/markdown
+
+# README
+
+## Overview
+
+The `formatted_yaml` template handler enhances Sceptre's built-in `File` handler by delivering YAML output that is not only rendered but also reformatted according to an opinionated style aimed at improving readability. This feature is particularly useful for templates that utilize Jinja interpolation, which often introduces unwanted whitespace into the rendered output. By employing the `formatted_yaml` handler, Sceptre users can ensure that their YAML configurations are visually appealing both in the Jinja source code and in the generated output and without spending time navigating Jinja's whitespace management features.
+
+## Installation
+
+Installation instructions
+
+To install directly from PyPI
+```shell
+pip install sceptre-formatted-yaml-handler
+```
+
+To install from the git repo
+```shell
+pip install git+https://github.com/Sceptre/sceptre-formatted-yaml-handler.git
+```
+
+## Usage/Examples
+
+Refer to the
+[Sceptre template handler docs](https://docs.sceptre-project.org/latest/docs/hooks.html#hook-points)
+for more information.
+
+```yaml
+template:
+  type: formatted_yaml
+```
+
