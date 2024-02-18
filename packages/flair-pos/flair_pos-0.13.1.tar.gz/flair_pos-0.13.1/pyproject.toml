@@ -1,0 +1,170 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flair-pos"
+dynamic = ["version"]
+description = "A very simple framework for state-of-the-art NLP"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+authors = [
+    { name = "Alan Akbik", email = "alan.akbik@gmail.com" },
+]
+dependencies = [
+    "bioc<3.0.0,>=2.0.0",
+    "boto3>=1.20.27",
+    "bpemb>=0.3.2",
+    "conllu>=4.0",
+    "deprecated>=1.2.13",
+    "ftfy>=6.1.0",
+    "gdown>=4.4.0",
+    "gensim>=4.2.0",
+    "huggingface-hub>=0.10.0",
+    "janome>=0.4.2",
+    "langdetect>=1.0.9",
+    "lxml>=4.8.0",
+    "matplotlib>=2.2.3",
+    "more-itertools>=8.13.0",
+    "mpld3>=0.3",
+    "pptree>=3.1",
+    "python-dateutil>=2.8.2",
+    "pytorch_revgrad>=0.2.0",
+    "regex>=2022.1.18",
+    "scikit-learn>=1.0.2",
+    "segtok>=1.5.11",
+    "semver<4.0.0,>=3.0.0",
+    "sqlitedict>=2.0.0",
+    "tabulate>=0.8.10",
+    "torch>=1.5.0,!=1.8",
+    "tqdm>=4.63.0",
+    "transformer-smaller-training-vocab>=0.2.3",
+    "transformers[sentencepiece]>=4.18.0,<5.0.0",
+    "urllib3<2.0.0,>=1.0.0",
+    "wikipedia-api>=0.5.7",
+]
+
+[project.urls]
+Homepage = "https://github.com/flairNLP/flair"
+
+[tool.hatch.version]
+path = "flair/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/flair",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["/flair"]
+
+[tool.black]
+line-length = 120
+target-version = ['py37']
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.pytest_cache
+    | build
+    | dist
+    | venv
+  )/
+)
+'''
+[tool.pytest.ini_options]
+addopts = "--black --mypy --ruff"
+filterwarnings = [
+    "error",  # Convert all warnings to errors
+    'ignore:torch.tensor results are registered as constants in the trace. You can safely ignore this warning if you use this function to create tensors out of constant variables',  # Distilbert warning
+    'ignore:TorchScript will treat type annotations of Tensor:UserWarning',  # Torch onnx export warns about it ignoring types, however we still like types.
+    'ignore:Please use `triu` from the `scipy.linalg` namespace, the `scipy.linalg.special_matrices` namespace is deprecated.',  # ignore gensim using deprecated scipy
+    'ignore:bilinear is deprecated and will be removed in Pillow 10',  # huggingface layoutlmv2 has deprecated calls.
+    'ignore:nearest is deprecated and will be removed in Pillow 10',  # huggingface layoutlmv2 has deprecated calls.
+    'ignore:The `device` argument is deprecated and will be removed in v5 of Transformers.',  # hf layoutlmv3 calls deprecated hf.
+    "ignore:the imp module is deprecated:DeprecationWarning:past",  # ignore DeprecationWarning from hyperopt dependency
+    "ignore:.*imp module.*:DeprecationWarning",  # ignore DeprecationWarnings that involve imp module
+    "ignore:The class LayoutLMv3FeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use LayoutLMv3ImageProcessor instead.",  # huggingface layoutlmv3 has deprecated calls.
+    "ignore:pkg_resources",  # huggingface has deprecated calls.
+    'ignore:Deprecated call to `pkg_resources',  # huggingface has deprecated calls.
+    'ignore:distutils Version classes are deprecated.',  # faiss uses deprecated distutils.
+]
+markers = [
+    "integration",
+]
+testpaths = ["flair", "tests"]
+[tool.mypy]
+ignore_missing_imports = true
+disable_error_code = ["annotation-unchecked"]
+exclude = [".git/", ".venv/", "__pycache__", "build", "venv"]
+warn_unused_ignores = true
+
+[[tool.mypy.overrides]]
+module="flair.embeddings.legacy"
+ignore_errors = true
+
+[tool.ruff]
+line-length = 120
+target-version = "py37"
+
+[tool.ruff.lint]
+#select = ["ALL"]    # Uncommit to autofix all the things
+select = [
+  "C4",
+  "COM",
+  "D",
+  "E",
+  "EXE",
+  "F",
+  "I",
+  "INP",
+  "ISC",
+  "NPY",
+  "PD",
+  "PGH",
+  "PIE",
+  "PLE",
+  "PYI",
+  "Q",
+  "RSE",
+  "RUF",
+  "SIM",
+  "T10",
+  "TID",
+  "UP",
+  "W",
+  "YTT",
+]
+
+ignore = [
+  "COM812", # Do not force trailing commas for function argument lists
+  "D100",   # Don't force presence of docstrings (D100-D107)
+  "D101",
+  "D102",
+  "D103",
+  "D104",
+  "D105",
+  "D107",
+  "E501",   # Ignore line too long
+  "RUF012",
+]
+
+unfixable = [
+  "ERA",    # Do not delete commented code
+  "EXE001", # Do not check python files for executability, doesn't work well on windows
+  "EXE002", # Do not check python files for executability, doesn't work well on windows
+  "F841",   # Do not remove unused variables automatically
+]
+
+[tool.ruff.lint.per-file-ignores]
+"flair/embeddings/legacy.py" = ["D205"]
+"scripts/*" = ["INP001"]  #  no need for __ini__ for scripts
+"flair/datasets/*" = ["D417"]  # need to fix datasets in a unified way later.
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pydocstyle]
+match = "^(?!legacy).*\\.py$"
