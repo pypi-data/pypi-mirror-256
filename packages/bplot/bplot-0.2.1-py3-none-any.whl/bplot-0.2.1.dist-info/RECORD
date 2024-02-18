@@ -1,0 +1,11 @@
+bplot/__init__.py,sha256=VPQCtTjDZpCws96i11ks2ZznOJMt6FGPsbG5lG1fLzg,60
+bplot/hist1d.py,sha256=cmnr6dEgu8a9iZIFWGz_p9sdUJUH4n8SoI9M-ueB1l4,3549
+bplot/plot1d.py,sha256=ERRe-qHybsbaTlOa7oTqkg1MHpQ8ln2YOYn_-51z50M,4109
+bplot/scatter1d.py,sha256=JHsoYFxSUDOTkQA7tqXG-ingVYst5EgBV5lY5A_8TAY,4623
+bplot/test.py,sha256=PWsPGvlKKsPUBC3tt0YDRPpu4RvJ90DSBSUL9_DE6yg,179
+bplot-0.2.1.dist-info/LICENSE,sha256=u8ZMamdEWmUi39duyC0momwkUgQ8eBGglNHzcKmzhpI,1072
+bplot-0.2.1.dist-info/METADATA,sha256=t6SSUabXppCReleyifVE35Y2EpOp7hyhjdV_Z_EfSFo,2982
+bplot-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bplot-0.2.1.dist-info/entry_points.txt,sha256=6TSmFEI1UKauA7M2CbmTUc-5tjlmL1D3NwCFMtJuKE8,147
+bplot-0.2.1.dist-info/top_level.txt,sha256=x5ggT316wLIE3SGm9-VG_nkZP9552UXaFoJ2olziouc,6
+bplot-0.2.1.dist-info/RECORD,,
