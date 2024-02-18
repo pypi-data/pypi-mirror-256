@@ -1,0 +1,8 @@
+turn/__init__.py,sha256=kQCpbDqVSmnD42ack_vIJzQq2pgSet1C9DYmxsmxZ7s,30
+turn/client.py,sha256=qQUcMeNeU-hNKYQQHmjw1CFr253cMindj6H87xpWW6w,314
+turn/exceptions.py,sha256=OwiAL-K1XOK8fU9HGCtwzDzQfbN7BTxfw0C_CsjsXQg,338
+turn/request_types.py,sha256=DATtrq3_PUypngtJINwovEaVwSB4tg8Marr5oES3P8U,10218
+turn_python-0.2.0.dist-info/METADATA,sha256=-y_xzem991k6mqppA2t4EluCHLOxwag_c1nJ9G2RbZc,1167
+turn_python-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+turn_python-0.2.0.dist-info/top_level.txt,sha256=dgNt3McRNh3pw1UP_CGGDyZHfhpBySd9UeXvSdwr_YY,5
+turn_python-0.2.0.dist-info/RECORD,,
