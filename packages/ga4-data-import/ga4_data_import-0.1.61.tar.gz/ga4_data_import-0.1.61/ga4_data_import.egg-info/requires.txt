@@ -1,0 +1,14 @@
+google-cloud-compute
+google-cloud-resource-manager
+google-cloud-storage
+google-cloud-workflows
+google-cloud-scheduler
+google-cloud-core
+
+[dev]
+check-manifest
+build
+twine
+
+[test]
+coverage
