@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ghisa
+Version: 0.0.0
+Summary: ghisa is a GitHub Import Stats Analyzer
+Home-page: https://alexandregazagnes.github.io/ghisa/
+License: BSD-3-Clause
+Keywords: python,music,tool,utils,youtube
+Author: AlexandreGazagnes
+Author-email: alex@gazagnes.net
+Maintainer: AlexandreGazagnes
+Maintainer-email: alex@gazagnes.net
+Requires-Python: ==3.10.12
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Changelog, https://alexandregazagnes.github.io/ghisa/CHANGELOG/
+Project-URL: Documentation, https://alexandregazagnes.github.io/ghisa/
+Project-URL: Issues, https://github.com/AlexandreGazagnes/ghisa/issues
+Project-URL: Repository, https://github.com/AlexandreGazagnes/ghisa/tree/main
+Description-Content-Type: text/markdown
+
+# gh-import-stats-analyzer
+gh-import-stats-analyzer
+

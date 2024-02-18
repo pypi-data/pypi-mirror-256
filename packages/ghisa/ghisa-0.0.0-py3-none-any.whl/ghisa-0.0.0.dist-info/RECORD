@@ -1,0 +1,7 @@
+ghisa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghisa/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghisa/core/ghisa.py,sha256=740WZedRFbct0msGDyCwU15MrqZKxugB2LSqt0be2Mc,75
+ghisa-0.0.0.dist-info/LICENSE,sha256=XBaQSvufXR7hNPbVF7c_fIe94GC-KyTxloiaZMuCslw,1505
+ghisa-0.0.0.dist-info/METADATA,sha256=lripEpRCd4ZOATuA1wS4DxmFoSfV3u0cwT-mDLmFSoU,1350
+ghisa-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ghisa-0.0.0.dist-info/RECORD,,
