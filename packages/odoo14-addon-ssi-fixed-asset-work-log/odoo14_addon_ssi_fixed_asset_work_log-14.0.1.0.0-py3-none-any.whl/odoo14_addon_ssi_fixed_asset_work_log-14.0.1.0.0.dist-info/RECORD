@@ -1,0 +1,10 @@
+odoo/addons/ssi_fixed_asset_work_log/README.rst,sha256=-Q3GbcnGGvVreJHm4fnzJywblEyik4ZKm0YurhBSkb8,1321
+odoo/addons/ssi_fixed_asset_work_log/__init__.py,sha256=JhPhaZHX2EaxlVGYxnTiJXb4lOWip7fiumVfTPQGruo,200
+odoo/addons/ssi_fixed_asset_work_log/__manifest__.py,sha256=ShSzEo7fDwCMH0SLIfzS9IDVM-ExCr_-tg5dmqD6Xyw,560
+odoo/addons/ssi_fixed_asset_work_log/models/__init__.py,sha256=2EfGwIBits9znVLl4_6i0Nu3Ha0TraO0wXELcSFNuRM,211
+odoo/addons/ssi_fixed_asset_work_log/models/fixed_asset_asset.py,sha256=TYv1eIbVGQXo429TN6OTd4KibCMd1Jay1Sm3Fbf8dvc,381
+odoo/addons/ssi_fixed_asset_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_fixed_asset_work_log-14.0.1.0.0.dist-info/METADATA,sha256=rhhDVtjR9Sw2HfDOP6Oc9IoO3wphRuqI_c2rrYsTeVY,1936
+odoo14_addon_ssi_fixed_asset_work_log-14.0.1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_fixed_asset_work_log-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_fixed_asset_work_log-14.0.1.0.0.dist-info/RECORD,,
