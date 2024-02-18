@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: model-meter
+Version: 0.1.0
+Summary: Model Meter
+Home-page: https://github.com/dayeondev/ModelMeter
+Author: Dayeon Oh
+Author-email: dayeon.dev@gmail.com
+License: MIT
+Keywords: model meter
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ModelMeter
+
+
