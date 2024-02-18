@@ -1,0 +1,8 @@
+mechanician_openai/__init__.py,sha256=ckyF6EyyKTjYW8Z5Ms4V7Y4NSOzJg3zB1RAAEoJ07o8,113
+mechanician_openai/assistants_ai_connector.py,sha256=2c4tDRO11f5fxHDj33fmRaN2GjgZqWtFaj9sApj80Po,7643
+mechanician_openai/chat_ai_connector.py,sha256=kwrRN8JYbpGsuec9rXIWzRGPy76t6Q3LSfb3jqifjpA,8937
+mechanician_openai/instruction_auto_tuner.py,sha256=2dXKbyUx5qkxw7GvkNJWSLqW278q3gGGH4ulpP3EVu4,1400
+mechanician_openai-0.1.1.dist-info/METADATA,sha256=hsNFZw4pSb4ZftwIr-riOQlMi7oiNRayLnQw9Qjja3c,686
+mechanician_openai-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mechanician_openai-0.1.1.dist-info/top_level.txt,sha256=vpC2CR1FNj9ZYCqwQQU9ksjYOXjzfTvk339WT-s6Xdo,19
+mechanician_openai-0.1.1.dist-info/RECORD,,
