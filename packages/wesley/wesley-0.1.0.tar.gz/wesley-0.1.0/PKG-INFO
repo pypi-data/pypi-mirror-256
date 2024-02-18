@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wesley
+Version: 0.1.0
+Summary: A hungry, hungry black cat
+License: GPLv3
+Author: Mitch Burton
+Author-email: mitch@mitchellburton.ca
+Requires-Python: >=3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Markdown (>=3.5.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Wesley
+
