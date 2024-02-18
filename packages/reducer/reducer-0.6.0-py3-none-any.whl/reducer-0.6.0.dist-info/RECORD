@@ -1,0 +1,15 @@
+reducer/__init__.py,sha256=zv_JmedXudEu_mmWGYtJqN9dkF156Uxrbd3eFa4l9Bg,228
+reducer/_version.py,sha256=ctetqGtbsgBSGyhqAR7DEdE5zVhElDQql71MMyRIkAA,471
+reducer/astro_gui.py,sha256=ZuJnmu2hd4KdFKdlp31ZNyN1C1CAWcRIMRD1nIsGcF4,36131
+reducer/core.py,sha256=0mK1xMqIwTy8fdOYzSNqJgRKT6IsyKicQDFh-grotdI,527
+reducer/gui.py,sha256=G4D0FKGDD8REbBXJKeOEox8Vc7U6r_3lizKirJpxg98,22192
+reducer/image_browser.py,sha256=eLcMcvn_32UsedeER8tH3ISMt4yP7hxaJlcjtOrt-HA,13772
+reducer/notebook_dir.py,sha256=cI0hE9xgjwc28I4cSePDX-hjRV5YEIETRz3JglFAJC4,1053
+reducer/reducer-template.ipynb,sha256=jDAogCudxNwcSjDmzQj7zEDbKvBTFRNFq3wPobUj9Pk,14231
+reducer/data/mini_versions.tbz2,sha256=jqpN5ZGyE-kn1_fbHAx6IWf07tlQINgAHAz1IJs5V0s,11666469
+reducer-0.6.0.dist-info/LICENSE.rst,sha256=dOd0VEu5M_KUr7_4-6Q0nAv4VbV7FC7MRUF6lX827jg,1486
+reducer-0.6.0.dist-info/METADATA,sha256=yzeX19NW1XaH_5S1KSG0maW3C_dFVcNEtxiZnha9zR8,4143
+reducer-0.6.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+reducer-0.6.0.dist-info/entry_points.txt,sha256=MySoY_YreQ4uURkAqThr2SRL3FPyaptYP4R6HoKjylg,41
+reducer-0.6.0.dist-info/top_level.txt,sha256=IEMdGy-QRXbpDVgfp_eCo2HhMLdDjLJZsCuZrPmSdNg,8
+reducer-0.6.0.dist-info/RECORD,,
