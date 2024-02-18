@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/workflow.py
+src/components/__init__.py
+src/preprocess/__init__.py
+src/preprocess/text_summarization.py
+src/video_s_demo.egg-info/PKG-INFO
+src/video_s_demo.egg-info/SOURCES.txt
+src/video_s_demo.egg-info/dependency_links.txt
+src/video_s_demo.egg-info/requires.txt
+src/video_s_demo.egg-info/top_level.txt

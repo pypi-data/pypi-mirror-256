@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: video-s-demo
+Version: 1.0.0
+Summary: A package for video summarization
+Home-page: https://github.com/HieuTrungCao/Video_Summarization.git
+Author: Cao Trung Hieu, Trinh Duc Hiep
+Author-email: hieuhocao@gmail.com, 21020169@vnu.edu.vn
+License: MIT
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+<div align="Center">
+
+# Video Summarization
+
+![python](https://img.shields.io/badge/-Python_3.10-blue?logo=python&logoColor=white)
+[![pytorch](https://img.shields.io/badge/PyTorch_2.0+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+<div/>
+
+<div align="Left">
+
+## ðŸ“ŒÂ Â Introduction
+
+
+<div>
