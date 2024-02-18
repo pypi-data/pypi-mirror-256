@@ -1,0 +1,10 @@
+wodpy/__init__.py,sha256=680-KoA0NZ58lsktOzCNJwbhuqfwZRg2Bd4ard2Nnf0,24
+wodpy/extra.py,sha256=x6Cqe7grFbTcbndM_sMMu8MxA8wIlaIzI0vaPiVypkA,4594
+wodpy/wod.py,sha256=R3Lta4IwVMf5qPWpsXUgFZ-JxKRH7GguP1RniNk1K40,35492
+wodpy/wodfake.py,sha256=z8luPasYBufxKhI3HebzqJZlot_rqzgHLWa151YNytE,3228
+wodpy/wodnc.py,sha256=s1RhgNMFL0arIhdS_93yT06O3q-lisyp5yrXQq0df4I,12474
+wodpy-2.0.0b1.dist-info/LICENSE,sha256=7uwiH0G_SytaDknr3F5TL5Tm18Sccngh3UgZJFNDlYo,1113
+wodpy-2.0.0b1.dist-info/METADATA,sha256=daCGONEudAcwXNttQvdEqTC3rVP5JmrwQiyBjRKaPC4,12999
+wodpy-2.0.0b1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wodpy-2.0.0b1.dist-info/top_level.txt,sha256=uvpoA1zy5EjUyWY2Avl7ywG3HAf_2rQkgMa1Cn5eBAU,6
+wodpy-2.0.0b1.dist-info/RECORD,,
