@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-12 14:29+0100\n"
+"PO-Revision-Date: 2024-02-12 13:47+0000\n"
+"Last-Translator: Jonathan Weth <teckids@jonathanweth.de>\n"
+"Language-Team: German <https://translate.edugit.org/projects/aleksis/"
+"aleksis-app-buelleten/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
+
+#: aleksis/apps/buelleten/apps.py:28
+msgid "Access content for display group"
+msgstr "Inhalt für Display-Gruppe abrufen"
+
+#: aleksis/apps/buelleten/models/base.py:12
+msgid "Name"
+msgstr "Name"
+
+#: aleksis/apps/buelleten/models/base.py:13
+msgid "Slug"
+msgstr "Slug"
+
+#: aleksis/apps/buelleten/models/base.py:16
+msgid "Display Group"
+msgstr "Display-Gruppe"
+
+#: aleksis/apps/buelleten/models/base.py:17
+msgid "Display Groups"
+msgstr "Display-Gruppen"
+
+#: aleksis/apps/buelleten/models/base.py:30
+msgid "Impressive based PDF/image/video display"
+msgstr "Impressive-kompatibles PDF/Bild/Video-Display"
+
+#: aleksis/apps/buelleten/models/base.py:31
+msgid "Website display based on surf browser"
+msgstr "Website-Display basierend auf Surf-Browser"
+
+#: aleksis/apps/buelleten/models/base.py:36
+#: aleksis/apps/buelleten/models/base.py:57
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:8
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:9
+msgid "Display group"
+msgstr "Display-Gruppe"
+
+#: aleksis/apps/buelleten/models/base.py:40
+msgid "Hostname"
+msgstr "Hostname"
+
+#: aleksis/apps/buelleten/models/base.py:41
+msgid "Profile"
+msgstr "Profil"
+
+#: aleksis/apps/buelleten/models/base.py:42
+msgid "Description"
+msgstr "Beschreibung"
+
+#: aleksis/apps/buelleten/models/base.py:45
+msgid "Display"
+msgstr "Display"
+
+#: aleksis/apps/buelleten/models/base.py:46
+msgid "Displays"
+msgstr "Displays"
+
+#: aleksis/apps/buelleten/models/base.py:61
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: aleksis/apps/buelleten/models/base.py:64
+msgid "Slide"
+msgstr "Folie"
+
+#: aleksis/apps/buelleten/models/base.py:65
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:34
+msgid "Slides"
+msgstr "Folien"
+
+#: aleksis/apps/buelleten/models/slides.py:13
+msgid "URL"
+msgstr "URL"
+
+#: aleksis/apps/buelleten/models/slides.py:54
+msgid "Content"
+msgstr "Inhalt"
+
+#: aleksis/apps/buelleten/tables.py:16 aleksis/apps/buelleten/tables.py:31
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: aleksis/apps/buelleten/tables.py:18 aleksis/apps/buelleten/tables.py:33
+#: aleksis/apps/buelleten/tables.py:47
+msgid "Actions"
+msgstr "Aktionen"
+
+#: aleksis/apps/buelleten/tables.py:45
+msgid "Delete"
+msgstr "Löschen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display/create.html:7
+#: aleksis/apps/buelleten/templates/buelleten/display/create.html:8
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:26
+msgid "Create display"
+msgstr "Display erstellen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display/edit.html:7
+#: aleksis/apps/buelleten/templates/buelleten/display/edit.html:8
+msgid "Edit display"
+msgstr "Display bearbeiten"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/create.html:7
+#: aleksis/apps/buelleten/templates/buelleten/display_group/create.html:8
+#: aleksis/apps/buelleten/templates/buelleten/display_group/list.html:17
+msgid "Create display group"
+msgstr "Display-Gruppe erstellen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/edit.html:7
+#: aleksis/apps/buelleten/templates/buelleten/display_group/edit.html:8
+msgid "Edit display group"
+msgstr "Display-Gruppe bearbeiten"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:14
+msgid "Connected displays"
+msgstr "Verbundene Displays"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:17
+msgid "Search"
+msgstr "Suchen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:21
+msgid "Clear"
+msgstr "Zurücksetzen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:37
+msgid "Create slide"
+msgstr "Folie erstellen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/full.html:44
+#, python-format
+msgid "Create %(name)s"
+msgstr "%(name)s erstellen"
+
+#: aleksis/apps/buelleten/templates/buelleten/display_group/list.html:8
+#: aleksis/apps/buelleten/templates/buelleten/display_group/list.html:9
+msgid "Display groups"
+msgstr "Display-Gruppen"
+
+#: aleksis/apps/buelleten/templates/buelleten/slide/create.html:8
+#: aleksis/apps/buelleten/templates/buelleten/slide/create.html:12
+#, python-format
+msgid "Create %(slide)s"
+msgstr "%(slide)s erstellen"
+
+#: aleksis/apps/buelleten/templates/buelleten/slide/edit.html:8
+#: aleksis/apps/buelleten/templates/buelleten/slide/edit.html:12
+#, python-format
+msgid "Edit %(slide)s"
+msgstr "%(slide)s bearbeiten"
+
+#: aleksis/apps/buelleten/views.py:45
+msgid "The display has been created."
+msgstr "Das Display wurde erstellt."
+
+#: aleksis/apps/buelleten/views.py:57
+msgid "The display has been saved."
+msgstr "Das Display wurde gespeichert."
+
+#: aleksis/apps/buelleten/views.py:67
+msgid "The display has been deleted."
+msgstr "Das Display wurde gelöscht."
+
+#: aleksis/apps/buelleten/views.py:116
+msgid "The display group has been created."
+msgstr "Die Display-Gruppe wurde erstellt."
+
+#: aleksis/apps/buelleten/views.py:128
+msgid "The display group has been saved."
+msgstr "Die Display-Gruppe wurde gespeichert."
+
+#: aleksis/apps/buelleten/views.py:138
+msgid "The display group has been deleted."
+msgstr "Die Display-Gruppe wurde gelöscht."
+
+#: aleksis/apps/buelleten/views.py:152
+msgid "The slide has been saved."
+msgstr "Die Folie wurde gespeichert."
+
+#: aleksis/apps/buelleten/views.py:184
+msgid "The slide has been created."
+msgstr "Die Folie wurde erstellt."
+
+#: aleksis/apps/buelleten/views.py:196
+msgid "The slide has been deleted."
+msgstr "Die Folie wurde gelöscht."

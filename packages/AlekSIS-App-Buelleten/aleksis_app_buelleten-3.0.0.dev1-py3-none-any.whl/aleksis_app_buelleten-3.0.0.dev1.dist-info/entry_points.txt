@@ -1,0 +1,3 @@
+[aleksis.app]
+buelleten=aleksis.apps.buelleten.apps:DefaultConfig
+
