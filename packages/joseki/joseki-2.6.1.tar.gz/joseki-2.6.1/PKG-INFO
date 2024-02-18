@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: joseki
+Version: 2.6.1
+Summary: Reference atmospheric thermophysical profiles for radiative transfer applications in Earth's atmosphere.
+Project-URL: changelog, https://github.com/rayference/joseki/blob/main/docs/changelog.md
+Project-URL: documentation, https://rayference.github.io/joseki/latest
+Project-URL: homepage, https://github.com/rayference/joseki
+Project-URL: issues, https://github.com/rayference/joseki/issues
+Project-URL: repository, https://github.com/rayference/joseki
+Author-email: Yvan Nollet <yvan.nollet@rayference.eu>, Vincent Leroy <vincent.leroy@rayference.eu>
+License: LGPLv3
+License-File: LICENSE
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: attrs>=22.2.0
+Requires-Dist: click>=8.1.3
+Requires-Dist: importlib-resources>=5.10.2
+Requires-Dist: netcdf4>=1.6.2
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: pandas>=1.5.2
+Requires-Dist: pint>=0.20.1
+Requires-Dist: scipy>=1.9.3
+Requires-Dist: ussa1976>=0.3.4
+Requires-Dist: xarray>=2022.12.0
+Description-Content-Type: text/markdown
+
+<p align="center">
+<img align="center" alt="Joseki logo" src="logo.svg"  width=100 style="margin-right: 10px; border-radius: 20%"/>
+</p>
+
+# Joseki
+
+Reference atmospheric thermophysical profiles for radiative transfer
+applications in Earth's atmosphere.
+
+[![License: LGPLv3](https://img.shields.io/badge/License-LGPLv3-yellow.svg)](https://opensource.org/license/lgpl-3-0/)
+[![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json)](https://rye-up.com)
+[![code-style-black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![PyPI](https://img.shields.io/pypi/v/joseki)](https://pypi.python.org/pypi/joseki/)
+[![Conda](https://img.shields.io/conda/vn/conda-forge/joseki)](https://anaconda.org/conda-forge/joseki)
+
+This package gathers together datasets of thermophysical properties of the
+Earth's atmosphere relevant for radiative transfer applications, and provides
+utilities to compute common characteristic quantities and perform operations
+such as interpolation and rescaling on a dataset.
+
+## Features
+
+* Available profiles:
+  * *AFGL Atmospheric Constituent Profiles (0-120 km)*
+  * *MIPAS (2007) reference atmospheres*
+  * *U.S. Standard Atmosphere, 1976*
+* NetCDF support thanks to the [xarray](https://xarray.pydata.org) library
+* Documented and standard dataset format based on the
+  [CF conventions](https://cfconventions.org)
+* Dataset schema validation
+* Altitude interpolation/extrapolation and regularization
+* Molecular concentration rescaling
+* Molecules selection
+* Computation of derived quantities
+* Convenient units support thanks to the [pint](https://pint.readthedocs.io)
+  library
+* Command-line interface
+* Python API
+
+## Requirements
+
+* Python 3.8+
+
+## Installation
+
+You can install *Joseki* via [`pip`](https://pip.pypa.io/en/stable/) from
+[`PyPI`](https://pypi.org/):
+
+```shell
+pip install joseki
+```
+
+or via [`conda`](https://docs.conda.io) from
+[`conda-forge`](https://conda-forge.org):
+
+```shell
+conda install -c conda-forge joseki
+```
+
+## Documentation
+
+Visit https://rayference.github.io/joseki/latest.
+
+## Ikigai
+
+*Joseki* was born in the context of the development of the
+[Eradiate](https://github.com/eradiate/eradiate) radiative transfer model, from
+the need to collect, document and trace, integrate and modify *popular*
+thermophysical profiles.
+As such, its features evolve in close relationship to those of *Eradiate*.
+
+## About
+
+Joseki was created by [Yvan Nollet](https://github.com/nollety) and is maintained by [Rayference](https://www.rayference.eu).
+
+Joseki is a component of the [Eradiate radiative transfer model](https://www.eradiate.eu/site/).
+
+Joseki's logo is a simple representation (not to scale!) of the 5 layers of
+Earth's atmosphere (troposphere, stratosphere, mesosphere, thermosphere and
+exosphere).

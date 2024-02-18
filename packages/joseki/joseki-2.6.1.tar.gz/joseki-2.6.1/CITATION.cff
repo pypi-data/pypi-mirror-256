@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Joseki
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yvan
+    family-names: Nollet
+    affiliation: Rayference
+    orcid: 'https://orcid.org/0000-0002-6241-444X'
+  - given-names: Vincent
+    family-names: Leroy
+    affiliation: Rayference
+    orcid: 'https://orcid.org/0000-0002-6241-444X'
+repository-code: 'https://github.com/rayference/joseki'
+url: 'https://rayference.github.io/joseki/2.6.0'
+abstract: >-
+  Reference atmosphere's thermophysical profiles for
+  radiative transfer applications in Earth's atmosphere.
+keywords:
+  - radiative-transfer
+  - atmosphere
+  - atmospheric-science
+  - atmospheric-modelling
+  - thermophysical-properties
+license: LGPLv3
+commit: 81e3396bfffc7ab543418ffd1ff35b9183ce241f
+version: 2.6.0
+date-released: '2023-12-14'
