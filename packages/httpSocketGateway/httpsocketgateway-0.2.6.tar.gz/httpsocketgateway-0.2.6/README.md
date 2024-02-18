@@ -1,0 +1,57 @@
+# Gateway Server or Client
+
+This is client and server code for a gateway between internal and external network. That's to provide a way to communicate between the inside and the outside of network environment.
+
+## Usage
+
+Rceive **http request** with json -> **send json** and **get response in json**.
+
+With **client** you can **send json** to response to an **http request**.
+
+## Example
+
+### Client
+
+#### Send a request
+
+```python
+# Exemple of use
+if __name__ == "__main__":
+    client = WebSocketClient("ws://127.0.0.1:4200/ws", simple=True)
+    client.run()
+    try:
+        # send what you want
+        # client.send({"test": "test"})
+        time.sleep(60)
+    except KeyboardInterrupt:
+        client.close()
+    except Exception as e:
+        print(f"An error occurred: {e}")
+```
+
+#### Get a response
+
+You should override the `process_message` method from `WebSocketClient` class.
+
+```python
+class WebSocketClient(WebSocketBaseClient):
+    def process_message(self, message):
+        print(f"Received: {message}")
+
+# or
+
+client = WebSocketClient("ws://127.0.0.1", simple=True)
+client.run()
+# send what you want
+# client.send({"test": "test"})
+client.close()
+```
+
+**simple** parameter is used to send json without modification to match with the **gateway server**.
+
+With **simple** parameter you can send json to any other server.
+
+
+### Gateway
+
+**TODO**
