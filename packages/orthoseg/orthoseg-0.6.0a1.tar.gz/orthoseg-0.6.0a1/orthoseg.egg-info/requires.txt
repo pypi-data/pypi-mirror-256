@@ -1,0 +1,12 @@
+gdown
+geofileops<0.9,>=0.6
+geopandas<1,>=0.12
+owslib
+pillow
+pycron
+pygeoops<0.4,>=0.2
+rasterio
+segmentation-models<1.1,>=1.0
+shapely>=2
+simplification
+tensorflow<2.11,>=2.7
