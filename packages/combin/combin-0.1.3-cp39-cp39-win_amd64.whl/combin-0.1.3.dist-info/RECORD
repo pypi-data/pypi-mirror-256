@@ -1,0 +1,14 @@
+combin-0.1.3.dist-info/METADATA,sha256=KGnMZe3w54T15L2jmvEGn6V02tqDy0ZyGyEgWwx_Vgk,14318
+combin-0.1.3.dist-info/WHEEL,sha256=8AdrFzOtKQ6LLJ-VyqCU3y1iN8N--fMXYqrdkeTKDn0,83
+combin-0.1.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+_combinatorial.cp39-win_amd64.pyd,sha256=dsDBb-abSm_zZTotsArzToYWNt5gNDWjQ9TDovntMbY,182784
+_combinatorial.cp39-win_amd64.lib,sha256=GfNWp4-l46kqJq1dXBAK8EzwUEvDy-IRMpZZZ85VWR8,1426
+combin/__init__.py,sha256=_6bHivxSGubPz2D9-b_9bfFJ-Yj4V5i_1dknmlU3zN8,1063
+combin/combinatorial.py,sha256=OYaQcOTM8wCOeiLmFBRcpC0VSVZ_5WuoHZZktBl6EHw,9953
+combin/include/combin/combinatorial.h,sha256=a17eBEfeU8GnUh4l_IalKSY_qIXPd2--OXf_PDFbqNk,23942
+combin/include/combin/combin_ranges.h,sha256=yGK4xEa2b91EEIbwhliwk7wMaiuvvHNU4U85mWdxdew,12367
+combin/include/combin/utility/combinations.h,sha256=s8hwM3awG8jk-_E21c0naOqIop6IGc1t5YHdGvIb6I4,3475
+combin/include/combin/utility/discrete.h,sha256=mIn--mglJW2cfiqRMv2K1JDpkWQ5nhILP9pHB1q_lz8,9562
+combin/include/combin/utility/set_utilities.h,sha256=THi9lxNlAwq8MsB_trgOe5RL1yOUakjWFfxk0qqPrd0,9780
+combin/include/combin/utility/short_alloc.h,sha256=sjPC4k4C-OoLn0-mmEAAxAwXC2M2Ld33rxYaKPiJ7UQ,5630
+combin-0.1.3.dist-info/RECORD,,
