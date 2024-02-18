@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_schema_inferer.py
+tests/test_xml_parser.py
+tests/test_xsd_generator.py
+xmltoxsd/__init__.py
+xmltoxsd/schema_inferer.py
+xmltoxsd/xml_parser.py
+xmltoxsd/xsd_generator.py
+xmltoxsd.egg-info/PKG-INFO
+xmltoxsd.egg-info/SOURCES.txt
+xmltoxsd.egg-info/dependency_links.txt
+xmltoxsd.egg-info/requires.txt
+xmltoxsd.egg-info/top_level.txt
