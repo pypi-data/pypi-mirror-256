@@ -1,0 +1,9 @@
+mlx_embedding_models/embedding.py,sha256=U3sTfuTD0Rlt05w1G4c8H7cd9_5I47VQ9lfLK1RBnbo,5592
+mlx_embedding_models/load_utils.py,sha256=5zSFJicIyD39DIqofi9QSKYupqUHeW5aLKMFYatZ1nI,972
+mlx_embedding_models/model.py,sha256=P43jmPxAk1JXVvZKbyP8SGuoqIyAIXGuyjMlEzr1hTA,4335
+mlx_embedding_models/registry.py,sha256=grbkD8tNpSdLsDsT6LYQmkxoR8h0iqOafkgYF7gfMxI,1401
+mlx_embedding_models-0.0.7.dist-info/LICENSE,sha256=CJpF_GwYKDRGDtddKp_x-98oH0quI5VsMrYclI7G-40,1066
+mlx_embedding_models-0.0.7.dist-info/METADATA,sha256=-5teRULm7EtVC43uHEKzfIrH19sy9SrjBbYH56H9JUg,994
+mlx_embedding_models-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mlx_embedding_models-0.0.7.dist-info/top_level.txt,sha256=OqkYuiPS95QFVEzqS4IU8_fgnvbJc2FEsmpFDHbt-ns,21
+mlx_embedding_models-0.0.7.dist-info/RECORD,,
