@@ -1,0 +1,3 @@
+[console_scripts]
+git2swagger = alita_qa.agents.git2swag:git2swagger
+swagger2gherkin = alita_qa.agents.swag2gherkin:swag2gherkin

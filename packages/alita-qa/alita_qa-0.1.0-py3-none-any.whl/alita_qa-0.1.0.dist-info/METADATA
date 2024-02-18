@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: alita_qa
+Version: 0.1.0
+Summary: LLM Agents for solving routine QA Tasks
+Author-email: Artem Rozumenko <artem_rozumenko@epam.com>
+Project-URL: Homepage, https://projectalita.ai
+Project-URL: Issues, https://github.com/ProjectAlita/virtualQA/issues
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: analysta-llm-agents ==0.2.2
+Requires-Dist: python-dotenv ==1.0.1
+
+Demo of virtual QA engineer agents
+
+Have 2 commands
+
+Converts open github repository  to swagger spec files, require org repo branch
+
+```bash
+git2swagger -t "Use repository spring-petclinic/spring-framework-petclinic with branch main It is Java Spring application, please create swagger spec. Deployment URL is https://petclinic.example.com"
+```
+
+Converts swagger files to gherkin test cases
+
+```bash
+swagger2gherkin
+```
+
+Environment requirements
+
+```bash
+AZURE_LLM_ENDPOINT=
+OPENAI_API_KEY=
+OPENAI_API_VERSION=
+DEPLOYMENT_NAME=
+MAX_TOKEN=
+RESULT_PATH=
+GHERKIN_PATH=
+```
