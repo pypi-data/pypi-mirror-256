@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: classical-logic
+Version: 0.1.0
+Summary: Python package for propositional logic.
+Home-page: https://github.com/ederic-oytas/classical-logic
+License: MIT
+Keywords: and,biconditional,conditional,conjunction,connective,disjunction,if and only if,iff,implies,implication,logic,logical connective,negation,not,or,classical logic,proposition,propositional calculus,propositional logic,sentence,sentential calculus,sentential logic,statement logic,zeroth-order logic
+Author: Ederic
+Author-email: edericoytas@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/ederic-oytas/classical-logic
+Description-Content-Type: text/markdown
+
+# classical-logic
+Python package for propositional logic. (WIP)
+
