@@ -1,0 +1,16 @@
+st_map_polygon_extract/__init__.py,sha256=lhI7z5ZgaAxVpXPt5Y6EWWbwwDttzCIr_X-rrDAoxJ8,3321
+st_map_polygon_extract/example.py,sha256=rLuBCkLXPvkZe70eqm6iTkUvuF5oqCgT13m01Z_nf3s,1313
+st_map_polygon_extract/frontend/build/asset-manifest.json,sha256=6WmyYnI1v8X_ERuelterS-CHAA61QK8xV8WZWKr6CFw,465
+st_map_polygon_extract/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+st_map_polygon_extract/frontend/build/index.html,sha256=Ctf0QFIahQ40G42o0gNG1zp8iuaTqXjEv4CA54XD0bQ,553
+st_map_polygon_extract/frontend/build/static/css/main.6d43e5ed.css,sha256=6Cg-e57Pi0-e-IRkNaIdCfMcH98w_yAp8IoT_m-36oc,27334
+st_map_polygon_extract/frontend/build/static/css/main.6d43e5ed.css.map,sha256=nWxLlHXb75_oM05SWp0TSHC7br5V3FkjwSoTrXfJnl4,27635
+st_map_polygon_extract/frontend/build/static/js/main.2d8f45ad.js,sha256=lhZLeY81fYxuBG0a1j6XVaTo9sV5MfQ0uZz7QniSZfY,543070
+st_map_polygon_extract/frontend/build/static/js/main.2d8f45ad.js.LICENSE.txt,sha256=DkpE3BoCYl_lMAz2p1-hr1JRkf59bli1iGrlXBvdzlo,1447
+st_map_polygon_extract/frontend/build/static/js/main.2d8f45ad.js.map,sha256=02GLBTMT6LYqiHpnUCbgY6BVWJPJaM-2qrNgrmSV2o8,2128641
+st_map_polygon_extract/frontend/build/static/media/spritesheet.a4e0eb7ad904a4858361.svg,sha256=cHe66WgEcYCSEyTfNR2V_i8CHNrvoB4gZFFiQC92faQ,5551
+streamlit_map_polygon_extract-0.0.3.dist-info/LICENSE,sha256=9VDWIUfeWnnobvVpN2KtC5cHaNpAmxhdjyF4LivEPNw,1063
+streamlit_map_polygon_extract-0.0.3.dist-info/METADATA,sha256=OVV1Q7TkQc4YoaIzgtmAFjyu7Pfvq6ngWPqzyGDpios,1068
+streamlit_map_polygon_extract-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+streamlit_map_polygon_extract-0.0.3.dist-info/top_level.txt,sha256=PfbTrC-e-X6eF5P4mW7AlEtITJutZgZTPf0Op2hmQuo,23
+streamlit_map_polygon_extract-0.0.3.dist-info/RECORD,,
