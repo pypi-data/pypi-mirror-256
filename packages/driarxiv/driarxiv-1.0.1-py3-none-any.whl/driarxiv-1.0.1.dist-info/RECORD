@@ -1,0 +1,13 @@
+driarxiv/__init__.py,sha256=uX7nUjoTaH0-1f-IG8GRStjYROkNTzAE47bYL66K5vI,50
+driarxiv/build_readme.py,sha256=cOajfGE8ofhSAYLTAYGO-7ect37F9bqLGnlec9jn-k0,8285
+driarxiv/logger_config.py,sha256=M_PcX0FORfxmnW70XgR--ZuNyb1EIk8tLpurEznjgIM,412
+driarxiv/run.py,sha256=31OirQUPaYL6aSLby08EUE8vDrgx4ZZ8jIZ97xX8Nwo,2385
+driarxiv/worker.py,sha256=bJKw-rwHLcorVVQaRsulfv572Fmt_a1B1PdyWJesLnE,5373
+driarxiv/parser/__init__.py,sha256=8-Rve2NvVGXIXun9AtffdqbMW1BxN3LKJ920WVlTO4s,73
+driarxiv/parser/base.py,sha256=ViKnPMcMEmYEdsGY9q6BK6m-YfH44qPbdYzIyDUdyLo,1818
+driarxiv/parser/pdf_worker.py,sha256=da7swI-ehrL5S6yrB21uruAxGjA36WH4aMrBqlZXk0k,2735
+driarxiv-1.0.1.dist-info/METADATA,sha256=RJO_XVso6nMguGXNTCgjRvE9kEqz1-pZqR_Y46MNTOE,460
+driarxiv-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+driarxiv-1.0.1.dist-info/entry_points.txt,sha256=7yW0fANlPS6J2VwGAR4NsBW-uIIidyBfBW_LMv36T-4,47
+driarxiv-1.0.1.dist-info/top_level.txt,sha256=TcgbxEDr6uCJCx123Fz5edRE-dxne1VrXmHYMK7f_mE,9
+driarxiv-1.0.1.dist-info/RECORD,,
