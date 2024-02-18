@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fast-encrypt
+Version: 0.0.2
+Summary: fast-encrypt is a comprehensive Python library that offers a variety of cryptographic methods to protect sensitive data simply and effectively.
+Home-page: https://github.com/Alberto-Frigatto/fast-encrypt
+Author: Alberto Frigatto
+Author-email: albertofrigattoferreira@gmail.com
+Project-URL: Bug Tracker, https://github.com/Alberto-Frigatto/fast-encrypt/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Easy-encrypt
