@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+letterboxdpy_test.egg-info/PKG-INFO
+letterboxdpy_test.egg-info/SOURCES.txt
+letterboxdpy_test.egg-info/dependency_links.txt
+letterboxdpy_test.egg-info/top_level.txt
