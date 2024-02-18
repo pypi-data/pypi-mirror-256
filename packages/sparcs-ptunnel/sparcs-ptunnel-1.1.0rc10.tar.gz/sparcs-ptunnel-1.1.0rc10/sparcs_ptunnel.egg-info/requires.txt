@@ -1,0 +1,6 @@
+prompt_toolkit
+pycryptodome
+click
+flask
+flask_cors
+requests
