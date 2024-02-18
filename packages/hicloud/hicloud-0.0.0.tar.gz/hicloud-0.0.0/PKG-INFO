@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hicloud
+Version: 0.0.0
+Summary: A light weight command line menu that supports Windows, MacOS, and Linux
+Author: yanyue
+Author-email: 1874524491@qq.com
+Keywords: python,hi,cloud,hicloud,windows,mac,linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: getch; platform_system == "Unix"
+Requires-Dist: getch; platform_system == "MacOS"
+
+
+HiCloud
+python工具sdk
