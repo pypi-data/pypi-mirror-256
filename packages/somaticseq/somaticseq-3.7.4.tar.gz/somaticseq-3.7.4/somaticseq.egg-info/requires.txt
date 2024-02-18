@@ -1,0 +1,5 @@
+pysam
+numpy
+scipy
+pandas
+xgboost>=1.4
