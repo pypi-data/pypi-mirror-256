@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: surfaces-dashboard
+Version: 0.0.1
+Home-page: https://github.com/SimonBlanke/Surfaces
+Author: Simon Blanke
+Author-email: simon.blanke@yahoo.com
+License: MIT
+Keywords: visualization,data-science
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: surfaces
+Requires-Dist: streamlit
+Requires-Dist: plotly
+Requires-Dist: streamlit-search-data-visualization
+
+# surfaces-dashboard

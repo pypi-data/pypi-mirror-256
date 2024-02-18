@@ -1,0 +1,12 @@
+surfaces_dashboard/__init__.py,sha256=PN53A2p02eEilRFwE_Vop-M_lWU0DrYz96v62x8nZ8s,121
+surfaces_dashboard/overview_plots.py,sha256=GAKMo5un4a_uY8eEShIf7RWJhUApzQQfyR0aMVp-DoM,788
+surfaces_dashboard/page_setup.py,sha256=vrSqjYfnWRKgsxUxBaJ10cu4Vd-yxXuo3j8LY2HFJ_0,303
+surfaces_dashboard/test_function_1d_page.py,sha256=7zdqilFEYmMgX32pa7aS3zCNviQTa_bxU04_aitTyR4,3116
+surfaces_dashboard/test_function_2d_page.py,sha256=nsOkGNS0ZOZhUvlVaduVNGQ3MndyHj1r9YgcjMrO594,3452
+surfaces_dashboard/test_function_ml_page.py,sha256=mCoJ_dDp2WxBNwf8-DfIQbo_8ZKy03Z9Ht6NUMZ6Y04,4003
+surfaces_dashboard/test_function_nd_page.py,sha256=AiGyNcJ5Idvwxq-ZuuWCnbp18lfGByFBmzDgeE-W5Wg,3949
+surfaces_dashboard-0.0.1.dist-info/LICENSE,sha256=ltVtIusH3y6F8SMbZxpzY73pTFdDBFjXFajwc5JR_v0,1069
+surfaces_dashboard-0.0.1.dist-info/METADATA,sha256=zbT2POwdXTdrRwoHaBYSePFOrg_Q_gD7Ivc6aoj0MN0,1096
+surfaces_dashboard-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+surfaces_dashboard-0.0.1.dist-info/top_level.txt,sha256=ABAOh2NJAT8zxY4g4spSsEEqalgyVJU9qdjxObrVq0Y,19
+surfaces_dashboard-0.0.1.dist-info/RECORD,,
