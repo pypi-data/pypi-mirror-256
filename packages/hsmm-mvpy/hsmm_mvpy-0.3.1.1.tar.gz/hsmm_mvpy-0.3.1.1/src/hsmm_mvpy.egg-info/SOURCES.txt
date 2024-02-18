@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/hsmm_mvpy/setup.py
+src/hsmm_mvpy.egg-info/PKG-INFO
+src/hsmm_mvpy.egg-info/SOURCES.txt
+src/hsmm_mvpy.egg-info/dependency_links.txt
+src/hsmm_mvpy.egg-info/requires.txt
+src/hsmm_mvpy.egg-info/top_level.txt

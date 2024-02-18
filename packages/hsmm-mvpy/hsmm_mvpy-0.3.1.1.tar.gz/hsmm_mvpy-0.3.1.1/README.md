@@ -1,0 +1,1 @@
+DEPRECATED, see https://pypi.org/project/hmp/
