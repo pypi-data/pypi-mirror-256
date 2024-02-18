@@ -1,0 +1,9 @@
+pytyped/macros/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytyped/macros/boxed.py,sha256=R7BlbOQAYTvzhnVZSSOLqtEtoS6rGpOLKVPKiEcrVsw,153
+pytyped/macros/extractor.py,sha256=DGoddzfTg-3YNog_S4TBi4L-QKzpaBYdoQjEGoI2uJQ,22018
+pytyped/macros/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytyped_macros-2.0.0.dist-info/LICENSE,sha256=gg1LRVXDdGhNnPxJPPBXk1BnpdpAUGYZ_FMqMdoNndA,1079
+pytyped_macros-2.0.0.dist-info/METADATA,sha256=kLpXjsn0SgObiPtnxSzIn-R6wtWPM6J7OPtb6wgZw2Y,3333
+pytyped_macros-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytyped_macros-2.0.0.dist-info/top_level.txt,sha256=nCN_uw8pXh6XzOy5p9oar41anr4NWVSsK7zTddAdOJo,8
+pytyped_macros-2.0.0.dist-info/RECORD,,
