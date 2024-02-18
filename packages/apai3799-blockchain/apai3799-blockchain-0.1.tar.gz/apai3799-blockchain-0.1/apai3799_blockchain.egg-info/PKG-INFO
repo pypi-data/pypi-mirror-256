@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: apai3799-blockchain
+Version: 0.1
+Summary: A simple python blockchain package
+Home-page: https://github.com/jkjk101/pyblockchain
+Author: jkjk101
+Author-email: jksm101852@gmail.com
+License: MIT
+License-File: LICENSE
