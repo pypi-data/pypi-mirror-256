@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: refget
+Version: 0.2.0
+Summary: Python client for refget
+Home-page: https://github.com/refgenie/refget
+Author: Nathan Sheffield, Michal Stolarczyk
+Author-email: nathan@code.databio.org
+License: BSD2
+Keywords: genome,assembly,bioinformatics,reference,sequence
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: biopython
+Requires-Dist: henge>=0.2.1
+Requires-Dist: pyfaidx
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: yacman>=0.6.7
+
+# Refget
+
+[![Build Status](https://travis-ci.com/refgenie/refget.svg?branch=master)](https://travis-ci.com/refgenie/refget)
+
+The refget package provides a Python interface to both remote and local use of the refget protocol.
+
+This package provides clients and functions for both refget sequences and refget sequence collections (seqcol).
+
+Documentation is hosted at [refgenie.org/refget](https://refgenie.org/refget/).
