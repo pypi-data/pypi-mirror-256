@@ -1,0 +1,4 @@
+ 
+# streetfighter module
+
+::: streetfighter.streetfighter
