@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: updog-py
+Version: 0.0.1
+Requires-Dist: psycopg2
+Requires-Dist: requests
+Requires-Dist: flask
+
