@@ -1,0 +1,10 @@
+networkx
+numpy
+scikit-learn
+
+[ray]
+ray>=1.11.0
+
+[xai]
+shap
+xarray
