@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+datasette_scribe/__init__.py
+datasette_scribe/schema.sql
+datasette_scribe.egg-info/PKG-INFO
+datasette_scribe.egg-info/SOURCES.txt
+datasette_scribe.egg-info/dependency_links.txt
+datasette_scribe.egg-info/entry_points.txt
+datasette_scribe.egg-info/requires.txt
+datasette_scribe.egg-info/top_level.txt
+datasette_scribe/templates/landing.html
+tests/test_scribe.py
