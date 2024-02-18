@@ -1,0 +1,8 @@
+LICENCE.txt
+README.md
+setup.py
+SimorghOCR.egg-info/PKG-INFO
+SimorghOCR.egg-info/SOURCES.txt
+SimorghOCR.egg-info/dependency_links.txt
+SimorghOCR.egg-info/requires.txt
+SimorghOCR.egg-info/top_level.txt

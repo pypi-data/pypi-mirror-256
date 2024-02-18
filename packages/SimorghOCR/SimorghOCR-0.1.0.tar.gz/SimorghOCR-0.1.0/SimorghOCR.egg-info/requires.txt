@@ -1,0 +1,7 @@
+Pillow
+pytesseract
+python-docx
+pdf2image
+easyocr
+numpy
+customtkinter
