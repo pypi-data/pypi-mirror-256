@@ -1,0 +1,8 @@
+rin_pytorch/__init__.py,sha256=0eI5PHOYw5a-GI9mgOlZ2hDZnzQUOYYw8K1Nz6HTP20,68
+rin_pytorch/attend.py,sha256=Sx8CDShVfzYj879yHGbxJ0KfUqugOtIo7IqwmNB-lwA,3570
+rin_pytorch/rin_pytorch.py,sha256=S_uTikhoAHO5hi3UVuj_a6kvGjWL10H6F41Us0e5jxM,34509
+RIN_pytorch-0.7.10.dist-info/LICENSE,sha256=xZDkKtpHE2TPCAeqKe1fjdpKernl1YW-d01j_1ltkAU,1066
+RIN_pytorch-0.7.10.dist-info/METADATA,sha256=QIcLpIJqd94YorKiq3SZdGPA_Teb8HAGzDhsa1jl5A8,869
+RIN_pytorch-0.7.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+RIN_pytorch-0.7.10.dist-info/top_level.txt,sha256=3lBYebRqGmX8Q-b0k8wCpJvtzivcfkKCILW5oZr5Y-w,12
+RIN_pytorch-0.7.10.dist-info/RECORD,,
