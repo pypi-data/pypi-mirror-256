@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: pyrocatto
+Version: 2.0.114
+Summary: A fork of pyrogram with simplified plugin loader and more
+Home-page: https://github.com/pyrocatto/pyrocatto
+License: LGPLv3
+Keywords: telegram,chat,messenger,mtproto,client
+Author: Dan
+Author-email: dan@pyrogram.org
+Maintainer: devops117
+Maintainer-email: devops117.main@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: speedups
+Requires-Dist: pyaes (==1.6.1)
+Requires-Dist: pysocks (==1.7.1)
+Requires-Dist: tgcrypto (>=1.2.5,<2.0.0) ; extra == "speedups"
+Project-URL: Documentation, https://docs.pyrogram.org
+Project-URL: Repository, https://github.com/pyrocatto/pyrocatto
+Project-URL: Tracker, https://github.com/pyrocatto/pyrocatto/issues
+Description-Content-Type: text/markdown
+
+# Pyrocatto
+
+> A fork with improvements over the good ol' Elegant, and asynchronous Telegram MTProto API framework in Python for users and bots
+
+``` python
+from pyrogram import Client, filters
+
+app = Client("my_account")
+
+
+@app.on_message(filters.private)
+async def hello(client, message):
+    await message.reply("Hello from Pyrogram!")
+
+
+app.run()
+```
+
+### Support
+
+If you'd like to support the parent project, [Pyrogram](https://github.com/pyrogram), you can consider:
+
+- [Become a GitHub sponsor](https://github.com/sponsors/delivrance).
+- [Become a LiberaPay patron](https://liberapay.com/delivrance).
+- [Become an OpenCollective backer](https://opencollective.com/pyrogram).
+
+### Key Features
+
+- **Ready**: Install Pyrogram with pip and start building your applications right away.
+- **Easy**: Makes the Telegram API simple and intuitive, while still allowing advanced usages.
+- **Elegant**: Low-level details are abstracted and re-presented in a more convenient way.
+- **Fast**: Boosted up by [TgCrypto](https://github.com/pyrogram/tgcrypto), a high-performance cryptography library written in C.  
+- **Type-hinted**: Types and methods are all type-hinted, enabling excellent editor support.
+- **Async**: Fully asynchronous (also usable synchronously if wanted, for convenience).
+- **Powerful**: Full access to Telegram's API to execute any official client action and more.
+
+### Installing
+
+``` bash
+pip3 install pyrocatto
+```
+
+### With speedups (like tgcrypto):
+
+``` bash
+pip3 install pyrocatto[speedups]
+```
+
+### Resources (from the parent project)
+
+- Check out the docs at https://docs.pyrogram.org to learn more about Pyrogram, get started right
+away and discover more in-depth material for building your client applications.
+- Join the official channel at https://t.me/pyrogram and stay tuned for news, updates and announcements.
+
