@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+datastreamer_pipeline.egg-info/PKG-INFO
+datastreamer_pipeline.egg-info/SOURCES.txt
+datastreamer_pipeline.egg-info/dependency_links.txt
+datastreamer_pipeline.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: datastreamer-pipeline
+Version: 0.0.1
+Summary: A package to prevent Dependency Confusion attacks
+Home-page: https://datastreamer.io
+Author: Datastreamer
+Author-email: security@datastreamer.io
+Description-Content-Type: text/markdown
+
+This is a security placeholder package.
+If you want to claim this name for legitimate purposes,
+please contact us at security@datastreamer.io
