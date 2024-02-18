@@ -1,0 +1,2 @@
+[console_scripts]
+rok = rok.__main__:main

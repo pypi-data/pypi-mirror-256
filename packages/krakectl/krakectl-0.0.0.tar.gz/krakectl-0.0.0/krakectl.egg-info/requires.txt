@@ -1,0 +1,4 @@
+PyYAML==5.*
+python-dateutil==2.*
+requests==2.*
+texttable==1.*
