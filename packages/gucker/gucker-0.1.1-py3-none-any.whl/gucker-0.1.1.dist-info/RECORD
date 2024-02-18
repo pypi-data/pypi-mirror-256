@@ -1,0 +1,15 @@
+gucker/.arkitekt/.dockerignore,sha256=fYYZCwf7ATpa6e0MCQ18c3L9DunE_Vrr0L899zPk5TA,73
+gucker/.arkitekt/.gitignore,sha256=fYYZCwf7ATpa6e0MCQ18c3L9DunE_Vrr0L899zPk5TA,73
+gucker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gucker/api/schema.py,sha256=fDoUC6bbzDdJnmggf7zrnMbdQ4CumzHonsg42eezdoc,48152
+gucker/assets/idle.png,sha256=Du-aWAa57lbJ9nOZmncrx3YaztkJ5sPE8wt39kq0fdk,4500
+gucker/assets/idle_black.png,sha256=kRmK9W78Bm7xkFnYMM1EfZ6whyh_IPjTLffdr6pQJzQ,4322
+gucker/assets/logo.ico,sha256=K_mztZDg64ksjh8_dI51jzhqyivtWn1bZmDEGBGtxGE,4286
+gucker/assets/watching.png,sha256=CdyUU9tnUxgkKRi9RQtQo92BUgAm-jXB1ZY83-iyPjQ,26655
+gucker/assets/watching_black.png,sha256=nA2BTFdwDnAk6g85UWkikVlnfGMIS51jJDMPXRu7Fs0,23630
+gucker/env.py,sha256=AUXc-a1lSgyZgNNXE0EiuBWzW84Q45tZCkf73UYiGWU,436
+gucker/main.py,sha256=TqKmpJAtMM6Z092OQ3rEHg_mp09BMHjHXLcCZgqsr3g,15504
+gucker-0.1.1.dist-info/METADATA,sha256=D8Pap4baSmEWlEbgetS9O8mro00Xfa_1ePAiOi3v2go,709
+gucker-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+gucker-0.1.1.dist-info/entry_points.txt,sha256=YfBZIFY4oQkjOS9pdEQIV8WapvuTYlF7uqPfcVTatrk,43
+gucker-0.1.1.dist-info/RECORD,,
