@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-sarif
+Version: 0.2.1a1
+Home-page: https://github.com/scribe-security/simple-sarif
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema >=4.21.1
+
+# simple-sarif
+Test description
