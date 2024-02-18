@@ -1,0 +1,9 @@
+dplus_ceres.cp39-win_amd64.pyd,sha256=KBdQ-9uA_M2m0P5HkC3zznfL9KdHxzqd_kSGCDeTkI8,2048512
+dplus_ceres/call_cost_function.pyx,sha256=xGDSF6LPyvrECXo0dsUeaLxIpOOlX0bCyVY5urPXF0M,887
+dplus_ceres/dplus_ceres.pyx,sha256=NiYVD-T-xDfN2I5sCkkK-QBNP0LUfSJUoAA_UTcjtwE,21040
+dplus_ceres/iteration_callback_func.pyx,sha256=d0gWjYDo13g0OnS77tMgfB-vcsD3nRemOa_eqLBj5NQ,987
+dplus_ceres-0.6.0.dist-info/LICENSE,sha256=lqvigvW_kqeeqe1v6yjLxh2B8kKdl8KJiM5wD8Lt6BA,4080
+dplus_ceres-0.6.0.dist-info/METADATA,sha256=9AMjKlO9e_g67hZ-UNcaTm-utNrwCxC0Uhpi9735GE4,5418
+dplus_ceres-0.6.0.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+dplus_ceres-0.6.0.dist-info/top_level.txt,sha256=PPnp3zs0kWR2ZcjougG5bLqlLqlkswRVbOZ4Ho8tXaQ,12
+dplus_ceres-0.6.0.dist-info/RECORD,,
