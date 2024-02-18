@@ -1,0 +1,16 @@
+__paths__.py,sha256=tXBydHXNg5DXS6yHld1accioVDoOjg3M4Ji6dKU0MwU,559
+notebooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/most_discriminating_words/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/most_discriminating_words/most_discriminating_terms.ipynb,sha256=DS7lzwSkT2Z4jyRwSBsqugYzGpjVjh9v0-HgmZUisZ0,2279
+notebooks/most_discriminating_words/most_discriminating_terms.py,sha256=MQAf7H7R6E12VwgAMx2c7pEgYOS4DhPu6Ot4wzI1Rws,935
+notebooks/pos_statistics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/pos_statistics/pos_statistics.ipynb,sha256=WdhKp-FWfripdEVCh5XtiCJuq-H5EmDDyfxnjKsDwdY,2477
+notebooks/pos_statistics/pos_statistics.py,sha256=jeRZawiPEJQdBV22AntnGozNHGXSk4PPaVDXAgDCaYY,1950
+notebooks/topic_modelling/explore_topic_models.ipynb,sha256=avlgX91XgK5zdACHF7Pp2A-t6gLi4HXCL8obBHmuCYE,27656
+notebooks/topic_modelling/explore_topic_models.py,sha256=5s2p0XCHlZNfi2ZKkh_NR5ZyrDG0dZFFTfW4m4DCBlU,5120
+notebooks/word_trends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notebooks/word_trends/word_trends.ipynb,sha256=bUDdDifRCEyAdJL2AAb46isjgSH9JDYecFs05SR44CU,22531
+notebooks/word_trends/word_trends.py,sha256=LzsFOiOGoZpy1BpFJeoSNk7JUu12M63YERmVqiz3YFI,5651
+humlab_disutrano-0.1.1.dist-info/METADATA,sha256=Ym_Jp-i8AouV3go7_yG2-6YAfPua0rv2CAA4lq2tsec,1440
+humlab_disutrano-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+humlab_disutrano-0.1.1.dist-info/RECORD,,
