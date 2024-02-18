@@ -1,0 +1,5 @@
+setup.py
+pippage.egg-info/PKG-INFO
+pippage.egg-info/SOURCES.txt
+pippage.egg-info/dependency_links.txt
+pippage.egg-info/top_level.txt
