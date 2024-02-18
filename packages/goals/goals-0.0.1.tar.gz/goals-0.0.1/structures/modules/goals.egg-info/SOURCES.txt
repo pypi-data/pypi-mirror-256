@@ -1,0 +1,14 @@
+license.s.HTML
+pyproject.toml
+readme.md
+structures/modules/goals/__init__.py
+structures/modules/goals/status_1.py
+structures/modules/goals.egg-info/PKG-INFO
+structures/modules/goals.egg-info/SOURCES.txt
+structures/modules/goals.egg-info/dependency_links.txt
+structures/modules/goals.egg-info/requires.txt
+structures/modules/goals.egg-info/top_level.txt
+structures/modules/goals/_clique/__init__.py
+structures/modules/goals/_clique/group/__init__.py
+structures/modules/goals/_licenses/gpl-3.0-standalone.html
+structures/modules/goals/_status/status.proc.py
