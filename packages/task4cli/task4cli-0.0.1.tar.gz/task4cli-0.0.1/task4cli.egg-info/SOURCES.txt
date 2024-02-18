@@ -1,0 +1,13 @@
+setup.py
+cli-tutorial/__init__.py
+cli-tutorial/main.py
+cli-tutorial/cli_tutor/__init__.py
+cli-tutorial/cli_tutor/cli.py
+cli-tutorial/collect/__init__.py
+cli-tutorial/collect/coll.py
+cli-tutorial/tests/__init__.py
+cli-tutorial/tests/test_sample.py
+task4cli.egg-info/PKG-INFO
+task4cli.egg-info/SOURCES.txt
+task4cli.egg-info/dependency_links.txt
+task4cli.egg-info/top_level.txt
