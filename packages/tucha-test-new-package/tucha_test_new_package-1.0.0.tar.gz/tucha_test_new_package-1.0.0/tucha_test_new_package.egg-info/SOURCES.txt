@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tucha_test_new_package/__init__.py
+tucha_test_new_package/api.py
+tucha_test_new_package/exceptions.py
+tucha_test_new_package/request.py
+tucha_test_new_package.egg-info/PKG-INFO
+tucha_test_new_package.egg-info/SOURCES.txt
+tucha_test_new_package.egg-info/dependency_links.txt
+tucha_test_new_package.egg-info/requires.txt
+tucha_test_new_package.egg-info/top_level.txt
+tucha_test_new_package/Handlers/__init__.py
+tucha_test_new_package/Handlers/standard.py
+tucha_test_new_package/Handlers/transfer.py
+tucha_test_new_package/Handlers/utils.py
