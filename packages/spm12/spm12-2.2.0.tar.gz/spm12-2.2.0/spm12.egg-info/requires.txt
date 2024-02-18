@@ -1,0 +1,17 @@
+argopt
+miutil[nii,web]>=0.12.0
+numpy
+scipy
+
+[:python_version < "3.9"]
+importlib_resources
+
+[demo]
+miutil[plot]>=0.3.0
+matplotlib
+
+[dev]
+pytest>=6
+pytest-cov
+pytest-timeout
+pytest-xdist
