@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ayx-plugin-cli
+Version: 1.2b0
+Summary: The Alteryx command line interface for using Alteryx SDKs.
+Author: Alteryx, Inc.
+Author-email: support@alteryx.com
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: doit (==0.36.0)
+Requires-Dist: pydantic (==1.9.1)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: xmltodict (==0.12.0)
+Requires-Dist: jinja2 (==2.11.2)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: urllib3 (==2.0.7)
+Requires-Dist: pytest (>=5.4.1)
+
+# Alteryx Plugin CLI (ayx-plugin-cli)
+
+## Overview
+
+The AYX Plugin CLI is a command-line interface based on Typer, a tool that 
+helps you build and manage custom plugins for Alteryx Designer. This 
+top-level CLI oversees the creation and metadata of your plugins. It delegates 
+the tasks of creating and building YXIs.
+
+---
+
+#### Disclaimer
+
+*The AYX Python SDK,
+[AYX UI SDK](https://help.alteryx.com/developer-help/ayx-ui-sdk),
+and [AYX Plugin CLI](https://pypi.org/project/ayx-plugin-cli/) are intended for production use on Alteryx Product offerings.
+The latest versions of these SDKs and CLIs require either: Designer 2024.1 (now available in [Public Preview](https://pilotprogram.alteryx.com/welcome/err/Session_Expired_Server_B/lr/0/?ref=%2Fproject%2Farticle%2Fitem.html%3Fcap%3Dd968804d3a3a4408bcb32f4601e03e9f%26arttypeid%3D%7B06039448-6b08-48e6-aa83-24ae55f95f0e%7D%26artid%3D%7BAD93AFDE-C19D-428A-A5C2-2AD62DE77989%7D))
+and Python 3.10.13, or Designer 2023.2 or earlier and Python 3.8.16
+For more information go to https://developer.alteryx.com
+
+Thank you for your interest in the beta versions of Alteryx Platform SDK and CLI 
+(the “Beta Products”). By downloading and using the Beta Products from PyPi,
+you acknowledge that they are provided “as is” and may contain bugs or errors.
+While Alteryx generally does not provide support for the Beta Products, targeted support is
+available for the Python upgrade process using the SDK. You understand the risks
+associated with using the Beta Products, agree to test responsibly, and accept that
+Alteryx disclaims all warranties, whether express or implied. Alteryx may discontinue
+a Beta Product at any time in its sole discretion and there is no guarantee that a Beta
+Product will be incorporated into future Alteryx products.
+
+Release Notes can be found here: https://community.alteryx.com/t5/Alteryx-IO-Resources/Release-Notes/ta-p/1202117*
+
+---
+
+## Licensing
+
+https://www.alteryx.com/alteryx-sdk-and-api-license-agreement
