@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-ws-scoring
+Version: 0.1.2
+Summary: A light weight scoring system for a Django Queryset based on past User Input.
+Home-page: https://github.com/windschatten-it/django-ws-scoring
+Author: windschatten.it
+Author-email: niklas@windschatten.it
+License: MIT
+License-File: LICENSE
+Requires-Dist: Django
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: django-pandas
