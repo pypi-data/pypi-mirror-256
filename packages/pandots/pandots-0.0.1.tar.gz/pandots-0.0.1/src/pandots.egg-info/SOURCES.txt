@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pandots/pandots.py
+src/pandots.egg-info/PKG-INFO
+src/pandots.egg-info/SOURCES.txt
+src/pandots.egg-info/dependency_links.txt
+src/pandots.egg-info/entry_points.txt
+src/pandots.egg-info/requires.txt
+src/pandots.egg-info/top_level.txt
