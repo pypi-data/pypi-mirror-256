@@ -1,0 +1,13 @@
+activity_log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+activity_log/admin.py,sha256=7QdHobKhSUEC71R2h2NjaaU8zY276ZQ7hoYM2aB4vh0,473
+activity_log/conf.py,sha256=rjcpn0suq_hcuARcywTHg_ZbDahd7MrBS84Hs4KQejc,2207
+activity_log/middleware.py,sha256=w_p_BNyKXdFjpHIU6T1xT-2PRyYhVv4fUk0JIToZflE,2950
+activity_log/models.py,sha256=FwkdTELDZpz15N8BNzxb5E5eYDvpQgkJ2HJ9il2EEis,2475
+activity_log/router.py,sha256=GpZzWMHGCtseD484LBI5naqw661a3v35wtYGEGOWYfU,1464
+activity_log/migrations/0001_initial.py,sha256=8sfBG4x-zgKHeN05DoGFnTIWLoVTrYENOfJ0VEjd1eA,1502
+activity_log/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_activity_log-1.0.1.dist-info/LICENSE,sha256=jid1VBLWj5EAneokcjXF4RZpuwweeUKO9Rshj9S2Mls,1081
+django_activity_log-1.0.1.dist-info/METADATA,sha256=jT0HycoqP-bW-q5-RiKfSlv0eHAcvvMlyBoxhl4ORV4,2183
+django_activity_log-1.0.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+django_activity_log-1.0.1.dist-info/top_level.txt,sha256=2NBB-asR3tBMT1rJ7yFJ25MOt3VqKjGFWg8jEIDdAxs,13
+django_activity_log-1.0.1.dist-info/RECORD,,
