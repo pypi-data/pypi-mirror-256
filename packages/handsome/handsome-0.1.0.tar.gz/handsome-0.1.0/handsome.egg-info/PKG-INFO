@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: handsome
+Version: 0.1.0
+Summary: a shiny suit for wrapping fine-looking machine learning models
+Home-page: https://github.com/withtwoemms/handsome
+Author: Emmanuel I. Obi
+Maintainer: Emmanuel I. Obi
+Maintainer-email: withtwoemms@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# handsome
+
+> a shiny suit for wrapping fine-looking machine learning models
+
+[![codecov](https://codecov.io/gh/withtwoemms/handsome/graph/badge.svg?token=7SAGH7XO28)](https://codecov.io/gh/withtwoemms/handsome)
