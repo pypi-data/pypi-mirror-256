@@ -1,0 +1,6 @@
+pytest_fixture_remover/__init__.py,sha256=-3VatMqb3K4nEnaH9JPqmXh69mrJM0wx6mRPh1MCX4s,112
+pytest_fixture_remover/codemod.py,sha256=Ri8_RplRMW8uOd8btcKw6svra7ycN88MFDhnSKzZ4mo,6778
+pytest_fixture_remover-1.0.1.post1.dist-info/LICENSE,sha256=JoTqnqaQzAJiAo_izJMw07zGum9-7ksJLcLXRljD4kQ,1071
+pytest_fixture_remover-1.0.1.post1.dist-info/METADATA,sha256=sfWSi3DF6CUktFBHnV_VQJ5GmlTx2aihEIUpohYQ8Ew,2616
+pytest_fixture_remover-1.0.1.post1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_fixture_remover-1.0.1.post1.dist-info/RECORD,,
