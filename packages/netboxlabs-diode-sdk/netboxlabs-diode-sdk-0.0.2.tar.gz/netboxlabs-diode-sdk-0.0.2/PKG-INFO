@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: netboxlabs-diode-sdk
+Version: 0.0.2
+Summary: NetBox Labs, Diode SDK
+Author-email: NetBox Labs <support@netboxlabs.com>
+Maintainer-email: NetBox Labs <support@netboxlabs.com>
+Project-URL: Homepage, https://netboxlabs.com/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+# Diode SDK Python
+
+## Installation
+
+```bash
+pip install netboxlabs-diode-sdk
+```
+
+## Development notes
+
+```python
+ruff netboxlabs/
+black netboxlabs/
+```
