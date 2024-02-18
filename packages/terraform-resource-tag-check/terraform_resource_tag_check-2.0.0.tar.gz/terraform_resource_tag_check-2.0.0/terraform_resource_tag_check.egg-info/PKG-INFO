@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: terraform-resource-tag-check
+Version: 2.0.0
+Requires-Dist: checkov
