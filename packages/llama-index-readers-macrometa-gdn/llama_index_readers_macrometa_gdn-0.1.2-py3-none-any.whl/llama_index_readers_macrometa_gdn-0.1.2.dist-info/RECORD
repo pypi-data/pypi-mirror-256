@@ -1,0 +1,6 @@
+llama_index/readers/macrometa_gdn/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/readers/macrometa_gdn/__init__.py,sha256=xhFdXOr_Mg0h_lMtz6X2YcS5S1ZIIr-9gZJ_hz3YWSw,104
+llama_index/readers/macrometa_gdn/base.py,sha256=BpubhUA1I00g4621P_QZiaADRdayHOzbwD6G15Npp94,2770
+llama_index_readers_macrometa_gdn-0.1.2.dist-info/METADATA,sha256=mJfn02XXxkbN8NYa3YIpqeOnUu-hUHKQPuNfwpMRQmw,1180
+llama_index_readers_macrometa_gdn-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_macrometa_gdn-0.1.2.dist-info/RECORD,,
