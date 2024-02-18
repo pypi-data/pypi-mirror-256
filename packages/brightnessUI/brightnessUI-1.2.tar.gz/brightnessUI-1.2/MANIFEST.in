@@ -1,0 +1,8 @@
+include README.md
+include CHANGELOG.md
+include LICENSE
+include install.sh
+recursive-include brightnessUI/image *
+recursive-include brightnessUI/ui *
+recursive-include brightnessUI/install *
+recursive-include pictures *
