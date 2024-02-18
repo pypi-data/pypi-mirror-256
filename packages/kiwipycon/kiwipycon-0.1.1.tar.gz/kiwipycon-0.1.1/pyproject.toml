@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kiwipycon"
+version = "0.1.1"
+description = ""
+authors = ["Tom Eastman <tom@eastman.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+kiwipycon = "kiwipycon:entry_point"
