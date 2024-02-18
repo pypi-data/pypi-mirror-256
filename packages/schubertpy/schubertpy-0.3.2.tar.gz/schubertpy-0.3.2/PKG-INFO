@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: schubertpy
+Version: 0.3.2
+Summary: A brief description of your package
+Home-page: https://github.com/tranduythanh/schubertpy
+Author: Trần Duy Thanh
+Author-email: fbtranduythanh@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# schubertpy
+
+https://sites.math.rutgers.edu/~asbuch/qcalc/
