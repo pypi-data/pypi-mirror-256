@@ -1,0 +1,9 @@
+pydbuilder/__init__.py,sha256=CShY35DXRecHMgmvpiSiVXlSa2ayyaxPMdBMBGFVfx4,68
+pydbuilder/language.json,sha256=_s1CRrgR7AXuuDlWCH_bbaDsYSUwmLURfcUTC9wkTCY,5033
+pydbuilder/pydbuilder.py,sha256=EPF62Z610mpCBCCqcZhlzemng3LjQhUj2u-SBJ-b9wA,8730
+pydbuilder/settings.json,sha256=pyfDx0KgTm3Vx6jqoXy6md6KcLx7aPtZ5MDfQ7A5_4Q,42
+pydbuilder-1.0.18.dist-info/METADATA,sha256=GyhfTVPKUztI-wZJYClVOxruPLi4Pmu3galykVBEF_Y,1115
+pydbuilder-1.0.18.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydbuilder-1.0.18.dist-info/entry_points.txt,sha256=-zEc8z7Edhh5pMe09g2eXCC53wC5maoAsQ2DdQ7Izbc,58
+pydbuilder-1.0.18.dist-info/top_level.txt,sha256=gOw_vMAej3rsI9sz7_oABQ6KAzCr-h_2MXJbq4Qw_08,11
+pydbuilder-1.0.18.dist-info/RECORD,,
