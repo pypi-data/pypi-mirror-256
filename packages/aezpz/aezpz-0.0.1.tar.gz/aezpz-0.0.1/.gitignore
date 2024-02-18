@@ -1,0 +1,6 @@
+*.ipynb
+auth.json
+__pycache__
+sandbox.py
+.jupyter
+site/
