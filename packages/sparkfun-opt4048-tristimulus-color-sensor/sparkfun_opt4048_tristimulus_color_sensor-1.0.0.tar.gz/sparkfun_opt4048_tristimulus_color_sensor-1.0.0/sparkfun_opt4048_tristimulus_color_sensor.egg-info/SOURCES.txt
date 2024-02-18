@@ -1,0 +1,10 @@
+LICENSE
+README.md
+qwiic_opt4048.py
+setup.cfg
+setup.py
+sparkfun_opt4048_tristimulus_color_sensor.egg-info/PKG-INFO
+sparkfun_opt4048_tristimulus_color_sensor.egg-info/SOURCES.txt
+sparkfun_opt4048_tristimulus_color_sensor.egg-info/dependency_links.txt
+sparkfun_opt4048_tristimulus_color_sensor.egg-info/requires.txt
+sparkfun_opt4048_tristimulus_color_sensor.egg-info/top_level.txt
