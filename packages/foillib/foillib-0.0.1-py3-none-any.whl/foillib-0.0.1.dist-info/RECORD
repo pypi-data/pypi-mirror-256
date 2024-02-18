@@ -1,0 +1,14 @@
+foillib/__about__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+foillib/__init__.py,sha256=RnPUF1TcVcm2gzma4oMwPSv-ipsUhx9H8LiGB9R47ig,85
+foillib/_common.py,sha256=vU5s2DS9ItMEdgUix5l6mDsbH0fNzPG3-NZlsByw1W4,511
+foillib/_naca4.py,sha256=HClgct3QkVAaNoLqBEaRYWOlqGvplzhwrI8-dt-n4wE,1778
+foillib/_naca5.py,sha256=bHGM44NguU5aj6w0mSUVpzkt9Ya-GrGSNRA-4szt4GI,3408
+foillib/_naca_common.py,sha256=7_DVRooa1Q36hoksjRuiQ_PekHSYkJL4PXjd2BqBOGA,640
+foillib/_types.py,sha256=ufxO8vAYVMYOointN0CUhZh5FovkEdTXRbWW97gcBdY,112
+foillib/bezier.py,sha256=zxLC-M1orz2A05NmcoTefOp--Nz0yzXbmZGxOqAN4ms,4149
+foillib/naca.py,sha256=qOUL1Uxyj4oAjl27V0jO2kafIpA4zPBXRSn1UUNFrHE,1006
+foillib-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+foillib-0.0.1.dist-info/METADATA,sha256=9X5ho0uBwSCvqIh49qVu-8u_G-DPxsBdznMHS0hFjA8,45674
+foillib-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+foillib-0.0.1.dist-info/top_level.txt,sha256=LrlNOyv0BXiWmBLw8BBhPvRZugrM8BzIm3x6jrtU8bI,8
+foillib-0.0.1.dist-info/RECORD,,
