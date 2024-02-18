@@ -1,0 +1,13 @@
+
+[docs]
+numpydoc
+Sphinx<7.0.0
+sphinx-autobuild
+sphinx_rtd_theme
+
+[test]
+isort
+mypy
+pytest
+pyupgrade
+ruff
