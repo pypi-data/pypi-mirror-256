@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SMT Mongo Metric Reader</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <!-- jQuery Core -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+    <!-- jQueryUI Dependency -->
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- Main Entrypoint to Script for this page. -->
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div id="page">
+      <header>
+        <h2>SmartMeter Texas Meter Reader</h2>
+        <p>
+          This chart shows data collected from the SmartMeter reader stored in the configured mongodb.
+          This software allows the overlay of additional data to draw correlations from other related
+          data that can be overlayed on top of this line chart.
+        </p>
+      </header>
+      <controls>
+        From Date: <input type="text" id="fdate" />&nbsp;&nbsp;
+        To Date: <input type="text" id="tdate" /><br />
+
+      </controls>
+      <div id="mychart" style="width: 80%; height: 800px"></div>
+    </div>
+  </body>
+</html>

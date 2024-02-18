@@ -1,0 +1,8 @@
+PyYAML
+cherrypy
+dateparser
+jinja2
+kizano
+pymongo
+python-gnupg
+requests

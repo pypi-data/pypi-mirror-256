@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: smartmetertx2mongo
+Version: 1.1.4
+Summary: Implementation of smartmetertx to save records to mongodb with config driven via YAML.
+Home-page: https://markizano.net/
+Author: Markizano Draconus
+Author-email: markizano@markizano.net
+License: GNU
