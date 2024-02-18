@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: nano-profiler
+Version: 0.2.1
+Summary: Very simple profiler of time execution
+Home-page: https://github.com/EvgeniyMakhmudov/nano_profiler
+Author: Makhmudov Evgeniy
+Author-email: john_16@list.ru
+License: MIT
+Description: See README.md for details
+Keywords: profiler
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
