@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: MAMMOth-commons
+Version: 0.0.4
+Summary: Component interfaces of the MAMMOth fairness toolkit.
+Home-page: https://github.com/mammoth-eu/mammoth-commons
+Author: Emmanouil (Manios) Krasanakis
+Author-email: maniospas@hotmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: fairbench
+Requires-Dist: PyYAML
+Requires-Dist: kfp
+
+# MAMMOth-commons
+
+Component interfaces of the MAMMOth fairness toolkit.
+
+**This package is in the pre-alpha stage.**
+
+## How to create a new component
+
+Install the latest version of `MAMMOth-commons`
+in your virtual environment:
+
+```bash
+pip install --upgrade MAMMOth-commons
+```
+
+You are now ready to write and deploy a MAMMOth component. 
+Follow these steps - you can find examples below:
+
+1. Import the necessary dataset or model classes
+from the `mammoth.datasets`
+and `mammoth.models` namespace respectively. 
+Use them to annotate your method's argument
+and return types. *Type annotations are mandatory for 
+datasets and models.*
+3. You may also add keyword arguments that serve
+as parameters with default values, which don't require annotation.
+4. Don't forget to create a docstring for your component.
+5. Decorate your component with either the 
+`@mammoth.integration.metric(version, python="3.11")` or 
+the `@mammoth.integration.loader(version, python="3.11")` decorator. 
+These decorators require at least one argument to denote
+the component's version.
+6. Create a technical component by running the following
+command (to run this, also run `pip install docker` first):
+
+```bash
+kfp component build . --component-filepattern test.py --no-push-image
+```
+
+## Metric decorator
+
+This is how to define a metric component:
+
+```python
+from mammoth.datasets import CSV
+from mammoth.models import ONNX
+from mammoth.exports import Markdown
+from typing import Dict, List
+from mammoth.integration import metric
+
+
+@metric(version="v001")
+def new_metric(
+    dataset: CSV,
+    model: ONNX,
+    sensitive: List[str],
+    parameters: Dict[str, any] = None,
+) -> Markdown:
+    """Write your metric's description here.
+    """
+    return Markdown("these are the results")
+
+```
+
+
+
+## Loader decorator
+
+This is how to define a dataset or model loader component:
+
+```python
+from mammoth.datasets import CSV
+from mammoth.integration import loader
+
+@loader(version="v001", python="3.11")
+def data_csv_loader(
+    path: str,
+    delimiter: str = ",",
+) -> CSV:
+    """This is a CSV loader.
+    """
+    # load from path given delimiter or other arguments
+    return CSV(
+        ...  # add arguments here
+    )
+```
