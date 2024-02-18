@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cloudmusic_list_downloader/__init__.py
+cloudmusic_list_downloader/cmd.py
+cloudmusic_list_downloader/encode_sec_key.py
+cloudmusic_list_downloader/global_args.py
+cloudmusic_list_downloader.egg-info/PKG-INFO
+cloudmusic_list_downloader.egg-info/SOURCES.txt
+cloudmusic_list_downloader.egg-info/dependency_links.txt
+cloudmusic_list_downloader.egg-info/entry_points.txt
+cloudmusic_list_downloader.egg-info/requires.txt
+cloudmusic_list_downloader.egg-info/top_level.txt
