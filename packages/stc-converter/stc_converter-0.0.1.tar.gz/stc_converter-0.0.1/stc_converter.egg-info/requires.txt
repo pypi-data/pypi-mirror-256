@@ -1,0 +1,14 @@
+certifi
+charset-normalizer
+click
+colorama
+idna
+joblib
+nltk
+PyAudio
+regex
+requests
+SpeechRecognition
+tqdm
+typing_extensions
+urllib3
