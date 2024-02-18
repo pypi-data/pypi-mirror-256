@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/laser_pkg.egg-info/PKG-INFO
+src/laser_pkg.egg-info/SOURCES.txt
+src/laser_pkg.egg-info/dependency_links.txt
+src/laser_pkg.egg-info/top_level.txt
