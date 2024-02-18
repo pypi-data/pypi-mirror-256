@@ -1,0 +1,2 @@
+[datasette]
+enrichments_ollama = datasette_enrichments_ollama
