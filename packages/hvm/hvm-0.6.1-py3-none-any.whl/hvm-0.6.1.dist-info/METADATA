@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hvm
+Version: 0.6.1
+Summary: Static Python AOT Compiler
+Home-page: https://github.com/gottingen/hvm
+Author: EA Team
+Author-email: lijippy@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: astpretty (<3.0.0,>=1.0)
+Requires-Dist: msgpack (<2.0.0,>=1.0.0)
+Requires-Dist: numpy (<2.0.0,>=1.6)
+Requires-Dist: prettytable (<4.0.0,>=1.0)
+Requires-Dist: sympy (<2.0,>=1.0)
+
+UNKNOWN
+
+
