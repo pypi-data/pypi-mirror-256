@@ -1,0 +1,11 @@
+Gesys/__init__.py,sha256=Kjl-3lUiirqyapwNhFNKyHbmXyy4G_yy5vrcXQBOI20,71
+Gesys/gesys.cp38-win_amd64.pyd,sha256=rDMRknsiKuheDv2fBs1bLuvq330eZ1yy8LCGkYdAo5E,318976
+Gesys/gestures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Gesys/gestures/mover.cp38-win_amd64.pyd,sha256=f24mUkY2jzwlMUKPEwWufwi1LvhmWI0Cf4YiM90LaFk,334848
+Gesys/gestures/staticGesturesAnalyzer.cp38-win_amd64.pyd,sha256=W38TvKFO-EeuP8JRsS_k7IEGtVJu8D4oVwnLbWPGOzc,346112
+Gesys/landmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Gesys/landmarks/staticLandmarker.cp38-win_amd64.pyd,sha256=7291yDStA4U8vLVig6gA9UVI4RBfI9Dqhil3_TfcEvw,346112
+gesys-1.1.2.dist-info/METADATA,sha256=0U8_ui9LjvLT_zUxQ4w7dfCLPfVpyKQzb281f7oHVW0,628
+gesys-1.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gesys-1.1.2.dist-info/top_level.txt,sha256=G591xnuDl7jWDX4x2Jv2ReDeTSAYyPiw4_ZBA6NaRAw,6
+gesys-1.1.2.dist-info/RECORD,,
