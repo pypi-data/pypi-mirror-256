@@ -1,0 +1,11 @@
+watchify/__init__.py,sha256=BAgquAMPXNLwQMDm1oX8jEcUS-x_VGRmSyw9N-IcEq0,275
+watchify/exceptions.py,sha256=RCGy2g3G8-Og0LslCVdwuQCSMh6k9VcaFU-HGY38Eqc,514
+watchify/functions.py,sha256=LTnGUXehfJrPuCgta2pOB6ZrBgLgEi044g8I7VOtq4U,811
+watchify/interfaces.py,sha256=gy5HjFgF9xhS43C4PiaY2ITRKLnCrxq49kCH3GjSh0Q,1560
+watchify/logger.py,sha256=pMT_zHpwZILhpkb8rCL-VywFn6etAwLvFWCRCEFpILs,267
+watchify/spies.py,sha256=_CN0PonZyquWA57sgfamp0FebHR-q2HBFDz7Drn9Dsg,11772
+watchify/watchers.py,sha256=8WF8u7y_vKxK1rlYQ1H_7KFU84aypDs0jgTCzV9aY1M,16534
+watchify-0.2.0.dist-info/LICENSE.md,sha256=CC_embsz8UcizhSIzazCf2hCzoG6AHHV0hem0xjOx2I,1071
+watchify-0.2.0.dist-info/METADATA,sha256=crwJtrjY0pvvcmkDkixG-5wthiBBnobergmjT_esduk,6993
+watchify-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+watchify-0.2.0.dist-info/RECORD,,
