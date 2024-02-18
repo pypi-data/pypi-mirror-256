@@ -1,0 +1,8 @@
+envserv/__init__.py,sha256=Oio4nPBmSL0hnYdKdH8_NWgJkJdzycOZwphScOzekI4,34
+envserv/errors.py,sha256=c1mYlo3oCjsTNlOQkbnPCWAY52rGvTEX99g2dCAyXg0,433
+envserv/get.py,sha256=6uwBXRw7JHAd4kaLrSX0DpdPeXRR2jpNggnLHD84xkw,3625
+envserv-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+envserv-1.0.4.dist-info/METADATA,sha256=2U-XZorUhhMZoYVLGBB0f0c2N9KWk43ODMjLttOPu_4,3158
+envserv-1.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+envserv-1.0.4.dist-info/top_level.txt,sha256=YVw9FDcLBNGprG11TwrOVyi3l5c04CWlKVYb7HBHCac,8
+envserv-1.0.4.dist-info/RECORD,,
