@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pybgpkit-parser
+Version: 0.5.0
+Summary: BGPKIT Parser Python Binding
+Keywords: bgp,mrt,parser
+Author: Mingwei Zhang <mingwei@bgpkit.com>
+Author-email: Mingwei Zhang <mingwei@bgpkit.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/bgpkit/bgpkit-parser-py
+
+# bgpkit-parser-py
+
+Python binding for bgpkit-parser
+
+## Example
+
+```python
+from pybgpkit_parser import Parser
+import json
+
+parser = Parser(
+    url="https://spaces.bgpkit.org/parser/update-example",
+    filters={"peer_ips": "185.1.8.65, 2001:7f8:73:0:3:fa4:0:1"},
+)
+
+for elem in parser:
+    print(elem["origin_asns"])
+    print(json.dumps(elem, indent=4))
+    break
+```
+
+You can also add `cache_dir` to Parser to cache the downloaded files to a specified directory.
+
+Here is an example:
+```python
+from pybgpkit_parser import Parser
+import json
+
+parser = Parser(
+    url="https://spaces.bgpkit.org/parser/update-example",
+    filters={"peer_ips": "185.1.8.65, 2001:7f8:73:0:3:fa4:0:1"},
+    cache_dir="./"
+)
+
+for elem in parser:
+    print(elem["origin_asns"])
+    print(json.dumps(elem, indent=4))
+    break
+```
+
+## Supported Python Version
+
+- Python3.8
+- Python3.9
+- Python3.10
+- Python3.11
+- Python3.12
+
+## Installation
+
+```bash
+python3 -m pip install pybgpkit-parser
+```
+
+## Develop
+
+`maturin develop` builds local python module and add to the venv.
+
+## Build and publish
+
+See [BUILD.md](./BUILD.md) for more details.
