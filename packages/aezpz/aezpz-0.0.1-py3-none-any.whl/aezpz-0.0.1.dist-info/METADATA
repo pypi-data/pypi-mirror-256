@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aezpz
+Version: 0.0.1
+Summary: Adobe Experience Platform API made easy peasy
+Project-URL: Documentation, https://datajoin-org.github.io/aezpz/
+Project-URL: Issues, https://github.com/datajoin-org/aezpz/issues
+Project-URL: Source, https://github.com/datajoin-org/aezpz
+Author-email: Benjamin Earl <14208829+benjameep@users.noreply.github.com>
+License-Expression: MIT
+Keywords: adobe,aep,sdk
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Adobe Experience Platform API made easy peasy
