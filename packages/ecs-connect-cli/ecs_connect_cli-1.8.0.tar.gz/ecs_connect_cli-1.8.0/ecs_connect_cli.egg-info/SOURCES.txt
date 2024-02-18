@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+ecs_connect/__init__.py
+ecs_connect/__main__.py
+ecs_connect/cli.py
+ecs_connect/credentials.py
+ecs_connect/helpers.py
+ecs_connect/menu.py
+ecs_connect/session.py
+ecs_connect_cli.egg-info/PKG-INFO
+ecs_connect_cli.egg-info/SOURCES.txt
+ecs_connect_cli.egg-info/dependency_links.txt
+ecs_connect_cli.egg-info/top_level.txt
+tests/test_ecs_connect.py
