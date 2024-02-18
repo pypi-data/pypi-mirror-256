@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: QMzyme
+Version: 0.3
+Summary: QM-based enzyme model generation and validation.
+Author-email: Heidi Klem <heidi.klem@nist.gov>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-resources; python_version < "3.11"
+Requires-Dist: rdkit
+Requires-Dist: numpy
+Requires-Dist: aqme
+
+QMzyme
+==============================
+QM-based enzyme model generation and validation.
+
+[//]: # (Badges)
+<!--- [![GitHub Actions Build Status](https://github.com/hklem/QMzyme/workflows/CI/badge.svg)](https://github.com/hklem/QMzyme/actions?query=workflow%3ACI) 
+[![codecov](https://codecov.io/gh/hklem/QMzyme/branch/main/graph/badge.svg)](https://codecov.io/gh/hklem/QMzyme/branch/main)
+
+<img src="docs/_static/logo.png" alt="alt text" width="200" /> --->
+![](docs/_static/logo.png)
+
+## Tutorials
+Get familiar with QMzyme through this [Jupyter Notebook Tutorial](Tutorials/Getting-to-know-QMzyme.ipynb)
+
+## Installation
+#### Local install:
+```
+git clone https://github.com/hklem/QMzyme
+cd QMzyme
+pip install -e . 
+```
+#### PyPi install:
+```
+pip install QMzyme
+```
+
+## Dependencies
+- rdkit
+- numpy
+- aqme
+- (optional) MDAnalysis
+
+&nbsp;
+
+### Copyright
+Copyright (c) 2023, Heidi Klem
+
+#### Acknowledgements
+Project architecture initiated through the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms).
