@@ -1,0 +1,13 @@
+simpleseleniumwrapper/__init__.py,sha256=rQefliCCVFrBsvhzGEv6ixva7VyJDyJGibXFFwe_jPk,34
+simpleseleniumwrapper/actionChains.py,sha256=0XmhfLKUNbC7AXMqFSPv54QPLiBQLl5gJHB60oITxeM,6824
+simpleseleniumwrapper/alerts.py,sha256=AfNZdYJn7aVd-WRRBtA7nUXxUXCe3ilGX0Wad_KnK6M,1083
+simpleseleniumwrapper/baseImports.py,sha256=Uv2nyy7pb-srRmyPZX0il0BxBI_xNy63JkWWmohpaRw,1457
+simpleseleniumwrapper/elementLocation.py,sha256=h83-15FhhjPZZyANlPqzMqI3h-PuXgFRvDvXPVRhNFs,5693
+simpleseleniumwrapper/proxyAuth.py,sha256=8zFi5IQKdM0ELKUHesOG1f4vGNKSGymgA6o7my8aLkw,3296
+simpleseleniumwrapper/webDriver.py,sha256=PYdAMEzqSryVxlgJW1yie3rjllTQKfSJUZjISdjymW0,22520
+simpleseleniumwrapper/webElement.py,sha256=xpWBMUjiyQPZJS6ye1bvgN0zKGSjrxhgGfGURmZG0fY,3640
+simpleseleniumwrapper/webdriverManager.py,sha256=WXq1aoWQWy9az52rfgD9DDCz3VmkHKf8-OVzG-JNjN0,13917
+simpleseleniumwrapper-0.0.4.dist-info/METADATA,sha256=xVI7zbvR_D8EAwl3YT1k35upz2Jhc-Dyk-XHOQKN6sg,852
+simpleseleniumwrapper-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simpleseleniumwrapper-0.0.4.dist-info/top_level.txt,sha256=d6kte6linzWKiAQ_fZcuAovYBIr-nfTEHSyvQ_B2DcI,22
+simpleseleniumwrapper-0.0.4.dist-info/RECORD,,
