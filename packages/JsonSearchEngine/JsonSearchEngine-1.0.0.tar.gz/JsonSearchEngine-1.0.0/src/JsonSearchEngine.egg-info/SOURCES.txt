@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/JsonSearchEngine.egg-info/PKG-INFO
+src/JsonSearchEngine.egg-info/SOURCES.txt
+src/JsonSearchEngine.egg-info/dependency_links.txt
+src/JsonSearchEngine.egg-info/top_level.txt
+tests/test.py
