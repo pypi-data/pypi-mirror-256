@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: warsawbuspy
+Version: 0.0.2
+Summary: A package containing a functionality of readint the data from the https://api.um.warszawa.pl, analyzing it and displaying results of the analyzis.
+Project-URL: Homepage, https://github.com/GustawB/BUS_DATA_READER
+Project-URL: Issues, https://github.com/GustawB/BUS_DATA_READER/issues
+Author-email: Gustaw Blachowski <gustaw.blachowski@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: datetime
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Bus data reader
+
+This package represents the functionality of reading and analyzing data from https://api.um.warszawa.pl/#. The package contains three subpackages:
+
+    1. data_holders: this package contains all classes that holds data read from the API.
+
+    2. readers: this package contains all the functionality of calling the API for data, and then dumping the data into
+       the .csv files.
+
+    3. analyzers: this package contains all the functionality of analyzing the collected data, as well as displaying it using
+       the matplotlib. 
