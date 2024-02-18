@@ -1,0 +1,6 @@
+setup.py
+hollarek.egg-info/PKG-INFO
+hollarek.egg-info/SOURCES.txt
+hollarek.egg-info/dependency_links.txt
+hollarek.egg-info/requires.txt
+hollarek.egg-info/top_level.txt
