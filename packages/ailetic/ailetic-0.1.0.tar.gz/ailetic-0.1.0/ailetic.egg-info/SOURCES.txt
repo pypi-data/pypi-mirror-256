@@ -1,0 +1,12 @@
+README.md
+setup.py
+ailetic/__init__.py
+ailetic/file_handling.py
+ailetic/main.py
+ailetic/server.py
+ailetic.egg-info/PKG-INFO
+ailetic.egg-info/SOURCES.txt
+ailetic.egg-info/dependency_links.txt
+ailetic.egg-info/entry_points.txt
+ailetic.egg-info/requires.txt
+ailetic.egg-info/top_level.txt
