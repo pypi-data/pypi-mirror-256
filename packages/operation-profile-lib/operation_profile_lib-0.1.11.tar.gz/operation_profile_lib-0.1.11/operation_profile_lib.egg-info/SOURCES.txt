@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+operation_profile_lib/__init__.py
+operation_profile_lib/_modidx.py
+operation_profile_lib/operation_profile_pb2.py
+operation_profile_lib/operation_profile_structure.py
+operation_profile_lib.egg-info/PKG-INFO
+operation_profile_lib.egg-info/SOURCES.txt
+operation_profile_lib.egg-info/dependency_links.txt
+operation_profile_lib.egg-info/entry_points.txt
+operation_profile_lib.egg-info/not-zip-safe
+operation_profile_lib.egg-info/requires.txt
+operation_profile_lib.egg-info/top_level.txt
