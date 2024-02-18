@@ -1,0 +1,9 @@
+fastapi==0.103.1
+Flask==2.2.3
+functions-framework==3.5.0
+requests==2.31.0
+httpx==0.26.0
+Werkzeug==2.2.3
+pytest==7.4.2
+pytest-mock==3.11.1
+google-cloud-pubsub==2.18.4
