@@ -1,0 +1,11 @@
+hmp/__init__.py,sha256=0eOPDaVSMd-hyg98Cdd94znPPJu0UGcyhf37ryGiHMg,220
+hmp/clusters.py,sha256=8hyKFlcWnPKEL9CeN_J5Kq-jkIhf-lXEFaFAanQU7bM,7333
+hmp/models.py,sha256=Kkij7r_Oitsk-8A3A2LuVZ09V_dG5dZiGvbGUxzifxQ,111105
+hmp/resample.py,sha256=79a0dQTztHTS87IsQvlqXxVDSx93bERdut9s-J47fUo,12120
+hmp/simulations.py,sha256=NumrFzy7Rm8dNL8X5Rb4QzBF68is5sHMPaToacZ9sUM,18357
+hmp/utils.py,sha256=BsZjA_ZD0z9F1EU0vy33jSu6o9ceLlFip21PC9wupTs,77547
+hmp/visu.py,sha256=jq9ZbN0RHLC2u-uA56fkTYNsWNZMpQTadTRKTHLqgIg,49158
+hmp-0.3.1.dist-info/METADATA,sha256=pBJaIS1eHVvjYNnVFoffaddu632PnubEcWpP37x2ln0,19887
+hmp-0.3.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+hmp-0.3.1.dist-info/licenses/LICENSE.md,sha256=dwG676L7Cit5FOMV5XWRHbsv3XHdMFzEWu0Di5FeSbE,1558
+hmp-0.3.1.dist-info/RECORD,,
