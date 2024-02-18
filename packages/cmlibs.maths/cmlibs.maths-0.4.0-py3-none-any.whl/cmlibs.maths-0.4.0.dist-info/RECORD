@@ -1,0 +1,9 @@
+cmlibs/__init__.py,sha256=Q-n92IAnQHbAoMUgpmzzYflDet5gHBvDRuqnXSz2NRQ,116
+cmlibs/maths/__init__.py,sha256=2eiWQI55fd-roDdkt4Hvl9WzrTJ4xQo33VzFud6D03U,22
+cmlibs/maths/algorithms.py,sha256=0fsrbAPMaGwxZahfXvolrTP0831lZjIHF2_xTfkQumQ,2142
+cmlibs/maths/vectorops.py,sha256=VWUOFby8o5hn1rZcnusbW9BYk4ZQ0h90qnoQZIZJfqg,8716
+cmlibs.maths-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cmlibs.maths-0.4.0.dist-info/METADATA,sha256=Npd9EZBiSmslcM7la3nHBfB6PRZzAeQ-gn03q4wTYLc,12431
+cmlibs.maths-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cmlibs.maths-0.4.0.dist-info/top_level.txt,sha256=oCGdRPtMmZQPwkmToWquAQLTi3Uxt7jMgc6uylFo7lg,7
+cmlibs.maths-0.4.0.dist-info/RECORD,,
