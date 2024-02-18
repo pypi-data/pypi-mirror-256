@@ -1,0 +1,1 @@
+from .discord_webhook_easy_message import Webhook
