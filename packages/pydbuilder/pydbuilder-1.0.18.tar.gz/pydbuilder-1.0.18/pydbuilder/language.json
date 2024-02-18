@@ -1,0 +1,104 @@
+{
+    "en": {
+        "read_err": "Error reading file",
+        "cmd_err": "Error executing command",
+        "success1": "File",
+        "success2": "successfully created",
+        "repl_err": "Error moving file",
+        "path_err": "Path not found",
+        "usage_msg": "Usage",
+        "usage_msg2": "path_to_file",
+        "help": {
+            "0": "Help",
+            "1": "Change library settings.",
+            "2": "Shows this library's help message.",
+            "3": "Compiles all python files in the folder where the code is located.",
+            "4": "Tuple with all file extensions that need to be compiled. By default: py, pyw, pyx, pyi."
+        }
+    },
+    "ru": {
+        "read_err": "Ошибка при чтении файла",
+        "cmd_err": "Ошибка при выполнении команды",
+        "success1": "Файл",
+        "success2": "успешно создан",
+        "repl_err": "Ошибка при перемещении файла",
+        "path_err": "Путь не найден",
+        "usage_msg": "Используйте",
+        "usage_msg2": "путь_к_файлу",
+        "help": {
+            "0": "Помощь",
+            "1": "Изменить настройки библиотеки.",
+            "2": "Показать справку по этой библиотеке.",
+            "3": "Компилировать все файлы в папке, в которой находится код.",
+            "4": "Кортеж со всеми расширениями файлов, которые необходимо скомпилировать. По умолчанию: py, pyw, pyx, pyi."
+        }
+    },
+    "cz": {
+        "read_err": "Chyba při čtení souboru",
+        "cmd_err": "Chyba při provádění příkazu",
+        "success1": "Soubor",
+        "success2": "byl úspěšně vytvořen",
+        "repl_err": "Chyba při přesunu souboru",
+        "path_err": "Cesta nenalezena",
+        "usage_msg": "Použití",
+        "usage_msg2": "cesta_k_souboru",
+        "help": {
+            "0": "Nápověda",
+            "1": "Změnit nastavení knihovny.",
+            "2": "Zobrazí nápovědu k této knihovně.",
+            "3": "Kompiluje všechny soubory ve složce, kde se nachází kód.",
+            "4": "Kartézský součin všech přípon souborů, které je třeba zkompilovat. Výchozí: py, pyw, pyx, pyi."
+        }
+    },
+    "ua": {
+        "read_err": "Помилка читання файлу",
+        "cmd_err": "Помилка виконання команди",
+        "success1": "Файл",
+        "success2": "успішно створено",
+        "repl_err": "Помилка переміщення файлу",
+        "path_err": "Шлях не знайдено",
+        "usage_msg": "Використання",
+        "usage_msg2": "шлях_до_файлу",
+        "help": {
+            "0": "Допомога",
+            "1": "Змінити налаштування бібліотеки.",
+            "2": "Показати довідку по цій бібліотеці.",
+            "3": "Компілює всі файли в папці, де знаходиться код.",
+            "4": "Кортеж з усіма розширеннями файлів, які потрібно скомпілювати. За замовчуванням: py, pyw, pyx, pyi."
+        }
+    },
+    "pl": {
+        "read_err": "Błąd odczytu pliku",
+        "cmd_err": "Błąd wykonania polecenia",
+        "success1": "Plik",
+        "success2": "został pomyślnie utworzony",
+        "repl_err": "Błąd przenoszenia pliku",
+        "path_err": "Ścieżka nie znaleziona",
+        "usage_msg": "Użycie",
+        "usage_msg2": "ścieżka_do_pliku",
+        "help": {
+            "0": "Pomoc",
+            "1": "Zmień ustawienia biblioteki.",
+            "2": "Pokaż pomoc dotyczącą tej biblioteki.",
+            "3": "Kompiluje wszystkie pliki w folderze, w którym znajduje się kod.",
+            "4": "Krotka z wszystkimi rozszerzeniami plików, które należy skompilować. Domyślnie: py, pyw, pyx, pyi."
+        }
+    },
+    "de": {
+        "read_err": "Fehler beim Lesen der Datei",
+        "cmd_err": "Fehler beim Ausführen des Befehls",
+        "success1": "Datei",
+        "success2": "erfolgreich erstellt",
+        "repl_err": "Fehler beim Verschieben der Datei",
+        "path_err": "Pfad nicht gefunden",
+        "usage_msg": "Verwendung",
+        "usage_msg2": "pfad_zur_datei",
+        "help": {
+            "0": "Hilfe",
+            "1": "Ändern Sie die Einstellungen der Bibliothek.",
+            "2": "Zeigt die Hilfe dieser Bibliothek an.",
+            "3": "Kompiliert alle Dateien im Ordner, in dem sich der Code befindet.",
+            "4": "Tuple mit allen Dateierweiterungen, die kompiliert werden müssen. Standardmäßig: py, pyw, pyx, pyi."
+        }
+    }
+}
