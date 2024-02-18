@@ -1,0 +1,11 @@
+goppai/__init__.py,sha256=Q7kqYdN-o4zsGRj6LicOB8kUbvWNm6SWnhlKNiC1qv4,112
+goppai/goppai.py,sha256=8BhOZr-0VzQXomoQxCh-8NwxeoKiN9kqIfwxTJE9wfU,1393
+goppai/go2048/__init__.py,sha256=sX0u4x2ItB0rCHFAKEfn9JIOsJqroG0rK_RJJLSNB70,21
+goppai/go2048/board.py,sha256=Q0fkkHVLZ-3GNYLOcJT5giwBxRucvu5saOtZrKAOOPI,1685
+goppai/go2048/game.py,sha256=aEgMSh9WHhoM6QRbzepo9xZjxi9Hat41sYgJ0q-0iz8,23
+goppai/go2048/tile.py,sha256=bYrzaNlL9WkaZFzSFc-jEhONw5C5r9UFwRNx2e3fEfQ,720
+goppai-0.1.2a0.dist-info/entry_points.txt,sha256=qBTXdHNIHle4DqRMBRRjPvxERNGBd_yJi6tj_lw2xSA,38
+goppai-0.1.2a0.dist-info/LICENSE,sha256=LEUD4484KvEuZsVPQ5h8s29YBOf8okRzZjPjlztrd38,1106
+goppai-0.1.2a0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+goppai-0.1.2a0.dist-info/METADATA,sha256=nfMC41kknmnVbrGqhFtmxCKlptV39BQbUsNp4G2RCHw,855
+goppai-0.1.2a0.dist-info/RECORD,,
