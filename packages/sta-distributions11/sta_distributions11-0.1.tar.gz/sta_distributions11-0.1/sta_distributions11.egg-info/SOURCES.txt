@@ -1,0 +1,10 @@
+setup.py
+sta_distributions11/Binomialdistribution.py
+sta_distributions11/Gaussiandistribution.py
+sta_distributions11/Generaldistribution.py
+sta_distributions11/__init__.py
+sta_distributions11.egg-info/PKG-INFO
+sta_distributions11.egg-info/SOURCES.txt
+sta_distributions11.egg-info/dependency_links.txt
+sta_distributions11.egg-info/not-zip-safe
+sta_distributions11.egg-info/top_level.txt
