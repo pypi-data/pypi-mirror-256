@@ -1,0 +1,10 @@
+polars_nltk-0.2.2.dist-info/METADATA,sha256=Bl3nRVYapuTVCHm_mEarq9X9sPnjiivjWkUSJZ8rzRE,381
+polars_nltk-0.2.2.dist-info/WHEEL,sha256=RnYqiUIa021N4CTBFGEv-digtLfhgSXu_Qwb__EvkZs,127
+polars_nltk/__pycache__/namespace.cpython-39.pyc,sha256=anRL1-U5ftYG_u4fD2aFx-OdeC3A_xL1hWp7zhNcQKg,1109
+polars_nltk/__pycache__/__init__.cpython-39.pyc,sha256=zcv41r7mqNdLuZpgM_mGQ7XRwl2eOhfg44jKg3rmPHw,263
+polars_nltk/__pycache__/functions.cpython-39.pyc,sha256=ASyTaGUNkxueytkHJ-s0MiZ2FXjdjC8yh2Hacd18FQA,579
+polars_nltk/__init__.py,sha256=xkyvZRh8ajWTuOss4HNSrFJ8YbV9c8jGwUiBd49s5SE,77
+polars_nltk/namespace.py,sha256=s2TFd5yVFIWjHQQ8rRcMZx_RgzxUyTARqhRXxPxlTzI,479
+polars_nltk/functions.py,sha256=w2l5tQ-pmGZETOeexFqGzmN9LW5DvfNMaftfdWMEMp8,393
+polars_nltk/polars_nltk.abi3.so,sha256=qGL-LtNHnSwBubJubmzzqSCsJb-lGyuZHPtTFR69TWY,31951936
+polars_nltk-0.2.2.dist-info/RECORD,,
