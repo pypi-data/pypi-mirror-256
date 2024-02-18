@@ -1,0 +1,31 @@
+# Hypi's MekaDB client
+
+Register a https://hypi.ai/mekadb
+
+# Usage
+
+```python
+if __name__ == '__main__':
+    async def main():
+        # Create an instance of the MekaDBClient
+        client = MekaDBClient()
+        # Connect to Hypi and keep a connection in the background
+        await client.run()
+        # Login to get authentication context
+        auth = await client.login('<username>', '<password>', '<database name>')
+        res = await client.query(creds=auth,
+                                 sql='CREATE TABLE IF NOT EXISTS user(username VARCHAR, pass VARCHAR, PRIMARY KEY (username))')
+        print("Create table:", res)
+        res = await client.query(creds=auth,
+                                 sql="INSERT INTO user(username,pass) VALUES('courtney','pass1'),('damion','pass2')")
+        print("Insert:", res)
+        res = await client.query(creds=auth, sql='SELECT * FROM user WHERE pass = :pass', params={'pass': 'pass99'})
+        print("Select:", res)
+
+        # Close the connection
+        await client.close()
+
+
+    # Run the main function within an asyncio event loop
+    asyncio.run(main())
+```
