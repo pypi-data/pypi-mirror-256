@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyjuice
+Version: 2.0.1
+Summary: Probabilistic Circuits Library
+Author-email: StarAI <guyvdb@cs.ucla.edu>
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch >=2.2.0
+Requires-Dist: typing
+Requires-Dist: triton >=2.2.0
+Requires-Dist: networkx
+Requires-Dist: numba
+Requires-Dist: packaging
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
