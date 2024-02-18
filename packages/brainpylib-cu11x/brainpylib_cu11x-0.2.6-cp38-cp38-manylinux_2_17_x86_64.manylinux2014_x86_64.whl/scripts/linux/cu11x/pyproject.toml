@@ -1,0 +1,68 @@
+[tool.cibuildwheel]
+build = "*"
+skip = ""
+test-skip = ""
+
+archs = ["auto"]
+build-frontend = "pip"
+config-settings = {}
+dependency-versions = "pinned"
+environment = {}
+environment-pass = []
+build-verbosity = 1
+
+before-all = ""
+repair-wheel-command = ""
+
+test-command = ""
+before-test = ""
+test-requires = []
+test-extras = []
+
+container-engine = "docker"
+
+manylinux-x86_64-image = "manylinux2014"
+
+[build-system]
+requires = [
+    "setuptools==68.2.0",
+    "wheel",
+    "Cython",
+    "pybind11",
+    "setuptools_scm[toml]>=3.4",
+    "cmake",
+    "taichi==1.7.0",
+]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">=3.8,<3.12"
+name = "brainpylib-cu11x"
+version = "0.2.6"
+
+[tool.cibuildwheel.linux]
+before-all = "sh prepare_build_wheel_on_cuda.sh"
+before-build = "sh copy_so_linux.sh"
+#before-build = "pip install -r requirements-test.txt"
+archs = ["x86_64"]
+skip = ["pp*", "*-musllinux_x86_64"]
+repair-wheel-command = """
+    export LD_LIBRARY_PATH=/project/brainpylib:$LD_LIBRARY_PATH &&
+    auditwheel repair -w {dest_dir} {wheel}
+"""
+
+[tool.cibuildwheel.macos]
+before-build = "sh copy_so_macOS.sh"
+archs = ["x86_64", "arm64"]
+skip = ["pp*"]
+repair-wheel-command = """
+    export LD_LIBRARY_PATH=/project/brainpylib:$LD_LIBRARY_PATH &&
+    delocate-wheel -w {dest_dir} -v {wheel}
+"""
+
+[tool.cibuildwheel.windows]
+archs = ["AMD64", "x86", "ARM64"]
+#before-build = "pip install -r requirements-test.txt"
+#before-build = "pip install -i https://pypi.taichi.graphics/simple/ taichi-nightly"
+skip = ["pp*", "*-win32"]
