@@ -1,0 +1,10 @@
+streamlit_cognito_auth/__init__.py,sha256=89McMqgE9Jarc3WN10dEMMDQlJK1ufZk3d-GZuIxMl0,212
+streamlit_cognito_auth/auth.py,sha256=lhMn1Iy2MQOSrZe9ZCTQkVFxq3L7399Pewh88c1Y_Vs,24651
+streamlit_cognito_auth/exceptions.py,sha256=UhFsLVeA0Hm6rr0unReEOQfGhXZYI7e4xSitV6NYOes,153
+streamlit_cognito_auth/session_provider.py,sha256=wGXs2TLR5HwC9fN9wpaKZmwJ28vIY0Eg4qTU945yTsA,4238
+streamlit_cognito_auth/utils.py,sha256=e2rtpMoIxexC3PunlSF0f2PI4XTu4aUakdhjoGLoRqY,670
+streamlit_cognito_auth-1.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamlit_cognito_auth-1.3.0.dist-info/METADATA,sha256=IGT9gPdaj3WFAcxNClYWdTnvUrmK65O5I1SM2RPWIkM,4846
+streamlit_cognito_auth-1.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+streamlit_cognito_auth-1.3.0.dist-info/top_level.txt,sha256=OicaTvHMUMvq1Ap6tKAz3Y71xxM_EF2inU0Y6TBDR3s,23
+streamlit_cognito_auth-1.3.0.dist-info/RECORD,,
