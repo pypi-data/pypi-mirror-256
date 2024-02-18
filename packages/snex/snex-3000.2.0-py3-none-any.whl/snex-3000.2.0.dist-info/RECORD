@@ -1,0 +1,14 @@
+snex/__init__.py,sha256=Z83RPGv5iu7-hBa9dNxRVZ_wPTn3LljU006gG3SDSJo,3287
+snex/core.py,sha256=R-EeZlWBkjY7RrzKBncfJqcqPYjwBnUAGA977esiOKM,4350
+snex/fp.py,sha256=BZycHb4kDqVp9LL-5i3nR4GAflr6tTM1wYRKsZXKZF4,588
+snex/util.py,sha256=w2SvEJruKO2iSgai1dkXwnLGeSUrh7HP3taU-v7ppws,4618
+snex/cli/__init__.py,sha256=zIFeP67eL4ZIRb2JuEdyjx01TmvqPcNTFV41kSlsJD4,3125
+snex/templates/python-url.snex.conf.yaml,sha256=CNoe52aPN3h6n5Ghdo_x2o7XwC30POURGNd71EA16Jc,129
+snex/templates/python.snex.conf.yaml,sha256=1sz8wZq5YssnhZvkbrIe91Ncs0tzxJbyzlqga8of5_w,155
+snex/templates/swift.snex.conf.yaml,sha256=BK4DjO6QBdE6kB4lZvl0vZe2DhB8eJw1lJ9TJh7CGfo,189
+snex-3000.2.0.dist-info/LICENSE,sha256=XHainZh8Ai650lfp8QTY7xk2vhMK7_sZTy-86zz6ve0,1073
+snex-3000.2.0.dist-info/METADATA,sha256=6-KKVHn0pqSVA7cJuqtTZzM13i6wizow-3V1DP-EExM,4580
+snex-3000.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+snex-3000.2.0.dist-info/entry_points.txt,sha256=7-zBqMttEm6iH9507WeqolIVPu9Nk62XqwGueYKfr24,39
+snex-3000.2.0.dist-info/top_level.txt,sha256=IuhWiHYQES8nDmaasw_RoGHXc_XvZRRdHqGnjBrZH48,5
+snex-3000.2.0.dist-info/RECORD,,
