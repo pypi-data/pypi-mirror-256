@@ -1,0 +1,83 @@
+[tool.poetry]
+name = "cli-art"
+version = "0.0.1"
+description = "ASCII art generator with multiple customization parameters"
+authors = ["Dawson Booth <pypi@dawsonbooth.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dawsonbooth/ascii-art"
+repository = "https://github.com/dawsonbooth/ascii-art"
+documentation = "https://dawsonbooth.github.io/ascii-art"
+keywords = ["cli", "console", "ascii", "art", "font", "image"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+include = ["LICENSE"]
+packages = [{ include = "ascii_art" }]
+
+[tool.poetry.scripts]
+ascii-art = 'ascii_art.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Pillow = "^9.2.0"
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^1.4"
+black = "^22.8.0"
+dustpan = "^0.3.2"
+flake8 = "^5.0.4"
+ghp-import = "^2.1.0"
+invoke = "^1.7.1"
+isort = "^5.10.1"
+mypy = "^0.971"
+portray = "^1.7.0"
+pytest = "^7.1.3"
+rope = "^1.3.0"
+
+[tool.black]
+line-length = 119
+
+[tool.dustpan]
+remove-empty-directories = true
+
+[tool.isort]
+line_length = 119
+profile = "black"
+
+[tool.portray]
+modules = ["ascii_art"]
+
+[[tool.portray.extra_markdown_extensions]]
+[tool.portray.extra_markdown_extensions.toc]
+permalink = true
+
+[[tool.portray.extra_markdown_extensions]]
+[tool.portray.extra_markdown_extensions."pymdownx.highlight"]
+linenums = true
+
+[tool.portray.mkdocs]
+site_name = "ascii-art-cli"
+site_url = "https://dawsonbooth.github.io/ascii-art/"
+edit_uri = "blob/master/"
+
+markdown_extensions = [
+    "admonition",
+    "codehilite",
+    "extra",
+    "pymdownx.details",
+    "pymdownx.superfences",
+]
+
+nav = [{ Overview = "README.md" }]
+
+[tool.portray.mkdocs.theme]
+name = "material"
+palette = { primary = "blue grey", accent = "red" }
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
