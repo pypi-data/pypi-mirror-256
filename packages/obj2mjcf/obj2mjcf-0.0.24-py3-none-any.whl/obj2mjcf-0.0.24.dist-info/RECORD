@@ -1,0 +1,12 @@
+obj2mjcf/__init__.py,sha256=ZQhXtFuXIGDwpCAUqfQWo3IQMf-8Lz9t5nYhJnOYBdI,23
+obj2mjcf/cli.py,sha256=WcRN7-xCd_KZhBB2HjwTQqkPCOBqVl-zOUx9UQGo99s,10139
+obj2mjcf/constants.py,sha256=bP2NHwG6ll2TqBpUnVDKaHOx-5f8Ln-mS6ebctVmofw,411
+obj2mjcf/material.py,sha256=yq2R-dGzEn77ZMmgUBUKyb42kboWecGYniRSVDn_Tsw,1839
+obj2mjcf/mjcf_builder.py,sha256=X7UBR70j43b-dLjnHAeDu704qspepB_XaG6Wp6XvN3k,8679
+obj2mjcf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obj2mjcf-0.0.24.dist-info/LICENSE,sha256=9PtY81VzHJ_Xi-vrzqo-FDt_nXIEsNGiG1GnIa9wfqc,1069
+obj2mjcf-0.0.24.dist-info/METADATA,sha256=YHzljjQM3LzdXZ9-MdmHvI0mWiQ8NvLMHqn3MIL4RGk,3599
+obj2mjcf-0.0.24.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+obj2mjcf-0.0.24.dist-info/entry_points.txt,sha256=GffcH9EY7Cpo8pgVBoJ61xXtglERuD7rjBTYgw90Z5Q,47
+obj2mjcf-0.0.24.dist-info/top_level.txt,sha256=RclIfd9fkt617F71by13nxHg1IeDQ1_tXSkyhtDUNFI,9
+obj2mjcf-0.0.24.dist-info/RECORD,,
