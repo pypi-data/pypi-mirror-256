@@ -1,0 +1,5 @@
+setup.py
+fash_cli.egg-info/PKG-INFO
+fash_cli.egg-info/SOURCES.txt
+fash_cli.egg-info/dependency_links.txt
+fash_cli.egg-info/top_level.txt
