@@ -1,0 +1,5 @@
+setup.py
+doglib.egg-info/PKG-INFO
+doglib.egg-info/SOURCES.txt
+doglib.egg-info/dependency_links.txt
+doglib.egg-info/top_level.txt
