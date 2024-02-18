@@ -1,0 +1,8 @@
+vo_distributions/Binomialdistribution.py,sha256=qmAmP_mz-wz0Z4ZfwWtVMiphUWohKVu3C2tzNeCdOn4,10102
+vo_distributions/Gaussiandistribution.py,sha256=sugty70gjrBTibRX5lRHDNtsGjj6Y7aX8BtUZTYxZWA,4265
+vo_distributions/Generaldistribution.py,sha256=M2DisBisVgjuNcdsNLkzoeVCqv8fjq1HdfFgTx3my1w,1179
+vo_distributions/__init__.py,sha256=vVwDbN3oQ3oj8eNF9zprMGiVkw3DmvqAwZ2zVccdCmw,85
+vo_distributions-1.0.dist-info/METADATA,sha256=uNQ6nevIPoHrtk8JGTuQ02rBMdQA8b-6Up7s4u-2F_o,166
+vo_distributions-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vo_distributions-1.0.dist-info/top_level.txt,sha256=NxRgAkSVUpx8vSXnFPgm0yQ3G2eTkq_L_g87m53Dc0E,17
+vo_distributions-1.0.dist-info/RECORD,,
