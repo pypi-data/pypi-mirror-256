@@ -1,0 +1,10 @@
+alphonse/__init__.py,sha256=GVjYd5uBwpt17_ad4xeVGMY8BuZZjkVZ-2P-EhJ2BEk,64
+alphonse/crud.py,sha256=RICx5g5BWM3i25fNsIqxA3nVUuL-HsnQ0yOMm4tpmoE,25670
+alphonse/db_manager.py,sha256=7EMp6jdYfthwY7hdjgQvyHh7yBbBXyjf3KtvR92YPOk,4596
+alphonse/sql_constructor.py,sha256=8S2YAtpFr3pabtIV7lucSuprjrGN-MQNI2bsIg9krYU,28743
+alphonse/utilities.py,sha256=Gtq6bcJs-NXWqLJvR_erXp4TMTdQ8YgkBL4Z-pz-51c,5995
+alphonse-0.1.0.dist-info/LICENSE.txt,sha256=TlRUj5a7jghts_z-_0GclKMKgrLc_y4jnWFqUzxeNIM,1077
+alphonse-0.1.0.dist-info/METADATA,sha256=Pm8IK3uANRGjZc1BsybFVLx9vrxI2iVFNJjEjdggMeo,30192
+alphonse-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+alphonse-0.1.0.dist-info/top_level.txt,sha256=HBH4VB8j2KUAEhnYRSN96BDI__cFb3fPtXaHxhCrw9U,9
+alphonse-0.1.0.dist-info/RECORD,,
