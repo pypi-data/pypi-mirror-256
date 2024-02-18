@@ -1,0 +1,14 @@
+pyshic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyshic/brewersza/__init__.py,sha256=2P59JcDYi9dP5qT1RAgg7d2eAO9DLmfKiBC9uZQCDuM,252
+pyshic/brewersza/brewersza.py,sha256=1-Usnm4tCyP7MWjJpTGwPC-D6PYyvrPQ1NaFz7u3_uI,2884
+pyshic/brewersza/moonsza.py,sha256=iGoP__5uVASw6pKEysn0G66zLVfhT3Ir7M-sv-8lvgk,1965
+pyshic/juliandate/__init__.py,sha256=uK1hHyAANqDgGsx898X_mqPNm1awr4CfODSX7rTwM2M,309
+pyshic/juliandate/juliandate.py,sha256=ejL7R0MccidZIQbvYNzOzrpRpMxEfX_p8qTee2osfDk,9206
+pyshic/math/falt_spec.py,sha256=A9GCPSr5TsETa39dsaLM2RhFAceQIarC6OhnNrTX1BY,3202
+pyshic/spectral_ops/__init__.py,sha256=7pEaGQKX0acNFsRm98z7oU59-O8MdApbDSseaaVIPXE,218
+pyshic/spectral_ops/spec_ops.py,sha256=lHWbXzloi5JZOz5KLnpGmDGswE9GhJcQyYmqU9iWKT8,4646
+pyshic-0.0.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyshic-0.0.2.dist-info/METADATA,sha256=8J2idydSil7Ce3v8tipQ6sK34ya9M5bEgPpy9LQ-r1U,933
+pyshic-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyshic-0.0.2.dist-info/top_level.txt,sha256=pgd0nchNY9ssX6lASDNcmLUv9ADDL9W3DRYWDzaLt7s,7
+pyshic-0.0.2.dist-info/RECORD,,
