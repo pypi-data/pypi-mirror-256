@@ -1,0 +1,11 @@
+gvision/ODA.py,sha256=G7tBR4vLz-Lyssb88uEQPJRb-1NQPXSR5QQ9ugQMKvI,18962
+gvision/ODA1.py,sha256=6cFGZMAh01Lgxb2ZcyiXfeepRkxlWwtnWudl3eP6SRI,21447
+gvision/TEST.py,sha256=2McLF1cjl5Pk8iIKaLfbg7MnsNxeJ9YpHLU8LXcFSUg,1525
+gvision/__init__.py,sha256=w6bvloE05dpCDQuB4vZnOo12uKPksfcarB4efJ7j2vo,51
+gvision/cli.py,sha256=L5E5pNpIFcUB4AYd6l3a8SCwNA43qaBEogSRGnnboyU,334
+gvision/pages/Deployment_Demo.py,sha256=uImnoiq0tEvv2ZInHpjdjrgp6GDhRv26VZcYikC-0H4,17046
+gvision-0.6.dist-info/METADATA,sha256=5hm2N3h225oBCmwzKwVvLEGmL6Ghzvp0W8x3Yj6VAfk,1709
+gvision-0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gvision-0.6.dist-info/entry_points.txt,sha256=Pcw8DToY9tlq3miVM6Gn3_2vJiR9lr5JINec5JZrphk,42
+gvision-0.6.dist-info/top_level.txt,sha256=dZ0VZmPH4fkqJkdEyezh2KOYmRLRThPcCYkEYdb3NwM,8
+gvision-0.6.dist-info/RECORD,,
