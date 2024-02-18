@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+poibin/__init__.py
+poibin/poibin.py
+pypcurve/__init__.py
+pypcurve/pypcurve.py
+pypcurve.egg-info/PKG-INFO
+pypcurve.egg-info/SOURCES.txt
+pypcurve.egg-info/dependency_links.txt
+pypcurve.egg-info/requires.txt
+pypcurve.egg-info/top_level.txt
