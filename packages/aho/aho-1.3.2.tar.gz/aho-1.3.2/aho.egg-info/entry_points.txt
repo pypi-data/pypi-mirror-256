@@ -1,0 +1,2 @@
+[console_scripts]
+aho = aho.__main__:cli
