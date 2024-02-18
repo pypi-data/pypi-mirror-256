@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+fitconnect_client/__init__.py
+fitconnect_client/client.py
+fitconnect_client/crypto.py
+fitconnect_client/environment.py
+fitconnect_client/log.py
+fitconnect_client.egg-info/PKG-INFO
+fitconnect_client.egg-info/SOURCES.txt
+fitconnect_client.egg-info/dependency_links.txt
+fitconnect_client.egg-info/requires.txt
+fitconnect_client.egg-info/top_level.txt
+fitconnect_client/objects/__init__.py
+fitconnect_client/objects/attachment.py
+fitconnect_client/objects/exception.py
+fitconnect_client/objects/submission.py
