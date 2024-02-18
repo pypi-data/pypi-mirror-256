@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: diresa
+Version: 1.0.5
+Summary: Diresa - distance-regularized siamese twin autoencoder
+Project-URL: Homepage, https://gitlab.com/etrovub/ai4wcm/geert/diresa
+Project-URL: Issues, https://gitlab.com/etrovub/ai4wcm/geert/diresa/-/issues
+Author-email: Geert De Paepe <geert.de.paepe@vub.be>
+License-File: LICENSE
+Keywords: climate,learning,machine,tensorflow,weather
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Requires-Dist: tensorflow-probability>=0.15
+Requires-Dist: tensorflow>=2.7
+Description-Content-Type: text/markdown
+
+# DIRESA
+
+This package contains the following modules:
+1. diresa.models
+    - for creating (V)AE and DIRESA models out of encoder and decoder model
+	- for creating AE and DIRESA models from hyperparameters
+2. diresa.loss
+    - contains Covariance loss function, different Distance loss functions and KL loss function
+3. diresa.layers
+    - contains Sampling, Distance and Mask layer
+4. diresa.callback
+    - contains LossWeightAnnealing callback
+5. diresa.toolbox
+    - function to cut submodels out of a keras model
