@@ -1,0 +1,14 @@
+checkov_custom_policies/__init__.py,sha256=fvEiqA9UjzSGPK9yxTz6m_n-OWYKoKW7SexvvNdaheI,124
+checkov_custom_policies/_version.py,sha256=qharzApsLGL2RoMhav5KFtnE6oeBEGFs89k6qEvDTIw,424
+checkov_custom_policies/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkov_custom_policies/settings.py,sha256=T4_-mUVUIDUot97eJCiCnGOUjJZkHzTIoJ7iAElej8Y,59
+checkov_custom_policies/setup.py,sha256=R8Mu1l7ze0uv0J6mplJP-RLxfl5pSByyI17jnYkPw7M,189
+checkov_custom_policies/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkov_custom_policies/conf/oneCloudTagsCheck.py,sha256=Fd2Fqw8BfpM0mBR-mQstWDBWm504l75E9tDMykovcW8,1062
+checkov_custom_policies/conf/settings.py,sha256=cjL9WTKNDbwPAtSJUuDnLRnFatZ0T2dfUPUTqohZlVM,149
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkov_custom_policies-0.0.0.dev0.dist-info/LICENSE,sha256=R-jBzZonx91zuAcJS-__3JF_alPB8-HKhuKDGu4UdhI,49
+checkov_custom_policies-0.0.0.dev0.dist-info/METADATA,sha256=JCHig3gZN-zUXlG4i_Yj8jVAPRV9t9WLEA9ID-HdEgc,877
+checkov_custom_policies-0.0.0.dev0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+checkov_custom_policies-0.0.0.dev0.dist-info/top_level.txt,sha256=M3w20Q07NXRuzmXtRV8Qr_AcvOwZCa9xNNPA7TvvI6A,30
+checkov_custom_policies-0.0.0.dev0.dist-info/RECORD,,
