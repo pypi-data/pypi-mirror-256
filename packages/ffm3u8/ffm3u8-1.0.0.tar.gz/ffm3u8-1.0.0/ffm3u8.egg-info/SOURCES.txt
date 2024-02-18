@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ffm3u8.egg-info/PKG-INFO
+ffm3u8.egg-info/SOURCES.txt
+ffm3u8.egg-info/dependency_links.txt
+ffm3u8.egg-info/top_level.txt
