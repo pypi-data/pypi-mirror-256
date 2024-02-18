@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: halerium_utilities
+Version: 2.3.0
+Summary: Halerium utilities is a Python package of utility functions for working on the Halerium platform.
+Home-page: https://erium.de
+Author: Erium GmbH
+Author-email: info@erium.de
+License: Apache 2.0
+Project-URL: Documentation, https://erium.gitlab.io/halerium_utilities/
+Requires-Dist: pydantic <2,>1.9
+Requires-Dist: fastapi ==0.109.0
+Requires-Dist: httpx ==0.25.2
+Requires-Dist: jinja2 ==3.1.2
+Requires-Dist: lameenc ==1.7.0
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: uvicorn ==0.25.0
+Requires-Dist: websockets ==12.0
+Provides-Extra: extra
+Provides-Extra: test
+Requires-Dist: pytest <8,>7 ; extra == 'test'
+Requires-Dist: pytest-cov <5,>3 ; extra == 'test'
+Requires-Dist: pytest-asyncio <0.24,>=0.23 ; extra == 'test'
+Requires-Dist: pytest-httpx ==0.25.0 ; extra == 'test'
+Requires-Dist: numpy <2,>1.19 ; extra == 'test'
+
