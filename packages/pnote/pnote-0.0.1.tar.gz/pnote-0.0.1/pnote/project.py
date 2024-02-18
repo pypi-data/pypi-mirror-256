@@ -1,0 +1,171 @@
+import os, json, socket, re
+from datetime import datetime
+from jsonschema import validate
+from pathlib import Path
+from pnote.layouts import *
+from pnote.metadata import *
+
+class ProjectConfig:
+    FILE="config.json"
+    DEFAULT_CONFIG = {
+        "layout": "flat",
+        "extension":".md",
+        "editor": "vim"
+    }
+    SCHEMA_CONFIG = {
+        "type": "object",
+        "properties": {
+            "layout": {"type": "string"},
+            "exension": {"type": "string"},
+            "editor": {"type": "string"}
+        },
+        "required":[
+            "layout",
+            "extension",
+            "editor"
+        ]
+    }
+    
+    def __init__(self, root):
+        self.pfile=os.path.join(root,self.FILE)
+        if "EDITOR" in os.environ:
+            self.DEFAULT_CONFIG["editor"]=os.environ["EDITOR"]
+        self.config=self.DEFAULT_CONFIG
+        self.load()
+
+    def load(self):
+        if os.path.exists(self.pfile):
+            with open(self.pfile) as f:
+                self.config=json.load(f)
+                try:
+                    validate(instance=self.config, schema=self.SCHEMA_CONFIG)
+                except:
+                    print("Invalid configuration file")
+                    exit(1)
+        else:
+            self.save()
+                    
+    def save(self):
+        with open(self.pfile, "w") as f:
+            f.write(json.dumps(self.config,indent=4, sort_keys=True))
+
+    def __getitem__(self, key):
+        return self.config[key]
+
+    def __setitem__(self, key, value):
+        self.config[key]=value
+
+        
+class Project:
+
+    def __init__(self, path):
+        self.paths={
+            "root": path,
+            "files": os.path.join(path,"files"),
+            "lockfile": os.path.join(path,"lockfile"),
+        }
+
+        Path(self.paths["root"]).mkdir(parents=True, exist_ok=True)
+        Path(self.paths["files"]).mkdir(parents=True, exist_ok=True)
+
+        self.conf=ProjectConfig(self.paths["root"])
+        self.metadata=Metadata(self.paths)
+        
+        if self.conf["layout"]=="flat":
+            self.layout=LayoutFlat(self.conf, self.paths)
+
+        if os.path.exists(self.paths["lockfile"]):
+            print("Your project contains a lock file! Your project might be corrupted :(")
+            exit(1)
+
+    def lock(self):
+        open(self.paths["lockfile"], 'a').close()
+
+    def unlock(self):
+        os.remove(self.paths["lockfile"])
+
+    def create(self):
+        self.lock()
+        subpath=self.layout.create()
+        self.metadata.create(subpath)
+        self.unlock()
+
+    def find(self, string):
+        files=list()
+        for file in self.layout.flatten():
+            if string is None:
+                files.append(str(file))
+            elif string in file.name:
+                files.append(str(file))
+        return files
+
+    def grep(self,exp):
+        r=re.compile(exp)
+        results=list()
+        for subpath in self.layout.flatten():
+            path=os.path.join(self.paths["files"],subpath)
+            lines=list()
+            with open(path, "r") as f:
+                ln=1
+                for line in f:
+                    if r.search(line):
+                        lines.append((ln,line.rstrip()))
+                    ln+=1
+            if len(lines) > 0:
+                results.append((str(subpath),lines))
+        return results
+
+    def searchtag(self,tag):
+        return self.metadata.searchtag(tag)
+
+    def addtags(self, subpaths, tags):
+        for subpath in subpaths:
+            for tag in tags:
+                self.metadata.addtag(subpath, tag)
+
+    def listtags(self):
+        return self.metadata.listtags()
+
+    def deletetags(self, subpaths, tags):
+        for subpath in subpaths:
+            for tag in tags:
+                self.metadata.removetag(subpath, tag)
+
+    def obliteratetags(self, tags):
+        for tag in tags:
+            self.metadata.obliteratetag(tag)
+
+    def fix(self):
+        self.metadata.fix_deleted()
+        self.metadata.fix_new(self.layout)
+            
+    def open(self,string):
+        if string is None:
+            path=self.layout.todaypath()
+            if not os.path.exists(path):
+                self.create()
+            self.exec_editor(path)
+        else:
+            files=list()
+            for path in self.layout.flatten():
+                if string in path.name:
+                    files.append(path)
+            if len(files) == 0:
+                print("No file match")
+            elif len(files) == 1:
+                self.exec_editor(files[0])
+            else:
+                print("Multiple file match:")
+                for path in files:
+                    print(path.name)
+
+    def exec_editor(self, path):
+        command=[self.conf["editor"],path]
+        os.execvp(command[0],command)
+
+    def navigate(self, from_subpath=None, desc=True):
+        for subpath in self.metadata.flatten_ordered(desc):
+            path=os.path.join(self.paths["files"],subpath)
+            with open(path, "r") as f:
+                for line in f:
+                    print(line,end="")
