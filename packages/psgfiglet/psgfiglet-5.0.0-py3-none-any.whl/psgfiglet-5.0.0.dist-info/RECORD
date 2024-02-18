@@ -1,0 +1,13 @@
+psgfiglet/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgfiglet/README.md,sha256=qU64vgQ10fhtwnAjC9AfkfPpuWfrosdJkCN_bPTvHIk,4319
+psgfiglet/__init__.py,sha256=PY9nBomAVLe140K9FBUJVEQ084q7_-7JqaOs9ejDyno,62
+psgfiglet/__main__.py,sha256=5gAvLMlPY4cIUAh0wPFz2cYdNDJo1rzUCUU9wInozjI,68
+psgfiglet/psgfiglet.py,sha256=C-Pmqjd1t5m61K1vd35_yufFQdyJUaVkLCKM761rFck,15594
+psgfiglet/screenshot.jpg,sha256=rP8t_PrqPRQQIWCYTaK9slJDYGF-1k6v-rUxWmOc-38,55949
+psgfiglet/screenshot.png,sha256=rP8t_PrqPRQQIWCYTaK9slJDYGF-1k6v-rUxWmOc-38,55949
+psgfiglet-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgfiglet-5.0.0.dist-info/METADATA,sha256=6nGxrI9nCIpgSTYUWKp5mHj7rluVwt84HljuViYMdJI,5505
+psgfiglet-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psgfiglet-5.0.0.dist-info/entry_points.txt,sha256=kC3e6B-mGxU47GbSGwqZ1uBVQt9tOfY-gZGuE0jffX8,51
+psgfiglet-5.0.0.dist-info/top_level.txt,sha256=SwWnwkIJ-7OU8OvIvjVboVVEGMkH1yTGcM3i47w5JeE,10
+psgfiglet-5.0.0.dist-info/RECORD,,
