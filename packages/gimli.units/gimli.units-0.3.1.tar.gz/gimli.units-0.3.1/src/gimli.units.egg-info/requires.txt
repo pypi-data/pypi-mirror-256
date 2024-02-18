@@ -1,0 +1,12 @@
+numpy
+
+[:python_version < "3.12"]
+importlib-resources
+
+[dev]
+nox
+
+[testing]
+hypothesis
+pytest
+pytest-cov
