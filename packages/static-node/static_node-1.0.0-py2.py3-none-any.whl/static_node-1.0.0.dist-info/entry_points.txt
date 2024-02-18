@@ -1,0 +1,2 @@
+[console_scripts]
+node18 = static_node.cli:main
