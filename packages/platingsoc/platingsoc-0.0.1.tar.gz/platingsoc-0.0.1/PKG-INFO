@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: platingsoc
+Version: 0.0.1
+Summary: For find plating SoCs in anode hald cells
+Project-URL: Documentation, https://github.com/unknown/platingsoc#readme
+Project-URL: Issues, https://github.com/unknown/platingsoc/issues
+Project-URL: Source, https://github.com/unknown/platingsoc
+Author-email: "U.N. Owen" <void@some.where>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# platingSoC
+
+[![PyPI - Version](https://img.shields.io/pypi/v/platingsoc.svg)](https://pypi.org/project/platingsoc)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/platingsoc.svg)](https://pypi.org/project/platingsoc)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install platingsoc
+```
+
+## License
+
+`platingsoc` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
