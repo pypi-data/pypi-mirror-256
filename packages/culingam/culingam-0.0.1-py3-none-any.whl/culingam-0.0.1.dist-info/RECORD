@@ -1,0 +1,11 @@
+culingam/__init__.py,sha256=nrFOF8e1IGN3zRstQMzrTK2AFpFGrBIgHxagtzG09bI,116
+culingam/base.py,sha256=WiA6uPrxS1X3ZM9FbwRkfAkusnqPMU_6cAdVtTUphcY,5693
+culingam/basic.cu,sha256=g0VlsWjX2QJUxPmgWtFkcgxhYQmxRbpuMS47ifG1AvI,20121
+culingam/basic_wrapper.cpp,sha256=QF12x4xhXzJTjqskD4d0povyQlv8Nox27QqSHEZQ9Fw,2272
+culingam/directlingam.py,sha256=q5RMcBxQy7VwnpFRVowT4NRZ20kJh11GOIr2lpQrzeY,9611
+culingam/utils.py,sha256=jVq99B6W0K0fAEd8_ns3kD9uwWGQhDuB8W8bdJ1rFRo,27203
+culingam/varlingam.py,sha256=cE9SrnYYSRIcdURJJuFhvoO3N6LjIWc4D4h8Vpwr_RM,12920
+culingam/include/basic.cuh,sha256=i6d4bMBz0pUJxwr3byHj2q8dlSph7AaRRedYB06FbVc,1748
+culingam-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+culingam-0.0.1.dist-info/METADATA,sha256=YBmUzw_FF2NyVKHlBCJJvZ8x2wEQKzRsav31ztVWnxI,2757
+culingam-0.0.1.dist-info/RECORD,,
