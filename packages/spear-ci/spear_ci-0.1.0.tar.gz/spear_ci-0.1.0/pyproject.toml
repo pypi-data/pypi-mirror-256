@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "spear-ci"
+version = "0.1.0"
+description = ""
+authors = ["Carles Garcia <carles.garciacabot@aiven.io>"]
+readme = "README.md"
+
+packages = [
+    { include = "spear" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
