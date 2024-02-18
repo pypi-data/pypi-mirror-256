@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+EasyDiscordWebhookMessage.egg-info/PKG-INFO
+EasyDiscordWebhookMessage.egg-info/SOURCES.txt
+EasyDiscordWebhookMessage.egg-info/dependency_links.txt
+EasyDiscordWebhookMessage.egg-info/requires.txt
+EasyDiscordWebhookMessage.egg-info/top_level.txt
+discord_webhook_easy_message/__init__.py
+discord_webhook_easy_message/discord_webhook_easy_message.py
