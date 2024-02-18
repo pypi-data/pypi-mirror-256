@@ -1,0 +1,8 @@
+stlrcore/__init__.py,sha256=Ti6kx0srMJzHtOVFTOQCr2Szw66gKIYCDJsw1Kxd_ck,38
+stlrcore/audio_utils.py,sha256=aeLp04eXJujn3QAWfbDwmjnRTprgKj3LJ9Xhi5r2_bc,2864
+stlrcore/transcribe.py,sha256=4Zxel5f9Cmu6nX5E_q_BZvf3WzYILumcWt0hxkK67rw,8949
+stlrcore/transcription_models.py,sha256=6-v8NFL8yDdqX6nIIMUjV0mR41V5b9M3rKEJifMmGSk,3188
+stlrcore-1.0.1.dist-info/METADATA,sha256=VXFHOynb-O3Yx9jP0vN2C26CKRUJa5mghmHEN47r04g,3002
+stlrcore-1.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+stlrcore-1.0.1.dist-info/licenses/LICENSE,sha256=-8za1JZM_xVVyMEwSo51aORTlFA1nAy6VIqXyjhv5do,1057
+stlrcore-1.0.1.dist-info/RECORD,,
