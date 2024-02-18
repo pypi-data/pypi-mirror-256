@@ -1,0 +1,17 @@
+README.md
+setup.py
+ERLC.egg-info/PKG-INFO
+ERLC.egg-info/SOURCES.txt
+ERLC.egg-info/dependency_links.txt
+ERLC.egg-info/top_level.txt
+ERLCf/__init__.py
+ERLCf/client.py
+ERLCf/erlc.py
+ERLCf/requests.py
+ERLCf/server.py
+Examples/__init__.py
+Examples/bans.py
+Examples/client.py
+Examples/kills.py
+Examples/players.py
+Examples/status.py
