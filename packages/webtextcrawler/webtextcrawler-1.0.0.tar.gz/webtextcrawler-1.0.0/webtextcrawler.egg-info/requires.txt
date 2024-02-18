@@ -1,0 +1,3 @@
+langdetect
+beautifulsoup4
+requests
