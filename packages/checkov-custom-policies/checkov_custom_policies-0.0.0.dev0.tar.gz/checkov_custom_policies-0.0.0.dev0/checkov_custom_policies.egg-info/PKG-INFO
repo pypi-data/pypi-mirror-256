@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: checkov_custom_policies
+Version: 0.0.0.dev0
+Summary: Checkov custom policies to run security tests
+Author: DevX CD
+License: Copyright (c) 2024, DevX CD, All Rights Reserved
+        
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic~=2.0
+Requires-Dist: pydantic-settings
+Provides-Extra: dev
+Requires-Dist: build; extra == "dev"
+Requires-Dist: dapperdata; extra == "dev"
+Requires-Dist: glom; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-pretty; extra == "dev"
+Requires-Dist: ruamel.yaml; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: toml-sort; extra == "dev"
+
+# checkov_custom_policies
+
+Checkov custom policies to run security tests

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+checkov_custom_policies/__init__.py
+checkov_custom_policies/_version.py
+checkov_custom_policies/py.typed
+checkov_custom_policies/settings.py
+checkov_custom_policies/setup.py
+checkov_custom_policies.egg-info/PKG-INFO
+checkov_custom_policies.egg-info/SOURCES.txt
+checkov_custom_policies.egg-info/dependency_links.txt
+checkov_custom_policies.egg-info/requires.txt
+checkov_custom_policies.egg-info/top_level.txt
+checkov_custom_policies/conf/__init__.py
+checkov_custom_policies/conf/oneCloudTagsCheck.py
+checkov_custom_policies/conf/settings.py
+tests/__init__.py
