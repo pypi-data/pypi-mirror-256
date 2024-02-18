@@ -1,0 +1,2 @@
+[console_scripts]
+fretty-book = fretty_book:main

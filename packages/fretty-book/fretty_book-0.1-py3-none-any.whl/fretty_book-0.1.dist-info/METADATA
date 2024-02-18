@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: fretty-book
+Version: 0.1
+Summary: fretty-book can replace inline fretty markup within documents with the generated images
+Home-page: https://github.com/thomasvolk/fretty-book
+Author: Thomas Volk
+Author-email: info@thomasvolk.de
+License: Apache
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fretty[png]
+Requires-Dist: lxml
+
+# fretty-book
+
+fretty-book can replace inline [fretty](https://github.com/thomasvolk/fretty) markup within documents with the generated images.
+
+## Installation
+
+    pip install fretty-book
+
+## Usage
+
+    fretty-book example/simple.html -o simple.html
+
+
+## Markup
+
+fretty-book can process HTML and XHTML documents. All `<fretty>` tags will be replaced with the image generated with the included markup. 
+
+### html
+
+This markup ...
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test document</title>
+    </head>
+    <body>
+
+        <h3>Fretty test document for html processing</h3>
+
+        <p>Tabs for C major scale</p>
+        <fretty width="400">
+            III
+            --o-o1
+            --oo-o
+            -o1-o-
+            o-o-o-
+            1-o-o-
+            o-o-o-
+        </fretty>
+    </body>
+</html>
+```
+will produce this result:
+
+---
+
+<h3>Fretty test document for html processing</h3>
+
+<p>Tabs for C major scale</p>
+
+<img src="https://raw.githubusercontent.com/thomasvolk/fretty-book/master/example/simple/fretty-0.svg"/>
+
+---
