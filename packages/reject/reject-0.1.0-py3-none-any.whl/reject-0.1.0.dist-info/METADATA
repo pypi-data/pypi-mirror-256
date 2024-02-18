@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: reject
+Version: 0.1.0
+Summary: Functionalities for classification with rejection.
+License: Apache-2.0
+Author: Arthur Thuy
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# reject
+
+Functionalities for classification with rejection.
+
+## Installation
+
+```bash
+$ pip install reject
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`reject` was created by Arthur Thuy. It is licensed under the terms of the Apache License 2.0 license.
+
+## Credits
+
+`reject` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
