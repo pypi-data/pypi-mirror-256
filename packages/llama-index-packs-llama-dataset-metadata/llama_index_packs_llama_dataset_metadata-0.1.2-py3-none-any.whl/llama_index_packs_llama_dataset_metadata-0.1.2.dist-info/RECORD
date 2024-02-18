@@ -1,0 +1,6 @@
+llama_index/packs/llama_dataset_metadata/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/packs/llama_dataset_metadata/__init__.py,sha256=Uhm_TU4QDkHzm3G83Yi-_umYSE_p1HeRtcBQIOWbzj4,123
+llama_index/packs/llama_dataset_metadata/base.py,sha256=ih_zdptccrmcAjm69ljYYVOi_vzD6GW3ZUjA-j6-ieY,8211
+llama_index_packs_llama_dataset_metadata-0.1.2.dist-info/METADATA,sha256=iCYkBH8f1NYEIkdghTQE678RdMOntATya20aeSe50MQ,2853
+llama_index_packs_llama_dataset_metadata-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_packs_llama_dataset_metadata-0.1.2.dist-info/RECORD,,
