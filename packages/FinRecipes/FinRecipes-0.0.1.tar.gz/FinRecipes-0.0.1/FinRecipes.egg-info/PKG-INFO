@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: FinRecipes
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: progressbar
+Requires-Dist: yfinance
+Requires-Dist: stockstats
+Requires-Dist: datetime
+Requires-Dist: pytz
+Requires-Dist: numpy
+Requires-Dist: tables
