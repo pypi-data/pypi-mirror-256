@@ -1,0 +1,2 @@
+[console_scripts]
+protolog = protolog:cli
