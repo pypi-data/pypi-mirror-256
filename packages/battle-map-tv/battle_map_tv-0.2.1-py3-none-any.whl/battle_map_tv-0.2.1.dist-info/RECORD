@@ -1,0 +1,16 @@
+_version.py,sha256=MxUhzLJIZQfEpDTTcKSxciTGrMLd5v2VmMlHa2HGeo0,411
+battle_map_tv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battle_map_tv/__main__.py,sha256=dTg9fXXU3Y9H31sulg2XZd8qJfD3qOUlckEuAxPWcNc,1073
+battle_map_tv/events.py,sha256=rwXZCKhnEjOAZvEEdVNsc04VCloneNO2jHljT1lndJM,569
+battle_map_tv/grid.py,sha256=HUSDxoljx5nx0atNR41ZtoGxpLGAJ1gjC7myDI8dcGw,2867
+battle_map_tv/image.py,sha256=zr4inoZWhiF7emCie7_YCb318-0bATaWVfrmQV35wf0,4202
+battle_map_tv/opencv_utils.py,sha256=58cTex6RAvibUY1Q-ncDPzVFLBUP9Pzt0cU7OhxqQ-0,443
+battle_map_tv/scale_detection.py,sha256=zLMSLKybdlknJ64kYY0jOPlSfJpwmUbmApIZAgHqmxI,6911
+battle_map_tv/storage.py,sha256=pMr8RuQcyhgPfXIKDRDErJMSBAb8vyzOLMliWlaKEyo,1875
+battle_map_tv/ui_elements.py,sha256=4GXZbdHyr_xRNEOwvNTizB8-jmygaFgmA813Ru-3lpc,2107
+battle_map_tv/window_gui.py,sha256=MPdag8vsPNp5R4oGgja98_1NoGRO_T-3CpOz4RvoO_Q,7125
+battle_map_tv/window_image.py,sha256=mugTFXQLxheRGr_MGnofC-qlucR2tub90038n-8aNR0,3217
+battle_map_tv-0.2.1.dist-info/METADATA,sha256=D6A58pejInS0yKfPVaPC_jZkg_H0yW42G0QPgB-u-B8,3394
+battle_map_tv-0.2.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+battle_map_tv-0.2.1.dist-info/licenses/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+battle_map_tv-0.2.1.dist-info/RECORD,,
