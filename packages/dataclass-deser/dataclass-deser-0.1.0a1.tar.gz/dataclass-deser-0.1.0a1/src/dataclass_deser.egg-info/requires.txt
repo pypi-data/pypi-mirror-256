@@ -1,0 +1,15 @@
+
+[:python_version < "3.11"]
+typing_extensions>=4.2
+
+[dev]
+test
+mypy
+black
+isort
+
+[mypy]
+mypy>=1
+
+[test]
+pytest

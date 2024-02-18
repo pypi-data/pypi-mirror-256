@@ -1,0 +1,16 @@
+.gitignore
+Justfile
+LICENSE.txt
+README.md
+mypy.ini
+pyproject.toml
+tox.ini
+src/dataclass_deser/__init__.py
+src/dataclass_deser.egg-info/PKG-INFO
+src/dataclass_deser.egg-info/SOURCES.txt
+src/dataclass_deser.egg-info/dependency_links.txt
+src/dataclass_deser.egg-info/requires.txt
+src/dataclass_deser.egg-info/top_level.txt
+tests/__init__.py
+tests/test_builtins.py
+tests/test_dataclasses.py
