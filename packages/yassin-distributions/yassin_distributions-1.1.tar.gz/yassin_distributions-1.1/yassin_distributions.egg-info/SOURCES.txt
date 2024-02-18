@@ -1,0 +1,10 @@
+setup.py
+yassin_distributions/Binomialdistribution.py
+yassin_distributions/Gaussiandistribution.py
+yassin_distributions/Generaldistribution.py
+yassin_distributions/__init__.py
+yassin_distributions.egg-info/PKG-INFO
+yassin_distributions.egg-info/SOURCES.txt
+yassin_distributions.egg-info/dependency_links.txt
+yassin_distributions.egg-info/not-zip-safe
+yassin_distributions.egg-info/top_level.txt
