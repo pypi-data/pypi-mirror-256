@@ -1,0 +1,4 @@
+aiohttp
+thefuzz
+tabulate
+requests
