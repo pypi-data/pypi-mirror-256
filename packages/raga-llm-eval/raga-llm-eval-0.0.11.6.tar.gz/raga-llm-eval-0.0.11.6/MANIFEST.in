@@ -1,0 +1,3 @@
+include raga_llm_eval/llm_tests/test_details.toml
+include raga_llm_eval/utils/embeddings_all-MiniLM-L6-v2_harm_v2.parquet
+include raga_llm_eval/utils/themes.json
