@@ -1,0 +1,8 @@
+setup.py
+conf/__init__.py
+conf/settings.py
+terraform_resource_tags_check.egg-info/PKG-INFO
+terraform_resource_tags_check.egg-info/SOURCES.txt
+terraform_resource_tags_check.egg-info/dependency_links.txt
+terraform_resource_tags_check.egg-info/requires.txt
+terraform_resource_tags_check.egg-info/top_level.txt
