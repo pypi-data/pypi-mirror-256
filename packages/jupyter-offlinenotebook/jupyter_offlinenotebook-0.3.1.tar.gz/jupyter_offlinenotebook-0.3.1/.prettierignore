@@ -1,0 +1,6 @@
+jupyter_offlinenotebook/static/jslib
+jupyter_offlinenotebook/static/lab/static
+lib
+node_modules
+package.json
+.pytest_cache
