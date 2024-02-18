@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/audiodata/__init__.py
+src/audiodata/metadata.py
+src/audiodata.egg-info/PKG-INFO
+src/audiodata.egg-info/SOURCES.txt
+src/audiodata.egg-info/dependency_links.txt
+src/audiodata.egg-info/requires.txt
+src/audiodata.egg-info/top_level.txt
