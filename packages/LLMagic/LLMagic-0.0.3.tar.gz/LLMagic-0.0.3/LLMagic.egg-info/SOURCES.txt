@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+LLMagic.egg-info/PKG-INFO
+LLMagic.egg-info/SOURCES.txt
+LLMagic.egg-info/dependency_links.txt
+LLMagic.egg-info/requires.txt
+LLMagic.egg-info/top_level.txt
+src/main.py

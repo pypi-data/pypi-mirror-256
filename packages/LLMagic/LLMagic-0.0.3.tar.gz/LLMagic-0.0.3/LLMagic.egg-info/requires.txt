@@ -1,0 +1,3 @@
+
+[llama-gpu]
+llama-cpp-python
