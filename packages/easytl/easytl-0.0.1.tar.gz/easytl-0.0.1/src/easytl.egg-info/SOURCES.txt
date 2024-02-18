@@ -1,0 +1,13 @@
+.gitignore
+LICENSE.md
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/workflow.yml
+.vscode/settings.json
+src/easytl/__init__.py
+src/easytl/easytl.py
+src/easytl.egg-info/PKG-INFO
+src/easytl.egg-info/SOURCES.txt
+src/easytl.egg-info/dependency_links.txt
+src/easytl.egg-info/top_level.txt
