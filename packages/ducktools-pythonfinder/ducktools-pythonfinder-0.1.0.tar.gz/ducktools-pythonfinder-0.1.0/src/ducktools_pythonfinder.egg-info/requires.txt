@@ -1,0 +1,7 @@
+ducktools-lazyimporter
+prefab-classes
+
+[testing]
+pytest
+pytest-cov
+pyfakefs
