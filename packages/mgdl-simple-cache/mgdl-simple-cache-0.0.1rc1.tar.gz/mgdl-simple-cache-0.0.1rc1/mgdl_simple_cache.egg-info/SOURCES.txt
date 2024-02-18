@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+mgdl_simple_cache.egg-info/PKG-INFO
+mgdl_simple_cache.egg-info/SOURCES.txt
+mgdl_simple_cache.egg-info/dependency_links.txt
+mgdl_simple_cache.egg-info/requires.txt
+mgdl_simple_cache.egg-info/top_level.txt
+simple_cache/__init__.py
+tests/test_simple_cache.py
