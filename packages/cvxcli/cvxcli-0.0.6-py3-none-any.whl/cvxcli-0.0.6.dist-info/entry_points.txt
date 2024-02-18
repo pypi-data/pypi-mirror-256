@@ -1,0 +1,4 @@
+[console_scripts]
+smallest-eigenvalue=cvx.cli.smallest_eigenvalue:main
+weather=cvx.cli.weather:main
+
