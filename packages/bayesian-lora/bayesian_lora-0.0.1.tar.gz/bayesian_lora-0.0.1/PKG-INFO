@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: bayesian_lora
+Version: 0.0.1
+Summary: Bayesian LoRA adapters for Language Models
+Author-email: Maxime Robeyns <dev@maximerobeyns.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/MaximeRobeyns/bayesian_lora
+Project-URL: Repository, https://github.com/MaximeRobeyns/bayesian_lora
+Project-URL: Documentation, https://maximerobeyns.github.io/bayesian_lora/
+Keywords: Bayes,LLM,LoRA,machine learning,uncertainty
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jaxtyping>=0.2.25
+Requires-Dist: torch
+Requires-Dist: tqdm
+Provides-Extra: examples
+Requires-Dist: datasets>=2.16.1; extra == "examples"
+Requires-Dist: hydra-core<2.0,>=1.2.0; extra == "examples"
+Requires-Dist: omegaconf>=2.3.0; extra == "examples"
+Requires-Dist: peft>=0.5.0; extra == "examples"
+Requires-Dist: torchmetrics>=1.2.0; extra == "examples"
+Requires-Dist: transformers>=4.37.2; extra == "examples"
+Requires-Dist: pytest>=7.2.0; extra == "examples"
+Provides-Extra: dev
+Requires-Dist: ipywidgets>=8.0.4; extra == "dev"
+Requires-Dist: jupyterlab<3.6,>=3.5; extra == "dev"
+Requires-Dist: jupyterlab-vim; extra == "dev"
+Requires-Dist: jupyterlab-vimrc; extra == "dev"
+Requires-Dist: mypy<=1.0,>=0.990; extra == "dev"
+Requires-Dist: tensorboard<3.0,>=2.11.2; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: furo>=2022.9.29; extra == "docs"
+Requires-Dist: sphinx-autobuild>=2021.3.14; extra == "docs"
+Requires-Dist: sphinx-copybutton>=0.5.1; extra == "docs"
+Requires-Dist: sphinxext-opengraph>=0.7.2; extra == "docs"
+Provides-Extra: all
+Requires-Dist: bayesian_lora[examples]; extra == "all"
+Requires-Dist: bayesian_lora[dev]; extra == "all"
+Requires-Dist: bayesian_lora[docs]; extra == "all"
+
+# Bayesian LoRA
+
+Code for the paper [Bayesian Low-Rank Adaptation for Large Language Models](https://openreview.net/forum?id=FJiUyzOF1m).
+
+## Installation
+
+```bash
+
