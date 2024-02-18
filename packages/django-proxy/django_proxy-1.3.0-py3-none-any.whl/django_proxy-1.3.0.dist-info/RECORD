@@ -1,0 +1,13 @@
+proxy/__init__.py,sha256=zi_LaUT_OsChAtsPXbOeRpQkCohSsOyeXfavQPM0GoE,22
+proxy/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxy/tests.py,sha256=2cEGgVVo1NQphulrgsMTMajmt2De3RT0sLzV-6tIVsE,1124
+proxy/urls.py,sha256=R8BT3uNbonNH6h_33R7_l3VfqPLzUAI0PsBCD4YLQ_g,165
+proxy/views.py,sha256=ibVBCSvoJ6FlQdb-UAg7ZMfAM4d9NYYhfNYObwn_jlw,4663
+proxy/__pycache__/__init__.cpython-310.pyc,sha256=QFSERtew3AIaqQF_uc3K-GEf3ZA-dDa2hu6GTMcb8g8,174
+proxy/__pycache__/models.cpython-310.pyc,sha256=BmJnltSxarN1-eSOlmgZVMofKCXLWVxddprNE2cAIqg,151
+proxy/__pycache__/tests.cpython-310.pyc,sha256=50z4QX5Z6eWtijny4BSBsddc7KBo7xk8s3FV3Rv0m8s,1369
+proxy/__pycache__/views.cpython-310.pyc,sha256=UkfeEt58RzAf4h8z1FnAbQZIRmiDdYF2BrlOQO4QgQs,2475
+django_proxy-1.3.0.dist-info/METADATA,sha256=UR3nqeg43EUJkE4F1X2siyg-WFY_eXZLNttwMNoTXtg,612
+django_proxy-1.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_proxy-1.3.0.dist-info/top_level.txt,sha256=z6RYBTHwGoNGkSVH3TvrDF_N3yovKtb4mncOphsetf8,6
+django_proxy-1.3.0.dist-info/RECORD,,
