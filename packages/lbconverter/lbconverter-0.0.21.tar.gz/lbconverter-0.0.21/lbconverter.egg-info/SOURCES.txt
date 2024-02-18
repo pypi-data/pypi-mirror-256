@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+lbconverter/__init__.py
+lbconverter.egg-info/PKG-INFO
+lbconverter.egg-info/SOURCES.txt
+lbconverter.egg-info/dependency_links.txt
+lbconverter.egg-info/requires.txt
+lbconverter.egg-info/top_level.txt
+lbconverter/converters/__init__.py
+lbconverter/converters/coco_converter.py
+lbconverter/converters/labelbox_converter.py
+lbconverter/converters/yolo_converter.py
