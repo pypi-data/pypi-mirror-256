@@ -1,0 +1,7 @@
+pandas
+pyarrow>=7.0.0
+tqdm>=4.10.0
+orjson
+requests
+pydantic[dotenv]
+pydantic-settings
