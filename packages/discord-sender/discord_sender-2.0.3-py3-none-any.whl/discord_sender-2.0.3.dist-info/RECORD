@@ -1,0 +1,12 @@
+discord_sender/__init__.py,sha256=H5gH8ONdaFr9gh8U77aYMDO3EOkkt7ABl0HLREHJXvs,1271
+discord_sender/__main__.py,sha256=06bM0Wt4cjvypMoPqjrNArnUoNsKdNOnE7Hf947uyRA,715
+discord_sender/channel.py,sha256=_CRjv3G9x_3ZpL_QWJi7cFAkPBQdLLx2K5mU1vkay38,2022
+discord_sender/discord.py,sha256=haP8VZhA2OCVER6bWiZJQOhwszpPfXFl6yOhubBlyLc,9905
+discord_sender/discord_exceptions.py,sha256=24lC3Qmx7lTN6NM0qrFTu0UyqBACXv0HKjsDn0_06zo,316
+discord_sender/info.py,sha256=7mCBRmEG8h_X5OzmjFl_i8v_bIfZJEdETaBeZiveEUg,649
+discord_sender/other.py,sha256=EnLI0x7TOebevhOPEtxJBffyw_tqQb_pw1jRIqIK-9w,1221
+discord_sender/tools.py,sha256=5n8xyIPWmlIY5ZNxm6aCqwYpcpYXg4DnG2ZIQYcnY3E,209
+discord_sender-2.0.3.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+discord_sender-2.0.3.dist-info/METADATA,sha256=oyfMyCX7tE6U3CNUEC7XZlBEwv1tS4Pozgiz_u-DT3k,2580
+discord_sender-2.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+discord_sender-2.0.3.dist-info/RECORD,,
