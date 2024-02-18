@@ -1,0 +1,10 @@
+vlite2/__init__.py,sha256=rB_8NHb12lD5gEIFQZLcRfcOIq4fn_mPPslvGbCbwoE,90
+vlite2/ingestors.py,sha256=qPuI8A89YWJLKvCk7Y6NoM4ap0iVl7oJ_wYrdrzoDK4,4868
+vlite2/main.py,sha256=PmCQPS2QJoAIZvgX1ltPt3CdiDH4xcRsFp0-pAS0gB8,7856
+vlite2/model.py,sha256=xQX-1RGvnB8fA46jrQkB7EpKj2TD9Eh5JOg11P6rQeU,2218
+vlite2/utils.py,sha256=VJzlJLkK5fuplEwz2VBE0g6AP4tGqPGfRXztF_ArNmw,892
+vlite2-3.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+vlite2-3.4.0.dist-info/METADATA,sha256=Y71399h8rqVztL7WhdrXug6XwVOJUy_jFpXSMH9w0s0,503
+vlite2-3.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vlite2-3.4.0.dist-info/top_level.txt,sha256=8OhQ4aB7HqCgo_jYVZGmQEHyEaz1ZwgE9YkMjQb2Zxk,7
+vlite2-3.4.0.dist-info/RECORD,,
