@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xctools_kamaalio
+Version: 0.3.0
+Summary: A package to help deal with Xcode projects.
+Author-email: Kamaal Farah <kamaal.f1@gmail.com>
+Project-URL: Homepage, https://github.com/Kamaalio/XcTools
+Project-URL: Bug Tracker, https://github.com/Kamaalio/XcTools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.1.6
+Requires-Dist: kamaalpy>=0.1.0
+
+# XcTools
