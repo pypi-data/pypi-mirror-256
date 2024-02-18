@@ -1,0 +1,3 @@
+[console_scripts]
+parrots = parrots.cli:main
+
