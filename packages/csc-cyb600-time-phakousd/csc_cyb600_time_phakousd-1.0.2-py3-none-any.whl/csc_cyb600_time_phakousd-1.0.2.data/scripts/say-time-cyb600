@@ -1,0 +1,4 @@
+say-time#!/bin/env python3
+from csc_cyb600_time.main import say_time_class
+
+say_time_class()
