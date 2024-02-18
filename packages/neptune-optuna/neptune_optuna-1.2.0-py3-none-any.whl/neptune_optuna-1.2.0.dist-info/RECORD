@@ -1,0 +1,8 @@
+CHANGELOG.md,sha256=xGtCsjabQ2Gw-yAGVpv1351f-30E6-W1IuSxebSBWTE,2211
+neptune_optuna/__init__.py,sha256=mMCzTGA15lk1j7T5aNl8TFdgYz0cKTHxGvOe5Gc7hI4,829
+neptune_optuna/impl/__init__.py,sha256=JrUTsKwPu21My-GE0xAJZ5Wb0SrugY9U8OE6qCQqWe0,26931
+neptune_optuna/impl/version.py,sha256=b_ZYexFcdhY2R1PKTWYt-g_StDPvSopPc4--nixtdGw,735
+neptune_optuna-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neptune_optuna-1.2.0.dist-info/METADATA,sha256=d-3dIG4GxQ1GCA5Djp5T5RwDTflDPUWiSvyKaOC1i48,4613
+neptune_optuna-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+neptune_optuna-1.2.0.dist-info/RECORD,,
