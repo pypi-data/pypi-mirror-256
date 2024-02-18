@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+masscodeDriver/__init__.py
+masscodeDriver/datacls.py
+masscodeDriver/driver.py
+masscodeDriver/query.py
+masscodeDriver/tdict.py
+masscode_driver.egg-info/PKG-INFO
+masscode_driver.egg-info/SOURCES.txt
+masscode_driver.egg-info/dependency_links.txt
+masscode_driver.egg-info/requires.txt
+masscode_driver.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: masscode-driver
+Version: 0.9.0
+Summary: Driver for MassCode
+Home-page: https://github.com/ZackaryW/masscode-driver
+Author: ZackaryW
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sioDict
+
+# Masscode Driver
+Middleware for interacting with MassCode database
+
+## Installation
+```bash
+pip install masscode-driver
+``
