@@ -1,0 +1,12 @@
+LICENSE.txt
+setup.py
+PySimpleGUIQt/CONTRIBUTING.md
+PySimpleGUIQt/LICENSE.txt
+PySimpleGUIQt/PySimpleGUIQt.py
+PySimpleGUIQt/README.md
+PySimpleGUIQt/__init__.py
+PySimpleGUIQt/__main__.py
+PySimpleGUIQt.egg-info/PKG-INFO
+PySimpleGUIQt.egg-info/SOURCES.txt
+PySimpleGUIQt.egg-info/dependency_links.txt
+PySimpleGUIQt.egg-info/top_level.txt
