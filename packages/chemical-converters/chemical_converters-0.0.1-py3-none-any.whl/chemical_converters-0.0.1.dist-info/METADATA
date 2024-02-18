@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chemical-converters
+Version: 0.0.1
+Summary: Chemical-Converters, developed by Knowledgator, showcases our technological capabilities in the chemical domain with entry-level models for a glimpse into potential applications. It's collection of tools for converting one chemical format into another. You can choose any model at HuggingFace trained to do specific convertion and setup your pipeline with the framework.
+License: Apache-2.0
+License-File: LICENSE
+Keywords: biology,chemistry,iupac,smiles,text2text,transformers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: rdkit==2023.3.3
+Requires-Dist: requests==2.31.0
+Requires-Dist: torch==2.1.2
+Requires-Dist: transformers==4.36.2
