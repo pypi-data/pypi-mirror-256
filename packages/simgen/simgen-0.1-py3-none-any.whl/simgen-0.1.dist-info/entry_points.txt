@@ -1,0 +1,2 @@
+[console_scripts]
+simgen = simgen_zndraw.cli:cli_app
