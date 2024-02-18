@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "viewtext-curses"
+version = "1.2.2"
+description = "Curses-based text file viewer"
+authors     = ["Joe Rodrigue <joe.rodrigue@gmail.com>"]
+maintainers = ["Joe Rodrigue <joe.rodrigue@gmail.com>"]
+readme = "README.md"
+classifiers = [
+	"License :: OSI Approved :: Apache Software License",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+]
+keywords    = ['textfile', 'viewer']
+# dependencies    = ['click', 'tomli_w']
+
+packages = [{include = "viewtext_c", from = "src"}]
+
+[tool.poetry.dependencies]
+python  = "^3.10"
+click   = ">= 2.0"
+tomli_w = "^1.0.0"
+
+[tool.poetry.scripts]
+	viewtext-c = 'viewtext_c.__main__:read_cl_arguments'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
