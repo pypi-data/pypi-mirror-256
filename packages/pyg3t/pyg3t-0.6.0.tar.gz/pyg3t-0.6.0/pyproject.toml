@@ -1,0 +1,30 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'pyg3t'
+description = 'PyG3T, python gettext translation toolkit'
+
+version = '0.6.0'
+requires-python = '>=3.8'
+dependencies = []
+readme = 'README.rst'
+# License is GPLv3+, how do we specify that?
+
+[project.urls]
+Repository = 'https://gitlab.com/pyg3t/pyg3t'
+
+[project.scripts]
+gtcat = 'pyg3t.gtcat:main'
+gtcheckargs = 'pyg3t.gtcheckargs:main'
+gtcompare = 'pyg3t.gtcompare:main'
+gtgrep = 'pyg3t.gtgrep:main'
+gtmerge = 'pyg3t.gtmerge:main'
+gtprevmsgdiff = 'pyg3t.gtprevmsgdiff:main'
+gtwdiff = 'pyg3t.gtwdiff:main'
+gtxml = 'pyg3t.gtxml:main'
+poabc = 'pyg3t.poabc:main'
+podiff = 'pyg3t.podiff:main'
+popatch = 'pyg3t.popatch:main'
+poselect = 'pyg3t.poselect:main'
