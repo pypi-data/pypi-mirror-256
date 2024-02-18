@@ -1,0 +1,7 @@
+mutable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mutable/callbacks.py,sha256=9uoGXVlUgysTv8w-YSyn7mXz1JPCSiVZ6kd-3UtMeXc,9645
+mutable/openai.py,sha256=580O4ptZeFh-Lny-dwESY8TdiHDIiR4WpSnEJvQY9t8,10345
+mutable_dev-0.1.4.dist-info/METADATA,sha256=w_J9yM8NCyfRQBiQdmV8EoiwAAEawVoGeem9oIWnSiE,401
+mutable_dev-0.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mutable_dev-0.1.4.dist-info/top_level.txt,sha256=7FYcrA7-JqvD6mbXn2SfkcOuwkCIjG9E_QNvfqLwEdc,8
+mutable_dev-0.1.4.dist-info/RECORD,,
