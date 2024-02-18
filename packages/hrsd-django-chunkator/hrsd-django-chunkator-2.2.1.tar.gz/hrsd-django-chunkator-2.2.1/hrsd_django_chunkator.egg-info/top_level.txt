@@ -1,0 +1,1 @@
+hrsd_django_chunkator

@@ -1,0 +1,7 @@
+setup.py
+hrsd_django_chunkator/__init__.py
+hrsd_django_chunkator/main.py
+hrsd_django_chunkator.egg-info/PKG-INFO
+hrsd_django_chunkator.egg-info/SOURCES.txt
+hrsd_django_chunkator.egg-info/dependency_links.txt
+hrsd_django_chunkator.egg-info/top_level.txt
