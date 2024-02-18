@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: geospatial-pipelines
+Version: 0.1.0
+Summary: scripts for allowing user to load and preprocess data from the lidar / image data in order to convert into raw attributed point cloud dataset
+Author: Dhruv Malik
+Author-email: Dhruv@extralabs.xyz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## @geospatial-pipelines/data_preparation:
+
+This package provides the tools and utils for the first stage of the operation after fetching data: allowing users to do operations of the current raw dataset of pointcloud (.las, .laz, .pcd) for operations like: 
+    - Cropping (2D/3D cropping)
+    - conversion of the coordinates 
+    - combination of point clouds
+    - conversion across various formats.
+
+## installation and setup:
+- Install from the pip directory: `pip install -r requirements.txt`
+- Or via the source by cloning the whole [geospatial-pipeline]() and then installing the file via the `pip install -r requirements.txt`.
