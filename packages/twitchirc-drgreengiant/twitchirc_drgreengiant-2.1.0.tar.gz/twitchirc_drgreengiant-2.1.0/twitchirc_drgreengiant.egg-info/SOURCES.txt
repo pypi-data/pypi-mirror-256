@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/twitchirc_drgreengiant/__init__.py
+src/twitchirc_drgreengiant/bufferedsocket.py
+src/twitchirc_drgreengiant/offlineirc.py
+src/twitchirc_drgreengiant/twitchirc.py
+tests/test_twitch.py
+twitchirc_drgreengiant.egg-info/PKG-INFO
+twitchirc_drgreengiant.egg-info/SOURCES.txt
+twitchirc_drgreengiant.egg-info/dependency_links.txt
+twitchirc_drgreengiant.egg-info/top_level.txt
