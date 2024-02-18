@@ -1,0 +1,2 @@
+[console_scripts]
+nsrx = nsrx_class.main_script:main
