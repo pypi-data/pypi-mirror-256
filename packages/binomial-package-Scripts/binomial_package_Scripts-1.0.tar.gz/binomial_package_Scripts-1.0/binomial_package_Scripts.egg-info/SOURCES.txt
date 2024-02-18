@@ -1,0 +1,10 @@
+setup.py
+binomial_package_Scripts/Binomialdistribution.py
+binomial_package_Scripts/Gaussiandistribution.py
+binomial_package_Scripts/Generaldistribution.py
+binomial_package_Scripts/__init__.py
+binomial_package_Scripts.egg-info/PKG-INFO
+binomial_package_Scripts.egg-info/SOURCES.txt
+binomial_package_Scripts.egg-info/dependency_links.txt
+binomial_package_Scripts.egg-info/not-zip-safe
+binomial_package_Scripts.egg-info/top_level.txt
