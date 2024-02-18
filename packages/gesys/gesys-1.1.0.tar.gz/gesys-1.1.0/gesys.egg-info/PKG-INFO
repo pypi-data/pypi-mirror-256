@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gesys
+Version: 1.1.0
+Summary: Control your computer with gestures.
+Home-page: https://github.com/ArtemLetyagin/Gesys
+Author: Gesys
+Author-email: a.letyagin1@gmail.com
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/ArtemLetyagin/Gesys
+Description: # Gesys
+        Gesys
+Keywords: gesture gestures control
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
