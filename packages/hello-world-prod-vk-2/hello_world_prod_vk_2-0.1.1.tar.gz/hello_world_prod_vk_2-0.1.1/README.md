@@ -1,0 +1,3 @@
+This is a simple exercise to publish a package onto PyPi.
+
+Projects using Setuptools 0.6.27+ have standard readme files (README.rst, README.txt, or README) included in source distributions by default. The built-in distutils library adopts this behavior beginning in Python 3.7. Additionally, Setuptools 36.4.0+ will include a README.md if found. If you are using setuptools, you don’t need to list your readme file in MANIFEST.in. Otherwise, include it to be explicit.

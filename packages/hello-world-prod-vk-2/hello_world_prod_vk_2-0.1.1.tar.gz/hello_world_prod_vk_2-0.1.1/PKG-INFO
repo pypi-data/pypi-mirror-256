@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hello_world_prod_vk_2
+Version: 0.1.1
+Summary: A Hello World package for testing publishing
+Home-page: https://github.com/vasilik23/sample-pypi-package
+Author: Vasili Kamisarau
+Author-email: vasili_kamisarau@epam.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple exercise to publish a package onto PyPi.
+
+Projects using Setuptools 0.6.27+ have standard readme files (README.rst, README.txt, or README) included in source distributions by default. The built-in distutils library adopts this behavior beginning in Python 3.7. Additionally, Setuptools 36.4.0+ will include a README.md if found. If you are using setuptools, you donâ€™t need to list your readme file in MANIFEST.in. Otherwise, include it to be explicit.
