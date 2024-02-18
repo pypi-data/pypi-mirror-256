@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/DonBot.egg-info/PKG-INFO
+src/DonBot.egg-info/SOURCES.txt
+src/DonBot.egg-info/dependency_links.txt
+src/DonBot.egg-info/requires.txt
+src/DonBot.egg-info/top_level.txt
+src/donbot/__init__.py
+src/donbot/allure_utils.py
+src/donbot/behave_runner.py
+src/donbot/requests_utils.py
+src/donbot/selenium_utils.py
