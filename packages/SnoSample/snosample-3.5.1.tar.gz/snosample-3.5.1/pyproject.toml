@@ -1,0 +1,59 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+# Package.
+name = "SnoSample"
+version = "3.5.1"
+description = "Simplified tools for Python projects."
+packages = [{include = "snosample", from="src"}]
+repository = "https://dev.azure.com/snomax/SnoSample"
+
+# Docs.
+license = "MIT"
+readme = "README.md"
+
+# People.
+authors = ["Max Snoodijk <max_snoodijk@live.nl>",]
+maintainers = ["Max Snoodijk <max_snoodijk@live.nl>",]
+
+# Package dependencies.
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26"
+
+# Test pipeline dependencies.
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pylint = "^3.0"
+mypy = "^1.8"
+coverage = "^7.4"
+
+# Build pipeline dependencies.
+[tool.poetry.group.build]
+optional = true
+
+[tool.poetry.group.build.dependencies]
+
+# Release pipeline dependencies.
+[tool.poetry.group.release]
+optional = true
+
+[tool.poetry.group.release.dependencies]
+
+[tool.mypy]
+packages = "src"
+cache_dir = "local/mypy"
+disable_error_code = "var-annotated"
+
+[tool.coverage.run]
+data_file = "./local/coverage/data"
+include = ["src/**/*.py"]
+concurrency = ["multiprocessing"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
