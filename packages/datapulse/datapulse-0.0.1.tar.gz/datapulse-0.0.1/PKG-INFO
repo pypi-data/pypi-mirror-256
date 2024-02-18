@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: datapulse
+Version: 0.0.1
+Summary: Agnostic source data visualization tool
+Project-URL: Homepage, https://github.com/AlessioRimoldi/DataPulse
+Project-URL: Issues, https://github.com/AlessioRimoldi/DataPulse/issues
+Author-email: Alessio Rimoldi <alessio.rimoldi.work@gmail.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Viz
+Source agnostic data visuzlization tool
