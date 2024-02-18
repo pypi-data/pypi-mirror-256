@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: k_general_kit
+Version: 0.0.1
+Summary: A package with some usual general functions and objects
+Author-email: KpihX <kapoivha@gmail.com>
+Maintainer-email: KpihX <kapoivha@gmail.com>
+License: MIT License
+License-File: LICENSE
+Keywords: containers,general,search,sort,tools
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# KpihX-KiT
+
+KpihX_KiT est une bibliothèque Python polyvalente offrant un ensemble d'outils et de fonctions pour simplifier le travail avec les graphes, algorithmes de recherche et de tri, manipulation de Tkinter, ainsi que des structures de données avancées et des opérations mathématiques.
+
+## Caractéristiques
+
+- **Gestion de Graphes**: Facilitez la création et la manipulation de structures de graphes avec un ensemble de classes dédiées.
+- **Algorithmes de Recherche et de Tri**: Implémentez et exécutez des algorithmes de recherche et de tri de manière efficace.
+- **Tkinter Helpers**: Simplifiez le développement d'interfaces graphiques avec Tkinter grâce à des fonctions utilitaires.
+- **Structures de Données**: Utilisez des structures de données avancées telles que des listes personnalisées pour améliorer la gestion de vos données.
+- **Mathématiques**: Bénéficiez d'outils mathématiques pour faciliter les opérations complexes.
+
+## Licence
+
+Ce projet est sous licence GPL v2. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## Contribuer
+
+Nous accueillons avec plaisir les contributions de la communauté. Si vous souhaitez contribuer, veuillez forker le dépôt, créer une branche avec vos modifications et soumettre une pull request.
+
+## Auteur
+
+KpihX-KiT a été créé par [kpihx](https://github.com/kpihx).
