@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: streamlit-octostar-research
+Version: 0.1.18
+Summary: Streamlit component that connects to the Octostar Research App
+Author: Octostar Research
+Author-email: developer@octostarresearch.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=1.2
+Requires-Dist: jinja2
+
+# streamlit-octostar-research
+
+Streamlit component that connects to the Octostar Research App
+
+## Installation instructions
+
+```sh
+pip install streamlit-octostar-research
+```
+
+## Usage instructions
+
+Some [examples](examples)
+
+## Developer Release instructions
+
+- Update setup.py with the new version number
+- git commit and push
+- in [github](https://github.com/Octostarco/streamlit-octostar-research/releases) draft a new release giving same tag name as the new version number
