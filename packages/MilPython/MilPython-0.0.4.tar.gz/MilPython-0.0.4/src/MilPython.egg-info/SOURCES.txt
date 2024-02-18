@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/MilPython/__init__.py
+src/MilPython/equation.py
+src/MilPython/lpInputdata.py
+src/MilPython/lpMain.py
+src/MilPython/lpObject.py
+src/MilPython/lpStateVar.py
+src/MilPython/tools.py
+src/MilPython.egg-info/PKG-INFO
+src/MilPython.egg-info/SOURCES.txt
+src/MilPython.egg-info/dependency_links.txt
+src/MilPython.egg-info/top_level.txt
