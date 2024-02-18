@@ -1,0 +1,2 @@
+[console_scripts]
+uuid_v7 = uuid_v7.__main__:main
