@@ -1,0 +1,4 @@
+#!/bin/env python3
+from canisius_cyb600_example.main import say_hello_class
+
+say_hello_class()
