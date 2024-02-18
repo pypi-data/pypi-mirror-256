@@ -1,0 +1,26 @@
+[project]
+name = "askui-ml-helper"
+version = "0.1.3"
+description = "helper lib for askui open source tools"
+authors = [
+    { name = "gitlost-murali", email = "kmanoharmurali@gmail.com" },
+]
+dependencies = [
+    "Pillow>=10.2.0",
+    "torch>=2.2.0",
+    "transformers>=4.37.2",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
