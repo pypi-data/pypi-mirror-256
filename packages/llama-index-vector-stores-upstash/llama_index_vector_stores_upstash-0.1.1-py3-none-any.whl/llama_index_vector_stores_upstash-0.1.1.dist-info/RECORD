@@ -1,0 +1,6 @@
+llama_index/vector_stores/upstash/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/vector_stores/upstash/__init__.py,sha256=ffG1LIymluc_cb9cjwzfBeVeR8DzvAqB0OBDeF3Hqsg,104
+llama_index/vector_stores/upstash/base.py,sha256=pxBmjflv-Wv_q2kvQMJPCEFl_bgZmHugcJTqycpaul8,4350
+llama_index_vector_stores_upstash-0.1.1.dist-info/METADATA,sha256=MvoSkZU6tnfz_QDXAzqQ236VPMwPQUN_hLREkcGUFFg,663
+llama_index_vector_stores_upstash-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_upstash-0.1.1.dist-info/RECORD,,
