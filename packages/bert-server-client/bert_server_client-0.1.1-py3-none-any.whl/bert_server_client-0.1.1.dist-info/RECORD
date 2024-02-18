@@ -1,0 +1,12 @@
+bert_server_client/__init__.py,sha256=Y64Bx4he6Cn6E314tEu8DMwAu-ziddTpHlmZ22Ik13U,31
+bert_server_client/client.py,sha256=ywZtVy1FOx8xyKs3mQpymOoTmLgZ4ofJ-ffx4ZJ7C1A,2229
+bert_server_client/schema/__init__.py,sha256=klno47Jcg6d9kO1seW8MAzU6A9HsPOqMam3IGiDrzYc,157
+bert_server_client/schema/base.py,sha256=1ZaYeKnYaF8iCY2zeLbBxJ0eFIteoVM21o1sK_fSLXE,4291
+bert_server_client/schema/embedding.py,sha256=pzpdiG1IiXm2kCi1g9gGOx_V8CKL4V1_l7AnPHE5kUY,887
+bert_server_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bert_server_client/tests/client_integration_tests.py,sha256=yYN6dD7dPph5QnKkcCtAYNPlmGh9un9OvLmlZ14huU0,650
+bert_server_client/tests/client_tests.py,sha256=94eZf6lJvnhYAFPlquuNvadZk_iz8vHEXKRXV5Dq3S8,2057
+bert_server_client-0.1.1.dist-info/METADATA,sha256=_paRrf03t0T6edr8fDuTxFgQMP3XKZHCLpaouGQZv_0,572
+bert_server_client-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bert_server_client-0.1.1.dist-info/top_level.txt,sha256=qVN3_vgOKRJsXpKm05X1pbQoMbHvvMKtcvyszauk8F0,19
+bert_server_client-0.1.1.dist-info/RECORD,,
