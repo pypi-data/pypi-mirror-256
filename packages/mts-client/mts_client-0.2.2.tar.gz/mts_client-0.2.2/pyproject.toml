@@ -1,0 +1,72 @@
+[tool.pytest.ini_options]
+testpaths = "tests"
+asyncio_mode = "auto"
+addopts = [
+    "--maxfail=1",
+    "--capture=no",
+    "--verbose",
+    "--tb=short",
+    "--cov",
+    "--cov-report=term-missing"
+]
+
+[tool.coverage.run]
+omit = [
+    ".venv/*",
+    "venv/*",
+    ".env/*",
+    "env/*",
+    "tests/*"
+]
+
+[tool.isort]
+atomic = true
+profile = "black"
+line_length = 79
+skip_gitignore = true
+
+[tool.black]
+line-length = 79
+
+[tool.ruff]
+line-length = 79
+select = ["E", "F", "W", "C", "I"]
+ignore = ["E501", "E402"]
+fix = true
+
+[tool.poetry]
+name = "mts-client"
+version = "0.2.2"
+description = "Модуль предоставляет интерфейс для взаимодействия с https://omnichannel.mts.ru/http-api/v1/messages"
+authors = ["mrslow <animal2k@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "omnichannel"}]
+keywords = ["mts", "omnichannel", "sms", "client"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.26.0"
+pydantic = "<2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-httpx = "^0.28.0"
+pytest-asyncio = "^0.23.3"
+pytest-cov = "^4.1.0"
+
+[tool.poetry_bumpversion.file."omnichannel/client.py"]
+search = '__version__ = "{current_version}"'
+replace = '__version__ = "{new_version}"'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
