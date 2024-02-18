@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+tqdm
+matplotlib
+joblib
+xlrd
+abstention
+ucimlrepo
