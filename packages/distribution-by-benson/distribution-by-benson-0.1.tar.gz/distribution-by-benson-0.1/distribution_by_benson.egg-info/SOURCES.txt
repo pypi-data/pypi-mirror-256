@@ -1,0 +1,10 @@
+setup.py
+distribution_by_benson.egg-info/PKG-INFO
+distribution_by_benson.egg-info/SOURCES.txt
+distribution_by_benson.egg-info/dependency_links.txt
+distribution_by_benson.egg-info/not-zip-safe
+distribution_by_benson.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
