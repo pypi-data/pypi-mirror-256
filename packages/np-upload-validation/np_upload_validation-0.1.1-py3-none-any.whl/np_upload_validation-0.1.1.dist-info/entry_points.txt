@@ -1,0 +1,2 @@
+[console_scripts]
+validate = np_upload_validation.scripts.main:cli
