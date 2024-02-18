@@ -1,0 +1,12 @@
+DataSourceService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DataSourceService/__main__.py,sha256=n-eDu4PvCQ_S32C2YeBzA-_bZ_l0pQckihx9O1wBe1Q,127
+DataSourceService/anecdotica.py,sha256=gHc6XUWxuIviKaszddtkNsDlIFcZ622yHGI_UBMrgaI,15082
+DataSourceService/api.py,sha256=llXXuv482WCM36iz8Br_z_WsZn_9m8CJqcQNN3zVGeg,38001
+DataSourceService/const.py,sha256=sDr7rPB3WNnGWT77kObiFwOvfidZRDg6Qm0XKG8yu_0,3272
+DataSourceService/service.py,sha256=i6I6yVdfosSawPp47nMoHrugKa0-b8TieYXL1b3XD9I,9752
+DataSourceService/test.py,sha256=GGnE6uv6Vipmt4sR3j5deYXQtxo0b9TNiCqIW7UHhvk,100
+pih_ds-1.37.dist-info/METADATA,sha256=mOvsNwPvjjhZgJgZlRDZsjLvZWx2Es97GApe5m27hBU,303
+pih_ds-1.37.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pih_ds-1.37.dist-info/entry_points.txt,sha256=eZRoF0qxKw1u5cT8rugQ5u1AWPwbqw33bk-QX_raO3A,60
+pih_ds-1.37.dist-info/top_level.txt,sha256=K3s01rdix3-Sw-yok438RZM6J19ItfIJrzy9X4umbHI,18
+pih_ds-1.37.dist-info/RECORD,,
