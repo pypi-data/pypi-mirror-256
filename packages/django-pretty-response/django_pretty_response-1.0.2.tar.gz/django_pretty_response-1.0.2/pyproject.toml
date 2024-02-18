@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-pretty-response"
+version = "1.0.2"
+description = "A middleware in Django that creates clean-formatted responses."
+authors = ["Naro <knnarro@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/knnarro/django-pretty-response"
+keywords = ["django", "middleware"]
+packages = [
+    { include = "django_pretty_response" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.2"
+djangorestframework = "^3.13.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+pre-commit = "3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
