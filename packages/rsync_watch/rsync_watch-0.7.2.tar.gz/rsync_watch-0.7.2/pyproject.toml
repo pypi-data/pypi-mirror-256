@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "rsync_watch"
+version = "0.7.2"
+description = "A Python script to monitor the execution of a rsync task."
+authors = ["Josef Friedrich <josef@friedrich.rocks>"]
+readme = "README.rst"
+license = "GPL-3.0-only"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+repository = "https://github.com/Josef-Friedrich/rsync-watch"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+command-watcher = "^0.4.1"
+conf2levels = "^0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1"
+pytest = "^8"
+readme-patcher = "^0"
+ruff = "^0"
+Sphinx = "^7"
+sphinx-rtd-theme = "^2"
+stdout-stderr-capturing = "^0"
+tox = "^4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+"rsync-watch.py" = "rsync_watch:main"
