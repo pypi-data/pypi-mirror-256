@@ -1,0 +1,15 @@
+ncmcmvis/MyBundle.py,sha256=_oLq1jJysTrqFS1NvVltiU2gm2MwYna6mo3SeowXyZE,9265
+ncmcmvis/__init__.py,sha256=da2omgASJhug3I7WkCBE_7Th6rGC7bWxPY6BET3zyfw,64
+ncmcmvis/functions.py,sha256=KT13ARg8cm5pLuBCSuH10N7VIY1j44OivwgSBPB1e9M,21003
+ncmcmvis/ncmcmvis.py,sha256=UY8TCWH1GaXsSgOwjrauDYKErx2_2E515GD6gAXKWTo,58965
+tests/__init__.py,sha256=da2omgASJhug3I7WkCBE_7Th6rGC7bWxPY6BET3zyfw,64
+tests/markov_mem_testing.py,sha256=31VoY821AhLn0pyPqth0iS-06AdvlHAoK25uVxkVmD0,5288
+tests/markov_memorylessness_testing.py,sha256=5X0WcXxzbYOuiMwiDoGhMYydao8CX8Kvk6xJKfWS70s,1809
+tests/markov_stationary_distribution_testing.py,sha256=JkbTAAG6TnJ_r41DmZ4NqMaGM37LGVZSduYvUHs2oOw,5515
+tests/markov_stationary_testing.py,sha256=H3qEDY0YeK3_ZhiOqcVolaJDPnozhfYnVfBzIE5lUJA,3880
+tests/test-Database.py,sha256=lhC2FsU3bXive4AdZ6_IGTjtZypB19xYOVUyCS-jBVk,7736
+tests/test-Visualizer.py,sha256=z8afDt68s7EudcG8oSLI1Sb-F7p2igB45LdqqLhSqSo,6361
+ncmcmvis-1.3.dist-info/METADATA,sha256=BHLPq7tDqtgzfsH0h_rKPoc8dwViO4r9jXyqeT2I5Vg,4483
+ncmcmvis-1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ncmcmvis-1.3.dist-info/top_level.txt,sha256=Tb3yNi9jjAoJG_8NmqFF8iPsGiCaQuJ6TurOWx7QVhU,15
+ncmcmvis-1.3.dist-info/RECORD,,
