@@ -1,0 +1,12 @@
+README.md
+setup.py
+dataiku_cli_requests/__init__.py
+dataiku_cli_requests/dataiku_cli_requests.py
+dataiku_cli_requests.egg-info/PKG-INFO
+dataiku_cli_requests.egg-info/SOURCES.txt
+dataiku_cli_requests.egg-info/dependency_links.txt
+dataiku_cli_requests.egg-info/entry_points.txt
+dataiku_cli_requests.egg-info/requires.txt
+dataiku_cli_requests.egg-info/top_level.txt
+tests/test_database.py
+tests/test_dataiku.py

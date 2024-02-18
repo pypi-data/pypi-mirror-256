@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dataiku-cli-requests
+Version: 0.1.1
+Summary: Una herramienta de línea de comandos para interactuar con Dataiku utilizando solicitudes HTTP
+Home-page: https://www.funiber.org
+Author: David Grau Martinez
+Author-email: david.grau@funiber.org
+Requires-Dist: requests
+Requires-Dist: argparse
+Requires-Dist: more-itertools>=8.12.0

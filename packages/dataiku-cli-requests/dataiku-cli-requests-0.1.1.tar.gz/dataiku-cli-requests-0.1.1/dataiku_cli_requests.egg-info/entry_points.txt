@@ -1,0 +1,2 @@
+[console_scripts]
+dataiku-cli-requests = dataiku_cli_requests.dataiku_cli_requests:main
