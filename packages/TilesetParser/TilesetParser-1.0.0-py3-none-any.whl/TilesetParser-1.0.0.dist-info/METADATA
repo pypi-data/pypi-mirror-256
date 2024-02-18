@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: TilesetParser
+Version: 1.0.0
+License-File: LICENSE
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: opencv-python ==4.9.0.80
+
