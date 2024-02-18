@@ -1,0 +1,14 @@
+pyiso4/LTWA_20210702.csv,sha256=d1wdtnd7bFsvdwzXjFfJo0zJCLiWyGTN8eqJXW2xUr8,1298074
+pyiso4/__init__.py,sha256=vugpBHY0URMa88mjslbLwNe87FVndXpTOAbGCW2CI-Q,228
+pyiso4/lexer.py,sha256=eFSR7cNzLYdViOyJSf0gAYRxxvOpkOly_tVHRg97pRY,6102
+pyiso4/ltwa.py,sha256=0iKabQ-vV1C5gCb1BUGTDJE1QgOSlOYYKWNS47HbULI,11451
+pyiso4/normalize_string.py,sha256=N-njpbfcxVE4kEHn9MLONQNQErO-pn9UvH7XMLvJSJQ,1177
+pyiso4/prefix_tree.py,sha256=0Sn3zan5iXMF8msblVx5y6EVjedSruzLYbzdBI5BwHQ,2691
+pyiso4/script.py,sha256=St4Amaqv0unkT0VjY47w4k2V91rAWgr81btki1ejH7U,1101
+pyiso4/stopwords.txt,sha256=ajwHcj9hwFpe5T7Pb0D6d_RHq_K6DzoPYXcGfF3N7MY,439
+pyiso4-0.1.6.dist-info/LICENSE,sha256=1DHRcZUyLglWI8y76Zdv-V7aScVNgRsOwQtLU8hEyh4,1072
+pyiso4-0.1.6.dist-info/METADATA,sha256=sVnIZvQIBPpm3zLA4nS-N5oWLD6AokqwvsUKamx2b3E,4930
+pyiso4-0.1.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyiso4-0.1.6.dist-info/entry_points.txt,sha256=6rtwV_5-IjV_wqw5YuBWghS0CMnw5AJ70W6Ej1IpbOM,54
+pyiso4-0.1.6.dist-info/top_level.txt,sha256=YVLtx0W919J8qzx_j7x0m4yxrAwNF4w2oraSyu8Abg8,7
+pyiso4-0.1.6.dist-info/RECORD,,
