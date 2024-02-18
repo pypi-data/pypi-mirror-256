@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: bc-en-de-coder
+Version: 0.0.17
+Summary: Data Protecting Package
+Home-page: https://github.com/Distructor2404/bc-en-de-coder
+Author: Abhishek Kumar Singh
+Author-email: <abhishek123kumar123singh@gmail.com>
+Keywords: python,Data secure,Encoder,Decoder,pdf reader
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+![logo](https://github.com/Distructor2404/BC-en-de-coder/blob/main/BC.gif?raw=true)
+
+# **BC-EnDeCoder**
+
+BC-EnDeCoder is a Python library that provides a secure way to encode and decode data for use with Large Language Models (LLM). The library allows you to protect sensitive information by passing a fake dummy value, which is then encoded and decoded to and from its original form after receiving a response from the LLM.
+
+## Features
+
+- **Secure Encoding and Decoding:** Protect your sensitive data by encoding it with a fake dummy value and decoding it back to the original form after interacting with an LLM.
+
+- **Easy Integration:** Simple and easy-to-use functions for encoding and decoding data, making it convenient to integrate into your projects.
+
+- **Customizable Encoding Parameters:** Fine-tune the encoding process with customizable parameters to suit your specific use case.
+
+## Installation
+
+To install BC-EnDeCoder, you can use the following pip command:
+
+```bash 
+pip install bc-en-de-coder 
+```
+
+
+## How it Works
+
+BC-EnDeCoder facilitates a secure interaction with LLMs through a three-step process:
+
+- **Encoding with a Dummy Value:** Sensitive data is encoded using a fake value, providing an added layer of security during transmission to an LLM.
+
+- **Interaction with LLM:** The encoded data is then passed to the LLM for analysis or processing.
+
+- **Decoding the Response:** Upon receiving the LLM's response, BC-EnDeCoder decodes it, revealing the original information without compromising its security.
+
+
+### Encoding and Decoding values in string
+
+```python
+from bc_endecoder.replacing import Decoder, Encoder
+
+text = '''
+        This is a dummy text with value 200,100,150,250.
+        We need to protect these values.
+        '''
+
+encoded_text,encoding = Encoder().encode_str(text)  #encode_str takes 1 paramter which is the text and returns the encoded text and encoding
+print("Encoded Text : \n",encoded_text)
+
+## encoded_text can be passed to GPT and after getting back the response it will be decoded using decode_str() method
+
+original_text = Decoder().decode_str(encoded_text,encoding)  #decode_str takes 2 parameters which are the encoded_text and encoding and returns the original text
+print("\nOriginal Text : \n",original_text)
+```
+
+Output
+```python
+Encoded Text : 
+ 
+        This is a dummy text with value 4858416350,7636580946,0858875814,8301435677.
+        We need to protect these values.
+        
+
+Original Text : 
+ 
+        This is a dummy text with value 200,100,150,250.
+        We need to protect these values.
+```
+
+
+
+### Encoding and Decoding values in Dataframe
+
+
+```python
+from bc_endecoder.replacing import Decoder, Encoder
+import pandas as pd
+import numpy as np
+
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'Age': [25, 30, 22, 35, 28],
+    'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago', 'Miami'],
+    'Salary': [60000, 80000, 55000, 90000, 70000]
+}
+df = pd.DataFrame(data)
+
+
+encoded_df,encoding = Encoder().encode_df(df)  #encode_df takes 1 paramter which is Dataframe and returns the encoded dataframe and encodings
+print("Encoded_df : \n",encoded_df)
+
+## encoded_df can be passed to GPT and after getting back the response it will be decoded using decode_df() method
+
+original_df = Decoder().decode_df(encoded_df,encoding)  #decode_str takes 2 parameters which are the encoded_df and encoding and returns the original df
+print("\nOriginal_df : \n",original_df)
+```
+Output
+```python
+Encoded_df :    
+              Name  Age                  City  Salary
+        0    Alice  8623770624       New York  0197705789
+        1      Bob  5223314994  San Francisco  9743912420
+        2  Charlie  1795473060    Los Angeles  8982145407
+        3    David  6439787181        Chicago  6618233087
+        4      Eva  4699492207          Miami  6680877680
+
+Original_df : 
+             Name   Age          City  Salary
+        0    Alice  25       New York  60000
+        1      Bob  30  San Francisco  80000
+        2  Charlie  22    Los Angeles  55000
+        3    David  35        Chicago  90000
+        4      Eva  28          Miami  70000
+```
+
+
+### Encoding and Decoding values with a ratio in Dataframe or String
+
+
+```python
+from bc_endecoder.replacing import Decoder, Encoder
+import pandas as pd
+import numpy as np
+
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'Age': [25, 30, 22, 35, 28],
+    'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago', 'Miami'],
+    'Salary': [60000, 80000, 55000, 90000, 70000]
+}
+df = pd.DataFrame(data)
+
+ratio = 29 #this is the ratio for which we want to encode the data, it can be any number except 0 and 1
+
+encoded_data = Encoder().encode_in_ratio(df,ratio)  #encode_in_ratio takes 2 paramter which is Data and the ratio number, and returns the encoded data
+print("Encoded data : \n", encoded_data)
+
+## encoded_data can be passed to GPT and after getting back the response it will be decoded using decode_df() method
+
+original_data = Decoder().decode_in_ratio(encoded_data,ratio)  #decode_str takes 2 parameters which are the encoded_data and encoding and returns the original df
+print("Original data : \n",original_data)
+```
+
+Output
+```python
+Encoded data : 
+            Name     Age           City   Salary
+        0    Alice   725       New York  1740000
+        1      Bob   870  San Francisco  2320000
+        2  Charlie   638    Los Angeles  1595000
+        3    David  1015        Chicago  2610000
+        4      Eva   812          Miami  2030000
+Original data : 
+            Name    Age           City   Salary
+        0    Alice   25       New York   60000
+        1      Bob   30  San Francisco   80000
+        2  Charlie   22    Los Angeles   55000
+        3    David   35        Chicago   90000
+        4      Eva   28          Miami   70000
+```
+
+
+
+
+
