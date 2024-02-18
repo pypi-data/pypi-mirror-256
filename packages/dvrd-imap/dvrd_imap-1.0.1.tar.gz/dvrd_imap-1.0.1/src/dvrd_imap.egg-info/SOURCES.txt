@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dvrd_imap/__init__.py
+src/dvrd_imap.egg-info/PKG-INFO
+src/dvrd_imap.egg-info/SOURCES.txt
+src/dvrd_imap.egg-info/dependency_links.txt
+src/dvrd_imap.egg-info/requires.txt
+src/dvrd_imap.egg-info/top_level.txt
+src/dvrd_imap/models/__init__.py
+src/dvrd_imap/models/exception.py
+src/dvrd_imap/models/imap_filter.py
+src/dvrd_imap/models/imap_message.py
+src/dvrd_imap/models/imap_server.py
+src/dvrd_imap/models/types.py
