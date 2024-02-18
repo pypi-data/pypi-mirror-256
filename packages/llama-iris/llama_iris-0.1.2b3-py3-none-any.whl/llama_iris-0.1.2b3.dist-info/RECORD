@@ -1,0 +1,6 @@
+llama_iris/__init__.py,sha256=ug-sOTUISQwPpenPaUEPXEA9gUlVAJV0OZORpgaFxWs,224
+llama_iris/vectorstore.py,sha256=Ta54gfhfPXxM5F9MsFWYyfkTMgXcguvzvdLbkfTRwSo,9467
+llama_iris-0.1.2b3.dist-info/LICENSE,sha256=sNv7eociqSSekl75pA7btGUr6dMqoIrxhAWm8uzXB9I,1086
+llama_iris-0.1.2b3.dist-info/METADATA,sha256=IuT2cjbZ_7Mv7_HKN6Sh4H0I7aKXm31nLb2wH5SZR6Q,1303
+llama_iris-0.1.2b3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+llama_iris-0.1.2b3.dist-info/RECORD,,
