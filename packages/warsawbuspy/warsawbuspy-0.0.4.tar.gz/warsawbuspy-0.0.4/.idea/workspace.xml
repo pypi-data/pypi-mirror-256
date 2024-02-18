@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7b7b1be-79d1-481a-9661-ecb927714c44" name="Changes" comment="Change project structure (AGAIN).">
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bzQnnbLC9GOMK1knUEQVofIX1Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gusta\PycharmProjects\PYTHON_ZALICZENIE" />
+      <recent name="C:\Users\gusta\PycharmProjects\PYTHON_ZALICZENIE\src" />
+      <recent name="C:\Users\gusta\PycharmProjects\PYTHON_ZALICZENIE\buspy" />
+      <recent name="C:\Users\gusta\PycharmProjects\PYTHON_ZALICZENIE\buspy\analyzers" />
+      <recent name="C:\Users\gusta\PycharmProjects\PYTHON_ZALICZENIE\buspy\readers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_data_reader.TestDataReaderClass.test_time_parser">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_data_analyzer.TestDataAnalyzerClass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_analyzer.TestDataAnalyzerClass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_data_reader.TestDataReaderClass" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_reader.TestDataReaderClass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_data_reader.TestDataReaderClass.test_bus_data_reading" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_reader.TestDataReaderClass.test_bus_data_reading&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_data_reader.TestDataReaderClass.test_time_parser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_reader.TestDataReaderClass.test_time_parser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PYTHON_ZALICZENIE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_data_reader.TestDataReaderClass.test_time_parser" />
+        <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Python tests for test_data_analyzer.TestDataAnalyzerClass" />
+        <item itemvalue="Python tests.Python tests for test_data_reader.TestDataReaderClass" />
+        <item itemvalue="Python tests.Python tests for test_data_reader.TestDataReaderClass.test_bus_data_reading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7b7b1be-79d1-481a-9661-ecb927714c44" name="Changes" comment="" />
+      <created>1707215596864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707215596864</updated>
+      <workItem from="1707215603720" duration="17193000" />
+      <workItem from="1707300153824" duration="25312000" />
+      <workItem from="1707385554353" duration="20639000" />
+      <workItem from="1707466782496" duration="12635000" />
+      <workItem from="1707552624724" duration="38045000" />
+      <workItem from="1707638601410" duration="33209000" />
+      <workItem from="1707679269696" duration="5552000" />
+      <workItem from="1707725575070" duration="2957000" />
+      <workItem from="1707728572842" duration="2193000" />
+      <workItem from="1707730808905" duration="643000" />
+      <workItem from="1707755043346" duration="642000" />
+      <workItem from="1707761782172" duration="5540000" />
+      <workItem from="1707818224655" duration="5652000" />
+      <workItem from="1707838299906" duration="15000" />
+      <workItem from="1707856711130" duration="697000" />
+      <workItem from="1707927783526" duration="9748000" />
+      <workItem from="1707992535074" duration="6355000" />
+      <workItem from="1708000496013" duration="13000" />
+      <workItem from="1708000625763" duration="1493000" />
+      <workItem from="1708002154280" duration="7000" />
+      <workItem from="1708002654737" duration="939000" />
+      <workItem from="1708008754034" duration="5000" />
+      <workItem from="1708008927050" duration="541000" />
+      <workItem from="1708009488341" duration="17000" />
+      <workItem from="1708009592674" duration="342000" />
+    </task>
+    <task id="LOCAL-00003" summary="Add dumping data to the .csv file.">
+      <option name="closed" value="true" />
+      <created>1707227190065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707227190065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add calculating the number of busses that breached the 50km/h speed.">
+      <option name="closed" value="true" />
+      <created>1707237484360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707237484360</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add calculating the number of busses that breached the 50km/h speed.">
+      <option name="closed" value="true" />
+      <created>1707237491150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707237491150</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Start implementing bus stop class">
+      <option name="closed" value="true" />
+      <created>1707239023068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707239023068</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added bus_stop_data reading from the api and dumping it into the .csv file.">
+      <option name="closed" value="true" />
+      <created>1707302375623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707302375623</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add reading bus lines for every bus stop and dumping this data into the file.">
+      <option name="closed" value="true" />
+      <created>1707317896120</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707317896120</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add schedule reading and dumping (not testes) as well as data holders for schedules and Locations.">
+      <option name="closed" value="true" />
+      <created>1707334325217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707334325217</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Start implementing searching for points with many busses that breached the 50km/h limit">
+      <option name="closed" value="true" />
+      <created>1707386085131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707386085131</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Rewrite data reading so that every bus will hold a location class, and every object of this class will be able to get its street name from another API. Additionally, rewrite calculating the percentages of overspeeding busses to reflect that change.">
+      <option name="closed" value="true" />
+      <created>1707415168168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707415168168</updated>
+    </task>
+    <task id="LOCAL-00012" summary="RAdd speed normalization(because of delays, speeds could be unrealistically high)">
+      <option name="closed" value="true" />
+      <created>1707415758712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707415758712</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add valid dir making in dump_schedules() function.">
+      <option name="closed" value="true" />
+      <created>1707417989056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707417989056</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add reading routes from the API and dumping them into the file. STart implementing bus_stop_data reading from file in data_analyzer.">
+      <option name="closed" value="true" />
+      <created>1707469687880</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707469687880</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add route_type variable to the bus_route_entry class. Start implementing punctuality calculations.">
+      <option name="closed" value="true" />
+      <created>1707472258109</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707472258109</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Implement reading bus routes data in data_analyzer.">
+      <option name="closed" value="true" />
+      <created>1707473259146</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707473259146</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix dump_bus_routes">
+      <option name="closed" value="true" />
+      <created>1707479519993</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707479519994</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Advance implementing punctuality calculations.">
+      <option name="closed" value="true" />
+      <created>1707482620029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707482620029</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add simple visualizer class using matplotlib.">
+      <option name="closed" value="true" />
+      <created>1707558436736</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707558436736</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Rewrote speed normalization and added statistics about invalid data.">
+      <option name="closed" value="true" />
+      <created>1707567056581</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707567056581</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Speed-up the code and remove unnecessary stuff.">
+      <option name="closed" value="true" />
+      <created>1707579776643</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707579776643</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Rewrote code so that that data_holders will hold seconds, not times. That is MUCH faster than python libs (WTF?)">
+      <option name="closed" value="true" />
+      <created>1707586245772</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707586245772</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add data dumping for calcucated results.">
+      <option name="closed" value="true" />
+      <created>1707587855067</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707587855067</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Start writing tests for the bus_reader">
+      <option name="closed" value="true" />
+      <created>1707591038271</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1707591038271</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added test for reading bus_data (works).">
+      <option name="closed" value="true" />
+      <created>1707596552079</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707596552079</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Start implementing tests for bus_stops data fetching.">
+      <option name="closed" value="true" />
+      <created>1707598978480</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707598978480</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add test for reading bus_for_stops (works).">
+      <option name="closed" value="true" />
+      <created>1707645129434</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707645129434</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Start implementing tests for getting schedules.">
+      <option name="closed" value="true" />
+      <created>1707646479657</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1707646479657</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add test for reading schedules (works).">
+      <option name="closed" value="true" />
+      <created>1707648688344</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707648688344</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added test for reading bus routes (works).">
+      <option name="closed" value="true" />
+      <created>1707651006407</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707651006407</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added test for data_parser (works).">
+      <option name="closed" value="true" />
+      <created>1707651170439</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707651170439</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Now tests are in a class, and a new file, so that pytest will work (WTF)">
+      <option name="closed" value="true" />
+      <created>1707655219688</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707655219689</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added test for calculating nr of overspeeds, and fixed errors in ZTM_bus class (now the program passes this test).">
+      <option name="closed" value="true" />
+      <created>1707657244318</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707657244318</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added test for calculating nr of overspeeds, and fixed errors in ZTM_bus class (now the program passes this test).">
+      <option name="closed" value="true" />
+      <created>1707657282150</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707657282150</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add test for reading bus_data from file (passes).">
+      <option name="closed" value="true" />
+      <created>1707659877324</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707659877324</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add test for reading schedules from file (passes).">
+      <option name="closed" value="true" />
+      <created>1707661954351</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707661954351</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add test for reading bus stops data from file (passes).">
+      <option name="closed" value="true" />
+      <created>1707662641807</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707662641807</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add test for reading bus routes data from file (passes).">
+      <option name="closed" value="true" />
+      <created>1707663210712</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707663210712</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Rewrote style.">
+      <option name="closed" value="true" />
+      <created>1707683737469</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1707683737469</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Quick fixes&#10;&#10;Finally updating the location objects works, and bus_data reader filters out Z.. buses (they cause problems).">
+      <option name="closed" value="true" />
+      <created>1707726335514</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707726335514</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Add filtering of locations that returns not None results, but street names are None (there are literally two cases like that, but still).">
+      <option name="closed" value="true" />
+      <created>1707727966928</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707727966928</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Big overhaul of the code structure (packages, code style etc).">
+      <option name="closed" value="true" />
+      <created>1707821764849</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1707821764851</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Change file structure">
+      <option name="closed" value="true" />
+      <created>1707825115050</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707825115050</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Fixed package namin.">
+      <option name="closed" value="true" />
+      <created>1707825762636</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1707825762636</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add __init__.py for readres package.">
+      <option name="closed" value="true" />
+      <created>1707826133019</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1707826133019</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added comments in the data_reader.py">
+      <option name="closed" value="true" />
+      <created>1707931718956</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707931718957</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Add comments to the data analyzer.">
+      <option name="closed" value="true" />
+      <created>1707943097740</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1707943097740</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add comments and two additional params for the function inside the DataVisualizer class.">
+      <option name="closed" value="true" />
+      <created>1707993939194</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707993939194</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Style review in the project (AGAIN).">
+      <option name="closed" value="true" />
+      <created>1707994457527</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1707994457527</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Remove redundant code.">
+      <option name="closed" value="true" />
+      <created>1707994682702</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1707994682702</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Change project structure (AGAIN).">
+      <option name="closed" value="true" />
+      <created>1708009904250</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1708009904250</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start implementing tests for bus_stops data fetching." />
+    <MESSAGE value="Add test for reading bus_for_stops (works)." />
+    <MESSAGE value="Start implementing tests for getting schedules." />
+    <MESSAGE value="Add test for reading schedules (works)." />
+    <MESSAGE value="Added test for reading bus routes (works)." />
+    <MESSAGE value="Added test for data_parser (works)." />
+    <MESSAGE value="Now tests are in a class, and a new file, so that pytest will work (WTF)" />
+    <MESSAGE value="Added test for calculating nr of overspeeds, and fixed errors in ZTM_bus class (now the program passes this test)." />
+    <MESSAGE value="Add test for reading bus_data from file (passes)." />
+    <MESSAGE value="Add test for reading schedules from file (passes)." />
+    <MESSAGE value="Add test for reading bus stops data from file (passes)." />
+    <MESSAGE value="Add test for reading bus routes data from file (passes)." />
+    <MESSAGE value="Rewrote style." />
+    <MESSAGE value="Quick fixes&#10;&#10;Finally updating the location objects works, and bus_data reader filters out Z.. buses (they cause problems)." />
+    <MESSAGE value="Add filtering of locations that returns not None results, but street names are None (there are literally two cases like that, but still)." />
+    <MESSAGE value="Big overhaul of the code structure (packages, code style etc)." />
+    <MESSAGE value="Change file structure" />
+    <MESSAGE value="Fixed package namin." />
+    <MESSAGE value="Add __init__.py for readres package." />
+    <MESSAGE value="Added comments in the data_reader.py" />
+    <MESSAGE value="Add comments to the data analyzer." />
+    <MESSAGE value="Add comments and two additional params for the function inside the DataVisualizer class." />
+    <MESSAGE value="Style review in the project (AGAIN)." />
+    <MESSAGE value="Remove redundant code." />
+    <MESSAGE value="Change project structure (AGAIN)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change project structure (AGAIN)." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PYTHON_ZALICZENIE$.coverage" NAME=" Coverage Results" MODIFIED="1707929682855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/PYTHON_ZALICZENIE$main.coverage" NAME="main Coverage Results" MODIFIED="1707762730664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
