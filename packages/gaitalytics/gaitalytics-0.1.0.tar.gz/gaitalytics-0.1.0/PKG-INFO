@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: gaitalytics
+Version: 0.1.0
+Summary: Python package to extract gait analytic parameters for different kind of recordings (i.e. MOCAP, Force Plate)
+Home-page: https://github.com/cereneo-foundation/python-gaitalytics
+Author: André Böni
+Author-email: andre.boeni@llui.org
+License: MIT
+Project-URL: Documentation, https://python-gaitalytics.readthedocs.org
+Project-URL: Changelog, https://python-gaitalytics.readthedocs.orgen/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/cereneo-foundation/python-gaitalytics/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: click
+Requires-Dist: pandas==2.1.4
+Requires-Dist: numpy==1.26.4
+Requires-Dist: scipy==1.11.3
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: matplotlib==3.8.0
+
+========
+Overview
+========
+
+
+
+Python package to extract gait analytic parameters for different kind of recordings (i.e. MOCAP, Force Plate)
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install gaitalytics
+
+You can also install the in-development version with::
+
+    pip install https://github.com/cereneo-foundation/python-gaitalytics/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://python-gaitalytics.readthedocs.org
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2024-02-09)
+------------------
+
+* First release on PyPI.
