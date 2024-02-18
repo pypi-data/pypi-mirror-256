@@ -1,0 +1,8 @@
+workflow.py,sha256=EocH3KI7cNe-rdJ3PLBqHRUXHHcgrmGu-D7JJ3VAVeU,4294
+components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preprocess/__init__.py,sha256=CYbblyW7VN-45u2qfO6O3OwlFFbA9hjSsd6qEetpayo,75
+preprocess/text_summarization.py,sha256=_4HZgKmne2ey8La95dgGtQ3l9tMu92jSAfSxRiWTSfA,1581
+video_s_demo-1.0.0.dist-info/METADATA,sha256=F24MFzN2UBi-Hse4PyD5FguH-oQDtZ4tu02qdZIOQKo,842
+video_s_demo-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+video_s_demo-1.0.0.dist-info/top_level.txt,sha256=mOkRT7XYNwLhwNonMdZZu_OijW2b7_5WWvvnzGDoNQk,31
+video_s_demo-1.0.0.dist-info/RECORD,,
