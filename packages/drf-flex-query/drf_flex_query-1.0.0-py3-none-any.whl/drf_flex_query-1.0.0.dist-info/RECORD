@@ -1,0 +1,10 @@
+flex_query/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flex_query/generics.py,sha256=F1qoheRtKQWjQpTUvj5wmGUrTLtJAErGiQcQzYZ_LCE,5929
+flex_query/manager.py,sha256=dNHuap-2BqDros4IBAJ6JXzTIf2Miz7AHlQzoKGClNY,3032
+flex_query/models.py,sha256=IWWSPq8O919mBCIFZ9MY3cMtDtMCUcdqG5xNcWII4R8,187
+flex_query/serializers.py,sha256=E4SEBj64VdD1JUAlLG8VDyriJvx-kfeVe584JdgZpGk,3435
+drf_flex_query-1.0.0.dist-info/LICENSE,sha256=BnyVou3afxoeFfk_FaytbycLNwsEpLmJosWm1EZrQnE,1063
+drf_flex_query-1.0.0.dist-info/METADATA,sha256=pWMBkf84MRLW6q1w-r9mcXdLg-dtgpa2lHrJ5rkosm8,5783
+drf_flex_query-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+drf_flex_query-1.0.0.dist-info/top_level.txt,sha256=HHK1Su584anB0_LySGx8dzBNnYSSIXE5pd6uNC7tEKM,11
+drf_flex_query-1.0.0.dist-info/RECORD,,
