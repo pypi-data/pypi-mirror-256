@@ -1,0 +1,14 @@
+click
+coveragepy
+jinja2
+lxml
+mock
+mypy
+mypy-extensions
+pre-commit
+pyfakefs
+pytest
+pytest-cov
+pytest-html
+ruff
+typing_extensions
