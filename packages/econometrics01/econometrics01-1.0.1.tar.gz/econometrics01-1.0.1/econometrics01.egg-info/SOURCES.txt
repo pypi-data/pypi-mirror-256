@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+econometrics01/__init__.py
+econometrics01.egg-info/PKG-INFO
+econometrics01.egg-info/SOURCES.txt
+econometrics01.egg-info/dependency_links.txt
+econometrics01.egg-info/requires.txt
+econometrics01.egg-info/top_level.txt
