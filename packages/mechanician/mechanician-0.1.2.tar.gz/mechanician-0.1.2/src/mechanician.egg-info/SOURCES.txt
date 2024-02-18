@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/mechanician/__init__.py
+src/mechanician/ai_connectors.py
+src/mechanician/ai_tools.py
+src/mechanician/instruction_tuning.py
+src/mechanician/shell.py
+src/mechanician/tagai.py
+src/mechanician/testing.py
+src/mechanician/util.py
+src/mechanician.egg-info/PKG-INFO
+src/mechanician.egg-info/SOURCES.txt
+src/mechanician.egg-info/dependency_links.txt
+src/mechanician.egg-info/requires.txt
+src/mechanician.egg-info/top_level.txt
