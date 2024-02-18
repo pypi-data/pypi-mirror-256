@@ -1,0 +1,10 @@
+setup.py
+glenn_distributions/Binomialdistribution.py
+glenn_distributions/Gaussiandistribution.py
+glenn_distributions/Generaldistribution.py
+glenn_distributions/__init__.py
+glenn_distributions.egg-info/PKG-INFO
+glenn_distributions.egg-info/SOURCES.txt
+glenn_distributions.egg-info/dependency_links.txt
+glenn_distributions.egg-info/not-zip-safe
+glenn_distributions.egg-info/top_level.txt
