@@ -1,0 +1,11 @@
+src/MyBundle.py,sha256=TAISn-3C712FRiUDRUSQ3tHP4FPc6VqlkLMHAsJYVhc,9427
+src/__init__.py,sha256=T5iE_046Dx_9w5fAtTnhTT7Uavb7B1UHeIoj3GUubM4,160
+src/classes.py,sha256=UY8TCWH1GaXsSgOwjrauDYKErx2_2E515GD6gAXKWTo,58965
+src/functions.py,sha256=ex6nFhrZzbpya_ga7nghp5sVEhL-ACMgpTeCPKXEmA8,21049
+src/data/__init__.py,sha256=6Totv8UdPG2vhC8GAw_ACV3E-Vf8TBiSsNAzFAAKvL0,64
+src/data/plots/__init__.py,sha256=6Totv8UdPG2vhC8GAw_ACV3E-Vf8TBiSsNAzFAAKvL0,64
+src/data/plots/Demonstration/__init__.py,sha256=6Totv8UdPG2vhC8GAw_ACV3E-Vf8TBiSsNAzFAAKvL0,64
+NCMCM-2.1.dist-info/METADATA,sha256=AX3iNQgr_ymVSmNRN7dJxKQ4QkpgEuarqZG8GastmDU,4480
+NCMCM-2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+NCMCM-2.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+NCMCM-2.1.dist-info/RECORD,,
