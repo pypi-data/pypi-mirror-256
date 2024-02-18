@@ -1,0 +1,12 @@
+PyIRoGlass/BaselineAvgPC.npz,sha256=UkA83YzUbs62drJaoP1OaLD4Er2g6iIBfYkF8PnXAsY,29500
+PyIRoGlass/H2Om1635PC.npz,sha256=v4q7l7hxOUclfUFR_-l4RYKlpfT-Bu1Mzm-BSTOiYt8,19852
+PyIRoGlass/__init__.py,sha256=pwo8SYofUdmKoefxhXmpSVjzd5Phwvb6zqBumUpM66M,522
+PyIRoGlass/_version.py,sha256=sEEvt2rpGO4iGzEprwKlzesscoMBm50vGBit28gnyek,294
+PyIRoGlass/core.py,sha256=qAPtFimxROHEF5xcZZ6yyt6_5QX3RGo8BoYy5xf_oxw,104487
+PyIRoGlass/inversion.py,sha256=jnWSviFkN-oYS1l1mF40f9ojZUN1dmkEgq_pmTnz1DI,9507
+PyIRoGlass/thickness.py,sha256=h73ewkngga_QUeLG2ooHDpSxmCGnBtFV9TaCV3TRCr4,15579
+PyIRoGlass-0.4.1.dist-info/LICENSE.txt,sha256=gx6SgI61UyUAZiYaE4epMjy_MA1FWaQfLHH9NxK9tEo,34903
+PyIRoGlass-0.4.1.dist-info/METADATA,sha256=JuzIoqbF1qoKG06I4QaEOO2k8OLbOkzwp20Tlbi9FmI,3186
+PyIRoGlass-0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PyIRoGlass-0.4.1.dist-info/top_level.txt,sha256=NEDI39zuZboPqiczxYL8EE3mpCR7xf_Y6JPeOmp2o3Q,11
+PyIRoGlass-0.4.1.dist-info/RECORD,,
