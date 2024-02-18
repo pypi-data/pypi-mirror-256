@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qai-core"
+version = "0.1.7"
+description = ""
+authors = ["parnell <3028114+parnell@users.noreply.github.com>"]
+readme = "README.md"
+
+packages = [{ include = "qcore" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+json-fix = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
