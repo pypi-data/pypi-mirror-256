@@ -1,0 +1,10 @@
+deltaver/__init__.py,sha256=EheDxU9tiCDtKnkNxxBaVPscojCFC4cbHrPU7VY5w98,55
+deltaver/__main__.py,sha256=Y-sqiePfWdpyGUALWfKLnZiZMrrPANcB0o1YdDm4zEg,5121
+deltaver/config.py,sha256=SAQcVrhSzjQyBifs5hXDnib7MmEQUAKQaKK2NAiXKJ4,368
+deltaver/parsed_requirements.py,sha256=9fkPZKqUSFQbujjBqpEvbFLIv0gASN_oGRf8KSY7Sao,1886
+deltaver/version_delta.py,sha256=TpHfI4hACTJMiaKwers1LEtbOrGNmbZhrfXutBqK0UQ,6589
+deltaver-0.2.1.dist-info/LICENSE,sha256=vHpqx3GQ7dV3EYO7ldwwzn3q6AlqGm4rat10vehTn1E,1114
+deltaver-0.2.1.dist-info/METADATA,sha256=vL4Q9CcN6b6HTwqiO9HJc-6Z5GJf0-9uA1BCnc5f4a0,1834
+deltaver-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+deltaver-0.2.1.dist-info/entry_points.txt,sha256=uvIJ-fGpN6vgRnw9RIKW28SlwovIOHMVb2n_1LDuM0M,50
+deltaver-0.2.1.dist-info/RECORD,,
