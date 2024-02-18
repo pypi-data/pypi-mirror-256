@@ -1,0 +1,10 @@
+tree_sitter_pymanifest/__init__.py,sha256=ZGVS7e-aOWfe-LgPGVn8JvtKcvPemIh7jaFUtawUJ-U,198
+tree_sitter_pymanifest/_core.py,sha256=FRWnQRz_ZEaD7x1XmIMO6wdfA5GjkJzWgH5vD4J4738,914
+tree_sitter_pymanifest/pymanifest.dll,sha256=Y5jw07VQ1nulfDiPzhviG5SyaJJERTIOGS8YM6tPDjc,22528
+tree_sitter_pymanifest/pymanifest.exp,sha256=VsR9gj6a1Wl4JAaOLWHMOmZySkstiLMHeCJEhrwm9WQ,793
+tree_sitter_pymanifest/pymanifest.lib,sha256=mkJGQ1Khwc2Iww2iT6Smxf_UWGRg5egajJraaRPOanM,1808
+tree_sitter_pymanifest-0.3.0.dist-info/LICENSE,sha256=uuYoJqWLUpUeE_grEuB97h9Ullm-Mefap-FgzOrYK2M,1077
+tree_sitter_pymanifest-0.3.0.dist-info/METADATA,sha256=gav6WOEbAULPBpjVSuPmEpl_JIbBqMaxFdcQCr8JD9Y,3023
+tree_sitter_pymanifest-0.3.0.dist-info/WHEEL,sha256=UyMHzmWA0xVqVPKfTiLs2eN3OWWZUl-kQemNbpIqlKo,100
+tree_sitter_pymanifest-0.3.0.dist-info/top_level.txt,sha256=PN4vkDZTqjU6BlH8Ha9XczVCBTPutl0egC4NNAYQWWE,23
+tree_sitter_pymanifest-0.3.0.dist-info/RECORD,,
