@@ -1,0 +1,14 @@
+LICENSE
+pyproject.toml
+readme.md
+requirements.txt
+setup.py
+azure_key_vault_alert/__init__.py
+azure_key_vault_alert/azure_key_vault_alert.py
+azure_key_vault_alert/slack_alert.py
+azure_key_vault_alert/teams_alert.py
+ste_dev_01.egg-info/PKG-INFO
+ste_dev_01.egg-info/SOURCES.txt
+ste_dev_01.egg-info/dependency_links.txt
+ste_dev_01.egg-info/requires.txt
+ste_dev_01.egg-info/top_level.txt
