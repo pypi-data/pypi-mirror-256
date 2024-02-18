@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mechanician
+Version: 0.1
+Summary: Building tools that use AI and building tools that AIs use.
+Home-page: https://github.com/liebke/mechanician
+Author: David Edgar Liebke
+Author-email: david@liebke.ai
+Description-Content-Type: text/markdown
+Requires-Dist: rich>=10.0.0
+Requires-Dist: pyyaml>=5.4.1
