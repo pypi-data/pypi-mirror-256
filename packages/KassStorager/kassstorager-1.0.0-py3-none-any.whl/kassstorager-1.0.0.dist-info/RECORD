@@ -1,0 +1,8 @@
+KassStorager/__init__.py,sha256=bDkpqJvg_EaipaevCsYD1WZIW7kTw0oIfX-jC0RcxZc,32
+KassStorager/Storager.py,sha256=ijAHGHXrwCStVgmcNyC6euL3xgYHXmbhtBjgua0f3vs,3743
+KassStorager/StoragerAwsS3.py,sha256=xuypnXalRCl2iewW8ddh5NLJYTHU06SjJGjicJfHz3o,8105
+KassStorager/StoragerOs.py,sha256=w-9hbKVKjSPTwEkkgsOBSejfFy49QWeJBC5x-L1KIiY,7613
+kassstorager-1.0.0.dist-info/LICENSE,sha256=aTxdCvvlFyMOCC6M4hrQOewyRU6l3MNrhc8B353BPrM,1089
+kassstorager-1.0.0.dist-info/METADATA,sha256=pt_sBeReLbDXzZz3X_5PUqMjfWKprx4f6J-AE6WDFU8,4171
+kassstorager-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kassstorager-1.0.0.dist-info/RECORD,,
