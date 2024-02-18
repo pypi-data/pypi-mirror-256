@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-13 20:37-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: logging/admin_views.py:30
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Acción"
+
+#: logging/apps.py:26
+msgid "Zibanu Logging"
+msgstr ""
+
+#: logging/lib/utils/handlers_factory.py:63
+msgid "Unable to import AuditEntity model"
+msgstr "Imposible importar el modelo AuditEntity"
+
+#: logging/models.py:24
+msgid "Action"
+msgstr "Acción"
+
+#: logging/models.py:25
+msgid "Sender object method"
+msgstr "Método que envía"
+
+#: logging/models.py:26
+msgid "Log detail"
+msgstr "Detalle del Log"
+
+#: logging/models.py:27
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: logging/models.py:28
+msgid "User"
+msgstr "Usuario"
+
+#: logging/models.py:41
+msgid "Log"
+msgstr ""
+
+#: logging/models.py:42
+msgid "Mail From"
+msgstr "De"
+
+#: logging/models.py:43
+msgid "Mail To"
+msgstr "Para"
+
+#: logging/models.py:44
+msgid "Subject"
+msgstr "Asunto"
+
+#: logging/models.py:45
+msgid "SMTP Code"
+msgstr "Código SMTP"
+
+#: logging/models.py:46
+msgid "SMTP Error"
+msgstr "Error SMTP"
+
+#: logging/models.py:53
+msgid "Model Name"
+msgstr "Nombre del Modelo"
+
+#: logging/models.py:54
+msgid "The name of the model you would like to audit"
+msgstr "El nombre del modelo que desea auditar"
+
+#: logging/models.py:55
+msgid "On Insert"
+msgstr "En el Insert"
+
+#: logging/models.py:56
+msgid "If true, this entity will be audited on insert event"
+msgstr "Si es verdadero, esta entidad será auditada al ocurrir el evento insert."
+
+#: logging/models.py:57
+msgid "On Delete"
+msgstr "Al eliminar"
+
+#: logging/models.py:58
+msgid "If true, this entity will be audited on delete event"
+msgstr "Si es verdadero, esta entidad será auditada al ocurrir el borrado de un registro"
+
+#: logging/models.py:59
+msgid "On Update"
+msgstr "Al actualizar"
+
+#: logging/models.py:60
+msgid "If true, this entity will be audited on update event"
+msgstr "Si es verdadero, esta entidad será auditada al actualizar un registro"
+
+#: logging/models.py:61
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: logging/models.py:62
+msgid "If false, disable the audit rule"
+msgstr "Si es falso, inhabilita la regla de auditoría"
+
+#: logging/models.py:68
+msgid "Audit Entity"
+msgstr "Entidad Auditada"
+
+#: logging/models.py:69
+msgid "Audit Entities"
+msgstr "Entidades Auditadas"
