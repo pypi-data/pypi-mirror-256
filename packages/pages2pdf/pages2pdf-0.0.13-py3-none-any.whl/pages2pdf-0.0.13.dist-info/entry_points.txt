@@ -1,0 +1,2 @@
+[console_scripts]
+pages2pdf = pages2dpdf:cli
