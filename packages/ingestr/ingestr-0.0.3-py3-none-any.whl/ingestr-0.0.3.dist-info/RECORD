@@ -1,0 +1,16 @@
+ingestr/main.py,sha256=KheVlifq6v4I5KCd_l1fi2mpk8kfYE4delBXHH_SVxY,7537
+ingestr/src/destinations.py,sha256=LyA_26S3tHMeJiFwxX3XYV39lLOKqKACL0wWn3IGyP4,2673
+ingestr/src/destinations_test.py,sha256=rgEk8EpAntFbSOwXovC4prv3RA22mwq8pIO6sZ_rYzg,4212
+ingestr/src/factory.py,sha256=YMIZSWY9ojrrl-M5_VC5eDR7TdBRF9Wem9pDCOw5DbU,2063
+ingestr/src/sources.py,sha256=8UeHfi1XY0C8us0fHQObkjLXDkWA_fAWhfBltUW2hTQ,956
+ingestr/src/sources_test.py,sha256=gcoEFpakLeYSl9cliwoSAakzr1R9pVml5V4H9ibMCZA,1825
+ingestr/src/sql_database/__init__.py,sha256=mLiaDGaz3h5LRCnmjPTUNhp1fIjgU5rCcBOQ2r3Iu1Q,4643
+ingestr/src/sql_database/helpers.py,sha256=r3b5MDpMjpV4U94gCKSOUH9t7YdP0OCAOqgpjbe7iSs,4442
+ingestr/src/sql_database/schema_types.py,sha256=PCIdLrT5Xc4vmoaf6OJSeXLlyN05alwgcQ-TDXd8hbQ,2153
+ingestr/src/sql_database/settings.py,sha256=PaLPayAb1QGHHcPlrZ7eJ1fonDA6-sOGh-ZiueIFhRg,76
+ingestr/src/testdata/fakebqcredentials.json,sha256=scc6TUc963KAbKTLZCfcmqVzbtzDCW1_8JNRnyAXyy8,628
+ingestr-0.0.3.dist-info/METADATA,sha256=EeURFoj26cB2ivj3hfdAu07AL4ZWKwLE70zDosxQjaQ,2972
+ingestr-0.0.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+ingestr-0.0.3.dist-info/entry_points.txt,sha256=oPJy0KBnPWYjDtP1k8qwAihcTLHSZokSQvRAw_wtfJM,46
+ingestr-0.0.3.dist-info/licenses/LICENSE.md,sha256=cW8wIhn8HFE-KLStDF9jHQ1O_ARWP3kTpk_-eOccL24,1075
+ingestr-0.0.3.dist-info/RECORD,,
