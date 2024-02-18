@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/tsshapelet/__init__.py
+src/tsshapelet/barycenter.py
+src/tsshapelet/comparator.py
+src/tsshapelet/features.py
+src/tsshapelet/shapelet.py
+src/tsshapelet/shapelet_dtw.py
+src/tsshapelet/utils.py
+src/tsshapelet.egg-info/PKG-INFO
+src/tsshapelet.egg-info/SOURCES.txt
+src/tsshapelet.egg-info/dependency_links.txt
+src/tsshapelet.egg-info/requires.txt
+src/tsshapelet.egg-info/top_level.txt
