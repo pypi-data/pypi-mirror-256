@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: keylogger-thread
+Version: 0.1
+Summary: A Python package for easily logging keys.
+
+Using this package, you can easily run a keylogger on a separate thread, meaning your own code doesn't even need to pause to run this.
+
+To use this package, initiate the "Keylogger" class anywhere as a variable. You can then easily enable, disable or fetch the log of keys, which will return a list of either characters or Pynput "Key" classes type.
