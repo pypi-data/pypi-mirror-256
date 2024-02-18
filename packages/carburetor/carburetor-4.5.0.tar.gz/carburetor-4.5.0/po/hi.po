@@ -1,0 +1,389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nitin Khalia <weblate.scrambled777@simplelogin.com>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: dani.behzi@ubuntu.com\n"
+"POT-Creation-Date: 2024-02-01 00:41+0330\n"
+"PO-Revision-Date: 2024-02-11 10:01+0000\n"
+"Last-Translator: Nitin Khalia <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/carburetor/"
+"translations/hi/>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: src/carburetor/actions.py:85
+msgid "translator-credits"
+msgstr "Scrambled777 <weblate.scrambled777@simplelogin.com>"
+
+#: src/carburetor/actions.py:132
+msgid "Disconnecting…"
+msgstr "डिस्कनेक्ट हो रहा है…"
+
+#: src/carburetor/actions.py:137
+msgid "Connecting…"
+msgstr "कनेक्ट हो रहा है…"
+
+#: src/carburetor/actions.py:150
+msgid "You have a new identity!"
+msgstr "आपके पास एक नई पहचान है!"
+
+#: src/carburetor/actions.py:152
+msgid "Tractor is not running!"
+msgstr "Tractor नहीं चल रहा!"
+
+#: src/carburetor/actions.py:170
+msgid "Proxy has been unset"
+msgstr "प्रॉक्सी को अनसेट कर दिया गया है"
+
+#: src/carburetor/actions.py:173
+msgid "Proxy has been set"
+msgstr "प्रॉक्सी सेट कर दी गई है"
+
+#: src/carburetor/actions.py:246 data/gtk/main.ui:133
+msgid "Stopped"
+msgstr "रुक गया"
+
+#: src/carburetor/actions.py:249 data/gtk/main.ui:72
+msgid "_Connect"
+msgstr "_जुड़ें"
+
+#: src/carburetor/actions.py:261
+msgid "Tractor is stopped"
+msgstr "Tractor रोका गया"
+
+#: src/carburetor/actions.py:271
+msgid "Running"
+msgstr "चालू"
+
+#: src/carburetor/actions.py:278
+msgid "_Disconnect"
+msgstr "_डिस्कनेक्ट"
+
+#: src/carburetor/actions.py:288
+msgid "Tractor is running"
+msgstr "Tractor चल रहा है"
+
+#: src/carburetor/config.py:35 data/gtk/main.ui:57
+msgid "Carburetor"
+msgstr "Carburetor"
+
+#: src/carburetor/handler.py:112
+msgid "Austria"
+msgstr "ऑस्ट्रिया"
+
+#: src/carburetor/handler.py:113
+msgid "Bulgaria"
+msgstr "बुल्गारिया"
+
+#: src/carburetor/handler.py:114
+msgid "Canada"
+msgstr "कनाडा"
+
+#: src/carburetor/handler.py:115
+msgid "Switzerland"
+msgstr "स्विट्ज़रलैंड"
+
+#: src/carburetor/handler.py:116
+msgid "Czech"
+msgstr "चेक"
+
+#: src/carburetor/handler.py:117
+msgid "Germany"
+msgstr "जर्मनी"
+
+#: src/carburetor/handler.py:118
+msgid "Spain"
+msgstr "स्पेन"
+
+#: src/carburetor/handler.py:119
+msgid "Finland"
+msgstr "फिनलैंड"
+
+#: src/carburetor/handler.py:120
+msgid "France"
+msgstr "फ्रांस"
+
+#: src/carburetor/handler.py:121
+msgid "Ireland"
+msgstr "आयरलैंड"
+
+#: src/carburetor/handler.py:122
+msgid "Moldova"
+msgstr "मोलदोवा"
+
+#: src/carburetor/handler.py:123
+msgid "Netherlands"
+msgstr "नीदरलैंड"
+
+#: src/carburetor/handler.py:124
+msgid "Norway"
+msgstr "नॉर्वे"
+
+#: src/carburetor/handler.py:125
+msgid "Poland"
+msgstr "पोलैंड"
+
+#: src/carburetor/handler.py:126
+msgid "Romania"
+msgstr "रोमानिया"
+
+#: src/carburetor/handler.py:127
+msgid "Seychelles"
+msgstr "सेशल्स"
+
+#: src/carburetor/handler.py:128
+msgid "Sweden"
+msgstr "स्वीडन"
+
+#: src/carburetor/handler.py:129
+msgid "Singapore"
+msgstr "सिंगापुर"
+
+#: src/carburetor/handler.py:130
+msgid "Russia"
+msgstr "रूस"
+
+#: src/carburetor/handler.py:131
+msgid "Ukraine"
+msgstr "यूक्रेन"
+
+#: src/carburetor/handler.py:132
+msgid "United Kingdom"
+msgstr "यूनाइटेड किंगडम"
+
+#: src/carburetor/handler.py:133
+msgid "United States"
+msgstr "संयुक्त राज्य अमेरिका"
+
+#: src/carburetor/handler.py:148
+msgid "Auto (Best)"
+msgstr "ऑटो (सर्वोत्तम)"
+
+#: src/carburetor/handler.py:238 data/gtk/preferences.ui:120
+msgid "None"
+msgstr "कोई नहीं"
+
+#: src/carburetor/handler.py:239
+msgid "Vanilla"
+msgstr "वनीला"
+
+#: src/carburetor/handler.py:240
+msgid "Obfuscated"
+msgstr "आब्फस्कैट"
+
+#: src/carburetor/handler.py:241
+msgid "Snowflake"
+msgstr "Snowflake"
+
+#: src/carburetor/handler.py:242
+msgid "WebTunnel"
+msgstr "WebTunnel"
+
+#: src/carburetor/handler.py:269
+msgid "_OK"
+msgstr "_ठीक है"
+
+#: src/carburetor/handler.py:272
+msgid "Can not save the bridges"
+msgstr "Bridges को नहीं बचा सकते"
+
+#: src/carburetor/handler.py:273
+msgid "Please check the syntax of bridges"
+msgstr "कृपया bridges के सिंटैक्स की जाँच करें"
+
+#: src/carburetor/tasks.py:84
+msgid "Tractor is connected"
+msgstr "Tractor जुड़ा हुआ है"
+
+#: src/carburetor/tasks.py:87
+msgid "Tractor couldn't connect"
+msgstr "Tractor कनेक्ट नहीं हो सका"
+
+#: data/gtk/help-overlay.ui:27 data/gtk/preferences.ui:28
+msgid "General"
+msgstr "जनरल"
+
+#: data/gtk/help-overlay.ui:32
+msgctxt "shortcuts window item"
+msgid "Preferences"
+msgstr "प्राथमिकताएं"
+
+#: data/gtk/help-overlay.ui:39
+msgctxt "shortcuts window item"
+msgid "Shortcuts"
+msgstr "शॉर्टकट"
+
+#: data/gtk/help-overlay.ui:46
+msgctxt "shortcuts window item"
+msgid "Quit"
+msgstr "बंद करें"
+
+#: data/gtk/help-overlay.ui:53
+msgctxt "Shortcuts window group"
+msgid "Functionality"
+msgstr "कार्यशीलता"
+
+#: data/gtk/help-overlay.ui:58
+msgctxt "shortcuts window item"
+msgid "Connect / Disconnect"
+msgstr "कनेक्ट / डिस्कनेक्ट"
+
+#: data/gtk/help-overlay.ui:65
+msgctxt "shortcuts window item"
+msgid "New ID"
+msgstr "नई ID"
+
+#: data/gtk/main.ui:41
+msgctxt "tooltip"
+msgid "Show Details"
+msgstr "विवरण दिखाएं"
+
+#: data/gtk/main.ui:66
+msgctxt "tooltip"
+msgid "Main Menu"
+msgstr "मुख्य मेन्यू"
+
+#: data/gtk/main.ui:140
+msgid "_Cancel"
+msgstr "_रद्द करें"
+
+#: data/gtk/main.ui:203
+msgctxt "Action Menu Item"
+msgid "_New ID"
+msgstr "_नई ID"
+
+#: data/gtk/main.ui:207
+msgctxt "Action Menu Item"
+msgid "_Check connection"
+msgstr "_कनेक्शन जांचें"
+
+#: data/gtk/main.ui:211
+msgctxt "Action Menu Item"
+msgid "_Toggle proxy on system"
+msgstr "_सिस्टम पर प्रॉक्सी टॉगल करें"
+
+#: data/gtk/main.ui:217
+msgctxt "App Menu Item"
+msgid "_Preferences"
+msgstr "_प्राथमिकताएँ"
+
+#: data/gtk/main.ui:221
+msgctxt "App Menu Item"
+msgid "_Keyboard Shortcuts"
+msgstr "_कीबोर्ड शॉर्टकट"
+
+#: data/gtk/main.ui:225
+msgctxt "App Menu Item"
+msgid "_About Carburetor"
+msgstr "_Carburetor के बारे में"
+
+#: data/gtk/main.ui:229
+msgctxt "App Menu Item"
+msgid "_Quit"
+msgstr "_छोड़ें"
+
+#: data/gtk/preferences.ui:31
+msgid "Exit Node"
+msgstr "नोड से बाहर निकलें"
+
+#: data/gtk/preferences.ui:35
+msgid "The country you want to connect from"
+msgstr "आप जिस देश से जुड़ना चाहते हैं"
+
+#: data/gtk/preferences.ui:36
+msgid "Exit Country"
+msgstr "देश से बाहर निकलें"
+
+#: data/gtk/preferences.ui:45
+msgid "Accept Connections"
+msgstr "कनेक्शन स्वीकार करें"
+
+#: data/gtk/preferences.ui:48
+msgid "Allow external devices to use this network"
+msgstr "बाहरी डिवाइसों को इस नेटवर्क का उपयोग करने की अनुमति दें"
+
+#: data/gtk/preferences.ui:59
+msgid "Ports"
+msgstr "पोर्टस"
+
+#: data/gtk/preferences.ui:62
+msgid "Socks Port"
+msgstr "Socks पोर्ट"
+
+#: data/gtk/preferences.ui:66
+msgid "Local port on which Tractor would be listen"
+msgstr "स्थानीय पोर्ट जिस पर Tractor सुनेगा"
+
+#: data/gtk/preferences.ui:74
+msgid "DNS Port"
+msgstr "DNS पोर्ट"
+
+#: data/gtk/preferences.ui:78
+msgid "Local port on which you would have an anonymous name server"
+msgstr "स्थानीय पोर्ट जिस पर आपके पास एक अनाम सर्वर होगा"
+
+#: data/gtk/preferences.ui:86
+msgid "HTTP Port"
+msgstr "HTTP पोर्ट"
+
+#: data/gtk/preferences.ui:90
+msgid "Local port on which a HTTP tunnel would be listen"
+msgstr "स्थानीय पोर्ट जिस पर एक HTTP tunnel सुनेगा"
+
+#: data/gtk/preferences.ui:101 data/gtk/preferences.ui:154
+msgid "Bridges"
+msgstr "Bridges"
+
+#. Type of the bridge to use
+#: data/gtk/preferences.ui:104
+msgid "Type"
+msgstr "प्रकार"
+
+#: data/gtk/preferences.ui:108
+msgid "Type of bridge"
+msgstr "Bridge के प्रकार"
+
+#: data/gtk/preferences.ui:115
+msgid "Client Transport Plugin"
+msgstr "क्लाइंट ट्रांसपोर्ट प्लगइन"
+
+#: data/gtk/preferences.ui:132
+msgid "Please copy and paste the bridges you have in the area below."
+msgstr ""
+"कृपया नीचे दिए गए क्षेत्र में आपके पास मोजुदा bridges को कॉपी और पेस्ट करें।"
+
+#: data/gtk/preferences.ui:141
+msgid ""
+"To Get bridges, you have these options:\n"
+"\n"
+"• Visit the Tor website: <a href=\"https://bridges.torproject.org/options/"
+"\">https://bridges.torproject.org/options</a>\n"
+"• Use the Tor bridges Telegram bot: <a href=\"https://t.me/"
+"GetBridgesBot\">Tor bridges Telegram bot</a>\n"
+"• Send an email from a Riseup or Gmail address to: <a href=\"mailto:"
+"bridges@torproject.org?body=get bridges\">bridges@torproject.org</a>"
+msgstr ""
+"Bridges को पाने लिए, आपके पास ये विकल्प हैं:\n"
+"\n"
+"• Tor वेबसाइट पर जाएँ: <a href=\"https://bridges.torproject.org/options/\""
+">https://bridges.torproject.org/options</a>\n"
+"• Tor bridges Telegram बॉट का उपयोग करें: <a href=\"https://t.me/"
+"GetBridgesBot\">Tor bridges Telegram बॉट</a>\n"
+"• Riseup या Gmail पते से एक ईमेल यहां भेजें: <a href=\"mailto:bridges@"
+"torproject.org?body=get bridges\">bridges@torproject.org</a>"
+
+#: data/gtk/preferences.ui:177
+msgid "_Save"
+msgstr "_सहेजें"
+
+#: data/gtk/preferences.ui:178
+msgid "Save Bridges as a file in your local configs"
+msgstr "Bridges को अपने स्थानीय कॉन्फ़िगरेशन में एक फाइल के रूप में सहेजें"

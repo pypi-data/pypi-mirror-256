@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Glitter <glitter@vern.cc>, 2024.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2024.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: dani.behzi@ubuntu.com\n"
+"POT-Creation-Date: 2024-01-31 04:25+0330\n"
+"PO-Revision-Date: 2024-02-12 14:21+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"carburetor/translations/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: src/carburetor/actions.py:85
+msgid "translator-credits"
+msgstr "Glitter <glitter@vern.cc>"
+
+#: src/carburetor/actions.py:132
+msgid "Disconnecting…"
+msgstr "正在断开连接…"
+
+#: src/carburetor/actions.py:137
+msgid "Connecting…"
+msgstr "正在连接…"
+
+#: src/carburetor/actions.py:150
+msgid "You have a new identity!"
+msgstr "你拥有了新身份！"
+
+#: src/carburetor/actions.py:152
+msgid "Tractor is not running!"
+msgstr "Tractor 未运行！"
+
+#: src/carburetor/actions.py:170
+msgid "Proxy has been unset"
+msgstr "代理已取消设置"
+
+#: src/carburetor/actions.py:173
+msgid "Proxy has been set"
+msgstr "代理已设置"
+
+#: src/carburetor/actions.py:246 data/gtk/main.ui:133
+msgid "Stopped"
+msgstr "已停止"
+
+#: src/carburetor/actions.py:249 data/gtk/main.ui:72
+msgid "_Connect"
+msgstr "连接(_C)"
+
+#: src/carburetor/actions.py:261
+msgid "Tractor is stopped"
+msgstr "Tractor 已停止"
+
+#: src/carburetor/actions.py:271
+msgid "Running"
+msgstr "运行中"
+
+#: src/carburetor/actions.py:278
+msgid "_Disconnect"
+msgstr "断开连接(_D)"
+
+#: src/carburetor/actions.py:288
+msgid "Tractor is running"
+msgstr "Tractor 正在运行"
+
+#: src/carburetor/config.py:35 data/gtk/main.ui:57
+msgid "Carburetor"
+msgstr "Carburetor"
+
+#: src/carburetor/handler.py:112
+msgid "Austria"
+msgstr "奥地利"
+
+#: src/carburetor/handler.py:113
+msgid "Bulgaria"
+msgstr "保加利亚"
+
+#: src/carburetor/handler.py:114
+msgid "Canada"
+msgstr "加拿大"
+
+#: src/carburetor/handler.py:115
+msgid "Switzerland"
+msgstr "瑞士"
+
+#: src/carburetor/handler.py:116
+msgid "Czech"
+msgstr "捷克语"
+
+#: src/carburetor/handler.py:117
+msgid "Germany"
+msgstr "德国"
+
+#: src/carburetor/handler.py:118
+msgid "Spain"
+msgstr "西班牙"
+
+#: src/carburetor/handler.py:119
+msgid "Finland"
+msgstr "芬兰"
+
+#: src/carburetor/handler.py:120
+msgid "France"
+msgstr "法国"
+
+#: src/carburetor/handler.py:121
+msgid "Ireland"
+msgstr "爱尔兰共和国"
+
+#: src/carburetor/handler.py:122
+msgid "Moldova"
+msgstr "摩尔多瓦"
+
+#: src/carburetor/handler.py:123
+msgid "Netherlands"
+msgstr "荷兰"
+
+#: src/carburetor/handler.py:124
+msgid "Norway"
+msgstr "挪威"
+
+#: src/carburetor/handler.py:125
+msgid "Poland"
+msgstr "波兰"
+
+#: src/carburetor/handler.py:126
+msgid "Romania"
+msgstr "罗马尼亚"
+
+#: src/carburetor/handler.py:127
+msgid "Seychelles"
+msgstr "塞舌尔"
+
+#: src/carburetor/handler.py:128
+msgid "Sweden"
+msgstr "瑞典"
+
+#: src/carburetor/handler.py:129
+msgid "Singapore"
+msgstr "新加坡"
+
+#: src/carburetor/handler.py:130
+msgid "Russia"
+msgstr "俄罗斯"
+
+#: src/carburetor/handler.py:131
+msgid "Ukraine"
+msgstr "乌克兰"
+
+#: src/carburetor/handler.py:132
+msgid "United Kingdom"
+msgstr "英国"
+
+#: src/carburetor/handler.py:133
+msgid "United States"
+msgstr "美国"
+
+#: src/carburetor/handler.py:148
+msgid "Auto (Best)"
+msgstr "自动（最好）"
+
+#: src/carburetor/handler.py:238 data/gtk/preferences.ui:120
+msgid "None"
+msgstr "无"
+
+#: src/carburetor/handler.py:239
+msgid "Vanilla"
+msgstr "原生"
+
+#: src/carburetor/handler.py:240
+msgid "Obfuscated"
+msgstr "混淆"
+
+#: src/carburetor/handler.py:241
+msgid "Snowflake"
+msgstr "Snowflake"
+
+#: src/carburetor/handler.py:242
+msgid "WebTunnel"
+msgstr "WebTunnel"
+
+#: src/carburetor/handler.py:269
+msgid "_OK"
+msgstr "_OK"
+
+#: src/carburetor/handler.py:272
+msgid "Can not save the bridges"
+msgstr "无法保存网桥"
+
+#: src/carburetor/handler.py:273
+msgid "Please check the syntax of bridges"
+msgstr "请检查网桥语法是否正确"
+
+#: src/carburetor/tasks.py:84
+msgid "Tractor is connected"
+msgstr "Tractor 已连接"
+
+#: src/carburetor/tasks.py:87
+msgid "Tractor couldn't connect"
+msgstr "Tractor 无法连接"
+
+#: data/gtk/help-overlay.ui:27 data/gtk/preferences.ui:28
+msgid "General"
+msgstr "一般"
+
+#: data/gtk/help-overlay.ui:32
+msgctxt "shortcuts window item"
+msgid "Preferences"
+msgstr "首选项"
+
+#: data/gtk/help-overlay.ui:39
+msgctxt "shortcuts window item"
+msgid "Shortcuts"
+msgstr "快捷方式"
+
+#: data/gtk/help-overlay.ui:46
+msgctxt "shortcuts window item"
+msgid "Quit"
+msgstr "退出"
+
+#: data/gtk/help-overlay.ui:53
+msgctxt "Shortcuts window group"
+msgid "Functionality"
+msgstr "功能"
+
+#: data/gtk/help-overlay.ui:58
+msgctxt "shortcuts window item"
+msgid "Connect / Disconnect"
+msgstr "连接 / 断开连接"
+
+#: data/gtk/help-overlay.ui:65
+msgctxt "shortcuts window item"
+msgid "New ID"
+msgstr "新标识"
+
+#: data/gtk/main.ui:41
+msgctxt "tooltip"
+msgid "Show Details"
+msgstr "显示详细信息"
+
+#: data/gtk/main.ui:66
+msgctxt "tooltip"
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: data/gtk/main.ui:140
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: data/gtk/main.ui:203
+msgctxt "Action Menu Item"
+msgid "_New ID"
+msgstr "新标识"
+
+#: data/gtk/main.ui:207
+msgctxt "Action Menu Item"
+msgid "_Check connection"
+msgstr "_检查连接"
+
+#: data/gtk/main.ui:211
+msgctxt "Action Menu Item"
+msgid "_Toggle proxy on system"
+msgstr "_切换系统代理"
+
+#: data/gtk/main.ui:217
+msgctxt "App Menu Item"
+msgid "_Preferences"
+msgstr "首选项 (_P)"
+
+#: data/gtk/main.ui:221
+msgctxt "App Menu Item"
+msgid "_Keyboard Shortcuts"
+msgstr "键盘快捷键(_K)"
+
+#: data/gtk/main.ui:225
+msgctxt "App Menu Item"
+msgid "_About Carburetor"
+msgstr "_关于 Carburetor"
+
+#: data/gtk/main.ui:229
+msgctxt "App Menu Item"
+msgid "_Quit"
+msgstr "退出(_Q)"
+
+#: data/gtk/preferences.ui:31
+msgid "Exit Node"
+msgstr "出口节点"
+
+#: data/gtk/preferences.ui:35
+msgid "The country you want to connect from"
+msgstr "您要连接的国家"
+
+#: data/gtk/preferences.ui:36
+msgid "Exit Country"
+msgstr "出口国家"
+
+#: data/gtk/preferences.ui:45
+msgid "Accept Connections"
+msgstr "已允许的连接"
+
+#: data/gtk/preferences.ui:48
+msgid "Allow external devices to use this network"
+msgstr "允许外部设备连接此网络"
+
+#: data/gtk/preferences.ui:59
+msgid "Ports"
+msgstr "端口"
+
+#: data/gtk/preferences.ui:62
+msgid "Socks Port"
+msgstr "Socks 端口"
+
+#: data/gtk/preferences.ui:66
+msgid "Local port on which Tractor would be listen"
+msgstr "Tractor 要监听的本地端口"
+
+#: data/gtk/preferences.ui:74
+msgid "DNS Port"
+msgstr "DNS 端口"
+
+#: data/gtk/preferences.ui:78
+msgid "Local port on which you would have an anonymous name server"
+msgstr "您将拥有匿名名称服务器的本地端口"
+
+#: data/gtk/preferences.ui:86
+msgid "HTTP Port"
+msgstr "HTTP 端口"
+
+#: data/gtk/preferences.ui:90
+msgid "Local port on which a HTTP tunnel would be listen"
+msgstr "HTTP 隧道监听的本地端口"
+
+#: data/gtk/preferences.ui:101 data/gtk/preferences.ui:154
+msgid "Bridges"
+msgstr "网桥"
+
+#. Type of the bridge to use
+#: data/gtk/preferences.ui:104
+msgid "Type"
+msgstr "类型"
+
+#: data/gtk/preferences.ui:108
+msgid "Type of bridge"
+msgstr "网桥类型"
+
+#: data/gtk/preferences.ui:115
+msgid "Client Transport Plugin"
+msgstr "客户端的可插拔传输"
+
+#: data/gtk/preferences.ui:132
+msgid "Please copy and paste the bridges you have in the area below."
+msgstr ""
+
+#: data/gtk/preferences.ui:141
+msgid ""
+"To Get bridges, you have these options:\n"
+"\n"
+"• Visit the Tor website: <a href=\"https://bridges.torproject.org/options/"
+"\">https://bridges.torproject.org/options</a>\n"
+"• Use the Tor bridges Telegram bot: <a href=\"https://t.me/"
+"GetBridgesBot\">Tor bridges Telegram bot</a>\n"
+"• Send an email from a Riseup or Gmail address to: <a href=\"mailto:"
+"bridges@torproject.org?body=get bridges\">bridges@torproject.org</a>"
+msgstr ""
+
+#: data/gtk/preferences.ui:177
+msgid "_Save"
+msgstr "保存"
+
+#: data/gtk/preferences.ui:178
+msgid "Save Bridges as a file in your local configs"
+msgstr "将网桥作为文件保存在您的本地配置中"

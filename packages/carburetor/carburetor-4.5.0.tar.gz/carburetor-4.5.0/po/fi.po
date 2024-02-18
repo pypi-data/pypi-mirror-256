@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2023.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023, 2024.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 04:25+0330\n"
+"PO-Revision-Date: 2024-01-31 01:09+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/carburetor/"
+"translations/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
+
+#: src/carburetor/actions.py:85
+msgid "translator-credits"
+msgstr "Jiri Grönroos, 2023"
+
+#: src/carburetor/actions.py:132
+msgid "Disconnecting…"
+msgstr "Katkaistaan yhteys…"
+
+#: src/carburetor/actions.py:137
+msgid "Connecting…"
+msgstr "Yhdistetään…"
+
+#: src/carburetor/actions.py:150
+msgid "You have a new identity!"
+msgstr "Sinulla on uusi identiteetti!"
+
+#: src/carburetor/actions.py:152
+msgid "Tractor is not running!"
+msgstr "Tractor ei ole käynnissä!"
+
+#: src/carburetor/actions.py:170
+#, fuzzy
+msgid "Proxy has been unset"
+msgstr "Välityspalvelin on asetettu"
+
+#: src/carburetor/actions.py:173
+msgid "Proxy has been set"
+msgstr "Välityspalvelin on asetettu"
+
+#: src/carburetor/actions.py:246 data/gtk/main.ui:133
+msgid "Stopped"
+msgstr "Pysäytetty"
+
+#: src/carburetor/actions.py:249 data/gtk/main.ui:72
+msgid "_Connect"
+msgstr "_Yhdistä"
+
+#: src/carburetor/actions.py:261
+msgid "Tractor is stopped"
+msgstr "Tractor on pysäytetty"
+
+#: src/carburetor/actions.py:271
+msgid "Running"
+msgstr "Käynnissä"
+
+#: src/carburetor/actions.py:278
+msgid "_Disconnect"
+msgstr "_Katkaise yhteys"
+
+#: src/carburetor/actions.py:288
+msgid "Tractor is running"
+msgstr "Tractor on käynnissä"
+
+#: src/carburetor/config.py:35 data/gtk/main.ui:57
+msgid "Carburetor"
+msgstr "Carburetor"
+
+#: src/carburetor/handler.py:112
+msgid "Austria"
+msgstr "Itävalta"
+
+#: src/carburetor/handler.py:113
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: src/carburetor/handler.py:114
+msgid "Canada"
+msgstr "Kanada"
+
+#: src/carburetor/handler.py:115
+msgid "Switzerland"
+msgstr "Sveitsi"
+
+#: src/carburetor/handler.py:116
+msgid "Czech"
+msgstr "Tšekki"
+
+#: src/carburetor/handler.py:117
+msgid "Germany"
+msgstr "Saksa"
+
+#: src/carburetor/handler.py:118
+msgid "Spain"
+msgstr "Espanja"
+
+#: src/carburetor/handler.py:119
+msgid "Finland"
+msgstr "Suomi"
+
+#: src/carburetor/handler.py:120
+msgid "France"
+msgstr "Ranska"
+
+#: src/carburetor/handler.py:121
+msgid "Ireland"
+msgstr "Irlanti"
+
+#: src/carburetor/handler.py:122
+msgid "Moldova"
+msgstr "Moldova"
+
+#: src/carburetor/handler.py:123
+msgid "Netherlands"
+msgstr "Alankomaat"
+
+#: src/carburetor/handler.py:124
+msgid "Norway"
+msgstr "Norja"
+
+#: src/carburetor/handler.py:125
+msgid "Poland"
+msgstr "Puola"
+
+#: src/carburetor/handler.py:126
+msgid "Romania"
+msgstr "Romania"
+
+#: src/carburetor/handler.py:127
+msgid "Seychelles"
+msgstr "Seychellit"
+
+#: src/carburetor/handler.py:128
+msgid "Sweden"
+msgstr "Ruotsi"
+
+#: src/carburetor/handler.py:129
+msgid "Singapore"
+msgstr "Singapore"
+
+#: src/carburetor/handler.py:130
+msgid "Russia"
+msgstr "Venäjä"
+
+#: src/carburetor/handler.py:131
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: src/carburetor/handler.py:132
+msgid "United Kingdom"
+msgstr "Yhdistynyt kuningaskunta"
+
+#: src/carburetor/handler.py:133
+msgid "United States"
+msgstr "Yhdysvallat"
+
+#: src/carburetor/handler.py:148
+msgid "Auto (Best)"
+msgstr "Automaattinen (paras)"
+
+#: src/carburetor/handler.py:238 data/gtk/preferences.ui:120
+msgid "None"
+msgstr "Ei mitään"
+
+#: src/carburetor/handler.py:239
+msgid "Vanilla"
+msgstr "Vanilja"
+
+#: src/carburetor/handler.py:240
+msgid "Obfuscated"
+msgstr ""
+
+#: src/carburetor/handler.py:241
+msgid "Snowflake"
+msgstr "Snowflake"
+
+#: src/carburetor/handler.py:242
+msgid "WebTunnel"
+msgstr "WebTunnel"
+
+#: src/carburetor/handler.py:269
+msgid "_OK"
+msgstr "_OK"
+
+#: src/carburetor/handler.py:272
+msgid "Can not save the bridges"
+msgstr "Siltoja ei voi tallentaa"
+
+#: src/carburetor/handler.py:273
+msgid "Please check the syntax of bridges"
+msgstr "Tarkista siltojen syntaksi"
+
+#: src/carburetor/tasks.py:84
+msgid "Tractor is connected"
+msgstr "Tractor on yhdistetty"
+
+#: src/carburetor/tasks.py:87
+msgid "Tractor couldn't connect"
+msgstr "Tractor ei voinut yhdistää"
+
+#: data/gtk/help-overlay.ui:27 data/gtk/preferences.ui:28
+msgid "General"
+msgstr "Yleiset"
+
+#: data/gtk/help-overlay.ui:32
+msgctxt "shortcuts window item"
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: data/gtk/help-overlay.ui:39
+msgctxt "shortcuts window item"
+msgid "Shortcuts"
+msgstr "Pikanäppäimet"
+
+#: data/gtk/help-overlay.ui:46
+msgctxt "shortcuts window item"
+msgid "Quit"
+msgstr "Lopeta"
+
+#: data/gtk/help-overlay.ui:53
+msgctxt "Shortcuts window group"
+msgid "Functionality"
+msgstr "Toiminnallisuus"
+
+#: data/gtk/help-overlay.ui:58
+msgctxt "shortcuts window item"
+msgid "Connect / Disconnect"
+msgstr "Yhdistä / katkaise yhteys"
+
+#: data/gtk/help-overlay.ui:65
+msgctxt "shortcuts window item"
+msgid "New ID"
+msgstr "Uusi ID"
+
+#: data/gtk/main.ui:41
+msgctxt "tooltip"
+msgid "Show Details"
+msgstr "Näytä tiedot"
+
+#: data/gtk/main.ui:66
+msgctxt "tooltip"
+msgid "Main Menu"
+msgstr "Päävalikko"
+
+#: data/gtk/main.ui:140
+msgid "_Cancel"
+msgstr "_Peruuta"
+
+#: data/gtk/main.ui:203
+msgctxt "Action Menu Item"
+msgid "_New ID"
+msgstr "_Uusi ID"
+
+#: data/gtk/main.ui:207
+msgctxt "Action Menu Item"
+msgid "_Check connection"
+msgstr "_Tarkista yhteys"
+
+#: data/gtk/main.ui:211
+msgctxt "Action Menu Item"
+msgid "_Toggle proxy on system"
+msgstr "_Vaihda järjestelmän välityspalvelimen välillä"
+
+#: data/gtk/main.ui:217
+msgctxt "App Menu Item"
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: data/gtk/main.ui:221
+msgctxt "App Menu Item"
+msgid "_Keyboard Shortcuts"
+msgstr "_Pikanäppäimet"
+
+#: data/gtk/main.ui:225
+msgctxt "App Menu Item"
+msgid "_About Carburetor"
+msgstr "_Tietoja - Carburetor"
+
+#: data/gtk/main.ui:229
+msgctxt "App Menu Item"
+msgid "_Quit"
+msgstr "_Lopeta"
+
+#: data/gtk/preferences.ui:31
+msgid "Exit Node"
+msgstr "Poistumissolmu"
+
+#: data/gtk/preferences.ui:35
+msgid "The country you want to connect from"
+msgstr "Maa, josta haluat yhdistää"
+
+#: data/gtk/preferences.ui:36
+msgid "Exit Country"
+msgstr "Poistumismaa"
+
+#: data/gtk/preferences.ui:45
+msgid "Accept Connections"
+msgstr "Yhteyksien hyväksyminen"
+
+#: data/gtk/preferences.ui:48
+msgid "Allow external devices to use this network"
+msgstr "Salli ulkoisten laitteiden yhdistää tähän verkkoon"
+
+#: data/gtk/preferences.ui:59
+msgid "Ports"
+msgstr "Portit"
+
+#: data/gtk/preferences.ui:62
+msgid "Socks Port"
+msgstr "Socks-portti"
+
+#: data/gtk/preferences.ui:66
+msgid "Local port on which Tractor would be listen"
+msgstr "Paikallinen portti, jossa Tractor kuuntelee"
+
+#: data/gtk/preferences.ui:74
+msgid "DNS Port"
+msgstr "DNS-portti"
+
+#: data/gtk/preferences.ui:78
+msgid "Local port on which you would have an anonymous name server"
+msgstr "Paikallinen portti, jossa haluat anonyymin nimipalvelimen olevan"
+
+#: data/gtk/preferences.ui:86
+msgid "HTTP Port"
+msgstr "HTTP-portti"
+
+#: data/gtk/preferences.ui:90
+msgid "Local port on which a HTTP tunnel would be listen"
+msgstr "Paikallinen portti, jossa HTTP-tunneli kuuntelee"
+
+#: data/gtk/preferences.ui:101 data/gtk/preferences.ui:154
+msgid "Bridges"
+msgstr "Sillat"
+
+#. Type of the bridge to use
+#: data/gtk/preferences.ui:104
+msgid "Type"
+msgstr "Tyyppi"
+
+#: data/gtk/preferences.ui:108
+msgid "Type of bridge"
+msgstr "Sillan tyyppi"
+
+#: data/gtk/preferences.ui:115
+msgid "Client Transport Plugin"
+msgstr "Asiakasohjelmiston siirtoliitännäinen"
+
+#: data/gtk/preferences.ui:132
+msgid "Please copy and paste the bridges you have in the area below."
+msgstr ""
+
+#: data/gtk/preferences.ui:141
+msgid ""
+"To Get bridges, you have these options:\n"
+"\n"
+"• Visit the Tor website: <a href=\"https://bridges.torproject.org/options/"
+"\">https://bridges.torproject.org/options</a>\n"
+"• Use the Tor bridges Telegram bot: <a href=\"https://t.me/"
+"GetBridgesBot\">Tor bridges Telegram bot</a>\n"
+"• Send an email from a Riseup or Gmail address to: <a href=\"mailto:"
+"bridges@torproject.org?body=get bridges\">bridges@torproject.org</a>"
+msgstr ""
+
+#: data/gtk/preferences.ui:177
+msgid "_Save"
+msgstr "_Tallenna"
+
+#: data/gtk/preferences.ui:178
+msgid "Save Bridges as a file in your local configs"
+msgstr "Tallenna sillat tiedostoksi paikallisiin asetuksiin"
+
+#~ msgid "GTK frontend for Tractor"
+#~ msgstr "GTK-käyttöliittymä Tractorille"
+
+#~ msgid "Copyright © 2019-2023, Tractor Team"
+#~ msgstr "Tekijänoikeus © 2019-2023, Tractor-tiimi"
+
+#~ msgid "For Tractor"
+#~ msgstr "Tractoria varten"
