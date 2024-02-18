@@ -1,0 +1,3 @@
+[console_scripts]
+poetry=awdible.console.application:main
+
