@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: xax
+Version: 0.0.3
+Summary: The xax project
+Home-page: https://github.com/dpshai/xax
+Author: Benjamin Bolte
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dpshdl
+Requires-Dist: equinox
+Requires-Dist: gitpython
+Requires-Dist: jax
+Requires-Dist: jaxtyping
+Requires-Dist: omegaconf
+Requires-Dist: optax
+Requires-Dist: pillow
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: tensorboard
+Requires-Dist: types-pillow
+Requires-Dist: types-psutil
+Requires-Dist: types-requests
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+# xax
+
+JAX library for fast experimentation.
+
+## Installation
+
+```bash
+pip install xax
+```
