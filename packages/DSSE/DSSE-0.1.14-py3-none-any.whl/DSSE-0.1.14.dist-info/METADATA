@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: DSSE
+Version: 0.1.14
+Summary: An environment to train drones to search and find a shipwrecked person lost in the ocean using reinforcement learning.
+Home-page: https://github.com/pfeinsper/drone-swarm-search
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: gymnasium
+Requires-Dist: pygame
+Requires-Dist: pettingzoo
+Requires-Dist: matplotlib
+
