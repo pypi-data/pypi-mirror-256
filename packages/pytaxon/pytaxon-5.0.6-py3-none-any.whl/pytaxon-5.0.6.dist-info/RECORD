@@ -1,0 +1,10 @@
+pytaxon/__init__.py,sha256=vbYTTdq6ySPtLt0rzZdLrdu0kXTkvCc540wcG501le4,24
+pytaxon/main.py,sha256=Riv0auJVzHr5c6xMBOUi0UK943P7l5yOyKzX_66R0kE,2305
+pytaxon/pytaxon.py,sha256=aVMJadiiuMjinkm6sukfNkTc8ee3bsKYU1hMKvM9lnQ,13084
+pytaxon/pytaxon_gui.py,sha256=KVuYyzdWBmw_vDd6LCaMHuBH6jxItVouPUQg6m8-FVw,27930
+pytaxon/assets/pytaxon_logo.png,sha256=YyZeTeSyh13MORwcwU9YnCr1TwqlKHey9g_yHQB-b6Q,146438
+pytaxon-5.0.6.dist-info/METADATA,sha256=L2O-A0NhywGbLXUxwjORJ5Hu8ev3fHqUk4bokTV2bDk,932
+pytaxon-5.0.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytaxon-5.0.6.dist-info/entry_points.txt,sha256=0mw5NOJ1OyiDLmImtW3_cNKxE_uEhYUzBrF_BlJB1IY,91
+pytaxon-5.0.6.dist-info/top_level.txt,sha256=-cJ69sykW2pzBR2p2zGwmfiCOCe3DtDUX9xgcjotM0s,8
+pytaxon-5.0.6.dist-info/RECORD,,
