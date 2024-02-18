@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyfastexcel
+Version: 0.0.1
+Summary: High performace excel file generation library.
+Home-page: https://github.com/Zncl2222/pyfastexcel
+Author: Zncl2222
+Author-email: 3002shinning@gmail.com
+License: BSD-3-Clause
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Go
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: msgspec
+Requires-Dist: openpyxl-style-writer
+
+# pyfastexcel
+This package enables high-performance Excel writing by integrating with the streaming API from the golang package [excelize](https://github.com/qax-os/excelize). Users can leverage this functionality without the need to write any Go code, as the entire process can be accomplished through Python.
+
+## Installation
+```bash
+pip install pyfastexcel
+```
+
+## Introduction
+
+Comming soon...
+
+
+## Usage
+
+Comming soon...
