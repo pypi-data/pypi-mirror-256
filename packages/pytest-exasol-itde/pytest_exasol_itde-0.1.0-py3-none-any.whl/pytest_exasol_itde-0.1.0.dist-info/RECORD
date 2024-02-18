@@ -1,0 +1,7 @@
+exasol/pytest_itde/__init__.py,sha256=O7KoD0k5mTpjFSG4wp6KVxX2rKnDzyTcSdQTtpN76z0,6989
+exasol/pytest_itde/config.py,sha256=8_Oll2gl3wMqLR6k7_M-BZ9slpcVT8QzQhknJ554do0,3423
+exasol/pytest_itde/version.py,sha256=4nqSPlb5zgkyYIODu1QrqRckkyoRUBp7vS7rvymvQ0k,404
+pytest_exasol_itde-0.1.0.dist-info/METADATA,sha256=A5_q_N3jWw_YmN5qAjUX5R_G99IXK9XYUV6U7pXot_c,1525
+pytest_exasol_itde-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pytest_exasol_itde-0.1.0.dist-info/entry_points.txt,sha256=vckSl6vnbUJVuDSwrmR2ycGaesZvQy-TZmRA0YDiU1E,36
+pytest_exasol_itde-0.1.0.dist-info/RECORD,,
