@@ -1,0 +1,10 @@
+setup.py
+prob_normal_binomial_dist_bee001/Binomialdistribution.py
+prob_normal_binomial_dist_bee001/Gaussiandistribution.py
+prob_normal_binomial_dist_bee001/Generaldistribution.py
+prob_normal_binomial_dist_bee001/__init__.py
+prob_normal_binomial_dist_bee001.egg-info/PKG-INFO
+prob_normal_binomial_dist_bee001.egg-info/SOURCES.txt
+prob_normal_binomial_dist_bee001.egg-info/dependency_links.txt
+prob_normal_binomial_dist_bee001.egg-info/not-zip-safe
+prob_normal_binomial_dist_bee001.egg-info/top_level.txt
