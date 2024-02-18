@@ -1,0 +1,15 @@
+bpm/__init__.py,sha256=-9yZOfPIq8Hu2JYl8-XLMz8XkUprs3646lDuptzVa80,93
+bpm/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+bpm/cli.py,sha256=_6eTh_q-_2wRhqlBuO73J3hJFsZ2lrZl9BcpkCtMg8I,2271
+bpm/command.py,sha256=NR0mesnovMuF0OuWbET11JjKc9fuEaLOTP0OqWgrnLM,4027
+bpm/install/__init__.py,sha256=vdeVFe4zbbzNQuTdPjgm3GkArWbDhc-4Pdvq_IbRm8c,12999
+bpm/install/windows.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bpm/search.py,sha256=fybeNYZROB1KL0IYrfF6R-2QSX3qdU_j7-ZkjJsJjJA,5937
+bpm/storage.py,sha256=dBCotKtWwB-eTLNafWMGOxtHAtbFBYc-mVBrM4WeOgc,3246
+bpm/utils/__init__.py,sha256=au9olNTsm6OaaInzmikbYNaKZeftejFH-K8iYSV8Z2I,993
+bpm/utils/constants.py,sha256=WI1G_4m0p48_dvKZszg1cLddVgpgiCPN6asbXLKwmQs,410
+bpm/utils/exceptions.py,sha256=71DSroMuV-hV_oRUr_RcVXU610kKmBeXDf-rPGU6ohA,285
+bin_package_manager-1.0.0.dist-info/LICENSE,sha256=mlj-QihSBOeeXe4G3U_zRgik4-vAhPoxEq-ovi1vPV8,1066
+bin_package_manager-1.0.0.dist-info/METADATA,sha256=NSr6BQGaiGJwXba_ce-ZYOLLLPKWvhskr_8yizstvks,4294
+bin_package_manager-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+bin_package_manager-1.0.0.dist-info/RECORD,,
