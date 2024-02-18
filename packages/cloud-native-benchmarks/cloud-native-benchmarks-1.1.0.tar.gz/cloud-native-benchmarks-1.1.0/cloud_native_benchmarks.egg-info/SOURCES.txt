@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cloud_native_benchmarks.egg-info/PKG-INFO
+cloud_native_benchmarks.egg-info/SOURCES.txt
+cloud_native_benchmarks.egg-info/dependency_links.txt
+cloud_native_benchmarks.egg-info/not-zip-safe
+cloud_native_benchmarks.egg-info/top_level.txt
