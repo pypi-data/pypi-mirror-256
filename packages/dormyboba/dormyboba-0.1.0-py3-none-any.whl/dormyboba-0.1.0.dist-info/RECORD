@@ -1,0 +1,14 @@
+dormyboba/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dormyboba/config.py,sha256=OzCP5hxXg1RIR3yYgGq9WANmQR97meRfqMt943o3984,572
+dormyboba/handlers/__init__.py,sha256=ys78EZ82xgByvLic5b_yHbzhkMKvHEpQOWsS5Ll2bjI,206
+dormyboba/handlers/common.py,sha256=K6MqF2q6xi_1g0T23sOl_TACR7aXuw6Zbl2NhuBSha0,3450
+dormyboba/handlers/defect.py,sha256=ARzyunBBOOPQig3seM7JCddN6zmkDcz5fpiabpgq2yA,6824
+dormyboba/handlers/invite.py,sha256=V4gbMCNC7AVzw9XWHZK5Xe4nQfol3DPT2trywoTMEn8,6893
+dormyboba/handlers/mailing.py,sha256=fQ-dTfHGki_rEQge8PC04IgkXzb-waV2Hsd0NRHo6eI,11817
+dormyboba/handlers/queue.py,sha256=hV5Xu4I_UKi9Ctir_NWXGYgnic2ltvvVvGUnKZOJIz4,10015
+dormyboba/handlers/random.py,sha256=Gwa3jlROXaukbu9sjqqiq-fQJbnkhEhCDYZ-KI78ptg,120
+dormyboba-0.1.0.dist-info/LICENSE,sha256=RCcPFfcjwJf0n1atJKTC9Z-PPJw8EJY3nH5GqqgtVTQ,1074
+dormyboba-0.1.0.dist-info/METADATA,sha256=soKIcTpOjpN01tZs2qP0Gm449RyPAbwIq6bobjRA_hU,723
+dormyboba-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dormyboba-0.1.0.dist-info/entry_points.txt,sha256=Xm7XQPTCwnkJEo_ajcafq9ljSKOZ1H5dXEFBv1iOfa0,47
+dormyboba-0.1.0.dist-info/RECORD,,
