@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: vectabass
+Version: 0.1.20
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: uvicorn
