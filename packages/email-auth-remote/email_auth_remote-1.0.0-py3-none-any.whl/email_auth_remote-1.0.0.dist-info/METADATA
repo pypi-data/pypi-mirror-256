@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: email-auth-remote
+Version: 1.0.0
+Summary: Django app for an endpoint authentication.
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: Django >=4.2
+Requires-Dist: requests >=2.31
+Requires-Dist: djangorestframework >=3.14
+
+Description
