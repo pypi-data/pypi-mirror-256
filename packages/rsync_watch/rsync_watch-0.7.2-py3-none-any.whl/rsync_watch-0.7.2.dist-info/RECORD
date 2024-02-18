@@ -1,0 +1,8 @@
+rsync_watch/__init__.py,sha256=g1S_sX2dsMzVdUPr02zSqxdZIyquqJvDzHPkQcA3HeU,8059
+rsync_watch/check.py,sha256=dHiWyzdtKH6AB9WHs_TJuiqR4aTM8hfFc1CuZH88SQk,2868
+rsync_watch/cli.py,sha256=1vdykHWGVboIAZbr5kdqsXaJS_LYzbg41LjolPqWXXk,2746
+rsync_watch-0.7.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rsync_watch-0.7.2.dist-info/METADATA,sha256=LGgYXaFf1HwS2KIp8JcWQ8cDraXsLfdjW56bSArfmkw,6035
+rsync_watch-0.7.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+rsync_watch-0.7.2.dist-info/entry_points.txt,sha256=VTXAVL0_J0nvwhPFOvpg6AztRnET1ny384FWWzCRYzY,51
+rsync_watch-0.7.2.dist-info/RECORD,,
