@@ -1,0 +1,15 @@
+odoo/addons/currency_rate_update_RO_BNR/README.rst,sha256=tk6saR1XxakH3XbDftelsOndaQyvbdsBpvJjnEMB1Ic,4036
+odoo/addons/currency_rate_update_RO_BNR/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/currency_rate_update_RO_BNR/__manifest__.py,sha256=jatpQ4veBI1TFDvdg8vuM1F8rGN11XQFESBtnZPw-rU,594
+odoo/addons/currency_rate_update_RO_BNR/i18n/currency_rate_update_RO_BNR.pot,sha256=2o_x-dhMZ_XXx9-i9Sr2uQAKrXtMOAHmgkSnVlj2zSE,1530
+odoo/addons/currency_rate_update_RO_BNR/models/__init__.py,sha256=g_85C273A7cV4ZcHdJciLpOkNSvlY2PlWEzPEERnZfE,48
+odoo/addons/currency_rate_update_RO_BNR/models/res_currency_rate_provider_RO_BNR.py,sha256=yzWKK-mIWf_yGFD-guTs4Wd7OlxFuheNU4dAdjODPmE,4526
+odoo/addons/currency_rate_update_RO_BNR/static/description/icon.png,sha256=SWfZQg1fybHtt8OI6oJoE-CGGMC34529PW8N7Al-TSU,61703
+odoo/addons/currency_rate_update_RO_BNR/static/description/index.html,sha256=Ge_vS6qilyD3SzYllD-yBIIqjHw47DzJzzs1U-mJvAc,14085
+odoo/addons/currency_rate_update_RO_BNR/tests/__init__.py,sha256=atcYkiJidhn9ydHp6Uyx6JW_Vt_tFzrvInuFFBhjE5g,47
+odoo/addons/currency_rate_update_RO_BNR/tests/test_currency_rate_update_ro_bnr.py,sha256=w4VAqGPQvXxr2nRNLnP7Ny6_A8dBnbp6DtVfDLSxYNg,1539
+odoo/addons/currency_rate_update_RO_BNR/views/res_currency_rate.xml,sha256=S827nXhf4LUui8M-Qx1Pvp6tVAeyqr7UXeMrllARCxY,484
+odoo_addon_currency_rate_update_RO_BNR-15.0.1.2.0.dist-info/METADATA,sha256=n5CkuvT3tc3a0O4n7WN2gnoLHbXHJU1UBpdh6rGRjKw,4765
+odoo_addon_currency_rate_update_RO_BNR-15.0.1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo_addon_currency_rate_update_RO_BNR-15.0.1.2.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_currency_rate_update_RO_BNR-15.0.1.2.0.dist-info/RECORD,,
