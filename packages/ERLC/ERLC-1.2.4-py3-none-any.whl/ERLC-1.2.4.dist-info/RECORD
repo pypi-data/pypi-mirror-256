@@ -1,0 +1,15 @@
+ERLC/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ERLC/client.py,sha256=91EmzXtjvr2awjTDhc3xavgL3fJQKDpwp2Tg8D5bdBA,1660
+ERLC/erlc.py,sha256=JtGIikaC3pJukQnKKGfDVIF0AJZrmM04lsLg0H9xI7M,53
+ERLC/requests.py,sha256=tr4k4pRbXkeIGONwvXfMg52vebguyLzHqXXFxheQrP4,819
+ERLC/server.py,sha256=E5_F1e7rIVIxj0AJBOKCnDF55NHxLHQ0BWjEO6IUxag,2987
+Examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Examples/bans.py,sha256=wt_tJVbDXoNYPXi87N_17ZakWW23o01kTtpIOotCXa0,452
+Examples/client.py,sha256=_Ss3UbKBLl4_Bqxzu1MCW1Ewxnd9tzI8ogxNT3PNRdA,425
+Examples/kills.py,sha256=MkENgywxU_BsHzl1VN7e5t6IiXL599KTOubh7SpUn9g,456
+Examples/players.py,sha256=LEzl6dHWUdEtznMWpREFHZ4VLyK8RAwxSTMp5W6NeLU,455
+Examples/status.py,sha256=5mk_F8Hb9jmV48rjBVA5-brcrW5_A85yw8GCrvcZ-gw,454
+ERLC-1.2.4.dist-info/METADATA,sha256=7nJ_T7bZm-_O73jJrgSywSufCijUdxu5GQidsPip1UY,1048
+ERLC-1.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ERLC-1.2.4.dist-info/top_level.txt,sha256=cNTrXV1KjuHDpkgCAPd_tpQfIOJn9PiyfPZmdhran08,14
+ERLC-1.2.4.dist-info/RECORD,,
