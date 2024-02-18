@@ -1,0 +1,9 @@
+matplotlib>=3.6
+basemap>=1.3.0
+numpy>=1.21.2
+netCDF4>=1.5.7
+basemap-data-hires>=1.2.1
+Bottleneck>=1.3.2
+scipy>=1.7.1
+notebook>=6.4.3
+statsmodels>=0.12.2
