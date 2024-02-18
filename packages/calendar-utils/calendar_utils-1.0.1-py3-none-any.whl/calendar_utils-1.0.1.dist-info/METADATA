@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: calendar-utils
+Version: 1.0.1
+Summary: 
+Home-page: https://github.com/szilard-nemeth/calendar-utils
+Keywords: calendar utils
+Author: Szilard Nemeth
+Author-email: szilard.nemeth88@gmail.com
+Requires-Python: >=3.8.12,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: google-api-wrapper2 (==1.0.9)
+Requires-Dist: icalendar (==5.0.11)
+Requires-Dist: python-common-lib (==1.0.9)
+Requires-Dist: requests
+Project-URL: Repository, https://github.com/szilard-nemeth/calendar-utils
+Description-Content-Type: text/markdown
+
+# Calendar utilities
+
+
+### Getting started / Setup
+
+You need to have at least python 2.7 and pip installed.
+Run make from the project's root directory, all python dependencies required by the project will be installed.
+
+
+## Running the tests
+
+## Main dependencies
+
+* [icalendar](https://icalendar.readthedocs.io/en/latest/about.html)  icalendar is a Python library to parse ICS files.
+
+## Contributing
+
+## Authors
+
+* **Szilard Nemeth** - *Initial work* - [Szilard Nemeth](https://github.com/szilard-nemeth)
+
+## License
+
+## Acknowledgments
+
+## Example commands
+
+```calendarstats.py -f /Users/szilardnemeth/Downloads/snemeth@cloudera.com.ics --event-exceptions "Lunch" "REM: Rainbow Sheet!" "Busy [Usual shifted day]" "CDP-Data Center 7.1 Checkpoint Meeting" "Board game afternoon in Budapest" --filter-year 2019 2020```
+

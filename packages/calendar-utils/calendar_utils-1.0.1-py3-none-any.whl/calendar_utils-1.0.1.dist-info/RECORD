@@ -1,0 +1,9 @@
+LICENSE,sha256=8LMAzGgyzwkoQHRNFATEbr5fIFcZdSPGC95nD5oXFXI,1286
+calendarutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calendarutils/calendarstats.py,sha256=QU7yEg7Nzmy92VRGVMmdVjAwCMtv3KjJ38D8_McjSMw,12362
+calendarutils/config.py,sha256=Ycv1l3wIdC8kFCozZ--CQlWsW1TFdLhes7ggzVRPhJo,2161
+calendarutils/create_oncall_cal_events.py,sha256=t_arznulGvGGn9ZSQUV8M6oT5QKR1BtUyjwVyJdEi0k,1344
+calendar_utils-1.0.1.dist-info/LICENSE,sha256=8LMAzGgyzwkoQHRNFATEbr5fIFcZdSPGC95nD5oXFXI,1286
+calendar_utils-1.0.1.dist-info/METADATA,sha256=cDNe81S58fgOXjs_SqGlg-DJXVV5MY6rZwXWZ2ZTOTU,1584
+calendar_utils-1.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+calendar_utils-1.0.1.dist-info/RECORD,,
