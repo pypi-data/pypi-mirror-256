@@ -1,0 +1,9 @@
+datasette_scribe/__init__.py,sha256=-WqJq3azn5AO1cqsqUGSacBADwd3Ip6SRCuPLXaqO9k,7031
+datasette_scribe/schema.sql,sha256=liTIYysamJ2tNHfoCenc_7JskrcGLzg7Kl6gU26qBec,962
+datasette_scribe/templates/landing.html,sha256=oh7_wG0IfYF12qSxYuP3vEpxUNy33n8K3_4riLpOcaU,9796
+datasette_scribe-0.1a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_scribe-0.1a3.dist-info/METADATA,sha256=OoEECNq7rZ37DeKSQDGN8t8KgOgH0JfK7F3xxV7FYrQ,919
+datasette_scribe-0.1a3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+datasette_scribe-0.1a3.dist-info/entry_points.txt,sha256=VpB0ukmXe5Z0h0rptHW_M52ZFcIeLCPIe9Ptxht66VE,38
+datasette_scribe-0.1a3.dist-info/top_level.txt,sha256=lpWl6W1JtYRDtC9t9uAhN3EZBIfw60BnnRCuANYxT4E,17
+datasette_scribe-0.1a3.dist-info/RECORD,,
