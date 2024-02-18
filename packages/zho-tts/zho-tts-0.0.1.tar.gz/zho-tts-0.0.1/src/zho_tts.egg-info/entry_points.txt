@@ -1,0 +1,2 @@
+[console_scripts]
+zho-tts = zho_tts_cli.cli:run
