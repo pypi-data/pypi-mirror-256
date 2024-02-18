@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tpe-prio
+Version: 0.1.0
+Summary: ThreadPoolExecutor with the ability to bump waited futures to the front
+Home-page: https://github.com/python-packaging/tpe-prio/
+Author: Tim Hatch
+Author-email: tim@timhatch.com
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# tpe_prio
+
+Use like a regular `concurrent.futures.ThreadPoolExecutor` except there is now a
+`bump(fut)` method.  During execution, the deque gets rotated and put back, so
+it is possible that workers will pick up a non-optimal next choice for a small
+window of time.
+
+
+# License
+
+tpe_prio is copyright [Tim Hatch](https://timhatch.com/), and licensed under
+the MIT license.  I am providing code in this repository to you under an open
+source license.  This is my personal repository; the license you receive to
+my code is from me and not from my employer. See the `LICENSE` file for details.
