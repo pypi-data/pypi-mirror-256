@@ -1,0 +1,4 @@
+pycryptodomex
+impacket
+dnspython
+ldap3
