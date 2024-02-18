@@ -1,0 +1,12 @@
+updog/Service.py,sha256=bb7bbY1kUhVWh5SMbpVQJ9sMoFyfU6k2AnJp_ySB9Ig,746
+updog/__init__.py,sha256=6Ct2cT_C4GQYsNkRtrbDJ8WZ9pFCqEX70_1EFFiSFnY,163
+updog/example.py,sha256=DNup1_ArSM5KCcloQ2bjYqC1UyG-O-Rm2uii7yiKMH0,526
+updog/logger.py,sha256=B0hlAjGLtpDLXZ0Be5zxsBGFpraG1S_2sq9m4kTiPvc,812
+updog/server.py,sha256=Yl8Vtm0I7WxwbuDhSz65KGZmAP7p1O-JqrMYNvUbcNM,996
+updog/service.test.py,sha256=qRdP4Kg2y7DOt81LTqXT75IjrWbhX4SOHpy7Cy7Q5lU,606
+updog/updog.py,sha256=rEoZFd2-oLxUATQDE1XNl2wQdwsZUe5s1NkJyB05g78,4179
+updog/updog.test.py,sha256=CStpjNCtjcrc5muBbm110Zj3WCwpKSyI_eSrdj84z84,1798
+updog_py-0.0.2.dist-info/METADATA,sha256=XAIefpaF38GkgUG6FjKg6rrXEin5hjEpqTXueR6nvas,122
+updog_py-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+updog_py-0.0.2.dist-info/top_level.txt,sha256=lau2JwGcGXGUjl_lPvLMs7D_nODQzmbzgqC4dStZUBA,6
+updog_py-0.0.2.dist-info/RECORD,,
