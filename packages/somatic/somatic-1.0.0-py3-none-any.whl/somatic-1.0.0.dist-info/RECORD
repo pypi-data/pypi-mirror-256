@@ -1,0 +1,16 @@
+somatic/__init__.py,sha256=GmNuFzq4QILKyKj9WC-bbSMty8QVjs6mOySzvUgQOh4,2790
+somatic/_clique.py,sha256=cZXDGApSP0GKih5urI19o0DqwXT8yEfao1pISLWB7C0,2468
+somatic/start.proc.py,sha256=XGXzpWdOti5z9WJNgMvSLGif763CKe64q2G-tYvwEOg,452
+somatic/_license/licenses/gpl-3.0-standalone.html,sha256=8glIYFtdjjSZd1eargE1flD5_k0Vj8BE0zw1tfq0FoQ,37279
+somatic/_status/status.proc.py,sha256=vz-mUhgX7ST_HXAQfpBjbdPRohwapdI31UOzQUzLrKo,1209
+somatic/_status/checks/1/status_1.py,sha256=u_XHTVeFpUhobm0uvH3iLL1AyK09Em4iu20kOFvLZzU,535
+somatic/basin/__init__.py,sha256=k_dsFm5aJzdUfB6AV0yuuSOjHBRXeawrvfLuqK8q1Qo,2225
+somatic/basin/treasury.py,sha256=0JLNgZqAWDo02P2t-e3rG-HJMq5Ys5TTjnnJuxcwqWA,3550
+somatic/climate/__init__.py,sha256=IIYPPp4jlivW4B7smgd6QfFAap1HMvx8IVdTgYbALSg,220
+somatic/modules/add_glob_to_paths.py,sha256=jYEtb0s1Q_Mvr-_JWKHpOlKjNeye3Z-y8MjhWysSjpU,532
+somatic/modules/parse_extensions.py,sha256=2xxMvYMG-QNzzOqHLLh76yI4upkm3RnQwPT5ddLuH0s,806
+somatic-1.0.0.dist-info/METADATA,sha256=gOhnP71ES7RERS6rO8Qjq0h--5rEC9uln7IFuWj3BOg,3740
+somatic-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+somatic-1.0.0.dist-info/entry_points.txt,sha256=IBCCQ4fH3FuloId6jBb3VrPOf1MREYrcelruAw1lvXI,43
+somatic-1.0.0.dist-info/top_level.txt,sha256=gCaVogvoaAgi03Jinxbz1jxm46eWWk8AJwVWiwCZxWs,8
+somatic-1.0.0.dist-info/RECORD,,
