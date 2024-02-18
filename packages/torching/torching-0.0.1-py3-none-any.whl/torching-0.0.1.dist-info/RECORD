@@ -1,0 +1,12 @@
+torching/__init__.py,sha256=1P1RwSfMdyJlVzFYKhour3KLAcfaseLXU2jgjFt5E_s,28594
+torching/flash_attention/03-matrix-multiplication-all-types.py,sha256=QLFlGwsi934HDBX_SWimXwv1oR7EyS2oJIueyLk975E,13580
+torching/flash_attention/06-fused-attention-fwd-transV.py,sha256=6jphrzNKwnG7eg3tmKnj8FiBMbHnUX8cZiw_CLB5dIA,10053
+torching/flash_attention/06-fused-attention-transV.py,sha256=jdu_45iwOvsugmQYawbSfdYMTT2XDcYR5tqdbNftIPg,30516
+torching/flash_attention/__init__.py,sha256=4dNh6uWvzhWIt191TEdiz__70vuBvqA5_eoAtbQ9-5o,47
+torching/flash_attention/flash-attention.py,sha256=u8XeXpK4VgdLi9z_wqueoMue4wtnzC9girWcfw2p4vk,52504
+torching/flash_attention/hbm-bw-test.py,sha256=jgDxg2QnYaWv2aIok7kfy5jKE1pMgv_5anXABMlPK_o,3710
+torching-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+torching-0.0.1.dist-info/METADATA,sha256=TMSkCkjhHLhrM2tnEK7bhii2AmNmK_L-ODIIg2HhB-0,582
+torching-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+torching-0.0.1.dist-info/top_level.txt,sha256=PA77H2KGOvfGAah3m9bNzUzuHNsTDaOlcxeNTZowH8s,9
+torching-0.0.1.dist-info/RECORD,,
