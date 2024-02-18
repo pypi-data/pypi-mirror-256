@@ -1,0 +1,8 @@
+setup.py
+pypgwrapper/__init__.py
+pypgwrapper/postgres.py
+pypgwrapper.egg-info/PKG-INFO
+pypgwrapper.egg-info/SOURCES.txt
+pypgwrapper.egg-info/dependency_links.txt
+pypgwrapper.egg-info/requires.txt
+pypgwrapper.egg-info/top_level.txt
