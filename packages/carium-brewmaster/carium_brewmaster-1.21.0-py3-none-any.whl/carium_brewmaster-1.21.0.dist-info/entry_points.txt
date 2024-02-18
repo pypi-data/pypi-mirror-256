@@ -1,0 +1,3 @@
+[console_scripts]
+brewmaster-cli=brewmaster.cli.main:BrewCli.main
+
