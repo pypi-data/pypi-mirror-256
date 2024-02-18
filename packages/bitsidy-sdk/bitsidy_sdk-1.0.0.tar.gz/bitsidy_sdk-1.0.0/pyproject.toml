@@ -1,0 +1,27 @@
+[project]
+name = "bitsidy-sdk"
+version = "1.0.0"
+authors = [
+    { name = "Bitsidy", email = "support@bitsidy.com" },
+]
+description = "A Python SDK for Bitsidy API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "GPL-3.0-or-later"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "cryptography~=42.0.2",
+    "requests~=2.31.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/bitsidy-com/bitsidy-python-sdk"
+Issues = "https://github.com/bitsidy-com/bitsidy-python-sdk/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
