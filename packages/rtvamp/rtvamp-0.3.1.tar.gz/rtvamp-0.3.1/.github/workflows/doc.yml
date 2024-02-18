@@ -1,0 +1,73 @@
+name: Doc
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  doc:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install requirements
+        run: |
+          sudo apt update
+          sudo apt install -y doxygen graphviz
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Build doc with CMake
+        run: |
+          mkdir build
+          cd build
+          cmake -DRTVAMP_BUILD_DOCUMENTATION=ON ..
+          cmake --build . --target rtvamp-doc
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doc
+          path: build/doc/html/
+
+  doc-python:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install requirements (libsndfile required by librosa)
+        run: |
+          sudo apt update
+          sudo apt install -y libsndfile1
+      - name: Build and install
+        env:
+          CC: gcc-10
+          CXX: g++-10
+        run: pip install .[docs]
+      - name: Build HTML
+        run: |
+          cd python/docs/
+          make html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doc-python
+          path: python/docs/_build/html/
+
+  deploy:
+    runs-on: ubuntu-20.04
+    needs: [doc, doc-python]
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: doc
+          path: html
+      - uses: actions/download-artifact@v4
+        with:
+          name: doc-python
+          path: html/python
+      - name: List files
+        run: ls -R
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: html
