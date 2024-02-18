@@ -1,0 +1,28 @@
+{
+  "_lib-42485184.js": {
+    "file": "lib-42485184.js"
+  },
+  "_lib-97a95605.cjs": {
+    "file": "lib-97a95605.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-97a95605.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-97a95605.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
