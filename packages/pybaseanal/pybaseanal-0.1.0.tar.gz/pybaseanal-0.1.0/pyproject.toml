@@ -1,0 +1,26 @@
+[project]
+name='pybaseanal'
+version='0.1.0'
+authors = [
+  { name="Ateendra Jha", email="ajha@phaf.in" },
+]
+keywords = ['python', 'pandas', 'numpy', 'basic libraries', 'Null analysis']
+description = 'A package to import basic libraries and perform basic data analysis.'
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+        'pandas',
+        'numpy',
+        'seaborn',
+        'matplotlib',
+        'docx',
+        'tqdm'
+    ]
+[project.urls]
+Homepage = "https://www.drateendrajha.com/projects/pybaseanal"
+Issues = "https://www.drateendrajha.com/projects/pybaseanal"
