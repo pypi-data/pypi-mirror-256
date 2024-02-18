@@ -1,0 +1,83 @@
+[package]
+name = "gcdevproxy"
+version = "0.3.0"
+authors = ["GoodCam <dev@goodcam.io>"]
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/gcdevproxy/"
+repository = "https://github.com/GoodCam/device-proxy-lib"
+description = """
+GoodCam Device Proxy library
+"""
+keywords = ["network", "protocol", "library", "goodcam"]
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[features]
+default = []
+c-api = ["libc", "log/std"]
+
+[dependencies]
+async-trait = "0.1"
+base64 = "0.21"
+bytes = "1"
+futures = "0.3"
+h2 = "0.4"
+http = "1"
+http-body-util = "0.1"
+log = "0.4"
+openssl = "0.10"
+pin-project-lite = "0.2"
+reqwest = "0.11"
+tokio-openssl = "0.6"
+
+[dependencies.hyper]
+version = "1"
+features = ["http1", "http2", "server"]
+
+[dependencies.hyper-util]
+version = "0.1"
+features = ["server-auto", "tokio"]
+
+[dependencies.libc]
+version = "0.2"
+optional = true
+
+[dependencies.serde]
+version = "1"
+features = ["derive"]
+
+[dependencies.serde_json]
+version = "1"
+features = ["preserve_order"]
+
+[dependencies.tokio]
+version = "1"
+features = ["net", "rt", "rt-multi-thread", "time"]
+
+[dependencies.tokio-util]
+version = "0.7"
+features = ["io"]
+
+[dependencies.uuid]
+version = "1"
+features = ["v4"]
+
+[dev-dependencies]
+env_logger = "0.11"
+
+[dev-dependencies.tokio]
+version = "1"
+features = ["macros"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+incremental = false
+
+[profile.c-lib]
+inherits = "release"
+panic = "abort"
+strip = true
