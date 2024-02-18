@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/pinecone_db_construct/__init__.py
+src/pinecone_db_construct/py.typed
+src/pinecone_db_construct.egg-info/PKG-INFO
+src/pinecone_db_construct.egg-info/SOURCES.txt
+src/pinecone_db_construct.egg-info/dependency_links.txt
+src/pinecone_db_construct.egg-info/requires.txt
+src/pinecone_db_construct.egg-info/top_level.txt
+src/pinecone_db_construct/_jsii/__init__.py
+src/pinecone_db_construct/_jsii/pinecone-db-construct@0.0.10.jsii.tgz
