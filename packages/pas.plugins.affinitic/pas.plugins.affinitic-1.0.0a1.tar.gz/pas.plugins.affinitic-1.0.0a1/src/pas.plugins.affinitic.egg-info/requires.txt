@@ -1,0 +1,13 @@
+setuptools
+plone.api
+plone.app.dexterity
+plone.restapi
+z3c.jbot
+pas.plugins.authomatic
+
+[test]
+plone.app.contenttypes
+plone.app.iterate
+plone.app.robotframework[debug]
+plone.app.testing
+plone.testing
