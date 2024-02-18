@@ -1,0 +1,10 @@
+microbeseq_cc_training_example/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+microbeseq_cc_training_example/_modidx.py,sha256=WQcbZWzTXkffoKelgKQx_I95CBKkk0VjYife1U8jlvU,5228
+microbeseq_cc_training_example/blast_example.py,sha256=L25jaJV7CoTcoLgVuqVfePmMdWp3Diwrxd47FbS_buQ,7285
+microbeseq_cc_training_example/core.py,sha256=hlPuBrHaC2ukNqynecb9UBwRGcYFzL9xqYWMrEUpxvg,2305
+microbeseq_cc_training_example-0.0.1.dist-info/LICENSE,sha256=p6aTb6QIfqyZ2Uux2VjV4F2zthdUSHZOjB4mfwGc7fo,1094
+microbeseq_cc_training_example-0.0.1.dist-info/METADATA,sha256=chjYKTQzPTGmSMrEKZYduwTGBoy9I2MGrNFugTU2ufk,1265
+microbeseq_cc_training_example-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+microbeseq_cc_training_example-0.0.1.dist-info/entry_points.txt,sha256=sSKPhe7fAAeE03Z21ZpxGxMMvWhQe3bxw6fegQlPcfY,215
+microbeseq_cc_training_example-0.0.1.dist-info/top_level.txt,sha256=hHEf-5Py8co_LZrmq7r--cBzzgnFJvL6H3VMlkCR61I,31
+microbeseq_cc_training_example-0.0.1.dist-info/RECORD,,
