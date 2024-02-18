@@ -1,0 +1,14 @@
+PolibasePersonReviewNotificationService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PolibasePersonReviewNotificationService/__main__.py,sha256=2MTOYZJAe44iQB80q7Pw_YjSBsuGZhrvn36rBcWOD5g,174
+PolibasePersonReviewNotificationService/api.py,sha256=pJBHWStT2fUg9J9enOFhlaw0VFHqNo71Nnykj8i1C48,2525
+PolibasePersonReviewNotificationService/const.py,sha256=a7Ue3ss82-tL3NBTd6eDQL44pLBnRCLlQFDUWBR49w0,525
+PolibasePersonReviewNotificationService/service.py,sha256=i-fMyivZa5FzNzgJ-mJAUWl_J4qti-bAqBqrcNOxZLU,8276
+WSService/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WSService/__main__.py,sha256=BU1_KJdkhaW_-EPlp02TgQ33jV-Ok56zVrNi-A0w8hs,144
+WSService/const.py,sha256=GRD8XXgMmXPVgLwATj-7WaoFDL_qWKMS3GdrxuCAveI,521
+WSService/service.py,sha256=SY1QAb3AtwpkH7ea7jX8R94aHD61cthMnw9D8mfgm7E,3291
+pih_plb_rw_ntf-0.0.0.dist-info/METADATA,sha256=qxEDtO4bfdfBi8owkVzernZDj0y2IB25b9WbHW4-zQQ,324
+pih_plb_rw_ntf-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pih_plb_rw_ntf-0.0.0.dist-info/entry_points.txt,sha256=v9hQ8tCv_o1NpmY5Z6D3_ZCyHo9q3G2R7Te7Oqkt0t4,90
+pih_plb_rw_ntf-0.0.0.dist-info/top_level.txt,sha256=5JXD_Qnkor8he-9POL5OtxOO0STWa4fhgH_5HEjD0wk,40
+pih_plb_rw_ntf-0.0.0.dist-info/RECORD,,
