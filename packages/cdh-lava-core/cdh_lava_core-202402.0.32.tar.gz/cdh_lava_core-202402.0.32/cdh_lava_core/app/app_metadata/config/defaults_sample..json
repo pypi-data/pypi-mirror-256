@@ -1,0 +1,10 @@
+{
+  "github_user_name": "defaultUserName",
+  "github_user_email": "defaultUserEmail@example.com",
+  "python_version": "3.10",
+  "poetry_version": "1.5.0",
+  "poetry_url": "https://install.python-poetry.org/",
+  "cdh_config_python_path": "cdh_dav_lib/wonder/wonder_metadata/config",
+  "cdh_config_react_path": "skip",
+  "target_branch_name": "dev"
+}
