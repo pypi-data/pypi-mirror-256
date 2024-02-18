@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .recordButton, .playButton {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+
+        .recordButton:hover, .playButton:hover {
+            background-color: #0056b3;
+        }
+
+        .message-container {
+            text-align: left;
+        }
+
+        .playButton {
+            background-color: #32CD32; /* Adjusted shade of green */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+
+        .playButton:hover {
+            background-color: #2E8B57; /* Darker green on hover */
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="button-container">
+        <button id="startButton" class="recordButton">Start Recording</button>
+        <button id="playButton" class="playButton" style="display:none;">Play</button>
+    </div>
+    <div class="message-container" id="messageContainer"></div>
+</div>
+<script>
+    const startButton = document.getElementById('startButton');
+    const playButton = document.getElementById('playButton');
+    const messageContainer = document.getElementById('messageContainer');
+    const recognition = new webkitSpeechRecognition() || new SpeechRecognition();
+    let isRecording = false;
+    let recordedSpeech = '';
+
+    recognition.interimResults = true;
+    recognition.continuous = true;
+
+    startButton.addEventListener('click', () => {
+        toggleRecording();
+    });
+
+    playButton.addEventListener('click', () => {
+        if (recordedSpeech) {
+            textToSpeech(recordedSpeech);
+        } else {
+            console.log('No recording available.');
+        }
+    });
+
+    function toggleRecording() {
+        if (isRecording) {
+            stopRecognition();
+        } else {
+            startRecognition();
+        }
+    }
+
+    function startRecognition() {
+        recognition.start();
+        isRecording = true;
+        startButton.textContent = 'Stop Recording';
+    }
+
+    function stopRecognition() {
+        recognition.stop();
+        isRecording = false;
+        startButton.textContent = 'Start Recording';
+    }
+
+    function textToSpeech(text) {
+        const utterance = new SpeechSynthesisUtterance(text);
+        const voices = speechSynthesis.getVoices();
+        utterance.voice = voices[0];
+        speechSynthesis.speak(utterance);
+    }
+
+    recognition.onresult = event => {
+        const result = event.results[event.results.length - 1][0].transcript;
+        messageContainer.textContent = result;
+        recordedSpeech = result;
+        if (result.trim().length > 0) {
+            playButton.style.display = 'inline-block'; // Display play button if recognized text is available
+        }
+    };
+
+    recognition.onend = () => {
+        if (isRecording) {
+            startRecognition(); // Restart recognition if it was not manually stopped
+        }
+    };
+
+    recognition.onerror = event => {
+        console.error('Speech recognition error:', event.error);
+    };
+
+    recognition.onnomatch = () => {
+        console.log('No speech was recognized.');
+    };
+
+</script>
+</body>
+</html>
