@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dynamic_loader
+Version: 1.0.6
+Summary: Python utility designed to enable dynamic loading and processing of files.
+Home-page: https://github.com/yousefabuz17/DataLoader
+Download-URL: https://github.com/yousefabuz17/DataLoader.git
+Author: Yousef Abuzahrieh
+Author-email: yousefzahrieh17@gmail.com
+License: Apache Software License
+Platform: Windows
+Platform: Linux
+Platform: MacOS
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
