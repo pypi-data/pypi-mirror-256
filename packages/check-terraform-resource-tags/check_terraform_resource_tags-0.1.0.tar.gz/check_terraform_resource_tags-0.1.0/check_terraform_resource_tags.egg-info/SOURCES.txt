@@ -1,0 +1,9 @@
+setup.py
+check_terraform_resource_tags.egg-info/PKG-INFO
+check_terraform_resource_tags.egg-info/SOURCES.txt
+check_terraform_resource_tags.egg-info/dependency_links.txt
+check_terraform_resource_tags.egg-info/requires.txt
+check_terraform_resource_tags.egg-info/top_level.txt
+conf/__init__.py
+conf/oneCloudTagsCheck.py
+conf/settings.py
