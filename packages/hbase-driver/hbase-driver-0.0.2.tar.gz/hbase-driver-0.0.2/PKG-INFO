@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hbase-driver
+Version: 0.0.2
+Home-page: https://github.com/innovationb1ue/hbase-driver/
+Project-URL: Homepage, https://github.com/innovationb1ue/hbase-driver
+Project-URL: Issues, https://github.com/innovationb1ue/hbase-driver/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hbase-driver
+
+Native Hbase driver in Python. (No thrift)
+
+### Introduction
+
+- written in pure Python
+- native HBase protocol support (HBase 2.X+)
+- Support both admin operations and regionserver calls.
+
+### Implemented
+
+- Create, Disable, Delete table
+
+### TODOs
+
+- PUT
