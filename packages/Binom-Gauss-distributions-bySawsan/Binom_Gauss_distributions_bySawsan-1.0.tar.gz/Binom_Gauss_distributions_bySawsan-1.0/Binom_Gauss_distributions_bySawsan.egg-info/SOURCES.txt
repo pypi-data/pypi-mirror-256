@@ -1,0 +1,10 @@
+setup.py
+Binom_Gauss_distributions_bySawsan/Binomialdistribution.py
+Binom_Gauss_distributions_bySawsan/Gaussiandistribution.py
+Binom_Gauss_distributions_bySawsan/Generaldistribution.py
+Binom_Gauss_distributions_bySawsan/__init__.py
+Binom_Gauss_distributions_bySawsan.egg-info/PKG-INFO
+Binom_Gauss_distributions_bySawsan.egg-info/SOURCES.txt
+Binom_Gauss_distributions_bySawsan.egg-info/dependency_links.txt
+Binom_Gauss_distributions_bySawsan.egg-info/not-zip-safe
+Binom_Gauss_distributions_bySawsan.egg-info/top_level.txt
