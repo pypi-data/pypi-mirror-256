@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ship_performance_service_interface
+Version: 1.1.8
+Summary: protobuf interface for ship-performance-service
+Author-email: Jørgen Bremnes Nielsen <jorgen.b.nielsen@sintef.no>
+Project-URL: Homepage, https://github.com/SINTEF/shipdesignlab
+Project-URL: Issues, https://github.com/SINTEF/shipdesignlab/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: grpcio-tools
+
+# Introduction 
+protobuf interface for ship-performance-service
