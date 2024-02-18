@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pddlgym
+Version: 0.0.6
+License-File: LICENSE.md
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+Requires-Dist: gym
+Requires-Dist: imageio
+Requires-Dist: scikit-image
