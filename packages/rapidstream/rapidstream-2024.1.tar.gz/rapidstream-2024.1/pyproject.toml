@@ -1,0 +1,306 @@
+# Copyright 2024 RapidStream Design Automation, Inc.
+# All Rights Reserved.
+
+
+###########
+#  Build  #
+###########
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+##################
+#  Dependencies  #
+##################
+
+
+[tool.poetry]
+name = "rapidstream"
+version = "2024.1"
+description = "RapidStream: Agile and efficient development flow for modern FPGAs"
+authors = ["RapidStream Design Automation, Inc. <info@rapidstream-da.com>"]
+exclude = [
+    "rapidstream/*",
+    "pyproject.toml",
+]
+include = [
+    "rapidstream/__init__.py",
+    "rapidstream/assets",
+]
+
+[tool.poetry.dependencies]
+bokeh = ">=3.3.4"
+click = "^8.1.7"
+cryptography = "^42.0.2"
+dask = {extras = ["distributed"], version = "^2024.2.0"}
+ed25519 = "^1.5"
+igraph = "^0.11.3"
+jinja2 = "^3.1.3"
+pandas = "^2.2.0"
+prettytable = "^3.9.0"
+psutil = "^5.9.8"
+pulp = "^2.8.0"
+py-machineid = "^0.5.1"
+pydantic = "^2.6.1"
+pyslang = "^5.0.0"
+python = "^3.10"
+rapidwright = "^2023.2.1"
+requests = "^2.31.0"
+treelib = "^1.7.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+# TODO: add - flake8-use-pathlib
+# TODO: add - flake8-docstrings-complete
+
+black = "^24.2.0"
+cocotb-test = "^0.2.4"
+coverage = "^7.4.1"
+dotkrnl-teamcity-messages = "^1.32"
+filelock = "^3.13.1"
+flake8 = "^7.0.0"
+flake8-2020 = "^1.8.1"
+flake8-absolute-import = "^1.0.0.2"
+flake8-alfred = "^1.1.1"
+flake8-async = "^22.11.14"
+flake8-black = "^0.3.6"
+flake8-bugbear = "^24.2.6"
+flake8-comprehensions = "^3.14.0"
+flake8-datetime-utcnow-plugin = "^0.1.2"
+flake8-datetimez = "^20.10.0"
+flake8-docstrings = "^1.7.0"
+flake8-encodings = "^0.5.1"
+flake8-functions-names = "^0.4.0"
+flake8-logging-format = "^0.9.0"
+flake8-noqa = "^1.4.0"
+flake8-pep3101 = "^2.1.0"
+flake8-pep585 = "^0.1.7"
+flake8-pyproject = "^1.2.3"
+flake8-pytest-style = "^1.7.2"
+flake8-simplify = "^0.21.0"
+flake8-tidy-imports = "^4.10.0"
+flake8-use-fstring = "^1.4"
+flake8-useless-assert = "^0.4.4"
+flake8-warnings = "^0.4.0"
+maturin = "^1.4.0"
+mypy = "^1.8.0"
+nuitka = "^2.0.2"
+pre-commit = "^3.6.1"
+pylint = "^3.0.3"
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+pytest-sugar = "^1.0.0"
+pytest-xdist = "^3.5.0"
+rapidstream-cocotb = "^1.8.1.dev0"
+rapidstream-cocotb-bus = "^0.2.1"
+rapidstream-cocotbext-axi = "^0.1.25"
+setproctitle = "^1.3.3"
+setuptools = "^69.1.0"
+snakeviz = "^2.2.0"
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+toml = "^0.10.2"
+types-requests = "^2.31.0.20240125"
+vulture = "^2.11"
+
+[tool.poetry.scripts]
+rapidstream-autobridge = "rapidstream.autobridge.main:main"
+rapidstream-backend = "rapidstream.backend.main:main"
+rapidstream-config = "rapidstream.config.main:main"
+rapidstream-jump = "rapidstream.jump.main:main"
+rapidstream-exporter = "rapidstream.exporter.main:main"
+rapidstream-importer = "rapidstream.importer.main:main"
+rapidstream-license = "rapidstream.license.main:main"
+rapidstream-optimizer = "rapidstream.optimizer.main:main"
+
+# rust related scripts
+build-rust = "buildutils.rust:build_rust"
+test-rust = "buildutils.rust:test_rust"
+
+
+#############
+#  Testing  #
+#############
+
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --durations=5"
+log_format = "%(levelname).1s %(message)s (%(pathname)s:%(lineno)d)"
+log_cli_format = "%(levelname).1s %(message)s (%(pathname)s:%(lineno)d)"
+log_file_format = "%(levelname).1s %(message)s (%(pathname)s:%(lineno)d)"
+markers = [
+    "slow: marks tests as slow (select with '--slow')",
+    "unittest: marks tests so that their compiled versions are tested on binary builds",
+]
+
+
+################
+#  Formatting  #
+###############
+
+
+[tool.autoflake]
+exclude = "*_workaround.py"
+expand-star-imports = true
+ignore-init-module-imports = false
+remove-all-unused-imports = true
+remove-duplicate-keys = true
+remove-unused-variables = true
+
+
+[tool.black]
+preview = true
+target-version = ["py310"]
+
+
+[tool.codespell]
+
+# 'Implmentation' is intended here as it is a typo by Xilinx and we have conform lol
+ignore-words-list = "din,dout,edn,inout,pres,implmentation"
+
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:"
+]
+
+
+[tool.doc8]
+max-line-length = 88
+
+
+[tool.flake8]
+doctests = true
+docstring-convention = "google"
+exclude = "*_workaround.py"
+max-line-length = 88  # for compatibility with black
+
+# Justification for ---ignoring--- and +++selecting+++ the following warnings:
+# +B902: invalid first argument for super()
+# +B903: use collections.namedtuple
+# +B905: zip() without an explicit strict= parameter set
+# +B950: line too long
+# -C408: unnecessary dict call             -  not very useful
+# -D202: no blank lines after docstring    -  may compete with black
+# -E203: whitespace before ':'             -  not PEP8 compliant
+# -E222: multiple spaces after operator    -  may be used for line alignments
+# -E501: line too long                     -  use B950 instead
+# -F541: f-string is missing placeholders  -  frequently used by Licheng
+# -FNE004: name uses "load" not "from"     -  not very useful
+# -FNE007: name has "and"                  -  not very useful
+# -FNE008: name has its first argument     -  not very useful
+# -PT011: pytest.raises is too broad       -  not very useful
+# -S001: found modulo formatter            -  false positive
+# -W503: line break before binary operator -  may compete with black
+# -G004: f string in logging               -  frequently used by Licheng
+# -SIM102: Use a single if-statement instead of nested if-statements
+extend-select = "B902,B903,B905,B950"
+ignore = "C408,D202,E203,E222,E501,F541,FNE004,FNE007,FNE008,PT011,S001,W503,G004,BLK100,SIM102"
+
+# TODO: lower the threshold
+max-complexity = 35
+
+
+[tool.isort]
+profile = "black"
+py_version = 310
+
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = false   # cocotb uses decorators without type hints
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_reexport = true
+strict = true
+strict_concatenate = true
+strict_equality = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_unused_ignores = false
+warn_return_any = true
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = ["rapidstream_rust"]
+ignore_missing_imports = true
+
+
+[tool.pydocstyle]
+
+# Justification for ---ignoring--- and +++selecting+++ the following warnings:
+# -D202: no blank lines after docstring    -  may compete with black
+add-ignore = "D202"
+convention = "google"
+
+
+[tool.pylint]
+
+# Show all warnings except those disabled
+confidence = ""
+
+# Justification for ---ignoring--- the following warnings:
+# -C0301: line-too-long                    -  use flake8 B950 instead
+# -R0801: similar-lines                    -  too annoying to be useful
+# -R2044: empty-comment                    -  may be used for layout
+# -W0160: consider-ternary-expression      -  Licheng feels that the readability reduced
+# -W1309: f-string-without-interpolation   -  frequently used by Licheng
+# -C0198: Bad docstring quotes in function -  Often false warning
+# -R6103: use := in if-exclude_lines       -  Licheng feels that the readability reduced
+# -R1705: no-else-return                   -  Licheng feels that the readability reduced
+# -W1203: no f string in logging           -  frequently used by Licheng
+# -R0901: too-many-ancestors               -  it is not a problem
+disable = "C0301,R0801,R2044,W0160,W1309,C0198,R6103,R1705,W1203,R0901"
+
+# Allow the following extensions to be dynamically analyzed
+extension-pkg-allow-list = "igraph,kahypar,pydantic"
+
+# Allow short names to be used for variables
+good-names-rgxs = "^..?$"
+
+# Ignore the following modules as they cannot be analyzed
+ignored-modules = "pyslang,rapidstream_rust"
+
+# Skip the directories of documentation and those maintained by Licheng
+ignore-paths = "docs,rapidstream/dataflow"
+
+# Enable the following extensions
+# TODO: Enable pylint.extensions.magic_value
+load-plugins = [
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.code_style",
+    "pylint.extensions.confusing_elif",
+    "pylint.extensions.consider_refactoring_into_while_condition",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.dict_init_mutate",
+    "pylint.extensions.docparams",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.dunder",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.eq_without_hash",
+    "pylint.extensions.for_any_all",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.private_import",
+    "pylint.extensions.redefined_loop_name",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.set_membership",
+]
+
+# Loosen the requirements to be practical
+max-args = 10
+max-branches = 15
+max-locals = 30
+max-module-lines = 2000
+max-returns = 16
+min-public-methods = 0
