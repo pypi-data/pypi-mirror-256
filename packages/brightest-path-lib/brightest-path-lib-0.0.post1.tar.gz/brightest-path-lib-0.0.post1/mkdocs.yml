@@ -1,0 +1,39 @@
+# mkdocs.yml
+site_name: Brightest Path Library
+site_description: A library of path-finding algorithms to find the brightest path between two points.
+site_author: Robert H Cudmore
+
+repo_name: brightest-path-lib
+repo_url: https://github.com/mapmanager/brightest-path-lib
+edit_uri: ""
+
+theme:
+  name: "material"
+  features:
+    - content.code.copy
+    - navigation.instant
+
+plugins:
+  - mkdocstrings
+  - mkdocs-jupyter
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Introduction: index.md
+  - Installation: installation.md
+  - Getting Started: 
+    - simple_notebook.ipynb
+    - threading_notebook.ipynb
+  - API Documentation: api_docs.md
+  - About: about.md
+ 
