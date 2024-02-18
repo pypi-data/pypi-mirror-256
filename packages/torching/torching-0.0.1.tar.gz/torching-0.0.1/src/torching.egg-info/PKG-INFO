@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: torching
+Version: 0.0.1
+Summary: PyTorch Extensions and Utilities
+Home-page: https://github.com/netw0rkf10w/torching.git
+Author: Khue Le
+Author-email: khue.fr@gmail.com
+Project-URL: Bug Tracker, https://github.com/netw0rkf10w/torching/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# torching
+PyTorch Extensions and Utilities
