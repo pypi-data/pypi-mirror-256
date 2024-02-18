@@ -1,0 +1,10 @@
+setup.py
+Kashi_distributions/Binomialdistribution.py
+Kashi_distributions/Gaussiandistribution.py
+Kashi_distributions/Generaldistribution.py
+Kashi_distributions/__init__.py
+Kashi_distributions.egg-info/PKG-INFO
+Kashi_distributions.egg-info/SOURCES.txt
+Kashi_distributions.egg-info/dependency_links.txt
+Kashi_distributions.egg-info/not-zip-safe
+Kashi_distributions.egg-info/top_level.txt
