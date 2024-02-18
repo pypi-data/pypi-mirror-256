@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: scrolltext
+Version: 0.0.6
+Summary: A little toy for scrolling text.
+Home-page: https://github.com/jimdeekepler/python-scrolltext
+Author: Jim Dee Kepler
+Author-email: jimdee@gmail.com
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Python application](https://github.com/jimdeekepler/python-scrolltext/actions/workflows/python-app.yml/badge.svg)](https://github.com/jimdeekepler/python-scrolltext/actions/workflows/python-app.yml)
+
+
+## python-scrolltext
+
+### Plain Terminal version
+
+    SCROLL_TEXT="Hello, world." scrolltext
+
+You can select the line via `SCROLL_LINE` variable. Negative values are counting
+from bottom to top, e.g. the following selects the 2nd last line in the current
+terminal:
+
+    SCROLL_TEXT="Hello, world." SCROLL_LINE=-2 scrolltext
+
+
+### Curses Version
+
+    SCROLL_TEXT="Hello, world." scrolltext cursestext
+
+This will create a logfile: 'cursesscroller.log' in the current directory.
+
+
+### Example (earlier versions)
+
+    SCROLL_TEXT="Hello, world." python -m scrolltext.linescroller
+
+    SCROLL_TEXT="Hello, world." python -m scrolltext.cursestext
