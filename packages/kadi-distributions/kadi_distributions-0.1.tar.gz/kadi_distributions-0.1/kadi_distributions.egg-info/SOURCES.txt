@@ -1,0 +1,10 @@
+setup.py
+kadi_distributions/Binomialdistribution.py
+kadi_distributions/Gaussiandistribution.py
+kadi_distributions/Generaldistribution.py
+kadi_distributions/__init__.py
+kadi_distributions.egg-info/PKG-INFO
+kadi_distributions.egg-info/SOURCES.txt
+kadi_distributions.egg-info/dependency_links.txt
+kadi_distributions.egg-info/not-zip-safe
+kadi_distributions.egg-info/top_level.txt
