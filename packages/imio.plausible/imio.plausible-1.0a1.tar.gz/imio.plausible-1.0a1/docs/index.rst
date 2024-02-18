@@ -1,0 +1,5 @@
+==============
+imio.plausible
+==============
+
+User documentation

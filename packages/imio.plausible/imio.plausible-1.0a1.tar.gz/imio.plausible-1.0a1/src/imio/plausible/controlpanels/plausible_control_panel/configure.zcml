@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="imio.plausible">
+
+  <browser:page
+    name="plausible_control_panel-controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.PlausibleControlPanelView"
+    layer="imio.plausible.interfaces.IImioPlausibleLayer"
+    permission="cmf.ManagePortal"
+    />
+
+  <include package="plone.restapi"  />
+  <adapter
+    factory=".controlpanel.PlausibleControlPanelConfigletPanel"
+    name="plausible_control_panel" />
+
+
+</configure>
