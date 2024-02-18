@@ -1,0 +1,7 @@
+README.md
+setup.py
+lbconverter/lbconverter.egg-info/PKG-INFO
+lbconverter/lbconverter.egg-info/SOURCES.txt
+lbconverter/lbconverter.egg-info/dependency_links.txt
+lbconverter/lbconverter.egg-info/requires.txt
+lbconverter/lbconverter.egg-info/top_level.txt
