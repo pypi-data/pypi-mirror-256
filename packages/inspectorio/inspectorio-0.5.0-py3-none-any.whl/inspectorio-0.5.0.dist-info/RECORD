@@ -1,0 +1,9 @@
+inspectorio/__init__.py,sha256=Sc4z8LRVFMwJUoc_DPVUriSXTZ6PO9MaJ80PhRbKyB8,34
+inspectorio/sight/__init__.py,sha256=yhqW-ig934QN0nv1I1JBVzaPHxD5zkPS87_mFtp9DSA,164
+inspectorio/sight/async_inspectorio_sight.py,sha256=ZZfXD2bJ_O3TGs-DjtzELbaWnmFXFWJkiGrQaNLu9xI,22550
+inspectorio/sight/base_inspectorio_sight.py,sha256=j_e30BOE_hREtm7ooZglfMDSFcgEmFsA3xJwo87cZVM,66526
+inspectorio/sight/inspectorio_sight.py,sha256=N5YsKw3PK0-vl2qqIwrfuAezwqCcxvVm73NElaUtOeE,21380
+inspectorio-0.5.0.dist-info/LICENSE,sha256=l8E0fusROcGHDq3b522T7uQdIsxiZY-jrMWGaxFRTaY,1080
+inspectorio-0.5.0.dist-info/METADATA,sha256=iJkLa3FigZvsJotISdyYnzsdEwpFYtewOO_9H8i6jUo,3742
+inspectorio-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+inspectorio-0.5.0.dist-info/RECORD,,
