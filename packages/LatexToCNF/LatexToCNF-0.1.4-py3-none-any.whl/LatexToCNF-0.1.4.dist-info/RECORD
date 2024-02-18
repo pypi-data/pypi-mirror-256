@@ -1,0 +1,12 @@
+LatexToCNF/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LatexToCNF/__main__.py,sha256=R7JhDAktJtRReVMxJYIqWCIU2i8TBxBnvu5ZR0mUHR8,905
+LatexToCNF/cnf_builder.py,sha256=_ptD87_b71OZC5ZmD-lqjYMGa89NeCggJ1IuLHxCb_E,4299
+LatexToCNF/formula_validetor.py,sha256=omh_C_1SuqwjvAji4ZZUozbk2ACgW4Cth7WY1RAYH5A,3269
+LatexToCNF/latex_parser.py,sha256=8DCSdOsJAEWulwBCWsirQgzrZqYpnD2N9mmG4z5Kz7c,3211
+LatexToCNF/run.py,sha256=HOXVAfReR--hRTwLWoStr98exc6SF-lH5cEdP9Bcosw,951
+LatexToCNF-0.1.4.dist-info/LICENSE,sha256=I5JiKYV7bp419hrhV9RVPTTiVVsH24pvW3izR_pB4g8,1069
+LatexToCNF-0.1.4.dist-info/METADATA,sha256=45_PXpcLvqLGkSCejyDstdzyrqMmveAX43MN31Fi2Cs,3857
+LatexToCNF-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LatexToCNF-0.1.4.dist-info/entry_points.txt,sha256=NjFP1540AFBG0hxadVtbvXCJiMlhKckGinVzqK2TZh4,57
+LatexToCNF-0.1.4.dist-info/top_level.txt,sha256=SXkh34aOwto7bFMLsbEDerdRrUs1eA6pRiUtRlmbOQI,11
+LatexToCNF-0.1.4.dist-info/RECORD,,
