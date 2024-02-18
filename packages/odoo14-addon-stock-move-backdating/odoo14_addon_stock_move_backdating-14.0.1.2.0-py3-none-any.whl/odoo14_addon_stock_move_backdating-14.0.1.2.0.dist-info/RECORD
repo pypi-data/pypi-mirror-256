@@ -1,0 +1,14 @@
+odoo/addons/stock_move_backdating/README.rst,sha256=QxTE1ChZWbaMVQrLSlW4Ywb_ZLRTSnWya6KlYJBGnJw,1405
+odoo/addons/stock_move_backdating/__init__.py,sha256=-H_UTKw5ylq_ggU43MbFkPD812b-Zb6PwzFHhH8b4yk,349
+odoo/addons/stock_move_backdating/__manifest__.py,sha256=8xGagSXqRMiUBmb1HEkrznk70YiAMjbLjAh1okCWYbw,897
+odoo/addons/stock_move_backdating/models/__init__.py,sha256=V7NGK6xq6PGmfx9nlpmtotVgCMSUNDrv1xA-PMGtRQA,394
+odoo/addons/stock_move_backdating/models/stock_move.py,sha256=08BDXLOMoBhY1Axch55Gr6LKfRpV8MXVmjG00x-_Me4,2216
+odoo/addons/stock_move_backdating/models/stock_move_line.py,sha256=z0NTBk5xS01etnedWCM7qAj4pqlyy7uVVDUsEROU3Lo,947
+odoo/addons/stock_move_backdating/models/stock_picking.py,sha256=cO12SxkFkvJ3pyVoRJy_bG0gNRyU9JzVOvRZjK6Iuqs,1252
+odoo/addons/stock_move_backdating/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/stock_move_backdating/views/stock_move_views.xml,sha256=AI8klUb-WlsOasuZdgMM0YwgWPiCPwEa5SRiBZDtVKE,676
+odoo/addons/stock_move_backdating/views/stock_picking_views.xml,sha256=hJ_KSPtduR1VsY7B_r_AMABBDgKS7lu14L9M_xbRPko,988
+odoo14_addon_stock_move_backdating-14.0.1.2.0.dist-info/METADATA,sha256=Knrat5bv-8pRcyDRjREWW889soCqYuAVkV0qyPci8l8,2027
+odoo14_addon_stock_move_backdating-14.0.1.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_stock_move_backdating-14.0.1.2.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stock_move_backdating-14.0.1.2.0.dist-info/RECORD,,
