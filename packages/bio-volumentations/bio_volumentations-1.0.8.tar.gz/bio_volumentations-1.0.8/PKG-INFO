@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bio_volumentations
+Version: 1.0.8
+Summary: Library for 3D augmentations for biomedical images
+Home-page: https://gitlab.fi.muni.cz/xdupkan/volumentations/
+Author: Roman Sol (ZFTurbo), ashawkey, qubvel, muellerdo, Lucia Hradecka
+
+Library for 3D augmentations for biomedical images. Inspired by albumentations.More details: https://gitlab.fi.muni.cz/xdupkan/volumentations/
