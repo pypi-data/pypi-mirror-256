@@ -1,0 +1,9 @@
+bplot/__init__.py,sha256=bXv08FgDEjKc7h2kfxghCR4EiIq6LViSspvb50-M5uc,64
+bplot/plot1d.py,sha256=aw9XF0hc7vAuCyXsX6zRIdMemyWIWlfkf7pxSamp9Oc,4158
+bplot/test.py,sha256=HueOIZnFT7dh3gBlLmPdCDiSkmgMTLvja8IT1Evb4AM,187
+bplot-0.0.15.dist-info/LICENSE,sha256=qdg8oG--mxWty1wqflVx33fgwZ0xDN0yh3tBml7rogE,1093
+bplot-0.0.15.dist-info/METADATA,sha256=086i0aGb9TrEZl1HNvp5WAAc5n3XydMqDPZQlOIPGQI,3047
+bplot-0.0.15.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bplot-0.0.15.dist-info/entry_points.txt,sha256=JTxNEZMF1seD0IzExJiozG36sZH2l6c0XVf3Ggkab6k,76
+bplot-0.0.15.dist-info/top_level.txt,sha256=x5ggT316wLIE3SGm9-VG_nkZP9552UXaFoJ2olziouc,6
+bplot-0.0.15.dist-info/RECORD,,
