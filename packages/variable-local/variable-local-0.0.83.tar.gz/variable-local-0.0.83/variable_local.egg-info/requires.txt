@@ -1,0 +1,4 @@
+logger-local
+language-local
+database-mysql-local
+smartlink-local
