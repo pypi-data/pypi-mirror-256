@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: operation_profile_lib
+Version: 0.1.10
+Summary: Library for operation profile data structure and interface
+Home-page: https://github.com/SINTEF/shipdesignlab
+Author: Kevin Koosup Yum
+Author-email: kevinkoosup.yum@sintef.no
+License: Apache Software License 2.0
+Keywords: Operation profile
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: protobuf ~=4.21.12
+Requires-Dist: ship-performance-service-interface ~=1.1.3
+Provides-Extra: dev
+
+python -m grpc_tools.protoc -I./ --python_out=./operation_profile_lib --grpc_python_out=./operation_profile_lib ./operation_profile.proto
+
