@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytest-bisect-tests
+Version: 0.0.1
+Summary: Find tests leaking state and affecting other
+Author-email: Maciej Gol <suchar.kroolik1@gmail.com>
+Project-URL: Homepage, https://github.com/maciej-gol/pytest-bisect-tests
+Project-URL: Issues, https://github.com/maciej-gol/pytest-bisect-tests/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytest-bisect-tests
