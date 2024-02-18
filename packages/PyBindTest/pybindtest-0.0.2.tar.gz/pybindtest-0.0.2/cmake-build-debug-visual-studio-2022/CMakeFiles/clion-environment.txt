@@ -1,0 +1,5 @@
+ToolSet: 17.0 (local)@E:\Software\MSVS\2022\Community
+Ninja: 1.11.1@E:\GlobalScoopApps\apps\jetbrains-toolbox\current\apps\CLion Nova\bin\ninja\win\x64\ninja.exe
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=E:/GlobalScoopApps/apps/jetbrains-toolbox/current/apps/CLion Nova/bin/ninja/win/x64/ninja.exe

@@ -1,0 +1,6 @@
+"E:\GlobalScoopApps\apps\jetbrains-toolbox\current\apps\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/GlobalScoopApps/apps/jetbrains-toolbox/current/apps/CLion Nova/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\WorkSpace\CppProjects\PyBind11Test -B E:\WorkSpace\CppProjects\PyBind11Test\cmake-build-debug-visual-studio-2022
+
+-- Found pybind11: E:/GlobalScoopApps/apps/vcpkg/current/installed/x64-windows/include (found version "2.11.1")
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022

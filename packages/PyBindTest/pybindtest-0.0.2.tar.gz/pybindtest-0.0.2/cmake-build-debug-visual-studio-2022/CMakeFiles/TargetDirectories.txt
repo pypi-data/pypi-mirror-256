@@ -1,0 +1,6 @@
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/_core.dir
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/edit_cache.dir
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/rebuild_cache.dir
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/list_install_components.dir
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/install.dir
+E:/WorkSpace/CppProjects/PyBind11Test/cmake-build-debug-visual-studio-2022/CMakeFiles/install/local.dir
