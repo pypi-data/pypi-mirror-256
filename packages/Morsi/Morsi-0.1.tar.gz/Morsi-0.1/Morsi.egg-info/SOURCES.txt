@@ -1,0 +1,10 @@
+setup.py
+Morsi/Binomialdistribution.py
+Morsi/Gaussiandistribution.py
+Morsi/Generaldistribution.py
+Morsi/__init__.py
+Morsi.egg-info/PKG-INFO
+Morsi.egg-info/SOURCES.txt
+Morsi.egg-info/dependency_links.txt
+Morsi.egg-info/not-zip-safe
+Morsi.egg-info/top_level.txt
