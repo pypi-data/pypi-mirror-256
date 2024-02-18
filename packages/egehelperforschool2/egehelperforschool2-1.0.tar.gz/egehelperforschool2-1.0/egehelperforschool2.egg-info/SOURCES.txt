@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+egehelperforschool2/main.py
+egehelperforschool2.egg-info/PKG-INFO
+egehelperforschool2.egg-info/SOURCES.txt
+egehelperforschool2.egg-info/dependency_links.txt
+egehelperforschool2.egg-info/top_level.txt
