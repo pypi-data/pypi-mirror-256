@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dd-lib-i18n-base
+Version: 1.1.0
+Summary: This is a python library for defining internationalised messages and errors. It is not within the remit of the library to manage any translation files.
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: di-logging (>=1,<2)
