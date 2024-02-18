@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_ticktick_to_sqlite.py
+ticktick_to_sqlite/__init__.py
+ticktick_to_sqlite/__main__.py
+ticktick_to_sqlite/cli.py
+ticktick_to_sqlite/utils.py
+ticktick_to_sqlite.egg-info/PKG-INFO
+ticktick_to_sqlite.egg-info/SOURCES.txt
+ticktick_to_sqlite.egg-info/dependency_links.txt
+ticktick_to_sqlite.egg-info/entry_points.txt
+ticktick_to_sqlite.egg-info/requires.txt
+ticktick_to_sqlite.egg-info/top_level.txt

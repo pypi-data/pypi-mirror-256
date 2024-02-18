@@ -1,0 +1,8 @@
+click
+ticktick-py
+sqlite-utils
+python-dotenv
+
+[test]
+pytest
+ruff
