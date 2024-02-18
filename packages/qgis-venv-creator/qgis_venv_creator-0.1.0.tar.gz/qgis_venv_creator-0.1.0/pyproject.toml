@@ -1,0 +1,78 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qgis-venv-creator"
+dynamic = ["version"]
+description = 'Tool to create a virtual python environment for QGIS plugin development'
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE.txt" }
+keywords = []
+authors = [{ name = "Gispo Ltd.", email = "info@gispo.fi" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/GispoCoding/qgis-venv-creator#readme"
+Issues = "https://github.com/GispoCoding/qgis-venv-creator/issues"
+Source = "https://github.com/GispoCoding/qgis-venv-creator"
+
+[project.scripts]
+create-qgis-venv = "qgis_venv_creator.create_qgis_venv:main"
+
+[tool.hatch.version]
+path = "src/qgis_venv_creator/create_qgis_venv.py"
+
+[tool.hatch.envs.default]
+dependencies = ["coverage[toml]>=6.5", "pytest", "mypy>=1.0.0"]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = ["- coverage combine", "coverage report"]
+cov = ["test-cov", "cov-report"]
+check-types = "mypy --install-types --non-interactive {args:src/qgis_venv_creator tests}"
+
+[tool.hatch.envs.hatch-static-analysis]
+config-path = "ruff_defaults.toml"
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+
+[tool.ruff]
+extend = "ruff_defaults.toml"
+target-version = "py38"
+unfixable = [
+  "F401", # unused imports
+  "F841", # unused variables
+]
+
+[tool.coverage.run]
+source_pkgs = ["qgis_venv_creator", "tests"]
+branch = true
+parallel = true
+
+[tool.coverage.paths]
+qgis_venv_creator = [
+  "src/qgis_venv_creator",
+  "*/qgis-venv-creator/src/qgis_venv_creator",
+]
+tests = ["tests", "*/qgis-venv-creator/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
