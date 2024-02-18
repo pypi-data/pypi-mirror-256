@@ -1,0 +1,2 @@
+[console_scripts]
+screwmpc-random = screwmpc_experiments.launchers.random:main
