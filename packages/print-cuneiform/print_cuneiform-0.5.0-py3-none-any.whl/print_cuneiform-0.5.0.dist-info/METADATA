@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: print_cuneiform
+Version: 0.5.0
+Summary: A small package for printing numbers as cuneiform
+Project-URL: Homepage, https://gitlab.com/fhagelskjaer/print_cuneiform
+Project-URL: Bug Tracker, https://gitlab.com/fhagelskjaer/print_cuneiform/-/issues
+Author-email: Frederik Hagelskjaer <frederikhagel@gmail.com>
+License-File: LICENSE
+Keywords: sumerian,unicode
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# Print Cuneiform Numbers
+
+This package converts numbers into cuneiform signs for 
+
+The signs are represented as a string with unicode characters for [cuneiform signs](https://unicode.org/charts/nameslist/n_12400.html).
+
+The repository is available at [Gitlab](https://gitlab.com/fhagelskjaer/print_cuneiform)
+
+## Sumerian
+
+The correct cuneiform signs are based on the book "Numerical Notation", by Stephen Chrisomalis.
+
+With the deviation that the "ash" sign is used for one instead of the "gesh" sign.
+
+If "gesh" should also be used for one simply set:
+
+	"ash=False" in int_to_sumerian
+ 
+The computation to sumerian cuneiform is done by removing the signs that are possible from the highest "sharu" to the lowest "gesh". The divisible sign sizes are:
+
+	36000: 	sharu	𒐬
+	3600: 	shar	𒄭
+	600: 	geshu	𒐞
+	60: 	gesh	𒐕
+	10: 	u	𒌋
+	1:	ash	𒀸
+
+In case of negative numbers the "lal" sign is added in front:
+
+	𒇲
+
+## Installation:
+
+To run the code unicode must be installed on the system:
+
+	sudo apt install unicode
+
+The library can the be installed as follows:
+
+	pip3 install print_cuneiform
+
+## Use:
+
+	>>> from print_cuneiform.sumerian import int_to_sumerian
+	>>> int_to_sumerian(1)
+	'𒀸'
+	>>> int_to_sumerian(71)
+	'𒐕𒌋𒀸'
+	>>> int_to_sumerian(-8, ash=False)
+	'𒇲 𒐜'  
+	
+	int-to-sumerian -455
+	
+## Command line interface
+
+The method can also be called from the command line, using either the 'ash' or 'gesh' for ones:
+
+	int-to-sumerian -455
+	'𒇲𒐛𒌋𒌋𒌋𒐃'
+	int-to-sumerian-cla -455
+	'𒇲𒐛𒌋𒌋𒌋𒐙'
