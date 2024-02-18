@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fyta_cli
+Version: 0.1
+Summary: Python library to access the FYTA API
+Author-email: dontinelli <73341522+dontinelli@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: dataclasses
+Requires-Dist: datetime
+Requires-Dist: pytz
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Fyta-Cli
+Python library to access the FYTA API as documented here: https://fyta-io.notion.site/FYTA-Public-API-d2f4c30306f74504924c9a40402a3afd
