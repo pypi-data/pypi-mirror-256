@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+email_auth_remote/__init__.py
+email_auth_remote/apps.py
+email_auth_remote/authentication.py
+email_auth_remote/extensions.py
+email_auth_remote/models.py
+email_auth_remote.egg-info/PKG-INFO
+email_auth_remote.egg-info/SOURCES.txt
+email_auth_remote.egg-info/dependency_links.txt
+email_auth_remote.egg-info/requires.txt
+email_auth_remote.egg-info/top_level.txt
