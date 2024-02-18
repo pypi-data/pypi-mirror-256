@@ -1,0 +1,9 @@
+flake8_qiskit_migration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake8_qiskit_migration/command.py,sha256=zW1J2txs1GrknM4bMgsMBfIC7oIuixO4OqRCXq3o4uE,104
+flake8_qiskit_migration/deprecated_paths.py,sha256=6PLK9wR-Ew551PPZEvkTgvNsMePtmXtaFcYwKDFugXo,14402
+flake8_qiskit_migration/plugin.py,sha256=VVBNGntIQjU2hwJ2eW9wpjDkV1_GM2GTI_gz25cSFwk,4256
+flake8_qiskit_migration-0.1.0.dist-info/METADATA,sha256=m40EN19GjGBwWvfylNddtDkbyaROusF37witssINKLs,2537
+flake8_qiskit_migration-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+flake8_qiskit_migration-0.1.0.dist-info/entry_points.txt,sha256=2WlIw9nl4kpH1TOR5u6JiNDZjHQx3M4ABXC6wsTFpKE,147
+flake8_qiskit_migration-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flake8_qiskit_migration-0.1.0.dist-info/RECORD,,
