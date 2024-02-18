@@ -1,0 +1,10 @@
+fixpoint_sdk/__init__.py,sha256=DwC8DKgrXIpSdQVV_WhhXjx1NOTcoKYW2JDTuAPi6y4,76
+fixpoint_sdk/client.py,sha256=58YcSxUQZTfC5efMxy2AeOCNuZUyvK3a-VTykwekkkk,2302
+fixpoint_sdk/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixpoint_sdk/lib/debugging.py,sha256=56f-by9n2_ArBcBMm43ilFb5kqO3epiB-ljh14V-0UU,183
+fixpoint_sdk/lib/env.py,sha256=oqaidR0YszETjXvqE4w725MsVKFHPeVbHdyxyvKIW6w,221
+fixpoint_sdk/lib/requests.py,sha256=7LKeN4XqbCdHHqFjYpDXL2Sg734HYfexFNl2Zfercn0,3333
+fixpoint_sdk-0.0.2.dist-info/METADATA,sha256=KP9jnkrUUFen8HGHcTAAzCxT6uGusWQHkXrvpNyxfXg,1400
+fixpoint_sdk-0.0.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+fixpoint_sdk-0.0.2.dist-info/licenses/LICENSE,sha256=90cJGHtanemh_rTQ_Jnk9GjJVCOuMyV3JHsdxImuPJM,11338
+fixpoint_sdk-0.0.2.dist-info/RECORD,,
