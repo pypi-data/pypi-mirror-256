@@ -1,0 +1,2 @@
+[console_scripts]
+qne = adk.command_list:app
