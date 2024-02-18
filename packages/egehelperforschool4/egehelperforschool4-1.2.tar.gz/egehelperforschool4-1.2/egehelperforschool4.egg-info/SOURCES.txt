@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+egehelperforschool4/ЕГЭ.py
+egehelperforschool4.egg-info/PKG-INFO
+egehelperforschool4.egg-info/SOURCES.txt
+egehelperforschool4.egg-info/dependency_links.txt
+egehelperforschool4.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+import setuptools
+
+setuptools.setup(
+	name='egehelperforschool4',
+	version='1.2',
+	author='Apchixba02',
+	author_email='kiri.nadymov2017@yandex.ru',
+	description='vack',
+	packages=['egehelperforschool4'],
+	include_package_data=True,
+	classifiers=[
+		"Programming Language :: Python :: 3",
+		"License :: OSI Approved :: MIT License",
+		"Operating System :: OS Independent",
+	],
+	python_requires='>=3.6',
+)
