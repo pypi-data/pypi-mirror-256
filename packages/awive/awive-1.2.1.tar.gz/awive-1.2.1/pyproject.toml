@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "awive"
+version = "1.2.1"
+description = "Joseph Pena's bachelor thesis work"
+authors = ["Joseph P. <joseph.pena@utec.edu.pe>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "awive"}]
+
+[tool.poetry.dependencies]
+python = "~3.9.2 || ~3.11.2"
+opencv-python = "^4.6.0.66"
+pydantic = "^1.10.2"
+
+[tool.poetry.group.dev.dependencies]
+types-requests = "^2.31.0.20240125"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
