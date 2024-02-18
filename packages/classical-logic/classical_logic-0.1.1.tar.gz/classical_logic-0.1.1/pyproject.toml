@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "classical-logic"
+version = "0.1.1"
+description = "Python package for propositional logic."
+authors = ["Ederic <edericoytas@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/ederic-oytas/classical-logic"
+repository = "https://github.com/ederic-oytas/classical-logic"
+keywords = [
+    "and",
+    "biconditional",
+    "conditional",
+    "conjunction",
+    "connective",
+    "disjunction",
+    "if and only if",
+    "iff",
+    "implies",
+    "implication",
+    "logic",
+    "logical connective",
+    "negation",
+    "not",
+    "or",
+    "classical logic",
+    "proposition",
+    "propositional calculus",
+    "propositional logic",
+    "sentence",
+    "sentential calculus",
+    "sentential logic",
+    "statement logic",
+    "zeroth-order logic",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+tox = "^4.6.3"
+pytest-cov = "^4.1.0"
+
+
+[tool.poetry.group.style.dependencies]
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+
+[tool.poetry.group.type.dependencies]
+mypy = "^1.4.1"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.17"
+mkdocstrings = {extras = ["python"], version = "^0.22.0"}
+mkdocs-autorefs = "^0.4.1"
+
+
+[tool.black]
+line-length = 79
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
