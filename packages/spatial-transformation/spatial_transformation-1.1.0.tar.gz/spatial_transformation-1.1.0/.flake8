@@ -1,0 +1,20 @@
+[flake8]
+ignore = E203, E266, E501, W503, F403, F401, D200, ANN101, ANN202, N818, N801
+max-line-length = 120
+max-complexity = 18
+exclude =
+    .git,
+    __pycache__,
+    .hg,
+    .mypy_cache,
+    venv,
+    .venv,
+    build,
+    _build,
+    dist,
+    buck-out,
+    submodules,
+    data,
+    logs,
+    _static,
+    _templates

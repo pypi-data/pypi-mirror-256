@@ -1,0 +1,4 @@
+mypy does not understand Real > int
+PEP 0484 specifies complex > float > int is respected; we might not need Number.Real 
+see https://peps.python.org/pep-0484/#the-numeric-tower
+# type hint float; instance check Real: https://peps.python.org/pep-0484/#the-numeric-tower

@@ -1,0 +1,86 @@
+[project]
+name = "spatial-transformation"
+description = "Helper library for operations of spatial transformation"
+dynamic = [
+    "version"
+]
+
+authors = [
+    { name="Alexander Mutz", email="alexander.mutz@deveritec.com" },
+    { name="Anne Bienert", email="anne.bienert@tu-dresden.de" },
+    { name="Christoph Schwalbe", email="christoph.schwalbe@deveritec.com" },
+    { name="Jonas Kreissl", email="jonas.kreissl@deveritec.com" },
+    { name="Martin Eckardt", email="martin.eckardt@deveritec.com" },
+    { name="Mirko Riedel", email="mirko.riedel@deveritec.com" },
+]
+
+maintainers = [
+    { name="Jonas Kreissl", email="jonas.kreissl@deveritec.com" },
+    { name="Martin Eckardt", email="martin.eckardt@deveritec.com" },
+    { name="Mirko Riedel", email="mirko.riedel@deveritec.com" },
+]
+
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+dependencies = [
+    "scipy",
+    "numpy",
+]
+
+[project.urls]
+"Homepage" = "https://deveritec.com"
+"Bug Tracker" = "https://deveritec.com"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/spatial_transformation/__about__.py"
+
+[tool.pytest.ini_options]
+markers = [
+    "randomized: runs test with randomized input, may find edgecases",
+    "hardcoded: runs test with hardcoded input, may find mathematical errors",
+]
+
+[tool.coverage.report]
+exclude_also = [
+    "if __name__ == .__main__.:",
+    "def to_string",
+    "def __repr__"
+    ]
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | submodules
+)/
+'''
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+profile = "black"
+sections = ["FUTURE", "STDLIB", "FIRSTPARTY", "THIRDPARTY", "LOCALFOLDER"]
+filter_files = true

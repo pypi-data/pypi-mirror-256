@@ -1,0 +1,7 @@
+# sphinx generated stuff
+make.bat
+Makefile
+
+_static/
+_templates/
+generated/
