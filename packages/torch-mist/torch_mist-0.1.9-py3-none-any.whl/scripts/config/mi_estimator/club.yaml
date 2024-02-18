@@ -1,0 +1,3 @@
+_target_: torch_mist.estimators.club
+hidden_dims: ${params.hidden_dims}
+transform_name: ${params.conditional_transform_name}
