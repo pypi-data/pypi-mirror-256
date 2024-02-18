@@ -1,0 +1,2 @@
+[console_scripts]
+create-qgis-venv = qgis_venv_creator.create_qgis_venv:main
