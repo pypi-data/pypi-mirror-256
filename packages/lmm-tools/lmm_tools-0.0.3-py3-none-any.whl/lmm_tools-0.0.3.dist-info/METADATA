@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lmm-tools
+Version: 0.0.3
+Summary: Toolset for Large Multi-Modal Models
+Author: Landing AI
+Author-email: dev@landing.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: pandas (==2.0)
+Requires-Dist: pillow (>=9.0.0,<10.0.0)
+Requires-Dist: requests (>=2.0.0,<3.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Project-URL: Homepage, https://landing.ai
+Project-URL: documentation, https://github.com/landing-ai/lmm-tools
+Project-URL: repository, https://github.com/landing-ai/lmm-tools
+Description-Content-Type: text/markdown
+
+# lmm-tools
+Large Multimodal Model tools
+
