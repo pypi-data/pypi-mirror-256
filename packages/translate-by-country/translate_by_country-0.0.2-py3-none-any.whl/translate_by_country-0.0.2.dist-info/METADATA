@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: translate-by-country
+Version: 0.0.2
+Summary: A library to translate with country information
+Home-page: https://github.com/Sina157/translate-by-country
+Author: Sina157
+Author-email: sina.shams@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: googletrans ==4.0.0-rc1
+
+# translate_by_country
+
