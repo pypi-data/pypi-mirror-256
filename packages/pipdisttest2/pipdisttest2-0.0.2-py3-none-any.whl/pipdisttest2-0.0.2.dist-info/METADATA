@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pipdisttest2
+Version: 0.0.2
+Summary: pypi deploy test
+Home-page: https://github.com/seokhwaLee/pipdisttest.git
+Download-URL: https://github.com/seokhwaLee/pipdisttest/archive/refs/heads/main.zip
+Author: stone2f
+Author-email: stone2f@gmail.com
+Keywords: pypi deploy
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: numpy
+
