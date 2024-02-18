@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bc-en-de-coder
+Version: 0.0.8
+Summary: Data Protecting Package
+Author: Abhishek Kumar Singh
+Author-email: <abhishek123kumar123singh@gmail.com>
+Keywords: python,Data secure,Encoder,Decoder,pdf reader
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+This package helps to protect all the data which you pass to LLM by encoding it first and decoding it afterward.
