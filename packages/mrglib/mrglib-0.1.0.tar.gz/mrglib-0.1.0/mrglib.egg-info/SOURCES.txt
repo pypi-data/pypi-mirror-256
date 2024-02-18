@@ -1,0 +1,6 @@
+README.md
+setup.py
+mrglib.egg-info/PKG-INFO
+mrglib.egg-info/SOURCES.txt
+mrglib.egg-info/dependency_links.txt
+mrglib.egg-info/top_level.txt
