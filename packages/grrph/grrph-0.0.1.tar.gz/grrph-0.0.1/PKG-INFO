@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: grrph
+Version: 0.0.1
+Summary: grrph -- Pascals Python Graph Library 
+Author-email: Pascal Welke <pascal.welke@tuwien.ac.at>
+Project-URL: Homepage, https://github.com/pwelke/grrph
+Project-URL: Issues, https://github.com/pwelke/grrph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# grrph -- Pascals Python Graph Library 
+
+Currently does nothing but is supposed to collect various useful helpers for loading, transforming, mining, and learning (on) graphs.
