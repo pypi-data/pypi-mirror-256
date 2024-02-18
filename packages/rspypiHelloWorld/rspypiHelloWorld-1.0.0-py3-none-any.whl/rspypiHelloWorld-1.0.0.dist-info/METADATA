@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rspypiHelloWorld
+Version: 1.0.0
+Summary: A simple hello world test package
+Author-email: Frankie Hadwick <frankie@ramseysystems.co.uk>
+Project-URL: homepage, https://github.com/RamseySystems/pypiHelloWorld.git
+Keywords: hello,world,example
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+# PyPi Hello World
+
+This is a simple hello world package for PyPi.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
