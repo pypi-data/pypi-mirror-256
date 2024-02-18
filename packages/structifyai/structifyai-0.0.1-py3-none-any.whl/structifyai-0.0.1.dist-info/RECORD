@@ -1,0 +1,15 @@
+structifyai/__init__.py,sha256=QjZv8KBAjet66PAa6FkI-bj8mu6HbUblUE5LGYBfw7I,964
+structifyai/api_client.py,sha256=-q3haZjA53FxP0OF859lOaAPng0UHIXCb5_x2tsJBTw,29922
+structifyai/api_response.py,sha256=uCehWdXXDnAO2HAHGKe0SgpQ_mJiGDbcu-BHDF3n_IM,852
+structifyai/configuration.py,sha256=rxC_QzKBIWbqZexVB3ipc_3TRNRx3Wj_ohsPOT5JQ8A,14273
+structifyai/exceptions.py,sha256=2lSqDcSy-VnmIODplLhfbMeVh8076VE5bynC3eA4-G4,5335
+structifyai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structifyai/rest.py,sha256=wN7x31H5do3I31iOJJz3ejSEkAMmr_Av7cyZICmUOSQ,13783
+structifyai/api/__init__.py,sha256=svFk7vUyvI_oThV2esEICLP6YDedO51nkF44UgcT-O0,146
+structifyai/api/schema_api.py,sha256=iEXLBdTt8dEYpp9c1RPlwivCKu1HccOEgNcOEzRnGCQ,16527
+structifyai/api/server_api.py,sha256=Z3EZ94lhI2smZDKpeaIaV_Buj0gsYjHkgG1v9ObZOAU,6010
+structifyai/models/__init__.py,sha256=yMsdyD0jTnWuO0WFNCANDlUlc5OACNI4ny3e_MlJ9-Q,278
+structifyai-0.0.1.dist-info/METADATA,sha256=Jv0OSCjPN-ld4zyLg1kaDGUCaHiE1KLreh-kYmCmwHU,551
+structifyai-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+structifyai-0.0.1.dist-info/top_level.txt,sha256=ErtmsSJ3QBmxgR2kLZtZXZzj6jh0G1Deb7sSx7-22aA,12
+structifyai-0.0.1.dist-info/RECORD,,

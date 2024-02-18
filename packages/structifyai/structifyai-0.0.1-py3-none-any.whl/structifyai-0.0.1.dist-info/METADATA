@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: structifyai
+Version: 0.0.1
+Summary: Structify
+Home-page: 
+Author: Structify Team
+Author-email: team@structify.ai
+License: Discuss directly with founders for license.
+Keywords: OpenAPI,OpenAPI-Generator,Structify
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic <2,>=1.10.5
+Requires-Dist: aenum
+
+    Structify&#39;s goal is to take every source of knowledge and represent it on one place, deduplicated in the format that you specify.
+    
