@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sleekify
+Version: 0.0.1
+Summary: A minimalistic, ASGI, Python framework for building REST API's.
+Home-page: https://github.com/0mjs/sleek
+Author: Matt J. Stevenson
+Author-email: dev@mattjs.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: uvicorn
+Requires-Dist: starlette
+Requires-Dist: httpx
+Requires-Dist: pydantic
+
+# Sleek
+A minimalistic, ASGI, Python framework for building REST API's.
