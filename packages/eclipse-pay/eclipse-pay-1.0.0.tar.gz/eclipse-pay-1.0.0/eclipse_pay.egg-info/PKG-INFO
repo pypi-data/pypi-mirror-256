@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: eclipse-pay
+Version: 1.0.0
+Summary: Manage payments on scratch automatically.
+Author: LIZARD_OFFICIAL
+Author-email: <lizard.official.77@gmail.com>
+Keywords: python,scratch,scratch.mit.edu,Blockbit,LRCOIN,BB,LRC,eclipseai
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scratchattach
+Requires-Dist: requests
+
+
+# eclipse-pay
+
+Made by LIZARD_OFFICIAL on scratch and youtube.
+
+## Python (Backend)
+
+
+### Available currencies
+```python
+eclipse_pay.LRCOIN
+eclipse_pay.BLOCKBIT
+```
+
+
+### Currently down (If attempted to create, an Exception will be raised.)
+```python
+eclipse_pay.BLOCKCOIN
+```
+
+### Setup with password
+```python
+from eclipse_pay import BLOCKBIT
+from scratchattach import WsCloudEvents
+
+bb = BLOCKBIT(id2="<id of your project>",username="griffpatch",username="griffpatch",password="SecurePassword123!") # Same for both currencies
+events = WsCloudEvents(*bb.h_data)
+
+@events.event
+def on_set(event):
+    bb.process(event)
+```
+
+### Setup with session id (for online IDEs)
+```python
+from eclipse_pay import BLOCKBIT
+from scratchattach import WsCloudEvents
+
+bb = BLOCKBIT(id2="<id of your project>",username="griffpatch",sessionid="SESSION ID HERE") # Same for both currencies
+events = WsCloudEvents(*bb.h_data)
+
+@events.event
+def on_set(event):
+    bb.process(event)
+```
+
+
+### If person1 sends person2 10 blockbits AND it was after being requested using eclipse-pay,
+```python
+bb.process()
+```
+would return
+```json
+{
+    "sender":"person1",
+    "recipient":"person2",
+    "amount":"10"
+}
+```
+
+while in the scratch project, the output of the api would be "1", because it simply requested to check if person1 has paid person2.
+
+
+Requesting other currencies than BB and LRC
+```python
+from eclipse_pay import BaseCurrency
+from scratchattach import WsCloudEvents
+
+class MyCurrency(BaseCurrency):
+    PROJECT_ID = "<project id of the currency>"
+```
+**This will only work if the give request of the currency is the same as LRC**
+
+Now it can be created like the other currencies.
+
+## Scratch (Frontend)
+
+In the API usage sprite:
+
+![](https://raw.githubusercontent.com/LIZARD-OFFICIAL/pypi-assets/main/scratchblocks(1).svg)
+
+In the ECLIPSE-PAY SPRITE (Necessary setup):
+![](https://raw.githubusercontent.com/LIZARD-OFFICIAL/pypi-assets/main/scratchblocks(2).svg)
+
+
+
+Check out: https://scratch.mit.edu/users/LIZARD_OFFICIAL
