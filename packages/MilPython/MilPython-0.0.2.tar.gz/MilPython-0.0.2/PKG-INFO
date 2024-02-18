@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MilPython
+Version: 0.0.2
+Summary: Framework for building MILP optimizations for time series with gurobipy
+Home-page: https://github.com/hanneshanse/MilPy
+Author: Hannes Hanse
+Author-email: hannes.hanse@tu-clausthal.de
+License: MIT
+Keywords: milp,time series,optimization,gurobi,gurobipy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
