@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mts-client
+Version: 0.2.3
+Summary: Модуль предоставляет интерфейс для взаимодействия с https://omnichannel.mts.ru/http-api/v1/messages
+License: MIT
+Keywords: mts,omnichannel,sms,client
+Author: mrslow
+Author-email: animal2k@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: pydantic (<2)
+Description-Content-Type: text/markdown
+
+### MTS Omnichannel Client
+---
+Модуль предоставляет интерфейс для взаимодействия с https://omnichannel.mts.ru. 
+
