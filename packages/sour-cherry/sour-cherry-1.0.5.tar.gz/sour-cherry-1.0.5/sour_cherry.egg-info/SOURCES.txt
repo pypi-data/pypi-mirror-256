@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sour_cherry.egg-info/PKG-INFO
+sour_cherry.egg-info/SOURCES.txt
+sour_cherry.egg-info/dependency_links.txt
+sour_cherry.egg-info/entry_points.txt
+sour_cherry.egg-info/requires.txt
+sour_cherry.egg-info/top_level.txt

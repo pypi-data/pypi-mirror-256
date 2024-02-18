@@ -1,0 +1,2 @@
+[console_scripts]
+cherry = src.cherry.cherrypie:cherrypie
