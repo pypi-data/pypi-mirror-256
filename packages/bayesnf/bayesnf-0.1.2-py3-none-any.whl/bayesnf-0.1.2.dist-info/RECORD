@@ -1,0 +1,8 @@
+bayesnf/__init__.py,sha256=WHancUXLrk5msMw6L-YQh8Gk1nFMmbsJ9FoCrvuHv5U,906
+bayesnf/inference.py,sha256=p9kCklidC-LY9DUoEGDVQcXfGhoE3BgxxLBxeRh0eVg,25730
+bayesnf/models.py,sha256=YGUUnJyNM1frrTaDv2s5kNsC_Z9pt40W6Kl9CZrhzMc,9290
+bayesnf/spatiotemporal.py,sha256=ozb-0GCILTfNXTTxYa29Zr1KNC5bDaRS3NuiviWDcQ4,22407
+bayesnf-0.1.2.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+bayesnf-0.1.2.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+bayesnf-0.1.2.dist-info/METADATA,sha256=PtwGSSwJg-XZSlL7vbfbJeqqSHwcCl5ickdABzrUzNo,4193
+bayesnf-0.1.2.dist-info/RECORD,,
