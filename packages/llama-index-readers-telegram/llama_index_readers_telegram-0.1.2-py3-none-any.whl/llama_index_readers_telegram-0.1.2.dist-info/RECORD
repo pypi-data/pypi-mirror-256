@@ -1,0 +1,6 @@
+llama_index/readers/telegram/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/readers/telegram/__init__.py,sha256=pfHmdFp6uTKLbT7SgOZsvpW-qu0umviIEaIfHFn-37w,91
+llama_index/readers/telegram/base.py,sha256=k0usBcPhIgc1Kz7AQu9y0eQftZ_MVAwQ-6Ho0fRAjeA,4540
+llama_index_readers_telegram-0.1.2.dist-info/METADATA,sha256=9iG723xlPgxB4pftWBT4W32JBs08lcfLtJoIw2jJmkE,2852
+llama_index_readers_telegram-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_telegram-0.1.2.dist-info/RECORD,,
