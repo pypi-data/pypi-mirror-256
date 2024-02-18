@@ -1,0 +1,14 @@
+default: 
+  output_template: |
+    # Snippet {{name}}
+          
+    ```{{lang}}
+    {{{snippet}}}
+    ```
+    
+  output_path: docs/snippets
+  comment_prefix: "# "
+src: 
+  lang: python
+  root: src
+  glob: **/*.py
