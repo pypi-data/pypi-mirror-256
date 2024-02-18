@@ -1,0 +1,6 @@
+numpy
+pandas
+netCDF4
+
+[parallel]
+loky>=3.0
