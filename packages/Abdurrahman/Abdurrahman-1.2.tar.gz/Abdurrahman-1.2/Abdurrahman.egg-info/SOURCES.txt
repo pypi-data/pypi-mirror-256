@@ -1,0 +1,10 @@
+setup.py
+Abdurrahman/Binomialdistribution.py
+Abdurrahman/Gaussiandistribution.py
+Abdurrahman/Generaldistribution.py
+Abdurrahman/__init__.py
+Abdurrahman.egg-info/PKG-INFO
+Abdurrahman.egg-info/SOURCES.txt
+Abdurrahman.egg-info/dependency_links.txt
+Abdurrahman.egg-info/not-zip-safe
+Abdurrahman.egg-info/top_level.txt
