@@ -1,0 +1,7 @@
+llama-cpp-python
+transformers
+accelerate
+
+[develop]
+build
+pytest

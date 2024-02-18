@@ -1,0 +1,23 @@
+[project]
+name = "gpts"
+version = "0.0.7"
+authors = [
+    { name="Ramya Kottapalli", email="rskottap@gmail.com" },
+    { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Unix language driver for software 2.0"
+dependencies = [
+    "llama-cpp-python",
+    "transformers",
+    "accelerate",
+]
+
+[project.optional-dependencies]
+develop = [
+    "build",
+    "pytest",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/gpts"
+download = "https://pypi.org/project/gpts/#files"
