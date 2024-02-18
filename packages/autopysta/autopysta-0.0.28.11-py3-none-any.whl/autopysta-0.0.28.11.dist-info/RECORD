@@ -1,0 +1,10 @@
+autopysta/__init__.py,sha256=pc-0gj8Dr4byFBlAEr_l5aUekf0JsDQLO8yTfXDV5oM,24
+autopysta/_autopysta.pyd,sha256=WKqOxxIRhJS7wXAhheBqoYu8OGL1Nw-MVABZOA-u1qI,1826304
+autopysta/_autopysta.so,sha256=FCuZhEu-eZ4Z370i31GZMdprKCjSyJW-tVabWThawEQ,2558784
+autopysta/autopysta.py,sha256=RrbSXPtqoT3zUDjRnb4vfYbtsVxVkztTkPxEnTXpoig,98073
+autopysta/different_creators.py,sha256=WzaXskBo8tOksu3nOR9i4d5Ks27wB798MjuHIrWyu2o,2424
+autopysta-0.0.28.11.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopysta-0.0.28.11.dist-info/METADATA,sha256=hsVPcc7gnqYT5Gnnl74hrayUTSe6gLSnVo1y7h5zvCY,1412
+autopysta-0.0.28.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autopysta-0.0.28.11.dist-info/top_level.txt,sha256=MGEFfANDlkJSOsBOdqBNk4lMyyC8Z_w_ct5zxqa90OE,10
+autopysta-0.0.28.11.dist-info/RECORD,,
