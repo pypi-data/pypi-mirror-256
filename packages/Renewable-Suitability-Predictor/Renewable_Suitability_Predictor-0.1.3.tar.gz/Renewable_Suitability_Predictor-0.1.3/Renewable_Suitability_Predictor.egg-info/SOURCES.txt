@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+solar_dataset.csv
+wind_dataset.csv
+Renewable_Suitability_Predictor.egg-info/PKG-INFO
+Renewable_Suitability_Predictor.egg-info/SOURCES.txt
+Renewable_Suitability_Predictor.egg-info/dependency_links.txt
+Renewable_Suitability_Predictor.egg-info/requires.txt
+Renewable_Suitability_Predictor.egg-info/top_level.txt
