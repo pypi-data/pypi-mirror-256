@@ -1,0 +1,13 @@
+pandas
+snowflake-snowpark-python
+setuptools
+wheel
+cloudpickle
+
+[doc]
+sphinx
+myst-parser
+furo
+nbsphinx
+ipykernel
+IPython
