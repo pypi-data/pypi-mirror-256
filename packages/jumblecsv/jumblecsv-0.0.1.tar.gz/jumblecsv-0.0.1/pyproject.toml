@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69.1.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "jumblecsv"
+version = "0.0.1"
+authors = [
+  { name="Rasmus Klitgaard", email="rasmusklitgaard97@gmail.com" },
+]
+description = "Tool for quick random and systematic changes (jumbling) to .csv files."
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy >= 1.26.0",
+]
+
+[project.scripts]
+jumblecsv = "jumblecsv:main.main"
+
+
+
+
+[project.urls]
+Homepage = "https://gitlab.com/RasmusKlitgaard/jumblecsv"
+Issues = "https://gitlab.com/RasmusKlitgaard/jumblecsv/-/issues"

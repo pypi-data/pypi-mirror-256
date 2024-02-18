@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+jumblecsv/__init__.py
+jumblecsv/main.py
+jumblecsv.egg-info/PKG-INFO
+jumblecsv.egg-info/SOURCES.txt
+jumblecsv.egg-info/dependency_links.txt
+jumblecsv.egg-info/entry_points.txt
+jumblecsv.egg-info/requires.txt
+jumblecsv.egg-info/top_level.txt

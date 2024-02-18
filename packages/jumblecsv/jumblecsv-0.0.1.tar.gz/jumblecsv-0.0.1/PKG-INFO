@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: jumblecsv
+Version: 0.0.1
+Summary: Tool for quick random and systematic changes (jumbling) to .csv files.
+Author-email: Rasmus Klitgaard <rasmusklitgaard97@gmail.com>
+Project-URL: Homepage, https://gitlab.com/RasmusKlitgaard/jumblecsv
+Project-URL: Issues, https://gitlab.com/RasmusKlitgaard/jumblecsv/-/issues
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26.0
