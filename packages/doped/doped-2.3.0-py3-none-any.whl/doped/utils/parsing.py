@@ -1,0 +1,1041 @@
+"""
+Helper functions for parsing VASP supercell defect calculations.
+"""
+import contextlib
+import itertools
+import os
+import warnings
+from typing import Optional, Union
+
+import numpy as np
+from monty.serialization import loadfn
+from pymatgen.analysis.defects.core import DefectType
+from pymatgen.core.structure import PeriodicSite, Structure
+from pymatgen.io.vasp.inputs import UnknownPotcarWarning
+from pymatgen.io.vasp.outputs import Locpot, Outcar, Vasprun
+from pymatgen.util.coord import pbc_diff
+
+from doped import _ignore_pmg_warnings
+from doped.core import DefectEntry
+
+
+def find_archived_fname(fname, raise_error=True):
+    """
+    Find a suitable filename, taking account of possible use of compression
+    software.
+    """
+    if os.path.exists(fname):
+        return fname
+    # Check for archive files
+    for ext in [".gz", ".xz", ".bz", ".lzma"]:
+        if os.path.exists(fname + ext):
+            return fname + ext
+    if raise_error:
+        raise FileNotFoundError
+    return None
+
+
+def get_vasprun(vasprun_path, **kwargs):
+    """
+    Read the vasprun.xml(.gz) file as a pymatgen Vasprun object.
+    """
+    vasprun_path = str(vasprun_path)  # convert to string if Path object
+    warnings.filterwarnings(
+        "ignore", category=UnknownPotcarWarning
+    )  # Ignore unknown POTCAR warnings when loading vasprun.xml
+    # pymatgen assumes the default PBE with no way of changing this within get_vasprun())
+    warnings.filterwarnings(
+        "ignore", message="No POTCAR file with matching TITEL fields"
+    )  # `message` only needs to match start of message
+    try:
+        vasprun = Vasprun(find_archived_fname(vasprun_path), **kwargs)
+    except FileNotFoundError as exc:
+        raise FileNotFoundError(
+            f"vasprun.xml or compressed version (.gz/.xz/.bz/.lzma) not found at {vasprun_path}("
+            f".gz/.xz/.bz/.lzma). Needed for parsing calculation output!"
+        ) from exc
+    return vasprun
+
+
+def get_locpot(locpot_path):
+    """
+    Read the LOCPOT(.gz) file as a pymatgen Locpot object.
+    """
+    locpot_path = str(locpot_path)  # convert to string if Path object
+    try:
+        locpot = Locpot.from_file(find_archived_fname(locpot_path))
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            f"LOCPOT or compressed version not found at (.gz/.xz/.bz/.lzma) not found at {locpot_path}("
+            f".gz/.xz/.bz/.lzma). Needed for calculating the Freysoldt (FNV) image charge correction!"
+        ) from None
+    return locpot
+
+
+def get_outcar(outcar_path):
+    """
+    Read the OUTCAR(.gz) file as a pymatgen Outcar object.
+    """
+    outcar_path = str(outcar_path)  # convert to string if Path object
+    try:
+        outcar = Outcar(find_archived_fname(outcar_path))
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            f"OUTCAR file not found at {outcar_path}. Needed for calculating the Kumagai (eFNV) "
+            f"image charge correction."
+        ) from None
+    return outcar
+
+
+def _get_output_files_and_check_if_multiple(output_file="vasprun.xml", path="."):
+    """
+    Search for all files with filenames matching ``output_file``,
+    case-insensitive.
+
+    Returns (output file path, Multiple?) where Multiple is True if multiple
+    matching files are found.
+    """
+    files = os.listdir(path)
+    output_files = [filename for filename in files if output_file.lower() in filename.lower()]
+    # sort by direct match to {output_file}, direct match to {output_file}.gz, then alphabetically:
+    if output_files := sorted(
+        output_files,
+        key=lambda x: (x == output_file, x == f"{output_file}.gz", x),
+        reverse=True,
+    ):
+        output_path = os.path.join(path, output_files[0])
+        return (output_path, True) if len(output_files) > 1 else (output_path, False)
+    return path, False  # so when `get_X()` is called, it will raise an informative FileNotFoundError
+
+
+def get_defect_type_and_composition_diff(bulk, defect):
+    """
+    Get the difference in composition between a bulk structure and a defect
+    structure.
+
+    Contributed by Dr. Alex Ganose (@ Imperial Chemistry) and refactored for
+    extrinsic species and code efficiency/robustness improvements.
+    """
+    bulk_comp = bulk.composition.get_el_amt_dict()
+    defect_comp = defect.composition.get_el_amt_dict()
+
+    composition_diff = {
+        element: int(defect_amount - bulk_comp.get(element, 0))
+        for element, defect_amount in defect_comp.items()
+        if int(defect_amount - bulk_comp.get(element, 0)) != 0
+    }
+
+    if len(composition_diff) == 1 and list(composition_diff.values())[0] == 1:
+        defect_type = "interstitial"
+    elif len(composition_diff) == 1 and list(composition_diff.values())[0] == -1:
+        defect_type = "vacancy"
+    elif len(composition_diff) == 2:
+        defect_type = "substitution"
+    else:
+        raise RuntimeError(
+            "Could not determine defect type from composition difference of bulk and defect structures."
+        )
+
+    return defect_type, composition_diff
+
+
+def get_defect_site_idxs_and_unrelaxed_structure(
+    bulk, defect, defect_type, composition_diff, unique_tolerance=1
+):
+    """
+    Get the defect site and unrelaxed structure, where 'unrelaxed structure'
+    corresponds to the pristine defect supercell structure for vacancies /
+    substitutions, and the pristine bulk structure with the `final` relaxed
+    interstitial site for interstitials.
+
+    Initially contributed by Dr. Alex Ganose (@ Imperial Chemistry) and
+    refactored for extrinsic species and code efficiency/robustness improvements.
+
+    Returns:
+        bulk_site_idx: index of the site in the bulk structure that corresponds
+            to the defect site in the defect structure
+        defect_site_idx: index of the defect site in the defect structure
+        unrelaxed_defect_structure: pristine defect supercell structure for
+            vacancies/substitutions (i.e. pristine bulk with unrelaxed vacancy/
+            substitution), or the pristine bulk structure with the `final`
+            relaxed interstitial site for interstitials.
+    """
+
+    def process_substitution(bulk, defect, composition_diff):
+        old_species = _get_species_from_composition_diff(composition_diff, -1)
+        new_species = _get_species_from_composition_diff(composition_diff, 1)
+
+        bulk_new_species_coords, _bulk_new_species_idx = get_coords_and_idx_of_species(bulk, new_species)
+        defect_new_species_coords, defect_new_species_idx = get_coords_and_idx_of_species(
+            defect, new_species
+        )
+
+        if bulk_new_species_coords.size > 0:  # intrinsic substitution
+            # find coords of new species in defect structure, taking into account periodic boundaries
+            defect_site_arg_idx = find_nearest_coords(
+                bulk_new_species_coords[:, None],
+                defect_new_species_coords,
+                bulk.lattice.matrix,
+                defect_type="substitution",
+                searched_structure="defect",
+            )
+
+        else:  # extrinsic substitution
+            defect_site_arg_idx = 0
+
+        # Get the coords and site index of the defect that was used in the VASP calculation
+        defect_coords = defect_new_species_coords[defect_site_arg_idx]  # frac coords of defect site
+        defect_site_idx = defect_new_species_idx[defect_site_arg_idx]
+
+        # now find the closest old_species site in the bulk structure to the defect site
+        # again, make sure to use periodic boundaries
+        bulk_old_species_coords, _bulk_old_species_idx = get_coords_and_idx_of_species(bulk, old_species)
+
+        bulk_site_arg_idx = find_nearest_coords(
+            bulk_old_species_coords,
+            defect_coords,
+            bulk.lattice.matrix,
+            defect_type="substitution",
+            searched_structure="bulk",
+        )
+
+        # currently, original_site_idx is indexed with respect to the old species only.
+        # need to get the index in the full structure:
+        unrelaxed_defect_structure, bulk_site_idx = _remove_and_insert_species_from_bulk(
+            bulk,
+            bulk_old_species_coords,
+            bulk_site_arg_idx,
+            new_species,
+            defect_site_idx,
+            defect_type="substitution",
+            searched_structure="bulk",
+        )
+        return bulk_site_idx, defect_site_idx, unrelaxed_defect_structure
+
+    def process_vacancy(bulk, defect, composition_diff):
+        old_species = _get_species_from_composition_diff(composition_diff, -1)
+        bulk_old_species_coords, _bulk_old_species_idx = get_coords_and_idx_of_species(bulk, old_species)
+        defect_old_species_coords, _defect_old_species_idx = get_coords_and_idx_of_species(
+            defect, old_species
+        )
+
+        bulk_site_arg_idx = find_nearest_coords(
+            bulk_old_species_coords[:, None],
+            defect_old_species_coords,
+            bulk.lattice.matrix,
+            defect_type="vacancy",
+            searched_structure="bulk",
+        )
+
+        # currently, original_site_idx is indexed with respect to the old species only.
+        # need to get the index in the full structure:
+        defect_site_idx = None
+        unrelaxed_defect_structure, bulk_site_idx = _remove_and_insert_species_from_bulk(
+            bulk,
+            bulk_old_species_coords,
+            bulk_site_arg_idx,
+            new_species=None,
+            defect_site_idx=defect_site_idx,
+            defect_type="vacancy",
+            searched_structure="bulk",
+        )
+        return bulk_site_idx, defect_site_idx, unrelaxed_defect_structure
+
+    def process_interstitial(bulk, defect, composition_diff):
+        new_species = _get_species_from_composition_diff(composition_diff, 1)
+
+        bulk_new_species_coords, _bulk_new_species_idx = get_coords_and_idx_of_species(bulk, new_species)
+        defect_new_species_coords, defect_new_species_idx = get_coords_and_idx_of_species(
+            defect, new_species
+        )
+
+        if bulk_new_species_coords.size > 0:  # intrinsic interstitial
+            defect_site_arg_idx = find_nearest_coords(
+                bulk_new_species_coords[:, None],
+                defect_new_species_coords,
+                bulk.lattice.matrix,
+                defect_type="interstitial",
+                searched_structure="defect",
+            )
+
+        else:  # extrinsic interstitial
+            defect_site_arg_idx = 0
+
+        # Get the coords and site index of the defect that was used in the VASP calculation
+        defect_site_coords = defect_new_species_coords[defect_site_arg_idx]  # frac coords of defect site
+        defect_site_idx = defect_new_species_idx[defect_site_arg_idx]
+
+        # currently, original_site_idx is indexed with respect to the old species only.
+        # need to get the index in the full structure:
+        unrelaxed_defect_structure, bulk_site_idx = _remove_and_insert_species_from_bulk(
+            bulk,
+            coords=defect_site_coords,
+            site_arg_idx=None,
+            new_species=new_species,
+            defect_site_idx=defect_site_idx,
+            defect_type="interstitial",
+            searched_structure="defect",
+        )
+        return bulk_site_idx, defect_site_idx, unrelaxed_defect_structure
+
+    handlers = {
+        "substitution": process_substitution,
+        "vacancy": process_vacancy,
+        "interstitial": process_interstitial,
+    }
+
+    if defect_type not in handlers:
+        raise ValueError(f"Invalid defect type: {defect_type}")
+
+    return handlers[defect_type](bulk, defect, composition_diff)
+
+
+def _get_species_from_composition_diff(composition_diff, el_change):
+    """
+    Get the species corresponding to the given change in composition.
+    """
+    return [el for el, amt in composition_diff.items() if amt == el_change][0]
+
+
+def get_coords_and_idx_of_species(structure, species_name):
+    """
+    Get arrays of the coordinates and indices of the given species in the
+    structure.
+    """
+    coords = []
+    idx = []
+    for i, site in enumerate(structure):
+        if site.specie.symbol == species_name:
+            coords.append(site.frac_coords)
+            idx.append(i)
+
+    return np.array(coords), np.array(idx)
+
+
+def find_nearest_coords(
+    bulk_coords,
+    target_coords,
+    bulk_lattice_matrix,
+    defect_type="substitution",
+    searched_structure="bulk",
+    unique_tolerance=1,
+):
+    """
+    Find the nearest coords in bulk_coords to target_coords.
+    """
+    distance_matrix = np.linalg.norm(
+        np.dot(pbc_diff(bulk_coords, target_coords), bulk_lattice_matrix), axis=-1
+    )
+    site_matches = distance_matrix.argmin(axis=0 if defect_type == "vacancy" else -1)
+
+    def _site_matching_failure_error(defect_type, searched_structure):
+        raise RuntimeError(
+            f"Could not uniquely determine site of {defect_type} in {searched_structure} "
+            f"structure. Remember the bulk and defect supercells should have the same "
+            f"definitions/basis sets for site-matching (parsing) to be possible."
+        )
+
+    if len(site_matches.shape) == 1:
+        if len(np.unique(site_matches)) != len(site_matches):
+            _site_matching_failure_error(defect_type, searched_structure)
+
+        return list(
+            set(np.arange(max(bulk_coords.shape[0], target_coords.shape[0]), dtype=int))
+            - set(site_matches)
+        )[0]
+
+    if len(site_matches.shape) == 0:
+        # if there are any other matches with a distance within unique_tolerance of the located site
+        # then unique matching failed
+        if len(distance_matrix[distance_matrix < distance_matrix[site_matches] * unique_tolerance]) > 1:
+            _site_matching_failure_error(defect_type, searched_structure)
+
+        return site_matches
+    return None
+
+
+def _remove_and_insert_species_from_bulk(
+    bulk,
+    coords,
+    site_arg_idx,
+    new_species,
+    defect_site_idx,
+    defect_type="substitution",
+    searched_structure="bulk",
+    unique_tolerance=1,
+):
+    # currently, original_site_idx is indexed with respect to the old species only.
+    # need to get the index in the full structure:
+    unrelaxed_defect_structure = bulk.copy()  # create unrelaxed defect structure
+    bulk_coords = np.array([s.frac_coords for s in bulk])
+    bulk_site_idx = None
+
+    if site_arg_idx is not None:
+        bulk_site_idx = find_nearest_coords(
+            bulk_coords,
+            coords[site_arg_idx],
+            bulk.lattice.matrix,
+            defect_type=defect_type,
+            searched_structure=searched_structure,
+            unique_tolerance=unique_tolerance,
+        )
+        unrelaxed_defect_structure.remove_sites([bulk_site_idx])
+        defect_coords = bulk_coords[bulk_site_idx]
+
+    else:
+        defect_coords = coords
+
+    # Place defect in same location as output from DFT
+    if defect_site_idx is not None:
+        unrelaxed_defect_structure.insert(defect_site_idx, new_species, defect_coords)
+
+    return unrelaxed_defect_structure, bulk_site_idx
+
+
+def check_atom_mapping_far_from_defect(bulk, defect, defect_coords):
+    """
+    Check the displacement of atoms far from the determined defect site, and
+    warn the user if they are large (often indicates a mismatch between the
+    bulk and defect supercell definitions).
+    """
+    # suppress pydefect INFO messages
+    import logging
+
+    from vise import user_settings
+
+    user_settings.logger.setLevel(logging.CRITICAL)
+    from pydefect.cli.vasp.make_efnv_correction import calc_max_sphere_radius
+
+    # vise suppresses `UserWarning`s, so need to reset
+    warnings.simplefilter("default")
+    warnings.filterwarnings("ignore", message="`np.int` is a deprecated alias for the builtin `int`")
+    warnings.filterwarnings("ignore", message="Use get_magnetic_symmetry()")
+    _ignore_pmg_warnings()
+
+    far_from_defect_disps = {site.specie.symbol: [] for site in bulk}
+
+    wigner_seitz_radius = calc_max_sphere_radius(bulk.lattice.matrix)
+
+    bulk_sites_outside_or_at_wigner_radius = [
+        site
+        for site in bulk
+        if site.distance_and_image_from_frac_coords(defect_coords)[0]
+        > np.max((wigner_seitz_radius - 1, 1))
+    ]
+
+    bulk_species_coord_dict = {}
+    for species in bulk.composition.elements:  # avoid recomputing coords for each site
+        bulk_species_coords, _bulk_new_species_idx = get_coords_and_idx_of_species(
+            bulk_sites_outside_or_at_wigner_radius, species.name
+        )
+        bulk_species_coord_dict[species.name] = bulk_species_coords
+
+    for site in defect:
+        if site.distance_and_image_from_frac_coords(defect_coords)[0] > wigner_seitz_radius:
+            bulk_site_arg_idx = find_nearest_coords(  # get closest site in bulk to defect site
+                bulk_species_coord_dict[site.specie.symbol],
+                site.frac_coords,
+                bulk.lattice.matrix,
+                defect_type="substitution",
+                searched_structure="bulk",
+            )
+            far_from_defect_disps[site.specie.symbol].append(
+                round(
+                    site.distance_and_image_from_frac_coords(
+                        bulk_species_coord_dict[site.specie.symbol][bulk_site_arg_idx]
+                    )[0],
+                    2,
+                )
+            )
+
+    if far_from_defect_large_disps := {
+        specie: list for specie, list in far_from_defect_disps.items() if list and np.mean(list) > 0.5
+    }:
+        warnings.warn(
+            f"Detected atoms far from the defect site (>{wigner_seitz_radius:.2f} Å) with major "
+            f"displacements (>0.5 Å) in the defect supercell. This likely indicates a mismatch "
+            f"between the bulk and defect supercell definitions or an unconverged supercell size, "
+            f"both of which could cause errors in parsing. The mean displacement of the following "
+            f"species, at sites far from the determined defect position, is >0.5 Å: "
+            f"{list(far_from_defect_large_disps.keys())}, with displacements (Å): "
+            f"{far_from_defect_large_disps}"
+        )
+
+
+def get_site_mapping_indices(structure_a: Structure, structure_b: Structure, threshold=2.0):
+    """
+    Reset the position of a partially relaxed structure to its unrelaxed
+    positions.
+
+    The template structure may have a different species ordering to the
+    ``input_structure``.
+
+    NOTE: This assumes that both structures have the same lattice definitions
+    (i.e. that they match, and aren't rigidly translated/rotated with respect
+    to each other), which is mostly the case unless we have a mismatching
+    defect/bulk supercell (in which case the ``check_atom_mapping_far_from_defect``
+    warning should be thrown anyway during parsing). Currently this function
+    is only used for analysing site displacements in the ``displacements`` module
+    so this is fine (user will already have been warned at this point if there is a
+    possible mismatch).
+    """
+    ## Generate a site matching table between the input and the template
+    min_dist_with_index = []
+    all_input_fcoords = [list(site.frac_coords.round(3)) for site in structure_a]
+    all_template_fcoords = [list(site.frac_coords.round(3)) for site in structure_b]
+
+    for species in structure_a.composition.elements:
+        input_fcoords = [
+            list(site.frac_coords.round(3)) for site in structure_a if site.specie.symbol == species.symbol
+        ]
+        template_fcoords = [
+            list(site.frac_coords.round(3)) for site in structure_b if site.specie.symbol == species.symbol
+        ]
+
+        dmat = structure_a.lattice.get_all_distances(input_fcoords, template_fcoords)
+        for index, coords in enumerate(all_input_fcoords):
+            if coords in input_fcoords:
+                dists = dmat[input_fcoords.index(coords)]
+                current_dist = dists.min()
+                template_fcoord = template_fcoords[dists.argmin()]
+                template_index = all_template_fcoords.index(template_fcoord)
+                min_dist_with_index.append(
+                    [
+                        current_dist,
+                        index,
+                        template_index,
+                    ]
+                )
+
+                if current_dist > threshold:
+                    site_a = structure_a[index]
+                    site_b = structure_b[template_index]
+                    warnings.warn(
+                        f"Large site displacement {current_dist:.2f} Å detected when matching atomic "
+                        f"sites: {site_a} -> {site_b}."
+                    )
+
+    return min_dist_with_index
+
+
+def reorder_s1_like_s2(s1_structure: Structure, s2_structure: Structure, threshold=5.0):
+    """
+    Reorder the atoms of a (relaxed) structure, s1, to match the ordering of
+    the atoms in s2_structure.
+
+    s1/s2 structures may have a different species orderings.
+
+    Previously used to ensure correct site matching when pulling site
+    potentials for the eFNV Kumagai correction, though no longer used for this
+    purpose. If threshold is set to a low value, it will raise a warning if
+    there is a large site displacement detected.
+
+    NOTE: This assumes that both structures have the same lattice definitions
+    (i.e. that they match, and aren't rigidly translated/rotated with respect
+    to each other), which is mostly the case unless we have a mismatching
+    defect/bulk supercell (in which case the ``check_atom_mapping_far_from_defect``
+    warning should be thrown anyway during parsing). Currently this function
+    is no longer used, but if it is reintroduced at any point, this point should
+    be noted!
+    """
+    # Obtain site mapping between the initial_relax_structure and the unrelaxed structure
+    mapping = get_site_mapping_indices(s2_structure, s1_structure, threshold=threshold)
+
+    # Reorder s1_structure so that it matches the ordering of s2_structure
+    reordered_sites = [s1_structure[tmp[2]] for tmp in mapping]
+
+    # avoid warning about selective_dynamics properties (can happen if user explicitly set "T T T" (or
+    # otherwise) for the bulk):
+    warnings.filterwarnings("ignore", message="Not all sites have property")
+
+    new_structure = Structure.from_sites(reordered_sites)
+
+    assert len(new_structure) == len(s1_structure)
+
+    return new_structure
+
+
+def _compare_potcar_symbols(
+    bulk_potcar_symbols, defect_potcar_symbols, bulk_name="bulk", defect_name="defect"
+):
+    """
+    Check all POTCAR symbols in the bulk are the same in the defect
+    calculation.
+
+    Returns True if the symbols match, otherwise returns a list of the symbols
+    for the bulk and defect calculations.
+    """
+    for symbol in bulk_potcar_symbols:
+        if symbol["titel"] not in [symbol["titel"] for symbol in defect_potcar_symbols]:
+            warnings.warn(
+                f"The POTCAR symbols for your {bulk_name} and {defect_name} calculations do not match, "
+                f"which is likely to cause severe errors in the parsed results. Found the following "
+                f"symbol in the {bulk_name} calculation:"
+                f"\n{symbol['titel']}\n"
+                f"but not in the {defect_name} calculation:"
+                f"\n{[symbol['titel'] for symbol in defect_potcar_symbols]}\n"
+                f"The same POTCAR settings should be used for all calculations for accurate results!"
+            )
+            return [bulk_potcar_symbols, defect_potcar_symbols]
+    return True
+
+
+def _compare_kpoints(bulk_actual_kpoints, defect_actual_kpoints, bulk_name="bulk", defect_name="defect"):
+    """
+    Check bulk and defect KPOINTS are the same, using the
+    Vasprun.actual_kpoints lists (i.e. the VASP IBZKPTs essentially).
+
+    Returns True if the KPOINTS match, otherwise returns a list of the KPOINTS
+    for the bulk and defect calculations.
+    """
+    # sort kpoints, in case same KPOINTS just different ordering:
+    sorted_bulk_kpoints = sorted(np.array(bulk_actual_kpoints), key=tuple)
+    sorted_defect_kpoints = sorted(np.array(defect_actual_kpoints), key=tuple)
+
+    if not np.allclose(sorted_bulk_kpoints, sorted_defect_kpoints):
+        warnings.warn(
+            f"The KPOINTS for your {bulk_name} and {defect_name} calculations do not match, which is "
+            f"likely to cause errors in the parsed results. Found the following KPOINTS in the "
+            f"{bulk_name} calculation:"
+            f"\n{sorted_bulk_kpoints}\n"
+            f"and in the {defect_name} calculation:"
+            f"\n{sorted_defect_kpoints}\n"
+            f"In general, the same KPOINTS settings should be used for all final calculations for "
+            f"accurate results!"
+        )
+        return [sorted_bulk_kpoints, sorted_defect_kpoints]
+
+    return True
+
+
+def _compare_incar_tags(
+    bulk_incar_dict,
+    defect_incar_dict,
+    fatal_incar_mismatch_tags=None,
+    bulk_name="bulk",
+    defect_name="defect",
+):
+    """
+    Check bulk and defect INCAR tags (that can affect energies) are the same.
+
+    Returns True if no mismatching tags are found, otherwise returns a list of
+    the mismatching tags.
+    """
+    if fatal_incar_mismatch_tags is None:
+        fatal_incar_mismatch_tags = {  # dict of tags that can affect energies and their defaults
+            "AEXX": 0.25,  # default 0.25
+            "ENCUT": 0,
+            "LREAL": False,  # default False
+            "HFSCREEN": 0,  # default 0 (None)
+            "GGA": "PE",  # default PE
+            "LHFCALC": False,  # default False
+            "ADDGRID": False,  # default False
+            "ISIF": 2,
+            "LASPH": False,  # default False
+            "PREC": "Normal",  # default Normal
+            "PRECFOCK": "Normal",  # default Normal
+            "LDAU": False,  # default False
+        }
+
+    def _compare_incar_vals(val1, val2):
+        if isinstance(val1, str):
+            return val1.split()[0].lower() == val2.split()[0].lower()
+        if isinstance(val1, float):
+            return np.isclose(val1, val2, rtol=1e-3)
+
+        return val1 == val2
+
+    mismatch_list = []
+    for key, val in bulk_incar_dict.items():
+        if key in fatal_incar_mismatch_tags:
+            defect_val = defect_incar_dict.get(key, fatal_incar_mismatch_tags[key])
+            if not _compare_incar_vals(val, defect_val):
+                mismatch_list.append((key, val, defect_val))
+
+    # get any missing keys:
+    defect_incar_keys_not_in_bulk = set(defect_incar_dict.keys()) - set(bulk_incar_dict.keys())
+
+    for key in defect_incar_keys_not_in_bulk:
+        if key in fatal_incar_mismatch_tags and not _compare_incar_vals(
+            defect_incar_dict[key], fatal_incar_mismatch_tags[key]
+        ):
+            mismatch_list.append((key, fatal_incar_mismatch_tags[key], defect_incar_dict[key]))
+
+    if mismatch_list:
+        # compare to defaults:
+        warnings.warn(
+            f"There are mismatching INCAR tags for your {bulk_name} and {defect_name} calculations which "
+            f"are likely to cause errors in the parsed results (energies). Found the following "
+            f"differences:\n"
+            f"(in the format: (INCAR tag, value in {bulk_name} calculation, value in {defect_name} "
+            f"calculation)):"
+            f"\n{mismatch_list}\n"
+            f"In general, the same INCAR settings should be used in all final calculations for these tags "
+            f"which can affect energies!"
+        )
+        return mismatch_list
+    return True
+
+
+def get_neutral_nelect_from_vasprun(vasprun: Vasprun, skip_potcar_init: bool = False) -> Union[int, float]:
+    """
+    Determine the number of electrons (NELECT) from a Vasprun object,
+    corresponding to a neutral charge state for the structure.
+    """
+    from pymatgen.io.vasp.inputs import POTCAR_STATS_PATH
+
+    potcar_summary_stats = loadfn(POTCAR_STATS_PATH)  # for auto-charge determination
+
+    nelect = None
+    if not skip_potcar_init:
+        with contextlib.suppress(Exception):  # try determine charge without POTCARs first:
+            grouped_symbols = [list(group) for key, group in itertools.groupby(vasprun.atomic_symbols)]
+
+            for trial_functional in ["PBE_64", "PBE_54", "PBE_52", "PBE", potcar_summary_stats.keys()]:
+                if all(
+                    potcar_summary_stats[trial_functional].get(
+                        vasprun.potcar_spec[i]["titel"].replace(" ", ""), False
+                    )
+                    for i in range(len(grouped_symbols))
+                ):
+                    break
+
+            nelect = sum(  # this is always the NELECT for the bulk
+                np.array([len(i) for i in grouped_symbols])
+                * np.array(
+                    [
+                        potcar_summary_stats[trial_functional][
+                            vasprun.potcar_spec[i]["titel"].replace(" ", "")
+                        ][0]["ZVAL"]
+                        for i in range(len(grouped_symbols))
+                    ]
+                )
+            )
+
+    if nelect is not None:
+        return nelect
+
+    # else try reverse engineer NELECT using DefectDictSet
+    from doped.vasp import DefectDictSet
+
+    potcar_symbols = [titel.split()[1] for titel in vasprun.potcar_symbols]
+    potcar_settings = {symbol.split("_")[0]: symbol for symbol in potcar_symbols}
+    with warnings.catch_warnings():  # ignore POTCAR warnings if not available
+        warnings.simplefilter("ignore", UserWarning)
+        return DefectDictSet(
+            vasprun.structures[-1],
+            charge_state=0,
+            user_potcar_settings=potcar_settings,
+        ).nelect
+
+
+def get_interstitial_site_and_orientational_degeneracy(
+    interstitial_defect_entry: DefectEntry, dist_tol: float = 0.15
+) -> int:
+    """
+    Get the combined site and orientational degeneracy of an interstitial
+    defect entry.
+
+    The standard approach of using ``_get_equiv_sites()`` for interstitial
+    site multiplicity and then ``point_symmetry_from_defect_entry()`` &
+    ``get_orientational_degeneracy`` for symmetry/orientational degeneracy
+    is preferred (as used in the ``DefectParser`` code), but alternatively
+    this function can be used to compute the product of the site and
+    orientational degeneracies.
+
+    This is done by determining the number of equivalent sites in the bulk
+    supercell for the given interstitial site (from defect_supercell_site),
+    which gives the combined site and orientational degeneracy `if` there
+    was no relaxation of the bulk lattice atoms. This matches the true
+    combined degeneracy in most cases, except for split-interstitial type
+    defects etc, where this would give an artificially high degeneracy
+    (as, for example, the interstitial site is automatically assigned to
+    one of the split-interstitial atoms and not the midpoint, giving a
+    doubled degeneracy as it considers the two split-interstitial sites as
+    two separate (degenerate) interstitial sites, instead of one).
+    This is counteracted by dividing by the number of sites which are present
+    in the defect supercell (within a distance tolerance of dist_tol in Å)
+    with the same species, ensuring none of the predicted `different`
+    equivalent sites are actually `included` in the defect structure.
+
+    Args:
+        interstitial_defect_entry: DefectEntry object for the interstitial
+            defect.
+        dist_tol: distance tolerance in Å for determining equivalent sites.
+
+    Returns:
+        combined site and orientational degeneracy of the interstitial defect
+        entry (int).
+    """
+    from doped.utils.symmetry import _get_all_equiv_sites
+
+    if interstitial_defect_entry.bulk_entry is None:
+        raise ValueError(
+            "bulk_entry must be set for interstitial_defect_entry to determine the site and orientational "
+            "degeneracies! (i.e. must be a parsed DefectEntry)"
+        )
+    equiv_sites = _get_all_equiv_sites(
+        _get_defect_supercell_bulk_site_coords(interstitial_defect_entry),
+        _get_bulk_supercell(interstitial_defect_entry),
+    )
+    equiv_sites_array = np.array([site.frac_coords for site in equiv_sites])
+    defect_supercell_sites_of_same_species_array = np.array(
+        [
+            site.frac_coords
+            for site in _get_defect_supercell(interstitial_defect_entry)
+            if site.specie.symbol == interstitial_defect_entry.defect.site.specie.symbol
+        ]
+    )
+
+    distance_matrix = np.linalg.norm(
+        np.dot(
+            pbc_diff(defect_supercell_sites_of_same_species_array[:, None], equiv_sites_array),
+            _get_bulk_supercell(interstitial_defect_entry).lattice.matrix,
+        ),
+        axis=-1,
+    )
+
+    return len(equiv_sites) // len(distance_matrix[distance_matrix < dist_tol])
+
+
+def get_orientational_degeneracy(
+    defect_entry: Optional[DefectEntry] = None,
+    relaxed_point_group: Optional[str] = None,
+    bulk_site_point_group: Optional[str] = None,
+    bulk_symm_ops: Optional[list] = None,
+    defect_symm_ops: Optional[list] = None,
+    symprec: float = 0.2,
+    defect_type: Optional[Union[DefectType, str]] = None,
+) -> float:
+    r"""
+    Get the orientational degeneracy factor for a given `relaxed` DefectEntry,
+    by supplying either the DefectEntry object or the bulk-site & relaxed
+    defect point group symbols (e.g. "Td", "C3v" etc).
+
+    If a DefectEntry is supplied (and the point group symbols are not),
+    this is computed by determining the `relaxed` defect point symmetry and the
+    (unrelaxed) bulk site symmetry, and then getting the ratio of
+    their point group orders (equivalent to the ratio of partition
+    functions or number of symmetry operations (i.e. degeneracy)).
+
+    For interstitials, the bulk site symmetry corresponds to the
+    point symmetry of the interstitial site with `no relaxation
+    of the host structure`, while for vacancies/substitutions it is
+    simply the symmetry of their corresponding bulk site.
+    This corresponds to the point symmetry of ``DefectEntry.defect``,
+    or ``calculation_metadata["bulk_site"]/["unrelaxed_defect_structure"]``.
+
+    Note: This tries to use the defect_entry.defect_supercell to determine
+    the `relaxed` site symmetry. However, it should be noted that this is not
+    guaranteed to work in all cases; namely for non-diagonal supercell
+    expansions, or sometimes for non-scalar supercell expansion matrices
+    (e.g. a 2x1x2 expansion)(particularly with high-symmetry materials)
+    which can mess up the periodicity of the cell. ``doped`` tries to automatically
+    check if this is the case, and will warn you if so.
+
+    This can also be checked by using this function on your doped `generated` defects:
+
+    .. code-block:: python
+
+        from doped.generation import get_defect_name_from_entry
+        for defect_name, defect_entry in defect_gen.items():
+            print(defect_name, get_defect_name_from_entry(defect_entry, relaxed=False),
+                  get_defect_name_from_entry(defect_entry), "\n")
+
+    And if the point symmetries match in each case, then using this function on your
+    parsed `relaxed` DefectEntry objects should correctly determine the final relaxed
+    defect symmetry (and orientational degeneracy) - otherwise periodicity-breaking
+    prevents this.
+
+    If periodicity-breaking prevents auto-symmetry determination, you can manually
+    determine the relaxed defect and bulk-site point symmetries, and/or orientational
+    degeneracy, from visualising the structures (e.g. using VESTA)(can use
+    ``get_orientational_degeneracy`` to obtain the corresponding orientational
+    degeneracy factor for given defect/bulk-site point symmetries) and setting the
+    corresponding values in the
+    ``calculation_metadata['relaxed point symmetry']/['bulk site symmetry']`` and/or
+    ``degeneracy_factors['orientational degeneracy']`` attributes.
+    Note that the bulk-site point symmetry corresponds to that of ``DefectEntry.defect``,
+    or equivalently ``calculation_metadata["bulk_site"]/["unrelaxed_defect_structure"]``,
+    which for vacancies/substitutions is the symmetry of the corresponding bulk site,
+    while for interstitials it is the point symmetry of the `final relaxed` interstitial
+    site when placed in the (unrelaxed) bulk structure.
+    The degeneracy factor is used in the calculation of defect/carrier concentrations
+    and Fermi level behaviour (see e.g. doi.org/10.1039/D2FD00043A &
+    doi.org/10.1039/D3CS00432E).
+
+    Args:
+        defect_entry (DefectEntry): DefectEntry object. (Default = None)
+        relaxed_point_group (str): Point group symmetry (e.g. "Td", "C3v" etc)
+            of the `relaxed` defect structure, if already calculated / manually
+            determined. Default is None (automatically calculated by doped).
+        bulk_site_point_group (str): Point group symmetry (e.g. "Td", "C3v" etc)
+            of the defect site in the bulk, if already calculated / manually
+            determined. For vacancies/substitutions, this should match the site
+            symmetry label from ``doped`` when generating the defect, while for
+            interstitials it should be the point symmetry of the `final relaxed`
+            interstitial site, when placed in the bulk structure.
+            Default is None (automatically calculated by doped).
+        bulk_symm_ops (list):
+            List of symmetry operations of the defect_entry.bulk_supercell
+            structure (used in determining the `unrelaxed` bulk site symmetry), to
+            avoid re-calculating. Default is None (recalculates).
+        defect_symm_ops (list):
+            List of symmetry operations of the defect_entry.defect_supercell
+            structure (used in determining the `relaxed` point symmetry), to
+            avoid re-calculating. Default is None (recalculates).
+        symprec (float):
+            Symmetry tolerance for spglib. Default is 0.2, which is larger than
+            that used for only unrelaxed structures in doped (0.01), to account for
+            residual structural noise in relaxed supercells. You may want to adjust
+            for your system (e.g. if there are very slight octahedral distortions etc).
+        defect_type (DefectType or str):
+            The type of defect (e.g. Vacancy/"vacancy", Substitution/"substitution",
+            Interstitial/"interstitial") to check if the output orientational
+            degeneracy is reasonable (i.e. can only be less than 1 for interstitials).
+            Default is None (no check).
+
+    Returns:
+        float: orientational degeneracy factor for the defect.
+    """
+    from doped.utils.symmetry import group_order_from_schoenflies, point_symmetry_from_defect_entry
+
+    if defect_entry is None:
+        if relaxed_point_group is None or bulk_site_point_group is None:
+            raise ValueError(
+                "Either the DefectEntry or both defect and bulk site point group symbols must be "
+                "provided for doped to determine the orientational degeneracy! "
+            )
+
+    elif defect_entry.bulk_entry is None:
+        raise ValueError(
+            "bulk_entry must be set for defect_entry to determine the (relaxed) orientational degeneracy! "
+            "(i.e. must be a parsed DefectEntry)"
+        )
+
+    else:
+        defect_type = defect_entry.defect.defect_type
+
+    if relaxed_point_group is None:
+        # this will throw warning if auto-detected that supercell breaks trans symmetry
+        relaxed_point_group = point_symmetry_from_defect_entry(
+            defect_entry,  # type: ignore
+            symm_ops=defect_symm_ops,  # defect not bulk symm_ops
+            symprec=symprec,
+            relaxed=True,  # relaxed
+        )
+
+    if bulk_site_point_group is None:
+        bulk_site_point_group = point_symmetry_from_defect_entry(
+            defect_entry,  # type: ignore
+            symm_ops=bulk_symm_ops,  # bulk not defect symm_ops
+            symprec=symprec,  # same symprec as relaxed_point_group for consistency
+            relaxed=False,  # unrelaxed
+        )
+
+    orientational_degeneracy = group_order_from_schoenflies(
+        bulk_site_point_group
+    ) / group_order_from_schoenflies(relaxed_point_group)
+
+    if orientational_degeneracy < 1 and not (
+        defect_type == DefectType.Interstitial
+        or (isinstance(defect_type, str) and defect_type.lower() == "interstitial")
+    ):
+        raise ValueError(
+            f"From the input/determined point symmetries, an orientational degeneracy factor of "
+            f"{orientational_degeneracy} is predicted, which is less than 1, which is not reasonable for "
+            f"vacancies/substitutions, indicating an error in the symmetry determination!"
+        )
+
+    return orientational_degeneracy
+
+
+def _get_bulk_supercell(defect_entry: DefectEntry):
+    if hasattr(defect_entry, "bulk_supercell") and defect_entry.bulk_supercell:
+        return defect_entry.bulk_supercell
+
+    if (
+        hasattr(defect_entry, "bulk_entry")
+        and defect_entry.bulk_entry
+        and hasattr(defect_entry.bulk_entry, "structure")
+        and defect_entry.bulk_entry.structure
+    ):
+        return defect_entry.bulk_entry.structure
+
+    return None
+
+
+def _get_defect_supercell(defect_entry: DefectEntry):
+    if hasattr(defect_entry, "defect_supercell") and defect_entry.defect_supercell:
+        return defect_entry.defect_supercell
+
+    if (
+        hasattr(defect_entry, "sc_entry")
+        and defect_entry.sc_entry
+        and hasattr(defect_entry.sc_entry, "structure")
+        and defect_entry.sc_entry.structure
+    ):
+        return defect_entry.sc_entry.structure
+
+    return None
+
+
+def _get_unrelaxed_defect_structure(defect_entry: DefectEntry):
+    if (
+        hasattr(defect_entry, "calculation_metadata")
+        and defect_entry.calculation_metadata
+        and "unrelaxed_defect_structure" in defect_entry.calculation_metadata
+    ):
+        return defect_entry.calculation_metadata["unrelaxed_defect_structure"]
+
+    bulk_supercell = _get_bulk_supercell(defect_entry)
+
+    if bulk_supercell is not None:
+        from doped.analysis import defect_from_structures
+
+        (
+            _defect,
+            _defect_site,  # _relaxed_ defect site in supercell (if substitution/interstitial)
+            _defect_site_in_bulk,  # bulk site for vacancies/substitutions, relaxed defect site
+            # w/interstitials
+            _defect_site_index,
+            _bulk_site_index,
+            _guessed_initial_defect_structure,
+            unrelaxed_defect_structure,
+            _bulk_voronoi_node_dict,
+        ) = defect_from_structures(
+            bulk_supercell,
+            _get_defect_supercell(defect_entry),
+            return_all_info=True,
+        )
+        return unrelaxed_defect_structure
+
+    return None
+
+
+def _get_defect_supercell_bulk_site_coords(defect_entry: DefectEntry, relaxed=True):
+    sc_defect_frac_coords = defect_entry.sc_defect_frac_coords
+    site = None
+
+    if not relaxed and hasattr(defect_entry, "calculation_metadata") and defect_entry.calculation_metadata:
+        site = defect_entry.calculation_metadata.get("bulk_site")
+    if sc_defect_frac_coords is None and site is None:
+        site = _get_defect_supercell_site(defect_entry)
+    if site is not None:
+        sc_defect_frac_coords = site.frac_coords
+
+    return sc_defect_frac_coords
+
+
+def _get_defect_supercell_site(defect_entry: DefectEntry):
+    if hasattr(defect_entry, "defect_supercell_site") and defect_entry.defect_supercell_site:
+        return defect_entry.defect_supercell_site
+
+    if defect_entry.sc_defect_frac_coords is not None:
+        return PeriodicSite(
+            defect_entry.defect.site.species,
+            defect_entry.sc_defect_frac_coords,
+            _get_defect_supercell(defect_entry).lattice,
+        )
+
+    return None
