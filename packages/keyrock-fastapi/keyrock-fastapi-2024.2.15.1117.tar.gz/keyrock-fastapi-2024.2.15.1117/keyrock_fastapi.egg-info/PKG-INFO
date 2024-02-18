@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: keyrock-fastapi
+Version: 2024.2.15.1117
+Requires-Dist: keyrock_core
+Requires-Dist: fastapi[all]==0.109.2

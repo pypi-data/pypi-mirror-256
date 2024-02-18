@@ -1,0 +1,2 @@
+keyrock_core
+fastapi[all]==0.109.2
