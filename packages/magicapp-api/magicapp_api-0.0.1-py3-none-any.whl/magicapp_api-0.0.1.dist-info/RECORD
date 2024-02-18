@@ -1,0 +1,10 @@
+magicapp_api/__init__,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magicapp_api/api_calls.py,sha256=lXixTyWwn505ViSoX5QLHkUmaxnp8KcA1fgfmOThyho,2073
+magicapp_api/api_wrapper.py,sha256=7ybrFIH8k2PP-281Z_tKcQeEjQHy5AZOwg7FHb4Nwg0,6371
+magicapp_api/data_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magicapp_api/data_models/api_dtos.py,sha256=_ijHhtNlBd66nhVbEeumAbdokO9p_tDvvC25cHZzj8E,14014
+magicapp_api/data_models/data_classes.py,sha256=XtWV7XygQA4zsy1tUrLPWs3iz9TkaHpRRxrbWc-bH3A,2047
+magicapp_api-0.0.1.dist-info/METADATA,sha256=gQ390qnmGhxMVU5cxRZ_qF-Ouh_izqziFBSsF2ThseM,866
+magicapp_api-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+magicapp_api-0.0.1.dist-info/licenses/LICENSE,sha256=Zfys_lN80TcC0-0tHhBqraBA-AizrWGXcnRvAk-lLt4,1062
+magicapp_api-0.0.1.dist-info/RECORD,,
