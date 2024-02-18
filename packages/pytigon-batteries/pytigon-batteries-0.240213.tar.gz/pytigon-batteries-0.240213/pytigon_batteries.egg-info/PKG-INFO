@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: pytigon-batteries
+Version: 0.240213
+Summary: Pytigon library
+Author: Sławomir Chołaj
+Author-email: slawomir.cholaj@gmail.com
+License: LGPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: pytigon
+Requires-Dist: html5lib
+Requires-Dist: Twisted[http2,tls]
+Requires-Dist: redis
+Requires-Dist: channels
+Requires-Dist: channels-redis
+Requires-Dist: daphne
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: duckdb
+Requires-Dist: plotly
+Requires-Dist: svglib
+Requires-Dist: graphviz
+Requires-Dist: reportlab
+Requires-Dist: pypdf
+Requires-Dist: easy_thumbnails
+Requires-Dist: croniter
+Requires-Dist: django-polymorphic
+Requires-Dist: django-filter
+Requires-Dist: django_compressor
+Requires-Dist: django-mptt
+Requires-Dist: django-filer
+Requires-Dist: django_redis
+Requires-Dist: django-log-viewer
+Requires-Dist: django_python3_ldap
+Requires-Dist: django-sql-explorer
+Requires-Dist: django-allauth
+Requires-Dist: django-oauth-toolkit
+Requires-Dist: django-guardian
+Requires-Dist: djangorestframework
+Requires-Dist: django-pwa-webpush
+Requires-Dist: graphene
+Requires-Dist: graphene_django
+Requires-Dist: django-graphql-jwt
+Requires-Dist: djangorestframework
+Requires-Dist: drf-yasg
+Requires-Dist: fs.sshfs
+Requires-Dist: psutil
+Requires-Dist: netifaces2
+Requires-Dist: pygments
+Requires-Dist: PyYAML
+Requires-Dist: uritemplate
+Requires-Dist: llvmlite
+Requires-Dist: numba
+Requires-Dist: ldap3
+Requires-Dist: gql
+Requires-Dist: waitress
+Requires-Dist: uvicorn[standard]
+Requires-Dist: dulwich
+Requires-Dist: cffi
+Requires-Dist: wasmtime
+Requires-Dist: ziglang
+Requires-Dist: xonsh
+Requires-Dist: httpie
+Requires-Dist: autobahn
+Requires-Dist: pyopenssl
