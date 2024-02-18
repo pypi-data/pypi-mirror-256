@@ -1,0 +1,4 @@
+pulpcore<3.20,>=3.17.0
+pyjwkest~=1.4.0
+pyjwt[crypto]~=1.7.1
+url-normalize~=1.4.2
