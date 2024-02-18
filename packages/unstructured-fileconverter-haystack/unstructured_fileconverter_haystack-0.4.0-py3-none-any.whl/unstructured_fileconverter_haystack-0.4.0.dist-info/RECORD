@@ -1,0 +1,6 @@
+haystack_integrations/components/converters/unstructured/__init__.py,sha256=vAglWLTjs6I7wsx7pgkJToY-83hh_YlZxuXUauiMJfE,200
+haystack_integrations/components/converters/unstructured/converter.py,sha256=vbWzYsTlIdwNAklvcUnlUjSfQqGN4EwA5kVm76HABJQ,9115
+unstructured_fileconverter_haystack-0.4.0.dist-info/METADATA,sha256=1sdr1MbqvYxIwIRBZz4mwjlTZQNx5qbdu-O05zpyMBg,2212
+unstructured_fileconverter_haystack-0.4.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+unstructured_fileconverter_haystack-0.4.0.dist-info/licenses/LICENSE,sha256=_M2kulivnaiTHiW-5CRlZrPmH47tt04pBgAgeDvfYi4,11342
+unstructured_fileconverter_haystack-0.4.0.dist-info/RECORD,,
