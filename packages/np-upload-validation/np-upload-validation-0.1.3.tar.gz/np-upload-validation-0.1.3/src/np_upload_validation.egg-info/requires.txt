@@ -1,0 +1,5 @@
+pydantic>=2.6.1
+fabric>=3.2.2
+npc-lims==0.1.110
+npc-sessions==0.0.179
+numpy>=1.26.4
