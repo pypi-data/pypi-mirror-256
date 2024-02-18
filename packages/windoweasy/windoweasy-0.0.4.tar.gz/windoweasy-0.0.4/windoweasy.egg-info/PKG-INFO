@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: windoweasy
+Version: 0.0.4
+Summary: windoweasy is a simple and user-friendly library built on top of Pygame, providing easy window creation and basic drawing functions for game development and graphical applications
+Home-page: https://pypi.org/user/INTERJL/
+Author: INTERJL
+Author-email: makar.arapov.real@gmail.ru
+Project-URL: GitHub, https://github.com/INTERJL
+Keywords: window screen games game
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# in future... #
+-----------
+### versions ###
+-----------
+0.0.4 - palette update (signatures below), added contacts, updated email
+<br>
+0.0.3 - fixed the error in automatically opening the palette, fixed the README.md file
+<br>
+0.0.2 - fixed library import error
+<br>
+0.0.1 - start
+<br>
