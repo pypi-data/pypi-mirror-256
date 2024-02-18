@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+decisiontree_lite/__init__.py
+decisiontree_lite/decisiontree.py
+decisiontree_lite/evaluation.py
+decisiontree_lite/main.py
+decisiontree_lite/utilities.py
+decisiontree_lite.egg-info/PKG-INFO
+decisiontree_lite.egg-info/SOURCES.txt
+decisiontree_lite.egg-info/dependency_links.txt
+decisiontree_lite.egg-info/top_level.txt
