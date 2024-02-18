@@ -1,0 +1,2 @@
+[console_scripts]
+packages = packages.auto_import_path:main

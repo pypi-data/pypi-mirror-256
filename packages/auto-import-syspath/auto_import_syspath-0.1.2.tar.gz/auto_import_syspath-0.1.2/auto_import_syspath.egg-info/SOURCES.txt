@@ -1,0 +1,8 @@
+setup.py
+auto_import_syspath.egg-info/PKG-INFO
+auto_import_syspath.egg-info/SOURCES.txt
+auto_import_syspath.egg-info/dependency_links.txt
+auto_import_syspath.egg-info/entry_points.txt
+auto_import_syspath.egg-info/top_level.txt
+packages/__init__.py
+packages/auto_import_path.py
