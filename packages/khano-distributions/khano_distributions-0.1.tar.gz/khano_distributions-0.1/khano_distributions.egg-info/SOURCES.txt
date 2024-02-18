@@ -1,0 +1,10 @@
+setup.py
+khano_distributions/Binomialdistribution.py
+khano_distributions/Gaussiandistribution.py
+khano_distributions/Generaldistribution.py
+khano_distributions/__init__.py
+khano_distributions.egg-info/PKG-INFO
+khano_distributions.egg-info/SOURCES.txt
+khano_distributions.egg-info/dependency_links.txt
+khano_distributions.egg-info/not-zip-safe
+khano_distributions.egg-info/top_level.txt
