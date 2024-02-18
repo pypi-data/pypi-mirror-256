@@ -1,0 +1,4 @@
+Authors
+=======
+
+The adapter was initially developed by Fernando Penaherrera and updated by Danila Valko.
