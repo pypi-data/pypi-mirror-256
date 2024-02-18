@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: brightnessUI
+Version: 1.1
+Summary: A simple UI to change screen backlight for ubuntu
+Home-page: https://gitee.com/shu-peixuan/brightnessUI.git
+Author: Peixuan Shu
+Author-email: shupeixuan@qq.com
+License: BSD
+Keywords: A simple UI to tune screen backlight for ubuntu
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+
+# brightnessUI
+
+## Introduction
+A simple UI to change screen backlight (brightness) for Ubuntu20.
+
+Purpose: An alternative for those computers with system brightness slider not working. This UI changes the backlight by modifying `/sys/class/backlight/xxx/brightness` directly, where `xxx` differs according to your computer.
+
+![img](pictures/ui.png)
+
+## Install
+
+- ### Method1 (From source)
+
+
+```bash
+git clone https://gitee.com/shu-peixuan/brightnessUI.git
+cd brightnessUI/install
+./install.sh
+```
+- ### Method2 (From PyPI)
+
+May NOT be updated:
+
+```bash
+pip3 install brightnessUI # from PyPI
+brightness-ui-install # install desktop and application menu shortcuts
+```
+
+To uninstall:
+
+```bash
+pip3 uninstall brightnessUI
+```
+
+## Usage
+
+```bash
+brightness-ui
+```
+
+Or click the desktop icon on the Desktop or Application Menu. 
+
+It is needed to allow launching for the desktop icon.
+
+![img](pictures/allow_lauching.png)
+
+It is recommended to add the ui in the application menu to favorites.
+
+![img](pictures/add_to_favorites.png)
+
+## Develop
+
+Upload on PyPI:
+
+```bash
+sudo apt install twine -y
+python3 setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
+
