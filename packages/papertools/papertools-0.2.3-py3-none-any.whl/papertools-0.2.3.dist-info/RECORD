@@ -1,0 +1,11 @@
+papertools/__init__.py,sha256=hFos9Z5poeU4njZIUrYOTwOYg9SBkKSJd_SpoexHtME,792
+papertools/discord.py,sha256=sNkfYQgeFA21V88Z0LSjkqtRIqMsxZ_99XDQcITeJlw,5716
+papertools/gittools.py,sha256=yk55JA6YP4EFZUCFlf5dTwAMAAw62f3U-gIfVhWH23Y,399
+papertools/num_methods.py,sha256=b3SfvwZzF5UPuQD94nxyuFC0lzFwxSG2OuQfW1O-0Ts,5869
+papertools/paginator.py,sha256=418DVNu3lezPolNPzUpsNqH-U2P1wFN8xDQV5EYPXlw,14676
+papertools/timetools.py,sha256=GbYFgV-u1hjpoXYOE7po1vJXd5U9p374P7JCoz9Xq2U,3419
+papertools-0.2.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+papertools-0.2.3.dist-info/METADATA,sha256=aZacGKakHKwhqGlzVIHL1wTUxqRA9xJIMI7abal72fg,2941
+papertools-0.2.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+papertools-0.2.3.dist-info/top_level.txt,sha256=vgQsuLUG7xB5bKPNatcIGPJOD3d0XG7PIrLLHpnP5-k,11
+papertools-0.2.3.dist-info/RECORD,,
