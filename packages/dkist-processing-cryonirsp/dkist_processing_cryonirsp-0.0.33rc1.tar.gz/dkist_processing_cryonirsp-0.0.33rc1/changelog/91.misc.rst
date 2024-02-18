@@ -1,0 +1,2 @@
+Replace overly chatty APM spans in MakeMovieFrames task with `logger` statements. These spans recorded map scan and step numbers, which
+are both unbounded.

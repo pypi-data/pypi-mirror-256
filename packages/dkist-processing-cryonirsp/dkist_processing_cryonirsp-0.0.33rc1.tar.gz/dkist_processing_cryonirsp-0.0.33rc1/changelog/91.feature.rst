@@ -1,0 +1,2 @@
+SP movie frames now show the 2D spectra for each L1 frame instead of stacked slit positions integrated over a wavelength range.
+This means that each spatial step now gets its own movie frame. It is expected that this is a temporary change.
