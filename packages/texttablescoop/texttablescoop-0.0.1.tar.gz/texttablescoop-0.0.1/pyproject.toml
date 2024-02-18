@@ -1,0 +1,16 @@
+[build-system]
+requires = [ "setuptools>=40.6.0", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "texttablescoop"
+version = "0.0.1"
+description = "Library for obtaining and organizing text data from your Project Folders."
+readme = "README.md"
+dependencies = [ "argparse", "argcomplete", "pandas", "xlsx2pandas",]
+[[project.authors]]
+name = "Anton Potapov"
+email = "fgreyeducation@gmail.com"
+
+[project.license]
+file = "LICENSE"
