@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "carium-brewmaster"
+version = "1.21.0"
+description = "Library/utility collection for custom job"
+authors = ["Carium Devops <devops@carium.com>"]
+readme = "README.md"
+packages = [{include="brewmaster"}]
+exclude = ["**/tests"]
+
+[tool.poetry.scripts]
+brewmaster-cli = "brewmaster.cli.main:BrewCli.main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cariutils = "1.15.0"
+docstring-parser = "*"
+Django = "*"
+Jinja2 = "*"
+jq = "*"
+python-dateutil = "*"
+requests = "*"
+responses = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+coverage = "^7.3.2"
+flake8 = "^6.0.0"
+flake8-bugbear = "^23.3.23"
+flake8-isort = "^6.0.0"
+flake8-plugin-utils = "^1.3.2"
+flake8-polyfill = "^1.0.2"
+flake8-return = "^1.2.0"
+nose2 = "^0.12.0"
+pep8 = "^1.7.1"
+pep8-naming = "^0.12.1"
+pyre-check = "^0.9.10"
+responses = "^0.24.0"
+
+[build-system]
+requires=["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+combine_as_imports = true
+include_trailing_comma = true
+known_first_party = [
+    "brewmaster",
+    "cariutils",
+]
+line_length = 120
+lines_after_imports = 2
+multi_line_output = 3
+order_by_type = false
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
