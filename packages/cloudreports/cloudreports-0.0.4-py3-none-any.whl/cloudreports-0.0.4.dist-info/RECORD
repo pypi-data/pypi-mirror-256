@@ -1,0 +1,7 @@
+cloudreports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudreports/client.py,sha256=ca9nuyjGuKyvv1m37Xy5YTU8kzXWZsCr7Ws8eQmYGeQ,3203
+cloudreports/database.py,sha256=DUxprkxAMfwLmqkrjzRu5DwEeYZMRbniUbbE5sT49cQ,16755
+cloudreports-0.0.4.dist-info/METADATA,sha256=5ahB6Lo0Ob5tvNG0f2iUhORT5Tnt7wWo2434U8YWcG8,42904
+cloudreports-0.0.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+cloudreports-0.0.4.dist-info/licenses/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+cloudreports-0.0.4.dist-info/RECORD,,
