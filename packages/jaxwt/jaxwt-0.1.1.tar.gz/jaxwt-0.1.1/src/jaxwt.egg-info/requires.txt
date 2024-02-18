@@ -1,0 +1,8 @@
+PyWavelets
+jax
+jaxlib
+numpy
+
+[jax_cpu]
+jax
+jaxlib
