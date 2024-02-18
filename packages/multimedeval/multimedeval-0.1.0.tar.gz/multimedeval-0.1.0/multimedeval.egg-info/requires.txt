@@ -1,0 +1,13 @@
+torch
+transformers
+datasets>=2.16
+nltk
+torchmetrics
+gdown
+scikit-learn==1.3.2
+statsmodels
+bert_score
+pydicom
+kaggle
+medmnist
+radgraph==0.0.8
