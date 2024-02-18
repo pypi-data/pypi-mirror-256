@@ -1,0 +1,4 @@
+Django<5,>3.2
+django-userservice
+django-user-agents
+mock
