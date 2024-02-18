@@ -1,0 +1,9 @@
+LICENCE.txt
+setup.py
+itss/__init__.py
+itss/fun1.py
+itss/fun2.py
+itss.egg-info/PKG-INFO
+itss.egg-info/SOURCES.txt
+itss.egg-info/dependency_links.txt
+itss.egg-info/top_level.txt
