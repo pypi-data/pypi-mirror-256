@@ -1,0 +1,10 @@
+lbconverter/__init__.py,sha256=f8TNnZUSBEpfAQDc8EbU2i5EbCruh8b8rpKi_St2KsE,52
+lbconverter/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lbconverter/converters/coco_converter.py,sha256=BzWcWG7_-4xoMdppHh8bcrhKGK10-U9xgxEqT9diGgM,271
+lbconverter/converters/labelbox_converter.py,sha256=str2G7bruG3bhqfGy24I08YtLG282rVIqtnZjwinAEQ,6989
+lbconverter/converters/yolo_converter.py,sha256=DaM1jN2uEy5cIIj0FMNxH20auZl4pcYdCyZgjKXUDLw,4098
+lbconverter-0.0.20.dist-info/LICENSE,sha256=25B9D8yacdU8LSCnAS5nzjI5CTCGVrEJ-jX7Nl4P5DE,1061
+lbconverter-0.0.20.dist-info/METADATA,sha256=hVVr_w9yhRatTKQ6_KxDS8DW5Q5uw4VHB3es44h8GZg,468
+lbconverter-0.0.20.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lbconverter-0.0.20.dist-info/top_level.txt,sha256=O2x0rPaVLkJwQ99EXUb_oqZdqUAt6IZiZ2rb7hVX-pQ,12
+lbconverter-0.0.20.dist-info/RECORD,,
