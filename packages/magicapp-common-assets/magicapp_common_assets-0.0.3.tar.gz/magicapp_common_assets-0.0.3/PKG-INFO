@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: magicapp-common-assets
+Version: 0.0.3
+Summary: Common assets used in the MagicAPP GPT project
+Author-email: Anders Vandvik <anders@sanders.technology>, Sander Nordeide <sander@sanders.technology>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.11
+Requires-Dist: pydantic
+Requires-Dist: pyhumps
+Description-Content-Type: text/markdown
+
+# MagicAPP API Wrapper
+
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)

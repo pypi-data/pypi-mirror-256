@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "magicapp-common-assets"
+version = "0.0.3"
+authors = [
+    { name = "Anders Vandvik", email = "anders@sanders.technology" },
+    { name = "Sander Nordeide", email = "sander@sanders.technology" },
+]
+description = "Common assets used in the MagicAPP GPT project"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = ["pydantic", "pyhumps"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/magicapp_common_assets"]
