@@ -1,0 +1,15 @@
+pylogics
+openai
+
+[dev]
+codecov
+mkdocs
+markdown-include
+pre-commit
+pytest
+pytest-cov
+ruff
+tox==3.27.1
+
+[rasa]
+rasa==3.6.16
