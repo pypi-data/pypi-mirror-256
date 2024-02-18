@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dt-python-ilorest-library
+Version: 4.7.0.0
+Summary: iLO Rest Python Library
+Home-page: https://github.com/HewlettPackard/python-ilorest-library
+Author: dlopes7
+Author-email: davidribeirolopes@gmail.com
+License: UNKNOWN
+Keywords: Hewlett Packard Enterprise
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Communications
+License-File: LICENSE
+License-File: LICENSE.md
+License-File: AUTHORS.md
+Requires-Dist: jsonpatch
+Requires-Dist: jsonpath-rw
+Requires-Dist: jsonpointer
+Requires-Dist: urllib3
+Requires-Dist: six
+
+UNKNOWN
+
