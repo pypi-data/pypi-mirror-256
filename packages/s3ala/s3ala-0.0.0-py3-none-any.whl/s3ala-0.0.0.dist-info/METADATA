@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: s3ala
+Version: 0.0.0
+Summary: A basic CLI-based aggregator to extract some very basic metrics from ALB logs stored in an S3 bucket
+Project-URL: Source, https://github.com/uktrade/s3ala
+Author-email: Department for International Trade <sre@digital.trade.gov.uk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# s3ala
+A basic CLI-based aggregator to extract some very basic metrics from ALB logs stored in an S3 bucket
