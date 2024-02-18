@@ -1,0 +1,3 @@
+[console_scripts]
+modal-generate=modal_generate.cli:cli
+
