@@ -1,0 +1,9 @@
+imdb_search/__init__.py,sha256=vUobfJQYOZN1bRJQryRfXIgmSnrGrDZUZRMzgo2lSsc,38
+imdb_search/main.py,sha256=xaEACS_W1_J8XrDNMJSBmtTCCOwcG-ptarX9Czky6-s,42
+search_imdb/__init__.py,sha256=vUobfJQYOZN1bRJQryRfXIgmSnrGrDZUZRMzgo2lSsc,38
+search_imdb/main.py,sha256=xaEACS_W1_J8XrDNMJSBmtTCCOwcG-ptarX9Czky6-s,42
+search_imdb-0.0.2.dist-info/METADATA,sha256=8zyYnAg3jwrkupyNmxtQXevz4r5-NNUX7ettvvy69O0,101
+search_imdb-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+search_imdb-0.0.2.dist-info/entry_points.txt,sha256=helUDp_cGQbgPGGw8GMLXsgKOR3yoinryUPQ2xlbWmk,96
+search_imdb-0.0.2.dist-info/top_level.txt,sha256=8HBYN2-IhV6_FZJzs9Pcbg8K66c8oc8nVHiF-SEiVTo,12
+search_imdb-0.0.2.dist-info/RECORD,,
