@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: nl-ego-cities
+Version: 0.1.1
+Summary: Data for Netherland Cities Coordinates
+Home-page: https://github.com/cheerzhang/NLGeoCities
+Author: L.Z
+Author-email: zhangle@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cheerzhang/NLGeoCities/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas >=0.25.1
+Requires-Dist: numpy >=1.21.5
+
+# NLGeoCities
+
+NLGeoCities is a dataset containing latitude and longitude coordinates for cities in the Netherlands.
+
+## Overview
+
+NLGeoCities provides geographical coordinates for various cities across the Netherlands. This dataset is useful for a wide range of applications, including geographic visualizations, location-based services, and spatial analysis.
+
+## Dataset Structure
+
+The dataset is provided in JSON format and contains the following fields for each city:
+
+- `city`: The name of the city.
+- `latitude`: The latitude coordinate of the city.
+- `longitude`: The longitude coordinate of the city.
+
+Example entry:
+
+```json
+{
+  "Amsterdam": ["lat": 52.3676, "lon": 4.9041]
+}
+
+
