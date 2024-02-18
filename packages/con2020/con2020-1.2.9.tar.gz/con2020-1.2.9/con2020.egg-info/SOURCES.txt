@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+con2020/Model.py
+con2020/Test.py
+con2020/_Analytic.py
+con2020/_Integrate.py
+con2020/_Switcher.py
+con2020/__init__.py
+con2020/lmic.py
+con2020.egg-info/PKG-INFO
+con2020.egg-info/SOURCES.txt
+con2020.egg-info/dependency_links.txt
+con2020.egg-info/requires.txt
+con2020.egg-info/top_level.txt
+con2020/__data/testdata.sav
