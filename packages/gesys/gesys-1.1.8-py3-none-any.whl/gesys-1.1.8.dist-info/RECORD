@@ -1,0 +1,14 @@
+Gesys/__init__.py,sha256=57zFJneUgOdCA0ZKEsD-X4mLYkhl0C9U30pi0P4pF3M,1401
+Gesys/gesys.py,sha256=fWaPB7fobo9gSSJPyPcIkLoveqIrSeNLsQjm0VrrGpU,5074
+Gesys/gestures/__init__.py,sha256=Gm0NmYGvgPe99Q6EfNPCw9oyxVkWqQTMdm1bLpI6xyE,739
+Gesys/gestures/mover.py,sha256=yTQA9wwGN0frh1Oq9gXu7GNuuiBOMyKQkfqTjcH84u0,10043
+Gesys/gestures/staticGesturesAnalyzer.py,sha256=gkpQEqsYQXZlKG6iCCyMxpndDMr1m_ZF1ejWMOXsNuE,11032
+Gesys/gestures/static_model_enc.onnx,sha256=PWZk2yJg7SVD6PTu4XsUn3prxZHG4Qgq3dgzcuZiQ4o,50672
+Gesys/landmarks/__init__.py,sha256=P_whvyURbOgRrok0lI28HmmdC6xle-zIKyBTjFb_ao8,759
+Gesys/landmarks/staticLandmarker.py,sha256=_GIPQKfs70ZRhjKf6CC9qVKULr-AbMtCEB356Jy5hPE,11641
+Gesys/pyarmor_runtime_000000/__init__.py,sha256=R8Ghih1i22HQ7NIz2hnyksUlJg3D2txLP-erzjelcyI,103
+Gesys/pyarmor_runtime_000000/pyarmor_runtime.pyd,sha256=GZgQyqkZFI9DNZBiL_VUPss7b1wK3wiQTPgZzBUSo7A,620032
+gesys-1.1.8.dist-info/METADATA,sha256=x1X-qBoK0hADHPAwNyckfzS5LK8AXR9PRkeliMPRrpA,685
+gesys-1.1.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gesys-1.1.8.dist-info/top_level.txt,sha256=G591xnuDl7jWDX4x2Jv2ReDeTSAYyPiw4_ZBA6NaRAw,6
+gesys-1.1.8.dist-info/RECORD,,
