@@ -1,0 +1,9 @@
+cdk8s_awscdk_resolver/__init__.py,sha256=VJEtpWT7eW7jOfT4mOpqhIUjhknHxwqXTPJzw4yZabM,6660
+cdk8s_awscdk_resolver/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk8s_awscdk_resolver/_jsii/__init__.py,sha256=GOjeZNu4m3FlGptFu1QIBhpV1hbk3edXhxMJjmwIuJQ,438
+cdk8s_awscdk_resolver/_jsii/awscdk-resolver@0.0.59.jsii.tgz,sha256=aiJ_SRbmyx6AQQRB6DY8zuH7AUZq_kZ5mTG9UjYLl88,988800
+cdk8s_awscdk_resolver-0.0.59.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk8s_awscdk_resolver-0.0.59.dist-info/METADATA,sha256=WVTfJ_0rMblCHRqQpPu_bfc45fokoiULkLayTwTThvg,6431
+cdk8s_awscdk_resolver-0.0.59.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cdk8s_awscdk_resolver-0.0.59.dist-info/top_level.txt,sha256=LGSrmEbqdwZMHUHFITZ6GZ8ZvJe0mzRvtI6DsDfo6Po,22
+cdk8s_awscdk_resolver-0.0.59.dist-info/RECORD,,
