@@ -1,0 +1,11 @@
+rf_azure_sync/__init__.py,sha256=SsXW3gDE6o1uMia4BUzRHkNTDgvhkWwfRqgWoQqz09s,29
+rf_azure_sync/rf_azure_sync.py,sha256=mPdv0_7iHSMm2O0WCobp7R1Vz3Crs3Z395atKv8F3NU,2474
+rf_azure_sync/rf_azure_sync_get.py,sha256=jLyxD9UZV67XMAJH70zvEBOkg8bwBmEI_Y4YwEEmBBM,13215
+rf_azure_sync/rf_azure_sync_patch.py,sha256=yXGazY3XguUMx1WeGGKLkOlfBboyF1W8Wz02m9w7TTw,15637
+rf_azure_sync/sync_utils.py,sha256=3NVDkF0ffgVdwzBpZhUtODwx4OtG5tklc2KvhOm4UuI,7088
+rf_azure_sync-1.0.0.dist-info/LICENSE,sha256=JXQUOlYWCB7zEaptSJMb5g08bCAuQSkb2JhZfKfGlZY,1084
+rf_azure_sync-1.0.0.dist-info/METADATA,sha256=2UKXB4smsWq40PjJ8o9jRs8KzbtVb_ZUztgh9hcLGWs,3450
+rf_azure_sync-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rf_azure_sync-1.0.0.dist-info/entry_points.txt,sha256=2xCDPH1fhntLt9u0pZwyKkHPFml_ZGMC9kYluPQW4WI,76
+rf_azure_sync-1.0.0.dist-info/top_level.txt,sha256=gakDY2fyXGcBg7DGCkkKEVYg46bUkgQtfGxc8_lNZC0,14
+rf_azure_sync-1.0.0.dist-info/RECORD,,
