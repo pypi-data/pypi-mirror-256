@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: dispatch-functions
+Version: 0.0.6
+Summary: Python SDK for Dispatch Stateful Functions
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: grpcio>=1.60.0
+Requires-Dist: protobuf>=4.24.0
+Requires-Dist: types-protobuf>=4.24.0.20240129
+Requires-Dist: grpc-stubs>=1.53.0.5
+Requires-Dist: http-message-signatures>=0.4.4
+Provides-Extra: dev
+Requires-Dist: black>=24.1.0; extra == "dev"
+Requires-Dist: isort>=5.13.2; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Requires-Dist: fastapi>=0.109.0; extra == "dev"
+Requires-Dist: httpx>=0.26.0; extra == "dev"
+Requires-Dist: coverage>=7.4.1; extra == "dev"
+Requires-Dist: requests>=2.31.0; extra == "dev"
+Requires-Dist: types-requests>=2.31.0.20240125; extra == "dev"
+
+# Dispatch Python SDK
+
+## Install
+
+```
+make install
+```
