@@ -1,0 +1,86 @@
+![logo](https://github.com/Distructor2404/BC-en-de-coder/blob/main/BC.gif?raw=true)
+
+# **BC-EnDeCoder**
+
+BC-EnDeCoder is a Python library that provides a secure way to encode and decode data for use with Large Language Models (LLM). The library allows you to protect sensitive information by passing a fake dummy value, which is then encoded and decoded to and from its original form after receiving a response from the LLM.
+
+## Features
+
+- **Secure Encoding and Decoding:** Protect your sensitive data by encoding it with a fake dummy value and decoding it back to the original form after interacting with an LLM.
+
+- **Easy Integration:** Simple and easy-to-use functions for encoding and decoding data, making it convenient to integrate into your projects.
+
+- **Customizable Encoding Parameters:** Fine-tune the encoding process with customizable parameters to suit your specific use case.
+
+## Installation
+
+To install BC-EnDeCoder, you can use the following pip command:
+
+```bash 
+pip install bc-en-de-coder 
+```
+
+
+## How it Works
+
+BC-EnDeCoder facilitates a secure interaction with LLMs through a three-step process:
+
+- **Encoding with a Dummy Value:** Sensitive data is encoded using a fake value, providing an added layer of security during transmission to an LLM.
+
+- **Interaction with LLM:** The encoded data is then passed to the LLM for analysis or processing.
+
+- **Decoding the Response:** Upon receiving the LLM's response, BC-EnDeCoder decodes it, revealing the original information without compromising its security.
+
+### Encoding and Decoding values in string
+
+```python
+from bc_endecoder.replacing import Decoder, Encoder
+
+text = '''
+        This is a dummy text with value 200,100,150,250.
+        You want to protect these values. We can do so using encode_str() and decode_str() methods.
+        '''
+
+encoded_text,encoding = Encoder().encode_str(text)  #encode_str takes 1 paramter which is the text and returns the encoded text and encoding
+print(encoded_text)
+
+## encoded_text can be passed to GPT and after getting back the response, it will be decoded using decode_str() method
+
+original_text = Decoder().decode_str(encoded_text,encoding)  #decode_str takes 2 parameters which are the encoded_text and encoding and returns the original text
+print(original_text)
+```
+
+###
+### Encoding and Decoding values in Dataframe
+
+```python
+from bc_endecoder.replacing import Decoder, Encoder
+import pandas as pd
+import numpy as np
+
+#protect all the values in the dataframe
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
+    'Age': [25, 30, 22, 35, 28],
+    'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago', 'Miami'],
+    'Salary': [60000, 80000, 55000, 90000, 70000]
+        }
+df = pd.DataFrame(data)
+
+encoded_df,encoding = Encoder().encode_df(df)  #encode_df takes 1 paramter which is Dataframe and returns the encoded dataframe and encodings
+print(encoded_df)
+
+## encoded_df can be passed to GPT and after getting back the response, it will be decoded using decode_df() method
+
+original_df = Decoder().decode_df(encoded_df,encoding)  #decode_str takes 2 parameters which are the encoded_df and encoding and returns the original df
+print(original_df)
+```
+
+
+### Encoding and Decoding values with a ratio in Dataframe or String
+
+
+
+
+
+
