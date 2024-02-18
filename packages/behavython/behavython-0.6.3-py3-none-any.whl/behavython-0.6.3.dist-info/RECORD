@@ -1,0 +1,15 @@
+behavython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+behavython/behavython_back.py,sha256=mawBarNh2dIa6d1jcEMGrM2xjw7D1ksumREziQ6OsNA,44325
+behavython/behavython_front.py,sha256=b_taeo6gJqyfQGOUAy2H20rdK9fQ1LDeCbYLXZmH_9w,13971
+behavython/behavython_gui.py,sha256=TKs3u_mVkwuKEcGRvEI_pg29uHbLXpqQrvfv9NDUYYs,46952
+behavython/behavython_plot_widget.py,sha256=ytlhnEZK2vwIqNmufw2f6bbe1gWBWVkMXFTkT-U177Y,1603
+behavython/dlc_helper_functions.py,sha256=vwTr7KA93crcfBJM0I323ENNZTS_oNb_hf1EmlyUK_Q,38840
+behavython/logo/VY.ico,sha256=nf9N8VDpoLQHlX8XXqK9qZiAIzzCmMtDB0nhYAREK_E,259134
+behavython/logo/logo.png,sha256=DXwzMAZ1oVnLlTYQN8QtG4xTL0_BbPQMMyQl_fYjZvY,561337
+behavython-0.6.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+behavython-0.6.3.dist-info/METADATA,sha256=z69HwxDO5k6wt15svh_BZyShKQFeh-qtP4PtNfehTc8,7301
+behavython-0.6.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+behavython-0.6.3.dist-info/entry_points.txt,sha256=Kd3VF4V_j51jBEnY6Y9ddJMzQHq5foFhpAoBpipyMRg,64
+behavython-0.6.3.dist-info/top_level.txt,sha256=w8o3a3uFRcIVBu4r-ln7acIe5HnTJIhUq46XlkWrQnQ,11
+behavython-0.6.3.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+behavython-0.6.3.dist-info/RECORD,,
