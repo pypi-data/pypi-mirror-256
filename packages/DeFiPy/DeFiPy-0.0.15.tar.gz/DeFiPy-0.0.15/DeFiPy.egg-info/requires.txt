@@ -1,0 +1,4 @@
+scipy>=1.7.3
+uniswappy==1.1.4
+stableswappy==0.0.10
+balancerpy==0.0.8
