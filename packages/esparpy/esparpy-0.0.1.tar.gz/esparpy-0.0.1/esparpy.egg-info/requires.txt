@@ -1,0 +1,7 @@
+numpy
+
+[all]
+esparpy[extra]
+
+[extra]
+pandas
