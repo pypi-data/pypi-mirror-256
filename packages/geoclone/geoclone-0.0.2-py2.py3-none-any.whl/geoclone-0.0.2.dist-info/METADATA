@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: geoclone
+Version: 0.0.2
+Summary: A python package demo for geospatial analysis
+Author-email: Syeda Nazifa Tasneem <nazifadu.g57@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/nazifa02/geoclone
+Keywords: geoclone
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: geoclone[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# geoclone
+
+
+[![image](https://img.shields.io/pypi/v/geoclone.svg)](https://pypi.python.org/pypi/geoclone)
+[![image](https://img.shields.io/conda/vn/conda-forge/geoclone.svg)](https://anaconda.org/conda-forge/geoclone)
+
+
+**A python package demo for geospatial analysis**
+
+
+-   Free software: MIT License
+-   Documentation: https://nazifa02.github.io/geoclone
+    
+
+## Features
+
+-   TODO
