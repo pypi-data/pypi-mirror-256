@@ -1,0 +1,9 @@
+rtvamp/__init__.py,sha256=EKmA5xdMHvgNXvtMTqyKrq0Qu246eZk89lHgUISMZU4,10421
+rtvamp/_bindings.cp310-win_amd64.pyd,sha256=5tWuc8706r-XpkXm1mbXlyipaXGGgtijzrrBsyWFzic,308736
+rtvamp/example-plugin.dll,sha256=O1hDG8jfGo2wUY573f7PHGcz7PTLIEGSNV-I9SKc5jw,46080
+rtvamp/example-plugin.lib,sha256=wGU-wkOENih8QWY4GL61gxcFSy-wgx-_pxlx4cLx3qI,1942
+rtvamp-0.3.0.dist-info/LICENSE,sha256=dgN1dwtD567QOLJJXtTVJq5tGjf99JHpNkxEcVdJEo4,1091
+rtvamp-0.3.0.dist-info/METADATA,sha256=CSC6--O0JN4M0W52z3VTJqEaDr8usF8PsDju2zkE9vM,4383
+rtvamp-0.3.0.dist-info/WHEEL,sha256=wUIouuIHFqRckGKsgk22M6XNSH8sVWKH16ZX06368Dg,96
+rtvamp-0.3.0.dist-info/top_level.txt,sha256=y__qOWGXp8XZ5r4abpNS5kSFN15ZOSS1Ay4aaKWwJds,7
+rtvamp-0.3.0.dist-info/RECORD,,
