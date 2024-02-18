@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nptyping2"
+version = "0.0.0"
+description = "nptyping updated for PEP 646"
+authors = ["sneakers-the-rat <sneakers-the-rat@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
