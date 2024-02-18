@@ -1,0 +1,16 @@
+fibermorph/.gitignore,sha256=MYBkkHVxYONbs2srlopzZVyQgvUV_sFwsKoVn7VaG9w,16
+fibermorph/__init__.py,sha256=484Joa-3wVtK12q2AYzzG5lMd72ExneLJ4CSRZb4PLc,80
+fibermorph/arc_sim.py,sha256=Z2Cb5Mf-yPDRpdeL_3AVvDpKmKtpMPBE9EBWA0GKUpM,2822
+fibermorph/demo.py,sha256=2T2p6UqNHrklbHio6Vv-iP1UV7cNhkX--S0YC-ijJUU,12039
+fibermorph/dummy_data.py,sha256=PyxlUj_8g8oad7OnAAOSnBh7MfOSGAVRuJwaeiZu_lY,10324
+fibermorph/fibermorph.py,sha256=N3o3HjYpbpvDJxT8S_YhD1OR_S-Dyi-RXsTHAgy9R2E,61687
+fibermorph/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fibermorph/test/test_fibermorph.py,sha256=9lj5LtI0QvE3UGD_pCkNGwPlm4Aqf6vF4lTIfmi1HY8,7440
+fibermorph/test_data/SimArcData/Oct06_1855_32_017780_arc_data.csv,sha256=SEJ2lxFFikmHdmK3HqsigBbfWQLjwdxZdbUX1gpIEXQ,87
+fibermorph/test_data/SimArcData/Oct06_1855_32_017780_arc_data.tiff,sha256=dVlYRspsAgvzecG_D92nSg3fzpXnLr09M-DP19J5RiE,60867443
+fibermorph/test_data/SimArcData/Oct06_1855_32_017780_arc_data_errordata.csv,sha256=YS4He6Q-BE1i92J1o6dXjeY1YfgKJ_5a3sxHNHoOLQg,303
+fibermorph-0.3.4.dist-info/LICENSE,sha256=aVmoQv8xGVpx8LP7_nuUNcIh-cIyixbwe3N5qXzQJ3Y,1068
+fibermorph-0.3.4.dist-info/METADATA,sha256=n8uvBDpTP5oFQ6WY23qDngVFTBBEsxVCoTkD13cfdCc,8571
+fibermorph-0.3.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fibermorph-0.3.4.dist-info/entry_points.txt,sha256=zYWU2aSdJowvH7tUXHBiViBDABRba38xucD0Z5XUSJ8,57
+fibermorph-0.3.4.dist-info/RECORD,,
