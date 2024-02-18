@@ -1,0 +1,1 @@
+import{u as s,M as n,kb as c,kc as i,N as o,kd as d,ke as u,kf as m}from"./index-5973AuZK.js";function f({children:t}){const{i18n:r}=n(),e=r.dir(),a=s.useMemo(()=>c({...i,direction:e}),[e]);return s.useEffect(()=>{document.body.dir=e},[e]),o.jsx(d,{theme:a,toastOptions:u,children:o.jsx(m,{children:t})})}const k=s.memo(f);export{k as default};
