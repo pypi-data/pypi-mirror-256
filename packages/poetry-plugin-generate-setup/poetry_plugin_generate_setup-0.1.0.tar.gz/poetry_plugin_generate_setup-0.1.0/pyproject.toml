@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry-plugin-generate-setup"
+version = "0.1.0"
+description = ""
+authors = ["Oleg Semenovsky"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry = "^1.7.1"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+generate_setup = "poetry_plugin_generate_setup.plugin:PoetryPluginGenerateSetup"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.18.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
