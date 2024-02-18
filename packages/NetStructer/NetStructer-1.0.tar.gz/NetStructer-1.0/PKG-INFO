@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: NetStructer
+Version: 1.0
+Summary: This NetStructer provides classes for implementing secure communication between client and server applications over TCP/IP using encryption. It includes the Bridge class, which represents the communication bridge between client and server, as well as utility classes for encryption, error handling, and session management.
+Author: Haytam-Zakaria
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+First, i made this module to earn some money to change my 4Gram Pc so if you can support us on https://www.buymeacoffee.com/Arcade.m7 , if you can't np enjoy. 
+
+The module facilitates secure communication between client and server applications over TCP/IP by providing classes and utilities for encryption, data transmission, error handling, and session management. 
+
+The central component of the module is the Bridge class, which acts as a communication bridge between the client and server. It handles encryption and decryption of data sent over the network to ensure secure transmission. The Bridge class also provides methods for sending and receiving data buffers between client and server.
+
+Encryption is handled by the _encryption class, which uses the Fernet encryption scheme from the cryptography library. It provides methods for encrypting and decrypting data using a specified encryption key.
+
+Error handling is implemented through the Error class, which defines custom error types for handling server initialization errors and buffer data errors.
+
+The module also includes a Server class for creating and managing server instances. The Server class initializes a socket server, listens for incoming connections, and handles communication sessions with client applications.
+
+Additionally, the Container class offers a convenient interface for managing session data. It provides methods for storing, retrieving, and clearing session data associated with client connections.
+
+Overall, this module offers a comprehensive solution for implementing secure client-server communication over TCP/IP, with features for encryption, error handling, and session management.
