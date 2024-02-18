@@ -1,0 +1,20 @@
+[project]
+name = "loro"
+version = "0.0.1"
+authors = [{ name = "zxch3n", email = "zx@loro.dev" }]
+description = "Placeholder for Loro-Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://loro.dev"
+Issues = "https://github.com/loro-dev/loro/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

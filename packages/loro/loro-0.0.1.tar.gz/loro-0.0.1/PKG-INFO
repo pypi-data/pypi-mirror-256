@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: loro
+Version: 0.0.1
+Summary: Placeholder for Loro-Python
+Project-URL: Homepage, https://loro.dev
+Project-URL: Issues, https://github.com/loro-dev/loro/issues
+Author-email: zxch3n <zx@loro.dev>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
