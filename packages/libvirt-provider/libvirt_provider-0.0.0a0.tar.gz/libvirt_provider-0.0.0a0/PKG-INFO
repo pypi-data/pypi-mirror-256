@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: libvirt_provider
+Version: 0.0.0a0
+Summary: A corc plugin for a libvirt orchestration provider
+Home-page: https://github.com/rasmunk/libvirt_provider
+Author: Rasmus Munk
+Author-email: munk1@live.dk
+License: MIT
+Keywords: Orchstration,Virtual Machine
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: libvirt-python>=9.9.0
+Provides-Extra: test
+Requires-Dist: pytest>=7.2.1; extra == "test"
+Requires-Dist: wget>=3.2; extra == "test"
+Provides-Extra: dev
+Requires-Dist: flake8==6.1.0; extra == "dev"
+Requires-Dist: black==23.11.0; extra == "dev"
+
+================
+libvirt_provider
+================
+A libvirt instance provider plugin for corc

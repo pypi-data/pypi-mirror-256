@@ -1,0 +1,2 @@
+[corc.plugins]
+libvirt_provider = libvirt_provider.instance
