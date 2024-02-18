@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hnt_sap_nota_pedido_library
+Version: 0.0.7
+Summary: Lib to access sap gui to run transaction me21n
+Author: Pepe
+License: MIT License
+Keywords: nota_fiscal
+
