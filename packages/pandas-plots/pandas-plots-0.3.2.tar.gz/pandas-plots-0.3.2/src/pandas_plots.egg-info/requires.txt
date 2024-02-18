@@ -1,0 +1,5 @@
+pandas>=2.0.0
+plotly
+matplotlib
+seaborn
+sqlalchemy<2.0.0
