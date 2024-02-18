@@ -1,0 +1,11 @@
+imagecodecs
+numpy
+tifffile>=2020.5.7
+vispy
+
+[dev]
+tox
+build
+
+[testing]
+pytest
