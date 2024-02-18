@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: gvision
+Version: 0.5
+Summary: A package for automated computer vision tasks.
+Author: Gaurang Ingle
+Author-email: gaurang.ingle@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: av ==11.0.0
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: opencv-python ==4.9.0.80
+Requires-Dist: opencv-python-headless ==4.8.0.74
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: Pillow ==10.2.0
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: roboflow ==1.1.1
+Requires-Dist: streamlit ==1.31.0
+Requires-Dist: streamlit-ace ==0.1.1
+Requires-Dist: streamlit-webrtc ==0.47.1
+Requires-Dist: supervision ==0.18.0
+Requires-Dist: torch ==2.2.0
+Requires-Dist: ultralytics ==8.1.10
+Requires-Dist: YAML2ST ==1.0.20
+
+# GVISION
+
+GVISION is a streamlined solution for vision tasks, including data collection from Roboflow, model training with Ultralytics, and deployment demos using Streamlit.
+
+## Features
+
+- **Roboflow Integration**: Easily download datasets from Roboflow for your computer vision projects.
+- **Ultralytics Model Training**: Train your custom models using Ultralytics, with support for various tasks such as object detection, segmentation, classification, and pose estimation.
+- **Streamlit Deployment Demo**: Quickly deploy your trained models with Streamlit for interactive demos and visualization.
+
+## Installation
+
+You can install GVISION using pip:
+
+```bash
+pip install gvision
+```
+
+```bash
+gvision
+```
+
+# Done
