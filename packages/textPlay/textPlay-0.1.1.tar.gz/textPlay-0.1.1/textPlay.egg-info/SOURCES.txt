@@ -1,0 +1,12 @@
+LICENCE
+README.md
+setup.py
+textPlay/Modules Used.py
+textPlay/__init__.py
+textPlay/main.py
+textPlay.egg-info/PKG-INFO
+textPlay.egg-info/SOURCES.txt
+textPlay.egg-info/dependency_links.txt
+textPlay.egg-info/entry_points.txt
+textPlay.egg-info/requires.txt
+textPlay.egg-info/top_level.txt
