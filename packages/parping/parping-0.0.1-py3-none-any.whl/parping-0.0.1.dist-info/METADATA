@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: parping
+Version: 0.0.1
+Summary: A simple parallel ipv4 pinger
+Project-URL: Homepage, https://github.com/dliebster/parping
+Project-URL: Issues, https://github.com/dliebster/parping/issues
+Author-email: Dan Liebster <daniel.liebster@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Simple parallel ipv4 ping util.
+
+Accepts ip range input, e.g. 10.10.10.1-255
+returns 2 lists, responding and non-responding ips
+
+originated from need to quick-check many IPs after disaster-recovery excercises.
+intended to be moldable.
