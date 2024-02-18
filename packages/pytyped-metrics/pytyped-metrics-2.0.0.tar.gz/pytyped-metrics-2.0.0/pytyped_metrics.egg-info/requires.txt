@@ -1,0 +1,1 @@
+pytyped-macros>=2.0.0
