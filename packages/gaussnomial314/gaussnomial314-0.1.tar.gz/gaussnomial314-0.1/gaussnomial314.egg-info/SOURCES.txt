@@ -1,0 +1,10 @@
+setup.py
+gaussnomial314/Binomialdistribution.py
+gaussnomial314/Gaussiandistribution.py
+gaussnomial314/Generaldistribution.py
+gaussnomial314/__init__.py
+gaussnomial314.egg-info/PKG-INFO
+gaussnomial314.egg-info/SOURCES.txt
+gaussnomial314.egg-info/dependency_links.txt
+gaussnomial314.egg-info/not-zip-safe
+gaussnomial314.egg-info/top_level.txt
