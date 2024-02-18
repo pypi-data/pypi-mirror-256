@@ -1,0 +1,22 @@
+[project]
+name = "fooman"
+version = "0.1.0"
+description = "Boost microservices communication with our powerful async RPC library, featuring seamless integration with popular message brokers like Redis, Kafka, and RabbitMQ."
+authors = [
+    { name = "amirbahador", email = "amirbahador.pv@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "Apache"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
