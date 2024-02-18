@@ -1,0 +1,8 @@
+README.md
+setup.py
+nxfern/__init__.py
+nxfern/first.py
+nxfern.egg-info/PKG-INFO
+nxfern.egg-info/SOURCES.txt
+nxfern.egg-info/dependency_links.txt
+nxfern.egg-info/top_level.txt
