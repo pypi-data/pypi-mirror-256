@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gucker
+Version: 0.1.1
+Summary: a simple watcher for file events, streaming to arkitekt
+License: CC BY-NC 3.0
+Author: jhnnsrs
+Author-email: jhnnsrs@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arkitekt[fluss,mikro,reaktion,rekuest,unlok] (==0.7.8)
+Requires-Dist: slugify (>=0.0.1,<0.0.2)
+Requires-Dist: tifffile (>=2023.4.12,<2024.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
