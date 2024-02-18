@@ -1,0 +1,2 @@
+python-dateutil>=2.8.1
+pytyped-macros>=2.0.0
