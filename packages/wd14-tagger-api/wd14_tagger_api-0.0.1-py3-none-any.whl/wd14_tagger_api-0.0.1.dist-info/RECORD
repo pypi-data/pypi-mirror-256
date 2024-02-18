@@ -1,0 +1,12 @@
+wd14_tagger_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wd14_tagger_api/__main__.py,sha256=SzoLUNeIDpZ7AZ4rxCK9iWe_w7mX0RBJpfAgZU8xwzg,1149
+wd14_tagger_api/server.py,sha256=ZpwFEfHccBXyMkwFGAEKXJgWJo21n26ec1__m0ffxfE,2152
+wd14_tagger_api/wd14_tagger.py,sha256=YS6VJ6W9VOeavZsVXrMluBl9FeYA-itZrRHyRCltry4,1774
+wd14_tagger_api/tagger/dbimutils.py,sha256=qTr-QgO9jDW_zKJ6FcUbPLWOVhkKqhaPAcTxBIeWAK0,2216
+wd14_tagger_api/tagger/image.py,sha256=LYEs2WPlRddFDQMpCySmrib5BK5iWTKRxv6u8yuT1E4,2657
+wd14_tagger_api/tagger/interrogator.py,sha256=UkgPtDB-1P9nz-NWEsxZNp-PI-MDzrixtehnJqQSotw,7829
+wd14_tagger_api/tagger/interrogators.py,sha256=pLtFvk93vvZGsUuxV2UIa-UWWiMCR-fAiX0PJfl7JhI,1650
+wd14_tagger_api-0.0.1.dist-info/METADATA,sha256=Xs7SIUC_MbrQ4nPwZF1rOV9msPNFGsGfj6nu_xiOyd4,4968
+wd14_tagger_api-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+wd14_tagger_api-0.0.1.dist-info/licenses/LICENSE,sha256=2uEFlhVJFMBKJ7QhDKVyC0aw3oCU3ctoguitXWrn8ng,1092
+wd14_tagger_api-0.0.1.dist-info/RECORD,,
