@@ -1,0 +1,131 @@
+<!--- Heading --->
+<div align="center">
+  <h1>Hilti Profis</h1>
+  <p>
+    Python binding for generating `.pe` files, for use with <a href="https://www.hilti.ca/content/hilti/W1/CA/en/business/business/engineering/profis-engineering.html">Hilti-Profis software</a>.
+  </p>
+<h4>
+    <a href="https://github.com/rpakishore/Hilti-Profis">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/rpakishore/Hilti-Profis/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/rpakishore/Hilti-Profis/issues/">Request Feature</a>
+  </h4>
+</div>
+<br />
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rpakishore/Hilti-Profis)
+![GitHub last commit](https://img.shields.io/github/last-commit/rpakishore/Hilti-Profis)
+
+<!-- Table of Contents -->
+<h2>Table of Contents</h2>
+
+- [1. About the Project](#1-about-the-project)
+  - [1.1. Features](#11-features)
+- [2. Getting Started](#2-getting-started)
+  - [2.1. Prerequisites](#21-prerequisites)
+  - [2.2. Dependencies](#22-dependencies)
+  - [2.3. Installation](#23-installation)
+    - [2.3.1. From github](#231-from-github)
+    - [2.3.2. From Pypi](#232-from-pypi)
+  - [2.4. Development](#24-development)
+- [3. Usage](#3-usage)
+- [4. Roadmap](#4-roadmap)
+- [5. FAQ](#5-faq)
+- [6. License](#6-license)
+- [7. Contact](#7-contact)
+
+<!-- About the Project -->
+## 1. About the Project
+
+<!-- Features -->
+### 1.1. Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+<!-- Getting Started -->
+## 2. Getting Started
+
+<!-- Prerequisites -->
+### 2.1. Prerequisites
+
+Python 3.11 or above
+
+### 2.2. Dependencies
+
+Create the virutual environment and install dependencies
+
+```bash
+  pip install flit
+```
+
+<!-- Installation -->
+### 2.3. Installation
+
+#### 2.3.1. From github
+
+Get the latest version directly from github
+
+```bash
+  git clone https://github.com/rpakishore/Hilti-Profis.git
+  cd Hilti-Profis
+  pip install flit
+  flit install --production
+```
+
+#### 2.3.2. From Pypi
+
+```bash
+  pip install hilti_profis
+```
+
+### 2.4. Development
+
+Download the git and install via flit
+
+```bash
+  git clone https://github.com/rpakishore/Hilti-Profis.git
+  cd Hilti-Profis
+  pip install flit
+  flit install
+```
+
+<!-- Usage -->
+## 3. Usage
+
+```python
+from template_python import Reader, debug
+debug(True) #For debug messages, Can be skipped.
+
+# Initialize
+pdf = Reader(filepath=r"textbook.pdf", password=None)
+```
+
+<!-- Roadmap -->
+## 4. Roadmap
+
+- [x] Set up a skeletal framework
+- [ ] Todo 2
+
+<!-- FAQ -->
+## 5. FAQ
+
+- Question 1
+  - Answer 1
+
+- Question 2
+  - Answer 2
+
+<!-- License -->
+## 6. License
+
+See [LICENSE](/LICENSE) for more information.
+
+<!-- Contact -->
+## 7. Contact
+
+Arun Kishore - [@rpakishore](mailto:pypi@rpakishore.co.in)
+
+Project Link: [https://github.com/rpakishore/Hilti-Profis](https://github.com/rpakishore/Hilti-Profis)
