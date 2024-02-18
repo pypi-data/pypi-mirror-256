@@ -1,0 +1,14 @@
+rdt/transformers/addons/identity/__init__.py,sha256=ltmahg8CWjoS_rsV4Tj9zIOzFWAP-lLghiznDcEG3EQ,146
+rdt/transformers/addons/identity/identity.py,sha256=Jwjs4zExZxBYaPLkM1Okg1Vy7x4Ygc3X4fI8nRbZzw0,1170
+rdt_identity.egg-info/PKG-INFO,sha256=6D7U9d4ZsUXkdDvone6q5sePNsxJNcWafk0EXaOQDC4,7982
+rdt_identity.egg-info/SOURCES.txt,sha256=Da86JyLh-kzxyk_D0r8NSgptKrpXa_GDa5REnSUXw2I,2602
+rdt_identity.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rdt_identity.egg-info/not-zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rdt_identity.egg-info/requires.txt,sha256=nMbUsjflHafrnsBuRUGqHqIk-7dJfg63uC7vxAadJJg,11
+rdt_identity.egg-info/top_level.txt,sha256=zrT6EJnQ1Yb3mSxEeLhJEqWTGpWLIwe2cDlHjHFLzXY,4
+rdt_identity-1.9.2.dist-info/AUTHORS.rst,sha256=oLRZOA0waMva6vJa5DQDoR0O46h0umMX7198-JNlYEc,56
+rdt_identity-1.9.2.dist-info/LICENSE,sha256=jcfEZxJjtiKMAzakGb60YPI448oo0R7FmWOXmEF-mhY,4872
+rdt_identity-1.9.2.dist-info/METADATA,sha256=I6ViUxtcH6cDfWIV-idBbNxxwcaLD8sybkDB4OoXdH0,8009
+rdt_identity-1.9.2.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+rdt_identity-1.9.2.dist-info/top_level.txt,sha256=zrT6EJnQ1Yb3mSxEeLhJEqWTGpWLIwe2cDlHjHFLzXY,4
+rdt_identity-1.9.2.dist-info/RECORD,,
