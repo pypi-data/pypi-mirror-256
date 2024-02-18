@@ -1,0 +1,10 @@
+odoo/addons/ssi_hr_award_work_log/README.rst,sha256=DA0GLrq3-roCpTc2QGarYAgzuH-9MaO0NwccJP_ZWV0,1307
+odoo/addons/ssi_hr_award_work_log/__init__.py,sha256=JhPhaZHX2EaxlVGYxnTiJXb4lOWip7fiumVfTPQGruo,200
+odoo/addons/ssi_hr_award_work_log/__manifest__.py,sha256=5vf0TEmfMAMUCDfkAl_DAwI8VFJD8gHDPV0J67k8HYU,549
+odoo/addons/ssi_hr_award_work_log/models/__init__.py,sha256=lrNUjgHGVNuGEygMpCaWzqCJauvhingfprhxXs5QVP4,202
+odoo/addons/ssi_hr_award_work_log/models/hr_award.py,sha256=89u0-sXP0B4RU6_Q4kG2BrnkTwBhe2Ek6HtC3kwQ5iQ,355
+odoo/addons/ssi_hr_award_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_hr_award_work_log-14.0.1.0.0.dist-info/METADATA,sha256=TkEEpwFdQEW6zDfyl67ecRsxQaet8QV5P9BkxUoZHEw,1908
+odoo14_addon_ssi_hr_award_work_log-14.0.1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_hr_award_work_log-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_hr_award_work_log-14.0.1.0.0.dist-info/RECORD,,
