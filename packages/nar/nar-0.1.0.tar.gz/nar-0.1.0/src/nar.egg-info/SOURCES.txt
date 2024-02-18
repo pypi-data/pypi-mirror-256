@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/nar/__init__.py
+src/nar/lib.py
+src/nar.egg-info/PKG-INFO
+src/nar.egg-info/SOURCES.txt
+src/nar.egg-info/dependency_links.txt
+src/nar.egg-info/top_level.txt
