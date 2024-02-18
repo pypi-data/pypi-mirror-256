@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools~=69.0", "wheel~=0.42.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-webhooks-framework2"
+version = "0.1.14"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "Maurice Faber", email = "morriz@idiotz.nl" }]
+description = "GitHub Webhooks Framework"
+readme = "README.md"
+classifiers = [
+  "Framework :: FastAPI",
+  "Programming Language :: Python :: 3.11",
+  "Typing :: Typed",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["github", 'webhooks', 'fastapi']
+dynamic = ["dependencies", "optional-dependencies"]
+requires-python = ">=3.11"
+
+[project.urls]
+homepage = "https://github.com/morriz/github-webhooks"
+"Source Code" = "https://github.com/morriz/github-webhooks"
+"Bug Tracker" = "https://github.com/morriz/github-webhooks/issues"
+
+[tool.isort]
+profile = "hug"
+src_paths = ["example", "github_webhooks"]
+line_length = 120
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+target-version = ["py311"]
+
+[tool.flake8]
+max-line-length = 120
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements-prod.txt"] }
+optional-dependencies = { test = { file = ["requirements-test.txt"] } }
