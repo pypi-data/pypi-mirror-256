@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+noxfile.py
+requirements.txt
+setup.py
+.github/workflows/publish.yaml
+.github/workflows/tests.yaml
+handsome/__init__.py
+handsome.egg-info/PKG-INFO
+handsome.egg-info/SOURCES.txt
+handsome.egg-info/dependency_links.txt
+handsome.egg-info/top_level.txt
+tests/__init__.py
+tests/handsome/__init__.py
+tests/handsome/test.py
