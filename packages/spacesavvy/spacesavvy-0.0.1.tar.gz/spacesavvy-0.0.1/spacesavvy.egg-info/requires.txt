@@ -1,0 +1,7 @@
+numpy
+
+[all]
+spacesavvy[extra]
+
+[extra]
+pandas
