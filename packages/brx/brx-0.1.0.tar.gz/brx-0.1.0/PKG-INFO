@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: brx
+Version: 0.1.0
+Summary: Use the BRX API using Python.
+Author: BRX
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: websocket-client (>=1.7.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# brx-python
+
+Welcome to the the documentation for the BRX Python.
+
+Get started with the tests located in ```tests.py```. 
+
+It's easy to implement BRX's Python package:
+1. Get your schema from your dashboard
+2. 
