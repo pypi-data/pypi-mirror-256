@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: rsArtdReformatter
+Version: 1.0.1
+Summary: A tool to reformat the output of the ARtD tool
+Author-email: Frankie Hadwick <frankie@ramseysystems.co.uk>, Charlie McCay <charlie@ramseysystems.co.uk>
+Project-URL: Homepage, https://github.com/FrankiePH/rsArtdReformatter.git
+Keywords: reformatter,artd,artd-reformatter,rsArtdReformatter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+
+# Raw Art Decor to Simple JSON
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+
+This Python module provides a convenient way to reformat raw art decor JSON into a simplified JSON format. It aims to make the process of working with art decor data easier and more efficient.
+
+## Features
+
+- Converts raw art decor JSON into a simplified JSON format
+- Handles various types of art decor data structures
+- Provides customizable options for formatting
+
+## Installation
+
+To install the module, simply run the following command:
+
+```shell
+
+
+
+
+TODO
+- get import to work in test 
+    - how do i import a package that is in a subfolder
+- Am i adding logging into this? 
