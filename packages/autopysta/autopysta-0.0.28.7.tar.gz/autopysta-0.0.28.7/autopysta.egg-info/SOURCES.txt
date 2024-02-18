@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+autopysta/_autopysta.pyd
+autopysta/autopysta.py
+autopysta.egg-info/PKG-INFO
+autopysta.egg-info/SOURCES.txt
+autopysta.egg-info/dependency_links.txt
+autopysta.egg-info/top_level.txt
