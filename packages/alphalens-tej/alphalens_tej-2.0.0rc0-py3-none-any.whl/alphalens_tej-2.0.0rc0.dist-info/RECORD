@@ -1,0 +1,12 @@
+alphalens/__init__.py,sha256=RITDu3CNkL2urlOyguS2B_mKNly0WV4p3aEPb2TDnY4,241
+alphalens/_version.py,sha256=i03hGwBjezDTUp1bnpEkJnCN0Ixf-9W6_UqD0ohZKAA,414
+alphalens/performance.py,sha256=Rdh76-sdfZvcymWc_1my5HVl8sHtMnRMYkgPlby8aBA,45878
+alphalens/plot_cn_name_map.py,sha256=iO7CqYfECmJkxL_5IU1Z5VxL_NKne16tf0cR4RKOy0Q,1706
+alphalens/plotting.py,sha256=p5Lzn0cW905fae4Yh-CQQj93D94TPrGx0btIP5LO73o,35587
+alphalens/tears.py,sha256=UDFKAbTZS-yVX9I8LxZ2UFu3ANtJLlxBlQDimUuAyzs,26061
+alphalens/utils.py,sha256=tYlhHhVK_TIV7cHHaXEHDLbnYi8nFJjpq2pninbRUDg,41844
+alphalens_tej-2.0.0rc0.dist-info/LICENSE,sha256=K2UcLSnGRNHHNBfNlubPpQbW3hAu2W_D3pbWduCJzyk,11346
+alphalens_tej-2.0.0rc0.dist-info/METADATA,sha256=HvlpDmqKYXrhuPz8FTBe8LlhpUHkVAdqXga9jgjE8nM,7185
+alphalens_tej-2.0.0rc0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+alphalens_tej-2.0.0rc0.dist-info/top_level.txt,sha256=uRRSJxUNf3C_dlfHktOhnvuRluqgl7aD2E4bDR1bqVg,10
+alphalens_tej-2.0.0rc0.dist-info/RECORD,,
