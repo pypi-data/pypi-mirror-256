@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "removeoverlap"
+version = "0.0.10"
+authors = [
+  { name="Assem Hebik", email="assimhabe@gmail.com" },
+]
+description = "Decompose hyperrectangles in d space"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ['pandas==1.5.0', 'pylint==3.0.2', 'autopep8==1.7.0', 'ortools==9.4.1874', 'igraph==0.10.4', 'matplotlib', 'pytictoc']
+[project.urls]
+Homepage = "https://github.com/assimhabeek/remove-overlap"
+Issues = "https://github.com/assimhabeek/remove-overlap/issues"
+
+[tool.setuptools]
+packages = ["removeoverlap"]
