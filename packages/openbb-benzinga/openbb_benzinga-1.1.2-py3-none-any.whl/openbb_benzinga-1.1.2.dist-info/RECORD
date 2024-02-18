@@ -1,0 +1,11 @@
+openbb_benzinga/__init__.py,sha256=VWfmEzF29OYoXmW_rhyrhTJLQBcK-t8GxUqdxBWYiPQ,743
+openbb_benzinga/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_benzinga/models/company_news.py,sha256=K-hZmw8IXILUdK6ehnxfQeo5zhsj2S9yc_FpIzrrKt0,6041
+openbb_benzinga/models/price_target.py,sha256=ycsSp0Csj62yZGCpyx0xx_xQybGK8yLnDoOBs7fAB38,8876
+openbb_benzinga/models/world_news.py,sha256=X6w6oFBPTJiDeIStecLJ9LgDbbw9FF0XGUgxlVPLZ0E,5809
+openbb_benzinga/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_benzinga/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openbb_benzinga-1.1.2.dist-info/METADATA,sha256=DhWzQPmu_8idcnLeenuujD2UiFSH6bnRWa7P9fnrQjw,1002
+openbb_benzinga-1.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+openbb_benzinga-1.1.2.dist-info/entry_points.txt,sha256=6SKvS7K9YGlv0MXddNMgi9YLGe39DMiiiO3YAeI77Hc,72
+openbb_benzinga-1.1.2.dist-info/RECORD,,
