@@ -1,0 +1,3 @@
+[console_scripts]
+search_imdb = search_imdb:hello
+search_imdb_test = search_imdb.__init__:hello
