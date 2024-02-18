@@ -1,0 +1,15 @@
+Cargo.toml
+Cross.toml
+MANIFEST.in
+README.md
+pyproject.toml
+pyo3_poker_eval/__init__.py
+pyo3_poker_eval.egg-info/PKG-INFO
+pyo3_poker_eval.egg-info/SOURCES.txt
+pyo3_poker_eval.egg-info/dependency_links.txt
+pyo3_poker_eval.egg-info/requires.txt
+pyo3_poker_eval.egg-info/top_level.txt
+rust/lib.rs
+rust/poker.rs
+tests/test_doc.py
+tests/test_poker.py
