@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pyscal_rdf/data/asmo.owl
+pyscal_rdf/data/cmso.owl
+pyscal_rdf/data/element.yml
+pyscal_rdf/data/pldo.owl
+pyscal_rdf/data/podo.owl
+pyscal_rdf/data/pyscal_rdf.egg-info/PKG-INFO
+pyscal_rdf/data/pyscal_rdf.egg-info/SOURCES.txt
+pyscal_rdf/data/pyscal_rdf.egg-info/dependency_links.txt
+pyscal_rdf/data/pyscal_rdf.egg-info/requires.txt
+pyscal_rdf/data/pyscal_rdf.egg-info/top_level.txt
+tests/test_encoder_and_write.py
+tests/test_graph.py
+tests/test_structuregraph.py
