@@ -1,0 +1,28 @@
+{
+  "_lib-4c66f986.cjs": {
+    "file": "lib-4c66f986.cjs"
+  },
+  "_lib-dfb72cd8.js": {
+    "file": "lib-dfb72cd8.js"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-4c66f986.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-4c66f986.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
