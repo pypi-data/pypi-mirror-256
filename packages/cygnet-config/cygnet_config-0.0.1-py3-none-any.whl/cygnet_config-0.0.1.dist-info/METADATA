@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cygnet-config
+Version: 0.0.1
+Summary: Tools to manage program configuration through structured files (yaml, toml, json).
+Author-email: CygnetML <engineering@cygnetml.com>
+Project-URL: Homepage, https://github.com/CygnetML
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs >=23.1.0
+Requires-Dist: cattrs
+Provides-Extra: dev
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: yaml
+Requires-Dist: PyYAML >=6.0 ; extra == 'yaml'
+
+# cygnet-config
+
+Complex configuration made simple.
