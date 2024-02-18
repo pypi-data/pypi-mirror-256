@@ -1,0 +1,16 @@
+gwss/__init__.py,sha256=FlSHGQBapmR99bS95i5VA3ZPCZr6OpoQ10fY4Wv5Xo4,146
+gwss/cli.py,sha256=MYtfxa4vLXM5vvBZ8onMF1r0gyF346T1mHnRJVqOSco,1563
+gwss/config.py,sha256=OJiu3FV_RyU86yiQdsXwGfaWKuqtaWsJ6X73paLAQzE,345
+gwss/download.py,sha256=9d9v5_ELbQwDUSoFfEHyIY6QNFBApvjKhB06HK2YxaM,1388
+gwss/get.py,sha256=uP0UufMc4HdTnGhgKmiBbS98_P45nmSGO-WZ8_5v3Hw,436
+gwss/gwss.py,sha256=EPvdQMgkQm6C9ZhquWMPOvfjqRfCS-UHPh2d2nYlrHM,47
+gwss/logger.py,sha256=1rLsBYojpe6nCScYziPtwJ5QiDnI0QRds_OTbEvjqGY,328
+gwss/resolver.py,sha256=Y75inhMXPClP_79Oov0kuskb0nWER5Tc6tVX3WjoN3E,283
+gwss/resolver_config.py,sha256=nDVC8Gf9756KOoHLYzxztK8mfFlo6UbAL3-Ez4tM9s8,1142
+gwss/unpkg.py,sha256=Bsyd3HopNvhmeNXgAdnVaq93e1pluhOLWiHZdZmvslI,696
+gwss/utilities.py,sha256=ItRQR5GfETwxK1JHuU9ypVc1NzntUI4YqUbv-wZZlFY,1449
+gwss-0.0.1.data/scripts/gwss,sha256=OlV3dO_c91Wl9umoJuZbfpAoYr8Dnorxc7FWjqsPsns,41
+gwss-0.0.1.dist-info/METADATA,sha256=qfYrgfInkoLO_NtwJ2xJ_Y0YXRnsM5uNUBch4TtaK64,1425
+gwss-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gwss-0.0.1.dist-info/top_level.txt,sha256=Q3vsKJxaBglooircvASsjYMsxBtwQib8buntBDe6ldo,5
+gwss-0.0.1.dist-info/RECORD,,
