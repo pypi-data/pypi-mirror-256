@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastdic
+Version: 0.0.1
+Summary: FastDI is a simple and fast dependency injection container library for Python 3
+Home-page: https://github.com/artempronevskiy/fastdi
+Author: Artsiom Praneuski
+Author-email: artsiom.praneuski@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+License-File: LICENSE

@@ -1,0 +1,15 @@
+LICENSE
+setup.py
+fastdi/__init__.py
+fastdi/_container.py
+fastdi/_errors.py
+fastdic.egg-info/PKG-INFO
+fastdic.egg-info/SOURCES.txt
+fastdic.egg-info/dependency_links.txt
+fastdic.egg-info/top_level.txt
+tests/test_benchmark.py
+tests/test_function_factory.py
+tests/test_inject.py
+tests/test_provider.py
+tests/test_unit.py
+tests/test_use_case.py
