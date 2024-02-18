@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+awsalot/__init__.py
+awsalot/rds_sg_connector.py
+awsalot/secret_to_pgconn.py
+awsalot.egg-info/PKG-INFO
+awsalot.egg-info/SOURCES.txt
+awsalot.egg-info/dependency_links.txt
+awsalot.egg-info/entry_points.txt
+awsalot.egg-info/requires.txt
+awsalot.egg-info/top_level.txt
