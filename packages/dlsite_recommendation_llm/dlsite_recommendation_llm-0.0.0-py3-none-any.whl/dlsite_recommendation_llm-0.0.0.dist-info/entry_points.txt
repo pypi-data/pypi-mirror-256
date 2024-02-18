@@ -1,0 +1,3 @@
+[console_scripts]
+drl=dlsite_recommendation_llm.cli:main
+

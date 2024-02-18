@@ -1,0 +1,9 @@
+dlsite_recommendation_llm/__init__.py,sha256=PExG52WfhoI0IVSYefVOzHbrvm4AVD2EFPNsHILUcww,49
+dlsite_recommendation_llm/cli.py,sha256=uwi4_Zo7vWc0T8HuilUM8YKiCZWIY9RZd0Vpey8jtHk,296
+dlsite_recommendation_llm/main.py,sha256=TM-NzVg-S6bXjVNh05UHefYsNS-a_BDwqJ-c0dZ5TuE,1901
+dlsite_recommendation_llm/static_files/favicon.png,sha256=OWEjCQXQZrOAkPgInPrO7YsQrdPZ1e9AbU0kx-wyVUU,1191164
+dlsite_recommendation_llm-0.0.0.dist-info/LICENSE,sha256=2bOGUaJ3SY55poS2IqQ8mNKumS2E1q-szNQAcuggX08,1075
+dlsite_recommendation_llm-0.0.0.dist-info/METADATA,sha256=4Glm0LoCJQ2YGkNQmLb7KRWFsv4lbesqVk1Y2BL6vtI,1175
+dlsite_recommendation_llm-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dlsite_recommendation_llm-0.0.0.dist-info/entry_points.txt,sha256=OfYVqBJB1TwoNb5tptn4mO4fct-R5eDPUhgYQJNjRiE,58
+dlsite_recommendation_llm-0.0.0.dist-info/RECORD,,
