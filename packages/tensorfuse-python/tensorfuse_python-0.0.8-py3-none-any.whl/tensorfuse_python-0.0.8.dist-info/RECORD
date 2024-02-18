@@ -1,0 +1,9 @@
+tensorfuse_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorfuse_python/constants.py,sha256=_1OmkS4jezBNDYfclPBeSf436Haawi2LrfFkjNdSMOo,40
+tensorfuse_python/generic_event_logging.py,sha256=cNy6x698FiC62KGy9jnDl-GPJKvUUHUdo2NmyXoO3wE,2965
+tensorfuse_python/openai_event_logging.py,sha256=FUmYJk4Dj3iTTFfdGoIVqy5GRINO95dPAKWZ0iEDdIY,2006
+tensorfuse_python/tensorfuse_python.py,sha256=ZwvTMza2c7D-lNaOrnVAi3yxkknxf1OCuritiMZJOfM,329
+tensorfuse_python-0.0.8.dist-info/METADATA,sha256=fkBY8dTPyiQrfL6FcE6oLYO1AqziivYa2kcXI_g_Xu4,1261
+tensorfuse_python-0.0.8.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+tensorfuse_python-0.0.8.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tensorfuse_python-0.0.8.dist-info/RECORD,,
