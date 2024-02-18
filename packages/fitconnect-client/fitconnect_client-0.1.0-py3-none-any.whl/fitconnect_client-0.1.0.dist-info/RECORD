@@ -1,0 +1,14 @@
+fitconnect_client/__init__.py,sha256=7Y__lzSj6BK27tWVH8BVGj9X_PuyhDRME-K14J5ICRE,97
+fitconnect_client/client.py,sha256=CCb7_MHNlQmWIeNlay_PHNHhh66ZsuX2aZ5eyUbdttM,7364
+fitconnect_client/crypto.py,sha256=q2D4wtjZjIXKzDAs3BtDsPP_wHbpiajac0DtoI57s14,839
+fitconnect_client/environment.py,sha256=j_DGY0_o_60Hh2WW8woBUofoMglgbets4surGvOa3QU,1135
+fitconnect_client/log.py,sha256=P1CfIY0kKu5l4vvDhM6RnLfmkI1zl3ymEY7ILt6luKo,164
+fitconnect_client/objects/__init__.py,sha256=0S1BrywcFEeJx67Jn3u-sAveQfA24_tiR5U4kwzMygA,102
+fitconnect_client/objects/attachment.py,sha256=FornwnnhWZn4VbNIohl_MayLR25jazNe31z3Jh-yruU,1046
+fitconnect_client/objects/exception.py,sha256=baaL5FoeCt5FGMmL6QfYhCTnGOZ0xv3BFkTq6buhY1A,36
+fitconnect_client/objects/submission.py,sha256=GPVBu1i2Qj37mlmV2B1AKUQuPDzLEdJG4fD3IHnV4LE,1011
+fitconnect_client-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+fitconnect_client-0.1.0.dist-info/METADATA,sha256=86BYxSIv5f2QMtFDODgQRcKfLA4STqX9PPEZFv-aPqo,337
+fitconnect_client-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fitconnect_client-0.1.0.dist-info/top_level.txt,sha256=bGirF3vF9vlV1AIXl8szKYUITlaXQVK_v_nv9-TfFCE,18
+fitconnect_client-0.1.0.dist-info/RECORD,,
