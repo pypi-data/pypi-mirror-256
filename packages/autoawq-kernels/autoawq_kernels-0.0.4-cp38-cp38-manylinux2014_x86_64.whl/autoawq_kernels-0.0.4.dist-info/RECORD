@@ -1,0 +1,9 @@
+awq_ext.cpython-38-x86_64-linux-gnu.so,sha256=y8kJwqp8tgXP7oiM98Cs9_6qMr_bicuIRU_tv3w52S8,14401464
+awq_ft_ext.cpython-38-x86_64-linux-gnu.so,sha256=n_TVsh_uplxLRpcHYyavUuCA5KkkQDGbS08YE8tInh8,59188824
+exl_ext.cpython-38-x86_64-linux-gnu.so,sha256=RuaN9NjGr9G4xA14e7RP1XbaoKjvCxIya0XngKmpUd4,13084256
+exlv2_ext.cpython-38-x86_64-linux-gnu.so,sha256=HQkipRx2Zb7aJcTvYJ6dh9Q0xYxNKpoAcGRoUaH4Y4E,17323216
+autoawq_kernels-0.0.4.dist-info/LICENSE,sha256=5ObIe62uGzzqf5SUCY_weqbNAXTpYWQN0fxa3zT-8-A,1063
+autoawq_kernels-0.0.4.dist-info/METADATA,sha256=WlTZGYmHjGFf6k2seW77fru9D1nG36eH-tKSV15L4Ko,1965
+autoawq_kernels-0.0.4.dist-info/WHEEL,sha256=p8ZXqRNa6rvGUTeJXlsqY-3rQZhTFtu81tHWmXJHvgA,103
+autoawq_kernels-0.0.4.dist-info/top_level.txt,sha256=hkqjcZkRPSBy1gfKQWFvWzs-7c9dTa1lM7lACcQgwL4,37
+autoawq_kernels-0.0.4.dist-info/RECORD,,
