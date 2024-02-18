@@ -1,0 +1,5 @@
+fastanalysis
+PySide2
+matplotlib
+seaborn
+statannotations
