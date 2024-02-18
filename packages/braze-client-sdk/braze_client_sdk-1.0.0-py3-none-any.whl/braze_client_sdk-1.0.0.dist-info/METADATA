@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: braze-client-sdk
+Version: 1.0.0
+Summary: Creates a SDK for Braze platform
+Author: Marcelo Kafels
+Project-URL: Homepage, https://github.com/Kafels/braze-python-sdk/
+Project-URL: Issues, https://github.com/Kafels/braze-python-sdk/issues
+Keywords: braze,sdk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic >=2.6.1
+Requires-Dist: requests >=2.31.0
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+# braze-python-sdk
+
+The SDK is unofficial and is still under development.
+
+## Example
+
+### Create the SDK instance
+```PYTHON
+from json import dumps
+
+from braze import Braze
+
+YOUR_HOST = "https://..."
+YOUR_TOKEN = "12345678-1234-1234-1234-123456789012"
+
+braze = Braze(
+    host=YOUR_HOST,
+    token=YOUR_TOKEN
+)
+```
+
+### Call /users/track endpoint
+```PYTHON
+track_response = braze.users.track(
+    content={
+        "attributes": [
+            {
+                "external_id": "hello-world",
+                "first_name": "Hello world"
+            }
+        ]
+    }
+)
+
+print(dumps(track_response, indent=True))
+# Console output
+# {
+#   "attributes_processed": 1,
+#   "message": "success"
+# }
+```
+
+### Call /users/delete endpoint
+```PYTHON
+delete_response = braze.users.delete(
+    content={
+        "external_ids": [
+            "hello-world"
+        ]
+    }
+)
+
+print(dumps(delete_response, indent=True))
+# Console output
+# {
+#   "deleted": 1,
+#   "message": "success"
+# }
+```
