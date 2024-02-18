@@ -1,0 +1,3 @@
+[console_scripts]
+ying=ying.cli:main
+
