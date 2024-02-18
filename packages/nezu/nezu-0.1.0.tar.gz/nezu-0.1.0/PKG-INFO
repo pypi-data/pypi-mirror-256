@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nezu
+Version: 0.1.0
+Summary: Elegant logging and debuging module
+License: GPL-3.0
+Author: Chuck Cartwright
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Nezu
+Elegant logging and debuging module
+
+## TO DO
+- [ ] add class method support?
+- [ ] add coloring.
