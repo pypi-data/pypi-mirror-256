@@ -1,0 +1,27 @@
+[package]
+authors = ["u8slvn <u8slvn@gmail.com>"]
+name = "bionic-writer"
+version = "0.1.0"
+edition = "2021"
+description = "Write Bionic Reading text with Python."
+homepage = "https://github.com/u8slvn/bionic-writer"
+repository = "https://github.com/u8slvn/bionic-writer"
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "bionicreading",
+    "bionic-reading",
+    "text-formatter",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "bionic_writer"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.19.0"
+rayon = "1.8.1"
+regex = "1.10.3"
+lazy_static = "1.4.0"
+utf8_slice = "1.0.0"
