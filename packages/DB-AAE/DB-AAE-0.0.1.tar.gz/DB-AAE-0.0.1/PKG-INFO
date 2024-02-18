@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: DB-AAE
+Version: 0.0.1
+Summary: Adversarial Autoencoder with dynamic batching package
+Home-page: https://github.com/LMSCGR/DB-AAE
+Author: kyung dae ko
+Author-email: gogoaja70@hotmail.com
+Keywords: DB-AAE,Adversarial Autoencoder,python single cell,scRNA-seq,pypi
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
