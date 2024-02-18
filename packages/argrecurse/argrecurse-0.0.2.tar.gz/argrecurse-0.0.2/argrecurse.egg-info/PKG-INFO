@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: argrecurse
+Version: 0.0.2
+Summary: Provides the @auto wrapper (`from autofunc import auto`), which allows calling functions with the syntax e.g. `(foo)(1)(2)(c=3)` instead of `foo(1, 2, c=3)`. Also recurses, so `(foo)(foo)(1)(2)(3)(foo)(4)(5)(6)(7)` is viable.
+Author-email: Ivan Z <abc617fz3@gmail.com>
+Project-URL: Homepage, https://github.com/siiverfish/autofunc
+Project-URL: Issues, https://github.com/siiverfish/autofunc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# autofunc
+
+Provides the @auto wrapper, which allows calling functions with the syntax e.g. `(foo)(1)(2)(c=3)` instead of `foo(1, 2, c=3)`. Also recurses, so `(foo)(foo)(1)(2)(3)(foo)(4)(5)(6)(7)` is viable.
+
+# tests
+
+Tests are in `test.py`, written in `unittest`.

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+argrecurse.egg-info/PKG-INFO
+argrecurse.egg-info/SOURCES.txt
+argrecurse.egg-info/dependency_links.txt
+argrecurse.egg-info/top_level.txt
+autofunc/__init__.py
+autofunc/lib.py
