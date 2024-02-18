@@ -1,0 +1,11 @@
+dunderlab/docs/__init__.py,sha256=6GxY7yXFo1Te5yJ_aMKr9YXrDFfFltB3p2fbB7d4__4,10082
+dunderlab/docs/static/dunderlab_custom.css,sha256=1-OfG5KDUOYga4fPq-tpQ3-aBa4bedpv7McSI30yAFA,1946
+dunderlab/utils/__init__.py,sha256=MgMpIhW4e4IU5V6VtFPwjFbT0CibhWF-oUGJ38LUm-8,15190
+dunderlab/utils/automated-setup.yml,sha256=hWTAaqW6oJl2XDRxignMnSCX579NXT6AcUCq8ptA_is,2075
+dunderlab/utils/automated-sphinx-docs.yml,sha256=a0iFR_-yISWF97NTecGu-oZsGzkluqCel5I46ZnRlHM,2962
+dunderlab_docs-1.0.data/scripts/dunderlab_docs,sha256=vVJTGd2JSyoVfwbKa-nsNx2Qlcos2sKLIEgtSGEKDTs,5184
+dunderlab_docs-1.0.dist-info/LICENSE,sha256=ao7seoK2DluvSr5N_R0isZeiqa2RKSlb13m2EUhcZcE,1319
+dunderlab_docs-1.0.dist-info/METADATA,sha256=XKb1goWKJhbYPPhAR0tpikC_77IVZP0jfCStOEMZ-ZM,6968
+dunderlab_docs-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dunderlab_docs-1.0.dist-info/top_level.txt,sha256=yXZ1mgZcGS50tutvScUW-UrsD9jRxP7gzZfE_RNSXkw,10
+dunderlab_docs-1.0.dist-info/RECORD,,
