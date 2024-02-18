@@ -1,0 +1,12 @@
+panqc/__init__.py,sha256=rXkZ7Da0AjwYiFmE0xCgMA0Fc8uCtBEFrI377aYdGbg,13787
+panqc/_version.py,sha256=kPlGuDlTRFdj2hWP1AJFuolWTGY-nKezC5VDzcAfHoo,305
+panqc/asm_gene_search.py,sha256=iNlBOREh0wnmUfhROaozT_t2caXM2gfNxqDQU_WG3-c,19571
+panqc/ava.py,sha256=WSv_ptG2nwJvBUocqyiAadfmtE7Sio2sL_GTeDLLmAc,1213
+panqc/kmerlib.py,sha256=q8moWQBVsH-aw73kxzUqsDnrla9aOVY3BRucfoA5Na4,5142
+panqc/nscluster.py,sha256=JVi6blyyGAiFDXYbfcsqktFL8y2z-6tNRFkiWNyu77A,10257
+panqc/utils.py,sha256=JCyie35c09WWB2hLtgQdWbUGExLTHW5LB6OM1F-hz_M,12192
+panqc-0.0.2.dist-info/METADATA,sha256=CcLDKc8eYO4UNC7a1qA5V4UrPCq3KL0_cV0KiHA60jo,6931
+panqc-0.0.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+panqc-0.0.2.dist-info/entry_points.txt,sha256=U9BczQrSEkOUybzYEMDO6I4eJQCHY6NuSEQnX9e1W2Y,46
+panqc-0.0.2.dist-info/licenses/LICENSE,sha256=IAKTYGpuW5pNIcykd2w-U5Q2Q62dzv7AICBUd5iB0qY,1074
+panqc-0.0.2.dist-info/RECORD,,
