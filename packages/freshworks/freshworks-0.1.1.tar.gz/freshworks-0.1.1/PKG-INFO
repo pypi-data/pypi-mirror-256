@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: freshworks
+Version: 0.1.1
+Summary: Python client library for interacting with Freshworks products.
+Home-page: https://github.com/AceofSpades5757/freshworks
+Author: Kyle L. Davis
+Author-email: aceofspades5757.github@gmail.com
+License: MIT
+Project-URL: Author, https://github.com/AceofSpades5757
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+
+This project is abandoned. If you want the PyPI name, please contact me.
+
+The remnants of the package, for their Freshdesk components, has been moved to [pyfreshdesk](https://pypi.org/project/pyfreshdesk/)
