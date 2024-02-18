@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: keyrock-psql
+Version: 2024.2.15.1117
+Requires-Dist: keyrock_core
+Requires-Dist: psycopg2-binary==2.9.9
