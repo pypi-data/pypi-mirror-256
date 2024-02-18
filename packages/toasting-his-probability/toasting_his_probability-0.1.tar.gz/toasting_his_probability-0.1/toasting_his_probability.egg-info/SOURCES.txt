@@ -1,0 +1,10 @@
+setup.py
+toasting_his_probability/Binomialdistribution.py
+toasting_his_probability/Gaussiandistribution.py
+toasting_his_probability/Generaldistribution.py
+toasting_his_probability/__init__.py
+toasting_his_probability.egg-info/PKG-INFO
+toasting_his_probability.egg-info/SOURCES.txt
+toasting_his_probability.egg-info/dependency_links.txt
+toasting_his_probability.egg-info/not-zip-safe
+toasting_his_probability.egg-info/top_level.txt
