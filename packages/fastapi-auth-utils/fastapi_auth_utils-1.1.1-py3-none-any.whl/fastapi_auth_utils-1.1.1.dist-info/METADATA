@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fastapi-auth-utils
+Version: 1.1.1
+Summary: Authentication/Authorization utilities for 🚀FastAPI
+Author: Alirzea Jafari
+Author-email: alirzeaja1384@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi >=0.101.0
+Requires-Dist: PyJWT >=2.8.0
+
+# fastapi-auth-utilities
+A minimal authentication/authorization utility for FastAPI.
+
+## How tom install
+using pip:
+```bash
+pip install fastapi-auth-utils
+```
+
+using poetry:
+```bash
+poetry add fastapi-auth-utils
+```
+
+## How to use
+See [examples](./examples/)
+
+## License
+MIT
