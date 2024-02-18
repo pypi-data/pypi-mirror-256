@@ -1,0 +1,2 @@
+[console_scripts]
+ticktick-to-sqlite = ticktick_to_sqlite.cli:cli

@@ -1,0 +1,10 @@
+ticktick_to_sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ticktick_to_sqlite/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+ticktick_to_sqlite/cli.py,sha256=SxRexo1ePHnC6PVIJy0-pCe-oJKp4r3DUSEvj_I8CSQ,7329
+ticktick_to_sqlite/utils.py,sha256=yPUoaOz7zmfxL3JwXTLFIBxl_97pWBAaTcXSBXyYrJQ,1401
+ticktick_to_sqlite-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ticktick_to_sqlite-0.1.0.dist-info/METADATA,sha256=ijziqpP4dBlpU-9UYEGoP4leZ_OUAKQ3Q8WIOeQQr2M,3297
+ticktick_to_sqlite-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ticktick_to_sqlite-0.1.0.dist-info/entry_points.txt,sha256=c5vPZveaDhYhveWCun9MkLlrYpX42-e40-fTXhwBvrg,66
+ticktick_to_sqlite-0.1.0.dist-info/top_level.txt,sha256=l5B-C3sb2bXm-pRNYiSl_Ky4n5TzJjj7utMsbEQQEYc,19
+ticktick_to_sqlite-0.1.0.dist-info/RECORD,,
