@@ -1,0 +1,32 @@
+name: fine
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10
+  - libiconv
+  - geopandas
+  - jupyter
+  - notebook
+  - libpysal
+  - pip
+  - descartes
+  - glpk
+  - openpyxl
+  - matplotlib
+  - xlrd
+  - pyomo
+  - numpy
+  - pandas
+  - networkx
+  - scipy
+  - scikit-learn>=1.2
+  - xarray
+  - rasterio
+  - netcdf4
+  - tsam
+  - pwlf
+  - psutil
+  - gurobi-logtools
