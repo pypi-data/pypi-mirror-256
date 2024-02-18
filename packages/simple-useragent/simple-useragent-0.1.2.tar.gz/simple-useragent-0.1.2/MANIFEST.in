@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include ACKNOWLEDGEMENTS
+include requirements.txt
+include src/simple_useragent/data/fallback.json
+include src/simple_useragent/data/*.json
