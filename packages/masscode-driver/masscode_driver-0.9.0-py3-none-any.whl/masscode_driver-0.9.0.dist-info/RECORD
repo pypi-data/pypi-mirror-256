@@ -1,0 +1,10 @@
+masscodeDriver/__init__.py,sha256=fE_2L1uzg-LMuWv0XWOoe_YSJL1kIXaNC7OVILL0Ca4,266
+masscodeDriver/datacls.py,sha256=qLsB8xaDgtGOtR4dm1i8E9B0uHzVg1TEMo-6myT0gAQ,3969
+masscodeDriver/driver.py,sha256=ydp8aoIz7enPF5GUPClBQzN_t51PoXhM7XsNOBh6Zj4,3576
+masscodeDriver/query.py,sha256=6zo2segwYoro6ov-GPJo_s3LJqKv6HwBfVK6KK7hyzo,4643
+masscodeDriver/tdict.py,sha256=fozQ2bzy5eJ-a89tkjHowusNlOcWUICjdAqrwGnYYPk,776
+masscode_driver-0.9.0.dist-info/LICENSE,sha256=Z_acxgUhHhHVjyiucx3ky2YM_zmYVL_X2NaMXadKJPc,1085
+masscode_driver-0.9.0.dist-info/METADATA,sha256=aNpo7RyYdXCnUlCpjYS4H4HDAigajS5LHV8jifF9Owg,571
+masscode_driver-0.9.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+masscode_driver-0.9.0.dist-info/top_level.txt,sha256=D8Zs1N4KKQNhW88ZgH8kppB-J-g8M_4czse4fJz5DUs,15
+masscode_driver-0.9.0.dist-info/RECORD,,
