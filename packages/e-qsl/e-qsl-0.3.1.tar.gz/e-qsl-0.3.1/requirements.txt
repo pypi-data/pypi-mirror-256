@@ -1,0 +1,4 @@
+PyYAML
+adif_io
+pillow
+watchfiles

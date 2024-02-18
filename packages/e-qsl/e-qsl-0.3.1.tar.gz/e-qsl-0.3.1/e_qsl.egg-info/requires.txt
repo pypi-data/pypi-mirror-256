@@ -1,0 +1,11 @@
+Pillow
+PyYAML
+adif_io
+watchfiles
+
+[dev]
+pre-commit
+ipdb
+flake8
+mypy
+isort
