@@ -1,0 +1,1 @@
+from .tinysom import SOM
