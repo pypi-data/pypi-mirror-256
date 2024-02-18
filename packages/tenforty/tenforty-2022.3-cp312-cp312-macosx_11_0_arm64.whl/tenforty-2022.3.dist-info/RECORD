@@ -1,0 +1,12 @@
+tenforty-2022.3.dist-info/RECORD,,
+tenforty-2022.3.dist-info/WHEEL,sha256=VdDmD53Z5Im3s3DzMnDRXVcjZVnzMxiqEPFSmUQBX3s,110
+tenforty-2022.3.dist-info/top_level.txt,sha256=1sL2mKIfjMBc9vV0eVea4C6CX4-37TLlNDjyQ9SLo24,9
+tenforty-2022.3.dist-info/LICENSE.txt,sha256=2wqJhzVMXsr2dy-nkaKUih0A_G_Ec8eKVadsEFm-I78,1072
+tenforty-2022.3.dist-info/METADATA,sha256=lT-o6jI2F_11F6aC58cGnJnTeXD2UAVVAeOyitqnk94,13267
+tenforty/_ots_form_models.py,sha256=9oC4jFmTyvAMu9N0qaq3qP10gRA5PRV9R_vo7H4US5s,322572
+tenforty/models.py,sha256=0m6Vj84MUmhFuS5W8K7YF8Ig6jcDR_SR8dhE4Hgi-mQ,15520
+tenforty/__init__.py,sha256=n1eRFmeR0iFLAXedPEm3hP6S3saTitcUVab_2bw-Ykk,128
+tenforty/core.py,sha256=hAaGHXRrm3mMxg9hwUp3VdgifMLfzyIqk6Y9gbYzxOk,14961
+tenforty/otslib.cpython-312-darwin.so,sha256=YCNwErisrVso9enIshznCEY81QuLIbxNw7lHIS-r_oc,1357648
+tenforty/otslib/ots.cpp,sha256=RFMmqsFabkQQwVyZjZpWpveEhXy_v10Q_ifwNTrO6hY,447141
+tenforty/otslib/ots_amalgamation.cpp,sha256=bMNpu0DqaMXxXRYUNkoy8KBIpkaT7UwmpKAs4DPO3Nw,1872572
