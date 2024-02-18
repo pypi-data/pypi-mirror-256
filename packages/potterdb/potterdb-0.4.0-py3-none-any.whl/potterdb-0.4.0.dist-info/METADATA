@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: potterdb
+Version: 0.4.0
+Summary: 
+Home-page: https://github.com/tct123/potterdb
+Keywords: Wizarding World,PotterDB,Wizzard
+Author: tct123
+Author-email: 42028373+tct123@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/tct123/potterdb
+Description-Content-Type: text/markdown
+
+# PotterDB
+ A wrapper for PotterDB api in Python.
+ (Help needed.)
+ [GitHub repo here][def]
+
+[def]: https://github.com/tct123/potterdb
