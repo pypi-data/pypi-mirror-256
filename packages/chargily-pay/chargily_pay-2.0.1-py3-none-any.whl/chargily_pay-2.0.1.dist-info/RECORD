@@ -1,0 +1,9 @@
+chargily_pay/__init__.py,sha256=nn0RKuXQUOePk8G8ZdelZmRcMbqB93RJ-Hd_rF7_Yws,31
+chargily_pay/api.py,sha256=nqRSMbU6abhRpsQTzm4-NUeRdgZSxvEzWvEBhKkKYPw,9984
+chargily_pay/entity.py,sha256=scg62BEQmQh2iWwQzF_-TaqvoSubGR6sZ-_1N6X32x0,1868
+chargily_pay/settings.py,sha256=jgw0ZsSPak7Z5LRHzW2lRlouONk1rIGS4kP7ImF76ss,112
+chargily_pay-2.0.1.dist-info/LICENSE,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+chargily_pay-2.0.1.dist-info/METADATA,sha256=ukBv2eaTZqWqI_3xE0Q1WPMGQ8PYL5L_vT_Ppri4bks,3603
+chargily_pay-2.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+chargily_pay-2.0.1.dist-info/top_level.txt,sha256=hWpZ0BddL3AdAhPiqZPahtmDIkQ0djOQwlsflj6vJ4w,13
+chargily_pay-2.0.1.dist-info/RECORD,,
