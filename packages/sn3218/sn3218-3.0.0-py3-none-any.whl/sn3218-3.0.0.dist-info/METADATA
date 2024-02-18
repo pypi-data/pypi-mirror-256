@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: sn3218
+Version: 3.0.0
+Summary: Library for the SN3218 18-channel constant current LED driver
+Project-URL: GitHub, https://www.github.com/pimoroni/sn3218-python
+Project-URL: Homepage, https://www.pimoroni.com
+Author-email: Philip Howard <phil@pimoroni.com>
+Maintainer-email: Philip Howard <phil@pimoroni.com>
+License: MIT License
+        
+        Copyright (c) 2018 Pimoroni Ltd.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: Pi,Raspberry
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Requires-Python: >=3.7
+Requires-Dist: smbus2
+Description-Content-Type: text/markdown
+
+# SN3218
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pimoroni/sn3218-python/test.yml?branch=main)](https://github.com/pimoroni/sn3218-python/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/pimoroni/sn3218-python/badge.svg?branch=main)](https://coveralls.io/github/pimoroni/sn3218-python?branch=main)
+[![PyPi Package](https://img.shields.io/pypi/v/sn3218.svg)](https://pypi.python.org/pypi/sn3218)
+[![Python Versions](https://img.shields.io/pypi/pyversions/sn3218.svg)](https://pypi.python.org/pypi/sn3218)
+
+# Pre-requisites
+
+You must enable:
+
+* i2c: `sudo raspi-config nonint do_i2c 0`
+
+You can optionally run `sudo raspi-config` or the graphical Raspberry Pi Configuration UI to enable interfaces.
+
+# Installing
+
+Stable library from PyPi:
+
+* Just run `python3 -m pip install sn3218`
+
+In most cases you'll need to run this in a virtual Python environment.
+
+Latest/development library from GitHub:
+
+* `git clone https://github.com/pimoroni/sn3218-python`
+* `cd sn3218-python`
+* `./install.sh --unstable`
+
+
+3.0.0
+-----
+
+* BREAKING: Remove RPi.GPIO and bus autodetect
+* BREAKING: Switch to smbus2
+
+2.0.0
+-----
+
+* BREAKING: Port to class.
+* Legacy support for module methods, auto-instantiates a class
+
+1.2.7
+-----
+
+* Bugfix: Fix for Python 3.5
+
+1.2.6
+-----
+
+* Initial commit to Raspbian apt repository
+
+1.2.5
+-----
+
+* Initial commit to Raspbian apt repository
+
+1.2.4
+-----
+
+* Added alternate warning/instructions for missing python3-smbus
+* Code quality improvements
+
+1.2.3
+-----
+
+* Print fix
+
+1.2.2
+-----
+
+* Added i2c_bus_id detection for older Pi
+
+1.2.1
+-----
+
+* Removed hard dependency upon SMbus, added message at runtime
+
+1.0.0
+-----
+
+* Initial release
+
