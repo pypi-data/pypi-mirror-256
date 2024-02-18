@@ -1,0 +1,11 @@
+livestt/__init__.py,sha256=JkgUvaUQQrLRnGQP5JBZ1S5ZvoUdY6IRI2kfAhwRZkk,128
+livestt/record/__init__.py,sha256=M6dDeqzW291xBsoDU7p9H6Q7OS_U-cSbGvUhVJZj9wQ,29
+livestt/record/record.py,sha256=Zx6YcfB0CgXUbYrIaQlkFiNIw9Z6Es6MRzutMlgI1eE,1582
+livestt/stt/__init__.py,sha256=bGuLZW99cSYgirUB4xaeUeHRd5fd-iGfrGYFTdCozBk,28
+livestt/stt/stt.py,sha256=i6YirLIOVSPOxtbWbaRIieBRLM7VhNsw9FRTXTffT0Q,1227
+livestt/wake_word/__init__.py,sha256=jZG9dh_Ilqypaxx8Zy22i3hht-IG9wkQY-wqam_EyCY,28
+livestt/wake_word/wake_word.py,sha256=_9Gwxmqu5G8k_kYiTo5CQrMhGYZ6_sznq-Og1AHTYqk,1262
+livestt-1.0.1.dist-info/METADATA,sha256=ji29HrFGwh1AJ-e_aYritU5UNzoF0kMpNjP5rKxkY2c,503
+livestt-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+livestt-1.0.1.dist-info/top_level.txt,sha256=kyuZ5ZGzSUNHuLQG_wf5hyeoUp64oFDZR1HRpUSML84,8
+livestt-1.0.1.dist-info/RECORD,,
