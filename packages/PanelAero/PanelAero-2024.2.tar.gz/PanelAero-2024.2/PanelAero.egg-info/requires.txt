@@ -1,0 +1,10 @@
+numpy
+
+[test]
+pytest
+pytest-cov
+
+[tutorials]
+jupyter
+jupyter-book==0.15.1
+mayavi
