@@ -1,0 +1,14 @@
+BuildBinary.py,sha256=qsTHxkzLru_A1lC-i2XJlg75VzCMhbXp6MwLIsHaRXY,3914
+PythonProjectBootstrapper/EntryPoint.py,sha256=LXuaO7Q1aWrlHRYt5n5ot6RcucdGNwsCk7I-jiD8T6I,5731
+PythonProjectBootstrapper/__init__.py,sha256=sGnzxa2ZZmphhrfWZiKBpo6vKfuH6iBD_nqkxGSeuHQ,326
+PythonProjectBootstrapper/python_project/cookiecutter.json,sha256=IGXyDjXJu9-MorIA_5SZqJjbd45ZlCHUCfmBU-ATZzw,57
+PythonProjectBootstrapper/python_project/hooks/post_gen_project.py,sha256=qaKXlMY07h4kwomjhhCWsBxIbAT-4QoDZjSCIXdDNf0,379
+PythonProjectBootstrapper/python_project/{{ cookiecutter.__empty_dir }}/HelloWorld1.txt,sha256=cwcDxGoo0mdxq9_RacQOtz3jngciynbnOzNQEo-nFbI,35
+PythonProjectBootstrapper/python_project/{{ cookiecutter.__empty_dir }}/Dir/HelloWorld2.txt,sha256=vTtK0xYj85FLVL29BcOFwTZPIVuTfbpqgAT7xy_XP-A,35
+PythonProjectBootstrapper-0.1.2.dist-info/LICENSE,sha256=p_ob7Rms-rFKZusiOVDcbvzuUtice8qNKp3LUtwAcxY,1108
+PythonProjectBootstrapper-0.1.2.dist-info/LICENSE.txt,sha256=rncf1QjeO6turvEjuIxHbxKjNAR3Y6ubotonLwz3azc,1101
+PythonProjectBootstrapper-0.1.2.dist-info/METADATA,sha256=2Lb_3QX_dXoMg9mILNmnzGzshUWHhmfb3jA9Y1MiQUs,2658
+PythonProjectBootstrapper-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PythonProjectBootstrapper-0.1.2.dist-info/entry_points.txt,sha256=14lst1sNWS7MXZDfMiWRTeAjFfWgF2VpudkODMH1Z-g,87
+PythonProjectBootstrapper-0.1.2.dist-info/top_level.txt,sha256=8pbF3dz76DP1hsxZidrPAvz1i8exz5Lw_UPZog_f90Y,38
+PythonProjectBootstrapper-0.1.2.dist-info/RECORD,,
