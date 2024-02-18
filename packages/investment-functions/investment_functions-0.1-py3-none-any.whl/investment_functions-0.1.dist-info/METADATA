@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: investment-functions
+Version: 0.1
+Requires-Dist: pinecone-client
+Requires-Dist: langchain
+Requires-Dist: PyPDF2
+Requires-Dist: docx2txt
+Requires-Dist: openai
+Requires-Dist: sentence-transformers
+Requires-Dist: nltk
+Requires-Dist: config
+
