@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: serviceplan
+Version: 0.1.3
+Summary: Add your description here
+Author-email: donglin <dong.lin@neusoft.com>
+Requires-Python: >=3.8
+Requires-Dist: black>=24.2.0
+Requires-Dist: mysql-connector-python>=8.3.0
+Requires-Dist: mysql-connector>=2.2.9
+Requires-Dist: requests>=2.31.0
+Description-Content-Type: text/markdown
+
+# serviceplan
+
+Describe your project here.
