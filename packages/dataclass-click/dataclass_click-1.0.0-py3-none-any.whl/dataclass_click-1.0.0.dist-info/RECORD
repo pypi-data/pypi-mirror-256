@@ -1,0 +1,5 @@
+dataclass_click/__init__.py,sha256=WI8o6o7SEjMcp8YMONlOB_o3-xUGqYSklQyFTfS-N5A,31
+dataclass_click/dataclass_click.py,sha256=zYhUfWwyKm1v-7Xf7bpOQy0q4Fb9D3BzFn5BuPM1hhg,11889
+dataclass_click-1.0.0.dist-info/METADATA,sha256=0l8YHMtT5o09Avf1R5xU0Q56p_-83IuPsjsTAtnXcPc,4734
+dataclass_click-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dataclass_click-1.0.0.dist-info/RECORD,,
