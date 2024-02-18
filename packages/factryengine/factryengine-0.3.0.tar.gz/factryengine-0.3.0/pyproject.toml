@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "factryengine"
+version = "0.3.0"
+description = "production / job shop / resource scheduler for Python"
+authors = ["Jacob Østergaard Nielsen <jacob.oestergaard.nielsen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+seaborn = "^0.13.1"
+networkx = "^3.2.1"
+pydantic = "^2.5.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+ipykernel = "^6.28.0"
+
+[tool.ruff]
+ignore-init-module-imports = true
