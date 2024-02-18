@@ -1,0 +1,9 @@
+regml_llmchat_task_helpers/__init__.py,sha256=hRP3QcmAU8vbrfD3GWSYe9yDQrwrAfZWJl7DFUEo3Hw,124
+regml_llmchat_task_helpers/helpers/__init__.py,sha256=jy5uW9GeMZdaJHeIb4Ex-pv26hoYVkx-5_T70YaIubs,124
+regml_llmchat_task_helpers/helpers/llmchat.py,sha256=SrCSq0cQNn00Tuy-29fApsiK4gncOnC909aZwJDWrKU,747
+regml_llmchat_task_helpers/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regml_llmchat_task_helpers/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regml_llmchat_task_helpers/tests/run_llmchat.py,sha256=9Ul6nNE3-5BJPqT8e0Ogv8OlarsDTgorZhMhWcUotjQ,2471
+regml_llmchat_task_helpers-0.0.1.dist-info/METADATA,sha256=d5CvWOUsFWoYhSSIyLmQgNgP2xHik80LrV_W8nfo6wA,636
+regml_llmchat_task_helpers-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+regml_llmchat_task_helpers-0.0.1.dist-info/RECORD,,
