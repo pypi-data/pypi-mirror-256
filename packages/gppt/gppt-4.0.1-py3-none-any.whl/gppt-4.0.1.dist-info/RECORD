@@ -1,0 +1,13 @@
+gppt/__init__.py,sha256=wWuW1KLF1AzuGVoAG2XCLpqeJZjjuRUDgJKQ0GtC0y4,543
+gppt/auth.py,sha256=MAFv8a9_69bkq7Vq-f44Og4bcwXH_QUCmonDDsh40v0,2442
+gppt/consts.py,sha256=xKZwJ4-5UwzmA5hIck-XGv2RD2XKgdtEQH3WE5mha1w,508
+gppt/gppt.py,sha256=FSJm8Kunj6wJU0bEYPyWuQ-YNysGoK_n2_tP1b4TBAs,6002
+gppt/main.py,sha256=QJlAI9hSoAeuGk-MUZHDey34VdHVQKW56kGq9TvToLE,4203
+gppt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gppt/types.py,sha256=b-cmD-t9HX_aHGMPUtAOym7vRWM8woftXTbLc3AqdXk,829
+gppt/utils.py,sha256=R8H_9YWf1mMchLly2Re0cGwUA1NRLiMU7xfSjtGII7U,2358
+gppt-4.0.1.dist-info/LICENSE.txt,sha256=r8H2g5CSzw2VZr2CrBp33IHi2bpSxPAxRsUZhUn7e3M,1046
+gppt-4.0.1.dist-info/METADATA,sha256=UlSTSPoGJ8uSOLrQ_2-_NNPe-4K9_MVop5zE6gpc_H4,6089
+gppt-4.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gppt-4.0.1.dist-info/entry_points.txt,sha256=7oLN22BCgsBH9YfDdLZ81S-ABYU5mfNYi-fG7dFst74,39
+gppt-4.0.1.dist-info/RECORD,,
