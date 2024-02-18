@@ -1,0 +1,14 @@
+mwparserfromhtml/__init__.py,sha256=ibaFTY0wJ7zv4x--wC8qbkSF2ktbaEjdgV5tgY0Faj4,397
+mwparserfromhtml/dump/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwparserfromhtml/dump/dump.py,sha256=p_BY6U51k_rQuW8j_7aNXnmJOEiaUzMzBb_JdRlw7fg,3448
+mwparserfromhtml/parse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwparserfromhtml/parse/article.py,sha256=phBK0A21GNMcLISFFpDNklCNOasbEATCExIFvfEqK_E,14440
+mwparserfromhtml/parse/const.py,sha256=h0ktZsq2RbJoIJoyEhQBCoZWbUgPGknRoWX2hpPiOuA,272256
+mwparserfromhtml/parse/elements.py,sha256=xVF797uZthAxYoyzhUKpQ1Uc0aC8smUkGFXJuUpfPzA,18472
+mwparserfromhtml/parse/plaintext.py,sha256=uU87git6Wo44DezoZ8_RrHme1uGcEiBv2VnLu4KV5KA,4802
+mwparserfromhtml/parse/utils.py,sha256=MfLBOItHTetTNABCl85J51898rZmfGsWWzZUWUrc1CU,1808
+mwparserfromhtml-1.0.2.dist-info/LICENSE,sha256=LvpaaccZ_-c0QhxjxDSMTLc4eqVwN9zaln108A0N1P0,1073
+mwparserfromhtml-1.0.2.dist-info/METADATA,sha256=F6mm1ipAYdQDHppAxD79q07hwHJD5-JAFLtjjREITVk,7230
+mwparserfromhtml-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mwparserfromhtml-1.0.2.dist-info/top_level.txt,sha256=vB8Jc1k-j4Fxjmfcrl1s85Zsp9FYSEalWC00_FX21-Y,17
+mwparserfromhtml-1.0.2.dist-info/RECORD,,
