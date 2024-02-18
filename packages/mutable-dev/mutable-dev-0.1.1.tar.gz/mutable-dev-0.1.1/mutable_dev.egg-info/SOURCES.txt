@@ -1,0 +1,5 @@
+setup.py
+mutable_dev.egg-info/PKG-INFO
+mutable_dev.egg-info/SOURCES.txt
+mutable_dev.egg-info/dependency_links.txt
+mutable_dev.egg-info/top_level.txt
