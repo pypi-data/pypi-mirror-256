@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stc-converter
+Version: 0.1
+Summary: A simple speech to command converter
+Home-page: https://github.com/SamuelSGSouza/STC-converter.git
+Author: Samuel G Souza
+Author-email: samuels.g.desouza@gmail.com
+License: MIT
+License-File: LICENSE
