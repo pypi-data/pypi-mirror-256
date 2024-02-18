@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: gtfs_segments
+Version: 2.1.0
+Home-page: https://github.com/UTEL-UIUC/gtfs_segments
+Author: Saipraneeth Devunuri
+Author-email: Saipraneeth Devunuri <sd37@illinois.edu>, Lewis Lehe <lehe@illinois.edu>
+Maintainer-email: Saipraneeth Devunuri <sd37@illinois.edu>
+License: MIT License
+        
+        Copyright (c) [2022] [Saipraneeth Devunuri]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/UTEL-UIUC/gtfs_segments
+Project-URL: Documentation, https://gtfs-segments.readthedocs.io
+Project-URL: Repository, https://github.com/UTEL-UIUC/gtfs_segments
+Project-URL: Bug Tracker, https://github.com/UTEL-UIUC/gtfs_segments/issues
+Keywords: Python,GTFS,Transit,Stop Spacings,GIS
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: utm
+Requires-Dist: contextily
+Requires-Dist: requests
+Requires-Dist: isoweek
+Requires-Dist: faust-cchardet
+Requires-Dist: charset_normalizer
+Requires-Dist: folium
+Requires-Dist: thefuzz
