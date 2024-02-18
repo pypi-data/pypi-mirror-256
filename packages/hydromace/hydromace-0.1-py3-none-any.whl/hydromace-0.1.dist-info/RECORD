@@ -1,0 +1,11 @@
+hydromace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hydromace/interface.py,sha256=65OkQev7IkeCARgFf3ZWpuEdlMHDe6Kj91MxO9PWrNE,2168
+hydromace/model.py,sha256=A_6zGDF522EUmyi4ElQg6hp0yHih2M0Ma_UokS20Zqo,1859
+hydromace/tools.py,sha256=RdZF-Q7kq5XchL77vd1IK8twKBRmy0hcbP7sbDmUK3s,1569
+hydromace/training.py,sha256=Ij_5WKixXVTRijANO1k3cyNLLiQTjHixVYB_YJSH__U,1267
+hydromace/training_tools.py,sha256=lq11SQHsl-MaQlG1rd_iEYNtObKkFAOPN8jFdocVeBA,5534
+hydromace-0.1.dist-info/LICENSE,sha256=UcrWqjg0ev8sb10LmRpHRDijC6M-HztGkFBBqGvpob0,1073
+hydromace-0.1.dist-info/METADATA,sha256=NpNl2F4hlw-DYm14hpLHKLIsgBkymuGHoxeREhQwrJs,1540
+hydromace-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hydromace-0.1.dist-info/top_level.txt,sha256=vfznKF-l4dIhWlAGJed-SViiUp9SJilEahw6tzGAhPo,10
+hydromace-0.1.dist-info/RECORD,,
