@@ -1,0 +1,13 @@
+vimwiki_cli/__init__.py,sha256=99DevyN58W-A5AcAuIijM2pp9ns6mL5YkYekGnsdNSQ,1348
+vimwiki_cli/__main__.py,sha256=zC8JaliTlVXUCc0KT4qoRySJL2ZaKz3QxQ5So7C5iPs,4781
+vimwiki_cli/context.py,sha256=K7eFsxKY-H69jCPHBG0O-RKWyVjKzPF1nDkJwcaFzWs,2049
+vimwiki_cli/diary.py,sha256=fx_AdmyrcqoEtDnXE3BN8Apyv0v6nr5z29cWan2xR2U,2262
+vimwiki_cli/editor.py,sha256=3sTcP4Lb4z8rMdBt5tGcESgNISmVK9qsgULpYrt7o4o,4476
+vimwiki_cli/tags.py,sha256=pZJhfrnA6d1GC0YFHXUeDu2praSXFwbNw8-YVWnWaxY,2254
+vimwiki_cli/wiki.py,sha256=eDrX-ZaYAPaAdTP1pYdwWLddu7Qtmw_mb_rLAzRo0Oc,5118
+vimwiki_cli-1.2.0.dist-info/LICENSE,sha256=ez07K3WP47m_oHejVhWoJgbT17ejlO6E3Y27r78ob24,1283
+vimwiki_cli-1.2.0.dist-info/METADATA,sha256=mp_oPTMyL5TY2UANa894LnAPB33ZfUTeFpLLU5IzDe4,8260
+vimwiki_cli-1.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+vimwiki_cli-1.2.0.dist-info/entry_points.txt,sha256=-G8Ez2GC2KkdogOsIXBytz6MeIR6lWcW84mOKM6T3Do,53
+vimwiki_cli-1.2.0.dist-info/top_level.txt,sha256=oYjrChkRwrEnoWZVF7qaR4lFXraueSFjUqJt-b18vUM,12
+vimwiki_cli-1.2.0.dist-info/RECORD,,
