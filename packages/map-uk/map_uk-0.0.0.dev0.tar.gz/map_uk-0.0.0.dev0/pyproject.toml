@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "map-uk"
+version = "0.0.0-dev"
+description = "Quickly create maps of the UK in Python"
+authors = ["Jordan Pinder <jordan.pinder@levellingup.gov.uk>"]
