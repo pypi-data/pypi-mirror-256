@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: anupamcalculator
+Version: 0.0.1
+Summary: a calculator with some advanced functions
+Home-page: 
+Author: anupamkumar
+Author-email: anupamkumar.nith@gmail.com
+License: MIT
+Keywords: calculator,math,arithmetic,advanced,functions
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/plain
+License-File: LICENSE.txt
+
+Making a Calculator pip installable package example.
+
+Change Log
+============
+0.0.1 (Feb 5, 2024)
+ â€” â€” â€” â€” â€” â€” â€” â€” â€” -
+- First Release
