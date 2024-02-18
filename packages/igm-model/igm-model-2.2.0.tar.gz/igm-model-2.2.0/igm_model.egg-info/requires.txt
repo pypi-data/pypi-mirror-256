@@ -1,0 +1,11 @@
+tensorflow[and-cuda]==2.12.0
+matplotlib
+scipy
+netCDF4
+xarray
+rasterio
+pyproj
+geopandas
+oggm
+salem
+importlib_resources
