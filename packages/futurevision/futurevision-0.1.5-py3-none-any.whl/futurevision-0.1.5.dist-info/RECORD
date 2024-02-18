@@ -1,0 +1,13 @@
+futurevision/SSD_MobileNet.caffemodel,sha256=dhyG-649g2HdRU98dAqWT2KXXtMvQyS4uFmU7eww9q8,23147564
+futurevision/SSD_MobileNet_prototxt.txt,sha256=54FVnE9b6uwqSGzNlSr1tvpAjpSYdhv19PuAtOnw0l4,29353
+futurevision/__init__.py,sha256=E05eMJtKxKLE3dBQ596GMJYzlgYS2RiNiC9ldnH13_s,1173
+futurevision/arduino.py,sha256=70xCYD0W2LldoNeLZ4g12ftRpb3t2vISHQ_dxQwaBgo,3185
+futurevision/dlib_face_recognition_resnet_model_v1.dat,sha256=VVM7KKlYAKVRulRrpi_mliXH6VpwYcM4rf_q0IcZ2jA,22466066
+futurevision/iphone.py,sha256=SkHQvRvLH3nR_N92A5ma9XRhKfwiwtFPcHfu1Dc1-Ew,3371
+futurevision/raspberrypi.py,sha256=WdOihNHT3SPyd1hnLMv4y3SrlNPNqlM1oMCGpLzt97M,10867
+futurevision/vision.py,sha256=bhZ9n7zGPOdonx4uMBUIazDMpgihFYnKoZovpme3AVc,24564
+futurevision-0.1.5.dist-info/LICENSE,sha256=-OzkOtIVp5hXkah1br3VvIy_FWOte6ZM-wvABUpwuIM,1064
+futurevision-0.1.5.dist-info/METADATA,sha256=d0a78IPi0wejqdpJ-glLvMecR6__guFdezOIAvJRyOw,34417
+futurevision-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+futurevision-0.1.5.dist-info/top_level.txt,sha256=Q-IVT_imd7z98NsxEm5z2RyJZe53eGvkUxiOayLn0Ac,13
+futurevision-0.1.5.dist-info/RECORD,,
