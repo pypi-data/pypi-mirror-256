@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "simple-dataclass-configuration"
+version = "0.1.2"
+description = ""
+authors = ["zimolab <zimolab@aliyun.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [
+    {include = "simpleconf"},
+]
+homepage = "https://github.com/zimolab/simple-conf"
+repository = "https://github.com/zimolab/simple-conf"
+documentation = "https://github.com/zimolab/simple-conf"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+marshmallow = "^3.20.2"
+marshmallow-dataclass = {extras = ["enum", "union"], version = "^8.6.0"}
+pyyaml = "^6.0.1"
+tomli-w = "^1.0.0"
+tomli = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
