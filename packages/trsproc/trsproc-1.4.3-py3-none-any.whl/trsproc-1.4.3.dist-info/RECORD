@@ -1,0 +1,10 @@
+trsproc/__init__.py,sha256=6CwHm8VFggw7_UvNBFry5WXEYrlJ_h-Xw1LDnUv2UQM,311
+trsproc/__main__.py,sha256=l3_5ts4kfGMuqQeD4d1_WxbB7YXXqpjvFvSIBBSAOtM,2970
+trsproc/parser.py,sha256=xF2oxkmqUpAt6-u3644Fv5IVCnT-wpOYHiuIeJBy_I4,30219
+trsproc/utils.py,sha256=FW3hrAKTGM_Ve3sIkyZOiP9dLT-aWCOFHKQelN-X3kI,17393
+trsproc-1.4.3.dist-info/LICENSE,sha256=iv4TuKkTtaPaP1me3Xzc85rpAZA2E6DvX3Ts6r-q1TA,1066
+trsproc-1.4.3.dist-info/METADATA,sha256=q_p60ZWv6oWXlcW_gT6iteTf7RAee8enD3yLlSWHKcg,10828
+trsproc-1.4.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+trsproc-1.4.3.dist-info/entry_points.txt,sha256=D88IcVgWqPSwNaFODP87eZvRwiI0eKuukA4VRxqM8Jk,53
+trsproc-1.4.3.dist-info/top_level.txt,sha256=WC-7eu_h6Z2n-8gFoE2kf5YuA_q2zII5RxB1fT6JuYY,8
+trsproc-1.4.3.dist-info/RECORD,,
