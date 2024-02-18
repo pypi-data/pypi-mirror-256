@@ -1,0 +1,10 @@
+GenuineAI/__init__.py,sha256=EprrVwByiXewgSRCQ1lR8IRxa4BlGbLH5Og-fddiVg0,266
+GenuineAI/loss_functions.py,sha256=bh6157aLUy4P51rhsD7ui630AbzWbNa1HC3m29NzyiU,6412
+GenuineAI/metrics.py,sha256=-MQ2bNTzXHAp0P8__j1VASdatFzC6dpzd6G84Q9o2PE,6474
+tests/__init__.py,sha256=DMB6oxRlz2SBVIVcG3AO737V1CvjnZYbL2RQMb6l4CI,178
+tests/test_aucloss.py,sha256=zAmzcOwTJhbxCw5ESzZie4K2tpLk-K9qKgNGLuN94a4,1530
+GenuineAI-0.1.0.dist-info/LICENSE,sha256=yUezXBNX7PmFAG-ycrCzgJDlwOIEkKj3woZ1f4jXFII,1096
+GenuineAI-0.1.0.dist-info/METADATA,sha256=kospn6Dlq0u99tDDfMFrmH2OmQFdEjVtpN1AdMC-LFE,806
+GenuineAI-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+GenuineAI-0.1.0.dist-info/top_level.txt,sha256=Ild2YuI2VUBQ_oTJQLuf6JZBp4_qjxsS6UOR902tf5s,16
+GenuineAI-0.1.0.dist-info/RECORD,,
