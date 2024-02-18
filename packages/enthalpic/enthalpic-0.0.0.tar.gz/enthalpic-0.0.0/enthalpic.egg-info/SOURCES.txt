@@ -1,0 +1,5 @@
+setup.py
+enthalpic.egg-info/PKG-INFO
+enthalpic.egg-info/SOURCES.txt
+enthalpic.egg-info/dependency_links.txt
+enthalpic.egg-info/top_level.txt
