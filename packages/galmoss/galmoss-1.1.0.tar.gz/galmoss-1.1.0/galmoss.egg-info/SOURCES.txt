@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+galmoss/__init__.py
+galmoss/data.py
+galmoss/fitting.py
+galmoss/uncertainty.py
+galmoss.egg-info/PKG-INFO
+galmoss.egg-info/SOURCES.txt
+galmoss.egg-info/dependency_links.txt
+galmoss.egg-info/top_level.txt
