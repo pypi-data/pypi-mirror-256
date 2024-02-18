@@ -1,0 +1,9 @@
+kiskadee/__init__.py,sha256=YH00FTErwGK6iPIfj95zihSN4v6W4xFGep6-8Xqrsoc,414
+kiskadee/dataLoader.py,sha256=7KL-fX3FXIIl-MepltRQDz2VoIJgPIW433NReOpxsjo,1113
+kiskadee/kinetics.py,sha256=05Ram_TOpTqytU0rt7p8XBz9JrS3y4ASvI3JfBn87cE,8944
+kiskadee/thermogravimetricAnalysis.py,sha256=8VrEbgh56e16Dr2QimVdGrbGUa2ewR3HllOZFp8pBQs,6162
+kiskadee-0.0.4.dist-info/LICENSE,sha256=2R3hFgoDWgKnafG6ARyuG-nIhSTtnYkUtVm7dxdI-7M,1064
+kiskadee-0.0.4.dist-info/METADATA,sha256=SxpYnlsxlfMvJX6O8EnAUk2VZQdWidTzuHO9M8fI5tI,876
+kiskadee-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kiskadee-0.0.4.dist-info/top_level.txt,sha256=BpPZtc8LJGmHzNArSiGOFulxVHxi92LjiGriUKnCoe4,9
+kiskadee-0.0.4.dist-info/RECORD,,
