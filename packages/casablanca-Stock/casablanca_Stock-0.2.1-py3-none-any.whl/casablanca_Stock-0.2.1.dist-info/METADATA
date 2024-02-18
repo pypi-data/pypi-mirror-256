@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: casablanca-Stock
+Version: 0.2.1
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: selenium
+
