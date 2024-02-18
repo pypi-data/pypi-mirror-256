@@ -1,0 +1,14 @@
+appdirs
+requests-kerberos-proxy
+pyarrow
+pandas
+pathlib
+pyyaml
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
