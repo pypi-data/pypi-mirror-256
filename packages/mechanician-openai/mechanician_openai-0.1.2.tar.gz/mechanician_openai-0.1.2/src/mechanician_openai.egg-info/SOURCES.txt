@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/mechanician_openai/__init__.py
+src/mechanician_openai/assistants_ai_connector.py
+src/mechanician_openai/chat_ai_connector.py
+src/mechanician_openai/instruction_auto_tuner.py
+src/mechanician_openai.egg-info/PKG-INFO
+src/mechanician_openai.egg-info/SOURCES.txt
+src/mechanician_openai.egg-info/dependency_links.txt
+src/mechanician_openai.egg-info/requires.txt
+src/mechanician_openai.egg-info/top_level.txt
