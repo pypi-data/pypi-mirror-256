@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stockdatafetcher.egg-info/PKG-INFO
+stockdatafetcher.egg-info/SOURCES.txt
+stockdatafetcher.egg-info/dependency_links.txt
+stockdatafetcher.egg-info/requires.txt
+stockdatafetcher.egg-info/top_level.txt
+tests/test.py
