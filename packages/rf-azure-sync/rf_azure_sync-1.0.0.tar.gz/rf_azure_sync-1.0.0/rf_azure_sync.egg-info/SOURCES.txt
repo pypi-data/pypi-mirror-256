@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+rf_azure_sync/__init__.py
+rf_azure_sync/rf_azure_sync.py
+rf_azure_sync/rf_azure_sync_get.py
+rf_azure_sync/rf_azure_sync_patch.py
+rf_azure_sync/sync_utils.py
+rf_azure_sync.egg-info/PKG-INFO
+rf_azure_sync.egg-info/SOURCES.txt
+rf_azure_sync.egg-info/dependency_links.txt
+rf_azure_sync.egg-info/entry_points.txt
+rf_azure_sync.egg-info/requires.txt
+rf_azure_sync.egg-info/top_level.txt
