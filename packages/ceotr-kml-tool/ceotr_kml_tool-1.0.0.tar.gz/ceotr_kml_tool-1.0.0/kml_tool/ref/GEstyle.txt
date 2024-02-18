@@ -1,0 +1,102 @@
+<StyleMap id="msn_open-diamond">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#sn_open-diamond</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#sh_open-diamond0</styleUrl>
+	</Pair>
+</StyleMap>
+<Style id="sh_cross-hairs_highlight0">
+	<IconStyle>
+		<scale>1.2</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/cross-hairs_highlight.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Style id="latest_surfacing">
+	<IconStyle>
+		<scale>1.1</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond.png</href>
+		</Icon>
+		<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+	</IconStyle>
+	<LabelStyle>
+	</LabelStyle>
+	<ListStyle>
+		<ItemIcon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-diamond-lv.png</href>
+		</ItemIcon>
+	</ListStyle>
+</Style>
+<Style id="sn_open-diamond">
+	<IconStyle>
+		<scale>0.8</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Style id="sh_open-diamond0">
+	<IconStyle>
+		<scale>0.933333</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<StyleMap id="msn_wht-blank">
+	<Pair>
+		<key>normal</key>
+		<styleUrl>#sn_wht-blank</styleUrl>
+	</Pair>
+	<Pair>
+		<key>highlight</key>
+		<styleUrl>#sh_wht-blank</styleUrl>
+	</Pair>
+</StyleMap>
+<Style id="sh_wht-blank">
+	<IconStyle>
+		<scale>1.3</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+		</Icon>
+		<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+	</IconStyle>
+	<LabelStyle>
+		<scale>1.5</scale>
+	</LabelStyle>
+	<ListStyle>
+		<ItemIcon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+		</ItemIcon>
+	</ListStyle>
+</Style>
+<Style id="msn_arrow">
+<IconStyle>
+	<Icon>
+		<href>http://maps.google.com/mapfiles/kml/shapes/arrow.png</href>
+	</Icon>
+	<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+</Style>
+<Style id="sn_wht-blank">
+	<IconStyle>
+		<scale>1.1</scale>
+		<Icon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+		</Icon>
+		<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+	</IconStyle>
+	<LabelStyle>
+		<scale>1.5</scale>
+	</LabelStyle>
+	<ListStyle>
+		<ItemIcon>
+			<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+		</ItemIcon>
+	</ListStyle>
+</Style>

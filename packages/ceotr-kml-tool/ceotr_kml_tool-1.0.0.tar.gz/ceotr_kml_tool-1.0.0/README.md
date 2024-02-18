@@ -1,0 +1,31 @@
+# metadata-xml
+
+[![Create and validate and XML file](https://github.com/cioos-siooc/metadata-xml/actions/workflows/python.yaml/badge.svg)](https://github.com/cioos-siooc/metadata-xml/actions/workflows/python.yaml)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+`kml_tool` is a Python3 tool for converting telemetry data from Telemetry file or log files into XML
+
+It can be used as a command line tool.
+
+## Installation
+
+Download code
+
+Create ~/code/ if it does not exist cd into it
+git clone git@gitlab.oceantrack.org:ocean-gliders-canada/sensor_tracker.git
+cd sensor_tracker
+
+
+Download code
+
+Create ~/code/ if it does not exist cd into it
+git clone git@gitlab.oceantrack.org:ocean-gliders-canada/sensor_tracker.git
+cd sensor_tracker
+
+Setup
+
+Refer to run.sh for most setup operations
+
+Setup python env
+
+conda env create -f environment.yml
