@@ -1,0 +1,11 @@
+Crossover/__init__.py,sha256=vB0XkH0AWGdcURXmrNmbE5PBXFBOzeVsbq7IFBUtq1M,49
+Crossover/__version__.py,sha256=JTuMQrhWD0x2fwUz9ocRyIMQa2XVrXXgmB7lZjIXmiE,49
+Crossover/callbacks.py,sha256=xMaRtkhhvGUhNf9szIERBUOhIYNtNjzL4ynwOpNx-A4,1110
+Crossover/client.py,sha256=UKoew8TLL-6OyyHRapygINjBQkXY_xHt12yz-feWsgU,4501
+Crossover/converters.py,sha256=dDM8XCt6KMkYi9gWMZ9Hj38j6yTjJ471JBaQqI4uzyQ,1548
+Crossover/render.py,sha256=cG7pRQ2srU7SLiiPd4aI3CaLqedQdf0u_qRKG60Uo6o,4368
+Crossover/utils.py,sha256=bME81UJIcU-MDDhGneKQpxEasGx3SRULEMKf-ygHiE0,1864
+crossover-0.0.1.dist-info/METADATA,sha256=igCekP10p16elVS32uylx9lZUhpct6eBHMTDrOr3jVI,340
+crossover-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+crossover-0.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+crossover-0.0.1.dist-info/RECORD,,
