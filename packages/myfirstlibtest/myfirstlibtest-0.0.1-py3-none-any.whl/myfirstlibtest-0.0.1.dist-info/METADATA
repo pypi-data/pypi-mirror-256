@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: myfirstlibtest
+Version: 0.0.1
+Summary: PYPI tutorial package creation written by Me
+Home-page: https://github.com/teddylee777/teddynote
+Author: thomasjfloress
+Author-email: ThomasJFloress@outlook.com
+License: UNKNOWN
+Keywords: myfirstlibtest,thomas,python datasets,python tutorial,pypi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+
+UNKNOWN
+
