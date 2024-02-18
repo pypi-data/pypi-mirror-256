@@ -1,0 +1,2 @@
+recursive-include taipy/templates *
+include *.json
