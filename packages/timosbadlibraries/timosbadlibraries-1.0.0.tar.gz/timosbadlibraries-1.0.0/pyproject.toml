@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "timosbadlibraries"
+version = "1.0.0"
+authors = [
+  { name="pauvretimo", email="timo@grossepout.re" },
+]
+description = "A package to demonstrate vulnerable implementations"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = ["numpy", "pycryptodome"]
+keywords = ["cybersecurity", "educational", "bad implementation", "rsa"]
+[project.urls]
+Homepage = "https://github.com/timo-s-projects/timosbadlibraries"
+Issues = "https://github.com/timo-s-projects/timosbadlibraries/issues"
