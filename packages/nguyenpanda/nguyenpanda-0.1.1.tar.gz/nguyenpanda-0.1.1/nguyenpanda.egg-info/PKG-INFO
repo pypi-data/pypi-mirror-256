@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nguyenpanda
+Version: 0.1.1
+Summary: ("'nguyenpanda' libray contains some utility packages",)
+Home-page: https://github.com/nguyenpanda/PyPackages.git
+Author: Tường Nguyên Hà
+Author-email: hatuongnguyen0107@gmail.com
+Requires-Dist: numpy
+Requires-Dist: requests
+
+'The 'nguyenpanda' library contains several packages named after animals, each symbolizing a specific category:
+    - butterfly: Random packages
+    - owl: Mathematical packages
+    - swan: Beautiful packages
