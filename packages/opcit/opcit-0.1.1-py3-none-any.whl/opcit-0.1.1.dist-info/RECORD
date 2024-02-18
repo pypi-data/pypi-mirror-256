@@ -1,0 +1,15 @@
+opcit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opcit/deposit.py,sha256=7pfaFAFo3AKDc3Zkp6JKqVTVJvq1if7S1P6v4Gk73FA,28745
+opcit/fastapi_entry.py,sha256=aQwd7p3ONFJp9Ssmr60kFWd3ebFnVIC8KTg-65GJgDg,726
+opcit/interstitial.py,sha256=w8cbTBNQW-pU3yF0NeiYD3feF_eFp9GyHsydtZOV87Q,841
+opcit/opcit_router.py,sha256=oaZ8fEx6AnE0x1DCZJOtFF9zA4HyZMbAr3VEoaeTNIM,1434
+opcit/settings.py,sha256=V242YvtzjSjdH_klgUe4WoZI2PepbmNmY5DL1GPQbqs,1477
+opcit/depositors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opcit/depositors/ia.py,sha256=riupzgfWHDr_bX91_Abvb4LNbOaN86vNB7Mc6-N_xNc,3245
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_deposit.py,sha256=cBXuzIV6g9M6DhxE8Y9oGI7968A1heCqJA4BZv5FYjY,51182
+tests/test_ia.py,sha256=TqGWMEbkoOFqy9M5vxMgeH5Ttksr2LmbREvvEEpsSw4,7409
+opcit-0.1.1.dist-info/METADATA,sha256=_cNkdjmA536mOabBEq8aINbz5_oW_uAY7-yIqmEikt0,2680
+opcit-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+opcit-0.1.1.dist-info/top_level.txt,sha256=Ldti-HTV-6ya5RsL8JpsqYFShdgbJexI88klKIOayWs,12
+opcit-0.1.1.dist-info/RECORD,,
