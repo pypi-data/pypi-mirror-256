@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: MilPython
+Version: 0.0.1
+Summary: Framework for building MILP optimizations for time series with gurobipy
+Author-email: Hannnes Hanse <hannes.hanse@tu-clausthal.de>
+Project-URL: Homepage, https://github.com/hanneshanse/MilPy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
