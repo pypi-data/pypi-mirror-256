@@ -1,0 +1,2 @@
+[console_scripts]
+i10-bluesky = i10_bluesky.__main__:main
