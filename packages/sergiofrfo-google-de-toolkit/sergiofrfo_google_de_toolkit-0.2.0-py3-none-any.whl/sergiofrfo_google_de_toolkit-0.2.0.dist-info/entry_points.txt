@@ -1,0 +1,3 @@
+[console_scripts]
+deng=sergiofrfo_google_de_toolkit.main:cli
+
