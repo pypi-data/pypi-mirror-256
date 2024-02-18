@@ -1,0 +1,6 @@
+setup.py
+distributions_dosc117.egg-info/PKG-INFO
+distributions_dosc117.egg-info/SOURCES.txt
+distributions_dosc117.egg-info/dependency_links.txt
+distributions_dosc117.egg-info/not-zip-safe
+distributions_dosc117.egg-info/top_level.txt
