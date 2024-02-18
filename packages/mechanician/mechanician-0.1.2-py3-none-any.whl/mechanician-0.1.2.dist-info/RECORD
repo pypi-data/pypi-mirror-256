@@ -1,0 +1,12 @@
+mechanician/__init__.py,sha256=CR-NHv0IB2AzpOvqOVRjwJ6KKTFF-v0fZrQYgj7SIYo,74
+mechanician/ai_connectors.py,sha256=Br0Xmc1T91ZQTH0h79rnAWNz6nYYfAaHouPVgFsluHI,1169
+mechanician/ai_tools.py,sha256=d2rvzeMcD-j7YxwcWX2_PWb96DbqbJtENWvXFwo1OEk,997
+mechanician/instruction_tuning.py,sha256=sEYMYBVKOMsrvbidvn86YeOMauGabEgqKM9-0beN7YU,14539
+mechanician/shell.py,sha256=RqJg2K3BSyrUubp_wJ7eOdiNniVIK9LfLTDit0a897I,2906
+mechanician/tagai.py,sha256=lomSVThyzzuyelbOg1d8IPS3AX68gq6hgZCEdffp9Ps,6368
+mechanician/testing.py,sha256=baluDhOJGv1myTnyivZIoUXtHO_w0yWpcPMFy8now2Q,5491
+mechanician/util.py,sha256=3AYU0oyC5kP6G1fHR1xaDv0NJJdFGte8Ktkkt3bEYLc,673
+mechanician-0.1.2.dist-info/METADATA,sha256=WCjd4fNTCUGz6jDGNnRiriOKYX6QX1vrjzGImpYM5Z4,5488
+mechanician-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mechanician-0.1.2.dist-info/top_level.txt,sha256=FzaDp7i94kpMudkka99cpmHLXu7zvUTsEU0ZJVwvqdA,12
+mechanician-0.1.2.dist-info/RECORD,,
