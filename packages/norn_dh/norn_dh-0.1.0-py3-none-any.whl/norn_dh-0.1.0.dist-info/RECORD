@@ -1,0 +1,12 @@
+norn_dh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+norn_dh/alto_tools.py,sha256=2tKwEuyTou3XZdS0cBURN4xJpfpE-SPuCRYtpaEQXtE,2679
+norn_dh/config.py,sha256=by_zR323Dbxi6c9vP_gJ0bQ5yMWziuCEgK0F4ufLCGs,139
+norn_dh/corpus_tools.py,sha256=q3Up3SH8gyZgjqWkMZa_7vd9wim7NcFW0ivGsEe9uaQ,836
+norn_dh/imag_corpus.py,sha256=Iz8JK1s0slnJ4RTfhBqXr3mVmwIXunB6HCYL8Lm3myE,1801
+norn_dh/poems.py,sha256=I7SBRUaXjw4GBNpoTWgai_bsmwBgEWEQ1AlRnwjrv80,4199
+norn_dh/public_domain.py,sha256=tZ0P7Z4rmfNwyCueLLvvcbtNkfuKHHEgHqECEVt5u5g,578
+norn_dh/py.typed,sha256=nNmRlwUBlJwZ6buvLUrydWjddJ95QNcB3Ejh_ujBZik,45
+norn_dh/utils.py,sha256=HRJlY1sWs_7HOxwYd7jXzCcr9SteI8WzGboU-KdHQzo,421
+norn_dh-0.1.0.dist-info/METADATA,sha256=UJ3HEp6a3x0whz5_DLGQZZ1WcnIS9yqO-nJp71ZIHBI,1649
+norn_dh-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+norn_dh-0.1.0.dist-info/RECORD,,
