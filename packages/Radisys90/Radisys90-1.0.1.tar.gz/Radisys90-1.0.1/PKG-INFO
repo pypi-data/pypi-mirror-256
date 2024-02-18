@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Radisys90
+Version: 1.0.1
+Summary: marionette
+Home-page: UNKNOWN
+Author: shayan
+Author-email: syedshayan109@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/radisys90/
+Keywords: radisys90,r90
+Platform: UNKNOWN
+
+marionette_driver
+
