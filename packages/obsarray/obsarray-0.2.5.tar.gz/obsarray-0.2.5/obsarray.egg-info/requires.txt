@@ -1,0 +1,11 @@
+numpy
+xarray
+comet_maths
+
+[dev]
+pre-commit
+tox
+sphinx
+sphinx_design
+ipython
+sphinx_autosummary_accessors
