@@ -1,0 +1,17 @@
+appdirs
+networkx
+numpy
+pandas
+py-tgb
+requests
+scikit_learn
+scipy
+seaborn
+sklearn
+torch
+torch-geometric-temporal
+torch_geometric
+torch_scatter
+torch_sparse
+tqdm
+wandb
