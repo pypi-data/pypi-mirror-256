@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "goppai",
+  "version": "0.1.2-alpha.0",
+  "description": "Game set for developers to release stress with the terminal",
+  "keywords": [
+    "goppai",
+    "puzzles",
+    "games",
+    "cli",
+    "cui",
+    "terminal"
+  ],
+  "scripts": {
+    "release": "standard-version",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:alpha": "standard-version --prerelease alpha",
+    "release:beta": "standard-version --prerelease beta",
+    "release:first": "standard-version --first-release"
+  },
+  "author": "Prosperokay <prosperokay@gmail.com>",
+  "repository": {
+    "url": "https://github.com/ProsperoKay/goppai"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}

@@ -1,0 +1,21 @@
+name: CD
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5.0.0
+        with:
+          python-version: 3.9
+      - name: To PyPI using Flit
+        uses: AsifArmanRahman/to-pypi-using-flit@v1
+        with:
+          password: ${{ secrets.CI_TOKEN }}
