@@ -1,0 +1,41 @@
+[build-system]
+requires      = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pandas-plots"
+version = "0.3.1"
+requires-python = ">=3.10"
+description = "A collection of helper for pandas n plots"
+readme = "README.md"
+authors = [{ name = "smeisegeier", email = "dsexterDSDo@googlemail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    'Development Status :: 5 - Production/Stable',
+    'Development Status :: 3 - Alpha',
+    'Environment :: Console',
+    'Intended Audience :: Science/Research',
+    'Operating System :: OS Independent',
+    'Topic :: Scientific/Engineering'    
+]
+keywords = ["tables", "pivot", "plotly"]
+dependencies = [
+    "pandas >= 2.0.0",
+    "plotly",
+    "matplotlib",
+    "seaborn",
+    "sqlalchemy < 2.0.0",
+]
+
+# [project.optional-dependencies]
+# dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+homepage = "https://github.com/smeisegeier/pandas-plots"
+repository = "https://github.com/smeisegeier/pandas-plots"
+
+# [project.scripts]
+# realpython = "reader.__main__:main"
