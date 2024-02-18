@@ -1,0 +1,17 @@
+qsimcirq/qsimh_simulator.py,sha256=ZpLbK0-LHxQ3u_FWpRKfW3K8aiULgsb9QZmz0wWDEXM,2810
+qsimcirq/qsim_simulator.py,sha256=fwrcBbJSYgwIG3QhzmABP8gp3rG-iqkZ2XNs7mD-0-E,34726
+qsimcirq/qsim_sse.cpython-312-x86_64-linux-gnu.so,sha256=gPzVAVmtri_-j42lvbI09_MbP1o8G_4LEMlPJo0U39M,922577
+qsimcirq/qsim_avx512.cpython-312-x86_64-linux-gnu.so,sha256=Xr9Yi6xCu76INYMI56FxVWQRFJQDKw87-6mwRTon-Rs,975833
+qsimcirq/qsim_avx2.cpython-312-x86_64-linux-gnu.so,sha256=YrL68NdJ3FcioRQls_ICe7FX2ey5aplyTzW7HwR8z3Y,1115089
+qsimcirq/qsim_decide.cpython-312-x86_64-linux-gnu.so,sha256=fZGaqO540FOXMS4HyKzhtCgW-IpeXjPB_4RDuofgt3E,224561
+qsimcirq/qsim_basic.cpython-312-x86_64-linux-gnu.so,sha256=z8_ZcHqI4Gd-oOLVBbsUaxW0kOiRhAy6prc10PFMRyk,771033
+qsimcirq/qsim_circuit.py,sha256=wm2JpEtD4crARYZ8aX8g9CbmHKc2V9Iyj0VxR-7YmSw,18932
+qsimcirq/_version.py,sha256=wLUYVzg-0-N2qKWcXgWzWGtv59FzjXUqfva-QXzbrNM,97
+qsimcirq/py.typed,sha256=DtCsIDq6KOv2NOEdQjTbeMWJKRh6ZEL2E-6Mf1RLeMA,59
+qsimcirq/__init__.py,sha256=oxlfyBE71sNiOb-x67mTElSJDf2lne7KY4G3jvFV588,1903
+qsimcirq-0.20.0.dist-info/top_level.txt,sha256=GL2B7YIG5KQvXSwycP3eT7Kvyeg2SyOdh2SdQbK5mBs,170
+qsimcirq-0.20.0.dist-info/WHEEL,sha256=4ZiCdXIWMxJyEClivrQv1QAHZpQh8kVYU92_ZAVwaok,152
+qsimcirq-0.20.0.dist-info/RECORD,,
+qsimcirq-0.20.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+qsimcirq-0.20.0.dist-info/METADATA,sha256=JydOM2rVlobI3coiO2o7GCxORn73lp2aJ2JQK_6BexY,6365
+qsimcirq.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
