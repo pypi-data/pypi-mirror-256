@@ -1,0 +1,12 @@
+build
+continuous_integration
+data
+dist
+docs
+htmlcov
+output
+outputs
+pyxel
+pyxel-sim
+static
+tests
