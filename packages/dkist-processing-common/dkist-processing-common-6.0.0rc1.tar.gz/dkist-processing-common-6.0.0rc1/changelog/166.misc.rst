@@ -1,0 +1,1 @@
+Completely remove `FitsDataMixin`. Use `self.read` and `self.write` with codecs instead.

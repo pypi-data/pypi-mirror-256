@@ -1,0 +1,1 @@
+Allow `fits_array_encoder` to accept a `dict` header (previously header had to be `fits.Header`).
