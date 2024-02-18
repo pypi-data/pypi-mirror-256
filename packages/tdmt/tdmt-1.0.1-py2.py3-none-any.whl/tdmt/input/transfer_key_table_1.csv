@@ -1,0 +1,11 @@
+table1_key,link_key,col1
+a1e8192f-1861-4845-8b0d-fecda2b65292,0864fb2b-cf5f-4b05-9e6c-bcaa7a5739ca,I have multiple versions of table1_key for the same link_key
+dca92b8d-17b5-479b-86d7-b71ccbccd626,0864fb2b-cf5f-4b05-9e6c-bcaa7a5739ca,I have multiple versions of table1_key for the same link_key
+1d271762-ab11-44f2-9275-e14bfc8931ea,20bc3586-9587-4508-b210-f27dfc89d7f4,I am unique
+f09acd86-8433-4661-b229-3010e73fd088,39efe7ec-92af-4dc7-81a5-da6497e76603,I am unique
+a743a984-18e4-4361-9dea-51db4ba615b5,789ece60-e507-4499-b4ce-ca1b448682c7,I am unique
+7c011159-45fc-4e0c-bff9-aad13cdb916e,9fd6c34f-79db-4e8b-b2c5-606a9b814623,I am unique
+bdd40c20-736e-450f-b6d8-cf4bb3d8932a,b9a8dcd2-88f9-4bf9-aee1-3bd2b741c007,I am unique
+703cc66e-c045-4b33-b40f-36542ee4a8e3,e92b6dfc-6ba5-4d6b-8c4d-8cbcf5beaf40,I have multiple versions of table1_key for the same link_key
+ffc62147-19db-4b46-affa-93024392548e,e92b6dfc-6ba5-4d6b-8c4d-8cbcf5beaf40,I have multiple versions of table1_key for the same link_key
+5356f49d-1642-4dd0-b6db-618c2ef3b730,f98bc22a-dfe2-4125-8d34-098ee87fa57f,I am unique
