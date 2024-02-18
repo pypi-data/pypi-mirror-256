@@ -1,0 +1,9 @@
+README.md
+setup.py
+rediscollectiondb/__init__.py
+rediscollectiondb/core.py
+rediscollectiondb.egg-info/PKG-INFO
+rediscollectiondb.egg-info/SOURCES.txt
+rediscollectiondb.egg-info/dependency_links.txt
+rediscollectiondb.egg-info/requires.txt
+rediscollectiondb.egg-info/top_level.txt
