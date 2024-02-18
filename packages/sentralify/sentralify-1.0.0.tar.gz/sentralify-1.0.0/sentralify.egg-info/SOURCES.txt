@@ -1,0 +1,12 @@
+LICENSE
+README.md
+__init__.py
+generators.py
+pyproject.toml
+scrapers.py
+setup.py
+sentralify.egg-info/PKG-INFO
+sentralify.egg-info/SOURCES.txt
+sentralify.egg-info/dependency_links.txt
+sentralify.egg-info/requires.txt
+sentralify.egg-info/top_level.txt
