@@ -1,0 +1,8 @@
+bayesian_lora/__init__.py,sha256=_yGfwKz34S3xl7Pw1qg_CHTRZPB0QdKsnEyde8praDM,98
+bayesian_lora/kfac.py,sha256=hdhqaDdXW6w70nRbStjTU_TpxkrK4e8g1keMlddIz8o,16332
+bayesian_lora/main.py,sha256=zqTxiMgWgrejexfgf8wjDv1EAsCjtaMyonI9NI2Fth8,10349
+bayesian_lora-0.0.1.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+bayesian_lora-0.0.1.dist-info/METADATA,sha256=yf4CaBxbiR-vuAx-Hg1xv33IXwL0LFf4O6h1bxonCs0,2275
+bayesian_lora-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bayesian_lora-0.0.1.dist-info/top_level.txt,sha256=IorWv5XCj463KXRuIsXfx4b8iJhOEOhGitsQZziYwzI,14
+bayesian_lora-0.0.1.dist-info/RECORD,,
