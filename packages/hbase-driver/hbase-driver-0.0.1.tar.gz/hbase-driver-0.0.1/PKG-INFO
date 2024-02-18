@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: hbase-driver
+Version: 0.0.1
+Summary: A Python driver for Apache HBase with native protocol support.
+Home-page: https://github.com/innovationb1ue/hbase-driver/
+License-File: LICENSE
