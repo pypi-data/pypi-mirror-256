@@ -1,0 +1,12 @@
+mo-future==7.541.24038
+mo-imports==7.541.24038
+
+[tests]
+mo-logs>=8.538.24037
+mo-json>=6.538.24037
+mo-threads>=6.538.24037
+mo-testing>=3.124.20293
+pyLibrary>=3.264.22338
+mo-math>=7.531.24035
+mo-times>=5.538.24037
+jx-elasticsearch>=3.99.20292
