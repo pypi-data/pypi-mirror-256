@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sergiofrfo-google-de-toolkit"
+version = "0.2.0"
+description = ""
+authors = ["Sergio Franco <sergiofrfo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+
+[[tool.poetry.source]]
+name = "fury"
+url = "https://pypi.fury.io/sergiofrfo-google/"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+deng = 'sergiofrfo_google_de_toolkit.main:cli'
