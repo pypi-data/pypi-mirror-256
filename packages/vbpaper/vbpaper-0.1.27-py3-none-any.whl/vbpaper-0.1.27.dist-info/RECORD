@@ -1,0 +1,14 @@
+vbpaper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbpaper/__main__.py,sha256=2tdENPAfpgNJ5sr7TZPyj7PiVkS4qSv-2IdBXCE-SlA,49
+vbpaper/answer.py,sha256=vdSRHgD2lsosrVUiix-4JV-O2TKmaVw0_SVYEwjZa1U,119
+vbpaper/functions.py,sha256=o43cIIe-KosShPgxXDTJ1SZp6Hijxdnt3PFYkzxZbkg,4746
+vbpaper/main.py,sha256=v6tARd8GS76xGBarMLspnEA2tzwaz6d8NZISBioMtts,457
+vbpaper/normalize.py,sha256=l6qEhPYYSGgsiHXKdGZjMgJedagOYwXavMB1M9w8rk4,302
+vbpaper/rename.py,sha256=Nq9pLCgJT6itd2LCMNvXYpiZjMcMQO6qemxVFFiaUnY,284
+vbpaper/render.py,sha256=fZ5IhVX1g4iPi9F8x46siC1EvUe1brqtPRTqI5o-i34,983
+vbpaper/resize.py,sha256=WRch7-4Ap6DFmZOQ6sd37N2HLSBQRWB16XY4dbHCq9Y,477
+vbpaper/start.py,sha256=WjkQoH0FkRA54b-nQbuSCT5NE8P7FWxm-O9KiP2znD4,290
+vbpaper-0.1.27.dist-info/METADATA,sha256=jAEOV33UYsooWV4KMLz2Oc3OucUz2svsa67o-913fDk,343
+vbpaper-0.1.27.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+vbpaper-0.1.27.dist-info/entry_points.txt,sha256=sUJ9vV1TTfHugcWVU9j67mOt2sEotBjjJR1myrHEeI0,45
+vbpaper-0.1.27.dist-info/RECORD,,
