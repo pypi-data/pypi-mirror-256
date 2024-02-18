@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.testing.txt
+setup.py
+src/static_node/__init__.py
+src/static_node/cli.py
+src/static_node.egg-info/PKG-INFO
+src/static_node.egg-info/SOURCES.txt
+src/static_node.egg-info/dependency_links.txt
+src/static_node.egg-info/entry_points.txt
+src/static_node.egg-info/top_level.txt
+src/static_node/assets/example.txt
+tests/test_cli.py
