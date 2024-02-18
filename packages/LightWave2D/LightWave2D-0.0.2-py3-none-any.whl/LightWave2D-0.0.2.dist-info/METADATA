@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: LightWave2D
+Version: 0.0.2
+Summary: A package for finite-difference time domain computation for light propagation.
+Home-page: https://github.com/MartinPdeS/LightWave2D
+Author: Martin Poinsinet de Sivry
+Author-email: Martin.poinsinet.de.sivry@gmail.com
+License: MIT
+Keywords: mie,scattering,backscatter,sphere,cylinder,nanoparticle,phase function,efficiency,rayleigh,backscattering
+Platform: unix
+Platform: linux
+Platform: osx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy >=1.26.0
+Requires-Dist: PyOptik ==0.7.1
+Provides-Extra: documentation
+Requires-Dist: numpydoc ==1.6.0 ; extra == 'documentation'
+Requires-Dist: sphinx >=5.1.1 ; extra == 'documentation'
+Requires-Dist: sphinx-gallery ==0.15.0 ; extra == 'documentation'
+Requires-Dist: sphinx-rtd-theme ==2.0.0 ; extra == 'documentation'
+Requires-Dist: pydata-sphinx-theme ==0.14.1 ; extra == 'documentation'
+Provides-Extra: testing
+Requires-Dist: pytest >=0.6 ; extra == 'testing'
+Requires-Dist: pytest-cov >=2.0 ; extra == 'testing'
+Requires-Dist: pytest-json-report ==1.5.0 ; extra == 'testing'
+Requires-Dist: mypy >=0.910 ; extra == 'testing'
+Requires-Dist: flake8 >=3.9 ; extra == 'testing'
+Requires-Dist: tox >=3.24 ; extra == 'testing'
+Requires-Dist: coverage ==6.5.0 ; extra == 'testing'
+
+LightWave2D
+===========
+
+
+
+This is a package for 2D FDTD
