@@ -1,0 +1,19 @@
+# .readthedocs.yml
+
+version: 2
+sphinx:
+    configuration: doc/source/conf.py
+
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.11"
+
+python:
+  install:
+    - requirements: doc/requirements.txt
+    - method: setuptools
+      path: .
+
+# This is the default, you can omit this
+formats: []
