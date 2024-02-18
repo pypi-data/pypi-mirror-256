@@ -1,0 +1,8 @@
+setup.py
+crazyMathLib/__init__.py
+crazyMathLib/crazyMathLib.py
+crazyMathLib.egg-info/PKG-INFO
+crazyMathLib.egg-info/SOURCES.txt
+crazyMathLib.egg-info/dependency_links.txt
+crazyMathLib.egg-info/not-zip-safe
+crazyMathLib.egg-info/top_level.txt
