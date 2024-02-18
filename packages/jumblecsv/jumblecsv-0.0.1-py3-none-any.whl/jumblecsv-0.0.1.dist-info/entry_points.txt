@@ -1,0 +1,2 @@
+[console_scripts]
+jumblecsv = jumblecsv:main.main
