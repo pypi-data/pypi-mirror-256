@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-l10n-argentina
+Version: 16.0.20240213.1
+Summary: Meta package for oca-l10n-argentina Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Dist: odoo-addon-l10n-ar-afipws <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-l10n-ar-afipws-fe <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-l10n-ar-bank <16.1dev,>=16.0dev
+
+UNKNOWN
+
