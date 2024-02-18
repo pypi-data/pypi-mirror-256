@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_image_annotation/__init__.py
+streamlit_image_annotation/Detection/__init__.py
+streamlit_image_annotation/Detection/frontend/build/asset-manifest.json
+streamlit_image_annotation/Detection/frontend/build/bootstrap.min.css
+streamlit_image_annotation/Detection/frontend/build/index.html
+streamlit_image_annotation/Detection/frontend/build/static/js/main.79c8eb63.js
+streamlit_image_annotation/Detection/frontend/build/static/js/main.79c8eb63.js.LICENSE.txt
+streamlit_image_annotation/Detection/frontend/build/static/js/main.79c8eb63.js.map
+streamlit_image_annotation_customize.egg-info/PKG-INFO
+streamlit_image_annotation_customize.egg-info/SOURCES.txt
+streamlit_image_annotation_customize.egg-info/dependency_links.txt
+streamlit_image_annotation_customize.egg-info/requires.txt
+streamlit_image_annotation_customize.egg-info/top_level.txt
