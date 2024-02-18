@@ -1,0 +1,1 @@
+{"description_content_type": "UNKNOWN", "extensions": {"python.details": {"contacts": [{"name": "Kaoutar Qanouni", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "dsnd-probability-ka-24", "summary": "Gaussian and Binomial distributions", "version": "0.1"}
