@@ -1,0 +1,301 @@
+Metadata-Version: 2.1
+Name: akande
+Version: 0.0.2
+Summary: Akande: A versatile voice assistant powered by OpenAI's GPT-3. It
+Home-page: https://github.com/sebastienrousseau/akande
+Author: Sebastian Rousseau
+Author-email: sebastian.rousseau@gmail.com
+License: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Dist: annotated-types==0.6.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: anyio==4.2.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: certifi==2024.2.2; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: chardet==5.2.0; python_version >= "3.9" and python_version < "4"
+Requires-Dist: charset-normalizer==3.3.2; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: colorama==0.4.6; python_version >= "3.9" and python_version < "4.0" and platform_system == "Windows"
+Requires-Dist: comtypes==1.3.0; python_version >= "3.9" and python_version < "4.0" and platform_system == "Windows"
+Requires-Dist: distro==1.9.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: exceptiongroup==1.2.0; python_version >= "3.9" and python_version < "3.11"
+Requires-Dist: h11==0.14.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: httpcore==1.0.2; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: httpx==0.26.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: idna==3.6; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: openai==1.12.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pillow==10.2.0; python_version >= "3.9" and python_version < "4"
+Requires-Dist: pydantic-core==2.16.2; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pydantic==2.6.1; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pyobjc-core==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-accessibility==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-accounts==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-addressbook==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-adservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-adsupport==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-applescriptkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-applescriptobjc==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-applicationservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-apptrackingtransparency==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-audiovideobridging==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-authenticationservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-automaticassessmentconfiguration==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-automator==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-avfoundation==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-avkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-avrouting==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-backgroundassets==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-businesschat==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-calendarstore==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-callkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-cfnetwork==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-cinematic==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "23.0"
+Requires-Dist: pyobjc-framework-classkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-cloudkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-cocoa==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-collaboration==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-colorsync==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-contacts==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-contactsui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-coreaudio==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-coreaudiokit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-corebluetooth==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-coredata==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-corehaptics==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-corelocation==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-coremedia==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-coremediaio==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-coremidi==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-coreml==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-coremotion==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-coreservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-corespotlight==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-coretext==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-corewlan==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-cryptotokenkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-datadetection==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-devicecheck==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-dictionaryservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-discrecording==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-discrecordingui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-diskarbitration==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-dvdplayback==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-eventkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-exceptionhandling==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-executionpolicy==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-extensionkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-externalaccessory==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-fileprovider==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-fileproviderui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-findersync==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-fsevents==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-gamecenter==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-gamecontroller==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-gamekit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-gameplaykit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-healthkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-imagecapturecore==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-inputmethodkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-installerplugins==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-instantmessage==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-intents==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "16.0"
+Requires-Dist: pyobjc-framework-intentsui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-iobluetooth==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-iobluetoothui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-iosurface==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-ituneslibrary==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-kernelmanagement==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-latentsemanticmapping==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-launchservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-libdispatch==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-libxpc==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-linkpresentation==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-localauthentication==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-localauthenticationembeddedui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-mailkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-mapkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-mediaaccessibility==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-medialibrary==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-mediaplayer==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "16.0"
+Requires-Dist: pyobjc-framework-mediatoolbox==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-metal==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-metalfx==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-metalkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-metalperformanceshaders==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-metalperformanceshadersgraph==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-metrickit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-mlcompute==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-modelio==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-multipeerconnectivity==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-naturallanguage==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-netfs==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-network==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-networkextension==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-notificationcenter==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "14.0"
+Requires-Dist: pyobjc-framework-opendirectory==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-osakit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-oslog==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-passkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-pencilkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-phase==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-photos==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-photosui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "15.0"
+Requires-Dist: pyobjc-framework-preferencepanes==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-pubsub==10.1; platform_release >= "9.0" and platform_release < "18.0" and python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-pushkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-quartz==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-quicklookthumbnailing==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-replaykit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-safariservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "16.0"
+Requires-Dist: pyobjc-framework-safetykit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-scenekit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-screencapturekit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.4"
+Requires-Dist: pyobjc-framework-screensaver==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-screentime==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-scriptingbridge==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "9.0"
+Requires-Dist: pyobjc-framework-searchkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-security==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-securityfoundation==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-securityinterface==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-sensitivecontentanalysis==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "23.0"
+Requires-Dist: pyobjc-framework-servicemanagement==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "10.0"
+Requires-Dist: pyobjc-framework-sharedwithyou==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-sharedwithyoucore==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-shazamkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "21.0"
+Requires-Dist: pyobjc-framework-social==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-soundanalysis==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-speech==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-spritekit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "13.0"
+Requires-Dist: pyobjc-framework-storekit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "11.0"
+Requires-Dist: pyobjc-framework-symbols==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "23.0"
+Requires-Dist: pyobjc-framework-syncservices==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-systemconfiguration==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc-framework-systemextensions==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "19.0"
+Requires-Dist: pyobjc-framework-threadnetwork==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "22.0"
+Requires-Dist: pyobjc-framework-uniformtypeidentifiers==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-usernotifications==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-usernotificationsui==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-videosubscriberaccount==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "18.0"
+Requires-Dist: pyobjc-framework-videotoolbox==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "12.0"
+Requires-Dist: pyobjc-framework-virtualization==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "20.0"
+Requires-Dist: pyobjc-framework-vision==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin" and platform_release >= "17.0"
+Requires-Dist: pyobjc-framework-webkit==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pyobjc==10.1; python_version >= "3.9" and python_version < "4.0" and platform_system == "Darwin"
+Requires-Dist: pypiwin32==223; python_version >= "3.9" and python_version < "4.0" and platform_system == "Windows"
+Requires-Dist: python-dotenv==1.0.1; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pyttsx4==3.0.15; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: pywin32==306; python_version >= "3.9" and python_version < "4.0" and platform_system == "Windows"
+Requires-Dist: reportlab==4.1.0; python_version >= "3.9" and python_version < "4"
+Requires-Dist: requests==2.31.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: six==1.16.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: sniffio==1.3.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: speechrecognition==3.10.1; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: tqdm==4.66.2; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: typing-extensions==4.9.0; python_version >= "3.9" and python_version < "4.0"
+Requires-Dist: urllib3==2.2.0; python_version >= "3.9" and python_version < "4.0"
+
+<!-- markdownlint-disable MD033 MD041 -->
+
+<img
+src="https://kura.pro/akande/images/logos/akande.webp"
+align="right"
+alt="Akande Voice Assistant Logo"
+height="261"
+width="261"
+/>
+
+<!-- markdownlint-enable MD033 MD041 -->
+
+# Àkàndé
+
+![Banner for Àkàndé - Voice Assistant][banner]
+
+Àkàndé is an advanced voice assistant built in Python, leveraging OpenAI's GPT models for natural language understanding and response generation. Àkàndé has been enhanced to include a caching mechanism for efficient response retrieval and the ability to generate PDF summaries of interactions, making it ideal for both personal assistance and executive briefing purposes.
+
+![divider][divider]
+
+## Features
+
+- **Natural Language Understanding**: Utilizes OpenAI's GPT models to understand and generate human-like responses.
+- **PDF Summary Generation**: Generates PDF summaries of voice interactions, including a question header, AI-generated response, and an accompanying logo.
+- **Caching Mechanism**: Implements a SQLite-based caching system to store and retrieve past queries and responses, reducing API calls and improving response times.
+- **Voice Recognition**: Integrates with speech recognition libraries to support voice input.
+- **Text-to-Speech**: Converts text responses into speech, providing an interactive voice-based user experience.
+
+## Setup
+
+### Prerequisites
+
+- Python 3.8+
+- Pipenv or virtualenv
+
+![divider][divider]
+
+### Installation
+
+#### 1. Clone the repository
+
+```bash
+git clone https://github.com/sebastienrousseau/akande
+cd akande
+```
+
+#### 2. Install dependencies
+
+```bash
+pipenv install  # If using pipenv
+# or
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install -r requirements.txt
+```
+
+#### 3. Set up environment variables
+
+Copy .env.example to .env and fill in your OpenAI API key and other
+configurations.
+
+```bash
+OPENAI_API_KEY=xxxxxxxxxx
+```
+
+#### 4. Running Àkàndé
+
+```bash
+pipenv run python -m akande  # If using pipenv
+# or
+python -m akande
+```
+
+![divider][divider]
+
+## Usage
+
+After starting Àkàndé, simply follow the voice prompts to ask questions.
+Àkàndé will respond verbally and generate a PDF summary for each interaction
+in the specified output directory.
+
+![divider][divider]
+
+## Contributing
+
+Pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+![divider][divider]
+
+## License
+
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for details.
+
+![divider][divider]
+
+[divider]: https://kura.pro/common/images/elements/divider.svg "Divider"
+[banner]: https://kura.pro/akande/images/titles/title-akande.webp "Banner for Àkàndé - Voice Assistant"
