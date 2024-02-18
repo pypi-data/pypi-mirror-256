@@ -1,0 +1,13 @@
+usbmonitor/__init__.py,sha256=icPt_DT-ilYmaZ4G0exlvE1T1s45qph5V72IS_5B2aA,244
+usbmonitor/attributes.py,sha256=ugK6TOAdt7p3t9cdkO_998w5wuNG8zcl1jbnXA-yMag,1095
+usbmonitor/usbmonitor.py,sha256=9pbkmWHKSfEEGm5QgkdiGNkuOVG6HO__am12O1h7yaE,6829
+usbmonitor/__platform_specific_detectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usbmonitor/__platform_specific_detectors/_constants.py,sha256=ZzzrwwDT48yZBy9oSjx77n9YRhRx1vfdaW-vI2Sgr20,2324
+usbmonitor/__platform_specific_detectors/_linux_usb_detector.py,sha256=2hp-CdSIsCgVRtrSfH6xQhMWYmYjk0L3Y0GHASzsPAU,4624
+usbmonitor/__platform_specific_detectors/_usb_detector_base.py,sha256=QFbuwBbDk9zO9Jp_R_Q74nDNygP950e_5myQb2y4eT0,10497
+usbmonitor/__platform_specific_detectors/_windows_usb_detector.py,sha256=Y3wj1sIEKT876Uoe7pOBLeegrkygQc89MCg6g8Qt4JM,7356
+usb_monitor-1.17.dist-info/LICENSE,sha256=yQjM4N4FlErzmNBRlw75WnjXVSj2L82lp60G8DlcGqk,1089
+usb_monitor-1.17.dist-info/METADATA,sha256=jtf1WxxG9BNx0CVJZWjWXE0jhkWDHqgxEMF_9ofI_cg,11889
+usb_monitor-1.17.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+usb_monitor-1.17.dist-info/top_level.txt,sha256=BJqxGRMlhiBSga9vpQK_DFU6GBpzP27B-m8G-B8hjkQ,11
+usb_monitor-1.17.dist-info/RECORD,,
