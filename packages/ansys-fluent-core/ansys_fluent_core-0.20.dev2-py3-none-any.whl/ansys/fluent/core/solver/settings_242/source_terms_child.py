@@ -1,0 +1,40 @@
+#
+# This is an auto-generated file.  DO NOT EDIT!
+#
+
+from ansys.fluent.core.solver.flobject import *
+
+from ansys.fluent.core.solver.flobject import _ChildNamedObjectAccessorMixin
+
+from ansys.fluent.core.solver.flobject import _CreatableNamedObjectMixin
+
+from ansys.fluent.core.solver.flobject import _NonCreatableNamedObjectMixin
+
+from ansys.fluent.core.solver.flobject import _HasAllowedValuesMixin
+
+from .list_properties import list_properties as list_properties_cls
+from .resize import resize as resize_cls
+from .child_object_type_child_1 import child_object_type_child
+
+class source_terms_child(ListObject[child_object_type_child]):
+    """
+    'child_object_type' of source_terms.
+    """
+
+    fluent_name = "child-object-type"
+
+    command_names = \
+        ['list_properties', 'resize']
+
+    list_properties: list_properties_cls = list_properties_cls
+    """
+    list_properties command of source_terms_child.
+    """
+    resize: resize_cls = resize_cls
+    """
+    resize command of source_terms_child.
+    """
+    child_object_type: child_object_type_child = child_object_type_child
+    """
+    child_object_type of source_terms_child.
+    """
