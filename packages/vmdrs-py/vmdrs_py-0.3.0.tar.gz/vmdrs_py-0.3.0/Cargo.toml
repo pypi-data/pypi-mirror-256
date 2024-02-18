@@ -1,0 +1,41 @@
+[package]
+name = "vmdrs-py"
+version = "0.3.0"
+edition = "2021"
+
+authors = ["jiafuei"]
+repository = "https://github.com/jiafuei/vmdrs-py"
+description = "Better, drop in replacement of vmdpy"
+license-file = "LICENSE.md"
+keywords = ["signal-processing", "vmd", "signal-analysis", "python"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "vmdrs_py"
+crate-type = ["cdylib"]
+
+# [target.'cfg(all(unix, target_arch="aarch64"))'.dependencies]
+# blas-src = { version = "0.10.0", features = ["openblas"] }
+# openblas-src = { version = "0.10.9", features = ["static"] }
+# openssl = { version = "0.10.56", features = ["vendored"] }
+
+# [target.'cfg(all(unix, not(target_arch="aarch64")))'.dependencies]
+# blas-src = { version = "0.9.0", features = ["intel-mkl"] }
+# # openblas-src = { version = "0.10.8", features = ["static"] }
+# openssl = { version = "0.10.56", features = ["vendored"] }
+
+[target.'cfg(target_os="macos")'.dependencies]
+blas-src = { version = "0.10.0", features = ["accelerate"] }
+
+[target.'cfg(windows)'.dependencies]
+blas-src = { version = "0.10.0", features = ["intel-mkl"] }
+intel-mkl-src = { version = "0.8.1", features = ["mkl-static-ilp64-seq"] }
+
+[target.'cfg(not(any(windows, target_os="macos")))'.dependencies]
+blas-src = { version = "0.10.0", features = ["blis"] }
+blis-src = { version = "0.2.1", features = ["static"] }
+
+[dependencies]
+numpy = "0.20.0"
+pyo3 = {version = "0.20.2", features = ["extension-module"]}
+vmd-rs = { version = "0.2.1", features = ["blas"] }
