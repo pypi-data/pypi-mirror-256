@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nfdi4culture
+Version: 0.1
+Summary: This package provides a Python interface to the NFDI4Culture infrastructure.
+Home-page: https://nfdi4culture.de/
+License: MIT
+Author: Etienne Posthumus
+Author-email: ep@epoz.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# NFDI4Culture
+
+This is a placeholder for the Python tools being developed to manage the infrastructure of [NFDI4Culture](https://nfdi4culture.de/)
+

@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "nfdi4culture"
+version = "0.1"
+description = "This package provides a Python interface to the NFDI4Culture infrastructure."
+homepage = "https://nfdi4culture.de/"
+license = "MIT"
+authors = ["Etienne Posthumus <ep@epoz.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
