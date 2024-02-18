@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: black-pixel-convertor
+Version: 0.0.1
+Summary: This library change black pixels to invisible.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License

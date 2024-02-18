@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+black_pixel_convertor.egg-info/PKG-INFO
+black_pixel_convertor.egg-info/SOURCES.txt
+black_pixel_convertor.egg-info/dependency_links.txt
+black_pixel_convertor.egg-info/requires.txt
+black_pixel_convertor.egg-info/top_level.txt
+bpc/__init__.py
+bpc/config.py
+bpc/main.py
+bpc/util.py
+bpc/log/__init__.py
+bpc/log/impl.py
