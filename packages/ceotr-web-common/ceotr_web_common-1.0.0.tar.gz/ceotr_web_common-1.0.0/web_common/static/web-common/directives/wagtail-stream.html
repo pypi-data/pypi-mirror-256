@@ -1,0 +1,64 @@
+<div class="page-content-items">
+    <div ng-repeat="item in blocks"
+         class="page-content-item"
+         ng-class="{'richtext': item.type === 'rich_text' || item.type === 'richtext',
+                    'image-block': item.type === 'image',
+                    'image-box': item.type === 'image_set',
+                    'figure-block': item.type === 'figure',
+                    'multifigure': item.type === 'multifigure',
+                    'button-set': item.type === 'buttons',
+                    'video-embed': item.type === 'video',
+                    'block-quote': item.type === 'block_quote',
+                    'code-block': item.type === 'code'}">
+        <div ng-if="item.type === 'rich_text' || item.type === 'richtext'" ng-class="item.value.class_names" ng-bind-html="item.value.text"></div>
+        <div ng-if="item.type === 'image'" ng-class="item.value.class_names">
+            <img ng-src="{{ item.value.image.url }}" alt="{{ item.value.alt_text }}">
+        </div>
+        <div ng-if="item.type === 'image_set'" ng-class="item.value.class_names">
+            <img ng-repeat="image in item.value.images" ng-src="{{ image.image.url }}" alt="{{ image.alt_text }}">
+        </div>
+        <div ng-if="item.type === 'figure'" ng-class="item.value.class_names">
+            <figure>
+                <img ng-src="{{ item.value.figure.url }}" alt="{{ item.value.alt_text }}">
+                <figcaption ng-if="item.value.caption">{{ item.value.caption }}</figcaption>
+            </figure>
+        </div>
+        <div ng-if="item.type === 'multifigure'" ng-class="item.value.class_names">
+            <figure>
+                <img ng-repeat="img in item.value.images" ng-src="{{ img.image.url }}" alt="{{ img.alt_text }}">
+                <figcaption ng-if="item.value.caption">{{ item.value.caption }}</figcaption>
+            </figure>
+        </div>
+        <div ng-if="item.type === 'buttons'" ng-class="item.value.class_names">
+            <ul class="button-set">
+                <li ng-repeat="button in item.value.buttons">
+                    <a ng-if="button.button_page"
+                       class="btn btn-primary"
+                       href="{{ button.button_page.url }}"
+                       role="button"
+                    >{{ button.button_text }}</a>
+                    <a ng-if="!button.button_page && button.button_url"
+                       class="btn btn-primary"
+                       href="{{ button.button_url }}"
+                       role="button"
+                    >{{ button.button_text }}</a>
+                </li>
+            </ul>
+        </div>
+        <div ng-if="item.type === 'code'" ng-class="item.value.class_names">
+            <section>
+                <pre>
+                    <code class="language-{{ item.value.language }}">
+                        {{ item.value.text }}
+                    </code>
+                </pre>
+            </section>
+        </div>
+        <div ng-if="item.type === 'video'" ng-class="item.value.class_names">
+            <iframe class="embed-responsive-item" src="{{ item.value.video.url }}?rel=0" allowfullscreen></iframe>
+        </div>
+        <div ng-if="item.type === 'block_quote'" ng-class="item.value.class_names">
+            <blockquote ng-bind-html="item.value.text"></blockquote>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+<div class="page-content-items">
+
+    <div *ngFor="let item of blocks"
+         class="page-content-item"
+         [ngClass]="{'richtext': item.type === 'rich_text' || item.type === 'richtext',
+                    'image-block': item.type === 'image',
+                    'image-box': item.type === 'image_set',
+                    'figure-block': item.type === 'figure',
+                    'multifigure': item.type === 'multifigure',
+                    'button-set': item.type === 'buttons',
+                    'video-embed': item.type === 'video',
+                    'block-quote': item.type === 'block_quote',
+                    'code-block': item.type === 'code'}">
+
+        <div *ngIf="item.type === 'rich_text' || item.type === 'richtext'" [ngClass]="item.value.class_names" [innerHtml]="item.value.text">
+        </div>
+
+        <div *ngIf="item.type === 'image'" [ngClass]="item.value.class_names">
+            <img [src]="item.value.image.url" alt="{{ item.value.alt_text }}"/>
+        </div>
+
+        <div *ngIf="item.type === 'image_set'" [ngClass]="item.value.class_names">
+            <img *ngFor="let image of item.value.images" [src]="image.image.url" alt="{{ image.alt_text }}"/>
+        </div>
+
+        <div *ngIf="item.type === 'figure'" [ngClass]="item.value.class_names">
+            <figure>
+                <img [src]="item.value.figure.url" alt="{{ item.value.alt_text }}"/>
+                <figcaption *ngIf="item.value.caption">{{ item.value.caption }}
+                </figcaption>
+            </figure>
+        </div>
+
+        <div *ngIf="item.type === 'multifigure'" [ngClass]="item.value.class_names">
+            <figure>
+                <img *ngFor="let img of item.value.images" [src]="img.image.url" alt="{{ img.alt_text }}"/>
+                <figcaption *ngIf="item.value.caption">{{ item.value.caption }}
+                </figcaption>
+            </figure>
+        </div>
+
+        <div *ngIf="item.type === 'buttons'" [ngClass]="item.value.class_names">
+            <ul class="button-set">
+                <li *ngFor="let button of item.value.buttons">
+                    <a *ngIf="button.button_page"
+                       class="btn btn-primary"
+                       href="{{ button.button_page.url }}"
+                       role="button">{{ button.button_text }}
+                    </a>
+                    <a *ngIf="!button.button_page && button.button_url"
+                       class="btn btn-primary"
+                       href="{{ button.button_url }}"
+                       role="button">{{ button.button_text }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div *ngIf="item.type === 'code'" [ngClass]="item.value.class_names">
+            <section>
+                <pre>
+                    <code class="language-{{ item.value.language }}">
+                        {{ item.value.text }}
+                    </code>
+                </pre>
+            </section>
+        </div>
+
+        <div *ngIf="item.type === 'video'" [ngClass]="item.value.class_names">
+            <iframe class="embed-responsive-item" [src]="item.value.video.url + '?rel=0'" allowfullscreen>
+            </iframe>
+        </div>
+
+        <div *ngIf="item.type === 'block_quote'" [ngClass]="item.value.class_names">
+            <blockquote [innerHtml]="item.value.text">
+            </blockquote>
+        </div>
+
+    </div>
+</div>

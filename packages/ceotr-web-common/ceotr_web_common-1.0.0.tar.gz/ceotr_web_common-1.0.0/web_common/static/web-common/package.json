@@ -1,0 +1,60 @@
+{
+  "name": "ceotr-web-common",
+  "version": "1.0.39",
+  "description": "Common helpers and libs for CEOTR projects",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://ceotrsvc.ocean.dal.ca:4873/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.oceantrack.org/ceotr/web-common"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@angular/animations": ">=8.2.10",
+    "@angular/cli": ">=8.3.5",
+    "@angular/common": ">=8.2.7",
+    "@angular/compiler": ">=8.2.7",
+    "@angular/compiler-cli": ">=8.2.7",
+    "@angular/core": ">=8.2.7",
+    "@angular/forms": ">=8.2.10",
+    "@angular/platform-browser": ">=8.2.7",
+    "@angular/platform-browser-dynamic": ">=8.2.7",
+    "@angular/router": ">=8.2.7",
+    "@ngtools/webpack": ">=8.3.5",
+    "@types/jquery": ">=3.3.31",
+    "@uirouter/angular": ">=5.0.0",
+    "angular-leaflet-directive": ">=0.10.0",
+    "angular-spinner": ">=1.0.1",
+    "angular-ui-bootstrap": ">=2.5.6",
+    "angular-ui-router": ">=1.0.22",
+    "angularjs": ">=0.0.1",
+    "bootstrap": ">=4.3.1",
+    "clipboard.js": ">=1.0.1",
+    "esri-leaflet": ">=2.3.0",
+    "formatcoords": ">=1.1.3",
+    "jquery": ">=3.4.1",
+    "leaflet": ">=1.5.1",
+    "moment": ">=2.24.0",
+    "moment-timezone": ">=0.5.26",
+    "ng-clipboard": ">=1.0.2",
+    "ng-prettyjson": ">=0.2.0",
+    "ngx-bootstrap": ">=5.1.2",
+    "npm-pack-all": ">=1.10.8",
+    "popper": ">=1.0.1",
+    "popper.js": ">=1.15.0",
+    "rimraf": ">=3.0.0",
+    "spin": ">=0.0.1",
+    "supports-color": ">=7.0.0",
+    "timezone-names": ">=0.0.3",
+    "ts-loader": ">=6.1.0",
+    "typescript": ">=3.1.0",
+    "webpack": ">=4.40.2",
+    "zone.js": ">=0.9.1"
+  }
+}
