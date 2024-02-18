@@ -1,0 +1,11 @@
+Microsoft.DTfW.DHL.manifest,sha256=BKQAXxk8V2So8OLQfs8q22QsJSPYTy2Kpr4sziO5ljM,331
+TrioMotion_UnifiedAPI.cpython-310-x86_64-linux-gnu.so,sha256=8M-r7jDP3shGeZBKxctACgajOlgP8K-miCpsEChfl-o,936640
+dbghelp.dll,sha256=URq0moG7MpNNuMEoXjynpYrTKztJgUAxDPuGt-F7vS4,1369936
+libTrioMotion_UnifiedApi-TCP-x64.so,sha256=HDJfEumiidgvB-c270u7u_lJz6Jli9ZpZEZvqdZFBso,3165456
+vld_x64.dll,sha256=75Qz5Kz28J0TEXKx5RYk8xB4qeKQYNZjali_EgSDcJs,467968
+vld_x64.pdb,sha256=N4aKn3V7vj3dXD9gpQOF5knLQW26r0d7WffjP3a5dWI,6893568
+triomotion_unifiedapi-0.0.0.dist-info/METADATA,sha256=8aYAvD7F1QAG7b6_SfdjQUkFr98wwvmhfe7sqRDpDXQ,636
+triomotion_unifiedapi-0.0.0.dist-info/WHEEL,sha256=rpKxoLyiRoq5jU4wRbd0WSV97oyJb4N6Fx9E91a4Uh8,117
+triomotion_unifiedapi-0.0.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triomotion_unifiedapi-0.0.0.dist-info/licenses/LICENSE,sha256=cMpY47Cr3lIjfHBBpjlgnVJt8mAf6_tdcZPUtn_J_rY,10
+triomotion_unifiedapi-0.0.0.dist-info/RECORD,,
