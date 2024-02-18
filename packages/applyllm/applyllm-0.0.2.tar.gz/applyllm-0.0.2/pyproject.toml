@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "applyllm"
+version = "0.0.2"
+authors = [
+    { name="Yingding Wang", email="yingdingwang@yahoo.de" },
+]
+description = "A python package to apply opensource LLM in local CUDA environment"
+requires-python = ">=3.8"
+classifiers = [
+   "Programming Language :: Python :: 3",
+   "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'langchain >= 0.1.0',
+    'transformers >= 4.36.2',
+    'torch >= 2.1.2',
+    'pydantic >= 1.10.13',
+    'boto3 >= 1.29.0',
+    'mlflow >= 2.10.0',
+    'bitsandbytes >= 0.42.0',
+]
+
+[project.urls]
+Homepage = "https://github.com/yingding/applyllm"
+Issues = "https://github.com/yingding/applyllm/issues"
+
+[tool.setuptools.packages]
+find = {}
