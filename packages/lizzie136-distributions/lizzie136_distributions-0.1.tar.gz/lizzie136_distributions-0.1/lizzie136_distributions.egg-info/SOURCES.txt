@@ -1,0 +1,10 @@
+setup.py
+l136_distributions/Binomialdistribution.py
+l136_distributions/Gaussiandistribution.py
+l136_distributions/Generaldistribution.py
+l136_distributions/__init__.py
+lizzie136_distributions.egg-info/PKG-INFO
+lizzie136_distributions.egg-info/SOURCES.txt
+lizzie136_distributions.egg-info/dependency_links.txt
+lizzie136_distributions.egg-info/not-zip-safe
+lizzie136_distributions.egg-info/top_level.txt
