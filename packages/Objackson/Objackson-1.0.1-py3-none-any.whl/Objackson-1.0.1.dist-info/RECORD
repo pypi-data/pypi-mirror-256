@@ -1,0 +1,9 @@
+objackson/__init__.py,sha256=yRSQTp4EzhUM3sk-L07lLgdytsJtFnWwcTKwKmnD4t4,709
+objackson/__main__.py,sha256=Y-c0XAAYzbQp3WQOTmRa4Ohvqqz22TU2zTPKx0762oM,1290
+objackson/json_object.py,sha256=qj5bnPMjT1OCIzVEIDaasvfs0dSnS8pOOO1MwX80v60,803
+objackson/serializer.py,sha256=D2qCiXvR53AwfN_Iy-ho5aDRkmNZRMNTgnJK3ndgovg,3406
+Objackson-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+Objackson-1.0.1.dist-info/METADATA,sha256=uBhmPWbOSyV8WXlBHVfYVDneHq3jA1pZJxiHnnQMmx0,1682
+Objackson-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Objackson-1.0.1.dist-info/top_level.txt,sha256=F7yfhOjfDAq0YgmATU_30JurjkrbLFS_sKOqpoll_PA,10
+Objackson-1.0.1.dist-info/RECORD,,
