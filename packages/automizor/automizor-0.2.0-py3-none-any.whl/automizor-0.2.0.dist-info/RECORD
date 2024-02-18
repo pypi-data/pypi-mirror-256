@@ -1,0 +1,9 @@
+automizor/__init__.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+automizor/job.py,sha256=L2NkM-BkvJpeO_SH0BMgternD9M83K_Yv_ANhf1k3FI,4354
+automizor/storage.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automizor/vault.py,sha256=mluaCcJCMxu2g0iTBJ6ntoZATn8eotfZb4rdzWsBslU,5845
+automizor-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+automizor-0.2.0.dist-info/METADATA,sha256=aRwuipXNcIswJop_TAGjrlM4ZigW7eI8oqWIeI936vc,661
+automizor-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+automizor-0.2.0.dist-info/top_level.txt,sha256=gScDy4I3tP6BMYAsTAlBXrxVh3E00zV0UioxwXJOI3Y,10
+automizor-0.2.0.dist-info/RECORD,,
