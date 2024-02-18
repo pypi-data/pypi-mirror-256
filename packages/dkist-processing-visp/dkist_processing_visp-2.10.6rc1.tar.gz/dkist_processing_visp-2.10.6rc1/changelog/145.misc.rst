@@ -1,0 +1,1 @@
+Add `test` pip extra as requirement for `grogu` test extra. Grogu scripts use "conftest.py", which imports `pytest`.

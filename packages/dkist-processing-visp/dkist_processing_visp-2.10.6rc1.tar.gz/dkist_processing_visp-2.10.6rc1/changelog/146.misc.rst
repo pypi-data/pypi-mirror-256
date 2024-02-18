@@ -1,0 +1,1 @@
+Bump common to 6.0.0 (total removal of `FitsData` mixin).
