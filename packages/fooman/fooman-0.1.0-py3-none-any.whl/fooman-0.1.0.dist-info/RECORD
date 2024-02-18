@@ -1,0 +1,12 @@
+fooman-0.1.0.dist-info/METADATA,sha256=FuJ3InWLnpxbCcrMYKizfWUhLEOrKq4X9NSvlggtOO4,2093
+fooman-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+fooman-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fooman/__init__.py,sha256=5MhKOvtmZ5JVQnolVt73jbSEOGxI8HD6EAgZdJ3ODWQ,144
+fooman/broker.py,sha256=X9_YyKVBtCDCREODZcVp0BY0yjgEWShFrar608-g1VI,533
+fooman/brokers/__init__.py,sha256=xu0R9Z5Emd8u3uJQojfd6wclJ6WtfujUdEA57QIfBcY,30
+fooman/brokers/redis.py,sha256=nAO5JeCDTjskPv4kqjTYs1NcWpDuA88pNMqULoag4Bo,937
+fooman/client.py,sha256=ll93oNX6NBGUfrw-SyHKC2gUMfzVXigzBKXcqIB9_mM,1592
+fooman/models.py,sha256=qGoRhYjDCEBSu-FcTjcYecDkg0r8nZEIP8XReFxagic,462
+fooman/server.py,sha256=9moHNZK77iFNHReGHu7d1psU2J4x3EMTdvZ7aGwZuYg,2062
+fooman/types.py,sha256=6H1uuPBGNIVG6h2Xv9LLqPBPUZ0AJ0sd8c-FtYdZu40,476
+fooman-0.1.0.dist-info/RECORD,,
