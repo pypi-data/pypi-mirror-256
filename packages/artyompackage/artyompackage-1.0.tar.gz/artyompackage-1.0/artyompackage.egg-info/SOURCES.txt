@@ -1,0 +1,8 @@
+README.md
+setup.py
+artyompackage/__init__.py
+artyompackage/first.py
+artyompackage.egg-info/PKG-INFO
+artyompackage.egg-info/SOURCES.txt
+artyompackage.egg-info/dependency_links.txt
+artyompackage.egg-info/top_level.txt
