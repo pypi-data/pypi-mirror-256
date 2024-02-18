@@ -1,0 +1,16 @@
+nonebot/adapters/red/__init__.py,sha256=pHVDEKaakl9kk93VU0eGlnkPB_p9L4JlmjGQRc0qqTM,379
+nonebot/adapters/red/adapter.py,sha256=NUQrv4nFglSbk5ZDjul7PrOFrrqX0IujN8wnLdNEewo,10917
+nonebot/adapters/red/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonebot/adapters/red/api/handle.py,sha256=619DQW1qW5V-33jfG3zqIJ-1CtbKN_RSX2QlNi-bkHM,4790
+nonebot/adapters/red/api/model.py,sha256=ONo6v_RPB7dIps77xdKViUtcWd44drUNjvlfZWJ1bmc,11717
+nonebot/adapters/red/bot.py,sha256=6gSakq9cXQZ9Tq5PtHPIj90uhOxnb8G6KzzDAcAdB34,16103
+nonebot/adapters/red/compat.py,sha256=bm3F1Gbl8z4HBQr1pcj9Bw30lDC-RKr4YA2BgocwL04,525
+nonebot/adapters/red/config.py,sha256=taCmxHdOov67FAN61oCIeyIypsmrD9g_mkIgZ00pCpc,1950
+nonebot/adapters/red/event.py,sha256=eREIQL3OIzwdBNWhxBGUAgomx-abY9CyCJgDCFKllWg,11875
+nonebot/adapters/red/message.py,sha256=sb0OFwOH0ikY8mjwVVg5QOHpXTvdHPk_Uqb8sgtJOI0,21813
+nonebot/adapters/red/permission.py,sha256=EkR1CD8SaS1akeYsskHB5J-EWvTNdlyOn-ne6Y5EvYY,1590
+nonebot/adapters/red/utils.py,sha256=NOtCHlgA8ExyRrp2FeTTgsMkWFNC5xrK3uT6CTcfx7U,78
+nonebot_adapter_red-0.9.0.dist-info/METADATA,sha256=f_gv3u_ggbLocT6doeKPB-z63VgXRAF2GIZI2J93l6k,4955
+nonebot_adapter_red-0.9.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+nonebot_adapter_red-0.9.0.dist-info/licenses/LICENSE,sha256=wHuiD_V4Nu5MAqIAT_t-_qKz2MyjP5xVah8ywyNbn9s,1064
+nonebot_adapter_red-0.9.0.dist-info/RECORD,,
