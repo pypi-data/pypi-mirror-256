@@ -1,0 +1,4 @@
+pymongo
+pydantic
+datamodel-code-generator
+fastapi
