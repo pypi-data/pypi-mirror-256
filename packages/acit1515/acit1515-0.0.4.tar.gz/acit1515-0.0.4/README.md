@@ -1,0 +1,18 @@
+# ACIT 1515
+
+### A test framework for ACIT 1515 - Scripting for IT
+
+The framework relies on the following assumptions:
+
+Assignments must consist of:
+
+- Simple functions with no side effects
+- Functions must not sys.exit, raise exceptions, or otherwise terminate the program
+- Functions must not output or accept input. Input, output, and user interaction must be confined to `__main__` 
+
+Test functions are organized in order of blocking requirements, where x is the maximum number of marks for the question, e.g.:
+
+- First function tests if a value is returned (x marks deducted if failing)
+- Second function tests if value is correct type (x - 1 marks deducted if failing)
+- Third function tests is value is valid (x - 2 marks deducted if failing)
+- etc.
