@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/rsArtdReformatter/__init__.py
+src/rsArtdReformatter/reformat.py
+src/rsArtdReformatter.egg-info/PKG-INFO
+src/rsArtdReformatter.egg-info/SOURCES.txt
+src/rsArtdReformatter.egg-info/dependency_links.txt
+src/rsArtdReformatter.egg-info/entry_points.txt
+src/rsArtdReformatter.egg-info/requires.txt
+src/rsArtdReformatter.egg-info/top_level.txt
