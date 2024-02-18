@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+GenuineAI/__init__.py
+GenuineAI/loss_functions.py
+GenuineAI/metrics.py
+GenuineAI.egg-info/PKG-INFO
+GenuineAI.egg-info/SOURCES.txt
+GenuineAI.egg-info/dependency_links.txt
+GenuineAI.egg-info/top_level.txt
+tests/__init__.py
+tests/test_aucloss.py
