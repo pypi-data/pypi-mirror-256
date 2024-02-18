@@ -1,0 +1,10 @@
+tefu/__init__.py,sha256=5QZsALLCCIIFbBxmkX6UO7EUxTzBazbSr5GvcGkUtOU,438
+tefu/loader.py,sha256=GqwWNURwe9c_9CwlWrrKUFnGGjOe1lsUD1RUeJIwANA,311
+tefu/main.py,sha256=hlwgdOFS-Zot1DePmlr718muCxtCR4xi7D2JTlwYauo,414
+tefu/runner.py,sha256=KGfPFmW-VOg5EGz551Gd4qn3QbhFi1MQo7YldhdZRQM,936
+tefu/status.py,sha256=aRiRwJs0l3u9J-cxqzMmFomxS01NeDBEftR80pROfS0,131
+tefu/variable.py,sha256=cShvayid0OUDOunmX2l2kqd4ydx9k-5Kdupz7dQLfes,65
+tefu-0.1.0.dist-info/METADATA,sha256=IulCnee1vsQiQQwoH70PqD84g5bql4RQ5PuQ3RA4feI,324
+tefu-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+tefu-0.1.0.dist-info/entry_points.txt,sha256=IKW5rOaB6m93XoSgT2642VOJTQ6Go4mtvRS3rsZPb8I,35
+tefu-0.1.0.dist-info/RECORD,,
