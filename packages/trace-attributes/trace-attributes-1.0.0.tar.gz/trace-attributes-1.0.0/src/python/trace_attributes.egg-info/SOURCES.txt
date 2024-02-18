@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/python/trace_attributes.egg-info/PKG-INFO
+src/python/trace_attributes.egg-info/SOURCES.txt
+src/python/trace_attributes.egg-info/dependency_links.txt
+src/python/trace_attributes.egg-info/requires.txt
+src/python/trace_attributes.egg-info/top_level.txt
