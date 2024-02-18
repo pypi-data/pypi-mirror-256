@@ -1,0 +1,17 @@
+MorseCodePy/__init__.py,sha256=AMu0uDpEVGjZ24YDMQoC7n6D3y8OMHyK5AhcBOWAwuQ,684
+MorseCodePy/audio_manager.py,sha256=9pYLRGyJ6gWO2jrx4eCe44UFIrCIITwY46aAmzS9VlQ,2478
+MorseCodePy/chart.py,sha256=uDBjyfSW_McMLNGc484-snz0sezjBkhW1Ckj9HmU2P0,1064
+MorseCodePy/codes.py,sha256=hyHkaxAYNR_EvYG0tnHtIMieahHscdUGoiWeR3_SAeY,789
+MorseCodePy/decode.py,sha256=bXiWLJh-hrnf5QaXdvONNGKAd3CkCyon5ylEJsofe30,2641
+MorseCodePy/encode.py,sha256=3xyBLUxSrPOCeKXX6LlJ3bpgiJqQXKAFGCzMutPV3NM,2089
+MorseCodePy/play.py,sha256=tegdrz2b7CxUCE4lAY9YLF7_Cf-xmB8VmDMRJYRQX4c,1950
+MorseCodePy/setup_logging.py,sha256=mhiYKwbARwBBXilNBjlpEUVu1PKINcOnkh31EIwWZg4,1206
+MorseCodePy/utilities.py,sha256=r7ib5pk0LDtdrzyMsxRSkFg2jGLpIY8fGXCwGJbkGYE,2442
+MorseCodePy/codes/decodes.json,sha256=Kb_ymfM03H-rgPERslJB0Q0qV_mFEzD6L29AILdxoFU,2872
+MorseCodePy/codes/encodes.json,sha256=bK1BuXw-MnMWbNoEngECDVUbc4ERscJKDOF3e0UdOxQ,3054
+MorseCodePy/sounds/dash.wav,sha256=Mcp78Q__s0vvbAYxNvKrmVvVmN0lLYRKM5l2wB6-VkI,74520
+MorseCodePy/sounds/dot.wav,sha256=JqhFzNT4RMEc6llPnMRgfuVtBE5EsARkV1Ob9ED7k0k,30012
+MorseCodePy/sounds/error.wav,sha256=IieurHfIt8-gfOSzPi60xr95ghA3R1FFZ_Bu0HiclrE,63614
+morsecodepy-3.7.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+morsecodepy-3.7.dist-info/METADATA,sha256=bcD774ZjOS5WCMVR2bpSi8UoOg8jnXsoASyguLuBGa0,4268
+morsecodepy-3.7.dist-info/RECORD,,
