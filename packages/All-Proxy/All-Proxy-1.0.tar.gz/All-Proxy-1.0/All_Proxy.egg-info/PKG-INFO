@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: All-Proxy
+Version: 1.0
+Summary: Easily get a working Proxy list
+Author: Zypherix-Studios
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: tqdm
