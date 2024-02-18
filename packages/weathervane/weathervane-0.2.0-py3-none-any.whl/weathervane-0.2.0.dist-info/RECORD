@@ -1,0 +1,8 @@
+weathervane/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weathervane/datasources.py,sha256=Ndst21LWBpgrtyqaOLZ3worDw5q86fUSesnWhMxYf3w,1790
+weathervane/gpio.py,sha256=u89_lV74B9MM2cCLrcz5BY4mDfXuWD0NSK89aTCU-dU,8984
+weathervane/parser.py,sha256=H_siVjS9dygyr2sB3Fr_VRrB8RKqX9mBQu1YZnJhq3o,6836
+weathervane/weathervaneinterface.py,sha256=rfhwZ-Ymp2h4kv0McmIMC1Pczg0xSamr-3V079hN7X0,7763
+weathervane-0.2.0.dist-info/METADATA,sha256=6McAZgTHPeAY5F8g2QIJevqm2u1UEADiixQkuEby40M,364
+weathervane-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+weathervane-0.2.0.dist-info/RECORD,,
