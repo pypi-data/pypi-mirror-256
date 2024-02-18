@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+obj2mjcf/__init__.py
+obj2mjcf/cli.py
+obj2mjcf/constants.py
+obj2mjcf/material.py
+obj2mjcf/mjcf_builder.py
+obj2mjcf/py.typed
+obj2mjcf.egg-info/PKG-INFO
+obj2mjcf.egg-info/SOURCES.txt
+obj2mjcf.egg-info/dependency_links.txt
+obj2mjcf.egg-info/entry_points.txt
+obj2mjcf.egg-info/requires.txt
+obj2mjcf.egg-info/top_level.txt
+tests/test_cli.py
