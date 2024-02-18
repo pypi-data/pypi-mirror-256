@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytest-pook"
+dynamic = ["version"]
+description = "Pytest plugin for pook"
+authors = [
+    { name = "sarayourfriend", email = "contact@sarayourfriend.pictures" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "pook",
+    "pytest",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: Pytest",
+    "Topic :: Software Development :: Testing :: Mocking",
+]
+
+[project.urls]
+Documentation = "https://git.sr.ht/~sara/pytest-pook"
+"Source code" = "https://git.sr.ht/~sara/pytest-pook"
+
+[project.entry-points.pytest11]
+pytest_pook = "pytest_pook.plugin"
+
+[tool.hatch.version]
+path = "src/pytest_pook/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pytest_pook"]
+
+[tool.hatch.build.targets.sdist]
+packages = ["src/pytest_pook"]
+
+[tool.hatch.envs.default]
+extra-dependencies = [
+    "pre-commit"
+]
+
+[tool.hatch.envs.default.scripts]
+test = 'pytest {args}'
+lint = 'pre-commit run --all-files'
+installprecommit = 'pre-commit install'
+
+[tool.hatch.envs.test]
+matrix = [
+    {python = ["3.8", "3.9", "3.10", "3.11", "3.12"]}
+]
