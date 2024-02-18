@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ForecastDrift
+Version: 0.1.1
+Summary: Forecast Drift Detector for Views.
+Home-page: https://github.com/prio-data/ForecastDrift>
+License: MIT
+Author: Mihai Croicu
+Author-email: mihai.croicu@pcr.uu.se
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>1.24)
+Requires-Dist: pandas (>1.2.3)
+Requires-Dist: views_forecasts (>=0.5.4,<0.6.0)
+Description-Content-Type: text/markdown
+
+...
