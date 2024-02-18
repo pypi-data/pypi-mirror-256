@@ -1,0 +1,11 @@
+kipu_client-0.0.1.dist-info/METADATA,sha256=_TwJMPwr1LNy9_r-d9E2txG8lL4lJl2jamiA6O8PAw4,1786
+kipu_client-0.0.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+kipu_client/__init__.py,sha256=p6x_TR0zhxJKKZYw8_CwHVkauqMtVSaXFerVRacaKog,57
+kipu_client/datascience/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kipu_client/datascience/helpers.py,sha256=ohPzWBq6J-uK1msMwascu_3StSzlIh7e7Duu-NtN-W8,4077
+kipu_client/finance/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kipu_client/finance/helpers.py,sha256=ksXVyvEZLByL2EoVXqjHLWzA8hsm4GNlsHh0doZG5bs,93
+kipu_client/main.py,sha256=dExemExib72BCZo94g-QYVRxmLX8N-AHSmRLtoGoqUo,3763
+kipu_client/visualizations/__init__.py,sha256=eRUA7ZOZVBeO8avzh7HcvTQ3WLE7GvzMzw_6kJ4HsGc,71
+kipu_client/visualizations/plots.py,sha256=jUJZmJe2N3ekcqI7SBRuTn_JGqV_B4LluqV5uU6R6WI,1471
+kipu_client-0.0.1.dist-info/RECORD,,
