@@ -1,0 +1,72 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cache
+**/__pycache__
+**/sim_build
+
+# Dump
+*.vcd
+
+# Python/Django
+*/venv/
+db.sqlite3
+
+#semify
+
+*.runs/
+*.cache/
+*.sim/
+
+*.jou
+*.log*
+vivado_pid[0-9]*
+*.~lock*
+*.tmp*
+*results.xml
+*.backup
+*.bak
+*.Xil/
+*.prm
+
+*.sublime*
+*.*~
+.idea/
+
+
+*.BASE*
+*.LOCAL*
+*.REMOTE*
+
+*.qws
+hw_1/
