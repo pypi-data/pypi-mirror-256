@@ -1,0 +1,13 @@
+vidsrc_search/__main__.py,sha256=k4yW7FOlmIQZ-ojYUiJQDojwmGwH2dLBq7MS7OrzZdA,857
+vidsrc_search/argparsing.py,sha256=IFtJEATf9zY6D8Ozk_vfieGOH0dmLnsz09Gly8poM_c,3154
+vidsrc_search/download.py,sha256=FqSANV5n5r2DopRA4UBoANioOJZU1ZP1vca8yApblVo,2654
+vidsrc_search/json_utils.py,sha256=kNfPd3gEac0tlENo34biIINunSB-bWkgl0ZzNhmi700,1234
+vidsrc_search/search.py,sha256=v2b0VbPliO3EWVh31YZsFTPmOzFAqrv1BUVPpHuxc6s,3322
+vidsrc_search/uninstall.py,sha256=N0UX1s_KK0mb9eTOpwy13R7v95_ClQh5Qhw_jYshhSY,885
+vidsrc_search/utils.py,sha256=jkPlL0jvBRrawruyFGXB1vpu89cQ5fggWUvQXuIGi1w,4473
+vidsrc_search-0.0.4.dist-info/LICENSE,sha256=cauPEG29dPoR4zGpmo6woBg_nRdU52-bod3nCOIwUUE,1053
+vidsrc_search-0.0.4.dist-info/METADATA,sha256=sk0ThSx_HGNTeLk2zEZgBxVHldkM0kGyGagwZAynth8,1414
+vidsrc_search-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vidsrc_search-0.0.4.dist-info/entry_points.txt,sha256=OZr8GaYfE5d2Q1pJb1X2VLi9KejP4bHRrNjHLzlgU1w,62
+vidsrc_search-0.0.4.dist-info/top_level.txt,sha256=eDaYtd9dn242jaJDKYw4zAVdYknRHCvjUQNjzLFikfg,14
+vidsrc_search-0.0.4.dist-info/RECORD,,
