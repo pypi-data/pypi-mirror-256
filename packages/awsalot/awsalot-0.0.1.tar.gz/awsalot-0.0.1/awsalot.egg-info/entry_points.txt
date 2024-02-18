@@ -1,0 +1,3 @@
+[console_scripts]
+aws-ecs-eds-sg-conn = awsalot.ecs_rds_sg_connector:main
+aws-secret-to-pgconn = awsalot.secret_to_pgconn:main
