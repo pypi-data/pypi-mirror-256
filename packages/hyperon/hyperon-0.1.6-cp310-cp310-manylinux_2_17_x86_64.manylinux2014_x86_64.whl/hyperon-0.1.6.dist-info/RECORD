@@ -1,0 +1,15 @@
+hyperonpy.cpython-310-x86_64-linux-gnu.so,sha256=hw8BIv1CcLeepujukQ0V9oVI5AOuf0rrAy-uPYcQdQY,5248624
+hyperon/atoms.py,sha256=_vbaJN106XeQT_2Zjv_sCvuozzF1S8dsP9G3pmbH5B4,23619
+hyperon/base.py,sha256=bROPavOf15hGMfhjNnN24mqpVwl82abzV089jkv99tA,15055
+hyperon/runner.py,sha256=e1QdFF3eoJi4RiSqbGKoSNvJlSj_HDZXDMq00Lgr-Gg,10083
+hyperon/ext.py,sha256=tUk70qm3eXQzYql1-u8R93T-8TIDcN80cXOgNRkOG7g,2356
+hyperon/metta.py,sha256=Fpc5d_Shs5hsitA-T2yrFxhudaaU97R0XWSDsV_5JXw,903
+hyperon/stdlib.py,sha256=jsDjd618JQjgFM8d2zAe60pMIOElr1T6xR_FTjiSu9E,7082
+hyperon/__init__.py,sha256=mh7TEES0MiPdCrz0zPDyQdeNmxp1ZGiUQYf2IZVFt98,569
+hyperon/exts/das_gate/dasgate.py,sha256=dPI4ot34nZt-y0UXHdbj_D88rGLYWYNyNF4Df96LqJo,6059
+hyperon/exts/das_gate/__init__.py,sha256=IZ-U9pSKcTCIOBlYOX_kmc2u1-VHzL79lhz_xu-iM-Q,46
+hyperon-0.1.6.dist-info/top_level.txt,sha256=Xf3gHhgVMDpWBjbh9Ifgwlyv4QsUuorHxVqSZb0tVvM,18
+hyperon-0.1.6.dist-info/WHEEL,sha256=1FEjxEYgybphwh9S0FO9IcZ0B-NIeM2ko8OzhFZeOeQ,152
+hyperon-0.1.6.dist-info/RECORD,,
+hyperon-0.1.6.dist-info/METADATA,sha256=fBG7Opmj7GdxYEfXT1LGJwKKIZFjLD-6bzTpzBnvJBo,1137
+hyperon-0.1.6.dist-info/entry_points.txt,sha256=dpNqSOCtxvwfwak5YPU7_RP49h6tsUvpX4k35rJ-lZo,45
