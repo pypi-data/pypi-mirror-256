@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+pymoo>=0.6.0
+joblib
+tqdm
+
+[viz]
+plotly
+dash
