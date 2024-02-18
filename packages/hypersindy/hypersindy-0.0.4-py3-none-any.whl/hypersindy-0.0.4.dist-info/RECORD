@@ -1,0 +1,15 @@
+hypersindy/__init__.py,sha256=BolM_BN039DuiA2cyPQi7KCj2BUVqIQgFd5BPNmJ_Gk,34
+hypersindy/dataset.py,sha256=i-MWiF7YnJp7qKvMjIHsfpZIsedzKvi6aDHJtj1gNBs,3747
+hypersindy/equations.py,sha256=tXgxkSHOcKnBHqyklGzEgeEp0pMoLlntBRpG_V5C8Pc,3368
+hypersindy/hypernet.py,sha256=4Paug44JgoGOtljsBG1F-jCK63wKln41FmNFrAoo148,3264
+hypersindy/hypersindy.py,sha256=34ZZb4Z5CnnuEW4MvgHPRY_U5WnGnewyi9jbAFG8P8E,16142
+hypersindy/l0.py,sha256=Z-PHJ6xM98QxZB2jQvo1csGoSUKHrk-IqoxvdNRNQRk,4861
+hypersindy/library.py,sha256=CGgPp4BBSyJPx7U9IEjJFUgOIKB74NSRVFDtzoRcWgo,7617
+hypersindy/net.py,sha256=TsDLNP5uXiG4IHilMNR04EJwJdUXixNHb_bIAHF7pPk,12876
+hypersindy/trainer.py,sha256=EqOAva61lC6FB7IPr-F2M4tBP2ScGV-mXuw3EzJD7uE,17071
+hypersindy/utils.py,sha256=xw95PqCYzp5As_rYewD99_0vSHAlAWB0JZZ9koDSYAk,5619
+hypersindy-0.0.4.dist-info/LICENSE.txt,sha256=BOSoZmVAn0juHAuLl7pN1O2fgr0F7rkr8YLBferNXEc,1068
+hypersindy-0.0.4.dist-info/METADATA,sha256=tsFqQmvqRWyyuBDucgWxTXhMuK3V3wCAi-GAPc-fSF8,2060
+hypersindy-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hypersindy-0.0.4.dist-info/top_level.txt,sha256=Mqc4yno3paUtylETefjzJx5J6caoxkqk7M3vEMdjhtw,11
+hypersindy-0.0.4.dist-info/RECORD,,
