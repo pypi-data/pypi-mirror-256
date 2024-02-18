@@ -1,0 +1,9 @@
+ezstorages/__init__.py,sha256=OAYUKUx7zrjgWTRUcXKN3bWz4z8bjZBIVZ1g1CKNAuU,105
+ezstorages/constants.py,sha256=lb5kNIwoV_tBDo3I7mW7Azvf9WJcsnAN2W3EbIe2m0U,69
+ezstorages/decorators.py,sha256=hp6jpF5oue56ZwcwR744Qj_HutX8wy2TPpVU7Tspuz8,992
+ezstorages/sqlite.py,sha256=lEWMee11KG_NWZgoAgjKAdkuBmbpItp0OBESw7tywGU,187
+ezstorages-0.0.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ezstorages-0.0.3.dist-info/METADATA,sha256=jYMZ2KiVA856go_xAB-eoEqr2ggMXRV_KG1O27PCvJo,186
+ezstorages-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ezstorages-0.0.3.dist-info/top_level.txt,sha256=_fw0xoAOWow_Tjd6iRZFmERaVMPZQqvemwnYeizEfgA,11
+ezstorages-0.0.3.dist-info/RECORD,,
