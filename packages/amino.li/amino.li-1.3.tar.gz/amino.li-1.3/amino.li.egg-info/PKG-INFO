@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: amino.li
+Version: 1.3
+Summary: Library for Amino.
+Home-page: https://github.com/LucasAlgerDay/amino.li
+Author: Lucas
+Author-email: lucasday173@gmail.com
+License: MIT
+Keywords: aminoapps,amino.li,amino,amino-bot,aminoapps,api,python,python3,python3.x
+Requires-Python: >=3.6
+
+# amino.li
+Copia literal de amino.fix y amino.py, solo arreglo y agrego cosas que no quieren arreglar
+
+
+`pip3 install -U amino.li`
