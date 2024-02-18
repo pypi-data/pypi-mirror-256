@@ -1,0 +1,10 @@
+detadoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detadoc/annotations.py,sha256=bnMKsKYpvHLFORE2oqIjppsCGDC-zVor2zpOKPsxE1w,1871
+detadoc/bases.py,sha256=e5-95dwEG2BtqBRreHS-4u6KkIxLjmxUBs8IFZbyThg,5060
+detadoc/enum.py,sha256=Qnd0-sgGjamegIhXmhPrOd55kVo174iLtgXmC_u-nDA,10548
+detadoc/helper.py,sha256=1e46O8uVxXdEmfEY_3dnMzW0lGc25Px04eoo_GIrPIo,1827
+detadoc/models.py,sha256=gbX7EUR0Qh0gBcoZ0ld8BxvG41ii_lbzXOnUNIKIFm0,42028
+detadoc/regex.py,sha256=32WhaEus5-C4Z7FlCJDmVFYkoUrIm3UPMremrJbCf3k,3428
+detadoc-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+detadoc-0.2.4.dist-info/METADATA,sha256=27vSsYLHgXFlQ2aLGB1XK7SGBDawH9aWW2mVxDLPZyo,593
+detadoc-0.2.4.dist-info/RECORD,,
