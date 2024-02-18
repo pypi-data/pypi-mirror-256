@@ -1,0 +1,6 @@
+llama_index/readers/milvus/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/readers/milvus/__init__.py,sha256=EcQmNVWQz-ksnKrOttvbLUDMgOqgbtBeNqQ6kVgHKzw,85
+llama_index/readers/milvus/base.py,sha256=KDjNQIWOPBJRLIJ6vX57ZJxMadYwK7WUXwuczh_Yi8Y,4545
+llama_index_readers_milvus-0.1.2.dist-info/METADATA,sha256=mcMyTH8GnqyAaP1Op0H7ve2tFtFwm5tBMdsxAsAl4b0,659
+llama_index_readers_milvus-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_milvus-0.1.2.dist-info/RECORD,,
