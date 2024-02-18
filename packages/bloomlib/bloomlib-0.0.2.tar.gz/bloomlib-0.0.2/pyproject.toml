@@ -1,0 +1,39 @@
+[project]
+name = "bloomlib"
+version = "0.0.2"
+requires-python = ">=3.9"
+description = "Library that offers all types of Bloom filters, implemented in Rust"
+authors = [
+  {email = "mikehuls42@gmail.com"},
+  {name = "Mike Huls"}
+]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+]
+dynamic = ["version"]
+
+
+[project.urls]
+"Homepage" = "https://github.com/mike-huls/bloomlib"
+"Bug Tracker" = "https://github.com/mike-huls/bloomlib/issues"
+"Documentation" = "https://github.com/mike-huls/bloomlib/blob/master/README.md/"
+"Source" = "https://github.com/mike-huls/bloomlib/"
+"Say Thanks!" = "https://www.buymeacoffee.com/mikehuls"
+
+[build-system]
+requires = ["maturin>=1.4,<2.0"]
+build-backend = "maturin"
+
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+
+# Optional: if you want to build a source distribution as well
+sdist = true
