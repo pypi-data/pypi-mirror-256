@@ -1,0 +1,9 @@
+setup.py
+src/token_counter/__init__.py
+src/token_counter/_version.py
+src/token_counter/count_tokens.py
+src/token_counter.egg-info/PKG-INFO
+src/token_counter.egg-info/SOURCES.txt
+src/token_counter.egg-info/dependency_links.txt
+src/token_counter.egg-info/requires.txt
+src/token_counter.egg-info/top_level.txt
