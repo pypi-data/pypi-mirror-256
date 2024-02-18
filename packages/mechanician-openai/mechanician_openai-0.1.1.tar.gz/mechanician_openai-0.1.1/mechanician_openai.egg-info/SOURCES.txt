@@ -1,0 +1,10 @@
+setup.py
+mechanician_openai/__init__.py
+mechanician_openai/assistants_ai_connector.py
+mechanician_openai/chat_ai_connector.py
+mechanician_openai/instruction_auto_tuner.py
+mechanician_openai.egg-info/PKG-INFO
+mechanician_openai.egg-info/SOURCES.txt
+mechanician_openai.egg-info/dependency_links.txt
+mechanician_openai.egg-info/requires.txt
+mechanician_openai.egg-info/top_level.txt

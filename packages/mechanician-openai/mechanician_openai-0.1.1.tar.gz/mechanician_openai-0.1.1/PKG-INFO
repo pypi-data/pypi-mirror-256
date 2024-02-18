@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mechanician_openai
+Version: 0.1.1
+Summary: Daring Mechanician AIConnectors for OpenAI Chat and Assistants APIs.
+Home-page: https://github.com/liebke/mechanician
+Author: David Edgar Liebke
+Author-email: david@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: mechanician>=0.1.1
+Requires-Dist: openai<2.0.0,>=1.11.0
+
+### Create a Virtual Environment (optional)
+
+Using [*Conda*](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-python) for environment management:
+
+```bash
+conda create --name mechanician_openai_env
+conda activate mechanician_openai_env
+```
+
+### Install Dependencies
+
+```bash
+./install.sh
+```
