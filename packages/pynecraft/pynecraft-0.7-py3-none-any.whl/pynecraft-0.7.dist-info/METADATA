@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pynecraft
+Version: 0.7
+Summary: A library for creating minecraft datapacks.
+Author-email: Ken Arnold <arnold@peak.im>
+License: MIT
+Project-URL: Homepage, https://claritypack.com/pynecraft
+Project-URL: Issues, https://github.com/kcrca/pynecraft/issues
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+
+This package allows you to build up a datapack as a python program, which generates the functions, tags, etc.
