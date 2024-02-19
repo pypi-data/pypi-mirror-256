@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ricky_s_lib
+Version: 0.0.2
+Project-URL: Homepage, https://github.com/tesla-cat
+Project-URL: Issues, https://github.com/tesla-cat
+Author: Ricky Ding
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
