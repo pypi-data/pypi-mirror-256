@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/syncaudio.egg-info/PKG-INFO
+src/syncaudio.egg-info/SOURCES.txt
+src/syncaudio.egg-info/dependency_links.txt
+src/syncaudio.egg-info/entry_points.txt
+src/syncaudio.egg-info/requires.txt
+src/syncaudio.egg-info/top_level.txt
+src/syncaudio.egg-info/zip-safe
