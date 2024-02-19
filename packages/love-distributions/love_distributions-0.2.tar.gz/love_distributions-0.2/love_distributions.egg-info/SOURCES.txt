@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+love_distributions/Binomialdistribution.py
+love_distributions/Generaldistribution.py
+love_distributions/__init__.py
+love_distributions/makka.py
+love_distributions.egg-info/PKG-INFO
+love_distributions.egg-info/SOURCES.txt
+love_distributions.egg-info/dependency_links.txt
+love_distributions.egg-info/not-zip-safe
+love_distributions.egg-info/top_level.txt
