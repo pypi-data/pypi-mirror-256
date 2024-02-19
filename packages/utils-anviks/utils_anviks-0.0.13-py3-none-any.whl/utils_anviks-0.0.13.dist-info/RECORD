@@ -1,0 +1,11 @@
+utils_anviks/__init__.py,sha256=Fm3xzepiv39HZ-qSZtLnbRcrP2LDArjJ1CPwdPLMFv0,213
+utils_anviks/_b64coder.py,sha256=JhggPiJmL0x4cE8JaUgDFvFkh3yfiw40Q6Pu77XP2OU,793
+utils_anviks/_decorators.py,sha256=eB2L0lvexyORJa5nZqLv_rcFApd6Hxqm8rlcoWsOrI0,9956
+utils_anviks/_memory_profiler.py,sha256=WsyaVaKRL7njTv5dn9hXMdCcRsMrerSci7gRyaceUKg,1381
+utils_anviks/_grid/__init__.py,sha256=D7O9044h4BE-RvC_pmprdHbzzE1nICfYh5JNa1nVR_4,51
+utils_anviks/_grid/_coordinates.py,sha256=SxYsADDiNLZde8wDBomvwAxMu9nTxw953W7FWsrX5cA,6486
+utils_anviks/_grid/_grid.py,sha256=IFpoSolbHXmfpyqBdaqKyB0W65pzyq2tqvVBhBYsdWU,2797
+utils_anviks-0.0.13.dist-info/METADATA,sha256=Pdr9kZnZZJmu2NLKZj5H7b9SGbZjSBujImc3bRsuyGo,1423
+utils_anviks-0.0.13.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+utils_anviks-0.0.13.dist-info/licenses/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+utils_anviks-0.0.13.dist-info/RECORD,,
