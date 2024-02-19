@@ -1,0 +1,7 @@
+pypi_token.txt
+testpypi-recovery.txt
+testpypi_token.txt
+*venv*/
+archive/*
+package/dist/*
+**/__pycache__/*
