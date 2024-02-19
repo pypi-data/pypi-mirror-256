@@ -1,0 +1,10 @@
+README.md
+setup.py
+aisqlite/__init__.py
+aisqlite/main.py
+aisqlite.egg-info/PKG-INFO
+aisqlite.egg-info/SOURCES.txt
+aisqlite.egg-info/dependency_links.txt
+aisqlite.egg-info/requires.txt
+aisqlite.egg-info/top_level.txt
+test/test.py
