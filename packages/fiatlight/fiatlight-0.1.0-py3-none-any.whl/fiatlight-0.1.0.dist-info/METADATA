@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fiatlight
+Version: 0.1.0
+Summary: fiatlight: shine light inside your algorithm pipelines
+Project-URL: repository, https://github.com/pthom/fiatlight/
+Author-email: Pascal Thomet <pthomet@gmail.com>
+License-File: LICENSE
+Keywords: bindings,c++,code,cpp,generator,pybind11,srcml
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: imgui-bundle
+Requires-Dist: opencv-contrib-python
+Requires-Dist: opencv-python
+Description-Content-Type: text/markdown
+
+# fiatlight: shine light inside your algorithm pipelines
