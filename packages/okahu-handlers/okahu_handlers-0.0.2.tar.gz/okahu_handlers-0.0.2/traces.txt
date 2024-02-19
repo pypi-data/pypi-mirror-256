@@ -1,0 +1,125 @@
+2024-02-16 09:53:04,102 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: multi-qa-mpnet-base-dot-v1
+2024-02-16 09:53:04,692 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device: cpu
+2024-02-16 09:53:04,693 [INFO] faiss.loader: Loading faiss.
+2024-02-16 09:53:04,747 [INFO] faiss.loader: Successfully loaded faiss.
+2024-02-16 09:53:04,754 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:04,754 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:04,754 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:04,755 [INFO] okahu_handlers.langchain.callback: {
+    "name": "RunnablePassthrough",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "be025cdb-1b06-40fd-b5d1-ecb3805c9d12"
+    },
+    "parent_id": "c24a19a9-ea54-44fa-a1e5-0e7018e6ddcd",
+    "start_time": "2024-02-16T04:23:04.754978Z",
+    "end_time": "2024-02-16T04:23:04.755015Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:04,755 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:05,108 [INFO] okahu_handlers.langchain.callback: {
+    "name": "VectorStoreRetriever",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "9fe517bc-bce8-43c7-82e6-92f183bbc8bc"
+    },
+    "parent_id": "3d4b6d6f-7e3b-4988-8df3-b634ed1c15af",
+    "start_time": "2024-02-16T04:23:04.755406Z",
+    "end_time": "2024-02-16T04:23:05.107930Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,108 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:05,108 [INFO] okahu_handlers.langchain.callback: {
+    "name": "RunnableLambda",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "9ea7549f-ac6e-4dfc-b200-29111074bf2a"
+    },
+    "parent_id": "3d4b6d6f-7e3b-4988-8df3-b634ed1c15af",
+    "start_time": "2024-02-16T04:23:05.108627Z",
+    "end_time": "2024-02-16T04:23:05.108867Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,108 [INFO] okahu_handlers.langchain.callback: {
+    "name": "RunnableSequence",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "3d4b6d6f-7e3b-4988-8df3-b634ed1c15af"
+    },
+    "parent_id": "c24a19a9-ea54-44fa-a1e5-0e7018e6ddcd",
+    "start_time": "2024-02-16T04:23:04.755346Z",
+    "end_time": "2024-02-16T04:23:05.108907Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: {
+    "name": "RunnableParallel",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "c24a19a9-ea54-44fa-a1e5-0e7018e6ddcd"
+    },
+    "parent_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+    "start_time": "2024-02-16T04:23:04.754689Z",
+    "end_time": "2024-02-16T04:23:05.109111Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: {
+    "name": "PromptTemplate",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "f192a30d-61a6-42e6-837b-e3ea9b74452c"
+    },
+    "parent_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+    "start_time": "2024-02-16T04:23:05.109290Z",
+    "end_time": "2024-02-16T04:23:05.109431Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: {
+    "name": "FakeListLLM",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "fafcdc3b-78be-4468-a861-c86bd664ca32"
+    },
+    "parent_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+    "start_time": "2024-02-16T04:23:05.109698Z",
+    "end_time": "2024-02-16T04:23:05.109784Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: triggered on_chain_start
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: {
+    "name": "StrOutputParser",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "9d6193b8-01e9-4b92-bf59-06a29c47402b"
+    },
+    "parent_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+    "start_time": "2024-02-16T04:23:05.109898Z",
+    "end_time": "2024-02-16T04:23:05.109934Z",
+    "attributes": null,
+    "events": ""
+}
+2024-02-16 09:53:05,109 [INFO] okahu_handlers.langchain.callback: {
+    "name": "RunnableSequence",
+    "context": {
+        "trace_id": "23fb015a-7194-4b76-9929-46e87cb865e3",
+        "span_id": "23fb015a-7194-4b76-9929-46e87cb865e3"
+    },
+    "parent_id": "None",
+    "start_time": "2024-02-16T04:23:04.754496Z",
+    "end_time": "2024-02-16T04:23:05.109973Z",
+    "attributes": {
+        "input": "what is latte",
+        "app_name": "coffee_rag_fake",
+        "output": "A latte is a coffee drink that consists of espresso, milk, and foam.        It is served in a large cup or tall glass and has more milk compared to other espresso-based drinks.            Latte art can be created on the surface of the drink using the milk."
+    },
+    "events": ""
+}
+2024-02-16 09:53:05,110 [INFO] okahu_handlers.langchain.callback: okahu ingestion response code:201
+2024-02-16 09:53:05,110 [INFO] okahu_handlers.langchain.callback: okahu ingestion response content:<MagicMock name='post().content' id='11620564816'>
