@@ -1,0 +1,11 @@
+monaco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monaco/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monaco/widgets.py,sha256=zpuod9tCyyik5qsxhunt2zLDAi46Mdwd7zARVjNbWhA,635
+monaco/static/monaco.config.js,sha256=6A5gxo7YAJFBi3TudKSSApR-EucsqWzM9W7py_rmZFU,2395
+monaco/static/monaco.custom.css,sha256=bg4wi7XZZ67MikC2pdsIw0kGjy1ucMOQDDz3uD1bI5c,352
+monaco/static/monaco/loader.js,sha256=9PmSVz04j4dZjCddom-Fl6aIATeO6EOBZscDuuG_odA,30186
+squad_django_monaco-1.1.dist-info/LICENSE,sha256=b11w9exFeSEEEEVMt6wgToL20LzXBWwu7HRFB8aKyis,1053
+squad_django_monaco-1.1.dist-info/METADATA,sha256=ti_wiyyULDiNxLDR7HiQytoMIKjiMnd1nQCViYjYEHM,479
+squad_django_monaco-1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+squad_django_monaco-1.1.dist-info/top_level.txt,sha256=uRQiCfKdUdzyLJU-c7JiuO5ianU0FtTnXWMkI5RND5o,7
+squad_django_monaco-1.1.dist-info/RECORD,,
