@@ -1,0 +1,41 @@
+{% extends 'zut/layout.html' %}
+{% load i18n %}
+
+{% block title %}{{ _("Log in") }}{% endblock %}
+
+{% block content %}
+<h1 class="mb-3">{{ _("Log in") }}</h1>
+
+{% if next and request.method == 'GET' %}
+    {% if user.is_authenticated %}
+    <div class="alert alert-warning">
+        {% blocktrans with username=request.user.username %}You are logged in as <b>{{ username }}</b>, but you are not authorized to access this page. Do you want to log in as another user?{% endblocktrans %}
+    </div>
+    {% else %}
+    <div class="alert alert-warning">
+        {{ _("You must log in to access this page.") }}
+    </div>
+    {% endif %}
+{% endif %}
+
+<form action="{% url 'zut:login' %}" method="post">
+    {% csrf_token %}
+
+    <input type="hidden" name="next" value="{% if next != '/logout' %}{{ next }}{% endif %}" />
+
+    {% for field in form %}
+        <div class="row mb-3">
+            {{ field.errors }}
+            <label for="{{ field.auto_id }}" class="col-sm-4 col-form-label">{{ field.label }}{{ _(":") }}</label>
+            <div class="col-sm-8">{{ field }}</div>
+        </div>
+    {% endfor %}
+
+    <div class="row mb-3">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8">
+            <button type="submit" class="btn btn-primary">{{ _("Log in") }}</button>
+        </div>
+    </div>
+</form>
+{% endblock %}
