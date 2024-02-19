@@ -1,0 +1,7 @@
+apscheduler==3.10.4
+func-timeout
+json-repair
+pathvalidate
+pypdf==4.0.1
+requests
+selenium
