@@ -1,0 +1,7 @@
+numpy
+healpy
+astropy
+pyarrow
+pandas
+sncosmo
+pyyaml-include
