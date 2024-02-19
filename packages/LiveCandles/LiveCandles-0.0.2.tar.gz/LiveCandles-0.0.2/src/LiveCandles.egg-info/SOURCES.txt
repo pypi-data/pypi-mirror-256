@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+src/LiveCandles.py
+src/LiveCandles.egg-info/PKG-INFO
+src/LiveCandles.egg-info/SOURCES.txt
+src/LiveCandles.egg-info/dependency_links.txt
+src/LiveCandles.egg-info/requires.txt
+src/LiveCandles.egg-info/top_level.txt
