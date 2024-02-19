@@ -1,0 +1,7 @@
+{
+    "arena_path": "local_games/chicken_arena.py",
+    "arena_classname": "ChickenArena",
+    "save_path": "results/chicken",
+    "num_rounds": 1000,
+    "response_time": 1
+}
