@@ -1,0 +1,10 @@
+fastxs3d.cpython-36m-aarch64-linux-gnu.so,sha256=SeqZvXlQt4OCNHHZcVG1SKphZGPL8EocnvQZ8p2p1uM,345328
+xs3d/__init__.py,sha256=ZioLn1ogPesCHsQ6WpXzRVWZZeWHS_-NJQ78biukJc4,4957
+xs3d/twod.py,sha256=iVqwhPnToZcqtorjJo12gHMpyUcLzt13IWdgZmXKa6c,3456
+xs3d-1.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xs3d-1.4.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+xs3d-1.4.0.dist-info/WHEEL,sha256=ZPo-cudG-FPYxyq1LXmKAMnRyaidvTmBVvSIj1CJfHY,152
+xs3d-1.4.0.dist-info/METADATA,sha256=Qhwrv5DE_0-5-aLqV1FQ54lbA9jDOxE7b66bUtqcBLs,3836
+xs3d-1.4.0.dist-info/top_level.txt,sha256=7dHq3mXiEnhkUwG3ERXfLlxUfYPx1XvWzZtLnoQlXFI,14
+xs3d-1.4.0.dist-info/pbr.json,sha256=XclxAouSa_GOqud3SN9LcH1Zziq1IxTsEoqVqTYAw1A,47
+xs3d-1.4.0.dist-info/RECORD,,
