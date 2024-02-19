@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: Flask-Formist
+Version: 0.1.0
+Summary: Flask extension for working with WTForms
+Author: Rafal Padkowski
+Author-email: rafaelp@poczta.onet.pl
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.1)
+Requires-Dist: wtforms (>=3.1.2)
+Description-Content-Type: text/markdown
+
+# Flask-Formist
+
+Flask extension for working with WTForms.
+
+It can be used as an alternative for Flask-WTF.
+
+It provides BaseForm for working with CSRF tokens (the Flask app config should have `CSRF_SECRET_KEY` and `CSRF_TIME_LIMIT` keys).
+
+There is also a handle_form function for dealing with forms:
+you provide form class, template to be rendered, on_success function to be called when the form is valid, cancel url and object to be edited.
+
+
+## Installation
+
+```bash
+$ pip install Flask-Formist
+```
+
+## Usage
+
+First create the `wtf` object:
+
+```python
+from flask_formist import Formist
+wtf = Formist()
+```
+
+Then initialize it using init_app method:
+
+```python
+wtf.init_app(app)  # app is your Flask app instance
+```
+
+
+## License
+
+`Flask-Formist` was created by Rafal Padkowski. It is licensed under the terms
+of the MIT license.
+
