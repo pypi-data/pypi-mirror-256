@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pih-plb-db
+Version: 1.0
+Summary: PIH Polibase database api module
+Home-page: https://pacifichosp.com/
+Author: Nikita Karachentsev
+Author-email: it@pacifichosp.com
+License: MIT
+Description-Content-Type: text/markdown
