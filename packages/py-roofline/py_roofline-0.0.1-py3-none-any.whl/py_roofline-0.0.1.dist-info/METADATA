@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-roofline
+Version: 0.0.1
+Summary: A Python library for creating rooflines
+Home-page: https://github.com/hpcgroup/py-roofline
+Author: Abhinav Bhatele
+Author-email: bhatele@cs.umd.edu
+License: MIT
+Keywords: distributed computing,parallel computing,GPU traces
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
