@@ -1,0 +1,7 @@
+{
+    "arena_path": "local_games/rps_arena.py",
+    "arena_classname": "RPSArena",
+    "save_path": "results/rps",
+    "num_rounds": 1000,
+    "response_time": 1
+}
