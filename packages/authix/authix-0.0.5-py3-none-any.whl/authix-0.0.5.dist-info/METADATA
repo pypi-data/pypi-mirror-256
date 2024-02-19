@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: authix
+Version: 0.0.5
+Summary: Authix - Authentication as a service
+Home-page: https://github.com/nymann/authix
+Maintainer: Kristian Nymann Jakobsen
+Maintainer-email: kristian@nymann.dev
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: argon2-cffi
+Requires-Dist: bcrypt
+Requires-Dist: confluent-kafka
+Requires-Dist: fastapi <1.0.0,>=0.79
+Requires-Dist: jwt
+Requires-Dist: pogo-api >=0.0.2
+Requires-Dist: pydantic-settings
+Requires-Dist: pymongo
+Requires-Dist: redis
+Requires-Dist: xxhash
+Provides-Extra: all
+Requires-Dist: add-trailing-comma ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: devtools[pygmentz] ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: nitpick ; extra == 'all'
+Requires-Dist: types-redis ; extra == 'all'
+Requires-Dist: types-python-jose ; extra == 'all'
+Requires-Dist: types-passlib ; extra == 'all'
+Requires-Dist: unicorn ; extra == 'all'
+Requires-Dist: wemake-python-styleguide ; extra == 'all'
+Requires-Dist: uvicorn ; extra == 'all'
+Requires-Dist: httpx ; extra == 'all'
+Requires-Dist: python-dotenv ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-mock ; extra == 'all'
+Requires-Dist: pytest-asyncio ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: add-trailing-comma ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: devtools[pygmentz] ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: nitpick ; extra == 'dev'
+Requires-Dist: types-redis ; extra == 'dev'
+Requires-Dist: types-python-jose ; extra == 'dev'
+Requires-Dist: types-passlib ; extra == 'dev'
+Requires-Dist: unicorn ; extra == 'dev'
+Requires-Dist: wemake-python-styleguide ; extra == 'dev'
+Requires-Dist: uvicorn ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: httpx ; extra == 'tests'
+Requires-Dist: python-dotenv ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: pytest-asyncio ; extra == 'tests'
+
+# Authix: Scalable Authentication Service
+
+Welcome to **Authix**, an authentication service designed based on a [talk by
+Brian Pontarelli](https://www.youtube.com/watch?v=SLc3cTlypwM).
+
+Authix provides a comprehensive solution for user authentication, built on the
+principles of JWT (pronounced 'jot') and refresh tokens.
+
+## Key Features
+
+1. **User Registration**: Users can sign up using their email and password.
+   Users are stored in MongoDB.
+
+2. **User Login**: Upon successful login, users receive:
+
+   - A JWT access token in the Authorization header for immediate access.
+   - A longer-lived refresh token as an HTTP cookie for extended sessions.
+
+3. **Access Token Management**: Generate new JWT access tokens using the
+   provided refresh token, ensuring seamless user experiences.
+
+4. **Public Key**: Services can verify JWTs independently via public key,
+   thereby reducing inter-service network calls.
+
+5. **Secure Logout**: Users are logged out by deleting their refresh token from
+   storage, which thereby removes the possibility to create new access tokens.
+   Furthermore, it informs all connected services via Kafka to reject JWTs from
+   the logged-out user, that have been created prior to logging out.
+
+6. **Token Lifespan**:
+   - JWT access tokens are valid for 5 minutes.
+   - Refresh tokens, stored in REDIS, last for 4 weeks.
+
+## Diagrams
+
+### User Perspective
+
+```mermaid
+graph TB
+  A["User"] -- "Register" --> B["/register"]
+  A -- "Login" --> C["/login"]
+  C -- "JWT & Refresh Token" --> A
+  A -- "Use Refresh Token" --> D["/access_token"]
+  D -- "New JWT" --> A
+  A -- "Logout" --> E["/logout"]
+```
+
+### Service Perspective
+
+```mermaid
+graph TB
+  S["Service"] -- "Retrieve Public Key" --> PK["/public_key"]
+  S -- "Verify JWT" --> V["Verify JWT using Public Key"]
+  S -- "Handle Logout Broadcast" --> L["Reject soon-to-expire JWTs"]
+```
+
+## Performance
+
+On a single computer, running Authix via uvicorn with 16 workers, expect:
+
+Create 1K users
+
+```
+1000 /register
+
+2.97 seconds
+```
+
+Create 1K users, and login each user.
+
+```
+1000 /register
+1000 /login
+
+6.28 seconds
+```
+
+Create 10 users, for each user login, and call `/access_token` 1K times.
+
+```
+10 /register
+10 /login
+10000 /access_token
+
+3.43 seconds
+```
