@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CoolBar
+Version: 0.5
+Summary: Dynamic Python Progress Bar
+Home-page: https://github.com/ReloadingBee/CoolBar
+Download-URL: https://github.com/ReloadingBee/CoolBar/archive/v_0.5.tar.gz
+Author: ReloadingBee
+Author-email: reloadingbee@gmail.com
+License: Apache-2.0
+Keywords: progress,loading,bar,dynamic,python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
