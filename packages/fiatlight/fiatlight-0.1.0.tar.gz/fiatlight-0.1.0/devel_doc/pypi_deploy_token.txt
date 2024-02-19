@@ -1,0 +1,10 @@
+
+fiat_lux:
+
+__token__
+
+pypi-AgEIcHlwaS5vcmcCJDU4MGU3NzA3LTVjYjMtNDYyZS05MDcxLTJjMDRhZjIyMjE0ZQACKlszLCI5ZTI1Yjc2OC0yZWFhLTRhY2MtOGVhMC04ZGJlYzhjZDczNjEiXQAABiCZ1Pi0E1HQRLBoJzlulDo0-hoSPe8mWHc2MvR1mN_wpg
+
+Set your username to __token__
+Set your password to the token value, including the pypi- prefix
+

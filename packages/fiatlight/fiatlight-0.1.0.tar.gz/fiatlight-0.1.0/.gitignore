@@ -1,0 +1,8 @@
+__pycache__
+/cmake-build*/
+/venv*
+/build*/
+.mypy_cache
+external/
+/.idea/
+TODO.txt
