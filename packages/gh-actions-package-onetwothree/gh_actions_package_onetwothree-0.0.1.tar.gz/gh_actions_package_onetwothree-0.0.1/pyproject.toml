@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gh_actions_package_onetwothree"
+version = "0.0.1"
+authors = [
+	{name="kookoo", email="booboodev@protonmail.com"}
+]
+description = "A sample package from Pypi packaging tutorial by onetwothree uploaded using GH Actions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/calismu/add-n"
+Issues = "https://github.com/calismu/add-n/issues"

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gh_actions_package_onetwothree
+Version: 0.0.1
+Summary: A sample package from Pypi packaging tutorial by onetwothree uploaded using GH Actions
+Project-URL: Homepage, https://github.com/calismu/add-n
+Project-URL: Issues, https://github.com/calismu/add-n/issues
+Author-email: kookoo <booboodev@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# add-n
+A python package for testing packaging, releasing, and Pypi publishing
