@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hollarek
+Version: 0.5.3
+Summary: Collection of general python utilities for future projects
+Home-page: https://github.com/Somerandomguy10111/hollarek
+Author: Daniel Hollarek
+Author-email: daniel.hollarek@googlemail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: apscheduler ==3.10.4
+Requires-Dist: func-timeout
+Requires-Dist: json-repair
+Requires-Dist: pathvalidate
+Requires-Dist: pypdf ==4.0.1
+Requires-Dist: requests
+Requires-Dist: selenium
+
+UNKNOWN
+
