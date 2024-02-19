@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: quakephase
+Version: 0.2.4
+Summary: A Python package for automatic seismic phase characterization
+Home-page: https://github.com/speedshi/quakephase
+Author: Peidong Shi
+Author-email: speedshi@hotmail.com
+License: GPLv3
+Keywords: Seismology,Machine Learning,Phase Picking,Seismic Monitoring,Earthquake Monitoring
+License-File: LICENSE
+Requires-Dist: seisbench
+Requires-Dist: pyyaml
+Requires-Dist: scikit-learn
+
