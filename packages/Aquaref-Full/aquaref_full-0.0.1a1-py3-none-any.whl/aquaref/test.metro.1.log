@@ -1,0 +1,34 @@
+2023-12-17 13:00:46 || 准备导入...
+2023-12-17 13:00:46 || 加载 "System.IO" 中...
+2023-12-17 13:00:47 || 加载 "System.IO" 成功！
+2023-12-17 13:00:47 || 加载 "System.Drawing" 中...
+2023-12-17 13:00:47 || 加载 "System.Drawing" 成功！
+2023-12-17 13:00:47 || 加载 "System.Windows" 中...
+2023-12-17 13:00:47 || 加载 "System.Windows" 成功！
+2023-12-17 13:00:47 || 加载 "System.Windows.Forms" 中...
+2023-12-17 13:00:47 || 加载 "System.Windows.Forms" 成功！
+2023-12-17 13:00:47 || 加载 "System.Runtime.InteropServices" 中...
+2023-12-17 13:00:47 || 加载 "System.Runtime.InteropServices" 成功！
+2023-12-17 13:00:47 || 加载 "MetroFramework" 中...
+2023-12-17 13:00:47 || 加载 "F:\flater-main\flater\library\metro\net40\MetroFramework.Design.dll"
+2023-12-17 13:00:47 || 加载 "F:\flater-main\flater\library\metro\net40\MetroFramework.dll"
+2023-12-17 13:00:47 || 加载 "F:\flater-main\flater\library\metro\net40\MetroFramework.Fonts.dll"
+2023-12-17 13:00:47 || 加载 "MetroFramework" 成功！
+2023-12-17 13:00:47 || 初始化 "MetroForm" 成功！
+2023-12-17 13:00:47 || 初始化 "MetroStyleManager" 成功！
+2023-12-17 13:00:47 || 初始化 "MetroToolTip" 成功！
+2023-12-17 13:00:47 || 初始化 "MetroTabControl" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroTabPage" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroButton" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroTabPage" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroButton" 成功！
+2023-12-17 13:00:48 || "MetroButton" 绑定事件 "Click" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroButton" 成功！
+2023-12-17 13:00:48 || "MetroButton" 绑定事件 "Click" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroButton" 成功！
+2023-12-17 13:00:48 || "MetroButton" 绑定事件 "Click" 成功！
+2023-12-17 13:00:48 || 初始化 "MetroLabel" 成功！
+2023-12-17 13:00:48 || 初始化 "Application" 成功！
+2023-12-17 13:00:48 || 运行框架为 ".NET Framework 4.8.9195.0"
+2023-12-17 13:00:48 || 正在运行主程序...
+2023-12-17 13:00:50 || 主程序已结束
