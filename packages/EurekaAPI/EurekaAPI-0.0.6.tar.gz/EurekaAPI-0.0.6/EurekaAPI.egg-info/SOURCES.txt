@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+EurekaAPI/API_request.py
+EurekaAPI/__init__.py
+EurekaAPI/main.py
+EurekaAPI.egg-info/PKG-INFO
+EurekaAPI.egg-info/SOURCES.txt
+EurekaAPI.egg-info/dependency_links.txt
+EurekaAPI.egg-info/requires.txt
+EurekaAPI.egg-info/top_level.txt
