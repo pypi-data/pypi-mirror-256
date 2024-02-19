@@ -1,0 +1,8 @@
+lightningrobot_cli/__init__.py,sha256=e9O7l6xeZByWGegVaK-KO9BwSu8zp8qu82XuT5B88SU,1150
+lightningrobot_cli/create.py,sha256=DUqg9r2r08NCMeHCe5R7upE9czDkhg4EZY9xeb4pVso,2063
+lightningrobot_cli/install.py,sha256=qjfGEU_GoXnW06pspqgQr0hiWSHdoomh-aCivkUg6UU,1380
+lightningrobot_cli/runbot.py,sha256=eXaZYCX0RGRRel0FvmrpRouZet0RUCpiMW07tI1sJtA,1258
+lightningrobot_cli-0.0.4.dist-info/entry_points.txt,sha256=2CEvXYXBzW-saReEqCJ_lFADEBBCx8VjOCin3m_-u14,58
+lightningrobot_cli-0.0.4.dist-info/METADATA,sha256=5grXw8muMsDT9252khIabOHlFMA3yPVa7IZcb-Bf0E4,1032
+lightningrobot_cli-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+lightningrobot_cli-0.0.4.dist-info/RECORD,,
