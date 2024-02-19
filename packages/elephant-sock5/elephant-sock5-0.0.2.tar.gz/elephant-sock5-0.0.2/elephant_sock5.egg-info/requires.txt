@@ -1,0 +1,4 @@
+click
+py-netty==0.0.38
+websocket-client
+attrs
