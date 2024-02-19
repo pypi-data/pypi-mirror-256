@@ -1,0 +1,10 @@
+setup.py
+ku_distributions/Binomialdistribution.py
+ku_distributions/Gaussiandistribution.py
+ku_distributions/Generaldistribution.py
+ku_distributions/__init__.py
+ku_distributions.egg-info/PKG-INFO
+ku_distributions.egg-info/SOURCES.txt
+ku_distributions.egg-info/dependency_links.txt
+ku_distributions.egg-info/not-zip-safe
+ku_distributions.egg-info/top_level.txt
