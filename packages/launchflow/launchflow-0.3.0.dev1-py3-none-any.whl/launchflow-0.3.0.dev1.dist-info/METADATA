@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: launchflow
+Version: 0.3.0.dev1
+Author-email: CalebTVanDyke <caleb@launchflow.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beaupy
+Requires-Dist: rich
+Requires-Dist: toml
+Requires-Dist: pyyaml
+Requires-Dist: pathspec
+Requires-Dist: pydantic
+Requires-Dist: deepdiff
+Requires-Dist: typer
+Provides-Extra: dev
+Requires-Dist: pytest >=7.4.4 ; extra == 'dev'
+Requires-Dist: sqlalchemy[asyncio] >=2.0.27 ; extra == 'dev'
+Provides-Extra: gcp
+Requires-Dist: cloud-sql-python-connector ; extra == 'gcp'
+Requires-Dist: google-cloud-storage ; extra == 'gcp'
+
