@@ -1,0 +1,11 @@
+lazyvpn/__init__.py,sha256=Tia9JD_PM96Hrz7ndHNW8GW9a7SEmFTUcuxXCFvGSKA,40
+lazyvpn/config.py,sha256=CI5Qz693bDt7h7p26NNXzdz_2YjpMKT7JEGfDtXHr7A,10849
+lazyvpn/errors.py,sha256=KiPpFcWVqqqpzyUV_YDG09N2dd9_z70YMtmma-ARHb0,1726
+lazyvpn/main.py,sha256=CvApyCHKAqhrLOzTAZaQGDuPz8NmOgLFkj072F7TWkQ,2106
+lazyvpn/ui.py,sha256=_1Ns2QDED9UDJ0FAJF3ZugiWeIK-zWsVMFt-rgJxCJg,3333
+lazyvpn-0.0.30.data/scripts/lazyvpn,sha256=iy5dQTqFbqkw22O8FiScnQsA1bDf5iQ1j08cy31WFpo,685
+lazyvpn-0.0.30.data/scripts/lazyvpn.cmd,sha256=pdnKlJt3HDNRF-m4qtsw4yKxYwqtryLGrU4qYdlnSTk,1397
+lazyvpn-0.0.30.dist-info/METADATA,sha256=_WuP-Apa2wp0NaUvYuSjhExOmhl5C_3KO58cfeloEoQ,591
+lazyvpn-0.0.30.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+lazyvpn-0.0.30.dist-info/top_level.txt,sha256=1zIl9rcbX-96AVRuyQJuKsS39KIE3OzubVmezc8nI2s,8
+lazyvpn-0.0.30.dist-info/RECORD,,
