@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: romanlibrary
+Version: 1.3.1
+Summary: A Python library for drawing Roman numerals using Turtle graphics
+Home-page: https://github.com/nicestuff77/roman-numeral
+Author: Cort Smith
+Author-email: cort.j.smith@gmail.com
+Keywords: roman numeral turtle graphics drawing
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This my first major project in Python that I am publishing to GitHub.
+The main idea is that it will take any integer and draw it in roman numerals.
+It can also convert roman numerals into integers, although the integers will be printed.
+One other user side function allows the user to specify what numerals, what order and which size.
+The URL for the GitHub is https://github.com/nicestuff77/roman-numeral
