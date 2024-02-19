@@ -1,0 +1,2 @@
+[console_scripts]
+duckdb-server = main:cli
