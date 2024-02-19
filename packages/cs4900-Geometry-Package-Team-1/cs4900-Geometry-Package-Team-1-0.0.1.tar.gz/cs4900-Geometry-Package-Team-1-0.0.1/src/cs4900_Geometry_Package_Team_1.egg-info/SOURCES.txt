@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/cs4900_Geometry_Package_Team_1.egg-info/PKG-INFO
+src/cs4900_Geometry_Package_Team_1.egg-info/SOURCES.txt
+src/cs4900_Geometry_Package_Team_1.egg-info/dependency_links.txt
+src/cs4900_Geometry_Package_Team_1.egg-info/top_level.txt
+src/geometry-package-cs4900/__init__.py
+src/geometry-package-cs4900/graphing.py
+src/geometry-package-cs4900/new_math.py

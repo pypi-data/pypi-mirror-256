@@ -1,0 +1,21 @@
+[project]
+name = "cs4900-Geometry-Package-Team-1"
+version = "0.0.1"
+authors = [
+  { name="Alexander Holmes", email="Alexander.j.holmes@wmich.edu" },
+  { name="Evan A. Schock", email="Evan.a.schock@wmich.edu" },
+  { name="Jonathon C Weaver", email="Jonathon.c.weaver@wmich.edu" },
+  { name="Ethan Cochran", email="Ethan.t.cochran@wmich.edu" },
+]
+description = "Geometry Package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ethan343/first-team-project4900"
+Issues = "https://github.com/Ethan343/first-team-project4900/issues"
