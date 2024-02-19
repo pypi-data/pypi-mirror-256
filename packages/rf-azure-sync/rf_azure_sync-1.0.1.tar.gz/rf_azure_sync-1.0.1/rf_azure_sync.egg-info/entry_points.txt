@@ -1,0 +1,2 @@
+[console_scripts]
+rf_azure_sync = rf_azure_sync.rf_azure_sync:rf_azure_sync
