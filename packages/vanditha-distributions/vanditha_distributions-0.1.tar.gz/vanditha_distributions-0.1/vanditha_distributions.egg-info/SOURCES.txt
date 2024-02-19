@@ -1,0 +1,10 @@
+setup.py
+vanditha_distributions/Binomialdistribution.py
+vanditha_distributions/Gaussiandistribution.py
+vanditha_distributions/Generaldistribution.py
+vanditha_distributions/__init__.py
+vanditha_distributions.egg-info/PKG-INFO
+vanditha_distributions.egg-info/SOURCES.txt
+vanditha_distributions.egg-info/dependency_links.txt
+vanditha_distributions.egg-info/not-zip-safe
+vanditha_distributions.egg-info/top_level.txt
