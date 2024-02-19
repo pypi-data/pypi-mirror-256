@@ -1,0 +1,8 @@
+stockdatamanager/__init__.py,sha256=W0Ig1UPRlTVsqP8bwxwxGkSr99VZh4weJU5KJ-oqvz0,118
+stockdatamanager/datafetcher.py,sha256=x3sKGN0dYfx5-N1R9j57IYVSFdYRKilPR1Fv78JtyTo,5703
+stockdatamanager/transform.py,sha256=9Yuyza9qvQSMnob5pKssNwRFMkpmWoNAyghkppIEsTI,32259
+stockdatamanager-0.3.3.dist-info/LICENSE,sha256=Hq0VYKxNjw__8N469uOhoBOyX0dds4WghYNGfem_IV8,1064
+stockdatamanager-0.3.3.dist-info/METADATA,sha256=OpUuK8Z0gTzrvf-hBXFiAuVbPwgBZzOrGKya0djKXU4,566
+stockdatamanager-0.3.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+stockdatamanager-0.3.3.dist-info/top_level.txt,sha256=TZ1egXYPZodrLnjBpY9l1YUYXxr-G_gmWLFRUnakB9s,17
+stockdatamanager-0.3.3.dist-info/RECORD,,
