@@ -1,0 +1,98 @@
+# ChainOS
+
+An extremely fast, language-agnostic, graph workflow engine for building, testing, and deploying complex workflows.
+
+[![versions](https://img.shields.io/badge/python-3.9|3.10)](https://github.com/chainos-io/chainos-python)
+
+![Static Badge](https://img.shields.io/badge/python-3.9%7C3.10)
+
+
+___
+## Story
+
+***Chainos : the Forger of Sequential Bonds***
+
+Chainos focuses on the power of chained processes, from AI to algorithmic sequences where each step is linked to the next. As the forger of sequences, Chainos ensures that every link in the chain holds, promoting security, efficiency, and integrity in systems that rely on unbroken processes.
+
+[Website: chainos.io](https://chainos.io/)
+
+## Help
+
+[Documentation](https://chainos.io/docs/)
+
+[Examples](https://chainos.io/examples/)
+
+## Installing
+
+#### Setup environment
+```bash
+# Choose a python version
+pyenv install 3.10
+pyenv install 3.11
+
+# Create a virtualenv
+# Can replace 3.11 with your version
+pyenv virtualenv 3.11 chainos
+
+# See all installed python versions and available virtualenvs
+pyenv versions
+
+# activate virtualenv
+pyenv activate chainos
+
+# leave virtualenv
+pyenv deactivate
+
+pip install poetry
+```
+
+### Setup project
+
+```bash
+git clone git@github.com:chainos-io/chainos-python.git
+
+cd chainos-python
+
+poetry install --with test,dev --no-root
+```
+
+## Running ChainOS
+
+Example chainos project
+
+```python
+from chainos import ChainOS as cos
+
+container = cos.Container()
+
+chain = cos.Chain(container=container)
+
+@cos.task
+def step1() -> int:
+    print("Hello, World!")
+    return 1
+
+@cos.task
+def step2(input1: int):
+    print(f"step2: {input1}")
+    return input1 * 2
+
+chain.add(step1)
+chain.add(step2)
+
+container.add(chain)
+
+chain.run()
+```
+
+## Contributing
+
+For guidance on setting up a development environment and how to make a
+contribution to Chainos, see
+[Contributing to Pydantic](https://docs.chainos.io/contributing/).
+
+Or see [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+## Reporting a Security Vulnerability
+
+See our [security policy](https://github.com/chainos-io/chainos-python/security/policy).

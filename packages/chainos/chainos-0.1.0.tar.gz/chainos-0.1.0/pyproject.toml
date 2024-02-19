@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chainos"
+version = "0.1.0"
+description = "ChainOS-python is a python client for the ChainOS engine"
+authors = ["Brady <bfendres@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+chainos = "chainos.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+click = "^8.1.7"
+pydantic = "^2.6.1"
+requests = "^2.31.0"
+dynaconf = "^3.2.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+ipython = "^8.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
