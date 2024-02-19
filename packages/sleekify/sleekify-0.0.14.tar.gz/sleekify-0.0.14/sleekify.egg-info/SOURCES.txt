@@ -1,0 +1,10 @@
+README.md
+setup.py
+sleekify/__init__.py
+sleekify.egg-info/PKG-INFO
+sleekify.egg-info/SOURCES.txt
+sleekify.egg-info/dependency_links.txt
+sleekify.egg-info/requires.txt
+sleekify.egg-info/top_level.txt
+sleekify/guard/__init__.py
+sleekify/types/__init__.py
