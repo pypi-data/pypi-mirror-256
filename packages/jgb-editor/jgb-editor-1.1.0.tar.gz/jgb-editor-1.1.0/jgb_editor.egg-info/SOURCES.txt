@@ -1,0 +1,6 @@
+README.md
+setup.py
+jgb_editor.egg-info/PKG-INFO
+jgb_editor.egg-info/SOURCES.txt
+jgb_editor.egg-info/dependency_links.txt
+jgb_editor.egg-info/top_level.txt
