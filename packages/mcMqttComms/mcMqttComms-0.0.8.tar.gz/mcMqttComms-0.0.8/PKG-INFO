@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mcMqttComms
+Version: 0.0.8
+Summary: Module for handling mission control messages to be sent to a Drone via MQTT.
+Author: Jonathan Thai
+Author-email: thaijonathan53@gmail.com

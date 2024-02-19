@@ -1,0 +1,8 @@
+setup.py
+src/mc/__init__.py
+src/mc/mc_functions.py
+src/mcMqttComms.egg-info/PKG-INFO
+src/mcMqttComms.egg-info/SOURCES.txt
+src/mcMqttComms.egg-info/dependency_links.txt
+src/mcMqttComms.egg-info/requires.txt
+src/mcMqttComms.egg-info/top_level.txt
