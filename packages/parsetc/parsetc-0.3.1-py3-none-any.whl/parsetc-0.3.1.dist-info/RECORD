@@ -1,0 +1,17 @@
+parsetc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsetc/common.lark,sha256=fYbjqAikFI1Lfy2lntz98QYcxCp2M6KuuTyQJzRaaaw,1719
+parsetc/dieghv.lark,sha256=XQ6Ezlwt6mzV5U4L-NFej8Z2a2hYUBhHy8kwY0dac8Q,369
+parsetc/duffus.lark,sha256=ZdRAiUZt-Xm5hJP0v-L3r-YYvSDPLAc0VELqh6JqPHY,565
+parsetc/gdpi.lark,sha256=j1FrxtOLKD5glN0xNg3Y-09eIVqilSgEwFvvEgIV-sE,374
+parsetc/ggn.lark,sha256=-SuSO5cCWGst96oRp0tge6T9f0kWJvVwcvDE7sHC5kU,380
+parsetc/ggnn.lark,sha256=Pklu5PPgtGUQ0MkcSvRvHkw74E83P6VmwwcAEwz4Pfg,401
+parsetc/parsetc.py,sha256=iOYcOzv40xcs8Bs3iOJgcwfQSdyu_GmfyecC8EBg8rU,9672
+parsetc/terminals.json,sha256=B0K4gcYUM47Vk75mvPwGfaZbbfQNA_yjb0DGLOtweMo,5379
+parsetc/tlo.lark,sha256=Ija1GPpvC__AGHQpw6QajUqRxBS2be54h62p1ds0YSg,476
+parsetc/translit.py,sha256=ISxEWfs3Eie31tj1v8hJkVEXI8dwWYu81FeFJXMKs0s,20444
+parsetc-0.3.1.dist-info/LICENSE,sha256=DrAkXMJn2Isl6DmqZqc-DSLZt9stvzc6ItxOp1x5gCA,1100
+parsetc-0.3.1.dist-info/METADATA,sha256=frVKOMcLF00MKZs0w1fSXK3BxADeaIj4EuxesjRd_HU,5135
+parsetc-0.3.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+parsetc-0.3.1.dist-info/entry_points.txt,sha256=8ae916LiF2qEcZIZDAaKacUBw4wBGF7_sumSAknwYN8,49
+parsetc-0.3.1.dist-info/top_level.txt,sha256=tRg3lsiV6sI4d2xdys5me1IhLWXteHRGKfYOuvikePo,8
+parsetc-0.3.1.dist-info/RECORD,,
