@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tierkreis-typecheck
+Version: 0.2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Summary: Type checking extension.
+Author: Alan Lawrence <alan.lawrence@quantinuum.com>
+Author-email: Seyon Sivarajah <seyon.sivarajah@quantinuum.com>, Lukas Heidemann <lukas.heidemann@quantinuum.com>, John Children <john.children@quantinuum.com>, Alan Lawrence <alan.lawrence@quantinuum.com>
+Requires-Python: >=3.10, <3.13
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/CQCL/tierkreis
+
+# tierkreis-typecheck
+
+Type checking extension for [tierkreis](https://github.com/CQCL/tierkreis).
+
