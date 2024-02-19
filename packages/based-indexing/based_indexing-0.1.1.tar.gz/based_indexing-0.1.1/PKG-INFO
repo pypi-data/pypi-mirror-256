@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: based-indexing
+Version: 0.1.1
+Summary: Ordinal indexing
+Author: jmillana
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: num2words (>=0.5.13,<0.6.0)
+Requires-Dist: number-parser (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# based_indexing
+Best indexing possible
+
