@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: deep-dict-update
+Version: 0.1.5
+Summary: Recursively update nested dictionaries with another dictionary
+License: MIT
+Author: Shivam Malpani
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# deep-dict-update
+
+<!--[![PyPI version](https://badge.fury.io/py/deep-dict-update.svg)](https://badge.fury.io/py/deep-dict-update)-->
+<!--[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)-->
+
+A Python package for recursively updating nested dictionaries with the content of another dictionary.
+
+## Installation
+
+You can install `deep-dict-update` via pip:
+
+```sh
+pip install deep-dict-update
+```
+
+## Usage
+
+``` python
+from deep_dict_update import deep_dict_update
+
+orig_dict = {
+    'data': [
+        {'id': 1, 'name': 'Alice'},
+        {'id': 2, 'name': 'Bob'}
+    ]
+}
+
+new_dict = {
+    'data': [
+        {'id': 3, 'name': 'Charlie'},
+        {'id': 4, 'name': 'David'}
+    ]
+}
+
+updated_dict = deep_dict_update(orig_dict, new_dict)
+print(updated_dict)
+```
+
+## Output
+
+``` python
+{
+    'data': [
+        {'id': 3, 'name': 'Charlie'},
+        {'id': 4, 'name': 'David'}
+    ]
+}
+```
+
+## Contributing
+
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
