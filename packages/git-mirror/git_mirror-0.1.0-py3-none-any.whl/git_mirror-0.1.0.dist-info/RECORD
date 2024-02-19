@@ -1,0 +1,17 @@
+git_mirror/__about__.py,sha256=WeLQ3J3SSfRFjada0i7HijpWZvno7vsIrZ5Dz3nvN-Y,842
+git_mirror/__init__.py,sha256=0jGfoxjk0eD7PJpwWpLY9BmvmukIYrQ5qErQsJ0Fm_M,145
+git_mirror/__main__.py,sha256=GNsYEafTWnWJVH-PVXtsvvTOJX-HU_rWpjOW26iFAuc,5335
+git_mirror/logging_config.py,sha256=QvnNeNaRcW-0J2arqAnGfh3oUxmWvBuxPdbhz8eYN3M,1414
+git_mirror/manage_config.py,sha256=gwJpxl17_2BVEyRKKI8p6-dldAEBnDnUhV6AVumXemI,4660
+git_mirror/manage_git.py,sha256=AoNxu-aY_DKyJ1dgoZMVku_2NTUVO5UabicAOdybKvs,4067
+git_mirror/manage_github.py,sha256=H2qJb-b-cF0Oiw035ukACVxxqCFTmSpUvLsY2ecG4a0,10179
+git_mirror/manage_gitlab.py,sha256=JAwo7taQHI1-x6lIXrhYwJhFDaI_THlcKfBjo2ggbRk,11694
+git_mirror/manage_pypi.py,sha256=2YOx3rAi7yLMI2AZcplXEbD8S69IgdI0GYuP4pBqrSE,3364
+git_mirror/py.typed,sha256=B-DLSjYBi7pkKjwxCSdpVj2J02wgfJr-E7B1wOUyxYU,80
+git_mirror/router.py,sha256=XCarC6vqFev6IO4nrI925oT_aYEFcbawCEr9cEhj3Cs,2784
+git_mirror/types.py,sha256=VIU3QcAzkAEDrY_KXZA_0g7SqKMU_Fw2ggHslMZp2Fo,1561
+git_mirror-0.1.0.dist-info/LICENSE,sha256=jorgCGk-Vzqzuda58x7WxtiRSnL0_WaOSLcZIe3czgo,1071
+git_mirror-0.1.0.dist-info/METADATA,sha256=q5w_g-dwZ-qj6oe5zg6N7GozVttHWpkjMlJodi-giws,4386
+git_mirror-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+git_mirror-0.1.0.dist-info/entry_points.txt,sha256=7xE8_otJTKX3wwFrtwptA-5n-ApiPXxqFB3mXTyC5hs,139
+git_mirror-0.1.0.dist-info/RECORD,,
