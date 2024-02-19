@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+plex_fuse.egg-info/PKG-INFO
+plex_fuse.egg-info/SOURCES.txt
+plex_fuse.egg-info/dependency_links.txt
+plex_fuse.egg-info/entry_points.txt
+plex_fuse.egg-info/requires.txt
+plex_fuse.egg-info/top_level.txt
+plexfuse/__main__.py
+plexfuse/__version__.py
+plexfuse/normalize.py
+tests/test_RefCountedDict.py
+tests/test_chunk_calc.py
+tests/test_chunk_read.py
+tests/test_file_copy.py
+tests/test_file_copy_partial.py
