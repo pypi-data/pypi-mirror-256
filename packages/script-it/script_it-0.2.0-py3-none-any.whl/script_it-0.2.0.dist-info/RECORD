@@ -1,0 +1,11 @@
+scriptit/__init__.py,sha256=nlIvvJeo71Sf_CheWsiNTBorSkLgCzBFsRE1Wu14I2A,966
+scriptit/_version.py,sha256=H-qsvrxCpdhaQzyddR-yajEqI71hPxLa4KxzpP3uS1g,411
+scriptit/app.py,sha256=frbCDkseDsPPdSFfLtnOwmGIpUmvXmS81XV_PKNLatU,10455
+scriptit/color.py,sha256=exa1mFjUx8uyWqgXI1Ijh_DaypuEG39WovvMTGyVEs0,4385
+scriptit/refresh_printer.py,sha256=oRRjVGsnXx4qEb3QfKI28DgeEQx2zCadxRXsEYvGp7g,3949
+scriptit/shape.py,sha256=Sh22wh71WwRkSdnAMJC5D8vxu8ZzL6bk8SL50LlpnGE,9914
+scriptit/size.py,sha256=XPCu_mY5OkCAXhGuPsZZtBnU79m6agoYC0lUxERFQ20,2586
+script_it-0.2.0.dist-info/METADATA,sha256=q_euWYghE4SvPeHtvq1co8QTaeuKGIDGk8JZNq4mdis,1062
+script_it-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+script_it-0.2.0.dist-info/top_level.txt,sha256=L0mYr_5NTyPrvFkjfQADSRni4jXF_Uylyp_jorZBu68,9
+script_it-0.2.0.dist-info/RECORD,,
