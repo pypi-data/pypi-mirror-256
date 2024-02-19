@@ -1,0 +1,2 @@
+[console_scripts]
+pih-plb_rw_ntf = PolibasePersonReviewNotificationService.__main__:start
