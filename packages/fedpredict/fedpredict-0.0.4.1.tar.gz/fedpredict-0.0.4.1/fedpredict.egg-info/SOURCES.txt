@@ -1,0 +1,17 @@
+README.md
+setup.py
+fedpredict/__init__.py
+fedpredict/fedpredict.py
+fedpredict/test_fedpredict.py
+fedpredict.egg-info/PKG-INFO
+fedpredict.egg-info/SOURCES.txt
+fedpredict.egg-info/dependency_links.txt
+fedpredict.egg-info/top_level.txt
+fedpredict/utils/__init__.py
+fedpredict/utils/utils.py
+fedpredict/utils/compression_methods/__init__.py
+fedpredict/utils/compression_methods/fedkd.py
+fedpredict/utils/compression_methods/fedpsarsification.py
+fedpredict/utils/compression_methods/parameters_svd.py
+fedpredict/utils/compression_methods/quantization.py
+fedpredict/utils/compression_methods/sparsification.py
