@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llmem"
+dynamic = ["version"]
+dependencies = [
+  "starlette",
+  "uvicorn",
+  "aiosqlite",
+  "aiohttp[speedups]",
+  "markdown",
+  "pymdown-extensions"
+]
+requires-python = ">= 3.8"
+authors = [
+  {name = "Tom Nickson", email = "tom@llmem.com"},
+]
+description = "Read through cache for OpenAI's API."
+readme = "docs/README.md"
+license = {file = "LICENSE"}
+
+[project.urls]
+Homepage = "https://llmem.com"
+Repository = "https://github.com/c0g/llmem.git"
+Issues = "https://github.com/c0g/llmem/issues"
+
+[tool.hatch.version]
+source = "vcs"
+fallback-version = "0.0.1"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["src/llmem", "docs"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+"docs" = "llmem"
