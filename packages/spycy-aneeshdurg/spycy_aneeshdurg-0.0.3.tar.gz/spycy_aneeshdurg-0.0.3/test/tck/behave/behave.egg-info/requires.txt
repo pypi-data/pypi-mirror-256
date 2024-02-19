@@ -1,0 +1,66 @@
+colorama>=0.3.7
+cucumber-tag-expressions>=4.1.0
+parse>=1.18.0
+parse_type>=0.6.0
+six>=1.15.0
+
+[:python_version < "3.0"]
+traceback2
+
+[:python_version < "3.4"]
+enum34
+
+[:python_version < "3.5"]
+contextlib2
+
+[:python_version <= "3.9"]
+win_unicode_console
+
+[develop]
+coverage
+invoke>=1.4.0
+modernize>=0.5
+pycmd
+pylint
+pytest-cov
+tox
+
+[develop:python_version < "3.0"]
+PyHamcrest<2.0
+pytest-html<2.0,>=1.19.0
+pytest<5.0,>=4.2
+
+[develop:python_version < "3.5"]
+path.py>=11.5.0
+
+[develop:python_version < "3.6"]
+mock<4.0
+
+[develop:python_version <= "3.4"]
+pathlib
+
+[develop:python_version >= "3.0"]
+PyHamcrest>=2.0.2
+pytest-html>=2.0
+pytest>=5.0
+
+[develop:python_version >= "3.5"]
+path>=13.1.0
+
+[develop:python_version >= "3.6"]
+mock>=4.0
+
+[docs]
+sphinx>=1.6
+sphinx_bootstrap_theme>=0.6
+
+[formatters]
+behave-html-formatter
+
+[toml]
+
+[toml:python_version < "3.0"]
+toml>=0.10.2
+
+[toml:python_version >= "3.0" and python_version < "3.11"]
+tomli>=1.1.0
