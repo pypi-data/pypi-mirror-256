@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ccstiet
+Version: 0.2.3
+Summary: pip package for Creative Computing Society,Thapar University,Patiala,India
+Home-page: https://github.com/dgbkn/ccstiet_pip_package
+Author: dgbkn
+Author-email: anandrambkn@gmail.com
+License: MIT
+Keywords: cctiet,creative,computing,society
+License-File: LICENSE
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: testing
