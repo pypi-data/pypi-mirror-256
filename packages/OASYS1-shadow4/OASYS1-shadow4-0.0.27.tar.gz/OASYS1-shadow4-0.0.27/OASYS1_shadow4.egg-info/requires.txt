@@ -1,0 +1,4 @@
+oasys1>=1.2.140
+shadow4>=0.1.23
+xoppylib
+shadow4-hybrid>=0.0.6
