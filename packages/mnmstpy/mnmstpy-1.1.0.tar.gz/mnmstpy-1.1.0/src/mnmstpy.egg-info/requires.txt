@@ -1,0 +1,12 @@
+scanpy>=1.9.3
+numpy
+pandas
+anndata
+matplotlib
+scipy
+scikit-learn
+psutil
+tqdm
+leidenalg
+torch>=2.0
+torchvision
