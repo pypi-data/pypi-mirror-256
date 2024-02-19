@@ -1,0 +1,4 @@
+Output:
+
+Errors:
+Usage: ps2pdfwr [options...] (input.[e]ps|-) [output.pdf|-]
