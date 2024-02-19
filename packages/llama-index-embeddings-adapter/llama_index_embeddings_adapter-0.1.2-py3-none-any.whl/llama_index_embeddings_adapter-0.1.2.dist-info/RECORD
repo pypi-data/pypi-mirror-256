@@ -1,0 +1,7 @@
+llama_index/embeddings/adapter/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+llama_index/embeddings/adapter/__init__.py,sha256=q8mz-L8a-C-oq97SuPMohBPR2FgiMlrU8d85rFHJMLg,290
+llama_index/embeddings/adapter/base.py,sha256=NC9hl9eEnLKXp2Iewh0S0wxKEsdknkEbeV0AyqoHueo,4262
+llama_index/embeddings/adapter/utils.py,sha256=hd6e4MepHALpRNnKU14Ft0qntNszCjnd88ua6TKIFcE,5487
+llama_index_embeddings_adapter-0.1.2.dist-info/METADATA,sha256=5iBRFSPtDOohGnTVQ2xogUiaWvalRZFcP36VpRq7G4U,645
+llama_index_embeddings_adapter-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llama_index_embeddings_adapter-0.1.2.dist-info/RECORD,,
