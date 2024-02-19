@@ -1,0 +1,104 @@
+
+# Mailing backend
+
+Проект для интеграции МС рассылки с другими Django МС.
+
+## Подготовка
+
+Загрузить pip:
+```pip
+pip install mailing-backend==1.0.2
+```
+
+Добавить проект в INSTALLED_APPS
+
+```python
+# File: settings.py
+
+INSTALLED_APPS = [
+    ...
+    "mailing_backend",
+]
+```
+
+Установить переменную EMAIL_ENDPOINT_URL
+
+```python
+# File: settings.py
+
+EMAIL_ENDPOINT_URL = "http://127.0.0.1:8000/mailing/message-send/"
+```
+
+
+## Пример использования:
+
+### serializers.py
+```python
+
+#serializers.py
+class SendUserMSSerializer(serializers.Serializer):
+
+    subject = serializers.CharField()
+    body = serializers.CharField()
+    email_list = serializers.ListField(child=serializers.CharField(max_length=254))
+    from_message = serializers.CharField(required=False, allow_blank=True)
+
+
+```
+
+### views.py
+```python
+
+from django.core.mail import EmailMessage
+from mailing_backend.backend import EndpointEmailBackend
+from my_proj.serializers import SendUserMSSerializer
+
+#views.py
+class MessageSendMSView(APIView):
+
+    queryset = Message.objects.all()
+    serializer_class = SendUserMSSerializer #пример обращения к сериализатору
+
+    def post(
+        self, request: Request, *args: Any, **kwargs: Any
+    ) -> Response:  
+
+        mes_ser = SendUserMSSerializer(data=request.data)
+        
+        message = EmailMessage()
+        message.subject = mes_ser.initial_data.get("subject", '') #string
+        message.body = mes_ser.initial_data.get("body", '') #string
+        message.to = mes_ser.initial_data.get("email_list", []) #list
+        message.from_email = mes_ser.initial_data.get("from_message", '') #string
+
+        backend = EndpointEmailBackend()
+        result = backend.send_messages([message])
+        return Response(result)
+```
+
+### urls.py
+```python
+
+#urls.py
+path("message-ms-send/", views.MessageSendMSView.as_view(), name="send"),
+```
+
+## Сборка
+
+Как собрать проект локально
+
+```bash
+python3 -m pip install build
+python3 -m build 
+```
+
+### Проверка собранного пакета
+```bash
+python3 -m pip install twine
+twine check dist/*
+```
+
+### Выкладывание проекта в PYPI
+```bash
+twine upload dist/*
+```
