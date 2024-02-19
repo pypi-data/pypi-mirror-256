@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributions_by_oluyosola.egg-info/PKG-INFO
+distributions_by_oluyosola.egg-info/SOURCES.txt
+distributions_by_oluyosola.egg-info/dependency_links.txt
+distributions_by_oluyosola.egg-info/not-zip-safe
+distributions_by_oluyosola.egg-info/top_level.txt
