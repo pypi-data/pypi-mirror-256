@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dewy-langchain"
+version = "0.2.1"
+description = ""
+authors = ["Ben Chambers <35960+bjchambers@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dewy_langchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dewy-client = "^0.2.0"
+langchain-core = "^0.1.23"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
