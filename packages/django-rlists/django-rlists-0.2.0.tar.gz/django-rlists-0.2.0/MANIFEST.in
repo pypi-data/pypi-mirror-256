@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+include requirements.txt
+recursive-include docs Makefile *.md
+recursive-include rlists/fixtures *.html *.json *.xml *.pgn *.js
+recursive-include rlists/migrations *.html *.json *.xml *.pgn *.js
+recursive-include rlists/services *.html *.json *.xml *.pgn *.js
+recursive-include rlists/static *
+recursive-include rlists/templates *
+

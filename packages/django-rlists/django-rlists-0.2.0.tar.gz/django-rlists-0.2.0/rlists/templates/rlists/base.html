@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% load static %}
+
+
+<html lang="en">
+
+
+{% include "ratings/head.html" %}
+
+
+<body>
+
+
+    {% include "ratings/navbar.html" %}
+
+    <main>
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+    {% include "ratings/footer.html" %}
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'ratings/js/bootstrap.bundle-5.3.2.js' %}"></script>
+
+</body>
+
+
+</html>
+

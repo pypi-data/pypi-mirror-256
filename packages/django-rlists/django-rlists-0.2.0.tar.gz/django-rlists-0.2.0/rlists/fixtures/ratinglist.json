@@ -1,0 +1,36 @@
+[
+    {
+        "model": "ratings.player",
+        "pk": 1,
+        "fields": {
+            "origin_file": "rating_list_v03.json",
+            "name": "Jane Doe",
+            "rating": "1850",
+            "fed": "KEN",
+            "birthday": "2001"
+        }
+    },
+    {
+        "model": "ratings.player",
+        "pk": 2,
+        "fields": {
+            "origin_file": "rating_list_v03.json",
+            "name": "Jane Doe",
+            "rating": "1850",
+            "fed": "KEN",
+            "birthday": "2001"
+        }
+    },
+    {
+        "model": "ratings.player",
+        "pk": 3,
+        "fields": {
+            "origin_file": "rating_list_v03.json",
+            "name": "Jane Doe",
+            "rating": "1850",
+            "fed": "KEN",
+            "birthday": "2001"
+        }
+    }
+]
+
