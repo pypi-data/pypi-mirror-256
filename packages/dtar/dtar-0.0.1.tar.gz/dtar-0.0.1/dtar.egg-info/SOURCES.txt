@@ -1,0 +1,6 @@
+pyproject.toml
+dtar/__init__.py
+dtar.egg-info/PKG-INFO
+dtar.egg-info/SOURCES.txt
+dtar.egg-info/dependency_links.txt
+dtar.egg-info/top_level.txt

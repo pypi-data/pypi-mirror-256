@@ -1,0 +1,9 @@
+[project]
+name = "dtar"
+authors = [
+    {name = "datarc", email = "datarc.co@gmail.com"},
+]
+version = "0.0.1"
+description = "Coming soon"
+[tools.setuptools]
+packages = ["src"]
