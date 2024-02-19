@@ -1,0 +1,45 @@
+
+call: <your_call>
+gridsquare: <CM87qh>
+myrig: Icom IC7200
+ituzone: 6
+cqzone: 3
+adif_file: /tmp/export.adif
+
+smtp_server: <smtp_server>
+smtp_login: <smtp_login>
+smtp_password: <smtp_password>
+smtp_port: 587
+smtp_from: <you@email_address>
+
+# Full path the your favorite fonts
+# font_call: Ubuntu Mono derivative Powerline Bold.ttf
+# font_text: DroidSansMono.ttf
+# font_foot: VeraMono-Italic.ttf
+
+overlay_color: [0x00, 0x00, 0x00, 0x90]
+text_color: [0, 0, 77]
+
+# Full path to your qsl card
+# The card resolution should be at least 1024x576
+qsl_card: default.jpg
+
+signature: Thank you for the QSO, and I will look forward for our next contact, 73
+
+mail_template: |
+
+  Hello $name, and thank you for our QSO!
+
+  Frequency.: $freq_rx MHz
+  Band......: $band
+  Mode......: $mode
+  RST.......: $rst_sent
+  RCVD......: $rst_rcvd
+  Date......: $qso_date
+
+  Our contat has also been confirmed on LOTW.
+
+  I am looking forward for our next QSO.
+
+  73,
+  Your friendly ham.
