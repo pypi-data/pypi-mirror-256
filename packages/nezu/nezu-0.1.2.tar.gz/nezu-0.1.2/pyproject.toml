@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nezu"
+version = "0.1.2"
+description = "Elegant debuging module"
+authors = ["Chuck Cartwright"]
+license = "GPL-3.0"
+readme = "README.md"
+
+# Only Uses Python Standard Library!
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+blue = "0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
