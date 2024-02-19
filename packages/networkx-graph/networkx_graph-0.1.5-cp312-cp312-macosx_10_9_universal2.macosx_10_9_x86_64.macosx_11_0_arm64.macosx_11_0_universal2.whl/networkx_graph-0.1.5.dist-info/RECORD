@@ -1,0 +1,8 @@
+networkx_graph/__init__.py,sha256=QbQ8YOgQvNW7zo92ijVXCRwu4SSr00b1bTJdYjQHAZs,1377
+networkx_graph/_core.cpython-312-darwin.so,sha256=Z_y_9nfsVa1Ki9Kaj6fCljb75xhvPzcxShWEGrm2aXc,1413816
+networkx_graph/__main__.py,sha256=3NXrqIqWJU943LI_P-RS5LSm6o6QuZl730qEvTjEUt0,275
+networkx_graph-0.1.5.dist-info/RECORD,,
+networkx_graph-0.1.5.dist-info/WHEEL,sha256=ZNinTdOMIQ7Go_lQ6iBbT9a2_9610-rrHKX7bOZH_5c,229
+networkx_graph-0.1.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+networkx_graph-0.1.5.dist-info/METADATA,sha256=RjEWq9Zecv1XWTkqNYOjp09tIVBiHm2V5bWi8IzW30A,843
+networkx_graph-0.1.5.dist-info/licenses/LICENSE,sha256=SBNiCMUPOkN74CrKaGEJk1CNXzPemZ76Qsm106kwI1E,2182
