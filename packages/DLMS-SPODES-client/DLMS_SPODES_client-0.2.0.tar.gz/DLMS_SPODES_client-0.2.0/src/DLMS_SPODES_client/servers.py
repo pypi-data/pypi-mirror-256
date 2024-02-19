@@ -1,0 +1,100 @@
+import threading
+from threading import Thread
+from dataclasses import dataclass, field
+import asyncio
+from queue import Queue
+from typing import Any
+from .client import Client
+from .enums import Operation
+from .logger import logger
+from .exchanges_properties import ExProp
+
+
+class TransactionServer:
+    __t: Thread
+    q_in: Queue[tuple[Operation, Client | list[Client], Any]]
+    q_out: Queue
+
+    def __init__(self):
+        self.q_in = Queue()
+        self.q_out = Queue()
+        self.__t = Thread(
+            target=self.start_coro,
+            args=(self.q_in, self.q_out))
+        self.__t.start()
+
+    def start_coro(self, q_in: Queue, q_out: Queue):
+        asyncio.run(self.coro_loop(q_in, q_out))
+
+    def task(self, *args) -> threading.Event:
+        a = list(args)
+        a.append(ev := threading.Event())
+        self.q_in.put(*args)
+        return ev
+
+    async def coro_loop(self, q_in: Queue, q_out: Queue):
+        while True:
+            f, dest, *a = q_in.get()
+            match f, dest, *a:
+                case Operation.OPEN, Client(), *_:
+                    dest: Client
+                    t = asyncio.create_task(dest.connect())
+                    t.add_done_callback(q_out.put)
+                    # await t
+                case Operation.CLOSE, Client(), *_:
+                    t = asyncio.create_task(dest.close())
+                    t.add_done_callback(q_out.put)
+                    # await t
+                case Operation.INIT_TYPE, Client(), *_:
+                    t = asyncio.create_task(dest.init_type())
+                    t.add_done_callback(q_out.put)
+                    # await t
+                case Operation.READ, Client(), ln, attr:
+                    t = asyncio.create_task(dest.read_attribute())
+                    t.add_done_callback(q_out.put)
+                    # await t
+                case Operation.CLOSE, None:
+                    break
+                case err:
+                    logger.error(F"unknown operation [{err}]", extra={"id": F"#{self.__class__.__name__}"})
+            await asyncio.sleep(0.01)
+
+
+@dataclass
+class Result:
+    client: Client
+    complete: threading.Event = field(default_factory=threading.Event)
+    """complete exchange"""
+
+
+class TransactionServer2:
+    __t: Thread
+    results: list[Result]
+
+    def __init__(self,
+                 clients: list[Client],
+                 exchanges: tuple[ExProp, ...]):
+        self.results = [Result(c) for c in clients]
+        self.exchanges = exchanges
+        self.__complete = threading.Event()
+        self._tg = None
+        self.__t = Thread(
+            target=self.start_coro,
+            args=(self.results,))
+
+    def start(self):
+        self.__t.start()
+
+    def start_coro(self, results):
+        asyncio.run(self.coro_loop(results))
+
+    async def coro_loop(self, results: list[Result]):
+        async with asyncio.TaskGroup() as self._tg:
+            for res in results:
+                self._tg.create_task(res.client.open(
+                    exchanges=self.exchanges,
+                    complete=res.complete))
+        self.__complete.set()
+
+    def is_complete(self) -> bool:
+        return self.__complete.is_set()
