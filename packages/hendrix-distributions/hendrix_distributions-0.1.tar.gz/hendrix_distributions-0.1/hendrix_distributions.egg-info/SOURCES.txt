@@ -1,0 +1,10 @@
+setup.py
+hendrix_distributions/Binomialdistribution.py
+hendrix_distributions/Gaussiandistribution.py
+hendrix_distributions/Generaldistribution.py
+hendrix_distributions/__init__.py
+hendrix_distributions.egg-info/PKG-INFO
+hendrix_distributions.egg-info/SOURCES.txt
+hendrix_distributions.egg-info/dependency_links.txt
+hendrix_distributions.egg-info/not-zip-safe
+hendrix_distributions.egg-info/top_level.txt
