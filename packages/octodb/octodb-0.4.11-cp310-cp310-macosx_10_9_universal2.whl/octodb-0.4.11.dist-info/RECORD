@@ -1,0 +1,8 @@
+octodb/__init__.py,sha256=F_Rr7L7XQWGvPq0OBSY18QZecw4V7ZVV5DI-ULTTJPo,1016
+octodb/_sqlite3.cpython-310-darwin.so,sha256=0mE07BaD61jxy9KMQMsFjRj565bAMbQ8JuBbPCDDb70,274043
+octodb/dbapi2.py,sha256=_zRwgpQ7NE2_fDxmFUOTSxZOWQSHHCE7obJpMP6Uyl4,2719
+octodb-0.4.11.dist-info/LICENSE,sha256=-iPPJQEmVI6QAI_pLeTudtSFv7s1kvW-iqcxd1iSqWA,889
+octodb-0.4.11.dist-info/METADATA,sha256=XiVtdVMvyLdSbekxe4SA477Z_o1PdReEU7TA7FMZFkM,2337
+octodb-0.4.11.dist-info/WHEEL,sha256=quc6KPsQ_p8Uswd5yj8hDZg5y2ghFxeobjm5cM_ymZ0,115
+octodb-0.4.11.dist-info/top_level.txt,sha256=vE34CvT78xVCz-2yLiBfwpcarhIQZ8YjAVQqFE8-vAc,7
+octodb-0.4.11.dist-info/RECORD,,
