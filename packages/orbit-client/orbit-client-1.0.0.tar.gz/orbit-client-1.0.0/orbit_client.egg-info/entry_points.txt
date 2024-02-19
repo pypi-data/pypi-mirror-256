@@ -1,0 +1,2 @@
+[console_scripts]
+orbit-client = orbit.__main__:main
