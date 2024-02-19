@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: s3bids
+Version: 0.1
+Summary: Useful classes for downloading BIDS datasets from S3.
+Home-page: https://github.com/nrdg/s3bids
+Author: pyAFQ developers
+Author-email: arokem@gmail.com
+License: LICENSE
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: s3fs
+Requires-Dist: boto3
+Requires-Dist: dask
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: nibabel
+Requires-Dist: pybids
+Requires-Dist: pytest
+
+# s3bids

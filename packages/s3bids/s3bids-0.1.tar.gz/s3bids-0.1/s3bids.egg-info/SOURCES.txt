@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+s3bids/__init__.py
+s3bids/s3bids.py
+s3bids.egg-info/PKG-INFO
+s3bids.egg-info/SOURCES.txt
+s3bids.egg-info/dependency_links.txt
+s3bids.egg-info/requires.txt
+s3bids.egg-info/top_level.txt

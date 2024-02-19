@@ -1,0 +1,9 @@
+s3fs
+boto3
+dask
+numpy
+pandas
+tqdm
+nibabel
+pybids
+pytest
