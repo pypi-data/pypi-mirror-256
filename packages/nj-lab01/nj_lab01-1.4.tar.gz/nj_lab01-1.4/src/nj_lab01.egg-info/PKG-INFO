@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: nj_lab01
+Version: 1.4
+Author: Nsundidi Jorge
+Author-email: jorgen@canisius.edu
+License: Apache License Version 2.0
+Description-Content-Type: text/markdown
+
+# Lab 1: Repos, Git, and Packages
+Welcome to Lab 1! This Python package is designed to provide a basic code that, when run, displays the date and time of your local time zone.
+
+## Installation
+To install the package, use the following command:
+
+pip install nj_lab01-1.3
+## Usage
+After installation, you can use the command line to display the date and time. Open your terminal and run:
+
+#### nj-lab01
+This will print the current date and time in your local time zone.
+
+## Project Structure
+#### setup.py:
+This file contains package information and dependencies.
+#### src directory: 
+Contains the Python modules needed for the project.
+#### script directory: 
+Contains the command-line script for displaying date and time.
+#### README.md: 
+The file you are currently reading, providing information about the project.
+
+## Example
+
+#### nj-lab01
+Current date and time: 2024-02-13 12:34:56 (Your Time Zone)
+
+Feel free to explore the source code in the src directory for more details on the implementation.
+
+## Contribution
+If you'd like to contribute to this project or report issues, please visit the GitHub repository [available here](https://github.com/jorgen24).
+
+Happy coding!

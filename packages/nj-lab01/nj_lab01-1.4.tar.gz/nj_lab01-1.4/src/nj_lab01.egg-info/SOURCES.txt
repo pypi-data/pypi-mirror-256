@@ -1,0 +1,10 @@
+README.md
+setup.py
+scripts/say-hello-cyb600
+src/nj_lab01/__init__.py
+src/nj_lab01/main.py
+src/nj_lab01.egg-info/PKG-INFO
+src/nj_lab01.egg-info/SOURCES.txt
+src/nj_lab01.egg-info/dependency_links.txt
+src/nj_lab01.egg-info/entry_points.txt
+src/nj_lab01.egg-info/top_level.txt
