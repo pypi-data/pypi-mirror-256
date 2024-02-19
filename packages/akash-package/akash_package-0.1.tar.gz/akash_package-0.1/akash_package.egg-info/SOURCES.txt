@@ -1,0 +1,8 @@
+setup.py
+akash_package/__init__.py
+akash_package/main.py
+akash_package.egg-info/PKG-INFO
+akash_package.egg-info/SOURCES.txt
+akash_package.egg-info/dependency_links.txt
+akash_package.egg-info/requires.txt
+akash_package.egg-info/top_level.txt
