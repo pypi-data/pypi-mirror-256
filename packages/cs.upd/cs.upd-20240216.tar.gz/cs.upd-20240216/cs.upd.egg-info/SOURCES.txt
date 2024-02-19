@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+cs.upd.egg-info/PKG-INFO
+cs.upd.egg-info/SOURCES.txt
+cs.upd.egg-info/dependency_links.txt
+cs.upd.egg-info/requires.txt
+cs.upd.egg-info/top_level.txt
+lib/python/cs/upd.py
