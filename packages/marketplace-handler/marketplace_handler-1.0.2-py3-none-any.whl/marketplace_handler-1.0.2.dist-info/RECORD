@@ -1,0 +1,13 @@
+marketpalce_handler/__init__.py,sha256=QjfC1w5v2OyPZLljey0GsZmsS7ELqVvnalWdswJpsNY,28
+marketpalce_handler/config.py,sha256=xdNLxm7RNyl2uLCCjBXst714LizozQALewgB8zmMEis,141
+marketpalce_handler/exceptions.py,sha256=OoWPaG25InKioavdfsRMHM3n4kYckKSCuDIjnZ8aFq4,103
+marketpalce_handler/logger.py,sha256=PXr1P-SYYPUvnEtwXNqb15voq80lRA8KqesmfEQXxlo,466
+marketpalce_handler/mapping.py,sha256=pqr6tE6-PD127kcjW-dx9ouiXfVGS5u0peU9VbVMZYc,822
+marketpalce_handler/marketplace.py,sha256=GcxoM3IPUISatIpXZKGo7Fe-EKJdALr5pec-bul_WBU,592
+marketpalce_handler/schemas.py,sha256=UwCFoKXRpDT6GKtrWx6iK2ahtuROtJrAHerKUwxtW98,468
+marketpalce_handler/validators.py,sha256=xU9GhBCjlrQ8HTydaJ-UGOb8INKY2DN4XNUruNivXno,922
+marketpalce_handler/wb.py,sha256=r_oHwNzZoV_OS--Jfq_H4TOesaaZY4qFkvObYiI6T1M,10692
+marketplace_handler-1.0.2.dist-info/METADATA,sha256=N7ede2oTwMH9Vm8kmOK52oQf2rqwRDCuk8ojFbhJgY0,806
+marketplace_handler-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+marketplace_handler-1.0.2.dist-info/top_level.txt,sha256=6uthNU53KQ0CRbrRTP8XL9FODRmbOXVcodLCqu9AvnU,20
+marketplace_handler-1.0.2.dist-info/RECORD,,
