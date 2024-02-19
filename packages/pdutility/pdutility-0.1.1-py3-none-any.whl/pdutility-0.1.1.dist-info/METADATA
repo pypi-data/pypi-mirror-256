@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pdutility
+Version: 0.1.1
+Summary: Pandas dataframe processing utility - major release coming soon
+Author-email: techds <chet_singh@berkeley.edu>
+Project-URL: Homepage, https://github.com/techds/pdutils
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
