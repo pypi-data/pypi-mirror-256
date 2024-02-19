@@ -1,0 +1,6 @@
+setup.py
+mcMqttComms.egg-info/PKG-INFO
+mcMqttComms.egg-info/SOURCES.txt
+mcMqttComms.egg-info/dependency_links.txt
+mcMqttComms.egg-info/requires.txt
+mcMqttComms.egg-info/top_level.txt
