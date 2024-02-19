@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+flask_firebase/__init__.py
+flask_firebase.egg-info/PKG-INFO
+flask_firebase.egg-info/SOURCES.txt
+flask_firebase.egg-info/dependency_links.txt
+flask_firebase.egg-info/top_level.txt
+flask_firebase/templates/firebase_auth/widget.html
+flask_firebase/templates/firebase_auth/widget_base.html

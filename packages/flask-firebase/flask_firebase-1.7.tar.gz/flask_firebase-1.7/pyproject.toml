@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask_firebase"
+version = "1.7"
+authors = [
+  { name="Mark Hughes", email="markh@markhughes.tech" },
+]
+description = "Google Firebase integration for flask. Forked from klokantech/flask-firebase"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/markphughes17/flask-firebase"
+Issues = "https://github.com/markphughes17/flask-firebase/issues"
