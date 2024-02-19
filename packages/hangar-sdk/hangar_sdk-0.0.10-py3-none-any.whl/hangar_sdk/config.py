@@ -1,0 +1,5 @@
+
+
+
+class Config:
+    mode = "create"
