@@ -1,0 +1,10 @@
+setup.py
+msds_distributions/Binomialdistribution.py
+msds_distributions/Gaussiandistribution.py
+msds_distributions/Generaldistribution.py
+msds_distributions/__init__.py
+msds_distributions.egg-info/PKG-INFO
+msds_distributions.egg-info/SOURCES.txt
+msds_distributions.egg-info/dependency_links.txt
+msds_distributions.egg-info/not-zip-safe
+msds_distributions.egg-info/top_level.txt
