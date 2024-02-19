@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+TextQuoter/__init__.py
+TextQuoter/quotetext.py
+TextQuoter.egg-info/PKG-INFO
+TextQuoter.egg-info/SOURCES.txt
+TextQuoter.egg-info/dependency_links.txt
+TextQuoter.egg-info/top_level.txt
