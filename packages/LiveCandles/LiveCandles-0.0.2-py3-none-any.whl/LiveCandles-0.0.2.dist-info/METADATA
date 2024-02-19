@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: LiveCandles
+Version: 0.0.2
+Summary: API for getting live OHLC candle-stick data of Indian Stocks for free
+Home-page: https://github.com/ronitmagar/tradinBot/blob/main/liveOHLCFeed.py
+Author: Ronit Magar
+Keywords: OHLC feed,stock,candle stick,stock market
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+API for live OHLC feed
+
+[![PyPI version](https://badge.fury.io/py/your-project-name.svg)](https://badge.fury.io/py/your-project-name)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Installation
+
+You can install project using pip:
+
+```python
+pip install LiveCandles
+```
+
+## Description
+
+Use this API for getting live OHLC candle-stick for free, it will relay the data of time intervals from 5 to 59 minutes starting from the next mutiple for 5 minute. 
+
+It has two modes for getting data as shown below:
+
+1. It simply web scraps the google finance webpage to get live current price and converts in to OHLC candle. Code for it is
+
+```python
+data  = LiveCandles.ohlcStream('5minutes',indexCode = "NIFTY_50")
+
+while True:
+    price = data.stream()
+    #use price as per your need
+    print(price)
+```
+
+2. It will use multiprocessing to set open, high, low, close values simultaneously  
+
+```python
+from LiveCandles import ohlcStream
+
+if __name__ == '__main__':    
+    data = ohlcStream("5minutes", indexCode = "NIFTY_50")
+
+    while True:
+        price = (data.streamMP())
+        #use price as per your need
+        print(price)
+```
+
+## Arguments: 
+1. First argument is interval should be specified as '5minutes' number can be anything from 5 to 59
+
+2. indexCode(optional) to be specified to get index candle as per google finance code
+
+3. stockCode(optional) to be specified to get stock candle as per google finance code
+
+## DISCLAIMER
+
+Data generated is not very accurate, due to netwrok latency, call restriction. Avoid using for taking order placing decsions on it's basis. One can override getCurrentPrice() method for more reliable price fetching.
+
+
