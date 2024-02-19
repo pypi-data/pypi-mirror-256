@@ -1,0 +1,35 @@
+[project]
+name = "launchflow"
+version = "0.3.0.dev1"
+description = ""
+authors = [{ name = "CalebTVanDyke", email = "caleb@launchflow.com" }]
+readme = "README.md"
+license = { file = "LICENSE" } # Add this if you have a license file
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "beaupy",
+    "rich",
+    "toml",
+    "pyyaml",
+    "pathspec",
+    "pydantic",
+    "deepdiff",
+    "typer",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+gcp = ["cloud-sql-python-connector", "google-cloud-storage"]
+dev = ["pytest>=7.4.4", "sqlalchemy[asyncio]>=2.0.27"]
+
+[project.scripts]
+launchflow = "launchflow.cli.main:app"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
