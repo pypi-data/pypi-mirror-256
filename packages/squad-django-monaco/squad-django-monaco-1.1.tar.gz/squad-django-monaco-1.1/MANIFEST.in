@@ -1,0 +1,4 @@
+include monaco/*.py
+include monaco/static/*
+include monaco/static/*/*
+include monaco/static/*/*/*
