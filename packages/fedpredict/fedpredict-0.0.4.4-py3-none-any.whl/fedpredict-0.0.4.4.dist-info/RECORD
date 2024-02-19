@@ -1,0 +1,15 @@
+fedpredict/__init__.py,sha256=BP9aX3tdxVpcxPS7FvFfY_CcbZYihCN681RfAQlyQ8Y,285
+fedpredict/fedpredict.py,sha256=kTPd1BvO-G_jc1m2KlnAn6Q30oxywfwAWoqELOSVzeU,41973
+fedpredict/test_fedpredict.py,sha256=6Ul84B98a3tN9NIKlCmgw-TVsfYUGnryckGnD9KO6wo,112
+fedpredict/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fedpredict/utils/utils.py,sha256=8istMd31za8ZMvyPUeuSZGdBZ-4WeYMuNN6jPysdip4,34698
+fedpredict/utils/compression_methods/__init__.py,sha256=Y_cDU3BCQxxmkpVxshZecYyGZfSx_TmD5FdaZfcqOnc,490
+fedpredict/utils/compression_methods/fedkd.py,sha256=DmbclzTRXGVXZbW6GG2zOhay_yV7d6t1FLYqAMf8XMg,3246
+fedpredict/utils/compression_methods/fedpsarsification.py,sha256=lDnSDDUV8ZaQaDRFiLOoY82yGf2G8EZ5Iu5xsT7Pxw4,599
+fedpredict/utils/compression_methods/parameters_svd.py,sha256=c4T7V3UCb4nYE5QldTaG_7UK2cHHgxzlKYEExv_iakE,6369
+fedpredict/utils/compression_methods/quantization.py,sha256=631WLKdi3nvAHt6CsxN877H9diFlWKwJp9mTgLOpJik,6088
+fedpredict/utils/compression_methods/sparsification.py,sha256=wxxz5bAjQsQGajFc9EtDOxBed0R9aTNaXYGu13ugL4w,15775
+fedpredict-0.0.4.4.dist-info/METADATA,sha256=RwmWbKO_KMZsb9uNLrl6hZUOLTAjvWYqYHapMIi_xUE,296
+fedpredict-0.0.4.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fedpredict-0.0.4.4.dist-info/top_level.txt,sha256=6D4LCjGmYeASRdZh9c8cHRM1H3y_dODoGcF1Ln-d3sI,11
+fedpredict-0.0.4.4.dist-info/RECORD,,
