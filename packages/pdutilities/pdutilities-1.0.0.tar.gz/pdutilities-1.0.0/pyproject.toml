@@ -1,0 +1,9 @@
+[project]
+name = "pdutilities"
+authors = [
+    {name = "techds", email = "chet_singh@berkeley.edu"},
+]
+version = "1.0.0"
+description = "Coming soon"
+[tools.setuptools]
+packages = ["src"]
