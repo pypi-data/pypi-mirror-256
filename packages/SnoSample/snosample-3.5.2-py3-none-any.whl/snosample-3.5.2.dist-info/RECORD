@@ -1,0 +1,8 @@
+snosample/__init__.py,sha256=TigcVnXSg75lt6MywNzftpX1dp0wBh0IxdLPcmtybmw,1221
+snosample/assertions.py,sha256=Ds2Or3Z8YHW-pfHVqueuotoKO9v8aGRbwdG6IbOgnoU,6314
+snosample/logging.py,sha256=T9_kyyvabXO0l8lvJn_rHK56DgylLLQ43mxngojwJeU,4961
+snosample/multi.py,sha256=bT8vUsF43V1CQVy5v5hxWYWT3xZIQoqLdf1B0Klwftk,5227
+snosample/testing.py,sha256=9aZPNlCD0Wu4L1Xs7zfcKYhvfdfQLLat1d-xWBdXGok,6441
+snosample-3.5.2.dist-info/METADATA,sha256=PcNpQX8jAhNacUOI8sDv7u0TvIydeAFBuaGvk2Arb4A,13785
+snosample-3.5.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+snosample-3.5.2.dist-info/RECORD,,
