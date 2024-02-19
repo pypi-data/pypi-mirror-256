@@ -1,0 +1,10 @@
+aiodeepl/__init__.py,sha256=qIInEXS9QZRoUe7VzqFIR3AdtT4WPhEYNuyK_dOJcdw,119
+aiodeepl/__main__.py,sha256=BgmKJxLm3LDidzkJELONRGLwCArnUUzU42lrXxLtZH8,4665
+aiodeepl/api.py,sha256=uNTEs3gqaAp2TOH7FPjvH25t_i0_pEudGpiPptqlTZA,18384
+aiodeepl/cli.py,sha256=YRrtGYCenfA15lTK4SHWsQf8-ARtRGc3X7G15mgjN_w,47
+aiodeepl/exc.py,sha256=an3QE1N8ZN5oNn3HAugk0NG1JHJr1j07r9A3gcgQDS8,426
+aiodeepl-0.1.2.dist-info/LICENSE,sha256=-JoQY3e1FD1pJ78H_5cK2bYq6PqxfrwvLPzCBHyw4Nw,1061
+aiodeepl-0.1.2.dist-info/METADATA,sha256=E60Q0c4Hh9E9RFkmK0SBDTrgLQCSxxGCGJu0XTLScjU,1882
+aiodeepl-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aiodeepl-0.1.2.dist-info/entry_points.txt,sha256=Aykcaw-VD5D36WBCy07rNlsyc58XkHjfPCbWoWfhJ50,45
+aiodeepl-0.1.2.dist-info/RECORD,,
