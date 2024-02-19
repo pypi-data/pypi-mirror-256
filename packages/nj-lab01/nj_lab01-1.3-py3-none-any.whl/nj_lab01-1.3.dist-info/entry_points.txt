@@ -1,0 +1,2 @@
+[console_scripts]
+nj-lab01 = nj_lab01:say_hello_class
