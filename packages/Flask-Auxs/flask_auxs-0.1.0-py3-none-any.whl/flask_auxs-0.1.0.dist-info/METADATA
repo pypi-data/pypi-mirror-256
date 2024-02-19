@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: Flask-Auxs
+Version: 0.1.0
+Summary: Flask extension for providing auxiliary components to be used by different projects
+Author: Rafal Padkowski
+Author-email: rafaelp@poczta.onet.pl
+Requires-Python: >=3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: flask (>=3.0.0)
+Description-Content-Type: text/markdown
+
+# Flask-Auxs
+
+Flask extension for providing auxiliary components to be used by different projects.
+
+
+## Installation
+
+```bash
+$ pip install Flask-Auxs
+```
+
+## Usage
+
+First create the `auxs` object:
+
+```python
+from flask_auxs import Auxs
+auxs = Auxs()
+```
+
+Then initialize it using init_app method:
+
+```python
+auxs.init_app(app)  # app is your Flask app instance
+```
+
+## Content
+
+Components automatically installed:
+- context processor for injecting redir_path to templates
+- dtformat jinja filter for date and time formatting
+
+Components to be directly imported on demand:
+- error handler error_obj_not_found
+- exceptions: NotAllowed, PermissionDenied for crud validation
+- url helpers: get_cancel, get_next, valid_url
+
+
+## License
+
+`Flask-Auxs` was created by Rafal Padkowski. It is licensed under the terms
+of the MIT license.
+
