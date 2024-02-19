@@ -1,0 +1,9 @@
+onetable_py/__init__.py,sha256=bI8DAQNuShKvsl8dw2VKus54XVkPUJ8ebAv-Pwlswog,51
+onetable_py/__main__.py,sha256=BfvNOWBXV-ooxoZ6aD5AxKJfzcVWWKdbTsZmNKiaWCI,105
+onetable_py/airflow_plugin.py,sha256=RWsMnmQKJmCmIdUyRNs82Uv8BlW2ihHZzH8eftVzZ70,3092
+onetable_py/cli.py,sha256=x39dmSZnWuxgOI-sQDoj8ICT6qWTDHd09n6XoavI_lk,2528
+onetable_py-0.0.18.dist-info/entry_points.txt,sha256=ujfu_4D92LDv5xH6zU1HjBLxqunHPbm1DkdiVqJATRI,136
+onetable_py-0.0.18.dist-info/LICENSE,sha256=SYQmtgeSiW74Jbe2n-b7BLv3VL4aurPwZkxpabxlib0,1063
+onetable_py-0.0.18.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+onetable_py-0.0.18.dist-info/METADATA,sha256=-n-_BhUCcFBDkmMkaNdCNKUG3cp9832iytGzzalThPc,2015
+onetable_py-0.0.18.dist-info/RECORD,,
