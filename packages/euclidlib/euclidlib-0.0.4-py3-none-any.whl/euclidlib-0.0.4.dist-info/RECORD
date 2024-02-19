@@ -1,0 +1,10 @@
+euclidlib/__init__.py,sha256=oh7h6BPQIsTg5q9v5_y7D6i4VpWzVTxSr53dFg_Nu1Y,320
+euclidlib/_version.py,sha256=yBVOKdXLEcTVc7YV7ZPqRXhRDRt-pKrfXxcgHkgPY5g,411
+euclidlib/photo/__init__.py,sha256=yAz-89GUoNN22VYlaFegCTIMDRSDEyLL7p2pcT7I03A,224
+euclidlib/photo/_le3_pk_wl.py,sha256=EzqCn2lsf7uOt45iekcr31HoQ4-h4n2cQ-5KTwW8N4Q,3608
+euclidlib/photo/_phz.py,sha256=GFoMhyu3KTVEh3fVSXjGoO1-JZs5TczCH01luqUqB-s,1505
+euclidlib/spectro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+euclidlib-0.0.4.dist-info/METADATA,sha256=JCf1-FcufqhvIrBoBSrYlcUj8e1D2GeFQ2c3iRfAzbs,876
+euclidlib-0.0.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+euclidlib-0.0.4.dist-info/licenses/LICENSE,sha256=9DpbWNpG1XfnZoggdMUvZKfokodQwDqJ529w9qKRhtw,1086
+euclidlib-0.0.4.dist-info/RECORD,,
