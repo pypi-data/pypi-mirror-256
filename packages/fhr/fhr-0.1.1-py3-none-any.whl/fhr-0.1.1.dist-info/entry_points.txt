@@ -1,0 +1,10 @@
+[console_scripts]
+fhr-convert=fhr_convert:main
+fhr-fasta-combine=fasta.fhr_fasta_combine:main
+fhr-fasta-strip=fasta.fhr_fasta_strip:main
+fhr-fasta-validate=fasta.fhr_fasta_validate:main
+fhr-gfa-combine=gfa.fhr_gfa_combine:main
+fhr-gfa-strip=gfa.fhr_gfa_strip:main
+fhr-gfa-validate=gfa.fhr_gfa_validate:main
+fhr-validate=fhr_validate:main
+
