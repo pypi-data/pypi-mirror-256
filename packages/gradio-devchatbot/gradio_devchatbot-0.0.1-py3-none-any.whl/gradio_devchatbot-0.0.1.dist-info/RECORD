@@ -1,0 +1,8 @@
+gradio_devchatbot/__init__.py,sha256=0MRQ-Xe8q7B0YEyWn7aGOxkOmHqY3baVI-7o-FmPyn8,62
+gradio_devchatbot/devchatbot.py,sha256=wpNL-uTcF-e3RKFgVNsT5Bi7RaLMgkt1BQ8TubzrVUM,12316
+gradio_devchatbot/devchatbot.pyi,sha256=Pi0dzmC5sjPYBKfVU0Go_2LEijgiHWShwCCTTpOZwBw,32773
+gradio_devchatbot/templates/component/index.js,sha256=TOhjdNaoDbcrw1xvmO2Q0qZl8HeFJKjFjkaJASTyOE4,751750
+gradio_devchatbot/templates/component/style.css,sha256=V8oaXy2U3x1JHbuSToV7WfOCjbvAvXGV-bL9HZ1FXlM,1483217
+gradio_devchatbot-0.0.1.dist-info/METADATA,sha256=NiYunvHaMqRnQkMO_2_44sEBmkPbnmjZqL4VCSKa5Ig,1249
+gradio_devchatbot-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+gradio_devchatbot-0.0.1.dist-info/RECORD,,
