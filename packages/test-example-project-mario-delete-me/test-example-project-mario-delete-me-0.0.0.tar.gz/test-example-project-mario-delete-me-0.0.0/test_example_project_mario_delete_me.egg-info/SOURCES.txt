@@ -1,0 +1,5 @@
+setup.py
+test_example_project_mario_delete_me.egg-info/PKG-INFO
+test_example_project_mario_delete_me.egg-info/SOURCES.txt
+test_example_project_mario_delete_me.egg-info/dependency_links.txt
+test_example_project_mario_delete_me.egg-info/top_level.txt
