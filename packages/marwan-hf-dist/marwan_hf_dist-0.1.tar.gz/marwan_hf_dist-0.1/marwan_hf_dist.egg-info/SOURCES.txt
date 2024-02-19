@@ -1,0 +1,10 @@
+setup.py
+marwan_hf_dist/Binomialdistribution.py
+marwan_hf_dist/Gaussiandistribution.py
+marwan_hf_dist/Generaldistribution.py
+marwan_hf_dist/__init__.py
+marwan_hf_dist.egg-info/PKG-INFO
+marwan_hf_dist.egg-info/SOURCES.txt
+marwan_hf_dist.egg-info/dependency_links.txt
+marwan_hf_dist.egg-info/not-zip-safe
+marwan_hf_dist.egg-info/top_level.txt
