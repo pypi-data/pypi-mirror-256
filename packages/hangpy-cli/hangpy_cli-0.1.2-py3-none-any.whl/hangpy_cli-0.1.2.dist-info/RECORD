@@ -1,0 +1,14 @@
+hangpy/__init__.py,sha256=kvrM9qQYoF_e1Pn-cHBFqPd62zbK4xlg4mCIFxSwnyA,51
+hangpy/ascii_status.py,sha256=nBQiftEMWKLbCK-vOudDIMKq9Bh_ZHnjQk8ObOqjQUc,10630
+hangpy/game.py,sha256=g4y-zWE5hyndL1S22pxgHxIwx6mNS2cFOHMTZg1U4Ak,7284
+hangpy/main.py,sha256=yJp8R2PUlht7Wgn4DZIaErPBSpnZWype3f4QXJVkNDE,658
+hangpy/translations.py,sha256=vW_tSgyfcEx1foJ6egk6b-nAP2I8wV86lIIQHDvZwcg,4234
+hangpy/utils.py,sha256=AaZS_X7HIJE-OGDnWpvyAe5NujNf1yj8QkvIjafb9Vw,1321
+hangpy/data/dics/en.txt,sha256=DuVjggAIykIuDiIpY7Tv4uxKy45xQwKf8Injumlw5hM,6966
+hangpy/data/dics/es.txt,sha256=2wSJgLpjkXOuQrsZDYF8U3T2POJ1xZhT68wKd-EKAOk,63237
+hangpy_cli-0.1.2.dist-info/LICENSE,sha256=G1ORF4M3gA1Idx7kLSjF6gIP3P150sp3P40GdLEz3Wg,1071
+hangpy_cli-0.1.2.dist-info/METADATA,sha256=tTY4eeAAc76WKuzwQLH_8azjsuKi45dC_-kXR3ys6ao,1479
+hangpy_cli-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hangpy_cli-0.1.2.dist-info/entry_points.txt,sha256=Ri80MgiTHX2LR8AbPXqjuh5Z8_Ux-hpwE_3Np5T9_Ts,38
+hangpy_cli-0.1.2.dist-info/top_level.txt,sha256=GXlSnCY2fEPy1hVaLxN-f0ttASMAvVvwaxfQd5NuX1s,7
+hangpy_cli-0.1.2.dist-info/RECORD,,
