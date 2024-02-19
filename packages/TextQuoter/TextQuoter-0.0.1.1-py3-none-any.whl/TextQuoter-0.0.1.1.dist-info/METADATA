@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: TextQuoter
+Version: 0.0.1.1
+Summary: TextQuoter is a versatile Python script designed to simplify the processing of quotation marks in a given string.
+Home-page: https://github.com/gr1336/TextQuoter/
+Author: gr1336
+License: MIT License
+Classifier: Topic :: Text Editors
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Editors :: Word Processors
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TextQuoter
+
+TextQuoter is a versatile Python script designed to simplify the processing of quotation marks in a given string.
+
+## Features
+
+- **Removal of Unpaired Quotes:** TextQuoter ensures clean text by eliminating unpaired quotes.
+  
+- **Quotation Style:** Choose between the standard `“` and `”` or opt for a simplified style that uses `"`.
+
+- **User-friendly Design:** TextQuoter features the `requoter` function, making it straightforward and easy to use for handling quotes with minimal effort.
+
+## Installation
+
+To use ``TextQuoter`` into your project, you need just to install it directly using ``pip install TextQuoter``.
+
+## Usage Example
+```python
+from TextQuoter import requoter
+
+# Sample text with mixed quotation styles
+example = """Climbing the treacherous mountain, the group encountered a wise oracle. ”To reach the peak, you must answer my riddles," she proclaimed.
+The bard grinned, ”"Riddles, you say? I've been waiting for this!\"."""
+
+# Using default style
+fixed_quotes_normal = requoter(input_text=example)
+
+# Using simple style
+fixed_quotes_simple = requoter(input_text=example, use_simple=True)
+```
+- In this example, the `requoter` function is applied to the sample text, demonstrating both the default and simple quoting styles.
+
+#### Here is the what can be expected from the output:
+- `fixed_quotes_normal`:
+```
+Climbing the treacherous mountain, the group encountered a wise oracle. “To reach the peak, you must answer my riddles,” she proclaimed.
+The bard grinned, “Riddles, you say? I've been waiting for this!”.
+```
+- `fixed_quotes_simple`:
+```
+Climbing the treacherous mountain, the group encountered a wise oracle. "To reach the peak, you must answer my riddles," she proclaimed.
+The bard grinned, "Riddles, you say? I've been waiting for this!".
+```
