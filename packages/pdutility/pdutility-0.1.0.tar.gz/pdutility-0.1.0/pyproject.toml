@@ -1,0 +1,17 @@
+[project]
+name = "pdutility"
+authors = [
+    {name = "techds", email = "chet_singh@berkeley.edu"},
+]
+version = "0.1.0"
+description = "Pandas dataframe processing utility - major release coming soon"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/techds/pdutils" 
+[tools.setuptools]
+packages = ["pdutils"]
