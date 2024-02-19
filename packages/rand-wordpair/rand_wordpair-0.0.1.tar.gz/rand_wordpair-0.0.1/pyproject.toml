@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rand_wordpair"
+version = "0.0.1"
+authors = [
+    {name = "Dan Roche", email = "roche@usna.edu"}
+]
+description = "Python module to generate a random pair of English words"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nltk",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dsroche/rand_wordpair"

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+rand_wordpair/__init__.py
+rand_wordpair/__main__.py
+rand_wordpair/gen.py
+rand_wordpair.egg-info/PKG-INFO
+rand_wordpair.egg-info/SOURCES.txt
+rand_wordpair.egg-info/dependency_links.txt
+rand_wordpair.egg-info/requires.txt
+rand_wordpair.egg-info/top_level.txt
