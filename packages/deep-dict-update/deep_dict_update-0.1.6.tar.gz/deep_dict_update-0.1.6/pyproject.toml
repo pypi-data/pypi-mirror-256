@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-dict-update"
+version = "0.1.6"
+description = "Recursively update nested dictionaries with another dictionary"
+authors = ["Shivam Malpani"]
+license = "MIT"
+homepage = "https://shivam0110.github.io/deep-dict-update/"
+readme = "README.md"
+packages = [{include = "deep_dict_update"}]
+repository = "https://github.com/shivam0110/deep-dict-update"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
