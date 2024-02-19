@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "Flask-Auxs"
+version = "0.1.0"
+description = "Flask extension for providing auxiliary components to be used by different projects"
+authors = ["Rafal Padkowski <rafaelp@poczta.onet.pl>"]
+readme = "README.md"
+packages = [{ include = "flask_auxs", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+flask = ">=3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
