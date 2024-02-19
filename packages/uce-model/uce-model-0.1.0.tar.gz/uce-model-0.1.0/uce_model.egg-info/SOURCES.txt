@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+uce_model.egg-info/PKG-INFO
+uce_model.egg-info/SOURCES.txt
+uce_model.egg-info/dependency_links.txt
+uce_model.egg-info/entry_points.txt
+uce_model.egg-info/requires.txt
+uce_model.egg-info/top_level.txt
