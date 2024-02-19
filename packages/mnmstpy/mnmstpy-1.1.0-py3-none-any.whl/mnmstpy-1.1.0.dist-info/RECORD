@@ -1,0 +1,10 @@
+mnmstpy/MNMST_CPU.py,sha256=wY1fVccKGHGRN73rDLQSabIjsudkZvA5aBdeJQjfeo0,4901
+mnmstpy/MNMST_GPU.py,sha256=s8mnfhhAFd0t0oLxTQ4vDu3E8gFe0pwKfwoZ8PpaUMU,7634
+mnmstpy/__init__.py,sha256=hqARGMsXlVK4Bym7ettULK-uyAzFxTa07slu09ZpnOg,125
+mnmstpy/network.py,sha256=hTTxnmy7XDuA4YIQMsyAor_LmjzXXKdb_RvGoxHkSQ0,2594
+mnmstpy/utils.py,sha256=bLbO8BmwpX6y40ZAQGAZ7jT9QMHj-Ux5OoPxGjem_PE,13140
+mnmstpy-1.1.0.dist-info/LICENSE,sha256=a7nEyjMyXZ5DrYbF6GPNreidze_d0Ivu7NquHeOJJSE,1066
+mnmstpy-1.1.0.dist-info/METADATA,sha256=aLZjYVwxWfYjmGKqCgUlN-7AWfjqio5dYkyvnYQtw28,8842
+mnmstpy-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mnmstpy-1.1.0.dist-info/top_level.txt,sha256=cicnt6D6vn3fk4-9YrLcRn17lH3DOgxReYCvykt8VdI,8
+mnmstpy-1.1.0.dist-info/RECORD,,
