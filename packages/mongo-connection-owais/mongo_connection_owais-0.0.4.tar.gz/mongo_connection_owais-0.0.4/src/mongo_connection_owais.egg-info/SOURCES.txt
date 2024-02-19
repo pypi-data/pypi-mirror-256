@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mongo_connection_owais/__init__.py
+src/mongo_connection_owais/mongo_crud.py
+src/mongo_connection_owais.egg-info/PKG-INFO
+src/mongo_connection_owais.egg-info/SOURCES.txt
+src/mongo_connection_owais.egg-info/dependency_links.txt
+src/mongo_connection_owais.egg-info/requires.txt
+src/mongo_connection_owais.egg-info/top_level.txt
